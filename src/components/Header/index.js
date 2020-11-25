@@ -5,9 +5,10 @@ import './styles.scss';
 const Header = () => {
 
     return (
-        <div className="Header">
+        <>
             <Navbar />
-        </div>
+            <div className="Header"></div>
+        </>
     )
 }
 

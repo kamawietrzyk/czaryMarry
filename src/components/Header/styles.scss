@@ -5,11 +5,16 @@
     background-size: cover;
     object-fit: cover;
     width: 100%;
-    height: 15rem;
-    margin-bottom: 7rem;
+    height: 29rem;
+    margin-bottom: .5rem;
+    margin-top: 4.5rem;
 
     @media (min-width: $mobileHorizontal) {
         height: 32rem;
+    }
+    @media (min-width: $tablet) {
+        margin-bottom: 7rem;
+        margin-top: 0;
     }
     @media (min-width: $desktop) {
         height: 48rem;

@@ -2,47 +2,184 @@
 @import '../../utils/media.scss';
 
 .Home {
-    position: relative;
     width: 100%;
+    position: relative;
+
+    &-topArrow {
+        position: fixed;
+        bottom: 5%;
+        right: 2%;
+
+        img {
+            transform: rotate(180deg);
+            width: 6rem;
+            height: 6rem;
+            opacity: .75;
+        }
+    }
 
     &-helloBox {
-        position: absolute;
-        top: -6%;
-        left: 19%;
+        text-align: center;
+        height: 7rem;
+
+        @media (min-width: $desktop) {
+            position: absolute;
+            top: -2%;
+            left: 19%;
+        }
 
         & .hello {
-            font-size: 176px;
+            font-size: 86px;
             font-weight: 700;
             color: $darkGrey;
             text-decoration: none;
             cursor: pointer;
+
+            @media (min-width: $desktop) {
+                font-size: 176px;
+            }
         }
     }
 
     &-topContainer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, auto);
+        grid-template-areas:
+            "pic"
+            "text";
+        grid-row-gap: 1rem;
+        width: 88%;
+        margin-left: auto;
+        margin-right: auto;
 
         &_text {
             text-align: right;
-            padding-right: 1.6rem;
-            padding-left: 2rem;
-            width: 28rem;
+            grid-area: text;
 
             & h1 {
-                font-size: 25px;
+                font-size: 23px;
             }
 
             & p {
                 line-height: 1.4em;
-                font-size: 20px;
+                font-size: 18px;
                 letter-spacing: 0.05em;
+            }
+
+            @media (min-width: $desktop) {
+                padding-right: 1.6rem;
+                padding-left: 2rem;
+                width: 28rem;
             }
         }
 
-        &_pic img {
-            border-radius: 5px;
+        &_pic {
+            grid-area: pic;
+
+            img {
+                border-radius: 5px;
+                width: 100%;
+            }
+        }
+
+        @media (min-width: $tablet) {
+            width: 100%;
+        }
+        @media (min-width: $desktop) {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    & h2 {
+        font-size: 55px;
+        margin-top: 7rem;
+        margin-left: 3rem;
+        margin-bottom: 3rem;
+        color: $darkGrey;
+
+        &.wide {
+            line-height: 1em;
+            letter-spacing: 0.05em;
+        }
+    }
+
+    &-arrows {
+        width: 100%;
+        margin-bottom: 6rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        grid-row-gap: 4rem;
+        grid-template-areas:
+            "picOne textOne"
+            "textTwo picTwo"
+            "picThree textThree"
+            "textFour picFour";
+
+        &_picOne {
+            grid-area: picOne;
+        }
+
+        &_picTwo {
+            grid-area: picTwo;
+        }
+
+        &_picThree {
+            grid-area: picThree;
+        }
+
+        &_picFour {
+            grid-area: picFour;
+        }
+
+        & img {
+            width: 31rem;
+        }
+
+        &_textOne,
+        &_textTwo,
+        &_textThree,
+        &_textFour {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            &.right {
+                padding-left: 4rem;
+                padding-right: 5rem;
+            }
+
+            &.left {
+                padding-left: 5rem;
+                padding-right: 4rem;
+                text-align: right;
+            }
+        }
+
+        &_textOne {
+            grid-area: textOne;
+        }
+
+        &_textTwo {
+            grid-area: textTwo;
+        }
+
+        &_textThree {
+            grid-area: textThree;
+        }
+
+        &_textFour {
+            grid-area: textFour;
+        }
+
+        & p {
+            line-height: 1.4em;
+            font-size: 20px;
+            letter-spacing: 0.05em;
+            margin-bottom: 0;
         }
     }
 

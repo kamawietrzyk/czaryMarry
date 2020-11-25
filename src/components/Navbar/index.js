@@ -12,20 +12,48 @@ const tabs = [
     { name: 'blog', label: 'Blog', url: URLS.BLOG },
     { name: 'kontakt', label: 'Kontakt', url: URLS.HOME } // tutaj dopisać automatyczny scroll do kontaktu na dole strony
 ]
-const Navbar = ({ location }) => (
-    <div className="Navbar">
-        <nav className="nav">
-            {tabs.map(({ name, label, url }) => (
-                <Link
-                    key={name}
-                    to={url}
-                    role="tab"
-                    className={`nav-item nav-link ${url === location.pathname && 'active'}`}>
-                    {label}
-                </Link>
-            ))}
-        </nav>
-    </div>
-)
+const Navbar = ({ location }) => {
+    return (
+        <div className="Navbar" id="home">
+            <div className="Navbar-navigation">
+                <div className="Navbar-navigation_box">
+                    <nav className="navbar navbar-expand-md">
+                        <div className="bg-div">
+                            <button className="navbar-toggler p-1" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span className="navbar-toggler-icon dark-icon"></span>
+                            </button>
+                        </div>
+                        <div className="collapse navbar-collapse" id="navbarNav">
+                            <div className="navbar-nav">
+                                {tabs.map(({ name, label, url }) => (
+                                    <Link
+                                        key={name}
+                                        to={url}
+                                        role="tab"
+                                        className={`nav-item nav-link ${url === location.pathname && 'active'}`}>
+                                        {label}
+                                    </Link>
+                                ))}
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            {/* { mobile &&
+                <div className="mobile">
+                    {tabs.map(({ name, label, url }) => (
+                        <Link
+                            key={name}
+                            to={url}
+                            role="tab"
+                            className={`nav-item nav-link ${url === location.pathname && 'active'}`}>
+                            {label}
+                        </Link>
+                    ))}
+                </div>
+            } */}
+        </div>
+    )
+}
 
 export default withRouter(Navbar)
