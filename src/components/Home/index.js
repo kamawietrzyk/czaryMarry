@@ -38,7 +38,7 @@ class Home extends Component {
 
         return (
             <div className="Home">
-                <div className="Home-topArrow">
+                <div className="Home-topArrow" onClick={this.scrollTop}>
                     <img src="https://www.flaticon.com/svg/static/icons/svg/54/54744.svg" alt="arrow top round" />
                 </div>
                 <div className="Home-helloBox">
@@ -47,9 +47,9 @@ class Home extends Component {
                 <div className="Home-topContainer">
                     <div className="Home-topContainer_text">
                         <h1>
-                            W <b>Agencji Ślubnej Czary Marry</b> zmieniamy marzenia w rzeczywistość.
-                </h1>
-                        <div className="pl-4 mt-4">
+                            W <b>Agencji Ślubnej Czary Marry</b> <br /> zmieniamy marzenia w rzeczywistość.
+                        </h1>
+                        <div className="mt-4">
                             <p>Nie posługujemy się jednak czarodziejską różdżką ani nie prosimy o pomoc baśniowej wróżki. Korzystamy z doświadczenia i wiedzy, którą bezustannie pogłębiamy, pracując jako konsultantki ślubne oraz śledząc najnowsze trendy.</p>
                         </div>
                     </div>
@@ -60,18 +60,22 @@ class Home extends Component {
                 <h2>Poznajmy <b>się!</b></h2>
                 <div className="Home-arrows">
                     <div className="Home-arrows_picOne">
-                        <img src={picOne} alt="strzałka pierwsza" />
+                        <Link to={URLS.ABOUT}><img src={picOne} alt="strzałka pierwsza" /></Link>
                     </div>
                     <div className="Home-arrows_textOne right">
-                        <p>
-                            Zobacz zakładkę <b>o nas.</b> Chętnie opowiemy Ci, dlaczego uwielbiamy <b>organizację ślubów i wesel.</b>
-                        </p>
+                        <Link className="custom-link" to={URLS.ABOUT}>
+                            <p>Zobacz zakładkę <b>o nas.</b> Chętnie opowiemy Ci, dlaczego uwielbiamy <b>organizację ślubów i wesel.</b></p>
+                        </Link>
                     </div>
                     <div className="Home-arrows_picTwo">
-                        <img src={picTwo} alt="strzałka druga" />
+                        <Link to={URLS.WORK}>
+                            <img src={picTwo} alt="strzałka druga" />
+                        </Link>
                     </div>
                     <div className="Home-arrows_textTwo left">
-                        <p>Zobacz <b>jakie wartości</b> cenimy w pracy wedding plannera oraz jaki mamy styl pracy.</p>
+                        <Link className="custom-link" to={URLS.WORK}>
+                            <p>Zobacz <b>jakie wartości</b> cenimy w pracy wedding plannera oraz jaki mamy styl pracy.</p>
+                        </Link>
                     </div>
                     <div className="Home-arrows_picThree">
                         <img src={picThree} alt="strzałka trzecia" />

@@ -7,14 +7,25 @@
 
     &-topArrow {
         position: fixed;
-        bottom: 5%;
-        right: 2%;
+        bottom: 10%;
+        right: 5%;
 
         img {
             transform: rotate(180deg);
-            width: 6rem;
-            height: 6rem;
+            width: 3rem;
+            height: 3rem;
             opacity: .75;
+            cursor: pointer;
+
+            @media (min-width: $tabletHorizontal) {
+                width: 6rem;
+                height: 6rem;
+            }
+        }
+
+        @media (min-width: $tabletHorizontal) {
+            bottom: 5%;
+            right: 2%;
         }
     }
 
@@ -58,12 +69,12 @@
             grid-area: text;
 
             & h1 {
-                font-size: 23px;
+                font-size: 25px;
             }
 
             & p {
                 line-height: 1.4em;
-                font-size: 18px;
+                font-size: 20px;
                 letter-spacing: 0.05em;
             }
 
@@ -83,10 +94,8 @@
             }
         }
 
-        @media (min-width: $tablet) {
-            width: 100%;
-        }
         @media (min-width: $desktop) {
+            width: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -94,13 +103,19 @@
     }
 
     & h2 {
-        font-size: 55px;
-        margin-top: 7rem;
-        margin-left: 3rem;
-        margin-bottom: 3rem;
-        color: $darkGrey;
+        display: none;
+
+        @media (min-width: $tablet) {
+            display: block;
+            font-size: 55px;
+            margin-top: 7rem;
+            margin-left: 3rem;
+            margin-bottom: 3rem;
+            color: $darkGrey;
+        }
 
         &.wide {
+            display: block;
             line-height: 1em;
             letter-spacing: 0.05em;
         }
@@ -108,16 +123,21 @@
 
     &-arrows {
         width: 100%;
+        margin-top: 2.5rem;
         margin-bottom: 6rem;
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8, auto);
         grid-row-gap: 4rem;
         grid-template-areas:
-            "picOne textOne"
-            "textTwo picTwo"
-            "picThree textThree"
-            "textFour picFour";
+            "picOne"
+            "textOne"
+            "picTwo"
+            "textTwo"
+            "picThree"
+            "textThree"
+            "picFour"
+            "textFour";
 
         &_picOne {
             grid-area: picOne;
@@ -136,7 +156,7 @@
         }
 
         & img {
-            width: 31rem;
+            width: 100%;
         }
 
         &_textOne,
@@ -147,15 +167,24 @@
             align-items: center;
             justify-content: center;
 
-            &.right {
-                padding-left: 4rem;
-                padding-right: 5rem;
+            &.right,
+            &.left {
+                padding-left: 1.5rem;
+                padding-right: 1rem;
             }
 
-            &.left {
-                padding-left: 5rem;
-                padding-right: 4rem;
-                text-align: right;
+            @media (min-width: $tabletHorizontal) {
+
+                &.right {
+                    padding-left: 4rem;
+                    padding-right: 5rem;
+                }
+
+                &.left {
+                    padding-left: 5rem;
+                    padding-right: 4rem;
+                    text-align: right;
+                }
             }
         }
 
@@ -178,8 +207,22 @@
         & p {
             line-height: 1.4em;
             font-size: 20px;
-            letter-spacing: 0.05em;
             margin-bottom: 0;
+            letter-spacing: 0.05em;
+        }
+
+        .custom-link {
+            text-decoration: none;
+        }
+
+        @media (min-width: $tablet) {
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: auto;
+            grid-template-areas:
+                "picOne textOne"
+                "textTwo picTwo"
+                "picThree textThree"
+                "textFour picFour";
         }
     }
 
