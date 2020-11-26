@@ -36,6 +36,12 @@ class Home extends Component {
 
     render() {
 
+        const instaPics = [
+            { src: "https://static.wixstatic.com/media/ffe458_14fe1ebc1cd349bb9d47772cbdcf4ff9~mv2.jpg/v1/fill/w_237,h_336,al_c,q_80,usm_0.66_1.00_0.01/ffe458_14fe1ebc1cd349bb9d47772cbdcf4ff9~mv2.webp", alt: "Food truck wedding Czary Marry" },
+            { src: "https://static.wixstatic.com/media/ffe458_f401abf7e4e34482bcef5c18b59a93c6~mv2.jpg/v1/fill/w_237,h_336,al_c,q_80,usm_0.66_1.00_0.01/ffe458_f401abf7e4e34482bcef5c18b59a93c6~mv2.webp%22%20data-has-ssr-src=%22%22%3E%3Cimg%20alt=%22sesja-slubna%22%20src=%22https://static.wixstatic.com/media/ffe458_f401abf7e4e34482bcef5c18b59a93c6~mv2.jpg/v1/fill/w_237,h_336,al_c,q_80,usm_0.66_1.00_0.01/ffe458_f401abf7e4e34482bcef5c18b59a93c6~mv2.webp", alt: "Wedding Czary Marry" },
+            { src: "https://static.wixstatic.com/media/ffe458_218da41d180a4769abeb8d5e9246af68~mv2.jpg/v1/fill/w_237,h_336,al_c,q_80,usm_0.66_1.00_0.01/ffe458_218da41d180a4769abeb8d5e9246af68~mv2.webp", alt: "Ola i Kasia Agencja Ślubna Czary Marry" }
+        ]
+
         return (
             <div className="Home">
                 <div className="Home-topArrow" onClick={this.scrollTop}>
@@ -92,9 +98,30 @@ class Home extends Component {
                         </p>
                     </div>
                 </div>
-                <h2 className="text-right wide">
-                    Agencja Ślubna <br /> Czary Marry <br />spełnia <b>marzenia</b>
-                </h2>
+                <div className="Home-bottomContainer">
+                    <h2 className="text-right wide">
+                        Agencja Ślubna <br /> Czary Marry <br />spełnia <b>marzenia</b>
+                    </h2>
+                    <div className="Home-bottomContainer_instaPics">
+                        {instaPics.map(({ src, alt }) => (
+                            <a href="https://www.instagram.com/wedding_czarymarry/" target="_blank" rel="noopener noreferrer">
+                                <div className="box">
+                                    <img src={src} alt={alt} />
+                                    <div className="overlay"></div>
+                                </div>
+                            </a>
+                        ))}
+                    </div>
+                    <p>
+                        <b>Czary Marry to coś więcej niż agencja ślubna.</b> To dwie doświadczone wedding plannerki, które zaopiekują się Wami zarówno podczas przygotowań jak i w dniu ślubu. Sprawimy, że czas przygotowań będzie przyjemny, a wesele stanie się ukoronowaniem naszej dotychczasowej współpracy.
+                    </p>
+                    <div style={{ color: "pink", fontSize: "28px", margin: "2rem" }}>
+                        tutaj będzie karuzela
+                    </div>
+                    <p>
+                    Podobają Wam nasz styl pracy oraz jej efekty? Chcielibyście się dowiedzieć w jakich aspektach organizacji wesela możemy Wam pomóc? <b>Zerknijcie tutaj.</b>
+                    </p>
+                </div>
             </div>
         )
     }
