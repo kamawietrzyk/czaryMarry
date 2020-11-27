@@ -9,6 +9,7 @@
         position: fixed;
         bottom: 10%;
         right: 5%;
+        z-index: 100;
 
         img {
             transform: rotate(180deg);
@@ -33,10 +34,14 @@
         text-align: center;
         height: 7rem;
 
-        @media (min-width: $desktop) {
+        @media (min-width: $laptop) {
             position: absolute;
-            top: -2%;
+            top: -3.5%;
             left: 19%;
+        }
+
+        @media (min-width: $desktop) {
+            top: -1.5%;
         }
 
         & .hello {
@@ -45,6 +50,10 @@
             color: $darkGrey;
             text-decoration: none;
             cursor: pointer;
+
+            @media (min-width: $laptop) {
+                font-size: 130px;
+            }
 
             @media (min-width: $desktop) {
                 font-size: 176px;
@@ -78,10 +87,16 @@
                 letter-spacing: 0.05em;
             }
 
-            @media (min-width: $desktop) {
+            @media (min-width: $laptop) {
                 padding-right: 1.6rem;
                 padding-left: 2rem;
                 width: 28rem;
+                padding-top: 4rem;
+            }
+
+            @media (min-width: $desktop) {
+                width: 29rem;
+                padding-top: 0;
             }
         }
 
@@ -94,7 +109,7 @@
             }
         }
 
-        @media (min-width: $desktop) {
+        @media (min-width: $laptop) {
             width: 100%;
             display: flex;
             justify-content: center;
@@ -119,6 +134,10 @@
             line-height: 1em;
             letter-spacing: 0.05em;
             font-size: 27px;
+
+            @media (min-width: $tablet) {
+                font-size: 55px;
+            }
         }
     }
 
@@ -174,7 +193,7 @@
                 padding-right: 1rem;
             }
 
-            @media (min-width: $tabletHorizontal) {
+            @media (min-width: $desktop) {
 
                 &.right {
                     padding-left: 4rem;
@@ -264,7 +283,28 @@
                     width: 100%;
                     max-height: 11rem;
                     object-fit: cover;
+
+                    @media (min-width: $mobileM) {
+                        max-height: 15rem;
+                    }
+
+                    @media (min-width: $tablet) {
+                        max-height: 20rem;
+                    }
+
+                    @media (min-width: $laptop) {
+                        max-height: 22rem;
+                    }
                 }
+            }
+
+            @media (min-width: $tablet) {
+                grid-template-columns: repeat(3, 1fr);
+                margin-bottom: 5rem;
+            }
+
+            @media (min-width: $laptop) {
+                margin: 5rem 9vw 7rem 9vw;
             }
         }
 
@@ -273,10 +313,20 @@
             text-align: center;
             font-size: 18px;
             letter-spacing: 0.05em;
+
+            @media (min-width: $laptop) {
+                font-size: 20px;
+                padding-left: 10vw;
+                padding-right: 10vw;
+            }
+        }
+
+        @media (min-width: $laptop) {
+            width: 100%;
         }
     }
 
-    @media (min-width: $desktop) {
+    @media (min-width: $laptop) {
         padding: 0 15vw;
     }
 }

@@ -112,15 +112,11 @@ class Home extends Component {
                             </a>
                         ))}
                     </div>
-                    <p>
-                        <b>Czary Marry to coś więcej niż agencja ślubna.</b> To dwie doświadczone wedding plannerki, które zaopiekują się Wami zarówno podczas przygotowań jak i w dniu ślubu. Sprawimy, że czas przygotowań będzie przyjemny, a wesele stanie się ukoronowaniem naszej dotychczasowej współpracy.
-                    </p>
+                    <p><b>Czary Marry to coś więcej niż agencja ślubna.</b> To dwie doświadczone wedding plannerki, które zaopiekują się Wami zarówno podczas przygotowań jak i w dniu ślubu. Sprawimy, że czas przygotowań będzie przyjemny, a wesele stanie się ukoronowaniem naszej dotychczasowej współpracy.</p>
                     <div style={{ color: "pink", fontSize: "28px", margin: "2rem" }}>
                         tutaj będzie karuzela
                     </div>
-                    <p>
-                    Podobają Wam nasz styl pracy oraz jej efekty? Chcielibyście się dowiedzieć w jakich aspektach organizacji wesela możemy Wam pomóc? <b>Zerknijcie tutaj.</b>
-                    </p>
+                    <p>Podobają Wam nasz styl pracy oraz jej efekty? Chcielibyście się dowiedzieć w jakich aspektach organizacji wesela możemy Wam pomóc? <b>Zerknijcie tutaj.</b></p>
                 </div>
             </div>
         )
