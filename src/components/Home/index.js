@@ -6,6 +6,7 @@ import picOne from './one.png';
 import picTwo from './two.png';
 import picThree from './three.png';
 import picFour from './four.png';
+import Carousel from '../Carousel';
 class Home extends Component {
     state = {
         position: false
@@ -113,8 +114,8 @@ class Home extends Component {
                         ))}
                     </div>
                     <p><b>Czary Marry to coś więcej niż agencja ślubna.</b> To dwie doświadczone wedding plannerki, które zaopiekują się Wami zarówno podczas przygotowań jak i w dniu ślubu. Sprawimy, że czas przygotowań będzie przyjemny, a wesele stanie się ukoronowaniem naszej dotychczasowej współpracy.</p>
-                    <div style={{ color: "pink", fontSize: "28px", margin: "2rem" }}>
-                        tutaj będzie karuzela
+                    <div className="Home-bottomContainer_carousel">
+                        <Carousel />
                     </div>
                     <p>Podobają Wam nasz styl pracy oraz jej efekty? Chcielibyście się dowiedzieć w jakich aspektach organizacji wesela możemy Wam pomóc? <b>Zerknijcie tutaj.</b></p>
                 </div>

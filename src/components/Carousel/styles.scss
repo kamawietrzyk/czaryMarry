@@ -1,0 +1,78 @@
+@import '../../utils/colors.scss';
+@import '../../utils/media.scss';
+
+.Carousel {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 3rem;
+
+    &-container {
+        width: 100%;
+        height: 28rem;
+        background-size: auto;
+
+        &_item {
+
+            & .content {
+                width: 100%;
+                display: grid;
+                height: 28rem;
+                margin-bottom: .5rem;
+                align-items: center;
+                text-align: center;
+                background-color: rgba(0, 0, 0, 0.3);
+
+                & img {
+                    width: 100%;
+                    height: 39rem;
+                    object-fit: cover;
+                    object-position: center;
+                }
+
+                & h2 {
+                    font-size: 25px;
+                    color: white;
+                }
+
+                & p {
+                    color: white;
+                }
+
+                @media (min-width: $mobileL) {}
+
+                @media (min-width: $tablet) {
+
+                    height: 29rem;
+                    margin-bottom: 0;
+                    background-color: transparent;
+                }
+
+                @media (min-width: $laptop) {
+
+                    height: 31rem;
+                }
+
+                @media (min-width: $desktopL) {
+                    width: 60%;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+        }
+
+        @media (min-width: $laptop) {
+            height: 30rem;
+        }
+
+        @media (min-width: $desktopL) {
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+        }
+    }
+
+    @media (min-width: $tablet) {
+        margin-top: 6.5rem;
+    }
+}

@@ -40,8 +40,23 @@
             left: 19%;
         }
 
-        @media (min-width: $desktop) {
+        @media (min-width: 1100px) {
+            top: -2%;
+        }
+
+        ;
+
+        @media (min-width: 1300px) {
             top: -1.5%;
+        }
+
+        @media (min-width: $desktop) {
+            top: -1.3%;
+        }
+
+        @media (min-width: $desktopL) {
+            top: -1%;
+            left: 25%;
         }
 
         & .hello {
@@ -52,7 +67,11 @@
             cursor: pointer;
 
             @media (min-width: $laptop) {
-                font-size: 130px;
+                font-size: 135px;
+            }
+
+            @media (min-width: 1200px) {
+                font-size: 162px;
             }
 
             @media (min-width: $desktop) {
@@ -114,6 +133,10 @@
             display: flex;
             justify-content: center;
             align-items: center;
+        }
+
+        @media (min-width: $desktopL) {
+            justify-content: space-evenly;
         }
     }
 
@@ -281,11 +304,11 @@
 
                 img {
                     width: 100%;
-                    max-height: 11rem;
+                    max-height: 12rem;
                     object-fit: cover;
 
                     @media (min-width: $mobileM) {
-                        max-height: 15rem;
+                        max-height: 18rem;
                     }
 
                     @media (min-width: $tablet) {
@@ -296,6 +319,10 @@
                         max-height: 22rem;
                     }
                 }
+            }
+
+            @media (min-width: $mobileL) {
+                margin: 2rem 5vw;
             }
 
             @media (min-width: $tablet) {
@@ -321,6 +348,13 @@
             }
         }
 
+        &_carousel {
+            width: 100vw;
+            position: relative;
+            left: calc(-50vw + 49%);
+            margin-bottom: 15rem;
+        }
+
         @media (min-width: $laptop) {
             width: 100%;
         }
@@ -328,5 +362,9 @@
 
     @media (min-width: $laptop) {
         padding: 0 15vw;
+    }
+
+    @media (min-width: $desktopL) {
+        padding: 0 22vw;
     }
 }
