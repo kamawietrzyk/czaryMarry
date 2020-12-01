@@ -93,6 +93,14 @@ class Contact extends Component {
     }
 
     render() {
+
+        const icons = [
+            { src: "https://image.flaticon.com/icons/png/512/152/152756.png", alt: "Spotify icon" },
+            { src: "https://www.flaticon.com/svg/static/icons/svg/152/152810.svg", alt: "Youtube icon" },
+            { src: "https://image.flaticon.com/icons/svg/733/733614.svg", alt: "Instagram icon" },
+            { src: "https://image.flaticon.com/icons/svg/733/733605.svg", alt: "Facebook icon" },
+        ]
+
         const { name, email, phone, message, subject, messageSuccess, formErrors, formValid } = this.state
 
         if (messageSuccess === 'success' || messageSuccess === 'error') {
@@ -112,6 +120,13 @@ class Contact extends Component {
         return (
             <div className="Contact" id="contact">
                 <div className="Contact-main">
+                    <div className="Contact-main_icons">
+                        {icons.map(({ src, alt }) => (
+                            <div key={alt} className="icon-wrapper">
+                                <img src={src} alt={alt} />
+                            </div>
+                        ))}
+                    </div>
                     <div className="Contact-main_form">
                         <form className="pageclip-form">
                             <div className="form-group">
@@ -140,7 +155,7 @@ class Contact extends Component {
                                 onClick={this.handleSubmit}
                                 type="submit"
                                 className="btn form-btn pageclip-form__submit"
-                                // disabled={!formValid}
+                                disabled={!formValid}
                             >
                                 <span>Wyślij wiadomość</span>
                             </button>

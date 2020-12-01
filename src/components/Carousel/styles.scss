@@ -93,7 +93,11 @@
                     }
 
                     @media (min-width: $tablet) {
-                        margin-left: 65vw;
+                        margin-left: 67vw;
+                    }
+
+                    @media (min-width: $desktopL) {
+                        margin-left: 37vw;
                     }
                 }
 

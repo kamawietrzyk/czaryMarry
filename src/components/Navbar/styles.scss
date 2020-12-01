@@ -9,64 +9,90 @@
     }
 
     &-navigation {
+        .navbar {
+            padding: 0;
 
-        &_box {
+            .bg-div {
+                width: 100%;
+                text-align: right;
+                background-color: white;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 10;
+                padding-top: 1rem;
+                padding-right: 1rem;
+                padding-bottom: 1rem;
 
-            .navbar {
-                padding: 0;
-
-                .bg-div {
-                    width: 100%;
-                    text-align: right;
-                    background-color: white;
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    z-index: 10;
-                    padding-top: 1rem;
-                    padding-right: 1rem;
-                    padding-bottom: 1rem;
-
-                    @media (min-width: $tablet) {
-                        display: none;
-                    }
+                @media (min-width: $tablet) {
+                    display: none;
                 }
+            }
 
-                .navbar-collapse {
-                    position: absolute;
-                    top: 1.5rem;
-                    left: 0;
-                    width: 100%;
+            .navbar-collapse {
+                position: absolute;
+                top: 1.5rem;
+                left: 0;
+                width: 100%;
 
-                    .navbar-nav {
-                        position: relative;
-                        margin-left: auto;
-                        margin-right: auto;
+                .navbar-nav {
+                    position: relative;
+                    margin-left: auto;
+                    margin-right: auto;
 
-                        .nav-link {
-                            padding-left: .75rem;
-                            padding-right: .75rem;
-                            color: white;
-                            font-size: 20px;
-                            transition: color .4s ease-in-out;
+                    .nav-link {
+                        padding-left: .75rem;
+                        padding-right: .75rem;
+                        color: white;
+                        font-size: 20px;
+                        transition: color .4s ease-in-out;
 
-                            &:hover {
-                                color: $mediumGrey;
-                            }
+                        &:hover {
+                            color: $mediumGrey;
+                        }
 
-                            @media (min-width: $tabletHorizontal) {
-                                padding-left: 1rem;
-                                padding-right: 1rem;
-                                font-size: 22px;
-                            }
+                        @media (min-width: $tabletHorizontal) {
+                            padding-left: 1rem;
+                            padding-right: 1rem;
+                            font-size: 22px;
+                        }
 
-                            @media (min-width: $laptop) {
-                                font-size: 25px;
-                            }
+                        @media (min-width: $laptop) {
+                            font-size: 25px;
                         }
                     }
                 }
             }
+        }
+    }
+
+    &-mobile {
+        background-color: white;
+        position: fixed;
+        width: 100vw;
+        top: 70px;
+        z-index: 1000;
+        padding-top: 1rem;
+        height: 100vh;
+        text-align: center;
+        animation: Move 0.7s ease-in-out;
+
+        @keyframes Move {
+            from {
+                top: -80%;
+                background-color: transparent;
+            }
+
+            to {
+                top: 70px;
+                background-color: white;
+            }
+        }
+
+        & .nav-link {
+            font-size: 20px;
+            color: $textGrey;
+            padding: .75rem;
         }
     }
 }

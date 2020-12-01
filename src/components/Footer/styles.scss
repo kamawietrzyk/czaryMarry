@@ -12,6 +12,11 @@
 
         img {
             width: 100%;
+            object-fit: cover;
+
+            @media (min-width: $desktop) {
+                max-height: 40rem;
+            }
         }
 
         &_text {
@@ -47,9 +52,24 @@
                         display: none;
                     }
                 }
+
+                &.bottom {
+                    padding-top: 12vw;
+
+                    @media (min-width: $mobileM) {
+                        padding-top: 20vw;
+                    }
+
+                    @media (min-width: $tablet) {
+                        padding-top: 150%;
+                    }
+
+                    @media (min-width: $laptop) {
+                        padding-top: 100%;
+                    }
+                }
             }
         }
-
     }
 
     &-contact {
@@ -62,5 +82,9 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
+    }
+
+    @media (min-width: $desktopL) {
+        padding: 0 22vw;
     }
 }
