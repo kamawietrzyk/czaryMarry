@@ -1,0 +1,85 @@
+@import '../../utils/colors.scss';
+@import '../../utils/media.scss';
+
+.Contact {
+
+    &-main {
+        padding: 5rem 6vw;
+
+        & p,
+        label {
+            color: rgba(255, 255, 255, .5);
+        }
+
+        &_contact {
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            font-size: 18px;
+        }
+
+        &_form {
+            text-align: left;
+
+            & .form-control {
+                border-radius: 0;
+            }
+
+            & .custom-box {
+                display: grid;
+                grid-template-columns: auto;
+                grid-template-rows: repeat(2, 1fr);
+                width: 100%;
+                grid-column-gap: .75rem;
+                margin-bottom: 0;
+
+                & .showInfo {
+                    height: 2rem;
+                    visibility: visible;
+                }
+
+                & .hideInfo {
+                    height: 2rem;
+                    visibility: hidden;
+                }
+
+                @media (min-width: $tablet) {
+                    grid-template-columns: 1.5fr 1fr;
+                    grid-template-rows: 63px;
+                }
+            }
+
+            & .btn {
+                margin: 1rem auto 0 auto;
+                background-color: $darkGrey;
+                border-radius: 0;
+                padding: .65rem 1.5rem;
+                display: flex;
+                width: 100%;
+                transition: background-color .4s ease-in-out;
+
+                &:hover {
+                    background-color: black;
+                }
+
+                &:focus {
+                    outline: 1px solid white;
+                }
+
+                & span {
+                    color: white;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+
+                @media (min-width: $tablet) {
+                    display: inline-block;
+                }
+            }
+
+            @media (min-width: $tablet) {
+                padding-left: 2rem;
+                padding-right: 2rem;
+            }
+        }
+    }
+}

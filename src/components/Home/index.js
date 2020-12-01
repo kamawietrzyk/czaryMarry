@@ -7,6 +7,7 @@ import picTwo from './two.png';
 import picThree from './three.png';
 import picFour from './four.png';
 import Carousel from '../Carousel';
+import ArrowToTop from '../ArrowToTop';
 class Home extends Component {
     state = {
         position: false
@@ -31,10 +32,6 @@ class Home extends Component {
         }
     };
 
-    scrollTop = () => {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    };
-
     render() {
 
         const instaPics = [
@@ -45,9 +42,7 @@ class Home extends Component {
 
         return (
             <div className="Home">
-                <div className="Home-topArrow" onClick={this.scrollTop}>
-                    <img src="https://www.flaticon.com/svg/static/icons/svg/54/54744.svg" alt="arrow top round" />
-                </div>
+                <ArrowToTop />
                 <div className="Home-helloBox">
                     <Link className="hello" to={URLS.ABOUT}>Cześć.</Link>
                 </div>
@@ -85,24 +80,34 @@ class Home extends Component {
                         </Link>
                     </div>
                     <div className="Home-arrows_picThree">
-                        <img src={picThree} alt="strzałka trzecia" />
+                        <Link to={URLS.COUPLES}>
+                            <img src={picThree} alt="strzałka trzecia" />
+                        </Link>
                     </div>
                     <div className="Home-arrows_textThree right">
-                        <p>Zerknij na <b>piękne wesela par</b>, które obdarzyły nas zaufaniem.</p>
+                        <Link className="custom-link" to={URLS.COUPLES}>
+                            <p>Zerknij na <b>piękne wesela par</b>, które obdarzyły nas zaufaniem.</p>
+                        </Link>
                     </div>
                     <div className="Home-arrows_picFour">
-                        <img src={picFour} alt="strzałka czwarta" />
+                        <Link to={URLS.BLOG}>
+                            <img src={picFour} alt="strzałka czwarta" />
+                        </Link>
                     </div>
                     <div className="Home-arrows_textFour left">
-                        <p>
-                            Na <b>blogu</b> znajdziesz <b>eksperckie porady</b> dotyczące organizacji ślubu i wesela. <br />Posłuchaj też <b>podcastu.</b>
-                        </p>
+                        <Link className="custom-link" to={URLS.BLOG}>
+                            <p>
+                                Na <b>blogu</b> znajdziesz <b>eksperckie porady</b> dotyczące organizacji ślubu i wesela. <br />Posłuchaj też <b>podcastu.</b>
+                            </p>
+                        </Link>
                     </div>
                 </div>
                 <div className="Home-bottomContainer">
-                    <h2 className="text-right wide">
-                        Agencja Ślubna <br /> Czary Marry <br />spełnia <b>marzenia</b>
-                    </h2>
+                    <Link className="custom-link" to={URLS.WORK}>
+                        <h2 className="text-right wide">
+                            Agencja Ślubna <br /> Czary Marry <br />spełnia <b>marzenia</b>
+                        </h2>
+                    </Link>
                     <div className="Home-bottomContainer_instaPics">
                         {instaPics.map(({ src, alt }) => (
                             <a href="https://www.instagram.com/wedding_czarymarry/" target="_blank" rel="noopener noreferrer">
@@ -117,7 +122,9 @@ class Home extends Component {
                     <div className="Home-bottomContainer_carousel">
                         <Carousel />
                     </div>
-                    <p>Podobają Wam nasz styl pracy oraz jej efekty? Chcielibyście się dowiedzieć w jakich aspektach organizacji wesela możemy Wam pomóc? <b>Zerknijcie tutaj.</b></p>
+                    <Link className="custom-link" to={URLS.OFFER}>
+                        <p>Podobają Wam nasz styl pracy oraz jej efekty? Chcielibyście się dowiedzieć w jakich aspektach organizacji wesela możemy Wam pomóc? <b>Zerknijcie tutaj.</b></p>
+                    </Link>
                 </div>
             </div>
         )

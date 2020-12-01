@@ -1,0 +1,66 @@
+@import '../../utils/media.scss';
+@import '../../utils/colors.scss';
+
+.Footer {
+    width: 100%;
+    display: block;
+
+    &-box {
+        position: relative;
+        display: flex;
+        justify-content: center;
+
+        img {
+            width: 100%;
+        }
+
+        &_text {
+            position: absolute;
+            top: 5%;
+
+
+            & h2 {
+                font-size: 36px;
+                color: white;
+                text-align: center;
+                width: 12rem;
+                margin: 0 auto 1.85rem auto;
+
+                & span {
+                    color: white;
+                    font-weight: 600;
+                }
+
+                @media (min-width: $mobileL) {
+                    font-size: 44px;
+                }
+            }
+
+            & p {
+                color: white;
+                font-size: 19px;
+                text-align: center;
+                margin-bottom: 0;
+
+                & span.mobile {
+                    @media (min-width: $tablet) {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+    }
+
+    &-contact {
+        width: 100%;
+        height: auto;
+        background-color: $mint;
+    }
+
+    @media (min-width: $laptop) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
+}

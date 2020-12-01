@@ -1,5 +1,10 @@
 .App {
   width: 100%;
+
+  .custom-link {
+    text-decoration: none;
+  }
+
 }
 
 @media (prefers-reduced-motion: no-preference) {

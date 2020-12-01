@@ -7,6 +7,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import URLS from './utils/urls';
 import Home from './components/Home'
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
       <Switch>
         <Route exact path={URLS.HOME} component={Home} />
       </Switch>
-      {/* <Footer/> */}
+      <Footer />
     </div>
   );
 }
