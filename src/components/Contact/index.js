@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import './styles.scss';
+import spotify from '../Icons/spotify.png';
+import yt from '../Icons/yt.svg';
+import ig from '../Icons/ig.svg';
+import fb from '../Icons/fb.svg';
 
 class Contact extends Component {
     state = {
@@ -95,10 +99,10 @@ class Contact extends Component {
     render() {
 
         const icons = [
-            { src: "https://image.flaticon.com/icons/png/512/152/152756.png", alt: "Spotify icon" },
-            { src: "https://www.flaticon.com/svg/static/icons/svg/152/152810.svg", alt: "Youtube icon" },
-            { src: "https://image.flaticon.com/icons/svg/733/733614.svg", alt: "Instagram icon" },
-            { src: "https://image.flaticon.com/icons/svg/733/733605.svg", alt: "Facebook icon" },
+            { src: spotify, alt: "Spotify icon" },
+            { src: yt, alt: "Youtube icon" },
+            { src: ig, alt: "Instagram icon" },
+            { src: fb, alt: "Facebook icon" },
         ]
 
         const { name, email, phone, message, subject, messageSuccess, formErrors, formValid } = this.state

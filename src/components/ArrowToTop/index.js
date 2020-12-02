@@ -1,5 +1,6 @@
-import React from 'react'
-import './styles.scss'
+import React from 'react';
+import './styles.scss';
+import arrowToTop from '../Icons/arrowToTop.svg';
 
 const ArrowToTop = () => {
 
@@ -9,7 +10,7 @@ const ArrowToTop = () => {
 
     return (
         <div className="ArrowToTop" onClick={scrollTop}>
-            <img src="https://www.flaticon.com/svg/static/icons/svg/54/54744.svg" alt="arrow top round" />
+            <img src={arrowToTop}alt="arrow top round" />
         </div>
     )
 }

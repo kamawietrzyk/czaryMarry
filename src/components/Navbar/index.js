@@ -15,6 +15,7 @@ const tabs = [
 const Navbar = ({ location }) => {
 
     const [burgerOpen, setBurgerOpen] = useState(false);
+    const [status, setStatus] = useState('close');
 
     const toggleBurger = () => {
         setBurgerOpen(!burgerOpen)
@@ -24,9 +25,13 @@ const Navbar = ({ location }) => {
         <div className="Navbar" id="home">
             <div className="Navbar-navigation">
                 <nav className="navbar navbar-expand-md">
-                    <div className="bg-div" style={{ position: `${burgerOpen && "fixed"}`, zIndex: `${burgerOpen && 1001}` }}>
+                    <div className="bg-div" style={{ position: `${burgerOpen ? "fixed" : "absolute"}`, zIndex: `${burgerOpen && 1001}` }}>
                         <button className="navbar-toggler p-1" onClick={toggleBurger} type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span className="navbar-toggler-icon dark-icon"></span>
+                            <div className="navbar-toggler-icon icon-wrapper" onClick={() => setStatus( status === 'open' ? 'close' : 'open')}>
+                                <i className={status} />
+                                <i className={status} />
+                                <i className={status} />
+                            </div>
                         </button>
                     </div>
                     <div className="collapse navbar-collapse" id="navbarNav">

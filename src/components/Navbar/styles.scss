@@ -4,10 +4,6 @@
 .Navbar {
     width: 100%;
 
-    & .dark-icon {
-        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='35' height='35' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-    }
-
     &-navigation {
         .navbar {
             padding: 0;
@@ -16,13 +12,58 @@
                 width: 100%;
                 text-align: right;
                 background-color: white;
-                position: absolute;
                 top: 0;
                 left: 0;
                 z-index: 10;
-                padding-top: 1rem;
+                padding-top: .75rem;
                 padding-right: 1rem;
                 padding-bottom: 1rem;
+
+                & button:focus {
+                    outline: none;
+                }
+
+                & .icon-wrapper {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    cursor: pointer;
+
+                    & i {
+                        background-color: $darkGrey;
+                        width: 28px;
+                        height: 3px;
+                        margin: 4px;
+                        border-radius: 4px;
+                        transition: all ease .4s;
+                    }
+
+                    .open:nth-child(1) {
+                        transform: rotate(45deg) translateY(15px);
+                        margin-left: 25px;
+                        opacity: .85;
+                    }
+                    .open:nth-child(2) {
+                        opacity: 0;
+                    }
+                    .open:nth-child(3) {
+                        transform: rotate(-45deg) translateY(-15px);
+                        margin-left: 25px;
+                        opacity: .85;
+                    }
+
+                    .close:nth-child(1) {
+                        transform: rotate(0) translateY(0);
+                        opacity: .75;
+                    }
+                    .close:nth-child(2) {
+                        opacity: .75;
+                    }
+                    .close:nth-child(3) {
+                        transform: rotate(0) translateY(0);
+                        opacity: .75;
+                    }
+                }
 
                 @media (min-width: $tablet) {
                     display: none;
@@ -75,7 +116,7 @@
         padding-top: 1rem;
         height: 100vh;
         text-align: center;
-        animation: Move 0.7s ease-in-out;
+        animation: Move .7s ease-in;
 
         @keyframes Move {
             from {
@@ -91,8 +132,8 @@
 
         & .nav-link {
             font-size: 20px;
-            color: $textGrey;
-            padding: .75rem;
+            color: $darkGrey;
+            padding: 1rem;
         }
     }
 }
