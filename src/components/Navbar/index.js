@@ -9,8 +9,7 @@ const tabs = [
     { name: 'praca', label: 'Jak pracujemy', url: URLS.WORK },
     { name: 'realizacje', label: 'Nasze pary', url: URLS.COUPLES },
     { name: 'oferta', label: 'Oferta', url: URLS.OFFER },
-    { name: 'blog', label: 'Blog', url: URLS.BLOG },
-    { name: 'kontakt', label: 'Kontakt', url: URLS.HOME } // tutaj dopisać automatyczny scroll do kontaktu na dole strony
+    { name: 'blog', label: 'Blog', url: URLS.BLOG }
 ]
 const Navbar = ({ location }) => {
 
@@ -18,7 +17,24 @@ const Navbar = ({ location }) => {
     const [status, setStatus] = useState('close');
 
     const toggleBurger = () => {
-        setBurgerOpen(!burgerOpen)
+        setBurgerOpen(!burgerOpen);
+        setStatus( status === 'open' ? 'close' : 'open');
+    }
+
+    const onClose = () => {
+        setBurgerOpen(false);
+        setStatus('close');
+        window.scrollTo({ top: 550, behavior: 'smooth' });
+    }
+
+    const scrollToBottom = () => { // <-------------------- naprawić zeby działał poprawnie nie tylko na głównej!
+        const element = document.getElementById('contact');
+        const y = element.getBoundingClientRect().top + window.pageYOffset;
+        window.scrollTo({ top: y, behavior: 'smooth' });
+    };
+
+    const scrollToStart = () => {
+        window.scrollTo({ top: 780, behavior: 'smooth' });
     }
 
     return (
@@ -27,7 +43,7 @@ const Navbar = ({ location }) => {
                 <nav className="navbar navbar-expand-md">
                     <div className="bg-div" style={{ position: `${burgerOpen ? "fixed" : "absolute"}`, zIndex: `${burgerOpen && 1001}` }}>
                         <button className="navbar-toggler p-1" onClick={toggleBurger} type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <div className="navbar-toggler-icon icon-wrapper" onClick={() => setStatus( status === 'open' ? 'close' : 'open')}>
+                            <div className="navbar-toggler-icon icon-wrapper" onClick={toggleBurger}>
                                 <i className={status} />
                                 <i className={status} />
                                 <i className={status} />
@@ -40,11 +56,20 @@ const Navbar = ({ location }) => {
                                 <Link
                                     key={name}
                                     to={url}
+                                    onClick={scrollToStart}
                                     role="tab"
                                     className={`nav-item nav-link ${url === location.pathname && 'active'}`}>
                                     {label}
                                 </Link>
                             ))}
+                            <Link
+                                key="kontakt"
+                                to={URLS.HOME}
+                                onClick={scrollToBottom}
+                                role="tab"
+                                className={`nav-item nav-link ${URLS.HOME === location.pathname && 'active'}`}>
+                                Kontakt
+                            </Link>
                         </div>
                     </div>
                 </nav>
@@ -55,12 +80,19 @@ const Navbar = ({ location }) => {
                         <Link
                             key={name}
                             to={url}
-                            onClick={() => setBurgerOpen(false)}
+                            onClick={onClose}
                             role="tab"
                             className={`nav-item nav-link ${url === location.pathname && 'active'}`}>
                             {label}
                         </Link>
                     ))}
+                    <Link
+                        key="kontakt"
+                        to={URLS.HOME}
+                        role="tab"
+                        className={`nav-item nav-link ${URLS.HOME === location.pathname && 'active'}`}>
+                        Kontakt
+                    </Link>
                 </div>
             }
         </div>

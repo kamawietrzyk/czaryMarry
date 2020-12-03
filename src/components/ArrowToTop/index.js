@@ -10,7 +10,7 @@ const ArrowToTop = () => {
 
     return (
         <div className="ArrowToTop" onClick={scrollTop}>
-            <img src={arrowToTop}alt="arrow top round" />
+            <img src={arrowToTop} alt="arrow top round" />
         </div>
     )
 }
