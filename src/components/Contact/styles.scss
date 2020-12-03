@@ -1,0 +1,125 @@
+@import '../../utils/colors.scss';
+@import '../../utils/media.scss';
+
+.Contact {
+
+    &-main {
+        padding: 2.5rem 7vw;
+
+        & p,
+        label {
+            color: rgba(255, 255, 255, .5);
+        }
+
+        &_contact {
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            font-size: 18px;
+        }
+
+        &_icons {
+            display: flex;
+            justify-content: center;
+            grid-area: icons;
+            align-self: center;
+            margin-bottom: 2.5rem;
+
+            & .icon-wrapper {
+                margin: 0 .75rem;
+                cursor: pointer;
+
+                &:nth-child(4) {
+                    margin: 0;
+                }
+
+                & img {
+                    width: 2.75rem;
+                    height: 2.75rem;
+                    filter: invert(20%) sepia(18%) saturate(367%) hue-rotate(172deg) brightness(96%) contrast(95%);
+                    transition: filter .2s ease-in-out;
+
+                    &:hover {
+                        filter: invert(0%) sepia(0%) saturate(30%) hue-rotate(147deg) brightness(107%) contrast(106%);
+                    }
+                }
+            }
+
+            @media (min-width: $tablet) {
+                margin-bottom: 3rem;
+            }
+        }
+
+        &_form {
+            text-align: left;
+
+            & .form-control {
+                border-radius: 0;
+            }
+
+            & .custom-box {
+                display: grid;
+                grid-template-columns: auto;
+                grid-template-rows: repeat(2, 1fr);
+                width: 100%;
+                grid-column-gap: .75rem;
+                margin-bottom: 0;
+
+                & .showInfo {
+                    height: 2rem;
+                    visibility: visible;
+                }
+
+                & .hideInfo {
+                    height: 2rem;
+                    visibility: hidden;
+                }
+
+                @media (min-width: $tablet) {
+                    grid-template-columns: 1.5fr 1fr;
+                    grid-template-rows: 63px;
+                }
+            }
+
+            & .btn {
+                margin: 1rem auto 0 auto;
+                background-color: $darkGrey;
+                border-radius: 0;
+                padding: .65rem 1.5rem;
+                display: flex;
+                width: 100%;
+                transition: background-color .3s ease-in-out;
+
+                &:hover {
+                    background-color: black;
+                }
+
+                &:focus {
+                    outline: 1px solid white;
+                }
+
+                & span {
+                    color: white;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+
+                @media (min-width: $tablet) {
+                    display: inline-block;
+                }
+            }
+
+            @media (min-width: $tablet) {
+                padding-left: 2rem;
+                padding-right: 2rem;
+            }
+        }
+
+        @media (min-width: $tablet) {
+            padding: 3rem 12vw;
+        }
+
+        @media (min-width: $laptop) {
+            padding: 3rem 5vw;
+        }
+    }
+}

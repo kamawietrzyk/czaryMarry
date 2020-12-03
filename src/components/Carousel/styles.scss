@@ -1,0 +1,136 @@
+@import '../../utils/colors.scss';
+@import '../../utils/media.scss';
+
+.Carousel {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 3rem;
+
+    &-container {
+        width: 100%;
+        height: 28rem;
+        background-size: auto;
+
+        &_item {
+
+            & .content {
+                width: 100%;
+                display: grid;
+                height: 28rem;
+                margin-bottom: .5rem;
+                align-items: center;
+                text-align: center;
+
+                & img {
+                    width: 100%;
+                    height: 34rem;
+                    object-fit: cover;
+                    object-position: center;
+
+                    @media (min-width: $mobileL) {
+                        height: 36rem;
+                    }
+
+                    @media (min-width: $laptop) {
+                        height: 39rem;
+                    }
+                }
+
+                & .text,
+                & .flipped {
+                    position: absolute;
+                    width: 80vw;
+                    height: auto;
+                    margin-top: 2rem;
+
+                    & h2.couple {
+                        display: block;
+                        font-size: 25px;
+                        color: white;
+                        margin: 2.5rem auto;
+                        letter-spacing: 0.1em;
+                        font-weight: 600;
+                        padding-left: 1rem;
+                        padding-right: 1rem;
+
+                        @media (min-width: $tablet) {
+                            margin: 4rem auto 2rem auto;
+                        }
+                    }
+
+                    & p.reference {
+                        color: white;
+                        padding: 0 2rem 3rem 2rem;
+                    }
+
+                    hr {
+                        border: 0;
+                        height: 2px;
+                        background-color: white;
+                        width: 1.5rem;
+                        margin: 0 auto 2rem auto;
+                    }
+
+                    @media (min-width: $tablet) {
+                        width: 21rem;
+                        margin-top: 0;
+                    }
+                }
+
+                & .text {
+                    margin-left: 10vw;
+                }
+
+                & .flipped {
+
+                    @media (min-width: $tablet) {
+                        margin-left: 50vw;
+                    }
+
+                    @media (min-width: $tabletHorizontal) {
+                        margin-left: 55vw;
+                    }
+
+                    @media (min-width: $tablet) {
+                        margin-left: 67vw;
+                    }
+
+                    @media (min-width: $desktopL) {
+                        margin-left: 37vw;
+                    }
+                }
+
+                @media (min-width: $tablet) {
+
+                    height: 29rem;
+                    margin-bottom: 0;
+                }
+
+                @media (min-width: $laptop) {
+                    height: 31rem;
+                }
+
+                @media (min-width: $desktopL) {
+                    width: 60%;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+        }
+
+        @media (min-width: $laptop) {
+            height: 30rem;
+        }
+
+        @media (min-width: $desktopL) {
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+        }
+    }
+
+    @media (min-width: $tablet) {
+        margin-top: 6.5rem;
+    }
+}

@@ -1,0 +1,351 @@
+@import '../../utils/colors.scss';
+@import '../../utils/media.scss';
+
+.Home {
+    width: 100%;
+    position: relative;
+
+    &-helloBox {
+        text-align: center;
+        height: 7rem;
+
+        @media (min-width: $laptop) {
+            position: absolute;
+            top: -3.5%;
+            left: 19%;
+        }
+
+        @media (min-width: 1100px) {
+            top: -2%;
+        }
+
+        @media (min-width: 1300px) {
+            top: -1.5%;
+        }
+
+        @media (min-width: $desktop) {
+            top: -1.3%;
+        }
+
+        @media (min-width: $desktopL) {
+            top: -1%;
+            left: 25%;
+        }
+
+        & .hello {
+            font-size: 86px;
+            font-weight: 700;
+            color: $darkGrey;
+            text-decoration: none;
+            cursor: pointer;
+
+            @media (min-width: $tablet) {
+                font-size: 95px;
+            }
+
+            @media (min-width: $laptop) {
+                font-size: 135px;
+            }
+
+            @media (min-width: 1200px) {
+                font-size: 162px;
+            }
+
+            @media (min-width: $desktop) {
+                font-size: 176px;
+            }
+        }
+    }
+
+    &-topContainer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, auto);
+        grid-template-areas:
+            "pic"
+            "text";
+        grid-row-gap: 2rem;
+        width: 88%;
+        margin-left: auto;
+        margin-right: auto;
+
+        &_text {
+            text-align: right;
+            grid-area: text;
+
+            & h1 {
+                font-size: 25px;
+            }
+
+            & p {
+                line-height: 1.4em;
+                font-size: 20px;
+                letter-spacing: 0.05em;
+            }
+
+            @media (min-width: $laptop) {
+                padding-right: 1.6rem;
+                padding-left: 2rem;
+                width: 28rem;
+                padding-top: 4rem;
+            }
+
+            @media (min-width: $desktop) {
+                width: 29rem;
+                padding-top: 0;
+            }
+        }
+
+        &_pic {
+            grid-area: pic;
+
+            img {
+                border-radius: 5px;
+                width: 100%;
+            }
+        }
+
+        @media (min-width: $laptop) {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @media (min-width: $desktopL) {
+            justify-content: space-evenly;
+        }
+    }
+
+    & h2 {
+        display: none;
+
+        @media (min-width: $tablet) {
+            display: block;
+            font-size: 55px;
+            margin-top: 7rem;
+            margin-left: 3rem;
+            margin-bottom: 3rem;
+            color: $darkGrey;
+        }
+
+        &.wide {
+            display: block;
+            line-height: 1em;
+            letter-spacing: 0.05em;
+            font-size: 27px;
+
+            @media (min-width: $tablet) {
+                font-size: 55px;
+            }
+        }
+    }
+
+    &-arrows {
+        width: 100%;
+        margin-top: 2.5rem;
+        margin-bottom: 5rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8, auto);
+        grid-row-gap: 4rem;
+        grid-template-areas:
+            "picOne"
+            "textOne"
+            "picTwo"
+            "textTwo"
+            "picThree"
+            "textThree"
+            "picFour"
+            "textFour";
+
+        &_picOne {
+            grid-area: picOne;
+        }
+
+        &_picTwo {
+            grid-area: picTwo;
+        }
+
+        &_picThree {
+            grid-area: picThree;
+        }
+
+        &_picFour {
+            grid-area: picFour;
+        }
+
+        & img {
+            width: 100%;
+        }
+
+        &_textOne,
+        &_textTwo,
+        &_textThree,
+        &_textFour {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            &.right,
+            &.left {
+                padding-left: 1.5rem;
+                padding-right: 1rem;
+            }
+
+            @media (min-width: $desktop) {
+
+                &.right {
+                    padding-left: 4rem;
+                    padding-right: 5rem;
+                }
+
+                &.left {
+                    padding-left: 5rem;
+                    padding-right: 4rem;
+                    text-align: right;
+                }
+            }
+        }
+
+        &_textOne {
+            grid-area: textOne;
+        }
+
+        &_textTwo {
+            grid-area: textTwo;
+        }
+
+        &_textThree {
+            grid-area: textThree;
+        }
+
+        &_textFour {
+            grid-area: textFour;
+        }
+
+        & p {
+            line-height: 1.4em;
+            font-size: 20px;
+            margin-bottom: 0;
+            letter-spacing: 0.05em;
+        }
+
+        @media (min-width: $tablet) {
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: auto;
+            grid-template-areas:
+                "picOne textOne"
+                "textTwo picTwo"
+                "picThree textThree"
+                "textFour picFour";
+        }
+    }
+
+    &-bottomContainer {
+        width: 88%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5rem;
+
+        &_instaPics {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: auto;
+            grid-gap: .75rem;
+            margin-top: 1.5rem;
+            margin-bottom: 2.5rem;
+
+            div.box {
+                width: 100%;
+                height: auto;
+                position: relative;
+
+                div.overlay {
+                    background-color: whitesmoke;
+                    height: 100%;
+                    width: 100%;
+                    opacity: 0;
+                    top: 0;
+                    left: 0;
+                    position: absolute;
+                    transition: opacity .2s ease-in;
+
+                    &:hover {
+                        opacity: .7;
+                    }
+                }
+
+                img {
+                    width: 100%;
+                    max-height: 12rem;
+                    object-fit: cover;
+
+                    @media (min-width: $mobileM) {
+                        max-height: 18rem;
+                    }
+
+                    @media (min-width: $tablet) {
+                        max-height: 20rem;
+                    }
+
+                    @media (min-width: $laptop) {
+                        max-height: 22rem;
+                    }
+                }
+            }
+
+            @media (min-width: $mobileL) {
+                margin: 2rem 5vw;
+            }
+
+            @media (min-width: $tablet) {
+                grid-template-columns: repeat(3, 1fr);
+                margin-bottom: 5rem;
+            }
+
+            @media (min-width: $laptop) {
+                margin: 5rem 9vw 7rem 9vw;
+            }
+        }
+
+        p {
+            line-height: 1.4em;
+            text-align: center;
+            font-size: 18px;
+            letter-spacing: 0.05em;
+
+            @media (min-width: $laptop) {
+                font-size: 20px;
+                padding-left: 10vw;
+                padding-right: 10vw;
+            }
+        }
+
+        &_carousel {
+            width: 100vw;
+            position: relative;
+            left: calc(-50vw + 49%);
+            margin-bottom: 11rem;
+
+            @media (min-width: $mobileL) {
+                margin-bottom: 13rem;
+            }
+            @media (min-width: $laptop) {
+                margin-bottom: 16rem;
+            }
+        }
+
+        @media (min-width: $laptop) {
+            width: 100%;
+        }
+    }
+
+    @media (min-width: $laptop) {
+        padding: 0 15vw;
+    }
+
+    @media (min-width: $desktopL) {
+        padding: 0 22vw;
+    }
+}
