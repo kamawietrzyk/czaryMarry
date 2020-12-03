@@ -16,7 +16,7 @@ const Carousel = () => {
         slidesToScroll: 1,
         pauseOnHover: true,
         arrows: false,
-        autoplay: false, //poprawić!
+        autoplay: true,
         autoplaySpeed: 6000,
         cssEase: "linear"
     }

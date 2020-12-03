@@ -8,6 +8,11 @@ import picThree from './three.png';
 import picFour from './four.png';
 import Carousel from '../Carousel';
 import ArrowToTop from '../ArrowToTop';
+import instaPic1 from './instaPic1.jpg';
+import instaPic2 from './instaPic2.jpg';
+import instaPic3 from './instaPic3.jpg';
+import konsultantki from './konsultantki.jpg';
+
 class Home extends Component {
     state = {
         position: false
@@ -35,9 +40,9 @@ class Home extends Component {
     render() {
 
         const instaPics = [
-            { src: "https://static.wixstatic.com/media/ffe458_14fe1ebc1cd349bb9d47772cbdcf4ff9~mv2.jpg/v1/fill/w_237,h_336,al_c,q_80,usm_0.66_1.00_0.01/ffe458_14fe1ebc1cd349bb9d47772cbdcf4ff9~mv2.webp", alt: "Food truck wedding Czary Marry" },
-            { src: "https://static.wixstatic.com/media/ffe458_f401abf7e4e34482bcef5c18b59a93c6~mv2.jpg/v1/fill/w_237,h_336,al_c,q_80,usm_0.66_1.00_0.01/ffe458_f401abf7e4e34482bcef5c18b59a93c6~mv2.webp%22%20data-has-ssr-src=%22%22%3E%3Cimg%20alt=%22sesja-slubna%22%20src=%22https://static.wixstatic.com/media/ffe458_f401abf7e4e34482bcef5c18b59a93c6~mv2.jpg/v1/fill/w_237,h_336,al_c,q_80,usm_0.66_1.00_0.01/ffe458_f401abf7e4e34482bcef5c18b59a93c6~mv2.webp", alt: "Wedding Czary Marry" },
-            { src: "https://static.wixstatic.com/media/ffe458_218da41d180a4769abeb8d5e9246af68~mv2.jpg/v1/fill/w_237,h_336,al_c,q_80,usm_0.66_1.00_0.01/ffe458_218da41d180a4769abeb8d5e9246af68~mv2.webp", alt: "Ola i Kasia Agencja Ślubna Czary Marry" }
+            { src: instaPic1, alt: "Food truck wedding Czary Marry" },
+            { src: instaPic2, alt: "Wedding Czary Marry" },
+            { src: instaPic3, alt: "Ola i Kasia Agencja Ślubna Czary Marry" }
         ]
 
         return (
@@ -56,7 +61,7 @@ class Home extends Component {
                         </div>
                     </div>
                     <div className="Home-topContainer_pic">
-                        <img alt="Kasia i Ola z Czary Marry" src="https://static.wixstatic.com/media/ffe458_cca1546c871644b39aa402ac77b89590~mv2.jpg/v1/crop/x_13,y_0,w_1144,h_1691/fill/w_534,h_789,al_c,q_85,usm_0.66_1.00_0.01/Konsultantki-slubne-czary-marry_edited_j.webp" />
+                        <img alt="Kasia i Ola z Czary Marry" src={konsultantki} />
                     </div>
                 </div>
                 <h2>Poznajmy <b>się!</b></h2>
