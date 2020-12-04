@@ -1,0 +1,69 @@
+@import '../../utils/colors.scss';
+@import '../../utils/media.scss';
+
+.AboutUs {
+    padding-left: 1.5rem;
+    padding-right: 1rem;
+    margin-bottom: 3rem;
+
+    &-header {
+        display: flex;
+
+        &_num {
+            color: $pink;
+        }
+
+        h2 {
+            font-size: 43px;
+            line-height: 1em;
+            font-weight: bold;
+            letter-spacing: -0.1em;
+            margin-top: auto;
+            margin-bottom: auto;
+            margin-left: 1rem;
+
+            @media (min-width: $laptop) {
+                font-size: 176px;
+            }
+        }
+    }
+
+    &-content {
+        margin-top: 1rem;
+
+        h1 {
+            font-size: 19px;
+            line-height: 1.4em;
+            letter-spacing: 0.05em;
+        }
+
+        p {
+            font-size: 17px;
+        }
+
+        h2 {
+            font-size: 37px;
+            font-weight: bold;
+
+            @media (min-width: $laptop) {
+                font-size: 176px;
+            }
+        }
+
+        &_kasia,
+        &_ola {
+            margin-top: 1rem;
+
+            .pic {
+                width: 100%;
+                margin-bottom: 1rem;
+
+                img {
+                    width: 100%;
+                    object-fit: cover;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}

@@ -8,6 +8,7 @@ import URLS from './utils/urls';
 import Home from './components/Home'
 import Header from './components/Header';
 import Footer from './components/Footer';
+import AboutUs from './components/AboutUs';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Header />
       <Switch>
         <Route exact path={URLS.HOME} component={Home} />
+        <Route exact path={URLS.ABOUT} component={AboutUs} />
       </Switch>
       <Footer />
     </div>

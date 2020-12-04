@@ -1,8 +1,24 @@
+@import './utils/media.scss';
+
 .App {
   width: 100%;
 
   .custom-link {
     text-decoration: none;
+  }
+
+  .number {
+    font-family: 'Oswald', sans-serif;
+    font-size: 57px;
+
+    @media (min-width: $laptop) {
+      font-size: 176px;
+    }
+  }
+
+  p {
+    letter-spacing: 0.05em;
+    line-height: 1.4em;
   }
 
 }
@@ -17,6 +33,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
