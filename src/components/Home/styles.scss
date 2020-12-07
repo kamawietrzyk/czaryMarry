@@ -335,7 +335,12 @@
         }
     }
 
+    @media (min-width: $tablet) {
+        margin-top: 4rem;
+    }
+
     @media (min-width: $laptop) {
+        margin-top: 7rem;
         padding: 0 15vw;
     }
 

@@ -14,7 +14,7 @@ const AboutUs = () => {
                 <h2>O nas</h2>
             </div>
             <div className="AboutUs-content">
-                <h1><b>Agencja Ślubna Czary Marry</b> - firma, która powstała na bazie <br />15-letniej przyjaźni.</h1>
+                <h1><b>Agencja Ślubna Czary Marry</b> - firma, która powstała na bazie <span><br /></span>15-letniej przyjaźni.</h1>
                 <p>
                     Tworzymy piękne uroczystości, pełne uśmiechów, wzruszeń i chwil spędzonych z bliskimi. W swoim towarzystwie czujemy się bezpiecznie, swobodnie i wiemy, że razem możemy więcej, bo idealnie się uzupełniamy.<br /> Myślimy „weselami” – zawsze i wszędzie szukamy nowych inspiracji i pomysłów, dzięki czemu z powodzeniem realizujemy zarówno te piękne, klasyczne wesela, jak i te szalone i nieszablonowe. Nie potrafimy też przestać gadać o ślubach i weselach. Codziennością są już nasze długie rozmowy o branży, trendach, naszych ślubnych pomysłach i rozwiązaniach dla naszych Parach.
                 </p>

@@ -22,9 +22,19 @@
             margin-bottom: auto;
             margin-left: 1rem;
 
+            @media (min-width: $tablet) {
+                font-size: 100px;
+                margin-bottom: 0;
+                margin-top: 0;
+            }
+
             @media (min-width: $laptop) {
                 font-size: 176px;
             }
+        }
+
+        @media (min-width: $tablet) {
+            align-items: baseline;
         }
     }
 
@@ -35,15 +45,46 @@
             font-size: 19px;
             line-height: 1.4em;
             letter-spacing: 0.05em;
+            margin-bottom: 1.5rem;
+
+            & span {
+                @media (min-width: $tabletHorizontal) {
+                    display: none;
+                }
+            }
+
+            @media (min-width: $tabletHorizontal) {
+                font-size: 25px;
+                margin-bottom: 3rem;
+            }
+
+            @media (min-width: $laptop) {
+                margin-bottom: 4rem;
+                margin-right: 2rem;
+            }
+
+            @media (min-width: $desktop) {
+                margin-top: 4rem;
+            }
         }
 
         p {
             font-size: 17px;
+
+            @media (min-width: $tabletHorizontal) {
+                font-size: 20px;
+                line-height: 1.4em;
+                letter-spacing: 0.05em;
+            }
         }
 
         h2 {
             font-size: 37px;
             font-weight: bold;
+
+            @media (min-width: $tablet) {
+                font-size: 100px;
+            }
 
             @media (min-width: $laptop) {
                 font-size: 176px;
@@ -64,6 +105,109 @@
                     border-radius: 5px;
                 }
             }
+
+            @media (min-width: $tablet) {
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+            }
         }
+
+        &_kasia {
+
+            @media (min-width: $laptop) {
+                width: 100%;
+                position: relative;
+                display: grid;
+                align-items: end;
+                grid-template-columns: 1fr .9fr;
+                grid-template-rows: auto;
+                grid-column-gap: 2rem;
+                margin-top: 5rem;
+                margin-left: 0;
+                margin-right: 0;
+
+
+                h2 {
+                    position: absolute;
+                    top: -9%;
+                    right: 0%;
+                }
+            }
+
+            @media (min-width: $desktopL) {
+                grid-template-columns: 1fr 1fr;
+                align-items: center;
+                margin-left: auto;
+                margin-right: auto;
+                width: 80%;
+
+                h2 {
+                    top: 0;
+                    right: 10%;
+                }
+            }
+        }
+
+        &_ola {
+            @media (min-width: $laptop) {
+                width: 100%;
+                position: relative;
+                display: grid;
+                align-items: end;
+                grid-template-columns: .9fr 1fr;
+                grid-template-rows: auto;
+                grid-template-areas:
+                    "text pic";
+                grid-column-gap: 2rem;
+                margin-top: 9rem;
+                margin-left: 0;
+                margin-right: 0;
+
+                & .pic {
+                    grid-area: pic;
+                }
+
+                & p {
+                    grid-area: text;
+                    text-align: right;
+                }
+
+                h2 {
+                    position: absolute;
+                    top: -13%;
+                    left: 23%;
+                }
+            }
+
+            @media (min-width: $desktopL) {
+                grid-template-columns: 1fr 1fr;
+                align-items: center;
+                margin-left: auto;
+                margin-right: auto;
+                width: 80%;
+
+                h2 {
+                    top: -5%;
+                    left: 30%;
+                }
+            }
+        }
+
+        @media (min-width: $tablet) {
+            padding: .5rem;
+        }
+    }
+
+    @media (min-width: $laptop) {
+        padding: 0 7vw;
+    }
+
+    @media (min-width: $desktop) {
+        padding: 0 18vw;
+    }
+
+    @media (min-width: $desktopL) {
+        padding: 0 22vw;
     }
 }

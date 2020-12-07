@@ -11,6 +11,10 @@
     font-family: 'Oswald', sans-serif;
     font-size: 57px;
 
+    @media (min-width: $tablet) {
+      font-size: 100px;
+    }
+
     @media (min-width: $laptop) {
       font-size: 176px;
     }
