@@ -9,6 +9,7 @@ import Home from './components/Home'
 import Header from './components/Header';
 import Footer from './components/Footer';
 import AboutUs from './components/AboutUs';
+import HowWeWork from './components/HowWeWork';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Switch>
         <Route exact path={URLS.HOME} component={Home} />
         <Route exact path={URLS.ABOUT} component={AboutUs} />
+        <Route exact path={URLS.WORK} component={HowWeWork} />
       </Switch>
       <Footer />
     </div>

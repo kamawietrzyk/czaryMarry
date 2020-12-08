@@ -1,4 +1,5 @@
 @import './utils/media.scss';
+@import './utils/colors.scss';
 
 .App {
   width: 100%;
@@ -9,7 +10,7 @@
 
   .number {
     font-family: 'Oswald', sans-serif;
-    font-size: 57px;
+    font-size: 59px;
 
     @media (min-width: $tablet) {
       font-size: 100px;
@@ -20,11 +21,98 @@
     }
   }
 
+  .main-header {
+    font-size: 19px;
+    line-height: 1.4em;
+    letter-spacing: 0.05em;
+    margin-bottom: 1.5rem;
+    overflow-wrap: break-word;
+
+    @media (min-width: $tabletHorizontal) {
+      font-size: 25px;
+      margin-bottom: 3rem;
+    }
+
+    @media (min-width: $laptop) {
+      margin-bottom: 4rem;
+      margin-right: 2rem;
+    }
+
+    @media (min-width: $desktop) {
+      margin-top: 4rem;
+    }
+  }
+
+  .page-header {
+    display: flex;
+
+    @media (min-width: $tablet) {
+      align-items: baseline;
+    }
+  }
+
+  .page-title {
+    font-size: 43px;
+    line-height: 1em;
+    font-weight: bold;
+    letter-spacing: -0.1em;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 15px;
+
+    @media (min-width: $tablet) {
+      font-size: 100px;
+    }
+
+    @media (min-width: $laptop) {
+      font-size: 176px;
+    }
+  }
+
+  .box {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 3rem;
+
+    @media (min-width: $laptop) {
+      padding: 0 7vw;
+    }
+
+    @media (min-width: $desktop) {
+      padding: 0 18vw;
+    }
+
+    @media (min-width: $desktopL) {
+      padding: 0 22vw;
+    }
+  }
+
   p {
     letter-spacing: 0.05em;
     line-height: 1.4em;
+    overflow-wrap: break-word;
+    font-size: 17px;
+
+    @media (min-width: $tabletHorizontal) {
+      font-size: 20px;
+    }
   }
 
+  .pink {
+    color: $pink;
+  }
+
+  .dark {
+    color: $darkGrey;
+  }
+
+  .grey {
+    color: $lightGrey;
+  }
+
+  .mint {
+    color: $mint;
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {

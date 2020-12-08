@@ -24,7 +24,7 @@ const Navbar = ({ location }) => {
     const onClose = () => {
         setBurgerOpen(false);
         setStatus('close');
-        window.scrollTo({ top: 550, behavior: 'smooth' });
+        window.scrollTo({ top: 540, behavior: 'smooth' });
     }
 
     const scrollToBottom = () => { // <-------------------- naprawić zeby działał poprawnie nie tylko na głównej!

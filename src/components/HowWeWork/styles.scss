@@ -1,0 +1,43 @@
+@import '../../utils/colors.scss';
+@import '../../utils/media.scss';
+
+.HowWeWork {
+    margin-top: 1.5rem;
+
+    .num-span {
+        color: $mint;
+    }
+
+    .smaller {
+        @media (min-width: $tablet) {
+            font-size: 90px;
+        }
+        @media (min-width: $laptop) {
+            font-size: 100px;
+        }
+        @media (min-width: $desktop) {
+            font-size: 111px;
+        }
+    }
+
+    &-content {
+        padding-top: 2rem;
+
+        .number-small,
+        .header-small {
+            font-family: 'Oswald', sans-serif;
+            font-weight: 600;
+        }
+
+        .number-small {
+            font-size: 39px;
+        }
+
+        .header-small {
+            font-size: 27px;
+            @media (min-width: $tablet) {
+                font-size: 37px;
+            }
+        }
+    }
+}
