@@ -78,9 +78,7 @@
             }
 
             & p {
-                line-height: 1.4em;
                 font-size: 20px;
-                letter-spacing: 0.05em;
             }
 
             @media (min-width: $laptop) {
@@ -225,10 +223,8 @@
         }
 
         & p {
-            line-height: 1.4em;
             font-size: 20px;
             margin-bottom: 0;
-            letter-spacing: 0.05em;
         }
 
         @media (min-width: $tablet) {
@@ -310,10 +306,8 @@
         }
 
         p {
-            line-height: 1.4em;
             text-align: center;
             font-size: 18px;
-            letter-spacing: 0.05em;
 
             @media (min-width: $laptop) {
                 font-size: 20px;
@@ -341,7 +335,12 @@
         }
     }
 
+    @media (min-width: $tablet) {
+        margin-top: 4rem;
+    }
+
     @media (min-width: $laptop) {
+        margin-top: 7rem;
         padding: 0 15vw;
     }
 
