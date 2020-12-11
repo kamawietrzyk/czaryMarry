@@ -28,8 +28,11 @@
         }
 
         @media (min-width: $desktopL) {
-            top: -1%;
-            left: 25%;
+            left: 30%;
+        }
+
+        @media (min-width: 2100px) {
+            top: 0;
         }
 
         & .hello {
@@ -84,13 +87,17 @@
             @media (min-width: $laptop) {
                 padding-right: 1.6rem;
                 padding-left: 2rem;
-                width: 28rem;
+                width: 24rem;
                 padding-top: 4rem;
             }
 
             @media (min-width: $desktop) {
                 width: 29rem;
                 padding-top: 0;
+            }
+
+            @media (min-width: $desktopL) {
+                width: 40rem;
             }
         }
 
@@ -100,18 +107,22 @@
             img {
                 border-radius: 5px;
                 width: 100%;
+                object-fit: cover;
             }
         }
 
         @media (min-width: $laptop) {
             width: 100%;
-            display: flex;
-            justify-content: center;
+            grid-template-columns: .8fr 1.2fr;
+            grid-template-rows: auto;
+            grid-template-areas:
+            "text pic";
             align-items: center;
         }
 
         @media (min-width: $desktopL) {
-            justify-content: space-evenly;
+            grid-template-columns: .8fr 1fr;
+            grid-template-rows: auto;
         }
     }
 
@@ -252,7 +263,7 @@
             margin-top: 1.5rem;
             margin-bottom: 2.5rem;
 
-            div.box {
+            div.ig-box {
                 width: 100%;
                 height: auto;
                 position: relative;
@@ -287,6 +298,10 @@
 
                     @media (min-width: $laptop) {
                         max-height: 22rem;
+                    }
+
+                    @media (min-width: $desktop) {
+                        max-height: 27rem;
                     }
                 }
             }

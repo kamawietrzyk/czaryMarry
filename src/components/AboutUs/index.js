@@ -3,29 +3,31 @@ import './styles.scss';
 import kasia from './kasia.jpg';
 import ola from './ola.jpg';
 import ArrowToTop from '../ArrowToTop';
+import ScrollToTopOnMount from '../ScrollToTopOnMount';
 
 const AboutUs = () => {
 
     return (
-        <div className="AboutUs">
+        <div className="AboutUs main-div">
+            <ScrollToTopOnMount />
             <ArrowToTop />
-            <div className="AboutUs-header">
-                <span className="AboutUs-header_num number">01</span>
-                <h2>O nas</h2>
+            <div className="page-header">
+                <span className="num-span number">01</span>
+                <h2 className="page-title">O nas</h2>
             </div>
             <div className="AboutUs-content">
-                <h1><b>Agencja Ślubna Czary Marry</b> - firma, która powstała na bazie <span><br /></span>15-letniej przyjaźni.</h1>
+                <h1 className="main-header"><b>Agencja Ślubna Czary Marry</b> - firma, która powstała na bazie <span><br /></span>15-letniej przyjaźni.</h1>
                 <p>
                     Tworzymy piękne uroczystości, pełne uśmiechów, wzruszeń i chwil spędzonych z bliskimi. W swoim towarzystwie czujemy się bezpiecznie, swobodnie i wiemy, że razem możemy więcej, bo idealnie się uzupełniamy.<br /> Myślimy „weselami” – zawsze i wszędzie szukamy nowych inspiracji i pomysłów, dzięki czemu z powodzeniem realizujemy zarówno te piękne, klasyczne wesela, jak i te szalone i nieszablonowe. Nie potrafimy też przestać gadać o ślubach i weselach. Codziennością są już nasze długie rozmowy o branży, trendach, naszych ślubnych pomysłach i rozwiązaniach dla naszych Parach.
                 </p>
-                <div className="AboutUs-content_kasia">
+                <div className="content-div kasia">
                     <h2 className="text-right">Kasia.</h2>
                     <div className="pic">
                         <img src={kasia} alt="Kasia konsultantka ślubna" />
                     </div>
                     <p>Projektuje niepowtarzalne uroczystości, dopasowane indywidualnie do każdej Pary. Nieszablonowa, kreatywna, bezkompromisowa. Przywiązuje dużą wagę do detali, każdy element na weselu musi do siebie pasować. W organizowanych przez nią uroczystościach nie znajdziecie przypadkowych elementów. Zwraca uwagę na wszystkie szczegóły, dzięki czemu jej pary młode mają zawsze poczucie pełnej kontroli. Jej zaangażowanie, entuzjazm, otwartość i wyjątkowy talent do nawiązywania kontaktów sprawia, że w jej towarzystwie znakomicie poczujecie się Wy, Wasi goście, jak i wykonawcy.</p>
                 </div>
-                <div className="AboutUs-content_ola">
+                <div className="content-div ola">
                     <h2>Ola.</h2>
                     <div className="pic">
                         <img src={ola} alt="Ola konsultantka ślubna" />

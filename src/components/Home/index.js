@@ -11,7 +11,8 @@ import ArrowToTop from '../ArrowToTop';
 import instaPic1 from './instaPic1.jpg';
 import instaPic2 from './instaPic2.jpg';
 import instaPic3 from './instaPic3.jpg';
-import konsultantki from './konsultantki.jpg';
+import konsultantki from './konsultantki-slubne-czary-marry-home.jpg';
+import ScrollToTopOnMount from '../ScrollToTopOnMount';
 
 class Home extends Component {
     state = {
@@ -47,6 +48,7 @@ class Home extends Component {
 
         return (
             <div className="Home">
+                <ScrollToTopOnMount />
                 <ArrowToTop />
                 <div className="Home-helloBox">
                     <Link className="hello" to={URLS.ABOUT}>Cześć.</Link>
@@ -61,7 +63,7 @@ class Home extends Component {
                         </div>
                     </div>
                     <div className="Home-topContainer_pic">
-                        <img alt="Kasia i Ola z Czary Marry" src={konsultantki} />
+                        <img src={konsultantki} alt="konsultantki ślubne z agencji ślubnej Czary Marry - organizatorki ślubów i wesel" />
                     </div>
                 </div>
                 <h2>Poznajmy <b>się!</b></h2>
@@ -116,7 +118,7 @@ class Home extends Component {
                     <div className="Home-bottomContainer_instaPics">
                         {instaPics.map(({ src, alt }) => (
                             <a href="https://www.instagram.com/wedding_czarymarry/" target="_blank" rel="noopener noreferrer">
-                                <div className="box">
+                                <div className="ig-box">
                                     <img src={src} alt={alt} />
                                     <div className="overlay"></div>
                                 </div>

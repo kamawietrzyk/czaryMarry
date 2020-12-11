@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <>
             <Navbar />
-            <div className="Header"></div>
+            <div className="Header" title="Sesja stylizowana - realizacja Czary Marry wedding planner"></div>
         </>
     )
 }

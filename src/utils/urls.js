@@ -4,7 +4,8 @@ const URLS = {
     WORK: '/jak-pracujemy',
     COUPLES: '/realizacje',
     OFFER: '/oferta',
-    BLOG: '/blog'
+    BLOG: '/blog-1',
+    CONTACT: '/kontakt'
 }
 
 export default URLS

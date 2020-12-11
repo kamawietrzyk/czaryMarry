@@ -11,27 +11,39 @@ const tabs = [
     { name: 'oferta', label: 'Oferta', url: URLS.OFFER },
     { name: 'blog', label: 'Blog', url: URLS.BLOG }
 ]
-const Navbar = ({ location }) => {
+const Navbar = () => {
 
     const [burgerOpen, setBurgerOpen] = useState(false);
     const [status, setStatus] = useState('close');
 
     const toggleBurger = () => {
         setBurgerOpen(!burgerOpen);
-        setStatus( status === 'open' ? 'close' : 'open');
+        setStatus(status === 'open' ? 'close' : 'open');
     }
 
     const onClose = () => {
         setBurgerOpen(false);
         setStatus('close');
-        window.scrollTo({ top: 550, behavior: 'smooth' });
+        window.scrollTo({ top: 540, behavior: 'smooth' });
     }
 
-    const scrollToBottom = () => { // <-------------------- naprawić zeby działał poprawnie nie tylko na głównej!
-        const element = document.getElementById('contact');
+    const scrollToBottom = () => {
+        const element = document.getElementById('footer');
         const y = element.getBoundingClientRect().top + window.pageYOffset;
         window.scrollTo({ top: y, behavior: 'smooth' });
     };
+
+    const timeOutScroll = () => {
+        setTimeout(() => {scrollToBottom()}, 300);
+    }
+
+    const scrollToContactMobile = () => {
+        setBurgerOpen(false);
+        setStatus('close');
+        const element = document.getElementById('contact');
+        const y = element.getBoundingClientRect().top + window.pageYOffset;
+        window.scrollTo({ top: y, behavior: 'smooth' });
+    }
 
     const scrollToStart = () => {
         window.scrollTo({ top: 780, behavior: 'smooth' });
@@ -58,16 +70,16 @@ const Navbar = ({ location }) => {
                                     to={url}
                                     onClick={scrollToStart}
                                     role="tab"
-                                    className={`nav-item nav-link ${url === location.pathname && 'active'}`}>
+                                    className="nav-item nav-link">
                                     {label}
                                 </Link>
                             ))}
                             <Link
                                 key="kontakt"
-                                to={URLS.HOME}
-                                onClick={scrollToBottom}
+                                to={URLS.CONTACT}
+                                onClick={timeOutScroll}
                                 role="tab"
-                                className={`nav-item nav-link ${URLS.HOME === location.pathname && 'active'}`}>
+                                className="nav-item nav-link">
                                 Kontakt
                             </Link>
                         </div>
@@ -82,15 +94,16 @@ const Navbar = ({ location }) => {
                             to={url}
                             onClick={onClose}
                             role="tab"
-                            className={`nav-item nav-link ${url === location.pathname && 'active'}`}>
+                            className="nav-item nav-link">
                             {label}
                         </Link>
                     ))}
                     <Link
                         key="kontakt"
                         to={URLS.HOME}
+                        onClick={scrollToContactMobile}
                         role="tab"
-                        className={`nav-item nav-link ${URLS.HOME === location.pathname && 'active'}`}>
+                        className="nav-item nav-link">
                         Kontakt
                     </Link>
                 </div>
