@@ -7,7 +7,7 @@ import ArrowToTop from '../ArrowToTop';
 const AboutUs = () => {
 
     return (
-        <div className="AboutUs box">
+        <div className="AboutUs main-div">
             <ArrowToTop />
             <div className="page-header">
                 <span className="num-span number">01</span>

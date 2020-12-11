@@ -1,14 +1,14 @@
 import React from 'react';
 import Contact from '../Contact';
 import './styles.scss';
-import footerPic from './footerPic.jpg';
+import footerPic from './konsultantki-slubne-czary-marry-kontakt.jpg';
 
 const Footer = () => {
 
     return (
         <div className="Footer">
             <div className="Footer-box">
-                <img src={footerPic} alt="Stopka Kasia i Ola" />
+                <img src={footerPic} alt="konsultantki ślubne z agencji ślubnej Czary Marry - organizatorki ślubów i wesel" />
                 <div className="Footer-box_text">
                     <h2>Napisz <span>do nas!</span></h2>
                     <p>kontakt@czarymarry.com</p>

@@ -58,7 +58,7 @@ const Navbar = ({ location }) => {
                                     to={url}
                                     onClick={scrollToStart}
                                     role="tab"
-                                    className={`nav-item nav-link ${url === location.pathname && 'active'}`}>
+                                    className="nav-item nav-link">
                                     {label}
                                 </Link>
                             ))}
@@ -67,7 +67,7 @@ const Navbar = ({ location }) => {
                                 to={URLS.HOME}
                                 onClick={scrollToBottom}
                                 role="tab"
-                                className={`nav-item nav-link ${URLS.HOME === location.pathname && 'active'}`}>
+                                className="nav-item nav-link">
                                 Kontakt
                             </Link>
                         </div>
@@ -82,7 +82,7 @@ const Navbar = ({ location }) => {
                             to={url}
                             onClick={onClose}
                             role="tab"
-                            className={`nav-item nav-link ${url === location.pathname && 'active'}`}>
+                            className="nav-item nav-link">
                             {label}
                         </Link>
                     ))}
@@ -90,7 +90,7 @@ const Navbar = ({ location }) => {
                         key="kontakt"
                         to={URLS.HOME}
                         role="tab"
-                        className={`nav-item nav-link ${URLS.HOME === location.pathname && 'active'}`}>
+                        className="nav-item nav-link">
                         Kontakt
                     </Link>
                 </div>

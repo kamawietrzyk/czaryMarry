@@ -15,7 +15,7 @@
             object-fit: cover;
 
             @media (min-width: $desktop) {
-                max-height: 40rem;
+                max-height: 46rem;
             }
         }
 
@@ -69,7 +69,7 @@
                     }
 
                     @media (min-width: $desktop) {
-                        padding-top: 95%;
+                        padding-top: 100%;
                     }
                 }
             }

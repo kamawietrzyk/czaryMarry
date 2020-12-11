@@ -80,6 +80,10 @@
 
                 & .text {
                     margin-left: 10vw;
+
+                    @media (min-width: $tablet) {
+                        margin-left: 8vw;
+                    }
                 }
 
                 & .flipped {
@@ -92,12 +96,16 @@
                         margin-left: 55vw;
                     }
 
-                    @media (min-width: $tablet) {
+                    @media (min-width: $laptop) {
+                        margin-left: 60vw;
+                    }
+
+                    @media (min-width: $desktop) {
                         margin-left: 67vw;
                     }
 
                     @media (min-width: $desktopL) {
-                        margin-left: 37vw;
+                        margin-left: 36vw;
                     }
                 }
 

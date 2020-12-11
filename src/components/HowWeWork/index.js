@@ -13,7 +13,7 @@ const details = [
 ]
 
 const HowWeWork = () => (
-    <div className="HowWeWork box">
+    <div className="HowWeWork">
         <ArrowToTop />
         <div className="page-header">
             <span className="num-span number">02</span>
@@ -23,26 +23,28 @@ const HowWeWork = () => (
             <h1 className="main-header">
                 Zobacz, jakie wartości cenimy w pracy <b>wedding plannera</b> oraz jaki mamy styl pracy.
             </h1>
-            <div>
-                <h2 className="number-small pink">01</h2>
-                <p>Nie mamy sztywnych godzin pracy. Jesteśmy do Waszej dyspozycji bez limitu, o każdej porze dnia. To Wy decydujecie, jaka forma kontaktu jest dla Was najlepsza. Spotkanie przy kawie, rozmowa telefoniczna, e-mail, WhatsApp, Skype – wszędzie nas złapiecie.</p>
-            </div>
-            <div>
-                <h2 className="number-small dark">02</h2>
-                <p>Podczas przygotowań oraz koordynacji Waszego ślubu i wesela pracujemy we dwie. Dzięki temu proces przygotowań przebiega sprawnie i bezbłędnie, a Wy otrzymujecie dwa razy większe pokłady kreatywności oraz piękne, spójne i dopracowane w detalach wesele.</p>
-            </div>
-            <div>
-                <h2 className="number-small mint">03</h2>
-                <p>W kontaktach z parami stawiamy na szczerość i bezpośredni, przyjazny kontakt. Pozwala to na sprawną komunikację, lepsze poznanie Waszych oczekiwań oraz dużą oszczędność czasu i frustracji podczas organizacji ślubu i wesela.</p>
-            </div>
-            <div>
-                <h2 className="number-small grey">04</h2>
-                <p>Przy wyborze wykonawców kierujemy się ich umiejętnościami, profesjonalizmem i zaangażowaniem. Zależy nam, aby styl ich pracy pasował do  Was i Waszej wizji ślubu i wesela.</p>
+            <div className="HowWeWork-content_grid">
+                <div className="div-one">
+                    <h2 className="number-small pink">01</h2>
+                    <p>Nie mamy sztywnych godzin pracy. Jesteśmy do Waszej dyspozycji bez limitu, o każdej porze dnia. To Wy decydujecie, jaka forma kontaktu jest dla Was najlepsza. Spotkanie przy kawie, rozmowa telefoniczna, e-mail, WhatsApp, Skype – wszędzie nas złapiecie.</p>
+                </div>
+                <div className="div-two">
+                    <h2 className="number-small dark">02</h2>
+                    <p>Podczas przygotowań oraz koordynacji Waszego ślubu i wesela pracujemy we dwie. Dzięki temu proces przygotowań przebiega sprawnie i bezbłędnie, a Wy otrzymujecie dwa razy większe pokłady kreatywności oraz piękne, spójne i dopracowane w detalach wesele.</p>
+                </div>
+                <div className="div-three">
+                    <h2 className="number-small mint">03</h2>
+                    <p>W kontaktach z parami stawiamy na szczerość i przyjazny, bezpośredni kontakt. Pozwala to na sprawną komunikację, lepsze poznanie Waszych oczekiwań oraz dużą oszczędność czasu i frustracji podczas organizacji ślubu i wesela.</p>
+                </div>
+                <div className="div-four">
+                    <h2 className="number-small grey">04</h2>
+                    <p>Przy wyborze wykonawców kierujemy się ich umiejętnościami, profesjonalizmem i zaangażowaniem. Zależy nam, aby styl ich pracy pasował do  Was i Waszej wizji ślubu i wesela.</p>
+                </div>
             </div>
             {details.map(({ title, text, color }) => (
                 <div>
                     <h2 className={`header-small ${color}`}>{title}</h2>
-                    <p>{text}</p>
+                    <p className="work-p">{text}</p>
                 </div>
             ))}
         </div>
