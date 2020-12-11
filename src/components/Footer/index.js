@@ -6,7 +6,7 @@ import footerPic from './konsultantki-slubne-czary-marry-kontakt.jpg';
 const Footer = () => {
 
     return (
-        <div className="Footer">
+        <div className="Footer" id="footer">
             <div className="Footer-box">
                 <img src={footerPic} alt="konsultantki ślubne z agencji ślubnej Czary Marry - organizatorki ślubów i wesel" />
                 <div className="Footer-box_text">

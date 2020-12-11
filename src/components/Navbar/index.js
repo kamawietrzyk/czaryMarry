@@ -28,10 +28,18 @@ const Navbar = ({ location }) => {
     }
 
     const scrollToBottom = () => { // <-------------------- naprawić zeby działał poprawnie nie tylko na głównej!
-        const element = document.getElementById('contact');
+        const element = document.getElementById('footer');
         const y = element.getBoundingClientRect().top + window.pageYOffset;
         window.scrollTo({ top: y, behavior: 'smooth' });
     };
+
+    const scrollToContactMobile = () => {
+        setBurgerOpen(false);
+        setStatus('close');
+        const element = document.getElementById('footer');
+        const y = element.getBoundingClientRect().top + window.pageYOffset;
+        window.scrollTo({ top: y, behavior: 'smooth' });
+    }
 
     const scrollToStart = () => {
         window.scrollTo({ top: 780, behavior: 'smooth' });
@@ -89,6 +97,7 @@ const Navbar = ({ location }) => {
                     <Link
                         key="kontakt"
                         to={URLS.HOME}
+                        onClick={scrollToContactMobile}
                         role="tab"
                         className="nav-item nav-link">
                         Kontakt

@@ -122,7 +122,7 @@ class Contact extends Component {
             )
         }
         return (
-            <div className="Contact" id="contact">
+            <div className="Contact">
                 <div className="Contact-main">
                     <div className="Contact-main_icons">
                         {icons.map(({ src, alt }) => (
