@@ -12,6 +12,7 @@ import instaPic1 from './instaPic1.jpg';
 import instaPic2 from './instaPic2.jpg';
 import instaPic3 from './instaPic3.jpg';
 import konsultantki from './konsultantki-slubne-czary-marry-home.jpg';
+import ScrollToTopOnMount from '../ScrollToTopOnMount';
 
 class Home extends Component {
     state = {
@@ -47,6 +48,7 @@ class Home extends Component {
 
         return (
             <div className="Home">
+                <ScrollToTopOnMount />
                 <ArrowToTop />
                 <div className="Home-helloBox">
                     <Link className="hello" to={URLS.ABOUT}>Cześć.</Link>

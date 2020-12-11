@@ -19,6 +19,7 @@ function App() {
         <Route exact path={URLS.HOME} component={Home} />
         <Route exact path={URLS.ABOUT} component={AboutUs} />
         <Route exact path={URLS.WORK} component={HowWeWork} />
+        <Route exact path={URLS.CONTACT} component={Home} />
       </Switch>
       <Footer />
     </div>

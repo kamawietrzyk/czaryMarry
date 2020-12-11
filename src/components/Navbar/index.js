@@ -11,14 +11,14 @@ const tabs = [
     { name: 'oferta', label: 'Oferta', url: URLS.OFFER },
     { name: 'blog', label: 'Blog', url: URLS.BLOG }
 ]
-const Navbar = ({ location }) => {
+const Navbar = () => {
 
     const [burgerOpen, setBurgerOpen] = useState(false);
     const [status, setStatus] = useState('close');
 
     const toggleBurger = () => {
         setBurgerOpen(!burgerOpen);
-        setStatus( status === 'open' ? 'close' : 'open');
+        setStatus(status === 'open' ? 'close' : 'open');
     }
 
     const onClose = () => {
@@ -27,16 +27,20 @@ const Navbar = ({ location }) => {
         window.scrollTo({ top: 540, behavior: 'smooth' });
     }
 
-    const scrollToBottom = () => { // <-------------------- naprawić zeby działał poprawnie nie tylko na głównej!
+    const scrollToBottom = () => {
         const element = document.getElementById('footer');
         const y = element.getBoundingClientRect().top + window.pageYOffset;
         window.scrollTo({ top: y, behavior: 'smooth' });
     };
 
+    const timeOutScroll = () => {
+        setTimeout(() => {scrollToBottom()}, 300);
+    }
+
     const scrollToContactMobile = () => {
         setBurgerOpen(false);
         setStatus('close');
-        const element = document.getElementById('footer');
+        const element = document.getElementById('contact');
         const y = element.getBoundingClientRect().top + window.pageYOffset;
         window.scrollTo({ top: y, behavior: 'smooth' });
     }
@@ -72,8 +76,8 @@ const Navbar = ({ location }) => {
                             ))}
                             <Link
                                 key="kontakt"
-                                to={URLS.HOME}
-                                onClick={scrollToBottom}
+                                to={URLS.CONTACT}
+                                onClick={timeOutScroll}
                                 role="tab"
                                 className="nav-item nav-link">
                                 Kontakt

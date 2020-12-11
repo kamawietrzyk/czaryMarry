@@ -2,6 +2,7 @@ import React from 'react'
 import ArrowToTop from '../ArrowToTop'
 import './styles.scss'
 import '../../utils/colors.scss'
+import ScrollToTopOnMount from '../ScrollToTopOnMount'
 
 const details = [
     { title: "Spotkanie", text: "Pierwszy i niezbędny etap organizacji wesela. Dla nas to świetna okazja, żeby posłuchać o Waszej wizji ślubu i wesela, odpowiedzieć na pytania oraz ustalić zakres naszych obowiązków. Dla Was, żeby przekonać się, czy dobrze czujecie się w naszym towarzystwie i czy nadajemy na tych samych falach. Na spotkanie możecie umówić się telefonicznie lub mailowo. Złapiecie na również na Instagram, Facebook oraz WhatsApp. Możemy spotkać się przy kawie lub online, wszystko zależy od Was.", color: "pink" },
@@ -14,6 +15,7 @@ const details = [
 
 const HowWeWork = () => (
     <div className="HowWeWork">
+        <ScrollToTopOnMount />
         <ArrowToTop />
         <div className="page-header">
             <span className="num-span number">02</span>

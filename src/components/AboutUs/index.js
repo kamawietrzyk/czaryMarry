@@ -3,11 +3,13 @@ import './styles.scss';
 import kasia from './kasia.jpg';
 import ola from './ola.jpg';
 import ArrowToTop from '../ArrowToTop';
+import ScrollToTopOnMount from '../ScrollToTopOnMount';
 
 const AboutUs = () => {
 
     return (
         <div className="AboutUs main-div">
+            <ScrollToTopOnMount />
             <ArrowToTop />
             <div className="page-header">
                 <span className="num-span number">01</span>

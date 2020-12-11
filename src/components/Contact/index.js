@@ -109,7 +109,7 @@ class Contact extends Component {
 
         if (messageSuccess === 'success' || messageSuccess === 'error') {
             return (
-                <div className="Contact" id="contact">
+                <div className="Contact">
                     <div className="Contact-main">
                         <div className="Contact-main_form">
                             <p className={`${messageSuccess === 'success' && 'text-success'} ${messageSuccess === 'error' && 'text-danger'}`} style={{ textAlign: 'center', marginTop: '1rem', fontSize: '1.25rem' }}>
@@ -131,7 +131,7 @@ class Contact extends Component {
                             </div>
                         ))}
                     </div>
-                    <div className="Contact-main_form">
+                    <div className="Contact-main_form" id="contact">
                         <form className="pageclip-form">
                             <div className="form-group">
                                 <input value={name} onChange={e => this.handleInput(e)} type="text" className="form-control" id="exampleInputName" name="name" aria-describedby="name" placeholder="Imię" required />
