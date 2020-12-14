@@ -1,0 +1,28 @@
+@import '../../utils/colors.scss';
+@import '../../utils/media.scss';
+
+.OurCouples {
+
+    .number {
+        color: $lightGrey;
+    }
+
+    .smaller {
+        @media (min-width: $tablet) {
+            font-size: 112px;
+        }
+
+        @media (min-width: $laptop) {
+            font-size: 100px;
+            margin-left: 30px;
+        }
+
+        @media (min-width: $desktop) {
+            font-size: 112px;
+        }
+
+        @media (min-width: 1950px) {
+            font-size: 176px;
+        }
+    }
+}

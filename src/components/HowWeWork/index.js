@@ -4,6 +4,12 @@ import './styles.scss'
 import '../../utils/colors.scss'
 import ScrollToTopOnMount from '../ScrollToTopOnMount'
 
+const gridDetails = [
+    { gridName: "div-one", color: "pink", number: "01", text: "Nie mamy sztywnych godzin pracy. Jesteśmy do Waszej dyspozycji bez limitu, o każdej porze dnia. To Wy decydujecie, jaka forma kontaktu jest dla Was najlepsza. Spotkanie przy kawie, rozmowa telefoniczna, e-mail, WhatsApp, Skype – wszędzie nas złapiecie." },
+    { gridName: "div-two", color: "dark", number: "02", text: "Podczas przygotowań oraz koordynacji Waszego ślubu i wesela pracujemy we dwie. Dzięki temu proces przygotowań przebiega sprawnie i bezbłędnie, a Wy otrzymujecie dwa razy większe pokłady kreatywności oraz piękne, spójne i dopracowane w detalach wesele." },
+    { gridName: "div-three", color: "mint", number: "03", text: "W kontaktach z parami stawiamy na szczerość i przyjazny, bezpośredni kontakt. Pozwala to na sprawną komunikację, lepsze poznanie Waszych oczekiwań oraz dużą oszczędność czasu i frustracji podczas organizacji ślubu i wesela." },
+    { gridName: "div-four", color: "grey", number: "04", text: "Przy wyborze wykonawców kierujemy się ich umiejętnościami, profesjonalizmem i zaangażowaniem. Zależy nam, aby styl ich pracy pasował do  Was i Waszej wizji ślubu i wesela." }
+]
 const details = [
     { title: "Spotkanie", text: "Pierwszy i niezbędny etap organizacji wesela. Dla nas to świetna okazja, żeby posłuchać o Waszej wizji ślubu i wesela, odpowiedzieć na pytania oraz ustalić zakres naszych obowiązków. Dla Was, żeby przekonać się, czy dobrze czujecie się w naszym towarzystwie i czy nadajemy na tych samych falach. Na spotkanie możecie umówić się telefonicznie lub mailowo. Złapiecie na również na Instagram, Facebook oraz WhatsApp. Możemy spotkać się przy kawie lub online, wszystko zależy od Was.", color: "pink" },
     { title: "Oferta", text: "Po rozmowie, jeszcze tego samego dnia otrzymacie od nas szczegółową ofertę. Znajdziecie w niej zakres naszych usług, wycenę oraz szczegóły naszej współpracy.", color: "dark" },
@@ -26,24 +32,14 @@ const HowWeWork = () => (
                 Zobacz, jakie wartości cenimy w pracy <b>wedding plannera</b> oraz jaki mamy styl pracy.
             </h1>
             <div className="HowWeWork-content_grid">
-                <div className="div-one">
-                    <h2 className="number-small pink">01</h2>
-                    <p>Nie mamy sztywnych godzin pracy. Jesteśmy do Waszej dyspozycji bez limitu, o każdej porze dnia. To Wy decydujecie, jaka forma kontaktu jest dla Was najlepsza. Spotkanie przy kawie, rozmowa telefoniczna, e-mail, WhatsApp, Skype – wszędzie nas złapiecie.</p>
-                </div>
-                <div className="div-two">
-                    <h2 className="number-small dark">02</h2>
-                    <p>Podczas przygotowań oraz koordynacji Waszego ślubu i wesela pracujemy we dwie. Dzięki temu proces przygotowań przebiega sprawnie i bezbłędnie, a Wy otrzymujecie dwa razy większe pokłady kreatywności oraz piękne, spójne i dopracowane w detalach wesele.</p>
-                </div>
-                <div className="div-three">
-                    <h2 className="number-small mint">03</h2>
-                    <p>W kontaktach z parami stawiamy na szczerość i przyjazny, bezpośredni kontakt. Pozwala to na sprawną komunikację, lepsze poznanie Waszych oczekiwań oraz dużą oszczędność czasu i frustracji podczas organizacji ślubu i wesela.</p>
-                </div>
-                <div className="div-four">
-                    <h2 className="number-small grey">04</h2>
-                    <p>Przy wyborze wykonawców kierujemy się ich umiejętnościami, profesjonalizmem i zaangażowaniem. Zależy nam, aby styl ich pracy pasował do  Was i Waszej wizji ślubu i wesela.</p>
-                </div>
+                {gridDetails.map(({ gridName, color, number, text }) => (
+                    <div className={gridName}>
+                        <h2 className={`number-small ${color}`}>{number}</h2>
+                        <p>{text}</p>
+                    </div>
+                ))}
             </div>
-            {details.map(({ title, text, color }) => (
+            {details.map(({ title, color, text }) => (
                 <div>
                     <h2 className={`header-small ${color}`}>{title}</h2>
                     <p className="work-p">{text}</p>

@@ -1,0 +1,113 @@
+@import '../../utils/colors.scss';
+@import '../../utils/media.scss';
+
+.Offer {
+
+    .number {
+        color: $mint;
+    }
+
+    &-content {
+        padding-top: 1rem;
+
+        .main-header {
+            font-size: 17px;
+
+            @media (min-width: $tabletHorizontal) {
+                font-size: 21px;
+                margin-top: 0;
+            }
+
+            @media (min-width: $laptop) {
+                font-size: 25px;
+            }
+        }
+
+        &_grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(5, auto);
+            grid-row-gap: 1.5rem;
+
+            .num-small,
+            .title-small,
+            p {
+                color: white;
+            }
+
+            & .num-small {
+                font-size: 38px;
+                font-family: 'Oswald', sans-serif;
+                font-weight: 600;
+
+                @media (min-width: $tablet) {
+                    font-size: 65px;
+                }
+
+                @media (min-width: $laptop) {
+                    font-size: 115px;
+                    margin: auto 4rem;
+                }
+
+                @media (min-width: $desktop) {
+                    font-size: 176px;
+                }
+            }
+
+            .title-small {
+                font-size: 20px;
+                font-weight: 600;
+                letter-spacing: 0.08em;
+
+                @media (min-width: $tablet) {
+                    font-size: 23px;
+                }
+            }
+
+            div {
+                padding: .5rem;
+
+                @media (min-width: $tablet) {
+                    padding: 1rem;
+                }
+
+                @media (min-width: $laptop) {
+                    padding: auto 4rem;
+                }
+
+                @media (min-width: $desktop) {
+                    padding: auto 5rem;
+                }
+            }
+
+            @media (min-width: $laptop) {
+                grid-row-gap: 2.5rem;
+
+                .grid-box {
+                    display: flex;
+                    height: 25rem;
+                    padding-top: 10%;
+                    padding-bottom: 10%;
+
+                    &:nth-child(1) {
+                        .num-small {
+                            padding-right: 2%;
+                        }
+                    }
+
+                    p {
+                        font-size: 17px;
+                        margin-bottom: 0;
+                        margin-top: 1.75rem;
+                        width: 85%;
+                    }
+
+                }
+            }
+        }
+
+        @media (min-width: $laptop) {
+            padding-top: 2rem;
+        }
+    }
+}

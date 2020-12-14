@@ -12,7 +12,7 @@ const AboutUs = () => {
             <ScrollToTopOnMount />
             <ArrowToTop />
             <div className="page-header">
-                <span className="num-span number">01</span>
+                <span className="number">01</span>
                 <h2 className="page-title">O nas</h2>
             </div>
             <div className="AboutUs-content">

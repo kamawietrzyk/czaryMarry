@@ -21,6 +21,33 @@
     }
   }
 
+  .page-header {
+    display: flex;
+
+    @media (min-width: $tablet) {
+      align-items: baseline;
+    }
+  }
+
+  .page-title {
+    font-size: 43px;
+    line-height: 1em;
+    font-weight: bold;
+    letter-spacing: -0.1em;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 12px;
+    color: $darkGrey;
+
+    @media (min-width: $tablet) {
+      font-size: 100px;
+    }
+
+    @media (min-width: $laptop) {
+      font-size: 176px;
+    }
+  }
+
   .main-header {
     font-size: 19px;
     line-height: 1.4em;
@@ -40,32 +67,6 @@
 
     @media (min-width: $desktop) {
       margin-top: 4rem;
-    }
-  }
-
-  .page-header {
-    display: flex;
-
-    @media (min-width: $tablet) {
-      align-items: baseline;
-    }
-  }
-
-  .page-title {
-    font-size: 43px;
-    line-height: 1em;
-    font-weight: bold;
-    letter-spacing: -0.1em;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 15px;
-
-    @media (min-width: $tablet) {
-      font-size: 100px;
-    }
-
-    @media (min-width: $laptop) {
-      font-size: 176px;
     }
   }
 
@@ -112,6 +113,22 @@
 
   .mint {
     color: $mint;
+  }
+
+  .bgPink {
+    background-color: $pink;
+  }
+
+  .bgMint {
+    background-color: $mint;
+  }
+
+  .bgGrey {
+    background-color: $lightGrey;
+  }
+
+  .bgDark {
+    background-color: $darkGrey;
   }
 }
 
