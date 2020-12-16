@@ -8,7 +8,7 @@
     }
 
     &-content {
-        padding-top: 1rem;
+        margin-top: 1rem;
 
         .main-header {
             font-size: 17px;
@@ -19,11 +19,13 @@
             }
 
             @media (min-width: $laptop) {
-                font-size: 25px;
+                font-size: 24px;
+                margin-left: 2rem;
             }
         }
 
         &_grid {
+            margin-top: 2rem;
             display: grid;
             grid-template-columns: 1fr;
             grid-template-rows: repeat(5, auto);
@@ -31,11 +33,12 @@
 
             .num-small,
             .title-small,
+
             p {
                 color: white;
             }
 
-            & .num-small {
+            .num-small {
                 font-size: 38px;
                 font-family: 'Oswald', sans-serif;
                 font-weight: 600;
@@ -58,6 +61,7 @@
                 font-size: 20px;
                 font-weight: 600;
                 letter-spacing: 0.08em;
+                margin-top: 0.5rem;
 
                 @media (min-width: $tablet) {
                     font-size: 23px;
@@ -86,8 +90,6 @@
                 .grid-box {
                     display: flex;
                     height: 25rem;
-                    padding-top: 10%;
-                    padding-bottom: 10%;
 
                     &:nth-child(1) {
                         .num-small {
@@ -102,12 +104,17 @@
                         width: 85%;
                     }
 
+                    span {
+                        height: fit-content;
+                        align-self: center;
+                    }
+
                 }
             }
         }
 
-        @media (min-width: $laptop) {
-            padding-top: 2rem;
+        @media (min-width: $tabletHorizontal) {
+            margin-top: 2rem;
         }
     }
 }
