@@ -25,4 +25,51 @@
             font-size: 176px;
         }
     }
+
+    &-content {
+
+        &_grid {
+            margin-bottom: 2rem;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(2, auto);
+            grid-template-areas:
+            "description"
+            "photos";
+
+            & .description {
+                grid-area: description;
+                padding: 1rem;
+
+                .small-h, p {
+                    color: white;
+                }
+
+                .small-h {
+                    font-size: 18px;
+                    font-weight: 600;
+                    margin-bottom: .5rem;
+                }
+
+                p {
+                    font-size: 16px;
+                    letter-spacing: -0.05em;
+                    margin-bottom: 0;
+                }
+
+                a {
+                    color: white;
+                    text-decoration: underline;
+
+                    &:hover {
+                        color: $mediumGrey;
+                    }
+                }
+            }
+
+            .photos {
+                grid-area: photos;
+            }
+        }
+    }
 }
