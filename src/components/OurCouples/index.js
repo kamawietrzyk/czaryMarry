@@ -10,7 +10,7 @@ const weddings = [
     { bgColor: "bgPink", title: "Olga & Piotr", details: "To klimatyczna sesja stylizowana. Połączenie surowych ruin zamku oraz eleganckich dekoracji. Sesja była zorganizowana z myślą o parach, którym Covid-19 pokrzyżował weselne plany.", org: "Agencja Ślubna Czary Marry", orgLink: "", place: "Zamek Sarny", placeLink: "http://www.zameksarny.pl/", photo: "Małe Szare Studio", photoLink: "http://maleszarestudio.pl/", movie: "Sakramentalne tak", movieLink: "https://www.sakramentalnetak.com/", flowers: "Anello Decor", flowersLink: "https://www.facebook.com/anellodecor/"},
     { bgColor: "bgMint", title: "Ewelina & Łukasz", details: "Ślub kościelny w cudownej parkowej scenerii. Srebro, transparentność, morze kwiatów i namiot. Glamour w najczystszej formie, łączący się z pięknem otaczającej natury.", org: "Agencja Ślubna Czary Marry", orgLink: "", place: "Pałac Pstrokonie", placeLink: "http://palac-pstrokonie.pl/", photo: "Wawrzykowski Team", photoLink: "https://wawrzykowski.pl/", flowers: "Florodesign", flowersLink: "https://floro.pl/"},
     { bgColor: "bgGrey", title: "Nelli & Piotr", details: "Wesele w stodole. Romantyczne dekoracje, piękna pogoda i strefa chill z barmanem na zewnątrz, a w niedzielę brunch połączony z leżakowaniem na trawie.", org: "Agencja Ślubna Czary Marry", orgLink: "", place: "Folwark Wąsowo", placeLink: "Folwark Wąsowo", photo: "Svetlana Bennington", photoLink: "http://svetlanabennington.com/", flowers: "ArtSize", flowersLink: "http://www.artsize.pl/"},
-    { bgColor: "bgPink", title: "Basia & Mariusz", details: "Jesienne wesela mają w sobie magię. Mimo że za oknem zimno i szaro, nam udało się wyczarować niezwykły klimat. Pomógł nam półmrok za oknem, światło świec i odważne połączeniu kolorów.", org: "Agencja Ślubna Czary Marry", orgLink: "", place: "Rezydencja Miętowe Wzgórza", placeLink: "http://www.mietowewzgorza.pl/wesela.html", photo: "Marta Brodziak", photoLink: "http://martabrodziak.com/", movie: "MW Jackiewicz", movieLink: "http://www.mwjackiewicz.com/", flowers: "Unique", flowersLink: "https://www.facebook.com/unique.pracownia/"},
+    { bgColor: "bgPink", title: "Basia & Mariusz", details: "Jesienne wesela mają w sobie magię. Mimo że za oknem zimno i szaro, nam udało się wyczarować niezwykły klimat. Pomógł nam półmrok za oknem, światło świec i odważne połączenie kolorów.", org: "Agencja Ślubna Czary Marry", orgLink: "", place: "Rezydencja Miętowe Wzgórza", placeLink: "http://www.mietowewzgorza.pl/wesela.html", photo: "Marta Brodziak", photoLink: "http://martabrodziak.com/", movie: "MW Jackiewicz", movieLink: "http://www.mwjackiewicz.com/", flowers: "Unique", flowersLink: "https://www.facebook.com/unique.pracownia/"},
     { bgColor: "bgGrey", title: "Marta & Marek", details: "Nowoczesność, elegancja, minimalizm i 1000 kalii.", org: "Agencja Ślubna Czary Marry", orgLink: "", place: "Hotel Wodnik", placeLink: "http://wodnik-hotel.pl/", photo: "Bauaban Fotografia", photoLink: "https://bauaban.com/", flowers: "ArtSize", flowersLink: "http://www.artsize.pl/"},
     { bgColor: "bgMint", title: "Angie & Akshar", details: "To było typowe slow wedding. Goście spędzali czas na zewnątrz rozmawiając, grając w gry, popijając drinki. Było kameralnie i rodzinnie, czyli tak jak lubimy najbardziej.", org: "Agencja Ślubna Czary Marry", orgLink: "", place: "Folwark Białych Bocianów", placeLink: "https://www.folwarkbb.com/", photo: "Greg Solak", photoLink: "http://www.gregsolak.pl/Blog/", movie: "Greg Solak", movieLink: "http://www.gregsolak.pl/Blog/", flowers: "Marlena Chustecka", flowersLink: "https://www.facebook.com/pages/category/Artist/Chustecka-Marlena-1077253032301187/"}
 ]
@@ -26,13 +26,13 @@ const OurCouples = () => (
             <h1 className="main-header">
                 Takimi momentami należy się chwalić, dlatego zachęcamy do zapoznania się z naszymi realizacjami.
             </h1>
-            {weddings.map(({ bgColor, title, details, org, orgLink, place, placeLink, photo, photoLink, photoTwo, photoLinkTwo, movie, movieLink, flowers, flowersLink }) => (
-                <div className="OurCouples-content_grid">
+            {weddings.map(({ bgColor, title, details, org, orgLink, place, placeLink, photo, photoLink, photoTwo, photoLinkTwo, movie, movieLink, flowers, flowersLink }, index) => (
+                <div className={`OurCouples-content_grid ${index % 2 && "flipped"}`}>
                     <div className="photos">
                         <i>tu będzie komponent do przewijania zdjęć</i>
                     </div>
                     <div className={`description ${bgColor}`}>
-                        <h2 className="small-h">{title}</h2>
+                        <h2 className="top-h">{title}</h2>
                         <p>{details}</p>
                         <h2 className="small-h mt-3">Realizacja:</h2>
                         <span>
