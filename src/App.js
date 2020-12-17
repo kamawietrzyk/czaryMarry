@@ -10,6 +10,9 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import AboutUs from './components/AboutUs';
 import HowWeWork from './components/HowWeWork';
+import OurCouples from './components/OurCouples';
+import Offer from './components/Offer';
+import Blog from './components/Blog';
 
 function App() {
   return (
@@ -19,6 +22,9 @@ function App() {
         <Route exact path={URLS.HOME} component={Home} />
         <Route exact path={URLS.ABOUT} component={AboutUs} />
         <Route exact path={URLS.WORK} component={HowWeWork} />
+        <Route exact path={URLS.COUPLES} component={OurCouples} />
+        <Route exact path={URLS.BLOG} component={Blog} />
+        <Route exact path={URLS.OFFER} component={Offer} />
         <Route exact path={URLS.CONTACT} component={Home} />
       </Switch>
       <Footer />

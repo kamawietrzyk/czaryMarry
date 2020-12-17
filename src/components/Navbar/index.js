@@ -8,8 +8,8 @@ const tabs = [
     { name: 'o-nas', label: 'O nas', url: URLS.ABOUT },
     { name: 'praca', label: 'Jak pracujemy', url: URLS.WORK },
     { name: 'realizacje', label: 'Nasze pary', url: URLS.COUPLES },
-    { name: 'oferta', label: 'Oferta', url: URLS.OFFER },
-    { name: 'blog', label: 'Blog', url: URLS.BLOG }
+    { name: 'blog', label: 'Blog', url: URLS.BLOG },
+    { name: 'oferta', label: 'Oferta', url: URLS.OFFER }
 ]
 const Navbar = () => {
 
@@ -34,7 +34,7 @@ const Navbar = () => {
     };
 
     const timeOutScroll = () => {
-        setTimeout(() => {scrollToBottom()}, 300);
+        setTimeout(() => {scrollToBottom()}, 500);
     }
 
     const scrollToContactMobile = () => {
