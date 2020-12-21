@@ -27,7 +27,7 @@ class Contact extends Component {
 
         e.preventDefault();
         this.validateForm();
-        window.Pageclip.send("token", "CzaryMarry", { name, email, message, phone, subject }, (error) => {
+        window.Pageclip.send("qtY6MXh4eGBYBZt27o9IFLhtWEKvuYoC", "default", { name, email, message, phone, subject }, (error) => {
             if (!error) {
                 this.setState({ messageSuccess: 'success' });
                 this.resetForm();
@@ -47,11 +47,11 @@ class Contact extends Component {
                 break;
             case 'email':
                 emailValid = value.match(/^([\w.%+-]+)@([\w-]+\.)+([\w]{2,})$/i);
-                formErrors.email = emailValid ? '' : "Format e-maila jest nieprawidłowy!";
+                formErrors.email = emailValid ? '' : "Format e-maila jest nieprawidłowy";
                 break;
             case 'message':
                 messageValid = value.length > 0;
-                formErrors.message = messageValid ? '' : "Nie zapomnij wpisać treści!";
+                formErrors.message = messageValid ? '' : "Nie zapomnij wpisać treści";
                 break;
             case 'phone':
                 phoneValid = value.length > 0;
@@ -111,9 +111,16 @@ class Contact extends Component {
             return (
                 <div className="Contact">
                     <div className="Contact-main">
+                        <div className="Contact-main_icons">
+                            {icons.map(({ src, alt }) => (
+                                <div key={alt} className="icon-wrapper">
+                                    <img src={src} alt={alt} />
+                                </div>
+                            ))}
+                        </div>
                         <div className="Contact-main_form">
                             <p className={`${messageSuccess === 'success' && 'text-success'} ${messageSuccess === 'error' && 'text-danger'}`} style={{ textAlign: 'center', marginTop: '1rem', fontSize: '1.25rem' }}>
-                                {messageSuccess === 'success' && "Wiadomość została poprawnie wysłana!"}
+                                {messageSuccess === 'success' && "Wiadomość została poprawnie wysłana, dziękujemy!"}
                                 {messageSuccess === 'error' && "Ups, coś poszło nie tak! Spróbuj ponownie później."}
                             </p>
                         </div>
