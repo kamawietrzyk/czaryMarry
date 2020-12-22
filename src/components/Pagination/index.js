@@ -32,10 +32,13 @@ const Pagination = ({ onChange, currentPage, totalPages }) => {
                         </Link>
                     </li>
                     {pageNumbers.map(number => (
-                        <li key={number} className={`page-item mx-2 ${currentPage === number && "active"}`}>
+                        <li key={number} className={`numbers-desktop page-item mx-2 ${currentPage === number && "active"}`}>
                             <Link onClick={onChange(number, true)} className="page-link page-numbers" to=" ">{number}</Link>
                         </li>
                     ))}
+                    <li className="numbers-mobile page-item mx-3">
+                        <p>{currentPage}/{totalPages}</p>
+                    </li>
                     <li className={`page-item ml-1 ${currentPage === totalPages && 'disabled'}`}>
                         <Link onClick={onChange(1)} className="page-link" to=" ">
                             <div className="icon-wrapper">

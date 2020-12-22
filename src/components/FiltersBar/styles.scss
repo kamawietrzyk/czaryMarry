@@ -1,0 +1,45 @@
+@import '../../utils/colors.scss';
+@import '../../utils/media.scss';
+
+.FiltersBar {
+
+    a {
+        color: $textGrey;
+        font-weight: 600;
+
+        &:hover {
+            text-decoration: none;
+            color: $mint;
+        }
+    }
+    &-mobile {
+        .form-control {
+            border-radius: 0;
+        }
+
+        .form-group {
+            width: 100vw;
+            position: absolute;
+            top: 35%;
+        }
+
+        @media (min-width: $laptop) {
+            display: none;
+        }
+    }
+
+    &-desktop {
+        @media (max-width: 1023px) {
+            display: none;
+        }
+
+        @media (min-width: $laptop) {
+            display: flex;
+            justify-content: space-evenly;
+            background-color: white;
+            margin: 1rem auto;
+            padding: 2rem 1rem;
+            width: 95%;
+        }
+    }
+}

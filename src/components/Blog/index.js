@@ -6,6 +6,7 @@ import signal from '../Icons/signal.svg'
 import './styles.scss'
 import Pagination from '../Pagination'
 import PostPreview from '../PostPreview'
+import FiltersBar from '../FiltersBar'
 
 
 const posts = [
@@ -52,9 +53,15 @@ const Blog = () => {
                 </div>
             </div>
             <div className="Blog-content">
+                <p className="main-header">
+                    O ślubach i weselach wiemy dużo... naprawdę dużo. Dodatkowo bardzo lubimy dzielić się swoją wiedzą i doświadczeniem. Zapraszamy więc do naszego małego świata pełnego porad oraz inspiracji ślubnych. Mamy nadzieję, że czytając naszego bloga zobaczycie, jak bardzo uwielbiamy swoją pracę.
+                </p>
+                <div className="bg-grey">
+                    <FiltersBar />
+                </div>
                 <PostPreview posts={slicedPosts} />
-                <Pagination onChange={onPageChange} currentPage={currentPage} totalPages={totalPages} />
             </div>
+            <Pagination onChange={onPageChange} currentPage={currentPage} totalPages={totalPages} />
         </div>
     )
 }
