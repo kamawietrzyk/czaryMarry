@@ -2,6 +2,7 @@
 @import '../../utils/media.scss';
 
 .Blog {
+    position: relative;
 
     .number {
         color: $darkGrey;
@@ -30,35 +31,33 @@
         }
     }
 
-    &-content {
-        .main-header {
-            font-size: 17px;
-
-            @media (min-width: $tabletHorizontal) {
-                font-size: 21px;
-                margin-top: 0;
-            }
-
-            @media (min-width: $laptop) {
-                font-size: 24px;
-                margin-left: 2rem;
-            }
-        }
-
-        .bg-grey {
-            position: absolute;
-            left: 0;
-            width: 100%;
-            height: 8rem;
-            background-color: $darkGrey;
-
-            @media (min-width: $laptop) {
-                height: 16rem;
-            }
-        }
+    .main-header {
+        font-size: 17px;
 
         @media (min-width: $tabletHorizontal) {
-            margin-top: 3rem;
+            font-size: 21px;
+            margin-top: 0;
         }
+
+        @media (min-width: $laptop) {
+            font-size: 24px;
+            margin-left: 2rem;
+        }
+    }
+
+    .bg-grey {
+        position: absolute;
+        left: 0;
+        height: 8rem;
+        width: 100vw;
+        background-color: $darkGrey;
+
+        @media (min-width: $laptop) {
+            height: 17rem;
+        }
+    }
+
+    &-content {
+        margin-top: 20rem;
     }
 }

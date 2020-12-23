@@ -1,0 +1,20 @@
+.SearchInput {
+    display: flex;
+    align-items: baseline;
+    width: 30%;
+    max-width: 40%;
+    border-bottom: 1px solid black;
+
+    .icon {
+        width: .9rem;
+        height: .9rem;
+        cursor: pointer;
+    }
+
+    input {
+        border: none;
+        &:focus {
+            box-shadow: none;
+        }
+    }
+}

@@ -1,4 +1,5 @@
 import React from 'react'
+import './styles.scss'
 
 const PostPreview = ({ posts }) => (
     <div className="PostPreview">

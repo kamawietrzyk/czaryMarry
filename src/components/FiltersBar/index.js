@@ -1,9 +1,20 @@
 import React, { useState } from 'react'
+import magGlass from '../Icons/magGlass.svg'
+import SearchInput from '../SearchInput'
 import './styles.scss'
 
 const FiltersBar = () => {
 
     const [dropdownOpen, setDropdownOpen] = useState(false)
+    const [glassOpen, setGlassOpen] = useState(false)
+
+    const onIconClick = () => {
+        setGlassOpen(true)
+    }
+
+    const onClose = () => {
+        setGlassOpen(false)
+    }
 
     return (
         <div className="FiltersBar">
@@ -23,18 +34,25 @@ const FiltersBar = () => {
             <div className="FiltersBar-desktop">
                 <a href=" ">Wszystkie wpisy</a>
                 <a href=" ">Niezbędnik przedŚLUBNY</a>
-                <a href=" ">Opowiadamy o naszych realizacjach</a>
+                {!glassOpen && <a href=" ">Opowiadamy o naszych realizacjach</a>}
                 <div className="dropdown" onMouseOver={() => setDropdownOpen(true)} onMouseLeave={() => setDropdownOpen(false)}>
-                    <a className="dropdown-toggle" id="dropdownMenuButton" href=" " dataToggle="dropdown" ariaHaspopup="true" ariaExpanded="false">
+                    <a className="dropdown-toggle" onClick={(e) => e.preventDefault()} id="dropdownMenuButton" href=" " dataToggle="dropdown" ariaHaspopup="true" ariaExpanded="false">
                         Więcej
                     </a>
                     <div className={`dropdown-menu ${dropdownOpen && "show"}`} aria-labelledby="dropdownMenuButton">
+                        {glassOpen && <a className="dropdown-item" href=" ">Opowiadamy o naszych realizacjach</a>}
                         <a className="dropdown-item" href=" ">Wesela stulecia</a>
                         <a className="dropdown-item" href=" ">Ślubne opowieści, czyli wesela dawniej</a>
                         <a className="dropdown-item" href=" ">Śluby i wesela na świecie</a>
                         <a className="dropdown-item" href=" ">Podcast</a>
                     </div>
                 </div>
+                {!glassOpen ?
+                    <div className="icon-wrapper" onClick={onIconClick}>
+                        <img src={magGlass} alt="lupa" />
+                    </div>
+                    : <SearchInput onClose={onClose} />
+                }
             </div>
         </div>
     )

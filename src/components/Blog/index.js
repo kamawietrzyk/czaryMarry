@@ -52,16 +52,16 @@ const Blog = () => {
                     <img src={signal} alt="signal icon" />
                 </div>
             </div>
-            <div className="Blog-content">
-                <p className="main-header">
-                    O ślubach i weselach wiemy dużo... naprawdę dużo. Dodatkowo bardzo lubimy dzielić się swoją wiedzą i doświadczeniem. Zapraszamy więc do naszego małego świata pełnego porad oraz inspiracji ślubnych. Mamy nadzieję, że czytając naszego bloga zobaczycie, jak bardzo uwielbiamy swoją pracę.
+            <p className="main-header">
+                O ślubach i weselach wiemy dużo... naprawdę dużo. Dodatkowo bardzo lubimy dzielić się swoją wiedzą i doświadczeniem. Zapraszamy więc do naszego małego świata pełnego porad oraz inspiracji ślubnych. Mamy nadzieję, że czytając naszego bloga zobaczycie, jak bardzo uwielbiamy swoją pracę.
                 </p>
-                <div className="bg-grey">
-                    <FiltersBar />
-                </div>
-                <PostPreview posts={slicedPosts} />
+            <div className="bg-grey">
+                <FiltersBar />
             </div>
-            <Pagination onChange={onPageChange} currentPage={currentPage} totalPages={totalPages} />
+            <div className="Blog-content">
+                <PostPreview posts={slicedPosts} />
+                <Pagination onChange={onPageChange} currentPage={currentPage} totalPages={totalPages} />
+            </div>
         </div>
     )
 }
