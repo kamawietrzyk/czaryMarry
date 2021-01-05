@@ -45,60 +45,63 @@
 
             & .description {
                 grid-area: description;
-                padding: 1rem;
+                display: grid;
 
-                .top-h,
-                .small-h,
-                p {
-                    color: white;
-                }
+                & .content-box {
+                    margin: auto 1rem auto 1.5rem;
 
-                .top-h,
-                .small-h {
-                    font-size: 18px;
-                    font-weight: 600;
-                    margin-bottom: .5rem;
-                }
-
-                .top-h {
-                    @media (min-width: $tablet) {
-                        font-size: 22px;
-                        margin-bottom: 1rem;
+                    .top-h,
+                    .small-h,
+                    p {
+                        color: white;
                     }
 
-                    @media (min-width: $laptop) {
-                        margin-bottom: 1.5rem;
-                    }
-
-                    @media (min-width: $desktop) {
-                        font-size: 24px;
-                        margin-top: 1rem;
-                        margin-bottom: 2.5rem;
-                        text-align: center;
-                    }
-                }
-
-                p {
-                    font-size: 16px;
-                    letter-spacing: -0.05em;
-                    margin-bottom: 0;
-
-                    @media (min-width: $laptop) {
+                    .top-h,
+                    .small-h {
                         font-size: 18px;
+                        font-weight: 600;
+                        margin-bottom: .5rem;
                     }
-                }
 
-                a {
-                    color: white;
-                    text-decoration: underline;
-
-                    &:hover {
-                        color: $mediumGrey;
+                    .small-h {
+                        margin-top: 2rem;
                     }
-                }
 
-                @media (min-width: $laptop) {
-                    padding: 2rem 1.5rem 3rem 1.5rem;
+                    .top-h {
+                        @media (min-width: $tablet) {
+                            font-size: 22px;
+                            margin-bottom: 1rem;
+                        }
+
+                        @media (min-width: $laptop) {
+                            margin-bottom: 1.5rem;
+                        }
+
+                        @media (min-width: $desktop) {
+                            font-size: 24px;
+                            margin-bottom: 2rem;
+                            text-align: center;
+                        }
+                    }
+
+                    p {
+                        font-size: 16px;
+                        letter-spacing: -0.05em;
+                        margin-bottom: 0;
+
+                        @media (min-width: $laptop) {
+                            font-size: 17px;
+                        }
+                    }
+
+                    a {
+                        color: white;
+                        text-decoration: underline;
+
+                        &:hover {
+                            color: $mediumGrey;
+                        }
+                    }
                 }
             }
 
@@ -116,7 +119,8 @@
             @media (min-width: $laptop) {
                 margin-bottom: 3rem;
                 width: 100%;
-                grid-template-columns: 2fr 1fr;
+                height: auto;
+                grid-template-columns: 2fr 1.2fr;
                 grid-template-rows: auto;
                 grid-template-areas:
                     "photos description";
@@ -125,10 +129,29 @@
 
         @media (min-width: $laptop) {
             .flipped {
-                grid-template-columns: 1fr 2fr;
+                grid-template-columns: 1.2fr 2fr;
                 grid-template-areas:
                     "description photos";
             }
         }
+    }
+}
+
+.custom-div {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 3rem;
+
+    @media (min-width: $laptop) {
+        padding: 0 5vw;
+        margin-bottom: 5%;
+    }
+
+    @media (min-width: $desktop) {
+        padding: 0 17vw;
+    }
+
+    @media (min-width: $desktopL) {
+        padding: 0 22vw;
     }
 }

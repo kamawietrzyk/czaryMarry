@@ -1,0 +1,53 @@
+.CouplesSlider {
+    .icon-wrapper {
+        width: 4rem;
+
+        & .slick-next {
+            z-index: 1;
+            right: 5px;
+            width: 3rem;
+            height: 3rem;
+            filter: invert(31%) sepia(0%) saturate(0%) hue-rotate(188deg) brightness(101%) contrast(93%);
+            &:hover {
+                filter: none;
+            }
+        }
+        & .slick-prev {
+            z-index: 1;
+            left: 5px;
+            width: 3rem;
+            height: 3rem;
+            filter: invert(31%) sepia(0%) saturate(0%) hue-rotate(188deg) brightness(101%) contrast(93%);
+            &:hover {
+                filter: none;
+            }
+        }
+    }
+
+
+    & .slider {
+        width: 41rem;
+
+        .slider-box {
+            display: flex;
+            justify-content: center;
+            background-color: pink;
+            margin-left: .25rem;
+            margin-right: .25rem;
+        }
+
+        img {
+            width: 100%;
+            object-fit: contain;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        .grid-even {
+            display: grid;
+            grid-row-gap: .5rem;
+        }
+    }
+}
