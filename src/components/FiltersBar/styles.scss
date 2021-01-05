@@ -1,0 +1,83 @@
+@import '../../utils/colors.scss';
+@import '../../utils/media.scss';
+
+.FiltersBar {
+
+    a {
+        color: $textGrey;
+        font-weight: 600;
+
+        &:hover {
+            text-decoration: none;
+            color: $mint;
+        }
+    }
+
+    &-mobile {
+        .form-control {
+            border-radius: 0;
+        }
+
+        .form-group {
+            width: 100vw;
+            position: absolute;
+            top: 35%;
+        }
+
+        @media (min-width: $laptop) {
+            display: none;
+        }
+    }
+
+    &-desktop {
+
+        @media (max-width: 1023px) {
+            display: none;
+        }
+
+        @media (min-width: $laptop) {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            background-color: white;
+            margin: 3rem auto;
+            padding: 2rem 1rem;
+            width: 58rem;
+
+            .icon-wrapper {
+                display: grid;
+                width: 1rem;
+                height: 1rem;
+                cursor: pointer;
+                margin: .725rem;
+
+                & img {
+                    margin-bottom: 4px;
+                }
+            }
+
+            .dropdown-menu {
+                border: none;
+                border-radius: 0;
+                text-align: right;
+                padding-top: 2.5rem;
+                padding-bottom: 0;
+                background-color: rgba(255, 255, 255, 0.8);
+                top: 97%;
+                left: auto;
+                right: 0;
+                margin-right: -35px;
+                margin-top: 0;
+            }
+
+            .dropdown-item {
+                padding: .5rem 1.75rem;
+                border-bottom: 1px solid rgba(168, 168, 168, 0.25);
+
+                &:hover {
+                    background-color: transparent;
+                }
+            }
+        }
+    }
+}

@@ -2,6 +2,7 @@
 @import '../../utils/media.scss';
 
 .Blog {
+    position: relative;
 
     .number {
         color: $darkGrey;
@@ -28,5 +29,35 @@
                 top: 10%;
             }
         }
+    }
+
+    .main-header {
+        font-size: 17px;
+
+        @media (min-width: $tabletHorizontal) {
+            font-size: 21px;
+            margin-top: 0;
+        }
+
+        @media (min-width: $laptop) {
+            font-size: 24px;
+            margin-left: 2rem;
+        }
+    }
+
+    .bg-grey {
+        position: absolute;
+        left: 0;
+        height: 8rem;
+        width: 100vw;
+        background-color: $darkGrey;
+
+        @media (min-width: $laptop) {
+            height: 17rem;
+        }
+    }
+
+    &-content {
+        margin-top: 20rem;
     }
 }

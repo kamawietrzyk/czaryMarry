@@ -1,0 +1,15 @@
+@import '../../utils/media.scss';
+@import '../../utils/colors.scss';
+
+.PostPreview {
+    position: relative;
+    top: -3rem;
+    left: -3px;
+
+    &-item {
+        background-color: pink;
+        width: 58rem;
+        margin: 2rem auto 0 auto;
+        padding: 2rem;
+    }
+}

@@ -1,0 +1,72 @@
+@import '../../utils/colors.scss';
+@import '../../utils/media.scss';
+
+.Pagination {
+
+    ul {
+        justify-content: center;
+        align-items: end;
+        margin-bottom: 0;
+    }
+
+    .icon-wrapper {
+        width: 1.2rem;
+    }
+
+    .double-chev-left,
+    .double-chev-right {
+        width: 1.35rem;
+    }
+
+    .double-chev-left {
+        transform: rotate(90deg);
+    }
+
+    .double-chev-right {
+        transform: rotate(-90deg);
+    }
+
+    .disabled {
+        filter: opacity(.5);
+    }
+
+    .page-link {
+        border: none;
+        &:focus {
+            box-shadow: none;
+        }
+        &:hover {
+            background-color: transparent;
+        }
+    }
+
+    .page-item.active .page-link {
+        color: $mint;
+        font-size: 16px;
+        background-color: transparent;
+    }
+
+    .numbers-desktop {
+        @media (max-width: 767px) {
+            display: none;
+        }
+    }
+
+    .numbers-mobile {
+        p {
+            margin-top: 7px;
+        }
+
+        @media (min-width: $tablet) {
+            display: none;
+        }
+    }
+
+    .page-numbers {
+        margin-top: 2px;
+        font-size: 16px;
+        background-color: transparent;
+        color: $textGrey;
+        border-color: transparent;
+    }
+}
