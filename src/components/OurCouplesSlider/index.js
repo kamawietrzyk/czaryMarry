@@ -45,11 +45,13 @@ export default class CouplesSlider extends Component {
                 <Slider {...settings}>
                     <div>
                         <div className="grid-even slider-box">
-                            <div className="top">
+                            <div className="image">
                                 <img src={ft1} alt="ft1"/>
+                                <div className="overlay"></div>
                             </div>
-                            <div className="bottom">
+                            <div className="image">
                                 <img src={ft2} alt="ft2"/>
+                                <div className="overlay"></div>
                             </div>
                         </div>
                     </div>

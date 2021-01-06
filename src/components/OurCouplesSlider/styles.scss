@@ -8,16 +8,19 @@
             width: 3rem;
             height: 3rem;
             filter: invert(31%) sepia(0%) saturate(0%) hue-rotate(188deg) brightness(101%) contrast(93%);
+
             &:hover {
                 filter: none;
             }
         }
+
         & .slick-prev {
             z-index: 1;
             left: 5px;
             width: 3rem;
             height: 3rem;
             filter: invert(31%) sepia(0%) saturate(0%) hue-rotate(188deg) brightness(101%) contrast(93%);
+
             &:hover {
                 filter: none;
             }
@@ -36,12 +39,30 @@
             margin-right: .25rem;
         }
 
-        img {
+        .image {
             width: 100%;
-            object-fit: contain;
+            height: auto;
+            position: relative;
 
-            &:hover {
-                cursor: pointer;
+            div.overlay {
+                background-color: rgb(145, 142, 142);
+                height: 100%;
+                width: 100%;
+                opacity: 0;
+                top: 0;
+                left: 0;
+                position: absolute;
+                transition: opacity .1s ease-in;
+
+                &:hover {
+                    opacity: .6;
+                    cursor: pointer;
+                }
+            }
+
+            img {
+                width: 100%;
+                object-fit: cover;
             }
         }
 
