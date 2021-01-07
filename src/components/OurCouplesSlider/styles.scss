@@ -1,3 +1,6 @@
+@import '../../utils/media.scss';
+@import '../../utils/colors.scss';
+
 .CouplesSlider {
     .icon-wrapper {
         width: 4rem;
@@ -28,20 +31,32 @@
     }
 
 
-    & .slider {
-        width: 41rem;
+    .variable-width {
+
+        .main-con {
+            height: 36rem;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+
+            @media (min-width: $laptop) {
+                width: 100%;
+                height: 100%;
+            }
+        }
 
         .slider-box {
-            display: flex;
-            justify-content: center;
-            background-color: pink;
             margin-left: .25rem;
             margin-right: .25rem;
         }
 
         .image {
             width: 100%;
-            height: auto;
+            // height: auto;
+            height: 100%;
             position: relative;
 
             div.overlay {
@@ -59,16 +74,54 @@
                     cursor: pointer;
                 }
             }
+        }
 
-            img {
-                width: 100%;
-                object-fit: cover;
+        .grid {
+            &-even,
+            &-twoVertHoriz,
+            &-twoVertHorizFlipped {
+                display: grid;
+                grid-row-gap: .5rem;
+            }
+
+            &-twoVertHoriz,
+            &-twoVertHorizFlipped {
+                grid-gap: .5rem;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: 1fr 1fr;
+
+                .pic-ver1 {
+                    grid-area: picVer1;
+                }
+
+                .pic-ver2 {
+                    grid-area: picVer2;
+                }
+
+                .pic3 {
+                    grid-area: pic3;
+                }
+            }
+
+            &-twoVertHoriz {
+                grid-template-areas:
+                "picVer1 picVer2"
+                "pic3 pic3";
+            }
+
+            &-twoVertHorizFlipped {
+                grid-template-areas:
+                "pic3 pic3"
+                "picVer1 picVer2";
             }
         }
 
-        .grid-even {
-            display: grid;
-            grid-row-gap: .5rem;
+        @media (min-width: $tablet) {
+            width: 37rem;
+        }
+
+        @media (min-width: $laptop) {
+            width: 41rem;
         }
     }
 }

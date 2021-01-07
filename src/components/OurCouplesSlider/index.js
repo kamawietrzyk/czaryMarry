@@ -3,8 +3,18 @@ import './styles.scss'
 import Slider from 'react-slick'
 import chevRight from '../Icons/chevRight.svg'
 import chevLeft from '../Icons/chevLeft.svg'
+import GridEven from './GridEven'
+import GridTwoVertHoriz from './GridTwoVertHoriz'
+import SingleVert from './SingleVert'
 import ft1 from './ft1.png'
 import ft2 from './ft2.png'
+import ft3 from './ft3.png'
+import ftVer1 from './ft-ver1.png'
+import ftVer2 from './ft-ver2.png'
+import ft4 from './ft4.png'
+import ft5 from './ft5.png'
+import ftVer3 from './ft-ver3.png'
+
 
 
 export default class CouplesSlider extends Component {
@@ -43,32 +53,17 @@ export default class CouplesSlider extends Component {
         return (
             <div className="CouplesSlider">
                 <Slider {...settings}>
-                    <div>
-                        <div className="grid-even slider-box">
-                            <div className="image">
-                                <img src={ft1} alt="ft1"/>
-                                <div className="overlay"></div>
-                            </div>
-                            <div className="image">
-                                <img src={ft2} alt="ft2"/>
-                                <div className="overlay"></div>
-                            </div>
-                        </div>
+                    <div className="main-con" style={{ width: 450 }}>
+                        <GridEven picOne={ft1} picTwo={ft2} />
                     </div>
-                    <div style={{ width: 600 }}>
-                        <div className="slider-box">
-                            <p>600</p>
-                        </div>
+                    <div className="main-con" style={{ width: 410 }}>
+                        <GridTwoVertHoriz picVer1={ftVer1} picVer2={ftVer2} picHoriz={ft3} className="twoVertHoriz"/>
                     </div>
-                    <div style={{ width: 500 }}>
-                        <div className="slider-box">
-                            <p>500</p>
-                        </div>
+                    <div className="main-con" style={{ width: 450 }}>
+                        <GridEven picOne={ft4} picTwo={ft5} />
                     </div>
-                    <div style={{ width: 700 }}>
-                        <div className="slider-box">
-                            <p>700</p>
-                        </div>
+                    <div className="main-con" style={{ width: 420 }}>
+                        <SingleVert picOne={ftVer3} />
                     </div>
                 </Slider>
             </div>
