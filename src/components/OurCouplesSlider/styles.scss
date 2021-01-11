@@ -1,15 +1,16 @@
 @import '../../utils/media.scss';
 @import '../../utils/colors.scss';
 
-.CouplesSlider {
+.CouplesSlider,
+.MobileCouplesSlider {
     .icon-wrapper {
         width: 4rem;
 
         & .slick-next {
             z-index: 1;
             right: 5px;
-            width: 4rem;
-            height: 4rem;
+            width: 3rem;
+            height: 3rem;
             filter: invert(66%) sepia(0%) saturate(1%) hue-rotate(152deg) brightness(92%) contrast(90%);
 
             &:hover {
@@ -20,8 +21,8 @@
         & .slick-prev {
             z-index: 1;
             left: 5px;
-            width: 4rem;
-            height: 4rem;
+            width: 3rem;
+            height: 3rem;
             filter: invert(66%) sepia(0%) saturate(1%) hue-rotate(152deg) brightness(92%) contrast(90%);
 
             &:hover {
@@ -29,12 +30,19 @@
             }
         }
     }
+}
 
+.CouplesSlider {
 
     .variable-width {
 
         .main-con {
             height: 37rem;
+
+            @media (min-width: $desktopL) {
+                margin-bottom: .8rem;
+                height: 35rem;
+            }
         }
 
         img {
@@ -57,22 +65,6 @@
             width: 100%;
             height: 100%;
             position: relative;
-
-            div.overlay {
-                background-color: rgb(145, 142, 142);
-                height: 100%;
-                width: 100%;
-                opacity: 0;
-                top: 0;
-                left: 0;
-                position: absolute;
-                transition: opacity .1s ease-in;
-
-                &:hover {
-                    opacity: .6;
-                    cursor: pointer;
-                }
-            }
         }
 
         .grid {
@@ -107,14 +99,14 @@
 
             &-twoVertHoriz {
                 grid-template-areas:
-                "picVer1 picVer2"
-                "pic3 pic3";
+                    "picVer1 picVer2"
+                    "pic3 pic3";
             }
 
             &-twoVertHorizFlipped {
                 grid-template-areas:
-                "pic3 pic3"
-                "picVer1 picVer2";
+                    "pic3 pic3"
+                    "picVer1 picVer2";
             }
 
             &-threeHoriz,
@@ -139,23 +131,23 @@
             &-threeHoriz {
                 grid-template-rows: 1.5fr 1fr;
                 grid-template-areas:
-                "picMain picMain"
-                "picSmall1 picSmall2";
+                    "picMain picMain"
+                    "picSmall1 picSmall2";
             }
 
             &-threeHorizFlipped {
                 grid-template-rows: 1fr 1.5fr;
                 grid-template-areas:
-                "picSmall1 picSmall2"
-                "picMain picMain";
+                    "picSmall1 picSmall2"
+                    "picMain picMain";
             }
 
             &-vertHoriz {
                 grid-template-columns: auto;
                 grid-template-rows: 2.5fr 1fr;
                 grid-template-areas:
-                "picVer"
-                "picHoriz";
+                    "picVer"
+                    "picHoriz";
 
                 .ver {
                     grid-area: picVer;
@@ -168,11 +160,50 @@
         }
 
         @media (min-width: $tablet) {
-            width: 37rem;
+            width: 76vw;
         }
 
         @media (min-width: $laptop) {
             width: 41rem;
         }
+
+        @media (min-width: $desktopL) {
+            width: 46rem;
+        }
+    }
+
+    @media (max-width: 767px) {
+        display: none;
+    }
+}
+
+.MobileCouplesSlider {
+    width: 88vw;
+    margin-left: auto;
+    margin-right: auto;
+
+    & .image {
+        display: grid;
+        align-items: center;
+        text-align: center;
+
+        & img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+
+    @media (min-width: $mobileM) {
+        width: 90vw;
+    }
+
+    @media (min-width: $mobileL) {
+        width: 92vw;
+    }
+
+    @media (min-width: $tablet) {
+        display: none;
     }
 }
