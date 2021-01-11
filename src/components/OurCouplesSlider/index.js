@@ -6,16 +6,8 @@ import chevLeft from '../Icons/chevLeft.svg'
 import GridEven from './GridEven'
 import GridTwoVertHoriz from './GridTwoVertHoriz'
 import SingleVert from './SingleVert'
-import ft1 from './ft1.png'
-import ft2 from './ft2.png'
-import ft3 from './ft3.png'
-import ftVer1 from './ft-ver1.png'
-import ftVer2 from './ft-ver2.png'
-import ft4 from './ft4.png'
-import ft5 from './ft5.png'
-import ftVer3 from './ft-ver3.png'
-
-
+import GridThreeHoriz from './GridThreeHoriz'
+import GridVertHoriz from './GridVertHoriz'
 
 export default class CouplesSlider extends Component {
 
@@ -50,21 +42,60 @@ export default class CouplesSlider extends Component {
             nextArrow: <CustomNextArrow />
         };
 
+        const { photos: { pic1, pic2, pic3, pic4, pic5, pic6, pic7, pic8, pic9, pic10, pic11, pic12, pic13, pic14, pic15, pic16, picVer1, picVer2, picVer3, picVer4, picVer5, picVer6, picVer7, classNameOne, classNameTwo, classNameThree } } = this.props
+
         return (
             <div className="CouplesSlider">
                 <Slider {...settings}>
-                    <div className="main-con" style={{ width: 450 }}>
-                        <GridEven picOne={ft1} picTwo={ft2} />
+                    <div className="main-con" style={{ width: 460 }}>
+                        <GridEven picOne={pic1} picTwo={pic2} />
                     </div>
-                    <div className="main-con" style={{ width: 410 }}>
-                        <GridTwoVertHoriz picVer1={ftVer1} picVer2={ftVer2} picHoriz={ft3} className="twoVertHoriz"/>
+                    <div className="main-con" style={{ width: 430 }}>
+                        <GridTwoVertHoriz picVer1={picVer1} picVer2={picVer2} picHoriz={pic3} className={classNameOne} />
                     </div>
-                    <div className="main-con" style={{ width: 450 }}>
-                        <GridEven picOne={ft4} picTwo={ft5} />
+                    <div className="main-con" style={{ width: 460 }}>
+                        <GridEven picOne={pic4} picTwo={pic5} />
                     </div>
-                    <div className="main-con" style={{ width: 420 }}>
-                        <SingleVert picOne={ftVer3} />
-                    </div>
+                    {picVer3 &&
+                        <div className="main-con" style={{ width: 420 }}>
+                            <SingleVert picOne={picVer3} />
+                        </div>
+                    }
+                    {pic6 && pic7 &&
+                        <div className="main-con" style={{ width: 460 }}>
+                            <GridEven picOne={pic6} picTwo={pic7} />
+                        </div>
+                    }
+                    {pic8 && pic9 &&
+                        <div className="main-con" style={{ width: 460 }}>
+                            <GridEven picOne={pic8} picTwo={pic9} />
+                        </div>
+                    }
+                    {pic10 && pic11 && pic12 && classNameTwo &&
+                        <div className="main-con" style={{ width: 580 }}>
+                            <GridThreeHoriz picOne={pic10} picTwo={pic11} picThree={pic12} className={classNameTwo} />
+                        </div>
+                    }
+                    {pic13 && pic14 &&
+                        <div className="main-con" style={{ width: 460 }}>
+                            <GridEven picOne={pic13} picTwo={pic14} />
+                        </div>
+                    }
+                    {picVer4 && pic15 &&
+                        <div className="main-con" style={{ width: 262 }}>
+                            <GridVertHoriz picOne={picVer4} picTwo={pic15} />
+                        </div>
+                    }
+                    {picVer5 &&
+                        <div className="main-con" style={{ width: 410 }}>
+                            <SingleVert picOne={picVer5} />
+                        </div>
+                    }
+                    {picVer6 && picVer7 && pic16 && classNameThree &&
+                        <div className="main-con" style={{ width: 430 }}>
+                            <GridTwoVertHoriz picVer1={picVer6} picVer2={picVer7} picHoriz={pic16} className={classNameThree} />
+                        </div>
+                    }
                 </Slider>
             </div>
         )
