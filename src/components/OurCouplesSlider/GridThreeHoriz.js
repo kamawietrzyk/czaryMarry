@@ -7,10 +7,10 @@ const GridThreeHoriz = ({ picOne, picTwo, picThree, className }) => (
             <img src={picOne} alt={picOne} />
         </div>
         <div className="image pic-small1">
-            <img src={picTwo} alt={picTwo} />
+            <img src={picTwo} className="height-auto" alt={picTwo} />
         </div>
         <div className="image pic-small2">
-            <img src={picThree} alt={picThree} />
+            <img src={picThree} className="height-auto" alt={picThree} />
         </div>
     </div>
 )
