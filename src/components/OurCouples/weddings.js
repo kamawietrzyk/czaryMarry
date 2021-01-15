@@ -164,9 +164,40 @@ const weddings = [
             classNameFour: "twoVertHorizFlipped"
         }
     },
-    // {
-    //     bgColor: "bgMint",
-    //     title: "Ewelina & Łukasz", details: "Ślub kościelny w cudownej parkowej scenerii. Srebro, transparentność, morze kwiatów i namiot. Glamour w najczystszej formie, łączący się z pięknem otaczającej natury.", org: "Agencja Ślubna Czary Marry", orgLink: "", place: "Pałac Pstrokonie", placeLink: "http://palac-pstrokonie.pl/", photo: "Wawrzykowski Team", photoLink: "https://wawrzykowski.pl/", flowers: "Florodesign", flowersLink: "https://floro.pl/" },
+    {
+        bgColor: "bgMint",
+        title: "Ewelina & Łukasz",
+        details: "Ślub kościelny w cudownej parkowej scenerii. Srebro, transparentność, morze kwiatów i namiot. Glamour w najczystszej formie, łączący się z pięknem otaczającej natury.",
+        org: "Agencja Ślubna Czary Marry",
+        orgLink: "",
+        place: "Pałac Pstrokonie",
+        placeLink: "http://palac-pstrokonie.pl/",
+        photo: "Wawrzykowski Team",
+        photoLink: "https://wawrzykowski.pl/",
+        flowers: "Florodesign",
+        flowersLink: "https://floro.pl/",
+        photos: {
+            pic1: require('./OurCouplesPics/EwelinaLukasz/01.jpg').default,
+            pic2: require('./OurCouplesPics/EwelinaLukasz/04.jpg').default,
+            pic4: require('./OurCouplesPics/EwelinaLukasz/06.jpg').default,
+            pic5: require('./OurCouplesPics/EwelinaLukasz/07.jpg').default,
+            picVer3: require('./OurCouplesPics/EwelinaLukasz/ver1.jpg').default,
+            pic6: require('./OurCouplesPics/EwelinaLukasz/16.jpg').default,
+            pic7: require('./OurCouplesPics/EwelinaLukasz/09.jpg').default,
+            pic8: require('./OurCouplesPics/EwelinaLukasz/11.jpg').default,
+            pic9: require('./OurCouplesPics/EwelinaLukasz/13.jpg').default,
+            pic10: require('./OurCouplesPics/EwelinaLukasz/15.jpg').default,
+            pic11: require('./OurCouplesPics/EwelinaLukasz/08.jpg').default,
+            pic12: require('./OurCouplesPics/EwelinaLukasz/05.jpg').default,
+            pic14: require('./OurCouplesPics/EwelinaLukasz/03.jpg').default,
+            pic15: require('./OurCouplesPics/EwelinaLukasz/02.jpg').default,
+            pic17: require('./OurCouplesPics/EwelinaLukasz/10.jpg').default,
+            pic18: require('./OurCouplesPics/EwelinaLukasz/12.jpg').default,
+            pic19: require('./OurCouplesPics/EwelinaLukasz/14.jpg').default,
+            classNameTwo: "threeHorizFlipped",
+            classNameFive: "threeHoriz"
+        }
+    },
     {
         bgColor: "bgGrey",
         title: "Nelli & Piotr",
