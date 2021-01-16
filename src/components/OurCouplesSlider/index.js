@@ -37,8 +37,9 @@ export default class CouplesSlider extends Component {
             centerMode: true,
             slidesToShow: 1,
             slidesToScroll: 1,
-            speed: 700,
+            speed: 800,
             variableWidth: true,
+            lazyLoad: false,
             prevArrow: <CustomPrevArrow />,
             nextArrow: <CustomNextArrow />
         };
