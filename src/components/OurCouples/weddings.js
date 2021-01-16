@@ -1,5 +1,42 @@
 const weddings = [
     {
+        bgColor: "bgDark",
+        title: "Beata & Paweł",
+        details: "Mimo niesprzyjającej aury na zewnątrz udało się wyczarować coś niesamowitego. Prostota, elegancja, geometria, złote dodatki, szarość, zieleń i biel - jesienne wesela mają moc.",
+        org: "Agencja Ślubna Czary Marry",
+        orgLink: "",
+        place: "Pałac Łagów",
+        placeLink: "https://palac-lagow.pl/",
+        photo: "Ania Kopeć Serdeczności",
+        photoLink: "https://serdecznosci.com.pl/",
+        flowers: "Pracownia Zieleni",
+        flowersLink: "http://pracowniazieleni.pl/",
+        photos: {
+            pic1: require('./OurCouplesPics/BeataPawel/01.jpg').default,
+            pic2: require('./OurCouplesPics/BeataPawel/02.jpg').default,
+            pic3: require('./OurCouplesPics/BeataPawel/03.jpg').default,
+            pic4: require('./OurCouplesPics/BeataPawel/04.jpg').default,
+            pic5: require('./OurCouplesPics/BeataPawel/05.jpg').default,
+            pic6: require('./OurCouplesPics/BeataPawel/06.jpg').default,
+            pic7: require('./OurCouplesPics/BeataPawel/07.jpg').default,
+            pic8: require('./OurCouplesPics/BeataPawel/08.jpg').default,
+            pic9: require('./OurCouplesPics/BeataPawel/09.jpg').default,
+            pic13: require('./OurCouplesPics/BeataPawel/13.jpg').default,
+            pic14: require('./OurCouplesPics/BeataPawel/14.jpg').default,
+            pic15: require('./OurCouplesPics/BeataPawel/15.jpg').default,
+            pic16: require('./OurCouplesPics/BeataPawel/16.jpg').default,
+            picVer1: require('./OurCouplesPics/BeataPawel/ver1.jpg').default,
+            picVer2: require('./OurCouplesPics/BeataPawel/ver2.jpg').default,
+            picVer3: require('./OurCouplesPics/BeataPawel/ver3.jpg').default,
+            picVer4: require('./OurCouplesPics/BeataPawel/ver4.jpg').default,
+            picVer5: require('./OurCouplesPics/BeataPawel/ver5.jpg').default,
+            picVer6: require('./OurCouplesPics/BeataPawel/ver6.jpg').default,
+            picVer7: require('./OurCouplesPics/BeataPawel/ver7.jpg').default,
+            classNameOne: "twoVertHorizFlipped",
+            classNameThree: "twoVertHoriz"
+        }
+    },
+    {
         bgColor: "bgMint",
         title: "Foodtruck Wedding",
         details: "Event branżowy połączony z sesją stylizowaną w stylu slow, czyli tak jak lubimy najbardziej. Garden party odbyło się w pałacowym ogrodzie, w którym stanęły pięknie odrestaurowane stare samochody. Nie zabrakło również dekoracji kwiatowych, stref chilloutu i dobrej muzyki.",
@@ -314,7 +351,42 @@ const weddings = [
             classNameTwo: "threeHoriz"
         }
     },
-    // { bgColor: "bgMint", title: "Angie & Akshar", details: "To było typowe slow wedding. Goście spędzali czas na zewnątrz rozmawiając, grając w gry, popijając drinki. Było kameralnie i rodzinnie, czyli tak jak lubimy najbardziej.", org: "Agencja Ślubna Czary Marry", orgLink: "", place: "Folwark Białych Bocianów", placeLink: "https://www.folwarkbb.com/", photo: "Greg Solak", photoLink: "http://www.gregsolak.pl/Blog/", movie: "Greg Solak", movieLink: "http://www.gregsolak.pl/Blog/", flowers: "Marlena Chustecka", flowersLink: "https://www.facebook.com/pages/category/Artist/Chustecka-Marlena-1077253032301187/" }
+    {
+        bgColor: "bgMint",
+        title: "Angie & Akshar",
+        details: "To było typowe slow wedding. Goście spędzali czas na zewnątrz rozmawiając, grając w gry, popijając drinki. Było kameralnie i rodzinnie, czyli tak jak lubimy najbardziej.",
+        org: "Agencja Ślubna Czary Marry",
+        orgLink: "",
+        place: "Folwark Białych Bocianów",
+        placeLink: "https://www.folwarkbb.com/",
+        photo: "Greg Solak",
+        photoLink: "http://www.gregsolak.pl/Blog/",
+        movie: "Greg Solak",
+        movieLink: "http://www.gregsolak.pl/Blog/",
+        flowers: "Marlena Chustecka",
+        flowersLink: "https://www.facebook.com/pages/category/Artist/Chustecka-Marlena-1077253032301187/",
+        photos: {
+            pic1: require('./OurCouplesPics/AngieAkshar/01.jpg').default,
+            pic2: require('./OurCouplesPics/AngieAkshar/02.jpg').default,
+            pic4: require('./OurCouplesPics/AngieAkshar/04.jpg').default,
+            pic5: require('./OurCouplesPics/AngieAkshar/05.jpg').default,
+            pic6: require('./OurCouplesPics/AngieAkshar/06.jpg').default,
+            pic7: require('./OurCouplesPics/AngieAkshar/07.jpg').default,
+            pic8: require('./OurCouplesPics/AngieAkshar/08.jpg').default,
+            pic9: require('./OurCouplesPics/AngieAkshar/09.jpg').default,
+            pic10: require('./OurCouplesPics/AngieAkshar/10.jpg').default,
+            pic11: require('./OurCouplesPics/AngieAkshar/12.jpg').default,
+            pic12: require('./OurCouplesPics/AngieAkshar/11.jpg').default,
+            pic14: require('./OurCouplesPics/AngieAkshar/14.jpg').default,
+            pic15: require('./OurCouplesPics/AngieAkshar/15.jpg').default,
+            pic17: require('./OurCouplesPics/AngieAkshar/17.jpg').default,
+            pic18: require('./OurCouplesPics/AngieAkshar/19.jpg').default,
+            pic19: require('./OurCouplesPics/AngieAkshar/18.jpg').default,
+            picVer10: require('./OurCouplesPics/AngieAkshar/ver10.jpg').default,
+            classNameTwo: "threeHorizFlipped",
+            classNameFive: "threeHoriz"
+        }
+    }
 ]
 
 export default weddings
