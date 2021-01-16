@@ -37,6 +37,10 @@ const Navbar = () => {
         setTimeout(() => {scrollToBottom()}, 500);
     }
 
+    const timeOutScrollMobile = () => {
+        setTimeout(() => {scrollToContactMobile()}, 500);
+    }
+
     const scrollToContactMobile = () => {
         setBurgerOpen(false);
         setStatus('close');
@@ -101,7 +105,7 @@ const Navbar = () => {
                     <Link
                         key="kontakt"
                         to={URLS.HOME}
-                        onClick={scrollToContactMobile}
+                        onClick={timeOutScrollMobile}
                         role="tab"
                         className="nav-item nav-link">
                         Kontakt

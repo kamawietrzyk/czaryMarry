@@ -3,13 +3,20 @@
 
 .PostPreview {
     position: relative;
-    top: -3rem;
-    left: -3px;
+    top: -7rem;
+    left: -2px;
 
     &-item {
         background-color: pink;
-        width: 58rem;
         margin: 2rem auto 0 auto;
         padding: 2rem;
+
+        @media (min-width: $desktop) {
+            width: 58rem;
+        }
+    }
+
+    @media (min-width: $laptop) {
+        top: -3rem;
     }
 }
