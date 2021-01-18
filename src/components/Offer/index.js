@@ -23,8 +23,8 @@ const Offer = () => (
                 Tak jak nie ma dwóch takich samych wesel, tak każda ze zgłaszających się do nas par ma inne oczekiwania i potrzeby. Każde zapytanie traktujemy indywidualnie, dlatego nie posługujemy się gotowymi rozwiązaniami oraz nie mamy sztywnego cennika usług. Wystarczy, że zadzwonisz do nas na krótką rozmowę lub umówisz się na kawę, a w ciągu 24h otrzymasz spersonalizowaną ofertę wraz z wyceną. Nie możemy się doczekać aż posłuchamy o Waszej wizji ślubu i wesela.
             </p>
             <div className="Offer-content_grid">
-                {offerDetails.map(({ color, number, title, text }) => (
-                    <div className={`grid-box ${color}`}>
+                {offerDetails.map(({ color, number, title, text }, index) => (
+                    <div key={index} className={`grid-box ${color}`}>
                         <h3 className="num-small">{number}</h3>
                         <span>
                             <h4 className="title-small">{title}</h4>

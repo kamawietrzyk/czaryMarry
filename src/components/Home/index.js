@@ -116,8 +116,8 @@ class Home extends Component {
                         </h2>
                     </Link>
                     <div className="Home-bottomContainer_instaPics">
-                        {instaPics.map(({ src, alt }) => (
-                            <a href="https://www.instagram.com/wedding_czarymarry/" target="_blank" rel="noopener noreferrer">
+                        {instaPics.map(({ src, alt }, index) => (
+                            <a key={index} href="https://www.instagram.com/wedding_czarymarry/" target="_blank" rel="noopener noreferrer">
                                 <div className="ig-box">
                                     <img src={src} alt={alt} />
                                     <div className="overlay"></div>

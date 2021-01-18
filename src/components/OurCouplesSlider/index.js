@@ -67,8 +67,8 @@ export default class CouplesSlider extends Component {
             <>
                 <div className="MobileCouplesSlider">
                     <Slider {...mobile}>
-                        {mobilePics.filter(pic => { return pic !== undefined }).map((pic) => (
-                            <div>
+                        {mobilePics.filter(pic => { return pic !== undefined }).map((pic, index) => (
+                            <div key={index}>
                                 <div className="image">
                                     <img src={pic} alt={pic} />
                                 </div>

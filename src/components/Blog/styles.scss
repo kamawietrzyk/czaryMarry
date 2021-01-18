@@ -58,6 +58,10 @@
     }
 
     &-content {
-        margin-top: 20rem;
+        margin-top: 15rem;
+
+        @media (min-width: $tablet) {
+            margin-top: 20rem;
+        }
     }
 }

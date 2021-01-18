@@ -1,15 +1,15 @@
 import React, { useState } from 'react'
-import { Link, withRouter } from 'react-router-dom'
+import { Link, NavLink, withRouter } from 'react-router-dom'
 import URLS from '../../utils/urls'
 import './styles.scss'
 
 const tabs = [
-    { name: 'home', label: 'Home', url: URLS.HOME },
-    { name: 'o-nas', label: 'O nas', url: URLS.ABOUT },
-    { name: 'praca', label: 'Jak pracujemy', url: URLS.WORK },
-    { name: 'realizacje', label: 'Nasze pary', url: URLS.COUPLES },
-    { name: 'blog', label: 'Blog', url: URLS.BLOG },
-    { name: 'oferta', label: 'Oferta', url: URLS.OFFER }
+    { label: 'Home', path: URLS.HOME },
+    { label: 'O nas', path: URLS.ABOUT },
+    { label: 'Jak pracujemy', path: URLS.WORK },
+    { label: 'Nasze pary', path: URLS.COUPLES },
+    { label: 'Blog', path: URLS.BLOG },
+    { label: 'Oferta', path: URLS.OFFER }
 ]
 const Navbar = () => {
 
@@ -68,33 +68,37 @@ const Navbar = () => {
                     </div>
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <div className="navbar-nav">
-                            {tabs.map(({ name, label, url }) => (
-                                <Link
-                                    key={name}
-                                    to={url}
+                            {tabs.map(({ label, path }, index) => (
+                                <NavLink
+                                    exact
+                                    key={index}
+                                    to={path}
                                     onClick={scrollToStart}
                                     role="tab"
-                                    className="nav-item nav-link">
+                                    className="nav-item nav-link"
+                                    activeClassName="active">
                                     {label}
-                                </Link>
+                                </NavLink>
                             ))}
-                            <Link
+                            <NavLink
+                                exact
                                 key="kontakt"
                                 to={URLS.CONTACT}
                                 onClick={timeOutScroll}
                                 role="tab"
-                                className="nav-item nav-link">
+                                className="nav-item nav-link"
+                                activeClassName="active">
                                 Kontakt
-                            </Link>
+                            </NavLink>
                         </div>
                     </div>
                 </nav>
             </div>
             { burgerOpen &&
                 <div className="Navbar-mobile">
-                    {tabs.map(({ name, label, url }) => (
+                    {tabs.map(({ name, label, url }, index) => (
                         <Link
-                            key={name}
+                            key={index}
                             to={url}
                             onClick={onClose}
                             role="tab"

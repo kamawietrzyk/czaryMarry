@@ -32,15 +32,15 @@ const HowWeWork = () => (
                 Zobacz, jakie wartości cenimy w pracy <b>wedding plannera</b> oraz jaki mamy styl pracy.
             </h1>
             <div className="HowWeWork-content_grid">
-                {gridDetails.map(({ gridName, color, number, text }) => (
-                    <div className={gridName}>
+                {gridDetails.map(({ gridName, color, number, text }, index) => (
+                    <div className={gridName} key={index}>
                         <h2 className={`number-small ${color}`}>{number}</h2>
                         <p>{text}</p>
                     </div>
                 ))}
             </div>
-            {details.map(({ title, color, text }) => (
-                <div>
+            {details.map(({ title, color, text }, index) => (
+                <div key={index}>
                     <h2 className={`header-small ${color}`}>{title}</h2>
                     <p className="work-p">{text}</p>
                 </div>
