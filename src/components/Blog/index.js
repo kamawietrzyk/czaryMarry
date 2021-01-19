@@ -7,23 +7,13 @@ import './styles.scss'
 import Pagination from '../Pagination'
 import PostPreview from '../PostPreview'
 import FiltersBar from '../FiltersBar'
+import bgOne from '../OurCouples/OurCouplesPics/FoodtruckWedding/ft4.JPG'
+import bgTwo from '../OurCouples/OurCouplesPics/FoodtruckWedding/ft8.JPG'
 
 
 const posts = [
-    { title: "tytuł 1", tag: "tag1" },
-    { title: "tytuł 2", tag: "tag2" },
-    { title: "tytuł 3", tag: "tag3" },
-    { title: "tytuł 4", tag: "tag1" },
-    { title: "tytuł 5", tag: "tag2" },
-    { title: "tytuł 6", tag: "tag3" },
-    { title: "tytuł 7", tag: "tag1" },
-    { title: "tytuł 8", tag: "tag2" },
-    { title: "tytuł 9", tag: "tag3" },
-    { title: "tytuł 10", tag: "tag1" },
-    { title: "tytuł 11", tag: "tag2" },
-    { title: "tytuł 12", tag: "tag3" },
-    { title: "tytuł 13", tag: "tag1" },
-    { title: "tytuł 14", tag: "tag2" }
+    { title: "Folwark Wąsowo - miejsce na wesele dające nieograniczone mozliwości", date: "12 sty 2021", pic: bgOne},
+    { title: "tytuł 2", date: "14 sty 2021", pic: bgTwo },
 ]
 
 const Blog = () => {

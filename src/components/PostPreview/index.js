@@ -3,10 +3,13 @@ import './styles.scss'
 
 const PostPreview = ({ posts }) => (
     <div className="PostPreview">
-        {posts.map(({ title, tag }, index) => (
-            <div className="PostPreview-item" key={index}>
-                <h2>{title}</h2>
-                <p>{tag}</p>
+        {posts.map(({ title, date, pic }, index) => (
+            <div className="PostPreview-mobile" key={index}>
+                <div className="overlay-div">
+                    <p>{date}</p>
+                    <h2>{title}</h2>
+                </div>
+                <img src={pic} alt={title} />
             </div>
         ))}
     </div>

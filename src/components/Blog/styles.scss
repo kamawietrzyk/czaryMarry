@@ -48,19 +48,20 @@
     .bg-grey {
         position: absolute;
         left: 0;
-        height: 8rem;
+        height: 1rem;
         width: 100vw;
-        background-color: $darkGrey;
+        background-color: white;
 
         @media (min-width: $laptop) {
             height: 17rem;
+            background-color: $darkGrey;
         }
     }
 
     &-content {
         margin-top: 15rem;
 
-        @media (min-width: $tablet) {
+        @media (min-width: $laptop) {
             margin-top: 20rem;
         }
     }
