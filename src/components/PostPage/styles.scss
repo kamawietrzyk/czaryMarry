@@ -1,0 +1,21 @@
+@import '../../utils/colors.scss';
+
+.PostPage {
+    width: 100%;
+    display: grid;
+
+    .btn {
+        background-color: $mint;
+        color: $darkGrey;
+        border-radius: 0;
+        text-align: left;
+        padding: .75rem .5rem;
+    }
+
+    &-content {
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}

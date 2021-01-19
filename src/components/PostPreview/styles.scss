@@ -27,7 +27,8 @@
             top: 0;
             left: 0;
             position: absolute;
-            padding: 2rem;
+            padding: 2rem 1.5rem;
+            display: grid;
 
             h2,
             p {
@@ -39,14 +40,19 @@
                 font-weight: 600;
                 display: flex;
                 align-self: end;
+                line-height: 1.4em;
             }
 
             p {
-                font-size: 12px;
+                font-size: 13px;
+            }
+
+            @media (min-width: $mobileM) {
+                padding: 2.5rem;
             }
         }
 
-        @media (min-width: $laptop) {
+        @media (min-width: $tablet) {
             display: none;
         }
     }
@@ -54,9 +60,65 @@
     &-desktop {
         display: none;
 
-        @media (min-width: $laptop) {
+        @media (min-width: $tablet) {
             display: grid;
-            width: 58rem;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto;
+            grid-template-areas:
+            "pic text";
+            border: 1px solid $lightGrey;
+            margin-bottom: 2rem;
+
+            .content-div {
+                grid-area: text;
+                background-color: white;
+                padding: 1rem;
+                display: grid;
+                align-items: center;
+
+                h2 {
+                    font-size: 22px;
+                    font-weight: 600;
+                    margin-bottom: 0;
+
+                    @media (min-width: $laptop) {
+                        font-size: 26px;
+                    }
+                }
+
+                p {
+                    font-size: 14px;
+                }
+
+                hr {
+                    margin: 1.25rem 0;
+                    width: 95%;
+                }
+
+                @media (min-width: $laptop) {
+                    padding: 3rem 2rem;
+                }
+            }
+
+            img {
+                grid-area: pic;
+                width: 100%;
+                object-fit: cover;
+                @media (min-width: $laptop) {
+                    height: 100%;
+                }
+            }
+        }
+
+        @media (min-width: $laptop) {
+            grid-template-columns: 1fr 1.1fr;
+        }
+
+        @media (min-width: $desktop) {
+            width: 64.3vw;
         }
     }
 

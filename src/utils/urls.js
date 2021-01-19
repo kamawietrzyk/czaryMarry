@@ -5,6 +5,7 @@ const URLS = {
     COUPLES: '/realizacje',
     OFFER: '/oferta',
     BLOG: '/blog-1',
+    POST: '/post/:url',
     CONTACT: '/kontakt'
 }
 

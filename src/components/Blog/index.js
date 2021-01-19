@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-// import { Link } from 'react-router-dom'
 import ArrowToTop from '../ArrowToTop'
 import ScrollToTopOnMount from '../ScrollToTopOnMount'
 import signal from '../Icons/signal.svg'
@@ -7,14 +6,7 @@ import './styles.scss'
 import Pagination from '../Pagination'
 import PostPreview from '../PostPreview'
 import FiltersBar from '../FiltersBar'
-import bgOne from '../OurCouples/OurCouplesPics/FoodtruckWedding/ft4.JPG'
-import bgTwo from '../OurCouples/OurCouplesPics/FoodtruckWedding/ft8.JPG'
-
-
-const posts = [
-    { title: "Folwark Wąsowo - miejsce na wesele dające nieograniczone mozliwości", date: "12 sty 2021", pic: bgOne},
-    { title: "tytuł 2", date: "14 sty 2021", pic: bgTwo },
-]
+import posts from '../../utils/posts'
 
 const Blog = () => {
 

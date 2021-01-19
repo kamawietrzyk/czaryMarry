@@ -59,10 +59,12 @@
     }
 
     &-content {
+        position: relative;
         margin-top: 15rem;
+        width: 100%;
 
         @media (min-width: $laptop) {
-            margin-top: 20rem;
+            margin-top: 18rem;
         }
     }
 }
