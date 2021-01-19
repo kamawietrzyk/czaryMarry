@@ -20,7 +20,7 @@ const FiltersBar = () => {
         <div className="FiltersBar">
             <div className="FiltersBar-mobile">
                 <div class="form-group">
-                    <select className="form-control" id="select">
+                    <select className="custom-form-control" id="select">
                         <option>Wszystkie wpisy</option>
                         <option>Niezbędnik przedŚLUBNY</option>
                         <option>Opowiadamy o naszych realizacjach</option>
@@ -36,7 +36,7 @@ const FiltersBar = () => {
                 <a href=" ">Niezbędnik przedŚLUBNY</a>
                 {!glassOpen && <a href=" ">Opowiadamy o naszych realizacjach</a>}
                 <div className="dropdown" onMouseOver={() => setDropdownOpen(true)} onMouseLeave={() => setDropdownOpen(false)}>
-                    <a className="dropdown-toggle" onClick={(e) => e.preventDefault()} id="dropdownMenuButton" href=" " dataToggle="dropdown" ariaHaspopup="true" ariaExpanded="false">
+                    <a className="dropdown-toggle" onClick={e => e.preventDefault()} id="dropdownMenuButton" href=" " dataToggle="dropdown" ariaHaspopup="true" ariaExpanded="false">
                         Więcej
                     </a>
                     <div className={`dropdown-menu ${dropdownOpen && "show"}`} aria-labelledby="dropdownMenuButton">

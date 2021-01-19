@@ -8,8 +8,26 @@ import './styles.scss'
 const Pagination = ({ onChange, currentPage, totalPages }) => {
 
     const pageNumbers = [];
+    const window = 3
 
-    for (let i = 1; i <= totalPages; i++) {
+    let maxLeft = currentPage - Math.floor(window/2)
+    let maxRight = currentPage + Math.floor(window/2)
+
+    if (maxLeft < 1) {
+        maxLeft = 1
+        maxRight = window
+    }
+
+    if (maxRight > totalPages) {
+        maxLeft = totalPages - (window - 1)
+        maxRight = totalPages
+
+        if (maxLeft < 1) {
+            maxLeft = 1
+        }
+    }
+
+    for (let i = maxLeft; i <= maxRight; i++) {
         pageNumbers.push(i);
     };
 
