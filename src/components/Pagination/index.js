@@ -8,7 +8,7 @@ import './styles.scss'
 const Pagination = ({ onChange, currentPage, totalPages }) => {
 
     const pageNumbers = [];
-    const window = 3
+    const window = 5
 
     let maxLeft = currentPage - Math.floor(window/2)
     let maxRight = currentPage + Math.floor(window/2)

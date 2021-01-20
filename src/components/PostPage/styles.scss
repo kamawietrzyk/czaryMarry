@@ -5,17 +5,73 @@
     display: grid;
 
     .btn {
-        background-color: $mint;
-        color: $darkGrey;
+        background-color: white;
+        color: $mediumGrey;
+        border-top: 1px solid $mediumGrey;
+        border-bottom: 1px solid $mediumGrey;
         border-radius: 0;
-        text-align: left;
-        padding: .75rem .5rem;
+        padding: .75rem;
+        font-size: 15px;
+        font-weight: 400;
     }
 
     &-content {
+        padding: 2rem 1rem;
+
+        p {
+            font-size: 15px;
+            font-weight: 300;
+        }
+
+        .header-box {
+            width: 100%;
+            display: grid;
+            grid-template-columns: .6fr 2fr;
+            grid-template-rows: auto;
+            margin-bottom: 1rem;
+
+            span {
+                display: grid;
+                align-items: center;
+
+                .author {
+                    font-size: 15px;
+                    margin-bottom: 0;
+                    align-self: end;
+                    color: $mediumGrey;
+                }
+            }
+        }
+
+        .date {
+            font-size: 12px;
+            margin-bottom: 0;
+            align-self: flex-start;
+            color: $mediumGrey;
+        }
+
+        .post-title {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
         img {
             width: 100%;
             object-fit: cover;
+        }
+    }
+
+    &-suggestions {
+        padding: 2rem 1rem;
+        margin-top: 3rem;
+        width: 100%;
+        background-color: $mint;
+
+        h3 {
+            padding-bottom: .75rem;
+            text-align: center;
+            font-size: 20px;
+            color: white;
         }
     }
 }

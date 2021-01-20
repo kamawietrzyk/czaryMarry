@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Link, NavLink, withRouter } from 'react-router-dom'
+import { NavLink, withRouter } from 'react-router-dom'
 import URLS from '../../utils/urls'
 import './styles.scss'
 
@@ -96,24 +96,24 @@ const Navbar = () => {
             </div>
             { burgerOpen &&
                 <div className="Navbar-mobile">
-                    {tabs.map(({ name, label, url }, index) => (
-                        <Link
+                    {tabs.map(({ label, path }, index) => (
+                        <NavLink
                             key={index}
-                            to={url}
+                            to={path}
                             onClick={onClose}
                             role="tab"
                             className="nav-item nav-link">
                             {label}
-                        </Link>
+                        </NavLink>
                     ))}
-                    <Link
+                    <NavLink
                         key="kontakt"
                         to={URLS.HOME}
                         onClick={timeOutScrollMobile}
                         role="tab"
                         className="nav-item nav-link">
                         Kontakt
-                    </Link>
+                    </NavLink>
                 </div>
             }
         </div>

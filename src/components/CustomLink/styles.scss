@@ -1,0 +1,13 @@
+@import '../../utils/colors.scss';
+
+.CustomLink {
+    background-color: #db8a8b77;
+    color: $darkGrey;
+    text-decoration: none;
+
+    &:hover {
+        background-color: #db8a8b77;
+        color: $darkGrey;
+        text-decoration: none;
+    }
+}

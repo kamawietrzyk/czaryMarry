@@ -7,6 +7,7 @@ import Pagination from '../Pagination'
 import PostPreview from '../PostPreview'
 import FiltersBar from '../FiltersBar'
 import posts from '../../utils/posts'
+import ToTopOnUpdate from '../ToTopOnUpdate'
 
 const Blog = () => {
 
@@ -26,8 +27,9 @@ const Blog = () => {
     }
 
     return (
-        <div className="Blog main-div">
+        <div className="Blog">
             <ScrollToTopOnMount />
+            <ToTopOnUpdate />
             <ArrowToTop />
             <div className="page-header">
                 <span className="num-span number">04</span>
@@ -44,8 +46,8 @@ const Blog = () => {
             </div>
             <div className="Blog-content">
                 <PostPreview posts={slicedPosts} />
-                <Pagination onChange={onPageChange} currentPage={currentPage} totalPages={totalPages} />
             </div>
+            <Pagination onChange={onPageChange} currentPage={currentPage} totalPages={totalPages} />
         </div>
     )
 }

@@ -3,6 +3,8 @@
 
 .Blog {
     position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
 
     .number {
         color: $darkGrey;
@@ -62,9 +64,22 @@
         position: relative;
         margin-top: 15rem;
         width: 100%;
+        margin-bottom: -3rem;
 
         @media (min-width: $laptop) {
             margin-top: 18rem;
         }
+    }
+
+    @media (min-width: $laptop) {
+        padding: 0 7vw;
+    }
+
+    @media (min-width: $desktop) {
+        padding: 0 18vw;
+    }
+
+    @media (min-width: $desktopL) {
+        padding: 0 22vw;
     }
 }
