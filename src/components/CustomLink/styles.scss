@@ -1,13 +1,23 @@
 @import '../../utils/colors.scss';
 
 .CustomLink {
+    color: $darkGrey;
+    text-decoration: underline;
+
+    &:hover {
+        color: $textGrey;
+        text-decoration: underline;
+    }
+}
+
+.bgColor {
     background-color: #db8a8b77;
     color: $darkGrey;
     text-decoration: none;
 
     &:hover {
-        background-color: #db8a8b77;
-        color: $darkGrey;
+        background-color: #db8a8b94;
+        color: $textGrey;
         text-decoration: none;
     }
 }

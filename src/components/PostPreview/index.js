@@ -13,10 +13,10 @@ const PostPreview = ({ posts }) => (
                         <p>{date}</p>
                         <h2>{title}</h2>
                     </div>
-                    <img src={mainPic} alt={title} />
+                    <img src={mainPic.src} alt={mainPic.author} />
                 </div>
                 <div className="PostPreview-desktop">
-                    <img src={mainPic} alt={title} />
+                    <img src={mainPic.src} alt={mainPic.author} />
                     <div className="content-div">
                         <h2>{title}</h2>
                         <hr />

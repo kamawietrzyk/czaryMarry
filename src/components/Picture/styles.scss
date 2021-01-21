@@ -3,16 +3,19 @@
 .Picture {
     width: 100%;
     display: grid;
-    margin: 2rem auto 1.5rem auto;
 
     img {
         width: 100%;
         object-fit: cover;
     }
 
-    p {
+    .photo {
         text-align: center;
         font-size: 12px;
         margin: 7px;
     }
+}
+
+.margin {
+    margin: 2rem auto;
 }

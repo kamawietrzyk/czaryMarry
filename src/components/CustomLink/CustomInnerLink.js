@@ -4,8 +4,8 @@ import { generatePath } from 'react-router'
 import URLS from '../../utils/urls'
 import './styles.scss'
 
-const CustomInnerLink = ({ path, text }) => (
-    <Link className="CustomLink" to={generatePath(URLS.POST, { url: path })}>
+const CustomInnerLink = ({ path, text, className = "" }) => (
+    <Link className={`CustomLink ${className}`} to={generatePath(URLS.POST, { url: path })}>
         {text}
     </Link>
 )
