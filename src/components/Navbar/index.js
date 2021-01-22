@@ -50,7 +50,11 @@ const Navbar = () => {
     }
 
     const scrollToStart = () => {
-        window.scrollTo({ top: 780, behavior: 'smooth' });
+        if (window.outerWidth >= 768 && window.outerWidth < 1024) {
+            window.scrollTo({ top: 530, behavior: 'smooth' });
+        } else {
+            window.scrollTo({ top: 780, behavior: 'smooth' });
+        }
     }
 
     return (
