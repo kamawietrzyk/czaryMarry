@@ -1,5 +1,7 @@
 import React from 'react'
-import { Link, withRouter } from 'react-router-dom'
+import { Link } from 'react-router-dom'
+// import { generatePath } from 'react-router'
+// import URLS from '../../utils/urls'
 import chevLeft from '../Icons/chevLeft.svg'
 import chevRight from '../Icons/chevRight.svg'
 import doubleChev from '../Icons/doubleChev.svg'
@@ -51,14 +53,14 @@ const Pagination = ({ onChange, currentPage, totalPages }) => {
                     </li>
                     {pageNumbers.map(number => (
                         <li key={number} className={`numbers-desktop page-item mx-2 ${currentPage === number && "active"}`}>
-                            <Link onClick={onChange(number, true)} className="page-link page-numbers" to=" ">{number}</Link>
+                            <Link onClick={onChange(number, true)} className="page-link page-numbers" to="" /*{generatePath(URLS.ROUTE, { url: `page/${number}`})} ?? */>{number}</Link>
                         </li>
                     ))}
                     <li className="numbers-mobile page-item mx-3">
                         <p>{currentPage}/{totalPages}</p>
                     </li>
                     <li className={`page-item ml-1 ${currentPage === totalPages && 'disabled'}`}>
-                        <Link onClick={onChange(1)} className="page-link" to=" ">
+                        <Link onClick={onChange(1)} className="page-link" to=" " >
                             <div className="icon-wrapper">
                                 <img src={chevRight} alt="chevron right" />
                             </div>
@@ -77,4 +79,4 @@ const Pagination = ({ onChange, currentPage, totalPages }) => {
     )
 }
 
-export default withRouter(Pagination)
+export default Pagination

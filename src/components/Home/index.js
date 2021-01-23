@@ -13,7 +13,17 @@ import instaPic2 from './instaPic2.jpg';
 import instaPic3 from './instaPic3.jpg';
 import konsultantki from './konsultantki-slubne-czary-marry-home.jpg';
 import ScrollToTopOnMount from '../ScrollToTopOnMount';
+import logo from '../../utils/czarymarry_logo.png'
+import SeoContent from '../SeoContent';
 
+const APP_URL = process.env.REACT_APP_BASE_URL
+const seo = {
+    title: '',
+    description:
+        '',
+    url: `${APP_URL}${URLS.HOME}`,
+    image: logo
+}
 class Home extends Component {
     state = {
         position: false
@@ -49,6 +59,7 @@ class Home extends Component {
         return (
             <div className="Home">
                 <ScrollToTopOnMount />
+                <SeoContent {...seo} />
                 <ArrowToTop />
                 <div className="Home-helloBox">
                     <Link className="hello" to={URLS.ABOUT}>Cześć.</Link>

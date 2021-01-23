@@ -17,8 +17,6 @@ const PostPage = () => {
 
     const { title, date, edited, mainPic, textMain, content, extras } = selectedPost
 
-    // skończyć RWD we wszystkich komponentach postów!!!
-
     return (
         <>
             <ScrollToTopOnMount />
@@ -49,7 +47,6 @@ const PostPage = () => {
                             <p>{text}</p>
                         </div>
                     ))}
-                    <iframe title="#14 Hey Wedding - Tortowa w akcji - czyli o tortach i słodkościach weselnych." height="122" width="100%" style={{border: "none", marginBottom: "2rem"}} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/media/player/dmp9w-f7efdb?from=pb6admin&download=1&version=1&auto=0&share=1&download=1&rtl=0&fonts=Helvetica&skin=1&pfauth=&btn-skin=107"></iframe>
                     {extras &&
                         <div className="extras">
                             <hr className="mb-5 mt-0" />
