@@ -75,7 +75,7 @@
             .content-div {
                 grid-area: text;
                 background-color: white;
-                padding: 1rem;
+                padding: 2rem 1.5rem;
                 display: grid;
                 align-items: center;
 
@@ -85,12 +85,16 @@
                     margin-bottom: 0;
 
                     @media (min-width: $laptop) {
-                        font-size: 26px;
+                        font-size: 28px;
                     }
                 }
 
                 p {
                     font-size: 14px;
+
+                    @media (min-width: $laptop) {
+                        font-size: 16px;
+                    }
                 }
 
                 hr {

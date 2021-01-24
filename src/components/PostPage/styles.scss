@@ -41,9 +41,14 @@
         padding: 2rem 1rem;
 
         p {
-            font-size: 15px;
+            font-size: 16px;
             font-weight: 300;
             margin-bottom: 2.5rem;
+        }
+
+        .bold,
+        b {
+            font-weight: 600;
         }
 
         .header-box {
@@ -78,7 +83,6 @@
                     }
 
                     .author {
-                        margin-right: 7px;
                         margin-bottom: 1px;
                     }
                 }
@@ -86,8 +90,9 @@
         }
 
         .date {
-            font-size: 12px;
+            font-size: 13px;
             margin-bottom: 0;
+            margin-left: 10px;
             align-self: flex-start;
             color: $mediumGrey;
         }
@@ -101,7 +106,7 @@
             }
 
             @media (min-width: $laptop) {
-                font-size: 2.2rem;
+                font-size: 2.3rem;
             }
         }
 
@@ -111,7 +116,7 @@
             margin-bottom: 1rem;
 
             @media (min-width: $laptop) {
-                font-size: 1.8rem;
+                font-size: 1.7rem;
             }
         }
 

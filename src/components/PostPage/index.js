@@ -15,7 +15,7 @@ const PostPage = () => {
     const selectedPost = posts.find(post => post.path === url)
     const relatedPost = posts.slice(0, 3)
 
-    const { title, date, edited, mainPic, textMain, content, extras } = selectedPost
+    const { title, date, edited, topPic, textMain, content, extras } = selectedPost
 
     return (
         <>
@@ -33,25 +33,25 @@ const PostPage = () => {
                     </div>
                     <h2 className="post-title">{title}</h2>
                     {edited && <p className="date">Aktualizacja: {edited}</p>}
-                    <p className="mt-4">
+                    <p className="mt-5">
                         {textMain}
                     </p>
-                    {mainPic &&
-                        <Picture item={mainPic} />
+                    {topPic &&
+                        <Picture item={topPic} />
                     }
                     {content && content.map(({ headerSmall, pics, text }, index) => (
                         <div className="mb-4" key={index}>
-                            {pics && pics.map((pic, index) => (
-                                <Picture className="my-2" item={pic} key={index} />))}
                             <h3 className="subheader">{headerSmall}</h3>
                             <p>{text}</p>
+                            {pics && pics.map((pic, index) => (
+                                <Picture className="my-2" item={pic} key={index} />))}
                         </div>
                     ))}
                     {extras &&
                         <div className="extras">
-                            <hr className="mb-5 mt-0" />
+                            <hr className="mb-4 mt-0" />
                             {extras}
-                            <hr className="mb-0 mt-5" />
+                            <hr className="mb-0 mt-4" />
                         </div>
                     }
                 </div>
