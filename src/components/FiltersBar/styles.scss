@@ -14,25 +14,37 @@
     }
 
     &-mobile {
-        .custom-form-control {
-            display: flex;
+
+        .btn {
             width: 100%;
-            margin-left: auto;
-            margin-right: auto;
-            padding: .75rem 0;
-            border: 7px solid $mint;
-            border-radius: 0;
+            color: $darkGrey;
             background-color: $mint;
+            text-align: end;
+            padding: 1rem;
+            border-radius: 0;
+
+            &:active,
+            &:hover {
+                color: $textGrey;
+            }
 
             &:focus {
-                outline: none;
+                box-shadow: none;
             }
         }
 
-        .form-group {
-            width: 100vw;
-            position: absolute;
-            top: 33%;
+        .dropdown-menu {
+            top: 95%;
+            right: 0;
+            text-align: end;
+            padding: .5rem;
+            border-radius: 0;
+        }
+
+        .dropdown-item {
+            padding: .5rem;
+            white-space: normal;
+            color: $textGrey
         }
 
         @media (min-width: $laptop) {

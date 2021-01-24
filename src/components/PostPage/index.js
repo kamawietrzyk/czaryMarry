@@ -15,7 +15,7 @@ const PostPage = () => {
     const selectedPost = posts.find(post => post.path === url)
     const relatedPost = posts.slice(0, 3)
 
-    const { title, date, edited, topPic, textMain, content, extras } = selectedPost
+    const { title, date, edited, topPic, textMain, content, textAuthor, links, extras } = selectedPost
 
     return (
         <>
@@ -47,6 +47,14 @@ const PostPage = () => {
                                 <Picture className="my-2" item={pic} key={index} />))}
                         </div>
                     ))}
+                    {textAuthor &&
+                        <p className="bold my-5">{textAuthor}</p>
+                    }
+                    {links &&
+                        <div className="my-5">
+                            {links}
+                        </div>
+                    }
                     {extras &&
                         <div className="extras">
                             <hr className="mb-4 mt-0" />
@@ -56,8 +64,6 @@ const PostPage = () => {
                     }
                 </div>
                 <Link to={URLS.BLOG} className="btn">« Wróć do Bloga</Link>
-
-
                 <div className="PostPage-suggestions">
                     <h3>Ostatnie posty</h3>
                     <div className="box">

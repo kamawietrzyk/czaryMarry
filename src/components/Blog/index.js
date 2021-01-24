@@ -18,6 +18,26 @@ const Blog = () => {
     const indexOfFirstPost = indexOfLastPost - postsPerPage
     const slicedPosts = posts.slice(indexOfFirstPost, indexOfLastPost)
 
+    const filters = [
+        { name: "Wszystkie wpisy", tag: "wszystkie" },
+        { name: "Niezbędnik przedŚLUBNY", tag: "niezbędnik" },
+        { name: "Opowiadamy o naszych realizacjach", tag: "realizacje" },
+        { name: "Wesela stulecia", tag: "stulecie" },
+        { name: "Ślubne opowieści, czyli wesela dawniej", tag: "opowieści" },
+        { name: "Śluby i wesela na świecie", tag: "świat" },
+        { name: "Podcast", tag: "podcast" }
+    ]
+
+    const [clickedTab, setClickedTab] = useState("wszystkie")
+
+    const filteredData = slicedPosts.filter(post => {
+        return post.tag && post.tag.toLowerCase() === clickedTab.toLowerCase()});
+
+    const onFilterSelect = (tag) => (e) => {
+        e.preventDefault();
+        setClickedTab(tag);
+    }
+
     const onPageChange = (pageNum, isSwitch) => (e) => {
         e.preventDefault();
         if (isSwitch) {
@@ -42,10 +62,10 @@ const Blog = () => {
                 O ślubach i weselach wiemy dużo... naprawdę dużo. Dodatkowo bardzo lubimy dzielić się swoją wiedzą i doświadczeniem. Zapraszamy więc do naszego małego świata pełnego porad oraz inspiracji ślubnych. Mamy nadzieję, że czytając naszego bloga zobaczycie, jak bardzo uwielbiamy swoją pracę.
                 </p>
             <div className="bg-grey">
-                <FiltersBar />
+                <FiltersBar filters={filters} onFilterSelect={onFilterSelect} />
             </div>
             <div className="Blog-content">
-                <PostPreview posts={slicedPosts} />
+                <PostPreview posts={clickedTab === "wszystkie" ? slicedPosts : filteredData} />
             </div>
             <Pagination onChange={onPageChange} currentPage={currentPage} totalPages={totalPages} />
         </div>

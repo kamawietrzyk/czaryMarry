@@ -1,11 +1,11 @@
 @import '../../utils/colors.scss';
 
 .CustomLink {
-    color: $darkGrey;
+    color: $mediumGrey;
     text-decoration: underline;
 
     &:hover {
-        color: $textGrey;
+        color: $darkGrey;
         text-decoration: underline;
     }
 }
