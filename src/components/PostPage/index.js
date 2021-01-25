@@ -9,6 +9,19 @@ import ScrollToTopOnMount from '../ScrollToTopOnMount'
 import ToTopOnUpdate from '../ToTopOnUpdate'
 import Picture from '../Picture'
 import ArrowToTop from '../ArrowToTop'
+// import SeoContent from '../SeoContent'
+
+    // const APP_URL = process.env.REACT_APP_BASE_URL
+
+    // const { title, seoTitle, seoText, path, mainPic } = posts
+    // const seoPath = generatePath(URLS.POST, { url: path })
+
+    // const seo = {
+    //     title: {seoTitle ? seoTitle : title},
+    //     description: seoText,
+    //     url: `${APP_URL}${seoPath}`,
+    //     image: mainPic.src
+    // }
 
 const PostPage = () => {
     const { url } = useParams()
@@ -19,6 +32,7 @@ const PostPage = () => {
 
     return (
         <>
+            {/* <SeoContent {...seo} /> */}
             <ScrollToTopOnMount />
             <ToTopOnUpdate />
             <ArrowToTop />

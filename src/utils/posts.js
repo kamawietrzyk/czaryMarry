@@ -3,9 +3,143 @@ import CustomInnerLink from '../components/CustomLink/CustomInnerLink'
 import CustomOuterLink from '../components/CustomLink/CustomOuterLink'
 
 const posts = [
-    // {
-    //     path: ''
-    // },
+    {
+        path: 'dama-mojego-serca-historia-miłości-moich-rodziców',
+        seoText: 'Dziś o swoim ślubie i weselu opowie Wam moja Kochana Mama. Naszym rozmowom zawsze towarzyszą zabawne anegdoty, wzruszenia i wielki karton ze starymi fotografiami. Jako dziecko uwielbiałam je oglądać i powiem szczerze, że zupełnie nic się nie zmieniło. Mamo, opowiedz, jak poznałaś tatę? Któregoś dnia wracając z pracy...',
+        tag: 'opowieści',
+        title: 'Dama Mojego Serca - Historia miłości moich rodziców',
+        date: '16 maja 2017',
+        textShort: 'Dziś o swoim ślubie i weselu opowie Wam moja Kochana Mama. Naszym rozmowom zawsze towarzyszą zabawne anegdoty, wzruszenia i wielki karton...',
+        mainPic: {
+            src: require('./BlogPics/Post8/post8.jpg').default
+        },
+        textMain:
+            <>
+                Dziś o swoim ślubie i weselu opowie Wam moja Kochana Mama. Naszym rozmowom zawsze towarzyszą zabawne anegdoty, wzruszenia i wielki karton ze starymi fotografiami. Jako dziecko uwielbiałam je oglądać i powiem szczerze, że zupełnie nic się nie zmieniło.<br />
+                <span className="pink">Mamo, opowiedz, jak poznałaś tatę?</span> <br />
+            Któregoś dnia wracając z pracy, spotkałam moją kuzynkę, która poprosiła mnie o pomoc przy upieczeniu ciasta na jakąś rodzinną uroczystość. Zgodziłam się pomóc. Poszłyśmy do jej mieszkania. Chwilę później w odwiedziny wpadł jej narzeczony z najlepszym kolegą. Tym kolegą był twój tata. Oczywiście nie robiłyśmy żadnego ciasta, a wszystko było skrzętnie zaplanowane. Niedługo po tym zaczęliśmy się spotykać częściej i tak się wszystko zaczęło.<br />
+                <span className="pink">Jak wyglądały zaręczyny?</span> <br />
+            Po roku znajomości tata dostał powołanie do wojska. Wtedy zadecydowaliśmy, że po powrocie weźmiemy ślub. W tamtych czasach służba wojskowa trwała 2 lata. Mimo to widywaliśmy się dość często. Tata pisał do mnie listy w pięknych kopertach sygnowanych literami DMS co oznaczało Dama Mojego Serca. Kiedy wrócił do domu, wręczył mi 24 goździki. Po jednym za każdy miesiąc rozłąki. Kilka miesięcy przed planowanym ślubem spotkaliśmy się wraz z rodzicami, żeby ustalić wszystkie szczegóły dotyczące ślubu. Było to tak jakby przyjęcie zaręczynowe. Pamiętam, że tego dnia odwiedził nas przyjaciel rodziny, który dowiedział się, że zamierzamy wziąć ślub. Bardzo zależało mu, żeby wziąć udział w uroczystości. Oczywiście był na liście zaproszonych gości. Dzień po jego wizycie dowiedziałam się, że zginął w wypadku na kopalni. To było bardzo smutne wydarzenie. <br />
+                <span className="pink">Opowiedz o przygotowaniach do ślubu?</span> <br />
+            Najpierw zamówiliśmy salę weselną, potem orkiestrę, którą słyszałam na weselu mojej koleżanki i bardzo mi się spodobała. Mama i starsza siostra pomagały mi w wyborze sukienek do ślubu. Ostatecznie kupiłam je w Jeleniej Górze. Pierwsza do cywilnego miała jasnoróżowy kolor, a druga do kościelnego oczywiście biały. Miały dokładnie taki sam krój, pasowały na mnie idealnie, więc nie musiałam niczego przerabiać. Tata również szył dwa garnitury, pierwszy w odcieniach beżu z koszulą w kolorze mojej sukienki, drugi czarny.<br/>
+                <span className="pink">Co z makijażem i fryzjerem?</span> <br />
+            Malowałam się sama, a do fryzjera byłam umówiona, ale powiem szczerze, że pani fryzjerka prawie doprowadziła mnie do łez zbyt krótkim obcięciem grzywki. Do dziś oglądając zdjęcia, spoglądam na tę nieszczęsną, przykrótką grzywkę.<br/>
+                <span className="pink">Jak wyglądał ślub i wesele?</span> <br />
+            To było 19 kwietnia 1980. Trudno uwierzyć, że minęło już 37 lat. Pagoda była brzydka, padał deszcz ze śniegiem. Goście weselni żartowali, że na pewno szorowałam przypalone garnki i dlatego mamy taką brzydką pogodę w dniu ślubu. To taki stary przesąd.<br />
+            Ślub cywilny był na godzinę 13. Pamiętam, że nie mogłam wcisnąć obrączki na palec taty. Bardzo mnie to rozbawiło, co widać na zdjęciach. Na dodatek zająknęłam się podczas składania przysięgi, ponieważ, mimo że chodziłam z twoim tatą tak długo, nie wiedziałam, że ma na drugie imię Waldemar. Po ceremonii świadek kazał nam oddać obrączki i na godzinę 16 pojechaliśmy do kościoła. Zaskakujące było, że tego dnia ślub kościelny brały trzy pary podczas jednej ceremonii. Jeszcze większym zbiegiem okoliczności były imiona panów młodych: Lechosław, Lech oraz Leszek. Wszystko odbyło się oczywiście za naszą zgodą, nie zależało nam na tym, żeby wszystko kręciło się wokół nas, nie przeszkadzało, że dzielimy ceremonię z dwoma innymi parami.
+            </>,
+        topPic: {
+            src: require('./BlogPics/Post8/post8a.jpg').default
+        },
+        content: [
+            {
+                text:
+                    <>
+                        <span className="pink">W porównaniu do innych par, z jakimi rozmawiałyśmy macie bardzo dużo zdjęć z wesela. Opowiedz, jak sprawa fotografa wyglądała u Was?</span><br/>
+                        Fotografa dzieliśmy ze znajomą parą młodą, która brała ślub tego samego dnia, a wesele miała w innej sali. Ponieważ ślub kościelny mieliśmy wspólny, a cywilny w innych godzinach nie sprawiło to żadnego problemu.<br/>
+                        <span className="pink">Mówiłaś o problemie z założeniem obrączek i drugim imieniu taty. Czy podczas wesela wydarzyło się jeszcze coś zabawnego?</span><br/>
+                        Pamiętam, że tata strasznie się stresował o to, czy goście dobrze się bawią. "Krystyna, zobacz - oni nie jedzą, Krystyna, zobacz - nic nie piją" — powtarzał bez przerwy. Zawsze wspominam to z rozbawieniem.<br/>
+                        <span className="pink">A co z prezentami?</span><br/>
+                        Były to przede wszystkim sprzęty gospodarstwa domowego. Najbardziej w pamięci zapadł mi prezent od małego syna mojej kuzynki, który specjalnie sprzedał nazbierane butelki i kupił nam ręczną maszynkę do mielenia mięsa. To było bardzo zabawne i niesamowicie miłe.<br/>
+                        <span className="pink">Mieliście poprawiny?</span><br/>
+                        Tak, odbywały się w domu. Przygotowywałyśmy je razem z twoją babcią, ale tak naprawdę mogłabym powiedzieć, że trwały praktycznie tydzień, ponieważ przedobrzyliśmy z ilością jedzenia i alkoholu.<br/>
+                        <span className="pink">Co jako małżeństwo z prawie 40-letnim stażem poradzilibyście współczesnym nowożeńcom?</span><br/>
+                        Poradziłabym im, żeby byli wytrwalsi w małżeństwie. By starali się być ze sobą na dobre i złe, wspólnie rozwiązując problemy jakie niesie los.
+                    </>,
+                pics: [
+                    { src: require('./BlogPics/Post8/post8b.jpg').default }
+                ]
+            }
+        ],
+        textAuthor: "Kasia",
+        extras:
+        <>
+            <span className="d-block text-right"><CustomInnerLink path="/" text="Ślubne opowieści, czyli wesela dawniej" className="bgColor" /></span>
+        </>
+    },
+
+    {
+        path: 'prezent-dla-gosci-wesele',
+        seoTitle: 'Pomysły na prezenty dla gości weselnych – Czary Marry',
+        seoText: 'Chcielibyście obdarzyć Waszych gości oryginalnym upominkiem? Sprawdź, jakie prezenty dla gości weselnych możecie przygotować!',
+        title: 'Prezenty dla gości weselnych – pomysły na upominki dla gości',
+        date: '9 maja 2017',
+        edited: '26 sie 2020',
+        tag: 'niezbędnik',
+        textShort: 'Wszyscy uwielbiamy prezenty! Moda na upominki dla gości weselnych trwa w najlepsze. Młodzi przygotowują drobne prezenciki, które umieszczają...',
+        mainPic: {
+            src: require('./BlogPics/Post7/post7.jpg').default
+        },
+        textMain:
+            <>
+                Wszyscy uwielbiamy prezenty! Moda na <b>upominki dla gości weselnych</b> trwa w najlepsze. Młodzi przygotowują drobne prezenciki, które umieszczają na stołach, rozdają na pożegnanie lub ustawiają gdzieś w jednym widocznym miejscu do wzięcia. Takie prezenty dla gości weselnych to piękna pamiątka z dnia ślubu i wesela. <br /> W całej idei nie chodzi o to, by kupować drogie podarunki, lecz o symboliczną drobnostkę na pamiątkę – podziękowania dla gości weselnych za przybycie i chęć wspólnego celebrowania Waszego dnia ślubu. Uważamy, że to naprawdę świetny pomysł, który coraz częściej wykorzystywany jest przez Pary Młode, jako substytut rozdawania wódki czy ciasta, które zostało po weselu (co niekoniecznie jest szczególnie eleganckie). Jakie więc podarunki zostaną w pamięci gości? Przygotowałyśmy dla Was kilka ciekawych i niebanalnych propozycji – inspiracji na <b>oryginalne prezenty dla gości weselnych.</b>
+            </>,
+        topPic: {
+            src: require('./BlogPics/Post7/post7a.jpg').default
+        },
+        content: [
+            {
+                headerSmall: 'Rośliny – zaskakujące upominki dla gości',
+                text: 'Bardzo ciekawym prezentem dla gości weselnych są rośliny. Niektórzy twierdzą, że doskonale nawiązują do miłości, ponieważ o nie również trzeba dbać i pielęgnować tak, jak uczucie. Można podarować małą roślinkę, kwiatka, zioła albo sadzonkę drzewka. Jest wiele roślin, które łatwo zakupić w dużej ilości oraz w miniaturowej wersji. W roli doniczki idealnie sprawdzą się małe słoiczki bądź puszki. Sukulenty na wesele czy własnoręcznie zrobiony mini las w słoiku, czyli prezenty dla gości weselnych DIY (zrób to sam), mogą okazać się strzałem w dziesiątkę szczególnie jeśli lubicie trend eko.'
+            },
+            {
+                headerSmall: 'Album ulubionych piosenek Pary Młodej – sentymentalny upominek dla gości',
+                text: 'Każda para ma swoje ulubione piosenki. A to wspomnienie pierwszego pocałunku, pierwszej wspólnej wycieczki rowerowej albo udanych wakacji. Warto to wykorzystać i stworzyć piękną składankę w personalizowanym pudełku i podarować je w formie prezentu dla gości weselnych. Prezenty dla gości weselnych w stylu zrób to sam? – chyba nie ma nic bardziej personalnego. Jeśli udałoby się jeszcze okleić samemu płytę, byłoby bajecznie. Innym rozwiązaniem są udekorowane pendrive’y, na którym znajdą się wspomnienia Młodych.',
+                pics: [
+                    { src: require('./BlogPics/Post7/post7b.jpg').default }
+                ]
+            },
+            {
+                headerSmall: 'Magnesy - podziękowanie dla gości',
+                text: 'Wielu miłośników podróży ze swoich bliskich i dalekich wojaży przywozi magnesy na lodówkę. Są one pamiątką, które nie zajmują miejsca na półce, które nie kurzą się, jak inne wakacyjne pamiątki i które często traktujemy jako swojego rodzaju trofea. Dlaczego więc nie podarować gościom pamiątki z najpiękniejszego i najważniejszego dnia w Waszym życiu? Magnesy jako prezent dla gości weselnych, dzięki możliwości aplikacji na lodówce, będą przypominać wszystkim to cudowne wydarzenie, jakim był Wasz ślub – z całą pewnością pozytywnie zaskoczą gości weselnych, ceniących sobie pamiątki, które są sentymentalne i praktyczne jednocześnie.',
+                pics: [
+                    { src: require('./BlogPics/Post7/post7c.jpg').default }
+                ]
+            },
+            {
+                headerSmall: 'Breloczek – kolejny praktyczny prezent dla gości weselnych',
+                text: 'Breloczek to kolejny ciekawy i przydatny prezent dla gości. Breloczki coraz częściej zastępują popularne słoiczki z miodem lub słodycze. Są trwałe, nie mają daty przydatności do spożycia i pomogą odróżnić kolejny komplet kluczy, który odkładamy obok innych. Są więc użyteczne, a obdarowana osoba będzie mogła każdego dnia patrzeć na taki upominek dla gości, otwierając drzwi kluczami zawieszonymi na tym breloczku.',
+                pics: [
+                    { src: require('./BlogPics/Post7/post7d.jpg').default }
+                ]
+            },
+            {
+                headerSmall: 'Winietki-przypinki – upominek dla gości, oryginalny dodatek na stole',
+                text: 'Szukając ciekawego prezentu dla gości weselnych, możemy sięgnąć również po takie, które spełnią praktyczną funkcję w trakcie samego wesela. Zamiast tradycyjnych, "zwykłych" winietek postawcie na winietki-przypinki. Na początku imprezy przypinki kładziemy na talerzach gości tak, by spełniały funkcję wizytówek z imieniem i nazwiskiem. Po zakończeniu wesela, winietki-przypinki będą trwałą pamiątką tej wyjątkowej nocy. Taki upominek dla gości polecamy przede wszystkim tym Parom, które na wesele zamawiają foto budkę.',
+                pics: [
+                    { src: require('./BlogPics/Post7/post7e.jpg').default }
+                ]
+            },
+            {
+                headerSmall: 'Inne pomysły na prezent dla gości weselnych',
+                text:
+                    <>
+                        W ramach podziękowania dla gości miód, małe słoiczki z miodem, bywa dość popularnym prezentem. Nic dziwnego – miód bywa w końcu słodki jak miłość!. W ramach słodkości lizaki, krówki weselne czy czekoladki są przyjemnym sposobem na podziękowania dla gości. Bardziej wytrawnym upominkiem bywają ciasteczka z wróżbą na wesele albo popularne w Polsce mini nalewki dla gości weselnych.
+                        Prezent dla gości weselnych warto dostosować do tematyki wesela. Jeśli zdecydowaliśmy się więc urządzić wesele w stylu boho, rośliny lub herbata w małych słoikach będą strzałem w dziesiątkę. Parom, które organizują wesele w stylu <CustomInnerLink path="sesja-stylizowana-w-stylu-glamour" text="glamour" className="bgColor" />, polecamy przygotować mały, ale elegancki upominek dla gości.
+                    </>
+            },
+            {
+                headerSmall: 'Prezent dla gości wesele – praktyczne porady na koniec',
+                text: 'Jeśli chcecie podarować swoim bliskim alkohol, zaopatrzcie się specjalnie na tę okazję np. w wino lub małe spersonalizowane buteleczki domowej nalewki, ale nie rozdawajcie wódki, która nie zeszła do śledzika! Najlepiej będzie, jeżeli każdy gość otrzyma identyczny podarunek – dzięki temu unikniecie zbędnego zamieszania. Postarajcie się przygotować taki prezent dla gości weselnych, który będzie i pamiątką, i podziękowaniem za udział w najwspanialszym dla Was dniu. Czy macie już pomysł na prezent dla Waszych gości weselnych?'
+            }
+        ],
+        links:
+            <>
+                <p className="mb-1">Linki do zdjęć:</p>
+                <CustomOuterLink to="http://www.polishcookies.pl/" text="http://www.polishcookies.pl/" /> <br />
+                <CustomOuterLink to="http://www.marthastewartweddings.com/" text="http://www.marthastewartweddings.com/" /> <br />
+                <CustomOuterLink to="https://www.etsy.com/" text="https://www.etsy.com/" /> <br />
+                <CustomOuterLink to="http://zszywka.pl/" text="http://zszywka.pl/" /> <br />
+                <CustomOuterLink to="http://www.ebay.co.uk/" text="http://www.ebay.co.uk/" /> <br />
+                <CustomOuterLink to="http://akcydensyslubne.pl/" text="http://akcydensyslubne.pl/" /> <br />
+                <CustomOuterLink to="https://www.notonthehighstreet.com/" text="https://www.notonthehighstreet.com/" />
+            </>,
+        extras:
+            <>
+                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColor" /></span>
+            </>
+
+    },
     {
         path: 'marta-i-michał-i-ich-weselna-przygoda-w-ogrodzie',
         title: 'Marta i Michał i ich weselna przygoda w ogrodzie',

@@ -23,6 +23,7 @@ const Blog = () => {
     const filteredData = posts.filter(post => {
         return post.tag && post.tag.toLowerCase() === clickedTab.toLowerCase()});
 
+    const slicedFiltered = filteredData.slice(indexOfFirstPost, indexOfLastPost)
     const totalFilteredPages = Math.ceil(filteredData.length /postsPerPage)
 
     const filters = [
@@ -67,7 +68,7 @@ const Blog = () => {
                 <FiltersBar filters={filters} onFilterSelect={onFilterSelect} />
             </div>
             <div className="Blog-content">
-                <PostPreview posts={clickedTab === "wszystkie" ? slicedPosts : filteredData} />
+                <PostPreview posts={clickedTab === "wszystkie" ? slicedPosts : slicedFiltered }  />
             </div>
             <Pagination onChange={onPageChange} currentPage={currentPage} totalPages={clickedTab === "wszystkie" ? totalPages : totalFilteredPages } />
         </div>
