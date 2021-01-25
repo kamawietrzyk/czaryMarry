@@ -12,11 +12,18 @@ import ToTopOnUpdate from '../ToTopOnUpdate'
 const Blog = () => {
 
     const [currentPage, setCurrentPage] = useState(1)
+    const [clickedTab, setClickedTab] = useState("wszystkie")
+
     const postsPerPage = 5
     const totalPages = Math.ceil(posts.length / postsPerPage)
     const indexOfLastPost = currentPage * postsPerPage
     const indexOfFirstPost = indexOfLastPost - postsPerPage
     const slicedPosts = posts.slice(indexOfFirstPost, indexOfLastPost)
+
+    const filteredData = posts.filter(post => {
+        return post.tag && post.tag.toLowerCase() === clickedTab.toLowerCase()});
+
+    const totalFilteredPages = Math.ceil(filteredData.length /postsPerPage)
 
     const filters = [
         { name: "Wszystkie wpisy", tag: "wszystkie" },
@@ -27,11 +34,6 @@ const Blog = () => {
         { name: "Śluby i wesela na świecie", tag: "świat" },
         { name: "Podcast", tag: "podcast" }
     ]
-
-    const [clickedTab, setClickedTab] = useState("wszystkie")
-
-    const filteredData = slicedPosts.filter(post => {
-        return post.tag && post.tag.toLowerCase() === clickedTab.toLowerCase()});
 
     const onFilterSelect = (tag) => (e) => {
         e.preventDefault();
@@ -67,7 +69,7 @@ const Blog = () => {
             <div className="Blog-content">
                 <PostPreview posts={clickedTab === "wszystkie" ? slicedPosts : filteredData} />
             </div>
-            <Pagination onChange={onPageChange} currentPage={currentPage} totalPages={totalPages} />
+            <Pagination onChange={onPageChange} currentPage={currentPage} totalPages={clickedTab === "wszystkie" ? totalPages : totalFilteredPages } />
         </div>
     )
 }

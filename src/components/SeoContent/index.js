@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet'
 import truncate from 'lodash/truncate'
 
 const SeoContent = ({ title, description, url, image }) => {
-    const truncatedDescription = truncate(description, { length: 164 })
+    const truncatedDescription = truncate(description, { length: 320 })
     return (
         <Helmet>
             {title && <title>{title}</title>}

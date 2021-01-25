@@ -3,10 +3,148 @@ import CustomInnerLink from '../components/CustomLink/CustomInnerLink'
 import CustomOuterLink from '../components/CustomLink/CustomOuterLink'
 
 const posts = [
+    // {
+    //     path: ''
+    // },
+    {
+        path: 'marta-i-michał-i-ich-weselna-przygoda-w-ogrodzie',
+        title: 'Marta i Michał i ich weselna przygoda w ogrodzie',
+        seoText: 'Marta i Michał wymarzyli sobie plenerowy ślub i wesele na terenie swojego pięknego ogrodu. Ponieważ miejsce, które wybrali, było magiczne i pełne uroku, nie mogliśmy oprzeć się pokusie i nie wykorzystać tego w dekoracjach oraz ogólnej koncepcji wesela i ślubu. Ustaliliśmy, że motywem przewodnim będzie odniesienie do...',
+        date: '3 maja 2017',
+        tag: 'realizacje',
+        textShort: 'Marta i Michał wymarzyli sobie plenerowy ślub i wesele na terenie swojego pięknego ogrodu. Ponieważ miejsce, które wybrali, było magiczne i pełne uroku, nie mogliśmy...',
+        mainPic: {
+            src: require('./BlogPics/Post6/post6.jpg').default
+        },
+        textMain:
+            <>
+                Marta i Michał wymarzyli sobie plenerowy ślub i wesele na terenie swojego pięknego ogrodu. Ponieważ miejsce, które wybrali, było magiczne i pełne uroku, nie mogliśmy oprzeć się pokusie i nie wykorzystać tego w dekoracjach oraz ogólnej koncepcji wesela i ślubu. Ustaliliśmy, że motywem przewodnim będzie odniesienie do Secret Garden. Kolory miały być intensywne, mocne, przełamane specjalnie zaprojektowanymi dodatkami z kwiatową fakturą. Wszystko miało być idealne i spójne ze sobą.
+            </>,
+        topPic: {
+            src: require('./BlogPics/Post6/post6.jpg').default
+        },
+        content: [
+            {
+                text: 'Kolory główne, które wybrała Para to fuksja, brzoskwinia oraz turkus. Motyw kwiatowy pojawił się w indywidualnie zaprojektowanej papeterii, w dekoracji stołów i bufetów oraz w aranżacjach najdrobniejszych elementów, takich jak prezenty dla gości czy księga życzeń. Lekkości wnętrza namiotu nadały przeźroczyste krzesła chiavarii. Najciekawszym elementem dekoracji były krzesła, które zawisły nad bufetami. Żywe kwiaty, którymi ozdobiono wiszące krzesła, idealnie pasowały do kompozycji kwiatowych, które znalazły się na stołach. Wszystko tworzyło spójną całość.',
+                pics: [
+                    { src: require('./BlogPics/Post6/post6a.jpg').default }
+                ]
+            },
+            {
+                text: 'Przed namiotem postały trzy strefy chillout. Każda z nich została urządzona w klimacie zgodnym z przeznaczeniem. Była degustacja whisky z podświetlanymi meblami Chesterfield, kolorowa strefa relaksu z fajką wodną udekorowana drewnianymi paletami i miękkimi poduchami.',
+                pics: [
+                    { src: require('./BlogPics/Post6/post6b.jpg').default }
+                ]
+            },
+            {
+                text: 'Goście przez całe wesele mogli skorzystać z usług barmana i baristy. Kolorowe drinki zachwycały smakiem, a zapach aromatycznej kawy unosił się przez cały czas trwania wesela. Po zapadnięciu zmroku namiot, strefy chillout oraz ogród zostały oświetlone setkami świec i światłem architektonicznym, co podkreśliło niesamowitą atmosferę przyjęcia.',
+                pics: [
+                    { src: require('./BlogPics/Post6/post6c.jpg').default }
+                ]
+            }
+        ],
+        textAuthor: "Ola",
+        links:
+            <p className="mb-1">Fotografie: <CustomOuterLink to="https://pokadrowani.pl/" text="Pokadrowani" /></p>,
+        extras:
+            <>
+                <span className="d-block text-right"><CustomInnerLink path="/" text="Opowiadamy o naszych realizacjach" className="bgColor" /></span>
+            </>
+    },
+    {
+        path: 'podziekowania-dla-rodzicow',
+        title: 'Podziękowania dla rodziców na weselu',
+        seoText: 'Podziękowania dla rodziców - oryginalne pomysły na prezenty na ślubie i weselu.',
+        date: '19 kwi 2017',
+        edited: '5 lis 2020',
+        tag: 'niezbędnik',
+        textShort: 'Podziękowania dla rodziców bywają twardym orzechem do zgryzienia. Z pewnością ciężko w kilku słowach lub za pomocą weselnego szlagieru...',
+        mainPic: {
+            src: require('./BlogPics/Post5/post5.jpg').default
+        },
+        textMain:
+            <>
+                Podziękowania dla rodziców bywają twardym orzechem do zgryzienia. Z pewnością ciężko w kilku słowach lub za pomocą weselnego szlagieru „Cudownych rodziców mam” wyrazić wdzięczność za trud wychowania, okazaną miłość, cierpliwość i wsparcie. Postaramy się pomóc w wyborze odpowiedniego podziękowania dla rodziców, ale pamiętajcie, że nikt tak dobrze nie zna Waszych rodziców, jak Wy sami. <br />
+            Podstawową i najważniejszą sprawą jest, że to PODZIĘKOWANIA DLA RODZICÓW. Nie robicie ich dla siebie tylko dla osób, które mimo, że są Wam bardzo bliskie niejednokrotnie mają zupełnie inny gust niż Wy. Starajcie się spojrzeć na temat z ich perspektywy. Co sprawi im największą radość? Co lubią? Jacy są? Idąc tym tropem, przedstawiamy kilka popularnych sposobów na wyrażenie podziękowanie rodzicom w dniu ślubu.
+            </>,
+        content: [
+            {
+                headerSmall: '1. Podziękowania dla rodziców w formie filmu',
+                text: 'Film z podziękowaniami dla rodziców może mieć bardzo różną formę. Możecie wybrać super produkcję nakręconą przez polecanych profesjonalistów lub przygotować go samodzielnie. Być może chcielibyście powiedzieć coś od siebie lub zdecydować się na krótki filmik z muzyką w tle. Nie chcecie dokładać sobie kolejnych wydatków do weselnego budżetu? Wystarczy prosty program do obróbki filmów i telefon komórkowy. Nie jesteście dobrymi mówcami? Nie wiecie jak to ugryźć? Świetnym rozwiązaniem będzie pokaz slajdów ze starymi zdjęciami z dzieciństwa. Podziękowania dla rodziców w formie filmu ze zdjęciami przywoła ciepłe wspomnienia. Nie upierajcie się też przy tym, że film musi być istnym wyciskaczem łez. Jeżeli Wasi rodzice uwielbiają się śmiać i żartować to warto postawić na dobry humor. Nie musicie też prezentować filmu podczas wesela. Może warto przemyśleć czy nie było lepiej wspomnieć na nim o bardziej intymnych szczegółach z Waszego życia i wręczyć rodzicom płytę, którą obejrzą w zaciszu własnego domu. Takie podziękowania dla rodziców będą wspaniałą pamiątką.',
+                pics: [
+                    { src: require('./BlogPics/Post5/post5a.jpg').default }
+                ]
+            },
+            {
+                headerSmall: '2. Kwiaty i kosze upominkowe – praktyczne podziękowania dla rodziców',
+                text: 'Takie rozwiązanie ma swoje plusy i minusy. Klasyka broni się sama. Kosze dla rodziców są eleganckim i taktownym wyborem. Możecie zdecydować się na gotową kompozycję lub skompletować kosz według upodobań Waszych rodziców. Mogą się w nim znaleźć produkty spożywcze, alkohole, jak i kosmetyki czy książki. Niestety nie jest to pamiątka na lata i z roku na rok jest coraz bardziej oklepana. Kiedy kilka lat temu brałam ślub, znalezienie pięknego kosza dla rodziców było problemem. Wybór nie był zbyt wielki. Dziś znajdziecie je dosłownie wszędzie. Ponadto wraz z kwiatami i kartką tworzył zgrabny prezent na podziękowania dla rodziców. Obecnie to coraz częściej tylko dodatek do "głównego" podziękowania i jednocześnie pierwsza rzecz jaka przychodzi do głowy jako odpowiedź na pytanie: co na podziękowania dla rodziców?',
+                pics: [
+                    { src: require('./BlogPics/Post5/post5b.jpg').default }
+                ]
+            },
+            {
+                headerSmall: '3. Figurki, grawerowane statuetki, ramki, portrety, karykatury, obrazy – nietypowe podziękowania dla rodziców, ale nie wszystkich',
+                text: 'Karykatura czy obraz na podziękowania dla rodziców - jedni powiedzą, że to świetny prezent, inni, że to totalna wiocha. I jedni i drudzy mają rację. Są bowiem gusta i guściki. Najlepszym sposobem na rozstrzygnięcie tego jest zadanie sobie kilku pytań. Jak wygląda mieszkanie naszych rodziców? Jest minimalistyczne, czy raczej półki uginają się od bibelotów? Gdy rodzice jadą na wakacje przywożą z powrotem dodatkową walizkę z pamiątkami czy raczej omijają stragany szerokim łukiem? Jakie prezenty robią innym? Przydatne i funkcjonalne, czy raczej są to ozdoby? Odpowiedzcie sobie na takie pytania, a będziecie mieli pewność czy wybór pucharu dla najlepszych rodziców na świecie jest trafionym pomysłem i odpowiednie na podziękowania dla rodziców na weselu.',
+                pics: [
+                    { src: require('./BlogPics/Post5/post5c.jpg').default }
+                ]
+            },
+            {
+                headerSmall: '4. Wycieczka, weekend w SPA lub kolacja w modnej restauracji – oryginalne podziękowania dla rodziców z górnej półki',
+                text: 'Takie upominki dla rodziców to nie jest to tania sprawa, dlatego zastanówcie się dwa razy, zanim podejmiecie taką decyzję. Najgorszą rzeczą, jaką możecie zrobić to uszczęśliwianie kogoś na siłę lub wprawianie w zakłopotanie. Czasami Wasi rodzice to ludzie tak zwanej starej daty, którzy najlepiej czują się w zaciszu własnego domu. Podróż, za którą zapłaciliście kupę pieniędzy, a na którą nie będą mieli ochoty, przysporzy im tylko stresu, a Wam odbije się czkawką. Jeżeli jednak Wasi rodzice uwielbiają podróże, nowe miejsca, smaki, a Wasz budżet zanadto na tym nie ucierpi, będzie to wspaniały prezent i wyjątkowe podziękowania dla rodziców. Być może rodzice chcieliby się gdzieś wybrać, ale nie mają odwagi? Przeraża ich podróż samolotem, nie znają języków obcych? W takiej sytuacji wybierzcie się razem z nimi.',
+                pics: [
+                    { src: require('./BlogPics/Post5/post5d.jpg').default }
+                ]
+            },
+            {
+                headerSmall: '5. Piosenka z dedykacją dla rodziców lub taniec – tradycyjne podziękowania dla rodziców',
+                text: 'To prawda, że w we wstępie nieco prześmiewczo wspomniałyśmy o popularnym "Cudownych rodziców mam", ale uwierzcie nam, są mamy, które marzą, żeby usłyszeć tą lub podobną piosenkę od momentu, kiedy dowiedziały się, że bierzecie ślub. Nie odbierajcie im tego. Przecież to tylko trzy minuty tańca w kółeczku, a chodzi o sprawienie im przyjemności. Dedykowana piosenka na podziękowania dla rodziców nie jednej osobie zakręciła łezkę w oku.',
+                pics: [
+                    { src: require('./BlogPics/Post5/post5e.jpg').default }
+                ]
+            },
+            {
+                headerSmall: '6. Kartki z życzeniami – indywidualne podziękowania dla rodziców na wesele',
+                text: 'Nie kosztują wiele, a mogą okazać się najcudowniejszym prezentem. Nie mamy tu na myśli drukowanego taśmowo wierszyka i pozytywki. Napiszcie, co czujecie, podziękujcie rodzicom od serca. Wzruszające podziękowania dla rodziców w postaci tekstu od serca będą przywoływać ciepłe emocje. Tu znowu wspomnę, jak to było u mnie. Wraz z mężem przygotowaliśmy kartki dla rodziców. Po jednej stronie ja pisałam do moich rodziców, a po drugiej mój mąż do swoich przyszłych teściów i odwrotnie. Uwierzcie, mimo że od naszego ślubu minęło pięć lat, rodzice nadal co jakiś czas do nich wracają. W naszym przypadku były to udane upominki dla rodziców.',
+                pics: [
+                    { src: require('./BlogPics/Post5/post5f.jpg').default }
+                ]
+            },
+            {
+                headerSmall: '7. Albumy – sentymentalne podziękowania dla rodziców w formie zdjęć',
+                text: 'Taki album ze zdjęciami to piękna pamiątka na lata. Ślub jest nie tylko jednym z najważniejszych dni w Waszym życiu, ale i Waszych rodziców. Z pewnością będą zachwyceni takim prezentem. Jedynym jego minusem jest to, że możecie go wręczyć dopiero około trzech miesięcy po ślubie. Z drugiej strony fotoksiążka czy podziękowania dla rodziców w postaci albumu z sesji narzeczeńskiej albo wspólnymi zdjęciami rodzinnymi możecie wykonać przed ślubem. Zdjęcia rodzinne mogą na nowo ożywić miłe wspomnienia. O pomoc w wykonaniu albumów na podziękowania dla rodziców na weselu możecie poprosić swojego fotografa ślubnego, który doradzi i pomoże zamówić profesjonalne albumy.',
+                pics: [
+                    { src: require('./BlogPics/Post5/post5g.jpg').default }
+                ]
+            },
+            {
+                headerSmall: 'Inne oryginalne prezenty dla rodziców na ślub',
+                text:
+                    <>
+                        Jest jeszcze wiele innych pomysłów na podziękowania dla rodziców na wesele – drzewka, las w słoiku, skrzynki, wiersze i wiele wiele innych. Granicą w przygotowaniu wyjątkowego upominku dla rodziców jest wyłącznie Wasza wyobraźnia. To nie muszą być upominki dla rodziców spełniające tegoroczne trendy ślubne. Utarło się również, że prezenty na podziękowania dla rodziców muszą być takie same. Nic bardziej mylnego. Przecież to cztery różne osoby, o odmiennych gustach, wrażliwościach i zainteresowaniach. Możecie postawić na spersonalizowane prezenty, koniecznie w podobnych przedziałach cenowych.
+                        <br />
+                        Jeżeli macie pytania odnośnie prezentów dla rodziców piszcie śmiało. Być może chcielibyście, żebyśmy poruszyły na blogu inny problematyczny dla Was temat. Czekamy na Wasze komentarze.
+                    </>
+            }
+        ],
+        links:
+            <>
+                <p className="mb-1">Linki do zdjęć:</p>
+                <CustomOuterLink to="http://jaeheebridal.com/" text="http://jaeheebridal.com/" /> <br />
+                <CustomOuterLink to="http://zrobswojslub.pl/" text="http://zrobswojslub.pl/" /> <br />
+                <CustomOuterLink to="http://musicserwis.com/" text="http://musicserwis.com/" /> <br />
+                <CustomOuterLink to="http://fashionelka.pl/" text="http://fashionelka.pl/" /> <br />
+                <CustomOuterLink to="http://cashmores-caravans.com/" text="http://cashmores-caravans.com/" />
+            </>,
+        extras:
+            <>
+                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColor" /></span>
+            </>
+    },
     {
         path: 'o-tym-dlaczego-warto-zdecydować-się-na-konsultanta-ślubnego',
         title: "O tym, dlaczego warto zdecydować się na konsultanta ślubnego",
-        seoText: "Lorem ipsum dolor sit amet.",
+        seoText: "Mimo że tytuł artykułu wskazuje na coś zupełnie innego, nie będzie to skrzętnie przygotowana autoreklama. Oczywiście jako konsultant ślubny wierzę, że zawód, który wykonuję, jest potrzebny i warto zainwestować w pomoc specjalisty. To tak jak z fotografem. Czasy, gdy zdjęcia na weselu robili wujkowie lub sąsiedzi pos...",
         date: "16 kwi 2017",
         tag: "niezbędnik",
         textShort: "Mimo że tytuł artykułu wskazuje na coś zupełnie innego, nie będzie to skrzętnie przygotowana autoreklama. Oczywiście jako konsultant ślubny wierzę, że zawód, który wykonuję, jest potrzebny i warto...",
@@ -53,10 +191,10 @@ const posts = [
         links:
             <>
                 <p className="mb-1">Linki do zdjęć:</p>
-                    <CustomOuterLink to="https://www.theodysseyonline.com" text="https://www.theodysseyonline.com" /> <br />
-                    <CustomOuterLink to="http://www.studio1250.com" text="hhttp://www.studio1250.com" /> <br />
-                    <CustomOuterLink to="hhttps://welldoing.org" text="https://welldoing.org" /> <br />
-                    <CustomOuterLink to="http://www.huffingtonpost.com" text="http://www.huffingtonpost.com" />
+                <CustomOuterLink to="https://www.theodysseyonline.com" text="https://www.theodysseyonline.com" /> <br />
+                <CustomOuterLink to="http://www.studio1250.com" text="http://www.studio1250.com" /> <br />
+                <CustomOuterLink to="https://welldoing.org" text="https://welldoing.org" /> <br />
+                <CustomOuterLink to="http://www.huffingtonpost.com" text="http://www.huffingtonpost.com" />
             </>,
         extras:
             <>
@@ -67,7 +205,7 @@ const posts = [
     {
         path: 'o-poszukiwaniu-sukienki-idealnej',
         title: "O poszukiwaniu sukienki idealnej",
-        seoText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus quis risus nec molestie.",
+        seoText: "To nie tajemnica, że przyszła Panna Młoda swój ślubny strój planuje na długo wcześniej przed tym wielkim dniem. Większość nie potrzebuje do tego nawet pierścionka i idealnego partnera. Od najmłodszych lat w naszej głowie tworzą się wizje pięknej, białej sukni idealne podkreślającej naszą figurę i wprawiającej gości...",
         date: "16 mar 2017",
         tag: "niezbędnik",
         textShort: "To nie tajemnica, że przyszła Panna Młoda swój ślubny strój planuje na długo wcześniej przed tym wielkim dniem. Większość nie potrzebuje do tego nawet pierścionka i idealnego partnera. Od najmłodszych lat...",
@@ -119,7 +257,7 @@ const posts = [
     {
         path: 'o-gościach-nie-idealnych',
         title: "O gościach (nie)idealnych",
-        seoText: "Lorem ipsum dolor sit amet.",
+        seoText: "Mało jest rzeczy, które budzą tyle emocji, co śluby i wesela. Mają jakąś magiczną moc wpędzania ludzi w amok – i nie mówię tu o Młodej Parze, u której to bardzo zrozumiałe, ale o gościach. Całkiem rozsądni na co dzień ludzie wraz ze wskoczeniem w sukienkę czy garnitur wpadają w wir dziwnych przekonań i przepychanek...",
         date: "7 mar 2017",
         edited: "8 lip 2020",
         tag: "niezbędnik",
@@ -180,7 +318,7 @@ const posts = [
     {
         path: 'motyw-przewodni-wesela',
         title: "Motyw przewodni wesela",
-        seoText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus quis risus nec molestie.",
+        seoText: "Jak wybrać motyw przewodni wesela? Jakich błędów unikać przy wyborze przewodniego motywu ślubnego i dlaczego warto zdecydować się na motyw przewodni?",
         date: "9 lut 2017",
         edited: "23 paź 2020",
         tag: "niezbędnik",
