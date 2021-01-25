@@ -4,6 +4,36 @@
 .Pagination {
     margin-bottom: 3rem;
 
+    .empty {
+        margin-bottom: 7rem;
+        padding: 1rem;
+        border: 1px solid $lightGrey;
+        background-color: white;
+
+        p {
+            font-size: 15px;
+            margin-bottom: 0;
+            text-align: center;
+            color: $mediumGrey;
+
+            @media (min-width: $tablet) {
+                font-size: 17px;
+            }
+        }
+
+        @media (min-width: $tablet) {
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 2rem;
+        }
+
+        @media (min-width: $laptop) {
+            padding: 4rem;
+            position: relative;
+        }
+    }
+
     ul {
         justify-content: center;
         align-items: end;
@@ -33,9 +63,11 @@
 
     .page-link {
         border: none;
+
         &:focus {
             box-shadow: none;
         }
+
         &:hover {
             background-color: transparent;
         }

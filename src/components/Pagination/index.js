@@ -35,6 +35,10 @@ const Pagination = ({ onChange, currentPage, totalPages }) => {
 
     return (
         <div className="Pagination">
+            { totalPages === 0 ?
+            <div className="empty">
+                <p>Ups, w tej kategorii nie mamy jeszcze żadnych wpisów!</p>
+            </div> :
             <nav aria-label="navigation">
                 <ul className="pagination">
                     <li className={`page-item mr-1 ${currentPage === 1 && 'disabled'}`}>
@@ -75,6 +79,7 @@ const Pagination = ({ onChange, currentPage, totalPages }) => {
                     </li>
                 </ul>
             </nav>
+}
         </div>
     )
 }

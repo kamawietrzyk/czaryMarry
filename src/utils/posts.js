@@ -6,6 +6,172 @@ import URLS from './urls'
 
 const posts = [
     {
+        path: 'wesele-w-plenerze',
+        seoTitle: 'Jak zorganizować wesele w plenerze? radzi agencja ślubna Czary Marry',
+        seoText: 'O czym trzeba pamiętać, organizując wesele w plenerze? Dlaczego warto przy tej okazji poprosić o pomoc wedding plannera? Praktyczne wskazówki i porady!',
+        tag: 'niezbędnik',
+        title: 'Jak zorganizować wesele w plenerze?',
+        date: '17 sie 2017',
+        edited: '18 lis 2020',
+        textShort: 'Pogodna wiosna, długie, upalne lato i złota polska jesień mogą stanowić doskonałą oprawę weselnej imprezy. Jeśli dodatkowo zdecydujecie się urządzić wesele w plenerze, TEN dzień będzie...',
+        mainPic: {
+            src: require('./BlogPics/Post13/post13.jpg').default
+        },
+        textMain:
+            <>
+                Pogodna wiosna, długie, upalne lato i złota polska jesień mogą stanowić doskonałą oprawę weselnej imprezy. Jeśli dodatkowo zdecydujecie się urządzić <b>wesele w plenerze</b>, TEN dzień będzie naprawdę wyjątkowy. Dowiedzcie się, o czym musicie pamiętać gdy organizujecie wesele plenerowe!
+            </>,
+        content: [
+            {
+                headerSmall: 'Czy warto organizować wesele w plenerze?',
+                text: 'Moda na śluby i wesela w plenerze przybyła do nas z USA i w ostatnich latach ta forma uroczystości zaczęła zyskiwać coraz większe grono zwolenników. To, że są to piękne i oryginalne uroczystości, nie podlega żadnej dyskusji. W dowolnym miejscu i czasie możemy stworzyć przyjęcie weselne w plenerze, które nie wymaga pójścia na żadne ustępstwa, wszystko zależy od naszej wyobraźni i preferencji. Dostajemy w końcu pusty namiot, z którym możemy zrobić wszystko. Planując wesele w plenerze, warto jednak odłożyć na później ochy i achy oraz rozmowy o dekoracjach i skupić się na najistotniejszych sprawach, konkretach, o których często nowożeńcy zapominają. Przed Wami lista spraw, o których zapomnicie, planując wesele plenerowe. Czas — start.',
+            },
+            {
+                headerSmall: <span className="pink">1. Pomoc ekipy sprzątającej podczas wesela w plenerze</span>,
+                text: 'Podczas tak dużego przedsięwzięcia, jakim jest wesele plenerowe, stawianie i wyposażenie namiotu weselnego wymaga pracy sporej liczby ludzi. Na "placu budowy" jednocześnie mogą kręcić się specjaliści od klimatyzacji, oświetlenia, w części zaplecza rozkładany może być sprzęt cateringowy, podłączany będzie prąd. Oczywiście ufamy specjalistom z branży ślubnej, których zatrudniamy, ale sytuacje i ludzie są różni. Bałagan może zrobić się samoistnie. Ktoś w natłoku pracy zapomni i zostawi puste butelki po napojach, niechcący naniesie piachu, a nie będzie miał ze sobą zmiotki i szufelki. Warto wliczyć do budżetu ślubnego firmę, która z profesjonalnym sprzętem będzie dbała o porządek podczas weselna w plenerze oraz posprząta po przyjęciu.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post13/post13.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: <span className="pink">2. Wesele w plenerze w nietypowym miejscu – zapewnijcie gościom parking!</span>,
+                text: <>
+                W przypadku sal weselnych problem przeważnie się nie pojawia. Każde dobrze prosperujące miejsce ma swój prywatny parking, a w przypadku większej ilości samochodów służą swoim doświadczeniem i podpowiedzą, gdzie pokierować gości. Co, kiedy podczas organizacji przyjęcia weselnego w plenerze stawiamy <CustomInnerLink path="wesele-pod-namiotem" text="namiot weselny" /> czy jurtę na pięknej łące, u siebie w ogrodzie lub daleko od cywilizacji? Często Młode Pary nie pomyślą o organizacji parkingu i nie chodzi tu tylko o wydzielenie strefy, gdzie goście mogą zaparkować. Trzeba pomyśleć o tym, aby parking był na stabilnym gruncie. Panie będą mieć obcasy, a Panowie eleganckie półbuty. Szkoda, aby obuwie pobrudziło się od zapadania w ziemię bądź błoto podczas ewentualnego deszczu. Dobrze, gdyby miejsce było odpowiednio oświetlone, by nie szukać swojego auta, świecąc sobie smartfonem. Jeśli marzycie o weselu w plenerze, musicie zapewnić gościom jak najbardziej komfortowe warunki.</>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post13/post13a.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: <span className="pink">3. Bezawaryjne źródło prądu na weselu plenerowym</span>,
+                text: 'Zadbajcie o to, aby podczas plenerowego wesela DJ czy zespół nie narzekali na brak prądu. Ze źródłem prądu na plenerowych weselach bywa różnie – najlepiej, jeśli możecie po prostu pociągnąć kable z budynku obok (urządzając wesele plenerowe na przykład w ogrodzie przy pałacu albo hotelu). Nie zawsze jest jednak taka możliwość. Zadbajcie również o odpowiednie zabezpieczenie kabli: nie ma nic gorszego niż kilometry kabli wijących się na trawie, przez które goście muszą przeskakiwać. Może Wam się to wydawać nudnym BHP-owskim gadaniem, ale wierzcie mi – dobra zabawa + alkohol + nieuwaga to mieszanka wybuchowa na weselu plenerowym.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post13/post13b.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: <span className="pink">4. Obsługa toalet na weselu plenerowym</span>,
+                text: 'Śmiejcie się, śmiejcie, ale serio wyobrażacie sobie gości weselnych szukających u Was pomocy w załatwieniu papieru toaletowego lub mydła? Bo my nie bardzo. Kwestia toalety to bardzo ważna sprawa, dlatego planując wesele w plenerze, dokładnie ją przemyślcie. Wybierając miejsce na wesele w plenerze optymalna będzie możliwość skorzystania z toalety w przylegającym budynku. Możecie też wynająć toalety-przyczepy, z umywalką, lustrem i normalnie wyglądającymi kabinami. I o ile podczas korzystania z toalety w pobliskim budynku, będzie osoba, która o nią zadba, to nie liczcie na to, że ktoś pomyśli o sprawdzeniu stanu czystości w podstawionych toaletach — przyczepkach. No bo kto? Mama Panny Młodej, kelnerzy, którzy mają kontakt z Waszym jedzeniem? Tu warto pomyśleć o zatrudnieniu osoby, która przez całą noc przyjęcia weselnego w plenerze będzie dbać o czystość sanitariatów, jak i posprząta je rano po całonocnym weselu w plenerze.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post13/post13c.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: <span className="pink">5. Wedding planner na wesele w plenerze!</span>,
+                text: 'Zauważyliście już pewnie, że organizacja wesel w plenerze to nie kaszka z mleczkiem. Trzeba pomyśleć zawczasu o wielu aspektach, żeby wesele w plenerze zakończyło się pełnym sukcesem. Chcecie zminimalizować przytłaczającą Was liczbę kontaktów i spraw, jakie musicie nawiązywać na drodze do Waszego wielkiego dnia w wesela w plenerze? Zatrudnijcie wedding plannera! Przejmie lwią część spraw i ustaleń, a przede wszystkim pomyśli o wszystkim, o czym Wy zapomnieliście! Przypilnuje za Was wszystkich spraw w trakcie organizacji wesela w plenerze, a także pojawi się na miejscu uroczystości podczas stawiania namiotu i na bieżąco będzie radził sobie z problemami, a wierzcie mi, jest ich dużo. Unikniecie też dodatkowego stresu i załatwiania, co pozwoli Wam cieszyć się swoim wyjątkowym dniem! Osobiście polecamy się na tego typu przedsięwzięcia - przyjęcia weselne w plenerze to nasz konik i mamy w tym sporo doświadczenia!',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post13/post13d.jpg').default
+                    }
+                ]
+            },
+            {
+                text: 'Organizacja tradycyjnego wesela na zamku, w sali lub folwarku jest dużym wyzwaniem, jednak nieporównywalnie mniejszym, od organizacji wesela w plenerze. O wielu sprawach, których musicie dopilnować, nie przeczytacie na ślubnych blogach, a o pomoc trudno poprosić bliskich, którzy raczej też nie mają doświadczenia w urządzaniu podobnych uroczystości. Dlatego zaufajcie profesjonalistom i postawcie na pomoc wedding plennera organizując swoje wymarzone wesele w plenerze!'
+            },
+        ],
+        extras:
+            <>
+                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColor" /></span>
+            </>
+    },
+
+    {
+        path: 'jak-zaoszczedzic-na-weselu',
+        seoTitle: 'Podpowiadamy, jak zaoszczędzić na weselu – Czary Marry',
+        seoText: 'Szukacie sposobów, jak zaoszczędzić na weselu? W naszym artykule podpowiadamy, z czego można zrezygnować, by obniżyć koszty wesela.',
+        tag: 'niezbędnik',
+        title: 'Jak zaoszczędzić na weselu? Z czego można zrezygnować, by zmniejszyć koszty wesela?',
+        date: '5 lip 2017',
+        edited: '22 gru 2020',
+        textShort: 'Organizacja ślubu i wesela to nie tylko wielkie wyzwanie i dużo pracy, ale i spory wydatek. Co zrobić, gdy budżet się nie dopina?...',
+        mainPic: {
+            src: require('./BlogPics/Post12/post12.jpg').default
+        },
+        textMain:
+            <>
+                Organizacja ślubu i wesela to nie tylko wielkie wyzwanie i dużo pracy, ale i spory wydatek. Co zrobić, gdy budżet się nie dopina? Od czego najlepiej zacząć cięcie kosztów? Dowiedz się, <b>jak zaoszczędzić na weselu!</b>
+            </>,
+        content: [
+            {
+                headerSmall: 'Na czym zaoszczędzić na weselu – w pierwszej kolejności zrezygnujcie z poprawin',
+                text: 'Jeżeli nie macie pewności, czy wystarczy Wam pieniędzy na zorganizowanie ślubu marzeń, zdecydujcie się na wesele jednodniowe. Poprawiny generują spore koszty, często wiążą się z koniecznością rezerwacji dodatkowych miejsc noclegowych, transportu czy oprawy muzycznej. Jeżeli bardzo zależy Wam na tym, aby wesele było dwudniowe, zdecydujcie się tylko na pożegnalne śniadanie. Pamiętajcie, że lepiej zorganizować jednodniowe wesele, które goście zapamiętają na długo, niż kiepskie trwające na domiar złego dwa dni. Rezygnacja z poprawin to pierwsza odpowiedź na pytanie o to, na czym zaoszczędzić na weselu.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post12/post12a.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: 'Zastanawiacie się, jak zaoszczędzić na weselu? Skróćcie listę gości',
+                text: 'Zastanówcie się, czy Wasza lista gości nie jest zbyt długa. Skromne uroczystości w gronie rodziny i przyjaciół mają niesamowity urok i niczym nie ustępują tym na 150 osób. Nie uginajcie się, gdy najbliżsi naciskają, że należy zaprosić sąsiadkę lub ciocię, którą ostatni raz widzieliście podczas swojej komunii. Huczne czy kameralne wesele? To Wasze wesele i Wy za nie płacicie. Jeżeli mama lub teściowa mają ochotę kogoś zaprosić, postawcie ultimatum, że będą musiały pokryć wszystkie związanej tym koszty. Wiele Par Młodych nie ma ochoty zapraszać rodziny, z którą nie utrzymują kontaktu od lat i dopiero szukanie sposobu, jak zaoszczędzić na organizacji wesela, ułatwia w podjęciu decyzji dotyczącej listy gości.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post12/post12b.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: 'Na czym zaoszczędzić na weselu? Wybierzcie odpowiedni sposób serwowania potraw',
+                text: 'Jak serwowane będzie danie główne na Waszym weselu? Zdecydowaliście się na półmiski z różnymi daniami kładzione na stołach czy dokładnie takie same posiłki dla każdego z gości serwowane przez kelnera? My zdecydowanie polecamy opcję numer dwa. Z reguły powinna być ona tańsza, ponieważ kucharz ma do przygotowania mniej jedzenia, ale to nie jest jej jedyna zaleta. Ponadto taki sposób serwowania jest bardziej elegancki i raz na zawsze rozwiązuje problem walki o jedzenie. Goście są najedzeni i szczęśliwi, a Wy wiecie już, na czym zaoszczędzić na weselu.'
+            },
+            {
+                headerSmall: 'Wybór odpowiedniego alkoholu – jak zaoszczędzić na weselu?',
+                text: 'Pary bezustannie główkują, jaką wódkę weselną wybrać. Zwykle odpowiadamy, że taką, jaką pije się na rodzinnych imprezach, najlepiej niezbyt drogą. Absolutnie nie namawiamy do kupowania najtańszego spirytusu, bo to droga do tragedii, ale jeżeli Wasz budżet jest ograniczony, wybierzcie alkohol ze średniej półki cenowej. Wódka to wódka. Goście będą z chęcią po nią sięgać bez względu czy jej cena to 20, czy 70 złotych za pół litra, a Wy możecie zaoszczędzić naprawdę sporo pieniędzy. Dobrą alternatywą jest oczywiście wino. W sklepach internetowych możecie znaleźć rozmaite promocje na naprawdę smaczne wina.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post12/post12c.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: 'Jak zaoszczędzić na organizacji wesela? Obniżcie koszty za samochód Pary Młodej',
+                text: 'Z pewnością do ślubu fajnie jechać wypasioną sportową furą lub zabytkowym autem z lat powojennych, ale pamiętajcie, że to duży wydatek. W każdej rodzinie znajdzie się posiadacz nowego, ładnego samochodu, który będzie pękał z dumy, że chcecie pojechać do ślubu właśnie jego autem. Być może ktoś z przyjaciół dysponuje reprezentacyjnym samochodem i z chęcią w ramach prezentu ślubnego zawiezie Was do ślubu? Wybierając auto do ślubu, pamiętajcie o priorytetach. Są rzeczy ważne i ważniejsze. Jeśli zastanawiacie się, jak zaoszczędzić na organizacji wesela, szukajcie tańszych rozwiązań, które nie wpływają na dobrą zabawę gości.'
+            },
+            {
+                headerSmall: 'Zbędna papeteria ślubna i inne dodatki – jak zaoszczędzić na weselu?',
+                text: 'Głównie mamy tu na myśli winietki. Jeżeli zdecydujecie się na okrągłe stoliki, możecie zrezygnować z winietek na rzecz planu ustawienia stołów. Rozsadzenie gości przy okrągłym stoliku nie ma znaczenia, a table plan pomoże Wam uniknąć gonitwy w poszukiwaniu miejsca przy stole i wyjdzie zdecydowanie taniej. Menu? Zawieszki na alkohol? Wyglądają pięknie, ale zdecydowanie nie jest to must have niskobudżetowego wesela i rezygnacja z nich jest bezapelacyjnie dobrym pomysłem, by więcej nie zastanawiać się już, jak zaoszczędzić na weselu.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post9/post9f.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: 'Prezenty dla gości i atrakcje dla gości weselnych – jak zaoszczędzić na ślubie?',
+                text: 'W tajemnicy zdradzimy Wam, że często goście zapominają, gubią lub po prostu nie zabierają upominków przygotowanych przez Parę Młodą. To miły gest, ale przy 100-osobowym weselu rezygnacja z prezentów dla gości to oszczędność przynajmniej 500 złotych, które można wykorzystać na bardziej przyziemne rzeczy. Ponadto przy weselu ze skromnym budżetem powinniście całkowicie odrzucić pomysł takich atrakcji jak pokaz sztucznych ogni czy lampiony szczęścia. Atrakcje są dość drogie i można sobie na nie pozwolić, jeżeli każda inna rzecz jest dopięta na ostatni guzik. Dobry zespół lub Dj zapewniają gościom znakomitą zabawę, dlatego Pary, które zastanawiają się, jak zaoszczędzić na ślubie i weselu, namawiamy do skupienia się na znalezieniu wodzireja i muzyków, którzy nie pozwolą gościom się nudzić.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post12/post12d.jpg').default
+                    }
+                ]
+            },
+            {
+                text: 'Mamy nadzieję, że powyższe wskazówki przydadzą się zarówno tym, którzy chcieliby zorganizować wesele, nie rujnując się finansowo jak tym, którzy nie mają żadnych ograniczeń. Tak czy siak, warto kontrolować budżet i nie wydawać pieniędzy na rzeczy nieprzemyślane i zwyczajnie niepotrzebne. Można je przecież zainwestować znacznie lepiej, na przykład w cudowna podróż poślubną.'
+            }
+        ],
+        links:
+            <>
+                <p className="mb-1">Linki do zdjęć:</p>
+                <CustomOuterLink to="http://apbentertainment.com/" /> <br />
+                <CustomOuterLink to="http://www.celebration.co.za/" /> <br />
+                <CustomOuterLink to="http://www.thebrideacademy.co.uk/" /> <br />
+                <CustomOuterLink to="http://www.fakt.pl/" /> <br />
+                <CustomOuterLink to="http://fashionetka.pl/" /> <br />
+                <CustomOuterLink to="http://fabryka-imprezy.pl/" />
+            </>,
+        extras:
+            <>
+                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColor" /></span>
+            </>
+    },
+    {
         path: '7-grzechów-ślubnych-na-co-uważać-przy-wyborze-wykonawców',
         seoText: 'Rynek ślubny rozwija się w niesamowitym tempie. Agencje ślubne, fotografowie, kamerzyści oraz zespoły muzyczne rosną jak grzyby po deszczu. Dziś powiem Wam jak wybrać solidnego wykonawcę spośród ofert znajdujących się na rynku. Obnażę słabostki i grzeszki „kolegów” z branży. Mam nadzieję, że poniższy artykuł pomoże...',
         tag: 'niezbędnik',

@@ -6,9 +6,9 @@ import posts from '../../utils/posts'
 import './styles.scss'
 import logo from '../../utils/czarymarry_logo.png'
 import ScrollToTopOnMount from '../ScrollToTopOnMount'
-import ToTopOnUpdate from '../ToTopOnUpdate'
 import Picture from '../Picture'
 import ArrowToTop from '../ArrowToTop'
+import ToStartOnUpdate from '../ToStartOnUpdate'
 // import SeoContent from '../SeoContent'
 
     // const APP_URL = process.env.REACT_APP_BASE_URL
@@ -34,7 +34,7 @@ const PostPage = () => {
         <>
             {/* <SeoContent {...seo} /> */}
             <ScrollToTopOnMount />
-            <ToTopOnUpdate />
+            <ToStartOnUpdate />
             <ArrowToTop />
             <div className="PostPage">
                 <div className="PostPage-content">
