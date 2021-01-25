@@ -1,8 +1,228 @@
 import React from 'react'
 import CustomInnerLink from '../components/CustomLink/CustomInnerLink'
 import CustomOuterLink from '../components/CustomLink/CustomOuterLink'
+import { Link } from 'react-router-dom'
+import URLS from './urls'
 
 const posts = [
+    {
+        path: '7-grzechów-ślubnych-na-co-uważać-przy-wyborze-wykonawców',
+        seoText: 'Rynek ślubny rozwija się w niesamowitym tempie. Agencje ślubne, fotografowie, kamerzyści oraz zespoły muzyczne rosną jak grzyby po deszczu. Dziś powiem Wam jak wybrać solidnego wykonawcę spośród ofert znajdujących się na rynku. Obnażę słabostki i grzeszki „kolegów” z branży. Mam nadzieję, że poniższy artykuł pomoże...',
+        tag: 'niezbędnik',
+        title: '7 GRZECHÓW ŚLUBNYCH. Na co uważać przy wyborze wykonawców.',
+        date: '9 cze 2017',
+        textShort: 'Rynek ślubny rozwija się w niesamowitym tempie. Agencje ślubne, fotografowie, kamerzyści oraz zespoły muzyczne rosną jak grzyby po deszczu. Dziś powiem Wam jak wybrać...',
+        mainPic: {
+            src: require('./BlogPics/Post11/post11.jpg').default
+        },
+        textMain: 'Rynek ślubny rozwija się w niesamowitym tempie. Agencje ślubne, fotografowie, kamerzyści oraz zespoły muzyczne rosną jak grzyby po deszczu. Dziś powiem Wam jak wybrać solidnego wykonawcę spośród ofert znajdujących się na rynku. Obnażę słabostki i grzeszki "kolegów" z branży. Mam nadzieję, że poniższy artykuł pomoże Wam oddzielić ziarno od plew i dokonać samych trafnych wyborów.',
+        content: [
+            {
+                headerSmall: <span className="pink">1. Lewe portfolio.</span>,
+                text: <>
+                    Każdy kiedyś zaczynał… Z doświadczenia wiem, że początki bywają trudne. Przecież nikt nie zaufa przysłowiowej firmie kogucik, która nie ma na swoim koncie żadnego zlecenia. Jest wiele opcji, aby skompletować portfolio. Praca za darmo lub po kosztach, pomoc znajomym, praktyki, staże. Takie rozwiązanie wybierają pasjonaci. Niestety są i tacy, którzy wolą drogę na skróty. Młode agencje ślubne kupują tzw. zdjęcia stockowe, czyli odsprzedane fotografie, które można ściągnąć ze strony internetowej lub – co gorsza – kradną je komuś przypadkowemu. Do tego kilka zmyślonych rekomendacji i gotowe.<br />
+                Jak zdemaskować oszustów? Mamy dla Was istną perełkę: <CustomOuterLink to="https://www.tineye.com" text="https://www.tineye.com" />. Pod tym adresem znajdziecie ciekawe narzędzie do sprawdzenia źródła zdjęć zamieszczonych w internecie. Wystarczy, że ściągniecie je na dysk i załadujecie na tej stronie lub wpiszecie jego adres URL. Tineye przeszuka za Was internet i pokaże ewentualne źródła. Jeżeli nie uda mu się namierzyć fotografii prawdopodobnie nie pochodzi ona z bazy zdjęć stockowych. <br />
+                Nie zapomnijcie również o prześwietleniu kapeli, która ma zagrać na Waszym weselu. Często skład zespołu ulega zmianie, a na stronie nadal możecie odsłuchiwać utwory wykonywane przez byłych wokalistów. Najlepiej zapytać orkiestrę lub DJ'a, gdzie można wysłuchać ich na żywo. Często takie kapele obsługują również imprezy okolicznościowe lub miejskie festyny.
+                </>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post11/post11a.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: <span className="pink">2. Forum prawdę Ci powie.</span>,
+                text: 'Szukajcie opinii, recenzji, komentarzy na forach lub innych stronach o tematyce ślubnej. Im więcej pozytywów tym lepiej ale pamiętajcie, że zdarza się, że firmy piszą je same lub działają na szkodę konkurencji. Często niepochlebna opinia bywa spowodowana niedopatrzeniem ze strony Pary Młodej, która czuje się niesłusznie rozgoryczona. Nie dajcie się zwieść! Bądźcie czujni!',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post11/post11b.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: <span className="pink">3. Portale społecznościowe.</span>,
+                text: 'Mawia się, że jak nie ma Cię na Facebooku, to nie istniejesz. Jeżeli firma nie działa prężnie na portalach społecznościowych takich jak Instagram czy Facebook jest to niemal równoznaczne z tym, że nie prosperuje najlepiej. Nie chodzi tu nawet o ilość lików czy obserwatorów, a o regularne wrzucanie postów. Bardzo łatwo zweryfikować również jakość zamieszczanych publikacji. Jeżeli są to wyłącznie inspiracje lub cytaty o tematyce ślubnej jest to jednoznaczne z tym, że firma nie ma na swoim koncie żadnych realizacji.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post11/post11c.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: <span className="pink">4. Artyści i gwiazdy.</span>,
+                text: 'To bardzo niewdzięczna grupa wykonawców ślubnych. Znajdziecie ich głównie wśród fotografów, kamerzystów i muzyków. To Wy jesteście szefem i macie prawo decydować o tym, co zostanie zagrane na Waszym weselu lub jakiego typu zdjęć czy filmu oczekujecie. Oczywiście każdy fotograf, kamerzysta, muzyk ma swój bliżej określony styl i nie można oczekiwać, że zrobi coś zupełnie wbrew sobie, ale niedopuszczalne jest byście, nie mieli prawa głosu w tak ważnych kwestiach. Jeżeli więc obiło się Wam o uszy, że Wasz fotograf to artysta, który nie lubi się podporządkowywać, zrezygnujcie z jego usług. Na swojej czarnej liście wykonawców mamy kilku delikwentów, którzy robią piękne zdjęcia, kręcą nieziemskie filmy i grają super muzykę, ale po prostu nie da się z nimi współpracować. Są aroganccy, nie słuchają uwag i wiedzą wszystko najlepiej. Taka współpraca zwykle odbija się czkawką.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post11/post11d.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: <span className="pink">5. To się nie da.</span>,
+                text: 'Jeżeli po raz kolejny słyszycie, że coś się nie da, że już się tak nie robi, albo "my tak nie robimy" to znajdźcie kogoś, kto z przyjemnością zrobi wszystko, aby Wasze marzenia stały się rzeczywistością. Czasami oczywiście trzeba sprowadzić Parę Młodą na ziemię, ponieważ nie ma nic gorszego niż obiecanki i zbyt ryzykowne pomysły, ale rynek ślubny jest tak przesycony specjalistami i daje taką masę możliwości, że da się prawie wszystko. Oczywiście o ile znajdą się dobre chęci i pozwala na to budżet.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post11/post11e.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: <span className="pink">6. Umywanie rąk.</span>,
+                text: 'Nawet przy wyborze solidnego wykonawcy los może spłatać Wam figla. Oby nigdy Was to nie spotkało, ale zdarza się, że sala weselna spłonie zaraz przed weselem, orkiestra nie dojedzie, a kamerzysta wyląduje w szpitalu. Tak niestety bywa. Dlatego postarajcie się przed tym zabezpieczyć. Często rozmawiając z Parami Młodymi widzimy, że umowy z wykonawcami traktują po macoszemu. Kasa się zgadza, zaliczka wpłacona, termin ślubu zaklepany. To nie takie proste. Jest masę rzeczy, które powinny być ujęte w umowie, a o których totalnie zapominacie. Jeżeli sala spłonie lub jej właściciel ogłosi upadłość musicie mieć alternatywę, a osoba, z którą podpisaliście umowę, powinna ponieść konsekwencje. Jeżeli orkiestra nie dojedzie, powinna zapewnić zastępstwo w postaci podobnej kapeli w tym samym przedziale cenowym. Jeżeli fotograf jest w szpitalu to nie wysyła swojej żony z polaroidem, tylko kolegę po fachu. Nie może być tak, że cała odpowiedzialność spada wyłącznie na Was. Umowa powinna być dla Was korzystna i zapewniać poczucie bezpieczeństwa. Bo właśnie po to ją podpisujecie.'
+            },
+            {
+                headerSmall: <span className="pink">7. A teraz idziemy na jednego.</span>,
+                text: 'Wymieńcie mi firmę, w której bez ogródek podczas pracy można spożywać alkohol. Nie mogę zrozumieć, dlaczego w branży ślubnej panują inne standardy. Niestety najczęściej problem dotyczy zespołów muzycznych. Widzimy, jak szanowny pan wokalista pije coraz więcej i więcej, jego twarz staje się purpurowa, coraz ciężej mu się śpiewa, a przerwy między setami robią się coraz dłuższe. To niedopuszczalne! Zaznaczcie w umowie, że nie wyrażacie zgody na spożywanie alkoholu przez obsługę podczas wesela. Jeżeli wykonawca odmówi takiego zapisu, jest to jednoznaczne z tym, że Wasze wesele traktuje jak mocno zakrapianą imprezę z dobrym jedzeniem.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post11/post11f.jpg').default
+                    }
+                ]
+            },
+            {
+                text: 'Jeżeli macie wątpliwości czy dokonane przez Was wybory są słuszne, napiszcie do nas i umówcie się na spotkanie. Z przyjemnością przejrzymy Wasze umowy z wykonawcami w ramach bezpłatnej konsultacji.'
+            }
+        ],
+        textAuthor: "Kasia",
+        links:
+            <>
+                <p className="mb-1">Linki do zdjęć:</p>
+                <CustomOuterLink to="http://marketingland.com/" text="http://marketingland.com/" /> <br />
+                <CustomOuterLink to="http://www.artsology.com/" text="http://www.artsology.com/" /> <br />
+                <CustomOuterLink to="http://info.rpo.lubelskie.pl/" text="http://info.rpo.lubelskie.pl/" /> <br />
+                <CustomOuterLink to="http://wiadomosci.gazeta.pl/" text="http://wiadomosci.gazeta.pl/" />
+            </>,
+        extras:
+            <>
+                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColor" /></span>
+            </>
+    },
+    {
+        path: 'formalnosci-po-slubie',
+        seoTitle: 'Formalności po ślubie – co załatwić po ślubie? – Czary Marry',
+        seoText: 'Zmiana dokumentów, informacja o zmianie nazwiska w banku to tylko niektóre z formalności, o których trzeba pamiętać po ślubie.',
+        tag: 'niezbędnik',
+        title: 'Formalności po ślubie – co warto wiedzieć?',
+        date: '1 cze 2017',
+        edited: '22 gru 2020',
+        textShort: 'Gratulacje! Jesteście już małżeństwem, ślub oraz zabawa weselna były fantastyczne i nadszedł czas na rozpoczęcie życia małżeńskiego w pełnym wymiarze, ale...',
+        mainPic: {
+            src: require('./BlogPics/Post10/post10.jpg').default
+        },
+        textMain: 'Gratulacje! Jesteście już małżeństwem, ślub oraz zabawa weselna były fantastyczne i nadszedł czas na rozpoczęcie życia małżeńskiego w pełnym wymiarze, ale zanim to nastąpi pora na "poślubne porządki", zarówno dosłownie (wyczyszczenie sukni, garnituru), jak i formalne (wymiana dokumentów). O wielu "poślubnych" sprawach Młoda Para zapomina albo odkłada na później, a przypomina sobie o nich dopiero przy załatwianiu ważnych spraw urzędowych. Dowiedz się, jakie formalności po ślubie powinni załatwić świeżo upieczeni małżonkowie.',
+        topPic: {
+            src: require('./BlogPics/Post10/post10a.jpg').default
+        },
+        content: [
+            {
+                headerSmall: 'Podziękowania dla gości, referencje dla wykonawców – formalności po ślubie, o których warto pamiętać',
+                text: 'Warto napisać krótkie wiadomości do najbliższej rodziny i przyjaciół z podziękowanie za wspólną zabawę i wspomnienia, które będą towarzyszyć Wam przez całe życie. Koniecznie napiszcie również referencje wszystkim wykonawcom, z których pracy byliście zadowoleni. Od razu, nie czekając, bo później i tak nie znajdziecie na to czasu. Wy na takie formalności po ślubie poświęcicie kilka chwil, a goście i specjaliści z branży ślubnej na pewno to docenią.'
+            },
+            {
+                headerSmall: 'Porządki i inne formalności po ślubie',
+                text: 'Tuż po weselu upewnij się, że na sali nie zostało nic zniszczone oraz Wy lub goście weselni nie zostawiliście cennych rzeczy. Przywieź dekoracje z miejsca wesela, pożyczone elementy oddaj, a kupione – dobrze zabezpiecz i schowaj w odpowiednim miejscu. Warto również zadbać o stroje weselne. Nawet jeśli na pierwszy rzut oka sukienka i garnitur wydają się czyste warto oddać je do prali na profesjonalne czyszczenie. Tylko dobrze wyprana i zabezpieczona sukienka nie ulegnie zniszczeniu przez długi okres przechowywania w szafie, a jeśli postanowisz sprzedać swoją kreację, będzie już do tego odpowiednio przygotowana. Garnitur często służy Panu Młodemu jeszcze przez parę lat, dlatego warto o niego profesjonalnie dbać, co znacząco wydłuża jego żywotność. Może trudno nazwać to formalnościami po ślubie, ale dobrze będzie, jeśli poprosicie gości weselnych o przesłanie zdjęć, które zrobili w trakcie ceremonii lub zabawy. Jeśli mieliście Księgę Gości i nie każdy zdążył się wpisać, nic nie zaszkodzi jak zrobi to po weselu. Zabezpiecz w pamiątkowym pudełku ślubną papeterie oraz gadżety z dnia ślubu i wesela. Taką prośbę można skierować przy okazji podziękowań, o których wspomnieliśmy wcześniej.'
+            },
+            {
+                headerSmall: 'Zmiana nazwiska po ślubie i zmiana dokumentów po ślubie',
+                text: 'Z tymi formalnościami po ślubie nie warto zwlekać. Należy udać się do Urzędu Miasta bądź Urzędu Gminy i zacząć od dowodu osobistego, który jest najistotniejszy. Dowód osobisty z panieńskim nazwiskiem jest ważny jeszcze przez 4 miesiące, ale najlepiej wymienić go jak najszybciej, dla przysłowiowego "świętego spokoju". Zmianę nazwiska zgłasza się w USC na miesiąc przed ślubem i od chwili zawarcia związku małżeńskiego, to ono obowiązuje i nowym, zmienionym nazwiskiem po ślubie należy się posługiwać.'
+            },
+            {
+                headerSmall: 'Pozostałe formalności po ślubie',
+                text: 'Nie zapomnijmy o paszporcie, prawie jazdy czy dowodzie rejestracyjnym posiadanego pojazdu. Wnioskujemy o nie do 30 dni od daty sporządzenia aktu zawarcia małżeństwa. Do urzędu koniecznie zabierzmy aktualne kolorowe zdjęcie 35x45mm, dotychczasowy dokument, który chcemy wymienić oraz skrócony odpis aktu zawarcia małżeństwa. Warto także zadbać o zmianę danych w banku czy spółdzielni mieszkaniowej. Na zgłoszenie do ZUS mamy 7 dni od zmiany nazwiska, jednak jeżeli jesteśmy zatrudnieni na umowę o pracę, wystarczy informacja do naszego pracodawcy.'
+            },
+        ],
+        extras:
+            <>
+                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColor" /></span>
+            </>
+    },
+    {
+        path: 'rozmieszczenie-gosci-weselnych',
+        seoTitle: 'Plan doskonały na rozmieszczenie gości weselnych – Czary Marry',
+        seoText: 'Dlaczego warto zaplanować rozmieszczenie gości weselnych? Jak rozlokować gości i jak ich poinformować, które miejsce przygotowaliśmy właśnie dla nich?',
+        tag: 'niezbędnik',
+        title: 'Rozmieszczenie gości weselnych – czy istnieje plan doskonały?',
+        date: '23 maja 2017',
+        edited: '26 sie 2020',
+        textShort: 'Rozsadzenie gości weselnych przy stołach to sprawa na pozór prosta, ale nasze doświadczenia w agencji ślubnej Czary Marry są najlepszym dowodem na to, że...',
+        mainPic: {
+            src: require('./BlogPics/Post9/post9.jpg').default
+        },
+        textMain:
+            <>
+                <b>Rozsadzenie gości weselnych</b> przy stołach to sprawa na pozór prosta, ale nasze doświadczenia w <Link to={URLS.HOME} className="bgColor">agencji ślubnej Czary Marry</Link> są najlepszym dowodem na to, że może przysporzyć masę problemów, a dla Pary Młodej jest sporym wyzwaniem. Wbrew pozorom konsekwencje nieprzemyślanego rozsadzenia gości na weselu mogą być bardzo dotkliwe. Począwszy od poczucia pominięcia i niezadowolenia po zaognienie rodzinnych sporów i weselne pranie brudów. Dziś zdradzimy Wam jak poradzić sobie z kłopotliwym tematem i sprawić, że <b>rozmieszczenie gości weselnych</b> przy stołach zajmie Wam dosłownie chwilę.
+            </>,
+        content: [
+            {
+                headerSmall: 'Sposób ustawienia stołów a rozmieszczenie gości weselnych',
+                text: 'Zacznijmy od podstaw. Istnieje wiele możliwości ustawienia stołów na sali weselnej. Obecnie największym powodzeniem cieszą się stoliki okrągłe, co wynika nie tylko z mody i eleganckiego stylu, ale i wielu możliwości, jakie gwarantuje. Bez względu na to, na jakie ułożenie się zdecydujecie, musicie pamiętać o kilku ważnych zasadach, których pod żadnym pozorem nie należy łamać tworząc plan rozmieszczenia gości weselnych.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post9/post9a.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: 'Ponadczasowe zasady rozsadzania gości weselnych',
+                text: 'Jak rozsadzić gości na weselu? Rozsadzenie gości weselnych powinno być uzależnione od swoistej hierarchii. Planując, gdzie kogo posadzić, należy wziąć pod uwagę, którzy goście są najważniejsi. Przede wszystkim pamiętajcie, że na Waszym weselu najważniejsi jesteście Wy sami. Para Młoda powinna więc siedzieć w centralnym miejscu. Mogą jej towarzyszyć świadkowie i ewentualnie rodzice, chociaż nie polecamy takiego rozwiązania ze względu na łączenie osób z dwóch różnych grup wiekowych (świadkowie, rodzice). Oryginalnym i praktycznym pomysłem jest osobny stolik przeznaczony tylko dla pary młodej, do którego dostawione są dwa puste krzesła. Dzięki temu każdy z gości ma szansę dosiąść się do Pary Młodej na krótką pogawędkę.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post9/post9b.jpg').default
+                    }
+                ]
+            },
+            {
+                text: 'Zasada rozsadzania gości weselnych, której absolutnie nie należy łamać i którą stosuje się od zarania dziejów, mówi, by gości weselnych sadzać od najstarszego do najmłodszego. Dziadkowie, babcie, rodzice, chrzestni powinni siedzieć jak najbliżej Pary Młodej. Następnie możecie się skupić na pozostałej części rodziny, a na końcu przyjaciołach i znajomych.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post9/post9c.jpg').default
+                    }
+                ]
+            },
+            {
+                text: 'Jednocześnie podczas rozsadzania gości powinno sugerować się nie tylko wiekiem i koneksjami rodzinnymi, ale i wspólnymi zainteresowaniami oraz wzajemną sympatią osób, które mają zasiadać przy jednym stole.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post9/post9d.jpg').default
+                    }
+                ]
+            },
+            {
+                text: 'Przy tworzeniu listy gości weselnych przy stole szczególną uwagę zwróćcie na to, aby osoby skonfliktowane lub niedarzące się sympatią nie siedziały zbyt blisko siebie. Tu świetnie sprawdzają się stoliki okrągłe. Bardzo łatwo będzie posadzić zwaśnionych rozwodników plecami do siebie – czego oczy nie widzą, tego sercu nie żal. Jeżeli zależy Wam na tym, aby goście lepiej się poznali, posadźcie członków dwóch rodzin po przeciwnych stronach stołu, zawsze naprzemiennie kobieta, mężczyzna.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post9/post9e.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: 'Tablica z rozmieszczeniem gości weselnych',
+                text: 'Kiedy już ogarniecie galimatias związany z rozsadzeniem gości, pomyślcie o table planie. Co to takiego? Tablica z rozmieszczeniem gości weselnych zawiera oznaczenia stolików wraz z nazwiskami osób, które przy nich zasiadają. Taka tablica rozmieszczenia gości pozwoli uniknąć zamieszania związanego z poszukiwaniem swojego miejsca, a goście w kilka sekund rozproszą się po sali, nie powodując sztucznego tłoku i zamętu. Dobrze gdy tablica z usadzeniem gości stoi blisko wejścia, w miarę widocznym miejscu, co pozwoli na szybkie zajęcie stołów Jeżeli chodzi o winietki, są one niezbędne przy ułożeniu stołów w literę I, E, T lub U natomiast nie są niezbędne przy stolikach okrągłych. Nie ma bowiem większego znaczenia, jak zasiądą przy nich goście. Tak czy siak, każdy widzi każdego i wszyscy są sobie równi. Jeżeli obawiacie się, że Wasze babcie lub dziadkowie nie poradzą sobie ze znalezieniem swojego miejsca, wyznaczcie jedną osobę, która im pomoże i zaprowadzi do odpowiedniego stolika.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post9/post9f.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: 'Czy planowe rozmieszczenie gości jest konieczne?',
+                text: <>
+                    Zastanawiacie się, czy nie byłoby lepiej, gdyby goście sami zadecydowali, gdzie chcą siedzieć? Nie róbcie tego! To bardzo przestarzały sposób i z jakiegoś powodu przeszedł do lamusa. Chyba nie chcecie doprowadzić do sytuacji, w której przy jednym stole zasiada Wasza babcia, koleżanka z pracy oraz 5-letnia bratanica. tablica gości weselnych i plan rozmieszczenia gości weselnych ułatwi Wam znacząco organizację wesela.<br />
+                Jeżeli macie pytania odnośnie rozsadzania gości piszcie śmiało. Postaramy się rozwiać Wasze wątpliwości. Być może jest jeszcze inny temat, który Was trapi, a nie został poruszony na łamach bloga? Chętnie się z nim rozprawimy.
+                </>
+            },
+        ],
+        links:
+            <>
+                <p className="mb-1">Linki do zdjęć:</p>
+                <CustomOuterLink to="http://www.przed-slubny.pl/" text="http://www.przed-slubny.pl/" /> <br />
+                <CustomOuterLink to="http://www.poradnikzdrowie.pl/" text="http://www.poradnikzdrowie.pl/" />
+            </>,
+        extras:
+            <>
+                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColor" /></span>
+            </>
+    },
     {
         path: 'dama-mojego-serca-historia-miłości-moich-rodziców',
         seoText: 'Dziś o swoim ślubie i weselu opowie Wam moja Kochana Mama. Naszym rozmowom zawsze towarzyszą zabawne anegdoty, wzruszenia i wielki karton ze starymi fotografiami. Jako dziecko uwielbiałam je oglądać i powiem szczerze, że zupełnie nic się nie zmieniło. Mamo, opowiedz, jak poznałaś tatę? Któregoś dnia wracając z pracy...',
@@ -21,9 +241,9 @@ const posts = [
                 <span className="pink">Jak wyglądały zaręczyny?</span> <br />
             Po roku znajomości tata dostał powołanie do wojska. Wtedy zadecydowaliśmy, że po powrocie weźmiemy ślub. W tamtych czasach służba wojskowa trwała 2 lata. Mimo to widywaliśmy się dość często. Tata pisał do mnie listy w pięknych kopertach sygnowanych literami DMS co oznaczało Dama Mojego Serca. Kiedy wrócił do domu, wręczył mi 24 goździki. Po jednym za każdy miesiąc rozłąki. Kilka miesięcy przed planowanym ślubem spotkaliśmy się wraz z rodzicami, żeby ustalić wszystkie szczegóły dotyczące ślubu. Było to tak jakby przyjęcie zaręczynowe. Pamiętam, że tego dnia odwiedził nas przyjaciel rodziny, który dowiedział się, że zamierzamy wziąć ślub. Bardzo zależało mu, żeby wziąć udział w uroczystości. Oczywiście był na liście zaproszonych gości. Dzień po jego wizycie dowiedziałam się, że zginął w wypadku na kopalni. To było bardzo smutne wydarzenie. <br />
                 <span className="pink">Opowiedz o przygotowaniach do ślubu?</span> <br />
-            Najpierw zamówiliśmy salę weselną, potem orkiestrę, którą słyszałam na weselu mojej koleżanki i bardzo mi się spodobała. Mama i starsza siostra pomagały mi w wyborze sukienek do ślubu. Ostatecznie kupiłam je w Jeleniej Górze. Pierwsza do cywilnego miała jasnoróżowy kolor, a druga do kościelnego oczywiście biały. Miały dokładnie taki sam krój, pasowały na mnie idealnie, więc nie musiałam niczego przerabiać. Tata również szył dwa garnitury, pierwszy w odcieniach beżu z koszulą w kolorze mojej sukienki, drugi czarny.<br/>
+            Najpierw zamówiliśmy salę weselną, potem orkiestrę, którą słyszałam na weselu mojej koleżanki i bardzo mi się spodobała. Mama i starsza siostra pomagały mi w wyborze sukienek do ślubu. Ostatecznie kupiłam je w Jeleniej Górze. Pierwsza do cywilnego miała jasnoróżowy kolor, a druga do kościelnego oczywiście biały. Miały dokładnie taki sam krój, pasowały na mnie idealnie, więc nie musiałam niczego przerabiać. Tata również szył dwa garnitury, pierwszy w odcieniach beżu z koszulą w kolorze mojej sukienki, drugi czarny.<br />
                 <span className="pink">Co z makijażem i fryzjerem?</span> <br />
-            Malowałam się sama, a do fryzjera byłam umówiona, ale powiem szczerze, że pani fryzjerka prawie doprowadziła mnie do łez zbyt krótkim obcięciem grzywki. Do dziś oglądając zdjęcia, spoglądam na tę nieszczęsną, przykrótką grzywkę.<br/>
+            Malowałam się sama, a do fryzjera byłam umówiona, ale powiem szczerze, że pani fryzjerka prawie doprowadziła mnie do łez zbyt krótkim obcięciem grzywki. Do dziś oglądając zdjęcia, spoglądam na tę nieszczęsną, przykrótką grzywkę.<br />
                 <span className="pink">Jak wyglądał ślub i wesele?</span> <br />
             To było 19 kwietnia 1980. Trudno uwierzyć, że minęło już 37 lat. Pagoda była brzydka, padał deszcz ze śniegiem. Goście weselni żartowali, że na pewno szorowałam przypalone garnki i dlatego mamy taką brzydką pogodę w dniu ślubu. To taki stary przesąd.<br />
             Ślub cywilny był na godzinę 13. Pamiętam, że nie mogłam wcisnąć obrączki na palec taty. Bardzo mnie to rozbawiło, co widać na zdjęciach. Na dodatek zająknęłam się podczas składania przysięgi, ponieważ, mimo że chodziłam z twoim tatą tak długo, nie wiedziałam, że ma na drugie imię Waldemar. Po ceremonii świadek kazał nam oddać obrączki i na godzinę 16 pojechaliśmy do kościoła. Zaskakujące było, że tego dnia ślub kościelny brały trzy pary podczas jednej ceremonii. Jeszcze większym zbiegiem okoliczności były imiona panów młodych: Lechosław, Lech oraz Leszek. Wszystko odbyło się oczywiście za naszą zgodą, nie zależało nam na tym, żeby wszystko kręciło się wokół nas, nie przeszkadzało, że dzielimy ceremonię z dwoma innymi parami.
@@ -35,15 +255,15 @@ const posts = [
             {
                 text:
                     <>
-                        <span className="pink">W porównaniu do innych par, z jakimi rozmawiałyśmy macie bardzo dużo zdjęć z wesela. Opowiedz, jak sprawa fotografa wyglądała u Was?</span><br/>
-                        Fotografa dzieliśmy ze znajomą parą młodą, która brała ślub tego samego dnia, a wesele miała w innej sali. Ponieważ ślub kościelny mieliśmy wspólny, a cywilny w innych godzinach nie sprawiło to żadnego problemu.<br/>
-                        <span className="pink">Mówiłaś o problemie z założeniem obrączek i drugim imieniu taty. Czy podczas wesela wydarzyło się jeszcze coś zabawnego?</span><br/>
-                        Pamiętam, że tata strasznie się stresował o to, czy goście dobrze się bawią. "Krystyna, zobacz - oni nie jedzą, Krystyna, zobacz - nic nie piją" — powtarzał bez przerwy. Zawsze wspominam to z rozbawieniem.<br/>
-                        <span className="pink">A co z prezentami?</span><br/>
-                        Były to przede wszystkim sprzęty gospodarstwa domowego. Najbardziej w pamięci zapadł mi prezent od małego syna mojej kuzynki, który specjalnie sprzedał nazbierane butelki i kupił nam ręczną maszynkę do mielenia mięsa. To było bardzo zabawne i niesamowicie miłe.<br/>
-                        <span className="pink">Mieliście poprawiny?</span><br/>
-                        Tak, odbywały się w domu. Przygotowywałyśmy je razem z twoją babcią, ale tak naprawdę mogłabym powiedzieć, że trwały praktycznie tydzień, ponieważ przedobrzyliśmy z ilością jedzenia i alkoholu.<br/>
-                        <span className="pink">Co jako małżeństwo z prawie 40-letnim stażem poradzilibyście współczesnym nowożeńcom?</span><br/>
+                        <span className="pink">W porównaniu do innych par, z jakimi rozmawiałyśmy macie bardzo dużo zdjęć z wesela. Opowiedz, jak sprawa fotografa wyglądała u Was?</span><br />
+                        Fotografa dzieliśmy ze znajomą parą młodą, która brała ślub tego samego dnia, a wesele miała w innej sali. Ponieważ ślub kościelny mieliśmy wspólny, a cywilny w innych godzinach nie sprawiło to żadnego problemu.<br />
+                        <span className="pink">Mówiłaś o problemie z założeniem obrączek i drugim imieniu taty. Czy podczas wesela wydarzyło się jeszcze coś zabawnego?</span><br />
+                        Pamiętam, że tata strasznie się stresował o to, czy goście dobrze się bawią. "Krystyna, zobacz - oni nie jedzą, Krystyna, zobacz - nic nie piją" — powtarzał bez przerwy. Zawsze wspominam to z rozbawieniem.<br />
+                        <span className="pink">A co z prezentami?</span><br />
+                        Były to przede wszystkim sprzęty gospodarstwa domowego. Najbardziej w pamięci zapadł mi prezent od małego syna mojej kuzynki, który specjalnie sprzedał nazbierane butelki i kupił nam ręczną maszynkę do mielenia mięsa. To było bardzo zabawne i niesamowicie miłe.<br />
+                        <span className="pink">Mieliście poprawiny?</span><br />
+                        Tak, odbywały się w domu. Przygotowywałyśmy je razem z twoją babcią, ale tak naprawdę mogłabym powiedzieć, że trwały praktycznie tydzień, ponieważ przedobrzyliśmy z ilością jedzenia i alkoholu.<br />
+                        <span className="pink">Co jako małżeństwo z prawie 40-letnim stażem poradzilibyście współczesnym nowożeńcom?</span><br />
                         Poradziłabym im, żeby byli wytrwalsi w małżeństwie. By starali się być ze sobą na dobre i złe, wspólnie rozwiązując problemy jakie niesie los.
                     </>,
                 pics: [
@@ -53,9 +273,9 @@ const posts = [
         ],
         textAuthor: "Kasia",
         extras:
-        <>
-            <span className="d-block text-right"><CustomInnerLink path="/" text="Ślubne opowieści, czyli wesela dawniej" className="bgColor" /></span>
-        </>
+            <>
+                <span className="d-block text-right"><CustomInnerLink path="/" text="Ślubne opowieści, czyli wesela dawniej" className="bgColor" /></span>
+            </>
     },
 
     {
