@@ -6,6 +6,380 @@ import URLS from './urls'
 
 const posts = [
     {
+        path: 'mała-rzecz-a-ucieszy',
+        seoText: 'Niezbędnik ślubny. Przydatne rzeczy w dniu waszego wesela.',
+        tag: 'niezbędnik',
+        title: 'MAŁA RZECZ, A UCIESZY',
+        date: '10 kwi 2018',
+        edited: '13 sty 2020',
+        textShort: 'Pewnie macie długą listę niezbędnych rzeczy, które absolutnie muszą pojawić się na miejscu ślubu i wesela. Koszyczek ratunkowy do łazienki, dodatkowa gotówka, przybory do makijażu i...',
+        mainPic: {
+            src: require('./BlogPics/Post18/post18.jpg').default
+        },
+        textMain: 'Pewnie macie długą listę niezbędnych rzeczy, które absolutnie muszą pojawić się na miejscu ślubu i wesela. Koszyczek ratunkowy do łazienki, dodatkowa gotówka, przybory do makijażu i ulubiona szminka na pewno się na niej znalazły. Tymczasem jest kilka gadżetów, które niezbyt kojarzą się ze ślubem i weselem, a które są na sali weselnej szalenie przydatne.',
+        content: [
+            {
+                text:
+                    <>
+                        <p><span className="pink bold">ZEGAREK</span><br />
+                    Mało kto go teraz używa. Tymczasem zegarek u pana młodego (czy chociażby świadka) to gadżet na wagę złota. Mało eleganckie jest zerkanie co chwilę na wyświetlacz telefonu – stąd tradycyjny sposób sprawdzenia godziny powinien w Twoim wielkim dniu jednak dominować.</p>
+                    </>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post18/post18a.jpg').default
+                    }
+                ]
+            },
+            {
+                text:
+                    <>
+                        <p><span className="pink bold">PARASOL</span><br />
+                    Każdemu życzę pięknej pogody w dniu ślubu i wesela, takiej bez ani jednej kropelki deszczu. Co jeśli jednak się pojawi? Warto zabrać do ślubnego samochodu biały, elegancki parasol. W razie deszczu nie będziemy musieli ratować się kolorowym parasolem babci, który później wygląda bardzo niekorzystnie na zdjęciach ślubnych, no i uratuje fryzury oraz ślubne stroje.</p>
+                    </>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post18/post18b.jpg').default
+                    }
+                ]
+            },
+            {
+                text:
+                    <>
+                        <p><span className="pink bold">POKROWIEC NA SUKNIĘ ŚLUBNĄ</span><br />
+                    Jeśli noc poślubną spędzasz poza domem, nie chcesz chyba wracać kolejnego dnia w sukni ślubnej, ani tym bardziej, próbować upchnąć ją do reklamówki? Stąd, przydaje się pokrowiec na suknię ślubną, ewentualnie – na garnitur. Pozwala to przetransportować ślubne ubranie w dobrym stanie.</p>
+                    </>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post18/post18c.jpg').default
+                    }
+                ]
+            },
+            {
+                text:
+                    <>
+                        <p><span className="pink bold">ROLKA DO UBRAŃ</span><br />
+                    Przyda się każdemu Panu na weselu. Zwłaszcza jeśli na garnitur włoży płaszcz.</p>
+                    </>
+            },
+            {
+                text:
+                    <>
+                        <p><span className="pink bold">KOCE</span><br />
+                    Coraz częściej przenosimy nasze śluby i wesela na świeże powietrze. Organizujemy dla gości strefy relaksu z wygodnymi kanapami, planujemy atrakcję, która wieczorem będzie wymagała wyjścia na zewnątrz lub po prostu wybieramy salę z pięknym ogrodem, który, aż kusi do spędzenia chwili czasu w nim. Zadbajmy o okrycie wierzchnie dla gości, o koce, pledy, narzuty. Chociaż sezon ślubny przypada na lato, nawet o tej porze roku wieczory bywają dość chłodne. Stąd – warto zadbać o komfort swój i gości. Gdy w południe jest prawie 30 stopni, nikt nie myśli o zabraniu czegoś cieplejszego, czym można okryć się w nocy. Tymczasem, pogoda potrafi zaskakiwać. Bycie na to przygotowanym to gwarancja udanej imprezy!</p>
+                    </>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post18/post18d.jpg').default
+                    }
+                ]
+            },
+        ],
+        extras:
+            <>
+                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColor" /></span>
+            </>
+
+    },
+    {
+        path: 'czy-każdy-może-zostać-wedding-plannerem',
+        seoText: 'Czy każdy może zostać wedding plannerem? Pytanie na pozór banalne, chociaż odpowiedzi mogą być naprawdę różne. Teoretycznie tak, ale czy każdy ma predyspozycje do tego, aby wykonywać ten zawód z sukcesem?',
+        tag: 'niezbędnik',
+        title: 'Czy każdy może zostać wedding plannerem?',
+        date: '5 lut 2018',
+        edited: '8 lip 2020',
+        textShort: 'Czy każdy może zostać wedding plannerem? Pytanie na pozór banalne, chociaż odpowiedzi mogą być naprawdę różne. Teoretycznie tak, ale czy każdy ma predyspozycje do tego, aby...',
+        mainPic: {
+            src: require('./BlogPics/Post17/post17.jpg').default
+        },
+        textMain:
+            <>
+                Czy każdy może zostać wedding plannerem? Pytanie na pozór banalne, chociaż odpowiedzi mogą być naprawdę różne. Teoretycznie tak, ale czy każdy ma predyspozycje do tego, aby wykonywać ten zawód z sukcesem? To już zupełnie inna para kaloszy.<br />
+            Do napisania tego artykułu skłonił mnie poniższy nagłówek, zamieszczony w popularnym portalu plotkarskim. Nie zamierzam w żaden sposób atakować Kayah, która rzeczywiście jest kobietą sukcesu i super artystką. Jej wypowiedź stała się jedynie impulsem do napisania kilku słów na temat owianego masą stereotypów zawodu konsultanta ślubnego.
+            </>,
+        topPic: {
+            src: require('./BlogPics/Post17/post17a.jpg').default
+        },
+        content: [
+            {
+                text: 'Jakiś czas temu wraz z Olą obwieściłyśmy wszem i wobec, że zamierzamy otworzyć własną agencję ślubną. Większość osób patrzyła na nas z niedowierzaniem. Niby wszyscy kibicowali, ale podskórnie wyczuwałyśmy, że znajomi nie za bardzo wierzą, że może się nam to udać. Wedding planner? A na co to komu? Naprawdę ktoś płaci za takie rzeczy? Co Wy właściwie robicie? Mimo że początki były trudne, nie dawałyśmy za wygraną. Szkoliłyśmy się, starałyśmy się zdobyć doświadczenie. W końcu pary młode zaczęły obdarzać nas zaufaniem i korzystać z naszych usług. Obecnie, co nas ogromnie cieszy, coraz częściej pary młode podczas organizacji ślubu decydują się na pomoc wedding plannera. Nie mamy wątpliwości, że niebawem profesja ta będzie nie mniej popularna niż usługi fotografa lub kamerzysty ślubnego.'
+            },
+            {
+                text: 'Nic więc dziwnego, że coraz więcej osób zaczyna myśleć o tym jak o idealnej pracy dla siebie. Tym bardziej, że praca wedding plannera wydaje się sielanką i niczym nadzwyczajnie trudnym. Pewnie dlatego co jakiś czas dostajemy maile, które zaczynają się od słów „zorganizowałam swoje wesele i myślę, że świetnie sprawdziłabym się...” Niestety to, że ktoś zorganizował własne wesele według własnych preferencji i upodobań niczego nie oznacza. Nasza praca polega na spełnianiu oczekiwań innych, niejednokrotnie skrajnych z naszymi. Granica między doradzaniem a dyktowaniem jest bardzo cienka. Nie ma tu też miejsca na pomyłki i gapiostwo. To ogromna odpowiedzialność, działanie pod presją czasu i skrajne emocje. Dalszy rozwój tej branży z pewnością spowoduje, że ciężej będzie znaleźć dobrego konsultanta i oddzielić ziarno od plew.'
+            },
+            {
+                text: 'Wracając do tematu osób publicznych i ich angażowania się w branżę ślubną - mam kilka spostrzeżeń. Po pierwsze trzeba sobie od razu powiedzieć, że ani Pani Jonachowska, ani Pani Rozenek-Majdan, ani Pani Kayah nigdy nie zorganizują wesela osobiście. Są to osoby niezwykle zapracowane, z napiętym do granic możliwości grafikiem i managerem, który ogarnia za nich większość spraw. Same niejednokrotnie publicznie narzekają na totalny brak czasu. Chyba nikt nie ma wątpliwości, że żadna z Pań nie będzie siedzieć wieczorem i poszerzać bazy usługodawców, wysyłać maili lub spotykać się ze „swoimi” parami na mieście w celu konsultacji. Z pewnością znana twarz przyciągnie wielu klientów i zrobi wszystko, aby zatrudnić wykwalifikowany personel. Dla mnie to jednak odzieranie tej profesji z jej najpiękniejszego aspektu - bezpośredniego kontaktu z parą, stopniowego poznawania jej i realizacji marzeń. Branża ślubna, a szczególnie wedding planning, nie powinna działać jak taśma produkcyjna, z której wychodzą nawet najpiękniejsze śluby.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post17/post17b.jpg').default
+                    }
+                ]
+            },
+            {
+                text:
+                    <>
+                        Pani Rozenek-Majdan wydaje kolejną perfekcyjną książkę, tym razem o ślubach. Zastanawia mnie, czy jest tak samo oderwana od rzeczywistości, jak pozostałe porady Pani Małgosi. Pani Popielewicz prowadzi portal ślubny, którego właścicielami są sportowcy, Pani Jonachowska wkręca ludzi, że kiepskie wesele z małym budżetem można odmienić w jedną noc, a zakup nowej sukni ślubnej dzień przed przyjęciem to żaden problem. Żeby było jeszcze bardziej bajkowo przymiarki odbywają się w ruinach zamku, a suknia ma rozmiar xxl. Business is business. <br />
+                        Zastanawia mnie fakt, która z tych Pań organizowała swoje wesele samodzielnie bez pomocy wykwalifikowanego wedding plannera? Stawiam, że żadna.
+                    </>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post17/post17c.jpg').default
+                    }
+                ]
+            },
+            {
+                text: 'Tak czy inaczej, ogromnym plusem całej sytuacji jest to, że nie ma lepszej reklamy dla branży wedding plannerowej niż znana twarz, za co wszystkim wyżej wymienionym Paniom z telewizji bardzo dziękujemy :) Tylko błagam Was, nie wkręcajcie ludziom bajek, że niewielkim nakładem sił i finansów można odmienić wygląd wesela w jeden dzień, szkolcie się i poszerzajcie horyzonty. Organizacja wesela to zawsze ogrom pracy i wielkie poświęcenie bez względu na to, czy zajmuje się tym profesjonalny wedding planner, czy para młoda. No chyba, że ma się pod ręką 50-osobową ekipę, która usłużnie załatwi wszystko, podczas gdy Wy uśmiechacie się do nas z okienka telewizora Waszymi nierealnie białymi uśmiechami.'
+            }
+        ],
+        links:
+            <>
+                <p className="mb-1">Źródła zdjęć:</p>
+                <CustomOuterLink to="https://www.pudelek.pl/" /> <br />
+                <CustomOuterLink to="http://www.empik.com/" />
+            </>,
+        extras:
+            <>
+                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColor" /></span>
+            </>
+    },
+    {
+        path: 'przesady-slubne-zwyczaje-weselne',
+        seoTitle: 'Przesądy ślubne – element, który wzbogaca naszą tradycję – Czary Marry',
+        seoText: 'Oglądanie Panny Młodej przed ślubem, zakup obrączek przez Pana Młodego i inne – które przesądy ślubne znasz i kultywujesz?',
+        tag: 'niezbędnik',
+        title: 'Przesądy ślubne – nieocenione tradycje weselne czy nikomu niepotrzebne zabobony ślubne?',
+        date: '8 sty 2018',
+        edited: '22 gru 2020',
+        textShort: 'Ciężko wymienić wszystkie tradycje weselne, które mimo upływającego czasu są...',
+        mainPic: {
+            src: require('./BlogPics/Post16/post16.jpg').default
+        },
+        textMain:
+            <>
+                Ciężko wymienić wszystkie <b>tradycje weselne</b>, które mimo upływającego czasu są wiecznie żywe i nadal funkcjonują w naszej kulturze. Większość z nich traktujemy z przymrużeniem oka, ale w gąszczu zwyczajów weselnych można odnaleźć prawdziwe perełki, które mogą dostarczyć wielu okazji do wzruszeń i śmiechu. Poznaj najpopularniejsze <b>przesądy ślubne</b> i dowiedz się, dlaczego warto o nich pamiętać w dniu ślubu i wesela.
+            </>,
+        content: [
+            {
+                headerSmall: 'Pan Młody nie może oglądać sukni przed ślubem – przesądy ślubne, które zapewniają wiele wzruszeń',
+                text:
+                    <>
+                        Wiemy, że każda Panna Młoda chce się podobać swojemu przyszłemu mężowi i liczy się z jego opinią, ale ten jeden raz warto dochować tajemnicy i poradzić się kogoś innego. Nie ma nic piękniejszego niż widok oszołomionego z wrażenia Pana Młodego, gdy widzi swoją wybrankę w sukni ślubnej po raz pierwszy i odwrotnie. To emocje, których nie da się oszukać, łzy wzruszenia i spojrzenia pełne miłości, o jakiej pisze się książki. Ten zwyczaj należy do przesądów ślubnych, które zapewniają wiele wzruszeń. Te tradycje ślubne często wykorzystywane są również w fotografii ślubnej – zdjęcia lub fragment filmu ślubnego z <i>first look</i> będzie wspaniałą pamiątką.
+                    </>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post16/post16a.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: 'Coś białego, niebieskiego, nowego, starego i pożyczonego… Tradycje weselne pomogą Wam wybrać wspaniałe dodatki ślubne!',
+                text: 'Sporo rzeczy do skompletowania, ale skupmy się na starym i pożyczonym. Czy nie pięknie byłoby iść do ślubu w biżuterii swojej mamy lub babci? To piękna tradycja ślubna. Dla nas brzmi niezwykle wzruszająco. Jakiś czas temu organizowałyśmy wieczór panieński, na którym jedna z przyjaciółek wręczyła przyszłej Pannie Młodej swoją podwiązkę jako coś starego, błękitnego i pożyczonego. Taki pożyczony "staroć" dodaje otuchy i nabiera magicznego znaczenia, stając się amuletem. Ten zwyczaj ślubny to najlepszy przykład, że tradycje weselne zbliżają pokolenia, są okazją do wręczenia bliskiej osobie "amuletu", a Panna Młoda może zyskać wyjątkowy dodatek ślubny.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post16/post16b.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: 'Ślub w miesiącu z literą R – przesądy ślubne z przymrużeniem oka',
+                text: 'Marzy Wam się wesele w maju, ale mama przestrzega, że to ściągnie na Was pecha? Lipiec jest ciepły i trochę luźniejszy od rozchwytywanego sieRpnia? A może myślicie o zimowym weselu w lutym? Kto zabroni Wam wziąć ślub w MrAJU, rLIPCU lub rUTYM? Zdziwienie i uśmiech na twarzy zaproszonych gości gwarantowany! Mało tego, dajemy głowę, że żaden z nich nigdy wcześniej nie był zaproszony na wesele organizowane w tak egzotycznym miesiącu. Ślub w miesiącu z literą R jest jednym z najrzadziej praktykowanych ze wszystkich przesądów ślubnych. Ten zabobon ślubny możemy jednak zinterpretować w nowoczesny, dość wygodny dla nas sposób.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post16/post16c.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: 'Błogosławieństwo rodziców – przesądy ślubne ważne dla Waszych bliskich',
+                text: 'Niestety to coraz rzadziej praktykowany zwyczaj ślubny. Być może dlatego, że nieco mniej osób decyduje się na ślub w obrządku katolickim. Jeżeli nie jesteście wierzący, spójrzcie na błogosławieństwo z nieco innej perspektywy. To wspaniała okazja do uczczenia jednej z najważniejszych chwil w Waszym życiu. To po prostu piękna tradycja ślubna. Zatrzymajcie na chwilę i posłuchajcie kilku serdecznych słów, jakie chcą Wam przekazać rodzice, wznieście wspólny toast. Błogosławieństwo może też być bardzo ważne dla Waszych rodziców – warto zrobić im tę przyjemność i zaplanować je przed ceremonią zaślubin. Niektóre przesądy ślubne są bardzo ważne dla Waszych bliskich i kultywując je sprawicie im mnóstwo radości.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post16/post16d.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: 'Z uśmiechem do ołtarza – przesądy ślubne, o których warto pamiętać!',
+                text: 'Idąc do ołtarza, Para Młoda nie powinna zapominać o uśmiechu. Nie tylko zapewni on pomyślność w małżeństwie, ale i będzie miłym gestem w stronę zaproszonych gości. Nie bójcie się witać i nawiązywać kontaktu wzrokowego. Serdeczne uśmiechy Waszych najbliższych dodadzą Wam otuchy. Nie powstrzymujcie też łez wzruszenia, zgodnie ze ślubną przepowiednią są one zwiastunem wielkiej radości. Wiemy, że każdy inaczej reaguje na stres, ale uśmiech na Waszych twarzach będzie najlepszym początkiem Nowej Drogi Życia – niektóre przesądy ślubne nigdy nie powinny wychodzić z mody.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post16/post16e.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: 'Obrączki a przesądy ślubne',
+                text: 'Z obrączkami wiąże się wiele wierzeń i przesądów ślubnych, najstarsze z nich sięgają jeszcze starożytności. Za obrączki ślubne odpowiedzialny jest przyszły Pan Młody – nie tylko on je kupuje, ale także zajmuje się zamawianiem i ich odbiorem. Z oczywistych względów Panna Młoda uczestniczy w wyborze wzoru, dobierając wówczas odpowiedni rozmiar. Pamiętajcie, że zbyt małe obrączki zwiastują zazdrość, zbyt luźne szybki rozpad małżeństwa. Jeśli wierzycie w takie zabobony ślubne postarajcie się dobrać idealny rozmiar obrączek – to również bardzo praktyczne i wygodne niezależnie czy uznacie to za przesąd ślubny. Przesądy ślubne mówią również o tym, że obrączki powinny być wykonane z trwałego kruszcu, najlepiej tego szlachetnego. Prosty wzór obrączki to dobry prognostyk na brak przeszkód. Jeśli już zdecydujecie się na dodatki, postawcie na diamenty, a unikajcie pereł, które są symbolem łez. Przed ślubem nie przymierzajcie obrączek, a dostarczenie ich do kościoła bądź USC powierzcie świadkom. Starajcie się także nie opuszczać obrączek w trakcie ich zakładania, a jeśli już tak by się stało, obrączki powinien podnieść ksiądz, ewentualnie ministrant.'
+            },
+            {
+                headerSmall: 'Kalie w bukiecie Panny Młodej? Zabobony ślubne nie pozwalają',
+                text: 'Po kalie (inaczej lilie) Panny Młode nadal sięgają dość niechętnie, chociaż powoli można zauważyć zerwanie z tradycją ślubną, mówiącą o wielkim nieszczęściu, jakie kalie zwiastują. Według niektórych kalie w bukiecie Panny Młodej to rychła zapowiedź nieszczęść, a inni ostrzegają, że Panna Młoda, która wybiera kalie, musi liczyć się, że zostanie wdową – pierwszy bowiem umrze jej mąż. Warto również wiedzieć, że w bukiecie nie powinno być również wrzosów, które symbolizują łzy. Jak widać, zabobony ślubne związane z kwiatami są dość makabryczne.'
+            },
+            {
+                text: 'Pamiętajcie, że zabobony ślubne należy traktować z przymrużeniem oka, ale są one nieodłącznym elementem niemal każdego wesela, ponieważ łączą się i przenikają się tradycjami weselnymi, które kochamy i z przyjemnością kultywujemy. Pomyślcie o nich jako o inspiracji do stworzenia czegoś wyjątkowego.'
+            }
+        ],
+        links:
+            <>
+                <p className="mb-1">Linki do zdjęć:</p>
+                <CustomOuterLink to="http://joemonster.org/" /> <br />
+                <CustomOuterLink to="https://www.facebook.com/tashkaphoto/" /> <br />
+                <CustomOuterLink to="https://delsolphotography.com/" /> <br />
+                <CustomOuterLink to="https://pl.pinterest.com/" />
+            </>,
+        extras:
+            <>
+                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColor" /></span>
+            </>
+    },
+    {
+        path: 'wesele-pod-namiotem',
+        seoTitle: "Wesele pod namiotem – zorganizujmy go wspólnie z agencją ślubną Czary Marry",
+        seoText: 'Jak zapewnić gościom fantastyczną rozrywkę podczas wesela pod namiotem? Jakich błędów uniknąć, organizując wesele pod gołym niebem?',
+        tag: 'niezbędnik',
+        title: 'Wesele pod namiotem – o czym trzeba pamiętać przy jego organizacji?',
+        date: '2 lis 2017',
+        edited: '5 lis 2020',
+        textShort: 'Pisałyśmy już o weselach plenerowych, które cieszą się obecnie wielką popularnością wśród Młodych Par. Dziś rozprawimy się z tematem wesela pod namiotem, ale...',
+        mainPic: {
+            src: require('./BlogPics/Post15/post15.jpg').default
+        },
+        textMain: 'Pisałyśmy już o weselach plenerowych, które cieszą się obecnie wielką popularnością wśród Młodych Par. Dziś rozprawimy się z tematem wesela pod namiotem, ale w nieco innym wydaniu.',
+        content: [
+            {
+                headerSmall: 'Dlaczego warto urządzić wesele pod namiotem?',
+                text: 'Coraz częściej zależy Wam na tym, aby impreza przeniosła się na świeże powietrze i odbiegała od typowego przyjęcia z tańcami i obżarstwem. Jak wykorzystać potencjał wesela pod namiotem? Dlaczego warto zorganizować właśnie takie przyjęcie i wykorzystać namiot weselny? Pewnie zauważyliście, że najczęściej goście nie integrują się na sali, tylko podczas papieroska na zewnątrz? To w plenerze toczą się najciekawsze rozmowy i można usłyszeć salwy śmiechu. Zwykle, szczególnie na początku wesela ludzie są bardziej spięci, ciężko im do siebie zagadywać... ale na przysłowiowym papierosie jakoś tak łatwiej. Nie myślcie, że zachęcamy Was do palenia w celu przełamania pierwszych lodów. Proponujemy kilka fajnych sposobów na przeniesienie imprezy na zewnątrz, wspólną integrację z masą dobrej zabawy, bez ryzyka rozpierzchnięcia się gości a wszystko pod namiotem weselnym.'
+            },
+            {
+                headerSmall: 'Wesele pod namiotem ze strefami relaksu',
+                text: 'Strefy relaksu zwane są również strefami chill out. Mogą być one miejscem przeznaczonym do tzw. babskich ploteczek. Tak naprawdę wystarczy koc i kilka kolorowych poduszek, a może tipi rozłożone na trawie. Fajnie, jeżeli strefa relaksu daje gościom możliwość odpoczynku od zgiełku wesela, ale jeszcze lepiej, gdy niesie ze sobą coś więcej. Co powiecie na strefę chill out z fajką wodną? Często obawiacie się, że goście, zamiast bawić się na weselu będą zalegać w strefie chill out. Jest to pewnego rodzaju dysonans, ponieważ zawsze zależy Wam, żeby goście świetnie się bawili, a narzucacie im, że mają to robić na sali. To świetne rozwiązanie na wesele w stylu slow. Istnieje jednak złoty środek. Na swoim weselu pod namiotem zaplanujcie strefę relaksu tak, aby nie zmieściło się w niej więcej niż 10 osób, a jej charakter wymuszał częstą rotację gości. Na przykład w przypadku fajki wodnej, z pewnością bardzo wielu gości będzie chciało z niej skorzystać. Starsze pokolenie będzie chciało spróbować. Duże zainteresowanie spowoduje, że zaleganie w strefie chill out, podczas gdy wiele osób na nią czeka, będzie po prostu niegrzeczne.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post15/post15a.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: 'Zabawy plenerowe na weselu pod namiotem?',
+                text: 'Oczywiście! Brzmi banalnie, ale świetnie się sprawdza. Szczególnie, gdy zabawa nie jest wymuszona. Twister na trawie, dart, mega jenga, bule, cornhole, hula hop, a może wszystko na raz? Przy weselu pod namiotem opcji jest masa. Jedyne co Was ogranicza to Wasza wyobraźnia. Pamiętajcie, żeby gry na weselu pod namiotem nie były zbyt czasochłonne. Krótkie i wszystkim znane zabawy sprawdzą się najlepiej.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post15/post15b.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: 'Stoły tematyczne na weselu pod namiotem',
+                text: 'Namiot weselny w którym znajdziecie samodzielne przygotowywane fondue, watę cukrową lub po prostu stanowisko z lemoniadą. Goście będą zachwyceni! Wiejski stół to już trochę przeżytek, pyszne wędzone kiełbasy, smalec, czy regionalne sery to nie najgorszy pomysł, ale czy nie warto odejść od konwenansów i zaproponować gościom coś, czego nie znają? Dzięki temu z pewnością Wasze wesele pod namiotem stanie się niezapomniane, a wszyscy goście będą je wspominać przez długi czas.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post15/post15c.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: 'Wesele pod gołym niebem z planem awaryjnym!',
+                text: 'Polska to nie Kalifornia, gdzie wiecznie świeci słońce. Na wypadek deszczu namiot i ślub na wesele, które planowaliście pod chmurką to praktyczne rozwiązanie. Nawet jeśli planujecie kameralne wesele we własnym ogrodzie warto przemyśleć kwestie najmu namiotu weselnego. Jaki namiot na wesele wybrać na pewno doradzi Wasz konsultant ślubny. Namiot weselny i przyjęcie w plenerze brzmi jak plan idealny. Ciepły wieczór, rozgwieżdżone niebo, parkiet taneczny rozłożony na trawie, goście biesiadujący przy stołach... A w praktyce? Zimno jak diabli, na dodatek zbiera się na deszcz. Panie w szpilkach utykają w trawie. Goście o 22:00 mają dość i zbierają się do domu.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post15/post15d.jpg').default
+                    }
+                ]
+            },
+            {
+                text:
+                    <>
+                        Nie myślcie, że nie marzą nam się takie wesela. Jednakże biorąc pod uwagę nasze doświadczenie, zdrowy rozsądek i fakt, że Polska to nie Hiszpania, radzimy Wam dziesięć razy przemyśleć tę opcję. Pamiętajcie o zminimalizowaniu ryzyka. Pomyślcie o alternatywnym zadaszeniu. Może to być namiot z rozsuwanymi ścianami lub jurta. Nie zapominajcie, aby uprzedzić gości o tym, że większa część wesela odbędzie się w plenerze, każcie im zabrać cieplejsze swetry i wygodne buty. Możecie również zorganizować wesele pod gołym niebem tuż obok sali weselnej, w której wraz z gośćmi będziecie mogli się schronić, jeśli spadnie deszcz lub znacząco się ochłodzi. Mobilne lampy grzejne też się przydadzą na weselu pod namiotem. <br />
+                        Podsumowując, jeżeli planujecie plenerowe atrakcje dla gości, pamiętajcie o tym, żeby były to proste rozrywki, niezajmujące zbyt wiele czasu. Nie bójcie się także organizować atrakcji dla gości oryginalnych i niesztampowych. Przede wszystkim pamiętajcie o tym, że dobra zabawa to nie tylko taniec na parkiecie do białego rana. Wprost przeciwnie – spora liczba osób uważa to za nieprzyjemny obowiązek. Nie bójcie się też korzystania z przygotowanych rozrywek, wcale nie musicie siedzieć na sali jak przywiązani, podczas gdy większość osób świetnie bawi się na zewnątrz. Spędzajcie czas z ludźmi, których kochacie i nie dajcie się zwieść zastałym konwenansom sprzed 50 lat. Świat się zmienia, ludzie się zmieniają i wesela też!
+                    </>
+            }
+        ],
+        links:
+            <p className="mb-1">Źródło zdjęć: <CustomOuterLink to="https://pl.pinterest.com/" text="Pinterest" /></p>,
+        extras:
+            <>
+                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColor" /></span>
+            </>
+    },
+    {
+        path: 'coś-dla-relaksu',
+        seoText: 'Organizujesz swój ślub i wesele. BRAWO! Jesteś bohaterką ! Zasługujesz na trochę odpoczynku i relaksu. Chcemy zaproponować Ci dziś trochę weselnych umilaczy w postaci książek i programów ślubnych. W końcu przygotowania do ceremonii zaczynają się na długo przed kluczowym dniem, dlatego wielu może się wydawać, że...',
+        tag: 'niezbędnik',
+        title: 'Coś dla relaksu',
+        date: '16 paź 2017',
+        edited: '8 lip 2020',
+        textShort: 'Organizujesz swój ślub i wesele. BRAWO! Jesteś bohaterką ! Zasługujesz na trochę odpoczynku i relaksu. Chcemy zaproponować Ci dziś trochę weselnych umilaczy w postaci książek i programów ślubnych. W końcu przygotowania do ceremonii zaczynają się na długo przed...',
+        mainPic: {
+            src: require('./BlogPics/Post14/post14.jpg').default
+        },
+        textMain: 'Organizujesz swój ślub i wesele. BRAWO! Jesteś bohaterką ! Zasługujesz na trochę odpoczynku i relaksu. Chcemy zaproponować Ci dziś trochę weselnych umilaczy w postaci książek i programów ślubnych. W końcu przygotowania do ceremonii zaczynają się na długo przed kluczowym dniem, dlatego wielu może się wydawać, że łączy się to tylko z jeżdżeniem, załatwianiem, przymierzaniem, próbowaniem i podpisywaniem umów. Są też miłe i zabawne strony. :)',
+        content: [
+            {
+                headerSmall: <span className="pink">"Say Yes to the Dress"</span>,
+                text: 'Przyszłe panny młode zjeżdżają z całej Ameryki do Nowego Jorku, by znaleźć perfekcyjną suknię ślubną. To fascynująca seria pokazująca dramat, jakim niejednokrotnie staje się znalezienie sukni, która spełniałaby oczekiwania wymagającej i czasem trudnej grupy, jaką tworzą druhny czy rodzina. Z pomocą przychodzi zespół konsultantów, aby pomóc pannom młodym i druhnom osiągnąć porozumienie co do stroju zadowalającego wszystkich. Niestety spory, różne gusta i wysokie ceny potrafią zmienić wymarzone wesele każdej panny młodej w najgorszy koszmar. Koniec końców sukces pojawia się częściej niż porażka.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post14/post14a.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: <span className="pink">"Dziennik naszego ślubu" Antoni Winiarski</span>,
+                text: 'Dla każdej kobiety, która zmaga się z przygotowaniami ślubu i wesela. Ta książka to najlepszy przewodnik na polskim rynku do organizacji ślubu i przyjęcia weselnego. Rozdziały dotyczą inspiracji i szczegółowych planów, które pomogą nowożeńcom przejść przez ten trudny okres organizacji tych ważnych dla nich wydarzeń. Znajdziemy tu karty na zaplanowanie strojów, wydatków, na plan usadzenia gości i wiele innych niezbędnych czynności, których wykonanie zapewni, że ślub będzie elegancki i niezapomniany, a książka ta stanie się pamiętnikiem tej wyjątkowej i szczęśliwej ceremonii.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post14/post14b.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: <span className="pink">"Mikie ratuje wesele"</span>,
+                text: 'Mikie Russo jest wyjątkowym organizatorem unikalnych wesel. Jego przyjęcia to istna uczta dla zmysłów. W dodatku ma dar rozładowywania najbardziej napiętych sytuacji, do których tak często dochodzi podczas planowania wesela. Ten niesłychanie zdolny samouk, przekonany o tym, że jeśli coś ma być zrobione dobrze, trzeba to zrobić samemu. Zdobył uznanie w branży dzięki swemu zamiłowaniu do sztuki florystycznej. Po trwającej parę lat praktyce w firmie florystycznej, gdzie doradzał Pannom Młodym, w końcu założył swoją własną firmę eventową – Michael Russo Events. W każdym odcinku możemy zobaczyć, jak Mike pomaga przyszłym małżonkom zrealizować ich marzenia o wyjątkowym dniu.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post14/post14c.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: <span className="pink">"Seks w wielkim mieście" - film</span>,
+                text: 'Znana z serialu o tym samym tytule Carrie Bradshaw (Sarah Jessica Parker) po wielu perypetiach w końcu wychodzi za mąż za swojego ukochanego, słynnego Mr Biga. Carrie oraz jej przyjaciółki szykują wesele w iście nowojorskim stylu. Sukienka będzie od słynnej projektantki, a goście weselni to śmietanka towarzyska Manhattanu. Ja zazdroszczę jej miejsca, w którym ceremonia się odbędzie.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post14/post14d.jpg').default
+                    }
+                ]
+            },
+            {
+                text: 'A czego nie oglądać?'
+            },
+            {
+                headerSmall: <span className="pink">I nie opuszczę Cię aż do ślubu</span>,
+                text: 'Iza Janachowska – prowadząca program w TVN Style jest na pewno piękna, uśmiechnięta i zaangażowana w przygotowanie wymarzonego wesela Pary, ale na tym się kończy. Program każe wierzyć nam, że w dwa dni przed ślubem załatwimy nie tylko ekskluzywne auto, sukienkę z poprawkami krawieckimi, ale i gwiazdę disco polo. A do tego nasz makijaż nie ulegnie nawet minimalnemu zniszczeniu.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post14/post14e.jpg').default
+                    }
+                ]
+            },
+            {
+                text: 'Dajcie znać, co Wy lubicie oglądać najbardziej.'
+            }
+        ],
+        textAuthor: "Ola",
+        links:
+            <>
+                <p className="mb-1">Linki do zdjęć:</p>
+                <CustomOuterLink to="http://friends.wikia.com/" /> <br />
+                <CustomOuterLink to="https://www.hulu.com/say-yes-to-the-dress" /> <br />
+                <CustomOuterLink to="http://www.matras.pl/dziennik-naszego-slubu,p,8558" /> <br />
+                <CustomOuterLink to="https://vod.pl/i-nie-opuszcze-cie-az-do-slubu" />
+            </>,
+        extras:
+            <>
+                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColor" /></span>
+            </>
+    },
+    {
         path: 'wesele-w-plenerze',
         seoTitle: 'Jak zorganizować wesele w plenerze? radzi agencja ślubna Czary Marry',
         seoText: 'O czym trzeba pamiętać, organizując wesele w plenerze? Dlaczego warto przy tej okazji poprosić o pomoc wedding plannera? Praktyczne wskazówki i porady!',
@@ -38,7 +412,7 @@ const posts = [
             {
                 headerSmall: <span className="pink">2. Wesele w plenerze w nietypowym miejscu – zapewnijcie gościom parking!</span>,
                 text: <>
-                W przypadku sal weselnych problem przeważnie się nie pojawia. Każde dobrze prosperujące miejsce ma swój prywatny parking, a w przypadku większej ilości samochodów służą swoim doświadczeniem i podpowiedzą, gdzie pokierować gości. Co, kiedy podczas organizacji przyjęcia weselnego w plenerze stawiamy <CustomInnerLink path="wesele-pod-namiotem" text="namiot weselny" /> czy jurtę na pięknej łące, u siebie w ogrodzie lub daleko od cywilizacji? Często Młode Pary nie pomyślą o organizacji parkingu i nie chodzi tu tylko o wydzielenie strefy, gdzie goście mogą zaparkować. Trzeba pomyśleć o tym, aby parking był na stabilnym gruncie. Panie będą mieć obcasy, a Panowie eleganckie półbuty. Szkoda, aby obuwie pobrudziło się od zapadania w ziemię bądź błoto podczas ewentualnego deszczu. Dobrze, gdyby miejsce było odpowiednio oświetlone, by nie szukać swojego auta, świecąc sobie smartfonem. Jeśli marzycie o weselu w plenerze, musicie zapewnić gościom jak najbardziej komfortowe warunki.</>,
+                    W przypadku sal weselnych problem przeważnie się nie pojawia. Każde dobrze prosperujące miejsce ma swój prywatny parking, a w przypadku większej ilości samochodów służą swoim doświadczeniem i podpowiedzą, gdzie pokierować gości. Co, kiedy podczas organizacji przyjęcia weselnego w plenerze stawiamy <CustomInnerLink path="wesele-pod-namiotem" text="namiot weselny" /> czy jurtę na pięknej łące, u siebie w ogrodzie lub daleko od cywilizacji? Często Młode Pary nie pomyślą o organizacji parkingu i nie chodzi tu tylko o wydzielenie strefy, gdzie goście mogą zaparkować. Trzeba pomyśleć o tym, aby parking był na stabilnym gruncie. Panie będą mieć obcasy, a Panowie eleganckie półbuty. Szkoda, aby obuwie pobrudziło się od zapadania w ziemię bądź błoto podczas ewentualnego deszczu. Dobrze, gdyby miejsce było odpowiednio oświetlone, by nie szukać swojego auta, świecąc sobie smartfonem. Jeśli marzycie o weselu w plenerze, musicie zapewnić gościom jak najbardziej komfortowe warunki.</>,
                 pics: [
                     {
                         src: require('./BlogPics/Post13/post13a.jpg').default
