@@ -1,0 +1,21 @@
+@import '../../utils/media.scss';
+
+.Picture {
+    width: 100%;
+    display: grid;
+
+    img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .photo {
+        text-align: center;
+        font-size: 12px;
+        margin: 7px auto 14px auto;
+    }
+}
+
+.margin {
+    margin: 2rem auto;
+}

@@ -1,0 +1,19 @@
+@import '../../utils/colors.scss';
+@import '../../utils/media.scss';
+
+.PostPreviewSmall {
+    background-color: white;
+    border: 1px solid $lightGrey;
+    margin-bottom: 2rem;
+
+    img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    h2 {
+        font-size: 1.1rem;
+        padding: 1.5rem 1rem;
+        line-height: 1.5em;
+    }
+}

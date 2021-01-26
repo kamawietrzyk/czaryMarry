@@ -18,7 +18,7 @@ const OurCouples = () => (
                 Takimi momentami należy się chwalić, dlatego zachęcamy do zapoznania się z naszymi realizacjami.
             </h1>
             {weddings.map(({ bgColor, title, details, org, orgLink, place, placeLink, photo, photoLink, photoTwo, photoLinkTwo, movie, movieLink, flowers, flowersLink, photos }, index) => (
-                <div className={`OurCouples-content_grid ${index % 2 && "flipped"}`}>
+                <div key={index} className={`OurCouples-content_grid ${index % 2 && "flipped"}`}>
                     <div className="photos">
                         <CouplesSlider photos={photos} />
                     </div>

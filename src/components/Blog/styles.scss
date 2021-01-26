@@ -3,6 +3,8 @@
 
 .Blog {
     position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
 
     .number {
         color: $darkGrey;
@@ -42,22 +44,43 @@
         @media (min-width: $laptop) {
             font-size: 24px;
             margin-left: 2rem;
+            margin-top: 2rem;
         }
     }
 
     .bg-grey {
         position: absolute;
         left: 0;
-        height: 8rem;
+        height: 1rem;
         width: 100vw;
-        background-color: $darkGrey;
+        background-color: white;
 
         @media (min-width: $laptop) {
             height: 17rem;
+            background-color: $darkGrey;
         }
     }
 
     &-content {
-        margin-top: 20rem;
+        position: relative;
+        margin-top: 15rem;
+        width: 100%;
+        margin-bottom: -3rem;
+
+        @media (min-width: $laptop) {
+            margin-top: 18rem;
+        }
+    }
+
+    @media (min-width: $laptop) {
+        padding: 0 7vw;
+    }
+
+    @media (min-width: $desktop) {
+        padding: 0 18vw;
+    }
+
+    @media (min-width: $desktopL) {
+        padding: 0 22vw;
     }
 }

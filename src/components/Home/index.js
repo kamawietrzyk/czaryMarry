@@ -13,7 +13,17 @@ import instaPic2 from './instaPic2.jpg';
 import instaPic3 from './instaPic3.jpg';
 import konsultantki from './konsultantki-slubne-czary-marry-home.jpg';
 import ScrollToTopOnMount from '../ScrollToTopOnMount';
+import logo from '../../utils/czarymarry_logo.png'
+import SeoContent from '../SeoContent';
 
+const APP_URL = process.env.REACT_APP_BASE_URL
+const seo = {
+    title: '',
+    description:
+        '',
+    url: `${APP_URL}${URLS.HOME}`,
+    image: logo
+}
 class Home extends Component {
     state = {
         position: false
@@ -49,6 +59,7 @@ class Home extends Component {
         return (
             <div className="Home">
                 <ScrollToTopOnMount />
+                <SeoContent {...seo} />
                 <ArrowToTop />
                 <div className="Home-helloBox">
                     <Link className="hello" to={URLS.ABOUT}>Cześć.</Link>
@@ -116,8 +127,8 @@ class Home extends Component {
                         </h2>
                     </Link>
                     <div className="Home-bottomContainer_instaPics">
-                        {instaPics.map(({ src, alt }) => (
-                            <a href="https://www.instagram.com/wedding_czarymarry/" target="_blank" rel="noopener noreferrer">
+                        {instaPics.map(({ src, alt }, index) => (
+                            <a key={index} href="https://www.instagram.com/wedding_czarymarry/" target="_blank" rel="noopener noreferrer">
                                 <div className="ig-box">
                                     <img src={src} alt={alt} />
                                     <div className="overlay"></div>

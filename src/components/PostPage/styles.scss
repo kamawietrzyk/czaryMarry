@@ -1,0 +1,198 @@
+@import '../../utils/colors.scss';
+@import '../../utils/media.scss';
+
+.PostPage {
+    width: 100%;
+    display: grid;
+
+    .btn {
+        background-color: white;
+        color: $mediumGrey;
+        border-top: 1px solid $lightGrey;
+        border-bottom: 1px solid $lightGrey;
+        border-radius: 0;
+        padding: .75rem;
+        font-size: 15px;
+        font-weight: 400;
+
+        &:hover {
+            color: $darkGrey;
+            border-top: 1px solid $mediumGrey;
+            border-bottom: 1px solid $mediumGrey;
+        }
+
+        @media (min-width: $tablet) {
+            width: 10rem;
+            margin-left: 4rem;
+            margin-bottom: 2rem;
+        }
+        @media (min-width: $laptop) {
+            margin-left: 10vw;
+        }
+        @media (min-width: $desktop) {
+            margin-left: 14vw;
+        }
+        @media (min-width: $desktopL) {
+            margin-left: 28vw;
+        }
+    }
+
+    &-content {
+        padding: 2rem 1rem;
+
+        p {
+            font-size: 16px;
+            font-weight: 300;
+            margin-bottom: 2.5rem;
+        }
+
+        .bold,
+        b {
+            font-weight: 600;
+        }
+
+        .header-box {
+            width: 100%;
+            display: grid;
+            grid-template-columns: .6fr 2fr;
+            grid-template-rows: auto;
+            margin-bottom: 1rem;
+
+            div {
+                display: grid;
+                align-items: center;
+
+                .author {
+                    font-size: 15px;
+                    margin-bottom: 0;
+                    align-self: end;
+                    color: $mediumGrey;
+                }
+            }
+
+            @media (min-width: $tablet) {
+                width: 50%;
+                margin-bottom: 2rem;
+
+                div {
+                    display: flex;
+
+                    .author,
+                    p {
+                        align-self: center;
+                    }
+
+                    .author {
+                        margin-bottom: 1px;
+                    }
+                }
+            }
+        }
+
+        .date {
+            font-size: 13px;
+            margin-bottom: 0;
+            margin-left: 7px;
+            align-self: flex-start;
+            color: $mediumGrey;
+        }
+
+        .post-title {
+            font-size: 1.6rem;
+            margin-bottom: 2rem;
+
+            @media (min-width: $tablet) {
+                font-size: 1.8rem;
+            }
+
+            @media (min-width: $laptop) {
+                font-size: 2.3rem;
+            }
+        }
+
+        .subheader {
+            font-size: 1.35rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+
+            @media (min-width: $laptop) {
+                font-size: 1.6rem;
+            }
+        }
+
+        .extras {
+            padding-bottom: 1.5rem;
+        }
+
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+
+        @media (min-width: $tablet) {
+            padding: 2rem 4rem;
+        }
+
+        @media (min-width: $laptop) {
+            margin: 3rem 10vw;
+            padding: 3rem 6rem;
+            border: 1px solid $lightGrey;
+        }
+
+        @media (min-width: $desktop) {
+            margin: 4rem 14vw;
+            padding: 5rem 9rem;
+        }
+
+        @media (min-width: $desktopL) {
+            margin-left: 28vw;
+            margin-right: 28vw;
+        }
+    }
+
+    &-suggestions {
+        padding: 3rem 1rem;
+        margin-top: 2rem;
+        width: 100%;
+        background-color: rgba(211, 209, 209, 0.2);
+
+        h3 {
+            padding-bottom: .65rem;
+            text-align: center;
+            font-size: 25px;
+            color: $darkGrey;
+        }
+        .box {
+            @media (min-width: $tablet) {
+                padding-left: 2rem;
+                padding-right: 2rem;
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: auto;
+                grid-column-gap: 1rem;
+            }
+
+            @media (min-width: $laptop) {
+                width: 83%;
+                grid-template-columns: repeat(3, 1fr);
+                margin: 2rem auto 3rem auto;
+                padding: 0;
+                grid-column-gap: 2rem;
+            }
+
+            @media (min-width: $desktop) {
+                width: 74%;
+            }
+
+            @media (min-width: $desktopL) {
+                width: 100%;
+            }
+        }
+
+        @media (min-width: $desktopL) {
+            width: 56%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}

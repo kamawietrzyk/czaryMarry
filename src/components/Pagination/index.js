@@ -1,5 +1,7 @@
 import React from 'react'
-import { Link, withRouter } from 'react-router-dom'
+import { Link } from 'react-router-dom'
+// import { generatePath } from 'react-router'
+// import URLS from '../../utils/urls'
 import chevLeft from '../Icons/chevLeft.svg'
 import chevRight from '../Icons/chevRight.svg'
 import doubleChev from '../Icons/doubleChev.svg'
@@ -8,7 +10,7 @@ import './styles.scss'
 const Pagination = ({ onChange, currentPage, totalPages }) => {
 
     const pageNumbers = [];
-    const window = 3
+    const window = 5
 
     let maxLeft = currentPage - Math.floor(window/2)
     let maxRight = currentPage + Math.floor(window/2)
@@ -33,6 +35,10 @@ const Pagination = ({ onChange, currentPage, totalPages }) => {
 
     return (
         <div className="Pagination">
+            { totalPages === 0 ?
+            <div className="empty">
+                <p>Ups, w tej kategorii nie mamy jeszcze żadnych wpisów!</p>
+            </div> :
             <nav aria-label="navigation">
                 <ul className="pagination">
                     <li className={`page-item mr-1 ${currentPage === 1 && 'disabled'}`}>
@@ -51,14 +57,14 @@ const Pagination = ({ onChange, currentPage, totalPages }) => {
                     </li>
                     {pageNumbers.map(number => (
                         <li key={number} className={`numbers-desktop page-item mx-2 ${currentPage === number && "active"}`}>
-                            <Link onClick={onChange(number, true)} className="page-link page-numbers" to=" ">{number}</Link>
+                            <Link onClick={onChange(number, true)} className="page-link page-numbers" to="" /*{generatePath(URLS.ROUTE, { url: `page/${number}`})} ?? */>{number}</Link>
                         </li>
                     ))}
                     <li className="numbers-mobile page-item mx-3">
                         <p>{currentPage}/{totalPages}</p>
                     </li>
                     <li className={`page-item ml-1 ${currentPage === totalPages && 'disabled'}`}>
-                        <Link onClick={onChange(1)} className="page-link" to=" ">
+                        <Link onClick={onChange(1)} className="page-link" to=" " >
                             <div className="icon-wrapper">
                                 <img src={chevRight} alt="chevron right" />
                             </div>
@@ -73,8 +79,9 @@ const Pagination = ({ onChange, currentPage, totalPages }) => {
                     </li>
                 </ul>
             </nav>
+}
         </div>
     )
 }
 
-export default withRouter(Pagination)
+export default Pagination

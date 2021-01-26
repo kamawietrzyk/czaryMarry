@@ -155,7 +155,7 @@ class Contact extends Component {
                                 </div>
                             </div>
                             <div className="form-group">
-                                <input value={subject} onChange={e => this.handleInput(e)} type="text" className="form-control" id="exampleInputName" name="subject" aria-describedby="subject" placeholder="Temat" required />
+                                <input value={subject} onChange={e => this.handleInput(e)} type="text" className="form-control" id="exampleInputSubject" name="subject" aria-describedby="subject" placeholder="Temat" required />
                                 <p className="text-danger" style={{ height: ".25rem", fontSize: "12px", marginTop: ".25rem" }}>{formErrors.subject}</p>
                             </div>
                             <div className="form-group">
