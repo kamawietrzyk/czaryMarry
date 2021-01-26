@@ -23,7 +23,7 @@ const posts = [
         </>,
         extras:
         <>
-            <span className="d-block text-right"><CustomInnerLink path="/" text="Podcast" className="bgColor" /></span>
+            <span className="d-block text-right"><CustomInnerLink path="/" text="Podcast" className="bgColorMint" /></span>
         </>
     },
     {
@@ -44,7 +44,7 @@ const posts = [
         </>,
         extras:
         <>
-            <span className="d-block text-right"><CustomInnerLink path="/" text="Podcast" className="bgColor" /></span>
+            <span className="d-block text-right"><CustomInnerLink path="/" text="Podcast" className="bgColorMint" /></span>
         </>
     },
     {
@@ -118,7 +118,7 @@ const posts = [
         ],
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColor" /></span>
+                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
             </>
 
     },
@@ -135,8 +135,8 @@ const posts = [
         },
         textMain:
             <>
-                Czy każdy może zostać wedding plannerem? Pytanie na pozór banalne, chociaż odpowiedzi mogą być naprawdę różne. Teoretycznie tak, ale czy każdy ma predyspozycje do tego, aby wykonywać ten zawód z sukcesem? To już zupełnie inna para kaloszy.<br />
-            Do napisania tego artykułu skłonił mnie poniższy nagłówek, zamieszczony w popularnym portalu plotkarskim. Nie zamierzam w żaden sposób atakować Kayah, która rzeczywiście jest kobietą sukcesu i super artystką. Jej wypowiedź stała się jedynie impulsem do napisania kilku słów na temat owianego masą stereotypów zawodu konsultanta ślubnego.
+                <span className="bold bgMintLight">Czy każdy może zostać wedding plannerem?</span> Pytanie na pozór banalne, chociaż odpowiedzi mogą być naprawdę różne. Teoretycznie tak, ale czy każdy ma predyspozycje do tego, aby wykonywać ten zawód z sukcesem? To już zupełnie inna para kaloszy.<br />
+                Do napisania tego artykułu skłonił mnie poniższy nagłówek, zamieszczony w popularnym portalu plotkarskim. Nie zamierzam w żaden sposób atakować Kayah, która rzeczywiście jest kobietą sukcesu i super artystką. Jej wypowiedź stała się jedynie impulsem do napisania kilku słów na temat owianego masą stereotypów zawodu konsultanta ślubnego.
             </>,
         topPic: {
             src: require('./BlogPics/Post17/post17a.jpg').default
@@ -180,7 +180,7 @@ const posts = [
             </>,
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColor" /></span>
+                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
             </>
     },
     {
@@ -270,7 +270,7 @@ const posts = [
             </>,
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColor" /></span>
+                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
             </>
     },
     {
@@ -339,7 +339,7 @@ const posts = [
             <p className="mb-1">Źródło zdjęć: <CustomOuterLink to="https://pl.pinterest.com/" text="Pinterest" /></p>,
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColor" /></span>
+                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
             </>
     },
     {
@@ -418,7 +418,7 @@ const posts = [
             </>,
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColor" /></span>
+                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
             </>
     },
     {
@@ -494,7 +494,7 @@ const posts = [
         ],
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColor" /></span>
+                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
             </>
     },
 
@@ -584,7 +584,7 @@ const posts = [
             </>,
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColor" /></span>
+                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
             </>
     },
     {
@@ -676,7 +676,7 @@ const posts = [
             </>,
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColor" /></span>
+                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
             </>
     },
     {
@@ -715,7 +715,7 @@ const posts = [
         ],
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColor" /></span>
+                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
             </>
     },
     {
@@ -802,7 +802,7 @@ const posts = [
             </>,
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColor" /></span>
+                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
             </>
     },
     {
@@ -856,7 +856,7 @@ const posts = [
         textAuthor: "Kasia",
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Ślubne opowieści, czyli wesela dawniej" className="bgColor" /></span>
+                <span className="d-block text-right"><CustomInnerLink path="/" text="Ślubne opowieści, czyli wesela dawniej" className="bgColorLight" /></span>
             </>
     },
 
@@ -938,7 +938,7 @@ const posts = [
             </>,
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColor" /></span>
+                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
             </>
 
     },
@@ -984,7 +984,7 @@ const posts = [
             <p className="mb-1">Fotografie: <CustomOuterLink to="https://pokadrowani.pl/" text="Pokadrowani" /></p>,
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Opowiadamy o naszych realizacjach" className="bgColor" /></span>
+                <span className="d-block text-right"><CustomInnerLink path="/" text="Opowiadamy o naszych realizacjach" className="bgColorLight" /></span>
             </>
     },
     {
@@ -1074,7 +1074,7 @@ const posts = [
             </>,
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColor" /></span>
+                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
             </>
     },
     {
@@ -1134,7 +1134,7 @@ const posts = [
             </>,
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColor" /></span>
+                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
             </>
     },
 
@@ -1186,7 +1186,7 @@ const posts = [
         textAuthor: "Ola",
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColor" /></span>
+                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
             </>
     },
 
@@ -1247,7 +1247,7 @@ const posts = [
         textAuthor: "Ola",
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColor" /></span>
+                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
             </>
     },
 
@@ -1301,7 +1301,7 @@ const posts = [
         ],
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColor" /></span>
+                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
             </>
     }
 

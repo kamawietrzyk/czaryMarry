@@ -131,6 +131,22 @@
   .bgDark {
     background-color: $darkGrey;
   }
+
+  .bgMintLight {
+    background-color: #adc8c1b6;
+  }
+
+  .bgPinkLight {
+    background-color: #db8a8b77;
+  }
+
+  .bgLightLight {
+    background-color: #afafaf94;
+  }
+
+  .bgDarkLight {
+    background-color: #31373e62;
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {
