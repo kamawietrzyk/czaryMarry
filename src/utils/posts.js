@@ -6,6 +6,48 @@ import URLS from './urls'
 
 const posts = [
     {
+        path: '2-hey-wedding-angie-i-jej-trzy-śluby',
+        seoText: 'Dziś porozmawiamy z Angie o jej kameralnym weselu w stylu slow organizowanym w Polsce oraz wielkim hinduskim weselu i tradycjach z nim związanych.',
+        tag: 'podcast',
+        date: '13 lut 2020',
+        edited: '1 wrz 2020',
+        title: '#2 Hey Wedding - Angie i jej trzy śluby.',
+        textShort: 'Dziś porozmawiamy z Angie o jej kameralnym weselu w stylu slow organizowanym w Polsce oraz wielkim hinduskim weselu i tradycjach...',
+        mainPic: {
+            src: require('./BlogPics/podcast.png').default
+        },
+        textMain: 'Dziś porozmawiamy z Angie o jej kameralnym weselu w stylu slow organizowanym w Polsce oraz wielkim hinduskim weselu i tradycjach z nim związanych.',
+        links:
+        <>
+            <iframe title="#2 Hey Wedding - Angie i jej trzy śluby." height="122" width="100%" style={{border: "none"}} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/media/player/2gzp7-d37e74?from=pb6admin&download=1&version=1&auto=0&share=1&download=1&rtl=0&fonts=Helvetica&skin=1&pfauth=&btn-skin=107"></iframe>
+        </>,
+        extras:
+        <>
+            <span className="d-block text-right"><CustomInnerLink path="/" text="Podcast" className="bgColor" /></span>
+        </>
+    },
+    {
+        path: '1-hey-wedding-kasia-i-marcin',
+        seoText: 'Posłuchajcie naszego podcastu - Hey Wedding! W pierwszym odcinku rozmawiamy z jedną z naszych par. Kasia i Marcin mieli piękne wesele w Przystani Między Deskami.',
+        tag: 'podcast',
+        date: '14 sty 2020',
+        edited: '1 wrz 2020',
+        title: '#1 Hey Wedding - Kasia i Marcin',
+        textShort: 'Posłuchajcie naszego podcastu - Hey Wedding! W pierwszym odcinku rozmawiamy z jedną z naszych par. Kasia i Marcin mieli piękne...',
+        mainPic: {
+            src: require('./BlogPics/podcast.png').default
+        },
+        textMain: 'Posłuchajcie naszego podcastu - Hey Wedding! W pierwszym odcinku rozmawiamy z jedną z naszych par. Kasia i Marcin mieli piękne wesele w Przystani Między Deskami.',
+        links:
+        <>
+            <iframe title="#1 Hey Wedding - Cytrynowe emocje Kasi i Marcina" height="122" width="100%" style={{border: "none"}} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/media/player/c7m3w-cf77a8?from=pb6admin&download=1&version=1&auto=0&share=1&download=1&rtl=0&fonts=Helvetica&skin=1&pfauth=&btn-skin=107"></iframe>
+        </>,
+        extras:
+        <>
+            <span className="d-block text-right"><CustomInnerLink path="/" text="Podcast" className="bgColor" /></span>
+        </>
+    },
+    {
         path: 'mała-rzecz-a-ucieszy',
         seoText: 'Niezbędnik ślubny. Przydatne rzeczy w dniu waszego wesela.',
         tag: 'niezbędnik',
