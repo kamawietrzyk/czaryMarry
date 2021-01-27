@@ -6,6 +6,225 @@ import URLS from './urls'
 
 const posts = [
     {
+        path: 'trendy-slubne',
+        seoText: 'Dlaczego trendy ślubne powinny być inspiracją, a nie wykładnia podczas planowania ślubu i wesela?',
+        title: 'Trendy ślubne – dlaczego nie zawsze warto się nimi kierować?',
+        date: '23 mar 2020',
+        edited: '16 paź 2020',
+        textShort: 'Co roku portale i blogi ślubne prześcigają się w ilości artykułów na temat trendów ślubnych. Zasypują Cię informacjami o kolorze roku, najnowszych...',
+        mainPic: {
+            src: require('./BlogPics/Post21/post21.jpg').default
+        },
+        textMain:
+        <>
+            Co roku portale i blogi ślubne prześcigają się w ilości artykułów na temat <span className="bold bgGreyLight">trendów ślubnych</span>. Zasypują Cię informacjami o kolorze roku, najnowszych fasonach sukni, czy top makijażach. Warto przejrzeć najnowsze inspiracje ślubne, zachwycić się pięknymi zdjęciami, a następnie zapomnieć o tym wszystkim. Planując swój ślub i wesele przede wszystkim, myślcie o sobie, o tym, co Wy lubicie i w czym się dobrze czujecie. Na nic Wam podążanie za trendami ślubnymi, jeśli ich nie czujecie. Zerknijcie na naszą listę spraw, gdzie nie powinniście sugerować się tym, co jest modne i dajcie znać, czy myślicie podobnie.
+        </>,
+        topPic: {
+            src: require('./BlogPics/Post21/post21.jpg').default
+        },
+        content: [
+            {
+                headerSmall: 'Suknie ślubne 2020/2021 i garnitur ślubny – trendy ślubne nie dla każdego',
+                text: 'Najpiękniejsza suknia ślubna prosto z wybiegu nie spowoduje, że będziesz czuła się pięknie i idealnie, jeśli nie będzie dobrana do Twojej sylwetki i gustu. Kupując kreację na ten wielki dzień, przede wszystkim musisz pomyśleć o sobie i o tym, w czym się dobrze czujesz. Jeśli na co dzień lubisz prostotę i klasykę, nic Ci po trendach w stylu boho. W takim stroju będziesz czuła się przebrana. To samo tyczy się Pana Młodego. Na nic śledzenie nowości, trendów w garniturach, frakach czy smokingach jeśli najlepiej mu w klasycznym czarnym garniturze. Niech trendy ślubne będą dla Was wskazówką, ale decyzję podejmijcie w zgodzie z samym sobą. Najnowsze trendy w modzie ślubnej przemijają rok do roku a Wasz ślub powinien pozostać ponadczasowy.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post21/post21a.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: 'Trendy ślubne – dekoracje sali weselnej, samochodu i kościoła',
+                text:
+                <>
+                    Co roku PANTONE wybiera kolor roku. W 2020 trafiło na dusty blue. Zaraz po jego ogłoszeniu każdy, ale to każdy z branży ślubnej prześciga się w inspiracjach dekoracyjnych w „świętym” kolorze by stworzyć trendy motyw przewodni wesela. Pytanie: po co? Kolory, jakie pojawią się na Waszym weselu, nie powinny być dyktowane trendami ślubnymi, a wieloma innymi czynnikami. Pomijam już aspekt Waszego gustu, ale trzeba też pomyśleć o dostosowaniu koloru przewodniego wesela do sali weselnej, pory roku czy dostępności kwiatów w hurtowni. Obecnie trendującym kolorem przewodnim jest <CustomInnerLink className="bgColorLight" path="zamek-ksiaz-wesele-motyw-gold-rose" text="motyw Rose Gold" target="_blank" />, lecz nie oznacza to, że sprawdzi się on na każdym ślubie czy weselu. Trendy ślubne 2020/2021 mogą być Waszą inspiracją, ale zdecydowanie nie powinny być Waszą wykładnią.
+                </>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post21/post21b.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: 'Trendy ślubne w makijażu i fryzurach ślubnych',
+                text:
+                <>
+                    Tu znowu powtórzę to, co w pierwszym punkcie. W tym ważnym dniu <span className="bold bgGreyLight">masz się czuć dobrze i naturalnie</span>. Nie podążaj ślepo za trendami, a wybierz z nich to co pasuje, do Twojego stylu i wyglądu. Planując swój make-up i fryzurę zdaj się dobrą stylistkę, która dopasuje fryzurę i makijaż do Ciebie. Pomyśli o rodzaju Twoich włosów, czy kształcie twarzy. Spowoduje, że będziesz piękną Panna Młodą, a nie przemalowaną lalką z trendy makijażem ślubnym.
+                </>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post21/post21c.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: 'Piosenka ślubna na pierwszy taniec i inne trendy ślubne',
+                text:
+                <>
+                    Co roku mamy romantyczną piosenkę, która rządzi na listach przebojów i co roku Pary Młode przenoszą ją na salę weselną i tańczą przy niej swój pierwszy taniec. Z jednej strony nic w tym złego, ale czy nie fajniej wybrać utwór, który jest ponadczasowy, a przede wszystkim Wasz?! Każdy z nas ma piosenkę, która kojarzy mu się z ukochaną lub z chwilą, którą spędzili razem i to jest zdecydowanie lepszy wybór, niż hit lata 2020. Mimo wszystko nie strońcie od nowości – trendy ślubne mogą być źródłem inspiracji na wesele w Waszych stylu. Niektóre weselne trendy mogą wejść na stałe w kanony ślubne.
+                </>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post21/post21d.jpg').default
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        path: '3-hey-wedding-ciekawe-przypadki-dj-a-jegomościa',
+        seoText: 'Dziś porozmawiamy z naszym kolegą z branży Krzyśkiem Krzemińskiem - DJ-em Jegomościem. Pogadamy o tym, co Krzysiek lubi w swojej pracy, jak unika popadania w schematy, jak wyglądają jego relacje z parami i wielu innych interesujących rzeczach.',
+        title: '#3 Hey Wedding - Ciekawe przypadki DJ-a Jegomościa',
+        tag: 'podcast',
+        date: '12 mar 2020',
+        edited: '1 wrz 2020',
+        textShort: 'Dziś porozmawiamy z naszym kolegą z branży Krzyśkiem Krzemińskiem - DJ-em Jegomościem. Pogadamy o tym, co Krzysiek lubi w swojej pracy, jak...',
+        mainPic: {
+            src: require('./BlogPics/podcast.png').default
+        },
+        textMain:
+            <>
+                Dziś porozmawiamy z naszym kolegą z branży <span className="bold bgMintLight"> Krzyśkiem Krzemińskiem - DJ-em Jegomościem</span>. Pogadamy o tym, co Krzysiek lubi w swojej pracy, jak unika popadania w schematy, jak wyglądają jego relacje z parami i wielu innych interesujących rzeczach.
+            </>,
+        links:
+            <>
+                <iframe title="#3 Hey Wedding - Ciekawe przypadki DJ-a Jegomościa" height="122" width="100%" style={{border: 'none'}} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/media/player/5enrg-d6155c?from=pb6admin&download=1&version=1&auto=0&share=1&download=1&rtl=0&fonts=Helvetica&skin=1&pfauth=&btn-skin=107"></iframe>
+            </>,
+        extras:
+            <>
+                <span className="d-block text-right"><CustomInnerLink path="/" text="Podcast" className="bgColorMint" /></span>
+            </>
+    },
+    {
+        path: 'to-nie-ma-znaczenia',
+        seoText: 'Planowanie ślubu i wesela jest ekscytujące. Możesz przecież jasno określić, jak ma wyglądać Twój wielki dzień! Co więcej, dbasz o najdrobniejsze detale, by był dokładnie taki, jak sobie wymarzyłaś! To nic dziwnego, że każda Panna Młoda nie może się doczekać TEGO WIELKIEGO DNIA. Ale, ale... planowanie ślubu to nie tylk...',
+        title: 'To nie ma znaczenia!',
+        date: '3 mar 2020',
+        textShort: 'Planowanie ślubu i wesela jest ekscytujące. Możesz przecież jasno określić, jak ma wyglądać Twój wielki dzień! Co więcej, dbasz o najdrobniejsze detale, by był dokładnie taki, jak...',
+        mainPic: {
+            src: require('./BlogPics/Post20/post20.jpg').default
+        },
+        textMain: 'Planowanie ślubu i wesela jest ekscytujące. Możesz przecież jasno określić, jak ma wyglądać Twój wielki dzień! Co więcej, dbasz o najdrobniejsze detale, by był dokładnie taki, jak sobie wymarzyłaś! To nic dziwnego, że każda Panna Młoda nie może się doczekać TEGO WIELKIEGO DNIA.',
+        topPic: {
+            src: require('./BlogPics/Post20/post20.jpg').default
+        },
+        content: [
+            {
+                text: 'Ale, ale... planowanie ślubu to nie tylko czas ekscytacji i radości, ale też stres i obawa, czy wszystko będzie tak idealne, jak sobie wymarzyłaś. To naturalne, że martwisz się, czy Twoi bliscy będą mogli być w tym dniu z Wami albo, czy każdy wykonawca dotrze na czas. Są jednak sprawy, którymi nie powinnaś się zadręczać, bo ani nie masz na nie wpływu, a też z perspektywy doświadczonej wedding plannerki zdradzę Ci, że nie mają one znaczenia.'
+            },
+            {
+                headerSmall: <span className="mint">Czy perfekcyjnie zatańczysz pierwszy taniec?</span>,
+                text: 'O ile nie potkniesz i nie przewrócisz się na środku sali, to uwierz mi – wszystkie kroki nie muszą być perfekcyjne. Jasne, ciekawy układ i płynność ruchów mają znaczenie – dlatego pomysł kursów, czy indywidualnych lekcji jest jak najbardziej trafiony. Jednak jeśli coś pójdzie niedokładnie tak, jak miało być w scenariuszu, nie oznacza to końca świata. Twoi goście, o ile nie są zawodowymi tancerzami, mogą nawet niczego nie zauważyć!',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post20/post20a.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: <span className="mint">Czy wesele przebiegnie zgodnie z harmonogramem?</span>,
+                text: 'Hej, to wesele, a nie konferencja naukowa! Harmonogram, czy plan zabawy jest oczywiście potrzebny i mile widziany, jednak daruj sobie spełnianie kolejnych podpunktów z zegarmistrzowską precyzją! Jeśli goście świetnie się bawią, nie przerywaj im, by zjedli piąty gorący posiłek. Jeśli podasz go pół godziny później – naprawdę nic się nie stanie! Doświadczony DJ, wodzirej lub zespół w połączeniu z ogarniętym menedżerem sali, będą umieli odpowiednio dostosować Twój harmonogram do faktycznego przebiegu wesela.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post20/post20b.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: <span className="mint">Czy wystarczy jedzenia i alkoholu?</span>,
+                text: 'Wystarczy. Jeszcze sporo Ci zostanie. Uwierz mi, nie słyszałam nigdy o weselu, na którym zabrakło jedzenia i alkoholu.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post20/post20c.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: <span className="mint">Ile schudniesz do dnia ślubu?</span>,
+                text: 'Dieta, ćwiczenia i Bóg wie co jeszcze. Wszystko po to, by do godziny zero zgubić te cholerne 5 kilogramów. Uwierz mi – koniec końców nikt nie zwróci na to uwagi. Nie jestem fanką drakońskich diet i odchudzania się „na okazję”. Na zdjęciach ślubnych pięknie wyjdziesz niezależnie od tego, czy uda Ci się osiągnąć określoną wagę, czy nie. Planowanie Twojego ślubu ma być przyjemnością, a nie udręką!',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post20/post20d.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: <span className="mint">Czy będzie padał deszcz?</span>,
+                text: 'Na pogodę nie masz wpływu – pogódź się z tym i miej plan B – na wypadek deszczu. Wierz mi: nawet największa ulewa nie jest w stanie zrujnować Twojego najpiękniejszego w życiu dnia! Co nie znaczy, żebyś podchodziła do tematu lekceważąco – „jakoś to będzie”. Będzie – jeśli się przygotujesz!',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post20/post20e.jpg').default
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        path: 'kameralne-wesele-czy-huczne',
+        seoTitle: 'Czy kameralne wesele jest dużo tańsze od dużego? – Czary Marry',
+        seoText: 'Czy decydując się na organizację kameralnego wesela, można liczyć na duże oszczędności? Na naszym bloku obalamy mity o kosztach małego wesela!',
+        date: '22 lut 2020',
+        edited: '26 sie 2020',
+        title: 'Dlaczego kameralne wesele nie jest dużo tańsze od dużego?',
+        textShort: 'Od zawsze marzyliście o małym weselu dla najbliższych? A może było to podyktowane ograniczeniami budżetowymi? Tak czy siak, zanim zabierzecie się...',
+        mainPic: {
+            src: require('./BlogPics/Post19/post19.jpg').default
+        },
+        textMain:
+            <>
+                Od zawsze marzyliście o małym weselu dla najbliższych? A może było to podyktowane ograniczeniami budżetowymi? Tak czy siak, zanim zabierzecie się na dobre za organizację Waszego rodzinnego przyjęcia weselnego, musicie wiedzieć o kilku rzeczach. Na początku powinniśmy określić, czym tak naprawdę jest <span className="bold bgGreyLight">kameralne wesele.</span> Ilu gości bawi się na małym weselu? Zapewne dla jednych będzie to 10 dla innych 30 os. Na potrzeby tego artykułu przyjmijmy, że planujemy wesele do 50 osób.
+            </>,
+        topPic: {
+            src: require('./BlogPics/Post19/post19a.jpg').default
+        },
+        content: [
+            {
+                headerSmall: 'Gdzie zorganizować małe wesele?',
+                text:
+                    <>
+                        Tu mogą się pojawić pierwsze problemy. Większość właścicieli sal weselnych ustala minimalną ilość gości. Zazwyczaj jest to więcej niż 50 osób. Jeżeli nie spełnicie tych wymagań, prawdopodobnie będziecie musieli dopłacać za puste talerzyki lub sala weselna odmówi organizacji kameralnego wesela. W takiej sytuacji o oszczędnościach nie ma mowy. Inną możliwością jest wybór miejsca, w którym na co dzień nie odbywają się wesela. To z kolei często rodzi problemy innej natury. W przypadku takiego <span className="bold bgGreyLight">miejsce na kameralne wesele</span> trzeba będzie od podstaw stworzyć menu, być może pomyśleć o obrusach, serwetkach, odpowiedniej zastawie. Wizja kameralnego wesela w urokliwym pensjonacie brzmi wydaje się cudowna, ale organizacja przyjęcia w miejscu nieprzystosowanym do tego typu przyjęć zawsze jest dużym wyzwaniem. Czy w takim lokalu jest odpowiednio dużo miejsca na przechowywanie jedzenia i alkoholu? Czy pracuje tam wykwalifikowana obsługa kelnerska? Różne komplikacje w organizacji kameralnego wesela w miejscu do tego nieprzystosowanym mogą pojawić się na każdym etapie – od planowania po rozliczenie się z urządzonego przyjęcia weselnego, gdy goście rozjadą się już do domów. Może się okazać, że cena małego wesela organizowanego w miejscu, w którym dotychczas wesel nie organizowano, będzie znacznie wyższa niż w typowej <span className="bold bgGreyLight">sali weselnej</span>.
+                    </>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post19/post19b.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: 'Organizacja kameralnego wesela – koszty fotografa, DJ’a i wedding plannera',
+                text:
+                    <>
+                        Jeżeli rozważacie organizację tradycyjnego polskiego wesela, a nie uroczystego obiadu czy kolacji, to prawdopodobnie będziecie potrzebować takich samych elementów, jak przy weselu na 200 osób. Mamy tu na głównie fotografa, DJ-a, może kamerzystę. Koszty ich usług nie będą się różnić, bo będą musieli wykonać dokładnie tę samą pracę, jak w przypadku kameralnego wesela na 30 osob. Również pomoc <Link className="bgColorLight" to={URLS.HOME}>wedding plannera</Link> przy kameralnym weselu będzie kosztować tyle samo, ile kosztuje przy organizacji hucznego wesela. Przy kompleksowej pomocy zakres pracy konsultanta ślubnego będzie dokładnie taki sam jak przypadku dużego wesela. Wierzcie nam lub nie, ale najcięższym i najbardziej wymagającym w organizacji przyjęciem w naszej karierze było wesele w stylu slow, organizowane dla 16 osób. Innymi stałymi wydatkami będą opłaty urzędowe, kościelne, Wasze stroje, samochód do ślubu i obrączki. Może się więc okazać, że przy rozważaniach: wesele kameralne czy huczne, koszta będą bardzo porównywalne.
+                    </>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post19/post19c.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: 'Kameralne wesele – na czym można zaoszczędzić?',
+                text:
+                    <>
+                        Oczywiście, jeśli zdecydujecie się na organizację intymnego ślubu i wesela, pewne elementy będą kosztować nieco mniej. O ile nie poszaleje się za bardzo z dekoracją, to oszczędnością może być florystyka. Będziecie mieć do zaaranżowania mniejszą przestrzeń, mniejszą ilość stołów. Oczywiście słyszałyśmy już o weselach dla 20 osób i 5 tirach kwiatów jadących z Holandii, ale skupiamy się tu na dekoracjach mających podkreślić charakter kameralnego przyjęcia weselnego. <br />
+                    Kolejna sprawa to papeteria. Tu też zdarzają się wyjątki, bo część firm drukuje zaproszenia od 20 lub 30 sztuk, mimo to biorąc pod uwagę ilość winietek, brak <CustomInnerLink path="rozmieszczenie-gosci-weselnych" text="planu ustawienia stołów" target="_blank" /> i tak powinniście zaoszczędzić. Również noclegi, transport i logistyka daje duże pole do popisu w kwestii zminimalizowania budżetu weselnego.
+                    </>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post19/post19d.jpg').default
+                    }
+                ]
+            },
+            {
+                text: 'Może się wydawać, że kameralne wesele jest czym, za czym nie przepadamy i chcemy Was do niego zniechęcić. Jest wprost przeciwnie. Uwielbiamy intymne śluby, za rodzinną atmosferę i niesamowity klimat. Chciałybyśmy po prostu uświadomić Was, na jakie problemy możecie natrafić i jakie pułapki czyhają na Pary Młode, które liczą na znacznie mniejsze koszty przy organizacji wesela do 50 osób. "Czasami mniej znaczy więcej" i chociaż powiedzenie nie do końca wydaje się adekwatne do podjętego tematu to jednak sporo w nim prawdy. Czy kameralne wesele czy huczne, polecamy się do organizacji Waszego przyjęcia. Wszelkie kłopoty i zmartwienia przeniesiemy na swoje barki.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post19/post19e.jpg').default
+                    }
+                ]
+            }
+        ]
+    },
+    {
         path: '2-hey-wedding-angie-i-jej-trzy-śluby',
         seoText: 'Dziś porozmawiamy z Angie o jej kameralnym weselu w stylu slow organizowanym w Polsce oraz wielkim hinduskim weselu i tradycjach z nim związanych.',
         tag: 'podcast',
@@ -16,15 +235,17 @@ const posts = [
         mainPic: {
             src: require('./BlogPics/podcast.png').default
         },
-        textMain: 'Dziś porozmawiamy z Angie o jej kameralnym weselu w stylu slow organizowanym w Polsce oraz wielkim hinduskim weselu i tradycjach z nim związanych.',
-        links:
-        <>
-            <iframe title="#2 Hey Wedding - Angie i jej trzy śluby." height="122" width="100%" style={{border: "none"}} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/media/player/2gzp7-d37e74?from=pb6admin&download=1&version=1&auto=0&share=1&download=1&rtl=0&fonts=Helvetica&skin=1&pfauth=&btn-skin=107"></iframe>
+        textMain: <>
+            Dziś porozmawiamy z Angie o jej <span className="bold bgMintLight">kameralnym weselu w stylu slow</span> organizowanym w Polsce oraz wielkim hinduskim weselu i tradycjach z nim związanych.
         </>,
+        links:
+            <>
+                <iframe title="#2 Hey Wedding - Angie i jej trzy śluby." height="122" width="100%" style={{ border: "none" }} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/media/player/2gzp7-d37e74?from=pb6admin&download=1&version=1&auto=0&share=1&download=1&rtl=0&fonts=Helvetica&skin=1&pfauth=&btn-skin=107"></iframe>
+            </>,
         extras:
-        <>
-            <span className="d-block text-right"><CustomInnerLink path="/" text="Podcast" className="bgColorMint" /></span>
-        </>
+            <>
+                <span className="d-block text-right"><CustomInnerLink path="/" text="Podcast" className="bgColorMint" /></span>
+            </>
     },
     {
         path: '1-hey-wedding-kasia-i-marcin',
@@ -37,15 +258,17 @@ const posts = [
         mainPic: {
             src: require('./BlogPics/podcast.png').default
         },
-        textMain: 'Posłuchajcie naszego podcastu - Hey Wedding! W pierwszym odcinku rozmawiamy z jedną z naszych par. Kasia i Marcin mieli piękne wesele w Przystani Między Deskami.',
-        links:
-        <>
-            <iframe title="#1 Hey Wedding - Cytrynowe emocje Kasi i Marcina" height="122" width="100%" style={{border: "none"}} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/media/player/c7m3w-cf77a8?from=pb6admin&download=1&version=1&auto=0&share=1&download=1&rtl=0&fonts=Helvetica&skin=1&pfauth=&btn-skin=107"></iframe>
+        textMain: <>
+        Posłuchajcie naszego podcastu - <span className="bold bgMintLight">Hey Wedding!</span> W pierwszym odcinku rozmawiamy z jedną z naszych par. <span className="bold bgMintLight">Kasia i Marcin</span> mieli piękne wesele w Przystani Między Deskami.
         </>,
+        links:
+            <>
+                <iframe title="#1 Hey Wedding - Cytrynowe emocje Kasi i Marcina" height="122" width="100%" style={{ border: "none" }} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/media/player/c7m3w-cf77a8?from=pb6admin&download=1&version=1&auto=0&share=1&download=1&rtl=0&fonts=Helvetica&skin=1&pfauth=&btn-skin=107"></iframe>
+            </>,
         extras:
-        <>
-            <span className="d-block text-right"><CustomInnerLink path="/" text="Podcast" className="bgColorMint" /></span>
-        </>
+            <>
+                <span className="d-block text-right"><CustomInnerLink path="/" text="Podcast" className="bgColorMint" /></span>
+            </>
     },
     {
         path: 'mała-rzecz-a-ucieszy',
@@ -63,8 +286,8 @@ const posts = [
             {
                 text:
                     <>
-                        <p><span className="pink bold">ZEGAREK</span><br />
-                    Mało kto go teraz używa. Tymczasem zegarek u pana młodego (czy chociażby świadka) to gadżet na wagę złota. Mało eleganckie jest zerkanie co chwilę na wyświetlacz telefonu – stąd tradycyjny sposób sprawdzenia godziny powinien w Twoim wielkim dniu jednak dominować.</p>
+                        <span className="pink bold">ZEGAREK</span><br />
+                    Mało kto go teraz używa. Tymczasem zegarek u pana młodego (czy chociażby świadka) to gadżet na wagę złota. Mało eleganckie jest zerkanie co chwilę na wyświetlacz telefonu – stąd tradycyjny sposób sprawdzenia godziny powinien w Twoim wielkim dniu jednak dominować.
                     </>,
                 pics: [
                     {
@@ -75,8 +298,8 @@ const posts = [
             {
                 text:
                     <>
-                        <p><span className="pink bold">PARASOL</span><br />
-                    Każdemu życzę pięknej pogody w dniu ślubu i wesela, takiej bez ani jednej kropelki deszczu. Co jeśli jednak się pojawi? Warto zabrać do ślubnego samochodu biały, elegancki parasol. W razie deszczu nie będziemy musieli ratować się kolorowym parasolem babci, który później wygląda bardzo niekorzystnie na zdjęciach ślubnych, no i uratuje fryzury oraz ślubne stroje.</p>
+                        <span className="pink bold">PARASOL</span><br />
+                    Każdemu życzę pięknej pogody w dniu ślubu i wesela, takiej bez ani jednej kropelki deszczu. Co jeśli jednak się pojawi? Warto zabrać do ślubnego samochodu biały, elegancki parasol. W razie deszczu nie będziemy musieli ratować się kolorowym parasolem babci, który później wygląda bardzo niekorzystnie na zdjęciach ślubnych, no i uratuje fryzury oraz ślubne stroje.
                     </>,
                 pics: [
                     {
@@ -87,8 +310,8 @@ const posts = [
             {
                 text:
                     <>
-                        <p><span className="pink bold">POKROWIEC NA SUKNIĘ ŚLUBNĄ</span><br />
-                    Jeśli noc poślubną spędzasz poza domem, nie chcesz chyba wracać kolejnego dnia w sukni ślubnej, ani tym bardziej, próbować upchnąć ją do reklamówki? Stąd, przydaje się pokrowiec na suknię ślubną, ewentualnie – na garnitur. Pozwala to przetransportować ślubne ubranie w dobrym stanie.</p>
+                        <span className="pink bold">POKROWIEC NA SUKNIĘ ŚLUBNĄ</span><br />
+                    Jeśli noc poślubną spędzasz poza domem, nie chcesz chyba wracać kolejnego dnia w sukni ślubnej, ani tym bardziej, próbować upchnąć ją do reklamówki? Stąd, przydaje się pokrowiec na suknię ślubną, ewentualnie – na garnitur. Pozwala to przetransportować ślubne ubranie w dobrym stanie.
                     </>,
                 pics: [
                     {
@@ -99,15 +322,15 @@ const posts = [
             {
                 text:
                     <>
-                        <p><span className="pink bold">ROLKA DO UBRAŃ</span><br />
-                    Przyda się każdemu Panu na weselu. Zwłaszcza jeśli na garnitur włoży płaszcz.</p>
+                        <span className="pink bold">ROLKA DO UBRAŃ</span><br />
+                    Przyda się każdemu Panu na weselu. Zwłaszcza jeśli na garnitur włoży płaszcz.
                     </>
             },
             {
                 text:
                     <>
-                        <p><span className="pink bold">KOCE</span><br />
-                    Coraz częściej przenosimy nasze śluby i wesela na świeże powietrze. Organizujemy dla gości strefy relaksu z wygodnymi kanapami, planujemy atrakcję, która wieczorem będzie wymagała wyjścia na zewnątrz lub po prostu wybieramy salę z pięknym ogrodem, który, aż kusi do spędzenia chwili czasu w nim. Zadbajmy o okrycie wierzchnie dla gości, o koce, pledy, narzuty. Chociaż sezon ślubny przypada na lato, nawet o tej porze roku wieczory bywają dość chłodne. Stąd – warto zadbać o komfort swój i gości. Gdy w południe jest prawie 30 stopni, nikt nie myśli o zabraniu czegoś cieplejszego, czym można okryć się w nocy. Tymczasem, pogoda potrafi zaskakiwać. Bycie na to przygotowanym to gwarancja udanej imprezy!</p>
+                        <span className="pink bold">KOCE</span><br />
+                    Coraz częściej przenosimy nasze śluby i wesela na świeże powietrze. Organizujemy dla gości strefy relaksu z wygodnymi kanapami, planujemy atrakcję, która wieczorem będzie wymagała wyjścia na zewnątrz lub po prostu wybieramy salę z pięknym ogrodem, który, aż kusi do spędzenia chwili czasu w nim. Zadbajmy o okrycie wierzchnie dla gości, o koce, pledy, narzuty. Chociaż sezon ślubny przypada na lato, nawet o tej porze roku wieczory bywają dość chłodne. Stąd – warto zadbać o komfort swój i gości. Gdy w południe jest prawie 30 stopni, nikt nie myśli o zabraniu czegoś cieplejszego, czym można okryć się w nocy. Tymczasem, pogoda potrafi zaskakiwać. Bycie na to przygotowanym to gwarancja udanej imprezy!
                     </>,
                 pics: [
                     {
@@ -732,7 +955,7 @@ const posts = [
         },
         textMain:
             <>
-                <b>Rozsadzenie gości weselnych</b> przy stołach to sprawa na pozór prosta, ale nasze doświadczenia w <Link to={URLS.HOME} className="bgColor">agencji ślubnej Czary Marry</Link> są najlepszym dowodem na to, że może przysporzyć masę problemów, a dla Pary Młodej jest sporym wyzwaniem. Wbrew pozorom konsekwencje nieprzemyślanego rozsadzenia gości na weselu mogą być bardzo dotkliwe. Począwszy od poczucia pominięcia i niezadowolenia po zaognienie rodzinnych sporów i weselne pranie brudów. Dziś zdradzimy Wam jak poradzić sobie z kłopotliwym tematem i sprawić, że <b>rozmieszczenie gości weselnych</b> przy stołach zajmie Wam dosłownie chwilę.
+                <span className="bold bgPinkLight">Rozsadzenie gości weselnych</span> przy stołach to sprawa na pozór prosta, ale nasze doświadczenia w <Link to={URLS.HOME} className="CustomLink">agencji ślubnej Czary Marry</Link> są najlepszym dowodem na to, że może przysporzyć masę problemów, a dla Pary Młodej jest sporym wyzwaniem. Wbrew pozorom konsekwencje nieprzemyślanego rozsadzenia gości na weselu mogą być bardzo dotkliwe. Począwszy od poczucia pominięcia i niezadowolenia po zaognienie rodzinnych sporów i weselne pranie brudów. Dziś zdradzimy Wam jak poradzić sobie z kłopotliwym tematem i sprawić, że <span className="bold bgPinkLight">rozmieszczenie gości weselnych</span> przy stołach zajmie Wam dosłownie chwilę.
             </>,
         content: [
             {
