@@ -6,6 +6,95 @@ import URLS from './urls'
 
 const posts = [
     {
+        path: 'polecany-fotograf-kamerzysta-sala-dj-zespol-na-wesele',
+        seoTitle: 'Tani i polecany zespół na wesele? O cenach za usługi w branży ślubnej wg Czary Marry',
+        seoText: 'Dlaczego nie warto organizować wesela w najtańszych salach weselach i korzystać z najtańszych usług w branży weselnej – i nie tylko?',
+        title: 'Tani i polecany zespół na wesele – czyli o cenach za usługi w branży ślubnej',
+        date: '7 kwi 2020',
+        textShort: 'To jedno z częściej pojawiających się zwrotów na forach i grupach ślubnych. Dziś postanowiłyśmy się z nim rozprawić! Oczywiście mamy świadomość, że...',
+        mainPic: {
+            src: require('./BlogPics/Post22/post22.jpg').default
+        },
+        textMain: 'To jedno z częściej pojawiających się zwrotów na forach i grupach ślubnych. Dziś postanowiłyśmy się z nim rozprawić! Oczywiście mamy świadomość, że nie zawsze cena idzie w parze z jakością, ale najczęściej właśnie tak jest. Nie dotyczy to wyłącznie branży ślubnej, ale niemal każdej dziedziny życia. Weźmy na przykład samochody. Nieważne, czy udasz się do salonu Mercedesa i wybierzesz najnowszą S klasę, czy kupisz w komisie starą Audicę od Niemca, który płakał, jak sprzedawał – tak czy siak jest to środek transportu. Obydwoma samochodami da się jeździć, ale możesz się spodziewać większego komfortu jazdy, bezpieczeństwa, niezawodności i luksusu po nowiutkim Mercedesie. Podobnie ma się sytuacja w zakresie rekomendowanych usługodawców ślubnych. Jeśli zależy Ci na jakości jakiejkolwiek usługi lub jakiegokolwiek produktu, raczej nie powinieneś brać pod uwagę najtańszych opcji.',
+        topPic: {
+            src: require('./BlogPics/Post22/post22.jpg').default
+        },
+        content: [
+            {
+                headerSmall: 'Najlepsza sala weselna a sala niskobudżetowa – na czym oszczędzają właściciele tanich sal weselnych?',
+                text:
+                    <>
+                        <p>Przede wszystkim na jakości — jedzenia, obsługi, wystroju. Jaki to ma realny wpływ na wygląd twojego Wesela? Zwykle możesz się spodziewać mało wyszukanego jedzenia, które nie cieszy ani oka, ani żołądka. Stół zapewne będzie się uginał od ilości potraw, ale przecież nie chodzi o ilość, a o jakość. Czy nie fajniej byłoby posmakować regionalnych produktów, sezonowych warzyw? A może wolicie, gdy szef kuchni przygotuje coś, co zaskoczy zarówno Was, jak i Waszych gości? Kto świadomie się odżywia i robi zakupy, wie, że dobre jedzenie nie jest tanie, a w fast foodach nie pracują master chefowie tylko studenci.</p>
+                        <p>Nikt nie lubi wolnych i wiecznie niezadowolonych kelnerów, tak samo, jak nikt nie lubi, kiedy się go oblewa rosołem podczas serwisu obiadu. Jeśli wybieracie salę, w której cena za talerzyk jest bardzo niska, musicie mieć świadomość, że prawdopodobnie właściciele nie płacą zbyt wiele obsłudze. Gdzieś te oszczędności muszą znaleźć. Nie stać ich na super kucharza i wyszkolonych kelnerów. Biznes zwyczajnie by się nie spinał. Oczywiście ogromne znaczenie ma również sam manager lub właściciel. Z doświadczenia wiem, że Pary Młode oczekują od nich otwartości i elastyczności. Czy wierzycie w to, że właściciel sali, który musi zorganizować dużo więcej wesel w roku, żeby zarobić, ma czas na śledzenie trendów, na poszerzanie horyzontów? Raczej nie. Jego odpowiedź na większość Waszych pytań będzie brzmiała: Nieee, robimy tak od 20 lat i się sprawdza… Istnieje też szansa, że na pierwszym spotkaniu zgodzą się na wszystko, a potem zapomną. Często tworzą umowy sami lub ściągają je z Internetu w przeciwieństwie do droższych miejsc, które współpracują z prawnikiem. Nietrudno się domyślić, że taka umowa jest mało konkretna i nie chroni Was w żadnym stopniu. Pamiętaj również, że zakup działki oraz budowa odpowiedniego obiektu każdemu właścicielowi sali weselnej musi się zwrócić – im piękniejsze okolice, im ciekawsza architektura, tym atmosfera na weselu lepsza.</p>
+                        <p>Wysoka cena za talerzyk nie jest gwarancją udanego przyjęcia weselnego, zdecydowanie jednak zwiększa szansę na udane wesele. Nie bez przyczyny terminy w dobrych salach weselnych są tak odległe – za jakość trzeba więcej zapłacić, a najlepszą salę weselną w okolicy trochę poczekać.</p>
+                        <span className="bold bgDarkLight">No to teraz inni wykonawcy...</span>
+                    </>,
+            },
+            {
+                headerSmall: 'Polecany fotograf ślubny, kamerzysta na ślub i inni polecani usługodawcy ślubni',
+                text: 'Na forach, na portalach ślubnych, a także w naszych mailach znaleźć można wiele pytań o najlepszego fotografa ślubnego, o najlepszą fryzjerkę czy o innych polecanych usługodawców ślubnych.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post22/post22a.jpg').default
+                    }
+                ]
+            },
+            {
+                text:
+                <>
+                Tani fotograf lub filmowiec może być teoretycznie tak samo uzdolniony, jak drogi, może mieć równie duży zapał do pracy… ale czy dysponuje tym samym sprzętem, oprogramowaniem do obróbki materiału, czy ma nieograniczony dostęp do muzyki, doskonali swoje umiejętności na dość drogich szkoleniach dla profesjonalistów, czy inwestuje w bezpieczeństwo? Również i on musi zrealizować więcej zleceń, a czas oddania Waszego materiału się oddala i oddala. <span className="bold bgDarkLight">Dobry fotograf ślubny</span> ma odpowiedni warsztat i sprzęt, by oddać Wam piękne zdjęcia ślubne. Ma też wystarczająco czasu, by poświecić go dużo na każde zlecenie. Rekomendowani przez nas fotografowie ślubni oraz kamerzyści na wesele będą mieli prawdopodobnie wyższe stawki niż średnia, ale macie gwarancje że to będzie dobry fotograf na wesele i profesjonalista w każdym calu.
+                </>
+            },
+            {
+                headerSmall: 'Polecany zespół na wesele czy DJ',
+                text:
+                <>
+                <p>Branżowe opowieści o sprzęcie wśród filmowców, fotografów, zespołów weselnych i DJ-ów nie mają końca. U tych ostatnich nie liczy się wyłącznie jakość i moc, ale i wygląd. Światła, stanowisko Dj-skie, zaufajcie mi, te rzeczy sporo kosztują. Potrzebny jest też duży bus, żeby to wszystko przetransportować. Oczywiście to nie sprzęt świadczy o umiejętnościach prowadzenia imprezy. Wiecie jaki jest podstawowy grzech zespołów weselnych DJ-ów z dolnej półki? Disco Polo! Wiem, że jedni je lubią, a drudzy nie... Nie będziemy się o to spierać, czy można zrobić wesele bez tego gatunku muzycznego, ale z moich obserwacji wynika, że gdy DJ-owi brakuje umiejętności, ratuje się Disco Polo. Chwyta się go jak tonący brzytwy, a my musimy patrzeć na tę katastrofę i brać w niej udział. Na ratunek jest już za późno. Najlepszy zespół weselny czy dobry dj na wesele na pewno dostosuje repertuar nie tylko do najnowszych trendów ale i Waszych gustów.</p>
+                <p>Załóżmy, że zespół weselny kosztuje 3 tys. zł (w opcji niskobudżetowej). Średnia ilość osób w zespole to 4. Zespół podczas wesela gra średnio około 10h. Wychodzi nam stawka około 75 zł/h dla jednej osoby. Ale! Nie zapominajmy o kosztach dojazdu, busie, którym owa kapela do Was dojedzie, czasami trzeba zapłacić kierowcy. No i te cholerne podatki! Śpiewanie i granie na instrumentach przez 10h to bardzo ciężka praca. Nauka gry na instrumencie to lata ćwiczeń, potu i krwi. Coś się tu nie zgadza… Coś niska ta stawka, a wiadomo muzycy to artyści i dobrze się cenią. Muzyk grający na ceremonii ślubu cywilnego to koszt około 300-500 zł. Ceremonia wraz z życzeniami to niecała godzina. Dalsze wnioski nasuwają się same. W dobrym zespole muzycznym grają osoby, które oprócz wysokich kwalifikacji, po prostu lubią tę pracę. Znajomość muzyki polskiej i światowej, umiejętność dostosowania muzyki do danej chwili tak, by wszyscy dobrze się bawili ratuje niejedno wesele. Dlatego tak chętnie polecany zespół na wesele przez znajomych czy <Link className="bgColorDark" to={URLS.HOME}>wedding plannerów</Link> liczy sobie odpowiednio więcej.</p>
+                </>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post22/post22b.jpg').default
+                    }
+                ]
+            },
+            {
+                text:
+                <>
+                <p>Wróćmy na chwilę do motoryzacyjnego przykładu ze wstępu. Jakie są szanse, że Audica z Niemiec nie okaże się powypadkowym gratem, że właściciel dbał o nią i włożył całe serce, żeby służyła Wam jak najlepiej? Jedno jest pewne, kupując nowe auto z salonu bez względu, czy będzie to prestiżowy Mercedes, solidna japońska Toyota czy poczciwa Skoda, posłuży Wam przez parę ładnych lat, a w przypadku awarii macie gwarancję i wsparcie od dealera. </p>
+                <p>Trochę zbagatelizowałyśmy sprawę doświadczenia zawodowego, a przecież powinno mieć ogromny wpływ na cenę polecanych usługodawców ślubnych. Nie najlepiej wpisuje się w mój motoryzacyjny przykład, ale pamiętajcie - ma ogromne znaczenie. Im więcej przepracowanych scenariuszy, zorganizowanych lub poprowadzonych imprez, tym lepiej. <br/>
+                Nie zapominajcie o tym :)</p>
+                <p>Wiadomo, że zazwyczaj poszukujecie najlepszych usługodawców ślubnych. My chętnie pomożemy Wam z wyborem. Polecani przez nas DJe, zespóły, fotografowie itd. mają bardzo dobre opinie i rekomendacje w branży ślubnej. Dodatkowo w kwestii wyboru sali, fotografa czy kamerzysty zawsze podchodzimy bardzo indywidualnie do sprawy, starając się dobrać obsługę tak, by była w Waszym guście.</p>
+                </>
+            }
+        ]
+
+    },
+    {
+        path: '4-hey-wedding-wesele-w-czasie-zarazy',
+        seoText: 'W dzisiejszym odcinku rozmawiamy z Kingą, radcą prawym, współautorką bloga https://slubnepotyczkiprawne.pl  Podkast jest adresowany zarówno do par młodych jak i branży ślubnej. Znajdziecie tu informacje o wpływie koronawirusa na organizację ślubów i wesel, dowiecie się, czym jest siła wyższa i do jakich kroków uprawn...',
+        title: '#4 Hey Wedding - Wesele w czasie zarazy',
+        tag: 'podcast',
+        date: '26 mar 2020',
+        edited: '1 wrz 2020',
+        textShort: 'W dzisiejszym odcinku rozmawiamy z Kingą - radcą prawym, współautorką bloga ŚlubnePotyczkiPrawne.pl. Podcast jest adresowany zarówno do par młodych jak i...',
+        mainPic: {
+            src: require('./BlogPics/podcast.png').default
+        },
+        textMain:
+            <>
+                W dzisiejszym odcinku rozmawiamy z <span className="bold bgMintLight">Kingą</span> - radcą prawym, współautorką bloga <CustomOuterLink className="bgColorMint" text="Ślubne Potyczki Prawne" to="https://slubnepotyczkiprawne.pl" />. Podcast jest adresowany zarówno do par młodych jak i branży ślubnej. Znajdziecie tu informacje o wpływie koronawirusa na organizację ślubów i wesel, dowiecie się, czym jest siła wyższa i do jakich kroków uprawnia dwie strony umowy, co z zadatkami i przekładaniem uroczystości. To wszystko poparte przepisami prawa.
+            </>,
+        links:
+            <>
+                <iframe title="#4 Hey Wedding - Wesele w czasie zarazy" height="122" width="100%" style={{ border: "none" }} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/media/player/rxzc8-d786c2?from=pb6admin&download=1&version=1&auto=0&share=1&download=1&rtl=0&fonts=Helvetica&skin=1&pfauth=&btn-skin=107"></iframe>
+            </>,
+        extras:
+            <>
+                <span className="d-block text-right"><CustomInnerLink path="/" text="Podcast" className="bgColorMint" /></span>
+            </>
+    },
+    {
         path: 'trendy-slubne',
         seoText: 'Dlaczego trendy ślubne powinny być inspiracją, a nie wykładnia podczas planowania ślubu i wesela?',
         title: 'Trendy ślubne – dlaczego nie zawsze warto się nimi kierować?',
@@ -16,9 +105,9 @@ const posts = [
             src: require('./BlogPics/Post21/post21.jpg').default
         },
         textMain:
-        <>
-            Co roku portale i blogi ślubne prześcigają się w ilości artykułów na temat <span className="bold bgGreyLight">trendów ślubnych</span>. Zasypują Cię informacjami o kolorze roku, najnowszych fasonach sukni, czy top makijażach. Warto przejrzeć najnowsze inspiracje ślubne, zachwycić się pięknymi zdjęciami, a następnie zapomnieć o tym wszystkim. Planując swój ślub i wesele przede wszystkim, myślcie o sobie, o tym, co Wy lubicie i w czym się dobrze czujecie. Na nic Wam podążanie za trendami ślubnymi, jeśli ich nie czujecie. Zerknijcie na naszą listę spraw, gdzie nie powinniście sugerować się tym, co jest modne i dajcie znać, czy myślicie podobnie.
-        </>,
+            <>
+                Co roku portale i blogi ślubne prześcigają się w ilości artykułów na temat <span className="bold bgGreyLight">trendów ślubnych</span>. Zasypują Cię informacjami o kolorze roku, najnowszych fasonach sukni, czy top makijażach. Warto przejrzeć najnowsze inspiracje ślubne, zachwycić się pięknymi zdjęciami, a następnie zapomnieć o tym wszystkim. Planując swój ślub i wesele przede wszystkim, myślcie o sobie, o tym, co Wy lubicie i w czym się dobrze czujecie. Na nic Wam podążanie za trendami ślubnymi, jeśli ich nie czujecie. Zerknijcie na naszą listę spraw, gdzie nie powinniście sugerować się tym, co jest modne i dajcie znać, czy myślicie podobnie.
+            </>,
         topPic: {
             src: require('./BlogPics/Post21/post21.jpg').default
         },
@@ -35,9 +124,9 @@ const posts = [
             {
                 headerSmall: 'Trendy ślubne – dekoracje sali weselnej, samochodu i kościoła',
                 text:
-                <>
-                    Co roku PANTONE wybiera kolor roku. W 2020 trafiło na dusty blue. Zaraz po jego ogłoszeniu każdy, ale to każdy z branży ślubnej prześciga się w inspiracjach dekoracyjnych w „świętym” kolorze by stworzyć trendy motyw przewodni wesela. Pytanie: po co? Kolory, jakie pojawią się na Waszym weselu, nie powinny być dyktowane trendami ślubnymi, a wieloma innymi czynnikami. Pomijam już aspekt Waszego gustu, ale trzeba też pomyśleć o dostosowaniu koloru przewodniego wesela do sali weselnej, pory roku czy dostępności kwiatów w hurtowni. Obecnie trendującym kolorem przewodnim jest <CustomInnerLink className="bgColorLight" path="zamek-ksiaz-wesele-motyw-gold-rose" text="motyw Rose Gold" target="_blank" />, lecz nie oznacza to, że sprawdzi się on na każdym ślubie czy weselu. Trendy ślubne 2020/2021 mogą być Waszą inspiracją, ale zdecydowanie nie powinny być Waszą wykładnią.
-                </>,
+                    <>
+                        Co roku PANTONE wybiera kolor roku. W 2020 trafiło na dusty blue. Zaraz po jego ogłoszeniu każdy, ale to każdy z branży ślubnej prześciga się w inspiracjach dekoracyjnych w „świętym” kolorze by stworzyć trendy motyw przewodni wesela. Pytanie: po co? Kolory, jakie pojawią się na Waszym weselu, nie powinny być dyktowane trendami ślubnymi, a wieloma innymi czynnikami. Pomijam już aspekt Waszego gustu, ale trzeba też pomyśleć o dostosowaniu koloru przewodniego wesela do sali weselnej, pory roku czy dostępności kwiatów w hurtowni. Obecnie trendującym kolorem przewodnim jest <CustomInnerLink className="bgColorLight" path="zamek-ksiaz-wesele-motyw-gold-rose" text="motyw Rose Gold" target="_blank" />, lecz nie oznacza to, że sprawdzi się on na każdym ślubie czy weselu. Trendy ślubne 2020/2021 mogą być Waszą inspiracją, ale zdecydowanie nie powinny być Waszą wykładnią.
+                    </>,
                 pics: [
                     {
                         src: require('./BlogPics/Post21/post21b.jpg').default
@@ -47,9 +136,9 @@ const posts = [
             {
                 headerSmall: 'Trendy ślubne w makijażu i fryzurach ślubnych',
                 text:
-                <>
-                    Tu znowu powtórzę to, co w pierwszym punkcie. W tym ważnym dniu <span className="bold bgGreyLight">masz się czuć dobrze i naturalnie</span>. Nie podążaj ślepo za trendami, a wybierz z nich to co pasuje, do Twojego stylu i wyglądu. Planując swój make-up i fryzurę zdaj się dobrą stylistkę, która dopasuje fryzurę i makijaż do Ciebie. Pomyśli o rodzaju Twoich włosów, czy kształcie twarzy. Spowoduje, że będziesz piękną Panna Młodą, a nie przemalowaną lalką z trendy makijażem ślubnym.
-                </>,
+                    <>
+                        Tu znowu powtórzę to, co w pierwszym punkcie. W tym ważnym dniu <span className="bold bgGreyLight">masz się czuć dobrze i naturalnie</span>. Nie podążaj ślepo za trendami, a wybierz z nich to co pasuje, do Twojego stylu i wyglądu. Planując swój make-up i fryzurę zdaj się dobrą stylistkę, która dopasuje fryzurę i makijaż do Ciebie. Pomyśli o rodzaju Twoich włosów, czy kształcie twarzy. Spowoduje, że będziesz piękną Panna Młodą, a nie przemalowaną lalką z trendy makijażem ślubnym.
+                    </>,
                 pics: [
                     {
                         src: require('./BlogPics/Post21/post21c.jpg').default
@@ -59,9 +148,9 @@ const posts = [
             {
                 headerSmall: 'Piosenka ślubna na pierwszy taniec i inne trendy ślubne',
                 text:
-                <>
-                    Co roku mamy romantyczną piosenkę, która rządzi na listach przebojów i co roku Pary Młode przenoszą ją na salę weselną i tańczą przy niej swój pierwszy taniec. Z jednej strony nic w tym złego, ale czy nie fajniej wybrać utwór, który jest ponadczasowy, a przede wszystkim Wasz?! Każdy z nas ma piosenkę, która kojarzy mu się z ukochaną lub z chwilą, którą spędzili razem i to jest zdecydowanie lepszy wybór, niż hit lata 2020. Mimo wszystko nie strońcie od nowości – trendy ślubne mogą być źródłem inspiracji na wesele w Waszych stylu. Niektóre weselne trendy mogą wejść na stałe w kanony ślubne.
-                </>,
+                    <>
+                        Co roku mamy romantyczną piosenkę, która rządzi na listach przebojów i co roku Pary Młode przenoszą ją na salę weselną i tańczą przy niej swój pierwszy taniec. Z jednej strony nic w tym złego, ale czy nie fajniej wybrać utwór, który jest ponadczasowy, a przede wszystkim Wasz?! Każdy z nas ma piosenkę, która kojarzy mu się z ukochaną lub z chwilą, którą spędzili razem i to jest zdecydowanie lepszy wybór, niż hit lata 2020. Mimo wszystko nie strońcie od nowości – trendy ślubne mogą być źródłem inspiracji na wesele w Waszych stylu. Niektóre weselne trendy mogą wejść na stałe w kanony ślubne.
+                    </>,
                 pics: [
                     {
                         src: require('./BlogPics/Post21/post21d.jpg').default
@@ -87,7 +176,7 @@ const posts = [
             </>,
         links:
             <>
-                <iframe title="#3 Hey Wedding - Ciekawe przypadki DJ-a Jegomościa" height="122" width="100%" style={{border: 'none'}} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/media/player/5enrg-d6155c?from=pb6admin&download=1&version=1&auto=0&share=1&download=1&rtl=0&fonts=Helvetica&skin=1&pfauth=&btn-skin=107"></iframe>
+                <iframe title="#3 Hey Wedding - Ciekawe przypadki DJ-a Jegomościa" height="122" width="100%" style={{ border: 'none' }} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/media/player/5enrg-d6155c?from=pb6admin&download=1&version=1&auto=0&share=1&download=1&rtl=0&fonts=Helvetica&skin=1&pfauth=&btn-skin=107"></iframe>
             </>,
         extras:
             <>
@@ -259,7 +348,7 @@ const posts = [
             src: require('./BlogPics/podcast.png').default
         },
         textMain: <>
-        Posłuchajcie naszego podcastu - <span className="bold bgMintLight">Hey Wedding!</span> W pierwszym odcinku rozmawiamy z jedną z naszych par. <span className="bold bgMintLight">Kasia i Marcin</span> mieli piękne wesele w Przystani Między Deskami.
+            Posłuchajcie naszego podcastu - <span className="bold bgMintLight">Hey Wedding!</span> W pierwszym odcinku rozmawiamy z jedną z naszych par. <span className="bold bgMintLight">Kasia i Marcin</span> mieli piękne wesele w Przystani Między Deskami.
         </>,
         links:
             <>
@@ -273,7 +362,7 @@ const posts = [
     {
         path: 'mała-rzecz-a-ucieszy',
         seoText: 'Niezbędnik ślubny. Przydatne rzeczy w dniu waszego wesela.',
-        tag: 'niezbędnik',
+        tag: 'niezbędnik-przedslubny',
         title: 'MAŁA RZECZ, A UCIESZY',
         date: '10 kwi 2018',
         edited: '13 sty 2020',
