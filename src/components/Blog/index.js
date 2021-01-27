@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import ArrowToTop from '../ArrowToTop'
 import ScrollToTopOnMount from '../ScrollToTopOnMount'
 import signal from '../Icons/signal.svg'
@@ -24,7 +24,7 @@ const Blog = () => {
     const slicedPosts = posts.slice(indexOfFirstPost, indexOfLastPost)
 
     let filteredData = posts.filter(post => {
-        return post.tag && post.tag.toLowerCase() === tag? tag.toLowerCase() : true });
+        return post.tag && post.tag.toLowerCase() === tag.toLowerCase() });
 
     const slicedFiltered = filteredData.slice(indexOfFirstPost, indexOfLastPost)
     const totalFilteredPages = Math.ceil(filteredData.length /postsPerPage)

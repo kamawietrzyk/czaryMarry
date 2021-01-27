@@ -437,7 +437,7 @@ const posts = [
     {
         path: 'czy-każdy-może-zostać-wedding-plannerem',
         seoText: 'Czy każdy może zostać wedding plannerem? Pytanie na pozór banalne, chociaż odpowiedzi mogą być naprawdę różne. Teoretycznie tak, ale czy każdy ma predyspozycje do tego, aby wykonywać ten zawód z sukcesem?',
-        tag: 'niezbędnik',
+        tag: 'niezbędnik-przedslubny',
         title: 'Czy każdy może zostać wedding plannerem?',
         date: '5 lut 2018',
         edited: '8 lip 2020',
@@ -499,7 +499,7 @@ const posts = [
         path: 'przesady-slubne-zwyczaje-weselne',
         seoTitle: 'Przesądy ślubne – element, który wzbogaca naszą tradycję – Czary Marry',
         seoText: 'Oglądanie Panny Młodej przed ślubem, zakup obrączek przez Pana Młodego i inne – które przesądy ślubne znasz i kultywujesz?',
-        tag: 'niezbędnik',
+        tag: 'niezbędnik-przedslubny',
         title: 'Przesądy ślubne – nieocenione tradycje weselne czy nikomu niepotrzebne zabobony ślubne?',
         date: '8 sty 2018',
         edited: '22 gru 2020',
@@ -589,7 +589,7 @@ const posts = [
         path: 'wesele-pod-namiotem',
         seoTitle: "Wesele pod namiotem – zorganizujmy go wspólnie z agencją ślubną Czary Marry",
         seoText: 'Jak zapewnić gościom fantastyczną rozrywkę podczas wesela pod namiotem? Jakich błędów uniknąć, organizując wesele pod gołym niebem?',
-        tag: 'niezbędnik',
+        tag: 'niezbędnik-przedslubny',
         title: 'Wesele pod namiotem – o czym trzeba pamiętać przy jego organizacji?',
         date: '2 lis 2017',
         edited: '5 lis 2020',
@@ -657,7 +657,7 @@ const posts = [
     {
         path: 'coś-dla-relaksu',
         seoText: 'Organizujesz swój ślub i wesele. BRAWO! Jesteś bohaterką ! Zasługujesz na trochę odpoczynku i relaksu. Chcemy zaproponować Ci dziś trochę weselnych umilaczy w postaci książek i programów ślubnych. W końcu przygotowania do ceremonii zaczynają się na długo przed kluczowym dniem, dlatego wielu może się wydawać, że...',
-        tag: 'niezbędnik',
+        tag: 'niezbędnik-przedslubny',
         title: 'Coś dla relaksu',
         date: '16 paź 2017',
         edited: '8 lip 2020',
@@ -737,7 +737,7 @@ const posts = [
         path: 'wesele-w-plenerze',
         seoTitle: 'Jak zorganizować wesele w plenerze? radzi agencja ślubna Czary Marry',
         seoText: 'O czym trzeba pamiętać, organizując wesele w plenerze? Dlaczego warto przy tej okazji poprosić o pomoc wedding plannera? Praktyczne wskazówki i porady!',
-        tag: 'niezbędnik',
+        tag: 'niezbędnik-przedslubny',
         title: 'Jak zorganizować wesele w plenerze?',
         date: '17 sie 2017',
         edited: '18 lis 2020',
@@ -814,7 +814,7 @@ const posts = [
         path: 'jak-zaoszczedzic-na-weselu',
         seoTitle: 'Podpowiadamy, jak zaoszczędzić na weselu – Czary Marry',
         seoText: 'Szukacie sposobów, jak zaoszczędzić na weselu? W naszym artykule podpowiadamy, z czego można zrezygnować, by obniżyć koszty wesela.',
-        tag: 'niezbędnik',
+        tag: 'niezbędnik-przedslubny',
         title: 'Jak zaoszczędzić na weselu? Z czego można zrezygnować, by zmniejszyć koszty wesela?',
         date: '5 lip 2017',
         edited: '22 gru 2020',
@@ -902,7 +902,7 @@ const posts = [
     {
         path: '7-grzechów-ślubnych-na-co-uważać-przy-wyborze-wykonawców',
         seoText: 'Rynek ślubny rozwija się w niesamowitym tempie. Agencje ślubne, fotografowie, kamerzyści oraz zespoły muzyczne rosną jak grzyby po deszczu. Dziś powiem Wam jak wybrać solidnego wykonawcę spośród ofert znajdujących się na rynku. Obnażę słabostki i grzeszki „kolegów” z branży. Mam nadzieję, że poniższy artykuł pomoże...',
-        tag: 'niezbędnik',
+        tag: 'niezbędnik-przedslubny',
         title: '7 GRZECHÓW ŚLUBNYCH. Na co uważać przy wyborze wykonawców.',
         date: '9 cze 2017',
         textShort: 'Rynek ślubny rozwija się w niesamowitym tempie. Agencje ślubne, fotografowie, kamerzyści oraz zespoły muzyczne rosną jak grzyby po deszczu. Dziś powiem Wam jak wybrać...',
@@ -995,7 +995,7 @@ const posts = [
         path: 'formalnosci-po-slubie',
         seoTitle: 'Formalności po ślubie – co załatwić po ślubie? – Czary Marry',
         seoText: 'Zmiana dokumentów, informacja o zmianie nazwiska w banku to tylko niektóre z formalności, o których trzeba pamiętać po ślubie.',
-        tag: 'niezbędnik',
+        tag: 'niezbędnik-przedslubny',
         title: 'Formalności po ślubie – co warto wiedzieć?',
         date: '1 cze 2017',
         edited: '22 gru 2020',
@@ -1034,7 +1034,7 @@ const posts = [
         path: 'rozmieszczenie-gosci-weselnych',
         seoTitle: 'Plan doskonały na rozmieszczenie gości weselnych – Czary Marry',
         seoText: 'Dlaczego warto zaplanować rozmieszczenie gości weselnych? Jak rozlokować gości i jak ich poinformować, które miejsce przygotowaliśmy właśnie dla nich?',
-        tag: 'niezbędnik',
+        tag: 'niezbędnik-przedslubny',
         title: 'Rozmieszczenie gości weselnych – czy istnieje plan doskonały?',
         date: '23 maja 2017',
         edited: '26 sie 2020',
@@ -1120,7 +1120,7 @@ const posts = [
     {
         path: 'dama-mojego-serca-historia-miłości-moich-rodziców',
         seoText: 'Dziś o swoim ślubie i weselu opowie Wam moja Kochana Mama. Naszym rozmowom zawsze towarzyszą zabawne anegdoty, wzruszenia i wielki karton ze starymi fotografiami. Jako dziecko uwielbiałam je oglądać i powiem szczerze, że zupełnie nic się nie zmieniło. Mamo, opowiedz, jak poznałaś tatę? Któregoś dnia wracając z pracy...',
-        tag: 'opowieści',
+        tag: 'ślubne-opowieści-czyli-wesela-dawniej',
         title: 'Dama Mojego Serca - Historia miłości moich rodziców',
         date: '16 maja 2017',
         textShort: 'Dziś o swoim ślubie i weselu opowie Wam moja Kochana Mama. Naszym rozmowom zawsze towarzyszą zabawne anegdoty, wzruszenia i wielki karton...',
@@ -1179,7 +1179,7 @@ const posts = [
         title: 'Prezenty dla gości weselnych – pomysły na upominki dla gości',
         date: '9 maja 2017',
         edited: '26 sie 2020',
-        tag: 'niezbędnik',
+        tag: 'niezbędnik-przedslubny',
         textShort: 'Wszyscy uwielbiamy prezenty! Moda na upominki dla gości weselnych trwa w najlepsze. Młodzi przygotowują drobne prezenciki, które umieszczają...',
         mainPic: {
             src: require('./BlogPics/Post7/post7.jpg').default
@@ -1259,7 +1259,7 @@ const posts = [
         title: 'Marta i Michał i ich weselna przygoda w ogrodzie',
         seoText: 'Marta i Michał wymarzyli sobie plenerowy ślub i wesele na terenie swojego pięknego ogrodu. Ponieważ miejsce, które wybrali, było magiczne i pełne uroku, nie mogliśmy oprzeć się pokusie i nie wykorzystać tego w dekoracjach oraz ogólnej koncepcji wesela i ślubu. Ustaliliśmy, że motywem przewodnim będzie odniesienie do...',
         date: '3 maja 2017',
-        tag: 'realizacje',
+        tag: 'opowiadamy-o-naszych-realizacjach',
         textShort: 'Marta i Michał wymarzyli sobie plenerowy ślub i wesele na terenie swojego pięknego ogrodu. Ponieważ miejsce, które wybrali, było magiczne i pełne uroku, nie mogliśmy...',
         mainPic: {
             src: require('./BlogPics/Post6/post6.jpg').default
@@ -1305,7 +1305,7 @@ const posts = [
         seoText: 'Podziękowania dla rodziców - oryginalne pomysły na prezenty na ślubie i weselu.',
         date: '19 kwi 2017',
         edited: '5 lis 2020',
-        tag: 'niezbędnik',
+        tag: 'niezbędnik-przedslubny',
         textShort: 'Podziękowania dla rodziców bywają twardym orzechem do zgryzienia. Z pewnością ciężko w kilku słowach lub za pomocą weselnego szlagieru...',
         mainPic: {
             src: require('./BlogPics/Post5/post5.jpg').default
@@ -1394,7 +1394,7 @@ const posts = [
         title: "O tym, dlaczego warto zdecydować się na konsultanta ślubnego",
         seoText: "Mimo że tytuł artykułu wskazuje na coś zupełnie innego, nie będzie to skrzętnie przygotowana autoreklama. Oczywiście jako konsultant ślubny wierzę, że zawód, który wykonuję, jest potrzebny i warto zainwestować w pomoc specjalisty. To tak jak z fotografem. Czasy, gdy zdjęcia na weselu robili wujkowie lub sąsiedzi pos...",
         date: "16 kwi 2017",
-        tag: "niezbędnik",
+        tag: "niezbędnik-przedslubny",
         textShort: "Mimo że tytuł artykułu wskazuje na coś zupełnie innego, nie będzie to skrzętnie przygotowana autoreklama. Oczywiście jako konsultant ślubny wierzę, że zawód, który wykonuję, jest potrzebny i warto...",
         mainPic: {
             src: require('./BlogPics/Post4/post4.jpg').default
@@ -1455,7 +1455,7 @@ const posts = [
         title: "O poszukiwaniu sukienki idealnej",
         seoText: "To nie tajemnica, że przyszła Panna Młoda swój ślubny strój planuje na długo wcześniej przed tym wielkim dniem. Większość nie potrzebuje do tego nawet pierścionka i idealnego partnera. Od najmłodszych lat w naszej głowie tworzą się wizje pięknej, białej sukni idealne podkreślającej naszą figurę i wprawiającej gości...",
         date: "16 mar 2017",
-        tag: "niezbędnik",
+        tag: "niezbędnik-przedslubny",
         textShort: "To nie tajemnica, że przyszła Panna Młoda swój ślubny strój planuje na długo wcześniej przed tym wielkim dniem. Większość nie potrzebuje do tego nawet pierścionka i idealnego partnera. Od najmłodszych lat...",
         mainPic: {
             src: require('./BlogPics/post3.jpg').default,
@@ -1508,7 +1508,7 @@ const posts = [
         seoText: "Mało jest rzeczy, które budzą tyle emocji, co śluby i wesela. Mają jakąś magiczną moc wpędzania ludzi w amok – i nie mówię tu o Młodej Parze, u której to bardzo zrozumiałe, ale o gościach. Całkiem rozsądni na co dzień ludzie wraz ze wskoczeniem w sukienkę czy garnitur wpadają w wir dziwnych przekonań i przepychanek...",
         date: "7 mar 2017",
         edited: "8 lip 2020",
-        tag: "niezbędnik",
+        tag: "niezbędnik-przedslubny",
         textShort: "Mało jest rzeczy, które budzą tyle emocji, co śluby i wesela. Mają jakąś magiczną moc wpędzania ludzi w amok – i nie mówię tu o Młodej Parze, u której to bardzo zrozumiałe, ale o gościach. Całkiem rozsądni na co dzień ludzie...",
         mainPic: {
             src: require('./BlogPics/Post2/post2.jpg').default
@@ -1569,7 +1569,7 @@ const posts = [
         seoText: "Jak wybrać motyw przewodni wesela? Jakich błędów unikać przy wyborze przewodniego motywu ślubnego i dlaczego warto zdecydować się na motyw przewodni?",
         date: "9 lut 2017",
         edited: "23 paź 2020",
-        tag: "niezbędnik",
+        tag: "niezbędnik-przedslubny",
         textShort: "Organizując swój ślub i wesele, staracie się zaplanować każdy najdrobniejszy szczegół. Godzinami przeglądacie ślubne blogi, szukając inspiracji, oglądacie zdjęcia w poszukiwaniu idealnych kreacji, czytacie branżową prasę...",
         mainPic: {
             src: require('./BlogPics/post1.jpg').default,
