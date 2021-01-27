@@ -26,7 +26,9 @@ function App() {
         <Route exact path={URLS.COUPLES} component={OurCouples} />
         <Route exact path={URLS.POST} component={PostPage} />
         <Route exact path={URLS.CATEGORY} component={Blog} />
+        <Route exact path={URLS.CATEGORY_PAGE} component={Blog} />
         <Route exact path={URLS.BLOG} component={Blog} />
+        <Route exact path={URLS.BLOG_PAGE} component={Blog} />
         <Route exact path={URLS.OFFER} component={Offer} />
         <Route exact path={URLS.CONTACT} component={Home} />
       </Switch>

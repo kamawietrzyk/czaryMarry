@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import ArrowToTop from '../ArrowToTop'
 import ScrollToTopOnMount from '../ScrollToTopOnMount'
 import signal from '../Icons/signal.svg'
@@ -12,10 +12,12 @@ import { useHistory, useParams } from 'react-router-dom'
 import URLS from '../../utils/urls'
 
 const Blog = () => {
-
-    const [currentPage, setCurrentPage] = useState(1)
-    const { tag } = useParams()
+    let { tag, page: currentPage } = useParams()
     const history = useHistory()
+
+    if (!currentPage) {
+        currentPage = 1
+    }
 
     const postsPerPage = 5
     const totalPages = Math.ceil(posts.length / postsPerPage)
@@ -24,9 +26,11 @@ const Blog = () => {
     const slicedPosts = posts.slice(indexOfFirstPost, indexOfLastPost)
 
     let filteredData = posts.filter(post => {
-        return post.tag && post.tag.toLowerCase() === tag.toLowerCase() });
+        return !tag || (post.tag && post.tag.toLowerCase() === tag.toLowerCase());
+    });
 
     const slicedFiltered = filteredData.slice(indexOfFirstPost, indexOfLastPost)
+
     const totalFilteredPages = Math.ceil(filteredData.length /postsPerPage)
 
     const filters = [
@@ -41,7 +45,19 @@ const Blog = () => {
 
     const onFilterSelect = (tag) => (e) => {
         e.preventDefault();
-        history.push(URLS.CATEGORY.replace(":tag", tag));
+        history.push(tag === 'wszystkie-wpisy' ? URLS.BLOG : URLS.CATEGORY.replace(":tag", tag));
+    }
+
+    const setCurrentPage = (page) => {
+        if (parseInt(page) === 1) {
+            history.push(!tag
+                ? URLS.BLOG
+                : URLS.CATEGORY.replace(":tag", tag));
+        } else {
+            history.push(!tag
+                ? URLS.BLOG_PAGE.replace(':page', page)
+                : URLS.CATEGORY_PAGE.replace(":tag", tag).replace(':page', page));
+        }
     }
 
     const onPageChange = (pageNum, isSwitch) => (e) => {
@@ -71,9 +87,9 @@ const Blog = () => {
                 <FiltersBar filters={filters} onFilterSelect={onFilterSelect} />
             </div>
             <div className="Blog-content">
-                <PostPreview posts={tag === "wszystkie-wpisy" ? slicedPosts : slicedFiltered }  />
+                <PostPreview posts={!tag ? slicedPosts : slicedFiltered }  />
             </div>
-            <Pagination onChange={onPageChange} currentPage={currentPage} totalPages={tag === "wszystkie-wpisy" ? totalPages : totalFilteredPages } />
+            <Pagination onChange={onPageChange} currentPage={currentPage} totalPages={ !tag ? totalPages : totalFilteredPages } />
         </div>
     )
 }
