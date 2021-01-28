@@ -6,12 +6,405 @@ import URLS from './urls'
 
 const posts = [
     {
+        path: 'sesja-stylizowana-w-stylu-glamour',
+        title: 'Sesja stylizowana - Ślub, którego nie było.',
+        seoText: 'Sesja ślubna w stylu glamour. Nieoczywiste połączenie surowych zamkowych murów przełamane eleganckimi dodatkami i odważną kolorystyką oraz formą kwiatów.',
+        date: '10 sie 2020',
+        textShort: 'Chociaż dziwnie to brzmi do zorganizowania stylizowanej sesji fotograficznej, zainspirował nas koronawirus. Podczas pandemii, każdego dnia spotykałyśmy się z...',
+        mainPic: {
+            src: require('../components/OurCouples/OurCouplesPics/OlgaPiotr/05.jpg').default
+        },
+        textMain:
+            <>
+                Chociaż dziwnie to brzmi do zorganizowania stylizowanej sesji fotograficznej, zainspirował nas koronawirus. Podczas pandemii, każdego dnia spotykałyśmy się z rozżaleniem młodych par, które były zmuszone przełożyć swój najważniejszy dzień w życiu o kolejne miesiące. Widziałyśmy, jak ucieka z nich cały entuzjazm i tracą zapał do organizacji wymarzonego wesela. Chciałyśmy dać tym parom coś od siebie. I tu właśnie zrodził się pomysł stylizowanej sesji dla wybranej młodej pary, która przez pandemię musiała odwołać swój ślub. Tak, tak - <span className="bold bgPinkLight">stylizowana sesja dla prawdziwej pary młodej</span>, zamiast wynajętych modeli.<br />
+            To, na czym nam zależało to szczere emocje i prawdziwa miłość. Zobaczcie piękną relację z tego dnia, którą przygotowali <span className="bold bgPinkLight">Mariola i Kamil</span> z <CustomOuterLink to="http://maleszarestudio.pl/" text="Małego Szarego Studia" className="bgColorPink" />.
+            </>,
+        topPic: {
+            src: require('../components/OurCouples/OurCouplesPics/OlgaPiotr/05.jpg').default
+        },
+        content: [
+            {
+                headerSmall: <span className="pink">Sesja w stylu glamour w ruinach zamku.</span>,
+                text:
+                    <>
+                        Nie ma nic bardziej klimatycznego niż ruiny starego zamku, ale jeżeli dodamy do tego trochę dekoracji w stylu nowoczesnego glamouru mamy idealny przepis na niepowtarzalną sesję zdjęciową. Tą niezwykle ważną kwestię powierzyliśmy <span className="bold bgPinkLight">Anecie</span> z <CustomOuterLink to="https://www.facebook.com/anellodecor/" text="Anello Decor" className="bgColorPink" />. Wszystko uzupełniły detale od
+                        <CustomOuterLink to="https://wypozyczalnia-dekoracji.pl/" text="Wypożyczalni Dekoracji App" className="bgColorPink" /> oraz <CustomOuterLink to="https://slubnapodwiazka.com.pl/wypozyczalnia/" text="Ślubny Stół" className="bgColorPink" />. Piękne szklane kieliszki udostępniła nam <CustomOuterLink to="http://hutajulia.com/" text='Huta Szkła "Julia"' className="bgColorPink" />.
+                    </>
+            },
+            {
+                text:
+                    <>
+                        Tworząc koncepcję naszej stylizowanej sesji w ruinach zamku, postawiłyśmy na nieoczywiste połączenie kolorów. W palecie barw pojawił się więc róż, ceglany i czerń w połączeniu z jasnymi kwiatami. Dało to klimat elegancji i nowoczesności. Ruiny <CustomOuterLink to="http://www.zameksarny.pl/" text='Zamku Sarny' className="bgColorPink" /> okazały się idealne dla tych kolorów.
+                    </>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post26/post26a.jpg').default
+                    },
+                    {
+                        src: require('./BlogPics/Post26/post26b.jpg').default
+                    },
+                    {
+                        src: require('../components/OurCouples/OurCouplesPics/OlgaPiotr/ver1.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: <span className="pink">Sesja ślubna glamour— detale i inspiracje.</span>,
+                text:
+                    <>
+                        Znalazłyśmy idealną parę młodą, miejsce, zadbałyśmy o główne elementy sesji. Wiedziałyśmy jednak, że stylizowana sesja ślubna nie może obyć się bez papeterii. Trzeba zadbać o każdy szczegół. Pojawiły się więc nowoczesne zaproszenia ślubne z nutką elegancji, które przygotowała dla nas pracownia <CustomOuterLink to="https://pieknieprosze.pl/" text="Pięknie Proszę" className="bgColorPink" />. Całość dopełnił tort od <CustomOuterLink to="http://tort-artystyczny.pl/" text="Petite Pivioine" className="bgColorPink" /> oraz makaroniki, które przygotowała pracownia cukiernicza <CustomOuterLink to="https://ouioui.pl/" text="Oui Oui" className="bgColorPink" /> w kolorach i motywie przewodnim. Zadbaliśmy o najmniejsze detale, takie jak jedwabne wstążki od <CustomOuterLink to="https://shemakes.pl/" text="SheMakes" className="bgColorPink" />, które podkreślały piękno dekoracji.
+                    </>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post26/post26c.jpg').default
+                    },
+                    {
+                        src: require('./BlogPics/Post26/post26d.jpg').default
+                    },
+                    {
+                        src: require('./BlogPics/Post26/post26e.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: <span className="pink">Stylizacja pary młodej.</span>,
+                text:
+                    <>
+                        Stroje naszej młodej pary również idealnie wpasowały się w klimat sesji w ruinach zamku. Pan młody miał na sobie czarny klasyczny garnitur od <CustomOuterLink to="https://giacomo.pl/" text="Giacomo Conti" className="bgColorPink" />, a nasza panna młoda dostała aż 4 sukienki ślubne oraz <CustomOuterLink to="https://whitejasmine.pl/" text="biżuterię" className="bgColorPink" />. Nad jej wizerunkiem czuwała <CustomOuterLink to="https://agnieszkaswiatly.pl/" text="Agnieszka Światły" className="bgColorPink" />. O makijaż i fryzurę zadbała <CustomOuterLink to="http://ewelinalosko.pl/" text="Ewelina Łośko" className="bgColorPink" />. W końcu sesja zdjęciowa w stylu glamour wymaga trochę przepychu i ekstrawagancji. Zdjęcia plenerowe przełamywały elegancki charakter sesji, a uzupełnieniem stylizacji panny młodej był <CustomOuterLink to="https://www.hatupdesign.com/" text="kapelusz" className="bgColorPink" />.
+                    </>,
+                pics: [
+                    {
+                        src: require('../components/OurCouples/OurCouplesPics/OlgaPiotr/ver4.jpg').default
+                    },
+                    {
+                        src: require('../components/OurCouples/OurCouplesPics/OlgaPiotr/ver7.jpg').default
+                    },
+                    {
+                        src: require('../components/OurCouples/OurCouplesPics/OlgaPiotr/ver5.jpg').default
+                    },
+                ]
+            },
+            {
+                headerSmall: <span className="pink">Elegancka sesja ślubna, czy wesele w zamku?</span>,
+                text: 'Stare, opuszczone ruiny to nie tylko wspaniałe miejsce na organizację sesji stylizowanej, ale również na nietuzinkowe przyjęcie ślubne. W miejscu, gdzie powstała nasza elegancja sesja ślubna, na co dzień odbywają się koncerty, przyjęcia oraz imprezy okolicznościowe. Mamy nadzieję, że stanie się ona dla Was inspiracją :)'
+            },
+            {
+                text:
+                <>
+                Chcielibyście zobaczyć więcej zdjęć z tej cudownej sesji? Zerknijcie do zakładki <Link to={URLS.COUPLES} className="bgColorPink">Nasze pary</Link>. Zobaczcie również reportaż filmowy z sesji, który przygotowali <span className="bold bgPinkLight">Kamil i Patryk</span> z <CustomOuterLink to="https://www.sakramentalnetak.com/" text="Sakramentalne Tak" className="bgColorPink" />.
+                </>
+            }
+        ],
+        links:
+        <>
+            <iframe title="Ślub, którego nie było" width="100%" height="460" src="https://www.youtube.com/embed/CqlcOUVK1ns" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" frameborder="0"  allowfullscreen></iframe>
+        </>
+    },
+
+    {
+        path: '9-hey-wedding-porady-od-fotografa-slubnego',
+        title: '#9 Hey Wedding - Zanim zdecydujesz się na wybór fotografa ślubnego  - rozmowa z LMFOTO',
+        seoText: 'Kolejny odcinek podcastu Hey Wedding to spotkanie dwóch duetów; Agencji Ślubnej Czary Marry oraz LMFOTO. Podczas rozmowy zadałyśmy chłopakom kilkanaście nie do końca oczywistych pytań. Nie zabrakło również ciekawych historii oraz dygresji.',
+        tag: 'podcast',
+        date: '16 lip 2020',
+        edited: '1 wrz 2020',
+        textShort: 'Kolejny odcinek podcastu Hey Wedding to spotkanie dwóch duetów - Agencji Ślubnej Czary Marry oraz...',
+        mainPic: {
+            src: require('./BlogPics/podcast.png').default
+        },
+        textMain:
+            <>
+                Kolejny odcinek podcastu <span className="bold bgMintLight">Hey Wedding</span> to spotkanie dwóch duetów - Agencji Ślubnej Czary Marry oraz <CustomOuterLink to="https://www.lmfoto.pl/" text="LMFoto" className="bgColorMint" />. Podczas rozmowy zadałyśmy chłopakom kilkanaście nie do końca oczywistych pytań. Nie zabrakło również ciekawych historii oraz dygresji.
+            </>,
+        content: [
+            {
+                text: <><span className="bold bgMintLight">Szymon i Łukasz</span> odpowiedzą, który z nich jest lepszym fotografem, o ciągłym doskonaleniu swoich umiejętności oraz dlaczego, mimo że tworzą duet, nie pracują na weselach razem. Dowiecie się również, co uważają na temat sesji plenerowych w dniu ślubu oraz sesjach innego dnia. Porozmawiamy o plusach i minusach każdego rozwiązania. Zapytamy, czy fotograf powinien ingerować w przebieg wydarzeń w dniu ślubu, a jeśli tak to w jakich momentach.</>
+            },
+            {
+                text: 'Czy warto zdecydować się na ekipę foto i film, czy na dwie osobne firmy wyspecjalizowane w tych dziedzinach? Jak wygląda współpraca na płaszczyźnie foto -film, DJ oraz zespół? Co jest kluczem do owocnej współpracy, a co może stanąć na przeszkodzie do stworzenia niesamowitych ujęć?'
+            },
+            {
+                text: 'Porozmawiamy o tym, ile godzin fotograf potrzebuje na stworzenie reportażu ślubnego, czy warto zdecydować się na skrócenie lub wydłużenie jego pracy. Dlaczego warto postawić na fotografa mającego doświadczenie w branży ślubnej. Czy goście robiący zdjęcia i kręcący filmy smartfonem przeszkadzają w pracy. Dlaczego warto odłożyć telefon do kieszeni podczas najważniejszych momentów ślubu i wesela. Pogadamy również co z tą surówką, czyli o nieobrobionym materiale zdjęciowym, o którą prosi para.'
+            },
+            {
+                text: <>
+                    Zadamy też Szymonowi jego znienawidzone pytanie... dowiedzcie się sami jakie:) <br />
+                Zapraszamy do słuchania!
+                </>
+            }
+        ],
+        textAuthor: "Kasia i Ola",
+        links:
+            <>
+                <iframe title="#9 Hey Wedding - O fotografii ślubnej z LMFOTO" height="122" width="100%" style={{ border: "none" }} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/media/player/ipx6c-e36b45?from=pb6admin&download=1&version=1&auto=0&share=1&download=1&rtl=0&fonts=Helvetica&skin=1&pfauth=&btn-skin=107"></iframe>
+            </>,
+        extras:
+            <>
+                <span className="d-block text-right"><CustomInnerLink path="podcast" text="Podcast" className="bgColorMint" /></span>
+            </>
+    },
+    {
+        path: 'konsultant-ślubny-radzi',
+        title: 'KONSULTANT ŚLUBNY RADZI',
+        seoText: 'Zapraszamy Was do lektury artykułu przygotowanego przez naszych zaprzyjaźnionych fotografów ślubnych z LM Foto. Znajdziecie tam rozmowę z nami oraz innymi fantastycznymi wedding plannerkami. Opowiadamy o tym, dlaczego organizujemy śluby, radzimy, o czym warto pamiętać podczas przygotowań oraz zdradzamy, jakie wesela...',
+        date: '2 lip 2020',
+        edited: '23 paź 2020',
+        textShort: 'Zapraszamy Was do lektury artykułu przygotowanego przez naszych zaprzyjaźnionych fotografów ślubnych z LM Foto. Znajdziecie tam rozmowę z nami oraz innymi fantastycznymi...',
+        mainPic: {
+            src: require('./BlogPics/Post25/post25.jpg').default
+        },
+        textMain:
+            <>
+                Zapraszamy Was do lektury artykułu przygotowanego przez naszych zaprzyjaźnionych <span className="bgGreyLight bold">fotografów ślubnych z LM Foto</span>. Znajdziecie tam rozmowę z nami oraz innymi fantastycznymi wedding plannerkami. Opowiadamy o tym, dlaczego organizujemy śluby, radzimy, o czym warto pamiętać podczas przygotowań oraz zdradzamy, jakie wesela lubimy najbardziej. W artykule m.in. informacje co z stylem i <CustomInnerLink path="motyw-przewodni-wesela" className="bgColorGrey" text="motywem przewodnim wesela" />. <br />A wszystko to z kilku odmiennych perspektyw.
+            </>,
+        content: [
+            {
+                text: <CustomOuterLink to="https://www.lmfoto.pl/blog/2020/06/konsultant-slubny-radzi/?fbclid=IwAR0NrsFz6qb9xkd226N11SCoHUFTeqZyfvdXvlO5-Xu4Y1WEpcYeOFiEXGU" className="bgColorLight" text="Link do artykułu - Konsultant Ślubny Radzi LM FOTO" />,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post25/post25a.png').default
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        path: '8-hey-wedding-suknia-ślubna-z-drugiej-ręki',
+        title: '#8 Hey Wedding - Suknie ślubne z drugiej ręki.',
+        seoText: 'W ósmym odcinku podcastu Hey Wedding, miałyśmy przyjemność spotkać się z Nadją Pędzik, organizatorką festiwalu sukien ślubnych z drugiej ręki. Rozmawiałyśmy o tym,  dlaczego warto rozważyć zakup używanej sukni ślubnej, o świadomych konsumentach, ruchu Zero Waste.',
+        tag: 'podcast',
+        date: '29 cze 2020',
+        edited: '1 wrz 2020',
+        textShort: 'W ósmym odcinku podcastu Hey Wedding, miałyśmy przyjemność spotkać się z Nadją Pędzik, organizatorką festiwalu sukien...',
+        mainPic: {
+            src: require('./BlogPics/podcast.png').default
+        },
+        textMain:
+            <>
+                W ósmym odcinku podcastu <span className="bold bgMintLight">Hey Wedding</span> miałyśmy przyjemność spotkać się z <span className="bold bgMintLight">Nadją Pędzik</span>, organizatorką festiwalu sukien ślubnych z drugiej ręki. Rozmawiałyśmy o tym,  dlaczego warto rozważyć zakup używanej sukni ślubnej, o świadomych konsumentach, ruchu Zero Waste.
+            </>,
+        links:
+            <>
+                <iframe title="#8 Hey Wedding - Suknie ślubne z drugiej ręki." height="122" width="100%" style={{ border: "none" }} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/media/player/9ifjf-e17efd?from=pb6admin&download=1&version=1&auto=0&share=1&download=1&rtl=0&fonts=Helvetica&skin=1&pfauth=&btn-skin=107"></iframe>
+            </>,
+        extras:
+            <>
+                <span className="d-block text-right"><CustomInnerLink path="podcast" text="Podcast" className="bgColorMint" /></span>
+            </>
+    },
+    {
+        path: '7-hey-wedding-polsko-irlandzkie-wesele-klaudii-i-kierana',
+        title: '#7 Hey Wedding - polsko-irlandzkie wesele Klaudii i Kierana',
+        seoText: 'W siódmym odcinku Hey Wedding rozmawiamy z Klaudią, naszą panną młodą. Porozmawiamy o połączeniu dwóch kultur, współpracy opartej na przyjacielskich relacjach i przedweselnych stresach.',
+        tag: 'podcast',
+        date: '8 cze 2020',
+        edited: '1 wrz 2020',
+        textShort: 'W siódmym odcinku Hey Wedding rozmawiamy z Klaudią, naszą panną młodą. Porozmawiamy o połączeniu dwóch kultur, współpracy...',
+        mainPic: {
+            src: require('./BlogPics/podcast.png').default
+        },
+        textMain:
+            <>
+                W siódmym odcinku <span className="bold bgMintLight">Hey Wedding</span> rozmawiamy z <span className="bold bgMintLight">Klaudią</span>, naszą panną młodą. Porozmawiamy o połączeniu dwóch kultur, współpracy opartej na przyjacielskich relacjach i przedweselnych stresach.
+            </>,
+        links:
+            <>
+                <iframe title="#7 Hey Wedding - polsko-irlandzkie wesele Klaudii i Kierana" height="122" width="100%" style={{ border: "none" }} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/media/player/rkmjd-df2c30?from=pb6admin&download=1&version=1&auto=0&share=1&download=1&rtl=0&fonts=Helvetica&skin=1&pfauth=&btn-skin=107"></iframe>
+            </>,
+        extras:
+            <>
+                <span className="d-block text-right"><CustomInnerLink path="podcast" text="Podcast" className="bgColorMint" /></span>
+            </>
+    },
+    {
+        path: '5-faktów-o-nas-poznajcie-nas-lepiej',
+        title: '5 FAKTÓW O NAS... POZNAJCIE NAS LEPIEJ',
+        seoText: 'WROCŁAW — nie nasze miasto! Chociaż pochodzimy z małych miejscowości i trzeba to przyznać, jesteśmy „słoikami”, to ponad 10 lat mieszkamy we Wrocławiu. Każda z nas ma tutaj swój dom, ulubione knajpy i miejsca do spacerowania. Doceniamy Wrocław za jego różnorodność i możliwości, czujemy się w nim dobrze. Jednak obie...',
+        date: '31 maja 2020',
+        edited: '8 cze 2020',
+        textShort: 'WROCŁAW — nie nasze miasto! Chociaż pochodzimy z małych miejscowości i trzeba to przyznać, jesteśmy „słoikami”, to ponad 10 lat mieszkamy...',
+        mainPic: {
+            src: require('./BlogPics/Post24/post24.jpg').default
+        },
+        textMain: <>WROCŁAW — nie nasze miasto! <br /> Chociaż pochodzimy z małych miejscowości i trzeba to przyznać, jesteśmy „słoikami”, to ponad 10 lat mieszkamy we Wrocławiu. Każda z nas ma tutaj swój dom, ulubione knajpy i miejsca do spacerowania. Doceniamy Wrocław za jego różnorodność i możliwości, czujemy się w nim dobrze. Jednak obie uwielbiamy podróże, poznawanie nowych miejsc. Dlatego ogromnie doceniamy, że w sezonie ślubnym, dzięki organizacji wesel w całej Polsce, mamy możliwość poznawania nowych zakątków. Zwiedziłyśmy już sporą część kraju. Zawsze wtedy obiecujemy sobie, że kiedyś "tu" się przeprowadzimy :)</>,
+        topPic: {
+            src: require('./BlogPics/Post24/post24a.jpg').default
+        },
+        content: [
+            {
+                headerSmall: <span className="pink">NIE POTRAFIMY POZOWAĆ DO ZDJĘĆ.</span>,
+                text: 'Portfolio w naszej pracy jest bardzo ważne. Nie tylko trzeba chwalić się efektami przygotowań, pięknych dekoracji, czy szczęśliwej pary, ale warto mieć też parę zdjęć podczas pracy. Szykując się do koordynacji dnia ślubu i wesela staramy się zawsze zaplanować 5 - 10 minut, podczas których fotograf będzie mógł zrobić nam parę ujęć. I wiecie, jak to się zawsze kończy? Jesteśmy tak mocno skupione na pracy, aby wszystko było idealnie, że zapominamy o pozowaniu. Kończy się to zawsze masą zdjęć z dziwnymi minami.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post24/post24b.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: <span className="pink">JESTEŚMY DO SIEBIE BARDZO PODOBNE.</span>,
+                text: <>Każdy, kto miał okazję nas poznać i podpatrzeć jak pracujemy, powie pewnie od razu, że jesteśmy zupełnie inne. Kasia jest impulsywna, lubi działać od razu, nie cierpi czekać, ja znowu jestem z tych, które potrzebują czasu, zastanowienia, analizy, zanim przejdę do działania. Zdecydowanie wolę tabele i zestawienia od tych kreatywnych działań, w których znowu super spełnia się Kasia. Jednak jak się bliżej nam przyjrzeć to można zauważyć mnóstwo podobieństw. Obie jesteśmy bardzo zaangażowane w to, co robimy, dobro i zadowolenie naszych Par stawiamy na pierwszym miejscu. Każda z nas nie raz miała sytuację rzucenia wszystkiego i działania na rzecz jakiejś sprawy dla dobra wesela i Pary Młodej. To, że się tak świetnie dogadujemy i tak <span className="bgPinkLight bold">bardzo lubimy pracować ze sobą</span>, zawdzięczamy temu, że mamy takie same priorytety i nie zostały one wykreowane sztucznie. Od początku wiedziałyśmy, że ważna jest dla nas szczerość, otwartość i przyjazna atmosfera w pracy.</>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post24/post24.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: <span className="pink">BRANŻA ŚLUBNA TO NASZE POWOŁANIE.</span>,
+                text: 'Śluby i wesela są obecne zarówno w naszym życiu zawodowym i prywatnym. Jeśli akurat nie pracujemy, to planujemy rozwój naszej firmy i nas samych. Chcemy być na bieżąco, a nawet o krok do przodu w trendach i inspiracjach ślubnych. Zależy nam, aby współpraca z naszymi parami młodymi przebiegała w luźnej i przyjaznej atmosferze, dlatego ciągle zastanawiamy się, jak możemy działać, aby przynosiło to jak najlepsze efekty. No i po prostu kochamy „plotkować” o branży. Zapytajcie naszych mężczyzn, ile godzin miesięcznie spędzamy wisząc na telefonie, rozmawiając o weselach.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post24/post24c.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: <span className="pink">ZNAMY SIĘ ZDECYDOWANIE ZA DŁUGO.</span>,
+                text: 'Poznałyśmy się w liceum. Po burzliwym początku z jednym chłopakiem w tle :) szybko zrodziła się bardzo fajna przyjaźń. Potem potoczyło się już jak w starym, dobrym małżeństwie. Wspólne mieszkanie podczas studiów, wakacyjne wspólne saksy, parę kłótni i powstała firma, która przede wszystkim opiera się na tym, że świetnie się znamy i wzajemnie uzupełniamy. Wiemy w czym każda z nas jest dobra, ale też znamy swoje słabsze strony i w tych wypadkach mocno się wspieramy, możemy na siebie liczyć. No i już każda z naszych Par doświadczyła na własnej skórze, jak w tym samym momencie odpowiadamy identycznie na zadane pytanie.'
+            }
+        ]
+    },
+    {
+        path: '6-hey-wedding-pogromcy-mitów',
+        title: '#6 Hey Wedding - Pogromcy mitów',
+        seoText: 'W szóstym odcinku podcastu rozprawiamy się z najpopularniejszymi mitami ślubnymi. Dowiecie się między innymi, czy jedzenie w bufecie oraz serwowany obiad to dobry pomysł, czy można zorganizować wesele bez Disco Polo oraz czy powinno się odmieniać nazwiska gości w zaproszeniach.',
+        tag: 'podcast',
+        date: '13 maja 2020',
+        edited: '1 wrz 2020',
+        textShort: 'W szóstym odcinku podcastu rozprawiamy się z najpopularniejszymi mitami ślubnymi. Dowiecie się między innymi, czy jedzenie w bufecie oraz serwowany obiad to dobry pomysł, czy można zorganizować wesele bez...',
+        mainPic: {
+            src: require('./BlogPics/podcast.png').default
+        },
+        textMain:
+            <>
+                W szóstym odcinku podcastu rozprawiamy się z <span className="bold bgMintLight">najpopularniejszymi mitami ślubnymi</span>. Dowiecie się między innymi, czy jedzenie w bufecie oraz serwowany obiad to dobry pomysł, czy można zorganizować wesele bez Disco Polo oraz czy powinno się odmieniać nazwiska gości w zaproszeniach.
+            </>,
+        links:
+            <>
+                <iframe title="#6 Hey Wedding - Pogromcy mitów" height="122" width="100%" style={{ border: 'none' }} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/media/player/nsnei-dc44e4?from=pb6admin&download=1&version=1&auto=0&share=1&download=1&rtl=0&fonts=Helvetica&skin=1&pfauth=&btn-skin=107"></iframe>
+            </>,
+        extras:
+            <>
+                <span className="d-block text-right"><CustomInnerLink path="podcast" text="Podcast" className="bgColorMint" /></span>
+            </>
+    },
+    {
+        path: 'obiecanki-cacanki-czyli-o-największych-ściemach-branży-ślubnej',
+        title: 'Obiecanki cacanki — czyli o największych ściemach branży ślubnej',
+        seoText: 'W ostatnim wpisie na blogu wyjaśniłyśmy, dlaczego najczęściej za dobrą jakością usług idą wyższe ceny oraz na co trzeba zwrócić uwagę przy wyborze tańszych wykonawców. Dziś porozmawiamy o tych, którzy braki umiejętności ukrywają pod płaszczykiem obietnic. Najczęściej niespełnionych. Nie będziemy mówić o grubych prze...',
+        date: '24 kwi 2020',
+        textShort: 'W ostatnim wpisie na blogu wyjaśniłyśmy, dlaczego najczęściej za dobrą jakością usług idą wyższe ceny oraz na co trzeba...',
+        mainPic: {
+            src: require('./BlogPics/Post23/post23.jpg').default
+        },
+        textMain: 'W ostatnim wpisie na blogu wyjaśniłyśmy, dlaczego najczęściej za dobrą jakością usług idą wyższe ceny oraz na co trzeba zwrócić uwagę przy wyborze tańszych wykonawców. Dziś porozmawiamy o tych, którzy braki umiejętności ukrywają pod płaszczykiem obietnic. Najczęściej niespełnionych. Nie będziemy mówić o grubych przekrętach i celowych oszustwach tylko drobnych i na pozór niewinnych kłamstewkach.',
+        topPic: {
+            src: require('./BlogPics/Post23/post23.jpg').default
+        },
+        content: [
+            {
+                headerSmall: <span className="pink">Miejsca weselne</span>,
+                text: 'Wchodzicie na salę weselną. Czujecie, że nie jest to do końca spełnienie Waszych marzeń, ale miejsce ma potencjał... No może, gdyby nie te szpetne zasłony, obrazki na ścianach, żyrandole i krzesła. W głowie kotłuje Wam się tysiąc pomysłów jak to wszystko ograć?! Nieśmiało pytacie, czy można pozbyć się zbędnych bibelotów i zmienić kolor zasłon. W tym momencie niczym rycerz w lśniącej zbroi na pomoc przychodzi Wam manager. "Ależ oczywiście!"  — odpowiada. Gwarantuję Wam, że w 90% przypadków to ściema. Przed ślubem okaże się, że zasłon nie można zdjąć, ponieważ to dużo roboty, po weselu ktoś będzie musiał je założyć, a ponadto na stanie nie ma innych na wymianę. Zdjęte ze ścian obrazki zostawią brzydkie jasne plamy, pod pokrowcami kryją się zniszczone i poplamione krzesła. Może w takiej sytuacji warto rozważyć inną, neutralną salę, którą udekorujecie według własnego uznania bez konieczności zakrywania tego, co Was drażni. Jeśli widzicie, że na sali jest brudno, nie oszukujcie się. Skoro właściciele nie posprzątali w związku z Waszą pierwszą wizytą, to w dniu ślubu też tego nie zrobią.'
+            },
+            {
+                text: <>Podobny problem możecie napotkać na etapie <span className="bold bgPinkLight">omawiania menu</span>. Jeśli widzicie w propozycjach, że kotlet mielony pogania schabowego, nie wierzcie, że nagle kucharz totalnie przearanżuje dla Was menu na rzecz lekkiej śródziemnomorskiej kuchni. To kolejne kłamstwo. Mimo szczerych chęci prawdopodobnie nie będzie miał odpowiednich umiejętności i produktów. Nie wierzcie też, że jedzenie na weselu będzie podane ładniej niż podczas degustacji. Takie historie walą ściemą na kilometr. Po to jest degustacja, żeby spróbować jedzenia i zobaczyć jak się prezentuje.</>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post23/post23a.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: <span className="pink">Kapele/DJ-e</span>,
+                text: '"Zagramy wszystko, co chcecie, zaaranżujemy dla Was utwory na życzenie". O ile w przypadku DJ-a, zagranie piosenki na życzenie nie stanowi większego problemu, z kapelą jest zupełnie inaczej. Każdy zespół dysponuje określonym repertuarem, a przygotowanie nowych utworów jest pracochłonne. Oczywiście, jeśli mówimy o jednym, dwóch utworach to jestem skłonna uwierzyć, że nie jest to duży problem. Jeśli jednak repertuar lub aranżacja utworów danego zespołu Wam nie odpowiada, to wybierzcie kogoś innego. Nie wierzcie w obietnice typu: "Jesteśmy w stanie zagrać z rockowym pazurem", jeśli w składzie zespołu widzicie klawiszowca, gitarzystę i wokalistkę o anielskim głosie. Nie wierzcie na słowo, zweryfikujcie to, oglądając urywki filmów wrzucanych na stronę zespołu. I jeszcze jedno, ale najważniejsze. Sprawdzajcie, kto aktualnie jest w składzie danego bandu. Bardzo często zdarza się, że po wokalistce, która urzekła Was barwą głosu, w zespole zostało już tylko demo na stronie.',
+            },
+            {
+                text: 'Żeby było sprawiedliwie, ujawnijmy jeszcze kilka przewinień braci Dj-skiej. To fakt, są bardziej elastyczni, jeśli chodzi o repertuar, ale również charakteryzują się określonym stylem. Jeśli jesteście fanami rocka, metalu, hip-hopu, techno, reggae lub jakiegokolwiek innego gatunku muzycznego, bez którego nie wyobrażacie sobie własnego wesela, a DJ zaręcza, że świetnie odnajduje się w tym gatunku i to dla niego żaden problem, żeby poprowadzić imprezę w tym stylu, sprawdźcie go. Zapytajcie, czy ma na swojej playliście jakiś set do odsłuchania w interesującym Was klimacie. Jeśli nie, nie powinno być problemu, żeby przygotował dla Was małą próbkę. Jeśli zacznie się migać to jest wysoce prawdopodobne, że ściemnia. Na co jeszcze warto uważać? Na chwytliwe hasła typu "gwarancja udanej imprezy" - taka gwarancja jest warta tyle samo, co ta składana przez producenta proszku Bonux — wypierze wszystko prócz kieszeni.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post23/post23b.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: <span className="pink">Fotografowie i filmowcy</span>,
+                text:
+                    <>
+                        Podczas wyboru filmu i foto musicie mieć świadomość, że każdy wykonawca ślubny, a nawet każdy człowiek chwali się swoimi największymi osiągnięciami. Podobnie jest z fotografami, filmowcami, wedding plannerami, czy florystkami. Dlatego przeglądając <span className="bold bgPinkLight">portfolio wykonawców ślubnych</span> odłóżcie na chwilę emocje na bok i zróbcie dokładniejszy research. Nie sugerujcie się jednym lub dwoma dobrymi ujęciami w galerii na FB, piękną parą młodą na zdjęciach, rajską wyspą w tle. Jeśli rzeczywiście poczuliście miętę do fotografa, poproście o link do pełnego reportażu ślubnego. Zerknijcie, czy na zdjęciach są wszystkie elementy, na których Wam zależy, czy podoba Wam się klimat jego zdjęć, a nie tylko ten piękny plener przy wodospadzie, którego w życiu sobie nie zrobicie. Podobnie sprawa ma się do filmowców, nie poprzestawajcie na 3-minutowych teledyskach, poproście o dostęp do dłuższych filmów. <br />
+                Nazywanie powyższych praktyk oszustwem czy kłamstwem byłoby nadużyciem - nie jest to celowe wprowadzanie klienta w błąd, w końcu chodzi o to, żeby pokazać się Wam z jak najlepszej strony. Emocjonalne wybory nie są wcale złe, ale jeśli poświęcicie trochę więcej czasu na wybór foto i filmu na pewno nie dacie się oszukać swoim własnym wyobrażeniom.
+                    </>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post23/post23c.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: <span className="pink">Wedding plannerzy</span>,
+                text:
+                    <>
+                        Konsultanci ślubni bezustannie prześcigają się swoją kreatywnością. W końcu każda para marzy o wyjątkowym i niepowtarzalnym weselu. Ale czy na pewno wszystko da się zrobić? Bardzo byśmy chciały, żeby tak było, ale nie do końca to prawda. Pewnych rzeczy nie przeskoczymy. Najczęściej na drodze stają nam obostrzenia, na które nie mamy wpływu, ograniczenia budżetowe lub logistyczne. Pokaz sztucznych ogni zorganizowany na obszarze Natura 2000? Teoretycznie da się to zrobić, ale czy warto łamać prawo albo ryzykować pożarem lasu? Postawienie namiotu weselnego za 5 tys. zł - są firmy, które podejmą się takiego wyzwania, ale czy to bezpieczne? Czy takie namioty spełniają odpowiednie atesty? Ślub kościelny w plenerze? Jest to zrobienia, ale procedura jest niezwykle trudna i prawdopodobieństwo, że się uda, jest niezwykle małe. Przypuszczam, że niektórzy <span className="bold bgPinkLight">wedding plannerzy</span> składają obietnice bez pokrycia "dla Waszego dobra", nie chcąc Was zawieść. W naszym odczuciu nie tędy droga, ponieważ źle zrealizowany, ryzykowny pomysł może przynieść zdecydowanie większe rozgoryczenie.
+                    </>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post23/post23d.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: <span className="pink">Fryzjerki i kosmetyczki</span>,
+                text: 'Niektóre z nich to prawdziwe mistrzynie zbrodni. Na pewno każdemu zdarzyła się kiedyś taka sytuacja. Idziesz do fryzjera, zrelaksowany siadasz na fotelu, pełen nadziei na spektakularną metamorfozę. Niestety z każdą chwilą czujesz, jak w żołądku rośnie Ci wielka klucha i strach ściska za gardło. Już wiesz, że nie tego się spodziewałeś i wszystko idzie w złym kierunku. Śmiało mówisz o swoich obawach, a w odpowiedzi słyszysz: "Nieee… tym się nie przejmuj, w dniu ślubu zrobimy to inaczej. Teraz włosy się nie kręcą, ale użyję innych wałków. Trochę wystaje, ale to tylko próba, prawdziwą fryzurę zrobimy w dniu ślubu." W takiej sytuacji jeśli możesz, uciekaj! Jeśli nie to postaw sprawę jasno. Próbny makijaż czy czesanie, jak sama nazwa wskazuje, ma być dokładnie taki jak w dniu ślubu. Jeśli zawodzi fryzjerka czy makijażystka wybierz się na próbę do kogoś innego, a jeśli to kwestia Twojego niezdecydowania, zaproponuj jeszcze jedno spotkanie. Błagam Cię tylko, nie wierz w ściemę, że w dniu ślubu będzie lepiej. Będzie gorzej! Po nieudanej próbie zarówno Ty, jak i Twoja stylistka będziecie poddenerwowane.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post23/post23e.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: <span className="pink">Florystki</span>,
+                text: 'Jakie grzeszki popełniają florystki? W zasadzie podobnie jak z foto i filmem nie będzie to celowe wprowadzanie klienta w błąd, ale chciałabym, żebyście przy wyborze odpowiedniej osoby zwrócili uwagę na jeden ważny szczegół. Proces powstawania oferty florystycznej, która spełni oczekiwania pary młodej, jest dość długotrwały. Zwykle ofertę poprzedza rozmowa, wymiana inspiracji, dyskusje o budżecie. Potem następuje moment na przedstawienia oferty. Ponieważ każdy projekt jest traktowany bardzo indywidualnie, florystki zasypują pary inspiracjami z Pinteresta. Nie ma w tym nic dziwnego, jedna inspiracja ma pokazać jakie kwiaty zastosuje florystka, inna, jaka będzie wielkość i kształt kompozycji. Wszystko to ma Wam pomóc w zrozumieniu ostateczną wizji dekoracji. Nie dajcie się jednak zwieść. Poza pięknymi inspiracjami zwracajcie uwagę na styl pracy florystki i dotychczasowe realizacje. Jeżeli na jej stronie internetowej widzicie, że 99% realizacji to przestarzały glamour możecie podejrzewać, że nie ma doświadczenia lub umiejętności do stworzenia innego klimatu. Wiecie, do czego zmierzam? Obserwując blogerki modowe łatwo stwierdzić, że ktoś jest świetnie ubrany, ale zdecydowanie trudniej iść do sklepu i ubrać się z takim samym wyczuciem stylu.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post23/post23f.jpg').default
+                    }
+                ]
+            },
+            {
+                text: 'Jak widzicie, te drobne niedopowiedzenia mogą zaważyć na tym, czy w dniu ślubu i tuż przed nim będziecie zadowoleni z dokonanych wyborów, czy też poczujecie się oszukani. Pozostańcie czujni i nie dajcie się zwieść. Jeśli coś Was niepokoi śmiało pytajcie, jeśli chcecie coś doprecyzować, koniecznie to zróbcie, najlepiej pisemnie, bo papier nie zapomina :)'
+            },
+        ]
+    },
+    {
+        path: '5-hey-wedding-ślub-humanistyczny-a-na-co-to-komu',
+        title: '#5 Hey Wedding - Ślub humanistyczny, a na co to komu?',
+        seoText: 'Jaka jest idea ślubów humanistycznych? Dla kogo są ceremonie symboliczne i jakie dają możliwości? A także skąd u naszego gościa wziął się pomysł na zostanie celebrantem? O tym wszystkim posłuchacie w inspirującej rozmowie z Jackiem Siedleckim http://www.slubhumanistyczny.com',
+        tag: 'podcast',
+        date: '13 kwi 2020',
+        edited: '1 wrz 2020',
+        textShort: 'Jaka jest idea ślubów humanistycznych? Dla kogo są ceremonie symboliczne i jakie dają możliwości? A także skąd u naszego gościa...',
+        mainPic: {
+            src: require('./BlogPics/podcast.png').default
+        },
+        textMain:
+            <>
+                Jaka jest idea ślubów humanistycznych? Dla kogo są ceremonie symboliczne i jakie dają możliwości? A także skąd u naszego gościa wziął się pomysł na zostanie celebrantem?   O tym wszystkim posłuchacie w inspirującej rozmowie z <span className="bold bgMintLight">Jackiem Siedleckim</span> - <CustomOuterLink className="bgColorMint" to="http://www.slubhumanistyczny.com" />.
+            </>,
+        links:
+            <>
+                <iframe title="#5 Hey Wedding - Ślub humanistyczny, a na co to komu?" height="122" width="100%" style={{ border: 'none' }} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/media/player/vi5sm-d90cca?from=pb6admin&download=1&version=1&auto=0&share=1&download=1&rtl=0&fonts=Helvetica&skin=1&pfauth=&btn-skin=107"></iframe>
+            </>,
+        extras:
+            <>
+                <span className="d-block text-right"><CustomInnerLink path="podcast" text="Podcast" className="bgColorMint" /></span>
+            </>
+    },
+    {
         path: 'polecany-fotograf-kamerzysta-sala-dj-zespol-na-wesele',
         seoTitle: 'Tani i polecany zespół na wesele? O cenach za usługi w branży ślubnej wg Czary Marry',
         seoText: 'Dlaczego nie warto organizować wesela w najtańszych salach weselach i korzystać z najtańszych usług w branży weselnej – i nie tylko?',
         title: 'Tani i polecany zespół na wesele – czyli o cenach za usługi w branży ślubnej',
         date: '7 kwi 2020',
-        textShort: 'To jedno z częściej pojawiających się zwrotów na forach i grupach ślubnych. Dziś postanowiłyśmy się z nim rozprawić! Oczywiście mamy świadomość, że...',
+        textShort: 'To jedno z częściej pojawiających się zwrotów na forach i grupach ślubnych. Dziś postanowiłyśmy się z nim rozprawić!',
         mainPic: {
             src: require('./BlogPics/Post22/post22.jpg').default
         },
@@ -41,17 +434,17 @@ const posts = [
             },
             {
                 text:
-                <>
-                Tani fotograf lub filmowiec może być teoretycznie tak samo uzdolniony, jak drogi, może mieć równie duży zapał do pracy… ale czy dysponuje tym samym sprzętem, oprogramowaniem do obróbki materiału, czy ma nieograniczony dostęp do muzyki, doskonali swoje umiejętności na dość drogich szkoleniach dla profesjonalistów, czy inwestuje w bezpieczeństwo? Również i on musi zrealizować więcej zleceń, a czas oddania Waszego materiału się oddala i oddala. <span className="bold bgDarkLight">Dobry fotograf ślubny</span> ma odpowiedni warsztat i sprzęt, by oddać Wam piękne zdjęcia ślubne. Ma też wystarczająco czasu, by poświecić go dużo na każde zlecenie. Rekomendowani przez nas fotografowie ślubni oraz kamerzyści na wesele będą mieli prawdopodobnie wyższe stawki niż średnia, ale macie gwarancje że to będzie dobry fotograf na wesele i profesjonalista w każdym calu.
-                </>
+                    <>
+                        Tani fotograf lub filmowiec może być teoretycznie tak samo uzdolniony, jak drogi, może mieć równie duży zapał do pracy… ale czy dysponuje tym samym sprzętem, oprogramowaniem do obróbki materiału, czy ma nieograniczony dostęp do muzyki, doskonali swoje umiejętności na dość drogich szkoleniach dla profesjonalistów, czy inwestuje w bezpieczeństwo? Również i on musi zrealizować więcej zleceń, a czas oddania Waszego materiału się oddala i oddala. <span className="bold bgDarkLight">Dobry fotograf ślubny</span> ma odpowiedni warsztat i sprzęt, by oddać Wam piękne zdjęcia ślubne. Ma też wystarczająco czasu, by poświecić go dużo na każde zlecenie. Rekomendowani przez nas fotografowie ślubni oraz kamerzyści na wesele będą mieli prawdopodobnie wyższe stawki niż średnia, ale macie gwarancje że to będzie dobry fotograf na wesele i profesjonalista w każdym calu.
+                    </>
             },
             {
                 headerSmall: 'Polecany zespół na wesele czy DJ',
                 text:
-                <>
-                <p>Branżowe opowieści o sprzęcie wśród filmowców, fotografów, zespołów weselnych i DJ-ów nie mają końca. U tych ostatnich nie liczy się wyłącznie jakość i moc, ale i wygląd. Światła, stanowisko Dj-skie, zaufajcie mi, te rzeczy sporo kosztują. Potrzebny jest też duży bus, żeby to wszystko przetransportować. Oczywiście to nie sprzęt świadczy o umiejętnościach prowadzenia imprezy. Wiecie jaki jest podstawowy grzech zespołów weselnych DJ-ów z dolnej półki? Disco Polo! Wiem, że jedni je lubią, a drudzy nie... Nie będziemy się o to spierać, czy można zrobić wesele bez tego gatunku muzycznego, ale z moich obserwacji wynika, że gdy DJ-owi brakuje umiejętności, ratuje się Disco Polo. Chwyta się go jak tonący brzytwy, a my musimy patrzeć na tę katastrofę i brać w niej udział. Na ratunek jest już za późno. Najlepszy zespół weselny czy dobry dj na wesele na pewno dostosuje repertuar nie tylko do najnowszych trendów ale i Waszych gustów.</p>
-                <p>Załóżmy, że zespół weselny kosztuje 3 tys. zł (w opcji niskobudżetowej). Średnia ilość osób w zespole to 4. Zespół podczas wesela gra średnio około 10h. Wychodzi nam stawka około 75 zł/h dla jednej osoby. Ale! Nie zapominajmy o kosztach dojazdu, busie, którym owa kapela do Was dojedzie, czasami trzeba zapłacić kierowcy. No i te cholerne podatki! Śpiewanie i granie na instrumentach przez 10h to bardzo ciężka praca. Nauka gry na instrumencie to lata ćwiczeń, potu i krwi. Coś się tu nie zgadza… Coś niska ta stawka, a wiadomo muzycy to artyści i dobrze się cenią. Muzyk grający na ceremonii ślubu cywilnego to koszt około 300-500 zł. Ceremonia wraz z życzeniami to niecała godzina. Dalsze wnioski nasuwają się same. W dobrym zespole muzycznym grają osoby, które oprócz wysokich kwalifikacji, po prostu lubią tę pracę. Znajomość muzyki polskiej i światowej, umiejętność dostosowania muzyki do danej chwili tak, by wszyscy dobrze się bawili ratuje niejedno wesele. Dlatego tak chętnie polecany zespół na wesele przez znajomych czy <Link className="bgColorDark" to={URLS.HOME}>wedding plannerów</Link> liczy sobie odpowiednio więcej.</p>
-                </>,
+                    <>
+                        <p>Branżowe opowieści o sprzęcie wśród filmowców, fotografów, zespołów weselnych i DJ-ów nie mają końca. U tych ostatnich nie liczy się wyłącznie jakość i moc, ale i wygląd. Światła, stanowisko Dj-skie, zaufajcie mi, te rzeczy sporo kosztują. Potrzebny jest też duży bus, żeby to wszystko przetransportować. Oczywiście to nie sprzęt świadczy o umiejętnościach prowadzenia imprezy. Wiecie jaki jest podstawowy grzech zespołów weselnych DJ-ów z dolnej półki? Disco Polo! Wiem, że jedni je lubią, a drudzy nie... Nie będziemy się o to spierać, czy można zrobić wesele bez tego gatunku muzycznego, ale z moich obserwacji wynika, że gdy DJ-owi brakuje umiejętności, ratuje się Disco Polo. Chwyta się go jak tonący brzytwy, a my musimy patrzeć na tę katastrofę i brać w niej udział. Na ratunek jest już za późno. Najlepszy zespół weselny czy dobry dj na wesele na pewno dostosuje repertuar nie tylko do najnowszych trendów ale i Waszych gustów.</p>
+                        <p>Załóżmy, że zespół weselny kosztuje 3 tys. zł (w opcji niskobudżetowej). Średnia ilość osób w zespole to 4. Zespół podczas wesela gra średnio około 10h. Wychodzi nam stawka około 75 zł/h dla jednej osoby. Ale! Nie zapominajmy o kosztach dojazdu, busie, którym owa kapela do Was dojedzie, czasami trzeba zapłacić kierowcy. No i te cholerne podatki! Śpiewanie i granie na instrumentach przez 10h to bardzo ciężka praca. Nauka gry na instrumencie to lata ćwiczeń, potu i krwi. Coś się tu nie zgadza… Coś niska ta stawka, a wiadomo muzycy to artyści i dobrze się cenią. Muzyk grający na ceremonii ślubu cywilnego to koszt około 300-500 zł. Ceremonia wraz z życzeniami to niecała godzina. Dalsze wnioski nasuwają się same. W dobrym zespole muzycznym grają osoby, które oprócz wysokich kwalifikacji, po prostu lubią tę pracę. Znajomość muzyki polskiej i światowej, umiejętność dostosowania muzyki do danej chwili tak, by wszyscy dobrze się bawili ratuje niejedno wesele. Dlatego tak chętnie polecany zespół na wesele przez znajomych czy <Link className="bgColorDark" to={URLS.HOME}>wedding plannerów</Link> liczy sobie odpowiednio więcej.</p>
+                    </>,
                 pics: [
                     {
                         src: require('./BlogPics/Post22/post22b.jpg').default
@@ -60,12 +453,12 @@ const posts = [
             },
             {
                 text:
-                <>
-                <p>Wróćmy na chwilę do motoryzacyjnego przykładu ze wstępu. Jakie są szanse, że Audica z Niemiec nie okaże się powypadkowym gratem, że właściciel dbał o nią i włożył całe serce, żeby służyła Wam jak najlepiej? Jedno jest pewne, kupując nowe auto z salonu bez względu, czy będzie to prestiżowy Mercedes, solidna japońska Toyota czy poczciwa Skoda, posłuży Wam przez parę ładnych lat, a w przypadku awarii macie gwarancję i wsparcie od dealera. </p>
-                <p>Trochę zbagatelizowałyśmy sprawę doświadczenia zawodowego, a przecież powinno mieć ogromny wpływ na cenę polecanych usługodawców ślubnych. Nie najlepiej wpisuje się w mój motoryzacyjny przykład, ale pamiętajcie - ma ogromne znaczenie. Im więcej przepracowanych scenariuszy, zorganizowanych lub poprowadzonych imprez, tym lepiej. <br/>
+                    <>
+                        <p>Wróćmy na chwilę do motoryzacyjnego przykładu ze wstępu. Jakie są szanse, że Audica z Niemiec nie okaże się powypadkowym gratem, że właściciel dbał o nią i włożył całe serce, żeby służyła Wam jak najlepiej? Jedno jest pewne, kupując nowe auto z salonu bez względu, czy będzie to prestiżowy Mercedes, solidna japońska Toyota czy poczciwa Skoda, posłuży Wam przez parę ładnych lat, a w przypadku awarii macie gwarancję i wsparcie od dealera. </p>
+                        <p>Trochę zbagatelizowałyśmy sprawę doświadczenia zawodowego, a przecież powinno mieć ogromny wpływ na cenę polecanych usługodawców ślubnych. Nie najlepiej wpisuje się w mój motoryzacyjny przykład, ale pamiętajcie - ma ogromne znaczenie. Im więcej przepracowanych scenariuszy, zorganizowanych lub poprowadzonych imprez, tym lepiej. <br />
                 Nie zapominajcie o tym :)</p>
-                <p>Wiadomo, że zazwyczaj poszukujecie najlepszych usługodawców ślubnych. My chętnie pomożemy Wam z wyborem. Polecani przez nas DJe, zespóły, fotografowie itd. mają bardzo dobre opinie i rekomendacje w branży ślubnej. Dodatkowo w kwestii wyboru sali, fotografa czy kamerzysty zawsze podchodzimy bardzo indywidualnie do sprawy, starając się dobrać obsługę tak, by była w Waszym guście.</p>
-                </>
+                        <p>Wiadomo, że zazwyczaj poszukujecie najlepszych usługodawców ślubnych. My chętnie pomożemy Wam z wyborem. Polecani przez nas DJe, zespóły, fotografowie itd. mają bardzo dobre opinie i rekomendacje w branży ślubnej. Dodatkowo w kwestii wyboru sali, fotografa czy kamerzysty zawsze podchodzimy bardzo indywidualnie do sprawy, starając się dobrać obsługę tak, by była w Waszym guście.</p>
+                    </>
             }
         ]
 
@@ -91,7 +484,7 @@ const posts = [
             </>,
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Podcast" className="bgColorMint" /></span>
+                <span className="d-block text-right"><CustomInnerLink path="podcast" text="Podcast" className="bgColorMint" /></span>
             </>
     },
     {
@@ -180,7 +573,7 @@ const posts = [
             </>,
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Podcast" className="bgColorMint" /></span>
+                <span className="d-block text-right"><CustomInnerLink path="podcast" text="Podcast" className="bgColorMint" /></span>
             </>
     },
     {
@@ -325,7 +718,7 @@ const posts = [
             src: require('./BlogPics/podcast.png').default
         },
         textMain: <>
-            Dziś porozmawiamy z Angie o jej <span className="bold bgMintLight">kameralnym weselu w stylu slow</span> organizowanym w Polsce oraz wielkim hinduskim weselu i tradycjach z nim związanych.
+            Dziś porozmawiamy z <span className="bold bgMintLight">Angie</span> o jej <span className="bold bgMintLight">kameralnym weselu w stylu slow</span> organizowanym w Polsce oraz wielkim hinduskim weselu i tradycjach z nim związanych.
         </>,
         links:
             <>
@@ -333,7 +726,7 @@ const posts = [
             </>,
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Podcast" className="bgColorMint" /></span>
+                <span className="d-block text-right"><CustomInnerLink path="podcast" text="Podcast" className="bgColorMint" /></span>
             </>
     },
     {
@@ -356,7 +749,7 @@ const posts = [
             </>,
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Podcast" className="bgColorMint" /></span>
+                <span className="d-block text-right"><CustomInnerLink path="podcast" text="Podcast" className="bgColorMint" /></span>
             </>
     },
     {
@@ -430,7 +823,7 @@ const posts = [
         ],
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
+                <span className="d-block text-right"><CustomInnerLink path="niezbędnik-przedslubny" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
             </>
 
     },
@@ -492,7 +885,7 @@ const posts = [
             </>,
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
+                <span className="d-block text-right"><CustomInnerLink path="niezbędnik-przedslubny" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
             </>
     },
     {
@@ -582,7 +975,7 @@ const posts = [
             </>,
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
+                <span className="d-block text-right"><CustomInnerLink path="niezbędnik-przedslubny" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
             </>
     },
     {
@@ -651,7 +1044,7 @@ const posts = [
             <p className="mb-1">Źródło zdjęć: <CustomOuterLink to="https://pl.pinterest.com/" text="Pinterest" /></p>,
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
+                <span className="d-block text-right"><CustomInnerLink path="niezbędnik-przedslubny" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
             </>
     },
     {
@@ -730,7 +1123,7 @@ const posts = [
             </>,
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
+                <span className="d-block text-right"><CustomInnerLink path="niezbędnik-przedslubny" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
             </>
     },
     {
@@ -806,7 +1199,7 @@ const posts = [
         ],
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
+                <span className="d-block text-right"><CustomInnerLink path="niezbędnik-przedslubny" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
             </>
     },
 
@@ -896,7 +1289,7 @@ const posts = [
             </>,
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
+                <span className="d-block text-right"><CustomInnerLink path="niezbędnik-przedslubny" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
             </>
     },
     {
@@ -988,7 +1381,7 @@ const posts = [
             </>,
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
+                <span className="d-block text-right"><CustomInnerLink path="niezbędnik-przedslubny" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
             </>
     },
     {
@@ -1027,7 +1420,7 @@ const posts = [
         ],
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
+                <span className="d-block text-right"><CustomInnerLink path="niezbędnik-przedslubny" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
             </>
     },
     {
@@ -1114,7 +1507,7 @@ const posts = [
             </>,
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
+                <span className="d-block text-right"><CustomInnerLink path="niezbędnik-przedslubny" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
             </>
     },
     {
@@ -1168,7 +1561,7 @@ const posts = [
         textAuthor: "Kasia",
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Ślubne opowieści, czyli wesela dawniej" className="bgColorLight" /></span>
+                <span className="d-block text-right"><CustomInnerLink path="ślubne-opowieści-czyli-wesela-dawniej" text="Ślubne opowieści, czyli wesela dawniej" className="bgColorLight" /></span>
             </>
     },
 
@@ -1250,7 +1643,7 @@ const posts = [
             </>,
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
+                <span className="d-block text-right"><CustomInnerLink path="niezbędnik-przedslubny" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
             </>
 
     },
@@ -1296,7 +1689,7 @@ const posts = [
             <p className="mb-1">Fotografie: <CustomOuterLink to="https://pokadrowani.pl/" text="Pokadrowani" /></p>,
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Opowiadamy o naszych realizacjach" className="bgColorLight" /></span>
+                <span className="d-block text-right"><CustomInnerLink path="opowiadamy-o-naszych-realizacjach" text="Opowiadamy o naszych realizacjach" className="bgColorLight" /></span>
             </>
     },
     {
@@ -1386,7 +1779,7 @@ const posts = [
             </>,
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
+                <span className="d-block text-right"><CustomInnerLink path="niezbędnik-przedslubny" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
             </>
     },
     {
@@ -1446,7 +1839,7 @@ const posts = [
             </>,
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
+                <span className="d-block text-right"><CustomInnerLink path="niezbędnik-przedslubny" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
             </>
     },
 
@@ -1498,7 +1891,7 @@ const posts = [
         textAuthor: "Ola",
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
+                <span className="d-block text-right"><CustomInnerLink path="niezbędnik-przedslubny" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
             </>
     },
 
@@ -1559,7 +1952,7 @@ const posts = [
         textAuthor: "Ola",
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
+                <span className="d-block text-right"><CustomInnerLink path="niezbędnik-przedslubny" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
             </>
     },
 
@@ -1613,7 +2006,7 @@ const posts = [
         ],
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
+                <span className="d-block text-right"><CustomInnerLink path="niezbędnik-przedslubny" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
             </>
     }
 

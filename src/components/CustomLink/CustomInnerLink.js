@@ -5,7 +5,7 @@ import URLS from '../../utils/urls'
 import './styles.scss'
 
 const CustomInnerLink = ({ path, text, className = "", target }) => (
-    <Link className={`CustomLink ${className}`} to={generatePath(URLS.POST, { url: path })} target={target}>
+    <Link className={`CustomLink ${className}`} to={generatePath(URLS.CATEGORY, { tag: path })} target={target}>
         {text}
     </Link>
 )

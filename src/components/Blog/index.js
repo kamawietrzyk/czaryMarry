@@ -56,7 +56,7 @@ const Blog = () => {
         } else {
             history.push(!tag
                 ? URLS.BLOG_PAGE.replace(':page', page)
-                : URLS.CATEGORY_PAGE.replace(":tag", tag).replace(':page', page));
+                : URLS.CATEGORY_PAGE.replace(':tag', tag).replace(':page', page));
         }
     }
 
@@ -65,7 +65,7 @@ const Blog = () => {
         if (isSwitch) {
             return setCurrentPage(pageNum);
         };
-        return setCurrentPage(currentPage + pageNum);
+        return setCurrentPage(parseInt(currentPage) + pageNum);
     }
 
     return (
