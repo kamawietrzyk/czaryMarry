@@ -6,6 +6,43 @@ import URLS from './urls'
 
 const posts = [
     {
+        path: '10-hey-wedding-pogromcy-mitow-cz-2',
+        title: '#10 Hey Wedding - Pogromcy mitów cz.2',
+        seoText: 'W 10 odcinku podcastu Hey Wedding bierzemy pod lupę najpopularniejsze weselne mity. Porozmawiamy między innymi o tym, czy to prawda, że wszystko co weselne jest droższe, czym jest tradycyjne Polskie wesele, oraz czy usługi wedding plannera są drogie.',
+        tag: 'podcast',
+        date: '1 wrz 2020',
+        textShort: 'Podcast o tematyce ślubnej. W 10 odcinku kolejny raz bierzemy pod lupę weselne mity.',
+        mainPic: {
+            src: require('./BlogPics/podcast.png').default
+        },
+        textMain:
+            <>
+                To już 10 odcinek naszego podcastu! Wracamy do Was po krótkiej przerwie z kolejną dawką <span className="bold bgMintLight">weselnych mitów</span>, które postanowiłyśmy wziąć pod lupę. Tym razem porozmawiamy czy wszystko, co ślubne jest droższe, a jeśli tak to z czego to wynika. Rozważymy, czy wesele musi być dwudniowe i czy wypada zorganizować przyjęcie bez poprawin. Będzie też sporo o "tradycyjnych, polskich weselach" i ich "najważniejszych" elementach.
+            </>,
+        content: [
+            {
+                text:
+                <>
+                Zdradzimy Wam, dlaczego lepiej nie planować zbyt dużej ilości atrakcji, oraz zastanowimy się, czy ślub cywilny może mieć intymny i romantyczny charakter. Podyskutujemy również o tym, czy <span className="bold bgMintLight">pomoc wedding plannera</span> to droga usługa oraz czy warto decydować się na jego pomoc, skoro podczas organizacji wesela możemy liczyć na rodziców i przyjaciół. Wszystko to przeplatane masą około ślubnych dygresji, inspiracji i ciekawych anegdot.
+                </>
+            },
+            {
+                text:
+                <>
+                Jeśli spodobał Wam się ten odcinek, koniecznie posłuchajcie <CustomInnerLink path="6-hey-wedding-pogromcy-mitów" text="#6 Hey Wedding - Pogromcy mitów" className="bgColorMint" />.
+                </>
+            }
+        ],
+        links:
+            <>
+                <iframe title="#10 Hey Wedding - Pogromcy mitów cz.2" height="122" width="100%" style={{ border: "none" }}scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/media/player/7aebs-e9c9ab?from=pb6admin&download=1&version=1&auto=0&share=1&download=1&rtl=0&fonts=Helvetica&skin=1&pfauth=&btn-skin=107"></iframe>
+            </>,
+        extras:
+            <>
+                <span className="d-block text-right"><CustomInnerLink path="podcast" text="Podcast" className="bgColorMint" /></span>
+            </>
+    },
+    {
         path: 'sesja-stylizowana-w-stylu-glamour',
         title: 'Sesja stylizowana - Ślub, którego nie było.',
         seoText: 'Sesja ślubna w stylu glamour. Nieoczywiste połączenie surowych zamkowych murów przełamane eleganckimi dodatkami i odważną kolorystyką oraz formą kwiatów.',
@@ -34,7 +71,7 @@ const posts = [
             {
                 text:
                     <>
-                        Tworząc koncepcję naszej stylizowanej sesji w ruinach zamku, postawiłyśmy na nieoczywiste połączenie kolorów. W palecie barw pojawił się więc róż, ceglany i czerń w połączeniu z jasnymi kwiatami. Dało to klimat elegancji i nowoczesności. Ruiny <CustomOuterLink to="http://www.zameksarny.pl/" text='Zamku Sarny' className="bgColorPink" /> okazały się idealne dla tych kolorów.
+                        Tworząc koncepcję naszej stylizowanej sesji w ruinach zamku, postawiłyśmy na nieoczywiste połączenie kolorów. W palecie barw pojawił się więc róż, ceglany i czerń w połączeniu z jasnymi kwiatami. Dało to klimat elegancji i nowoczesności. Ruiny <CustomOuterLink to="http://www.zameksarny.pl/" text='zamku Sarny' className="bgColorPink" /> okazały się idealne dla tych kolorów.
                     </>,
                 pics: [
                     {
