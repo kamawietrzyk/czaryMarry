@@ -5,7 +5,7 @@ import URLS from '../../utils/urls'
 import './styles.scss'
 
 const PostPreviewSmall = ({ mainPic, title, path }) => (
-    <Link className="custom-link" to={generatePath(URLS.POST, { url: path })}>
+    <Link className="custom-link" to={generatePath(URLS.POST, { path: path })}>
         <div className="PostPreviewSmall">
             <img src={mainPic.src} alt={title} />
             <h2 className="postSmall-title">{title}</h2>

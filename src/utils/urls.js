@@ -8,7 +8,7 @@ const URLS = {
     BLOG_PAGE: '/blog-1/page/:page',
     CATEGORY: '/blog-1/categories/:tag',
     CATEGORY_PAGE: '/blog-1/categories/:tag/page/:page',
-    POST: '/post/:url',
+    POST: '/post/:path',
     CONTACT: '/kontakt'
 }
 

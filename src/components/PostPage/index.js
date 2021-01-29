@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, withRouter, useParams } from 'react-router-dom'
+import { Link, withRouter, useParams, generatePath } from 'react-router-dom'
 import PostPreviewSmall from '../PostPreviewSmall'
 import URLS from '../../utils/urls'
 import posts from '../../utils/posts'
@@ -9,30 +9,28 @@ import ScrollToTopOnMount from '../ScrollToTopOnMount'
 import Picture from '../Picture'
 import ArrowToTop from '../ArrowToTop'
 import ToStartOnUpdate from '../ToStartOnUpdate'
-// import SeoContent from '../SeoContent'
+import SeoContent from '../SeoContent'
 
-    // const APP_URL = process.env.REACT_APP_BASE_URL
-
-    // const { title, seoTitle, seoText, path, mainPic } = posts
-    // const seoPath = generatePath(URLS.POST, { url: path })
-
-    // const seo = {
-    //     title: {seoTitle ? seoTitle : title},
-    //     description: seoText,
-    //     url: `${APP_URL}${seoPath}`,
-    //     image: mainPic.src
-    // }
+    const APP_URL = process.env.REACT_APP_BASE_URL
 
 const PostPage = () => {
-    const { url } = useParams()
-    const selectedPost = posts.find(post => post.path === url)
+    const { path } = useParams()
+    const selectedPost = posts.find(post => post.path === path)
     const relatedPost = posts.slice(0, 3)
 
-    const { title, date, edited, topPic, textMain, content, textAuthor, links, extras } = selectedPost
+    const { title, seoTitle, seoText, date, edited, topPic, textMain, mainPic, content, textAuthor, links, extras } = selectedPost
+    const seoPath = selectedPost.path
+
+    const seo = {
+        title: !seoTitle ? title : seoTitle,
+        description: seoText,
+        url: `${APP_URL}${generatePath(URLS.POST, { path: seoPath })}`,
+        image: mainPic.src
+    }
 
     return (
         <>
-            {/* <SeoContent {...seo} /> */}
+            <SeoContent {...seo} />
             <ScrollToTopOnMount />
             <ToStartOnUpdate />
             <ArrowToTop />
