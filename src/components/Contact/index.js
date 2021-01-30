@@ -99,10 +99,10 @@ class Contact extends Component {
     render() {
 
         const icons = [
-            { src: spotify, alt: "Spotify icon" },
-            { src: yt, alt: "Youtube icon" },
-            { src: ig, alt: "Instagram icon" },
-            { src: fb, alt: "Facebook icon" },
+            { src: spotify, alt: "Spotify icon", href: 'https://open.spotify.com/show/7Lj581I8xRqkY3lRwkOvrc' },
+            { src: yt, alt: "Youtube icon", href: 'https://www.youtube.com/channel/UCenAClIHyVJom4GTaGHD_aw' },
+            { src: ig, alt: "Instagram icon", href: 'https://www.instagram.com/wedding_czarymarry/' },
+            { src: fb, alt: "Facebook icon", href: 'https://www.facebook.com/Agencja.Slubna.CzaryMarry/' },
         ]
 
         const { name, email, phone, message, subject, messageSuccess, formErrors, formValid } = this.state
@@ -112,10 +112,12 @@ class Contact extends Component {
                 <div className="Contact">
                     <div className="Contact-main">
                         <div className="Contact-main_icons">
-                            {icons.map(({ src, alt }) => (
-                                <div key={alt} className="icon-wrapper">
-                                    <img src={src} alt={alt} />
-                                </div>
+                            {icons.map(({ src, alt, href }) => (
+                                <a href={href} key={alt} target="_blank" rel="noopener noreferrer">
+                                    <div className="icon-wrapper">
+                                        <img src={src} alt={alt} />
+                                    </div>
+                                </a>
                             ))}
                         </div>
                         <div className="Contact-main_form">
@@ -125,17 +127,19 @@ class Contact extends Component {
                             </p>
                         </div>
                     </div>
-                </div>
+                </div >
             )
         }
         return (
             <div className="Contact">
                 <div className="Contact-main">
                     <div className="Contact-main_icons">
-                        {icons.map(({ src, alt }) => (
-                            <div key={alt} className="icon-wrapper">
-                                <img src={src} alt={alt} />
-                            </div>
+                        {icons.map(({ src, alt, href }) => (
+                            <a href={href} key={alt} target="_blank" rel="noopener noreferrer">
+                                <div key={alt} className="icon-wrapper">
+                                    <img src={src} alt={alt} />
+                                </div>
+                            </a>
                         ))}
                     </div>
                     <div className="Contact-main_form" id="contact">
