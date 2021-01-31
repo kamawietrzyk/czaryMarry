@@ -9,7 +9,8 @@ const URLS = {
     CATEGORY: '/blog-1/categories/:tag',
     CATEGORY_PAGE: '/blog-1/categories/:tag/page/:page',
     POST: '/post/:path',
-    CONTACT: '/kontakt'
+    CONTACT: '/kontakt',
+    LANDING: '/:path'
 }
 
 export default URLS

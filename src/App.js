@@ -14,6 +14,7 @@ import OurCouples from './components/OurCouples';
 import Offer from './components/Offer';
 import Blog from './components/Blog';
 import PostPage from './components/PostPage';
+import LandingPage from './components/LandingPage';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <Route exact path={URLS.BLOG_PAGE} component={Blog} />
         <Route exact path={URLS.OFFER} component={Offer} />
         <Route exact path={URLS.CONTACT} component={Home} />
+        <Route exact path={URLS.LANDING} component={LandingPage} />
       </Switch>
       <Footer />
     </div>
