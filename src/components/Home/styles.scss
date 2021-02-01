@@ -279,7 +279,7 @@
                     transition: opacity .2s ease-in;
 
                     &:hover {
-                        opacity: .7;
+                        opacity: .5;
                     }
                 }
 
@@ -293,15 +293,15 @@
                     }
 
                     @media (min-width: $tablet) {
-                        max-height: 20rem;
+                        max-height: 16rem;
                     }
 
                     @media (min-width: $laptop) {
-                        max-height: 22rem;
+                        max-height: 14rem;
                     }
 
                     @media (min-width: $desktop) {
-                        max-height: 27rem;
+                        max-height: 21rem;
                     }
                 }
             }

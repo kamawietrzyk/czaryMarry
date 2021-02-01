@@ -8,6 +8,7 @@ import landings from './landings'
 import URLS from '../../utils/urls'
 import logo from '../../utils/czarymarry_logo.png'
 import SeoContent from '../SeoContent';
+import ToStartOnUpdate from '../ToStartOnUpdate'
 
 const APP_URL = process.env.REACT_APP_BASE_URL
 
@@ -75,6 +76,7 @@ const LandingPage = () => {
         <>
             <ArrowToTop />
             <ScrollToTopOnMount />
+            <ToStartOnUpdate />
             <SeoContent {...seo} />
             <div className="LandingPage main-div">
                 <h1 className="page-title">{mainHeader}</h1>

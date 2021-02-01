@@ -49,7 +49,7 @@ const Navbar = () => {
         window.scrollTo({ top: y, behavior: 'smooth' });
     }
 
-    const scrollToStart = () => {
+    const onClickScroll = () => {
         if (window.outerWidth >= 768 && window.outerWidth < 1024) {
             window.scrollTo({ top: 530, behavior: 'smooth' });
         } else {
@@ -77,7 +77,7 @@ const Navbar = () => {
                                     exact
                                     key={index}
                                     to={path}
-                                    onClick={scrollToStart}
+                                    onClick={onClickScroll}
                                     role="tab"
                                     className="nav-item nav-link"
                                     activeClassName="active">
