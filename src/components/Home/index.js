@@ -17,10 +17,11 @@ import logo from '../../utils/czarymarry_logo.png'
 import SeoContent from '../SeoContent';
 
 const APP_URL = process.env.REACT_APP_BASE_URL
+
 const seo = {
-    title: '',
+    title: 'Wedding planner | agencja ślubna Czary Marry',
     description:
-        '',
+        'Kompleksowo organizujemy śluby i wesela. Uwolnimy Cię od stresu przygotowań ślubnych, zadbamy o każdy detal i urządzimy ślub Twoich marzeń.',
     url: `${APP_URL}${URLS.HOME}`,
     image: logo
 }

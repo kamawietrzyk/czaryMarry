@@ -10,6 +10,17 @@ import posts from '../../utils/posts'
 import ToTopOnUpdate from '../ToTopOnUpdate'
 import { useHistory, useParams } from 'react-router-dom'
 import URLS from '../../utils/urls'
+import logo from '../../utils/czarymarry_logo.png'
+import SeoContent from '../SeoContent';
+
+const APP_URL = process.env.REACT_APP_BASE_URL
+
+const seo = {
+    title: 'Blog | agencja ślubna | Czary Marry',
+    description: 'Blog agencji ślubnej Czary Marry - porady, aktualności, inspiracje i praktyczne wskazówki.',
+    url: `${APP_URL}${URLS.BLOG}`,
+    image: logo
+}
 
 const Blog = () => {
     let { tag, page: currentPage } = useParams()
@@ -34,7 +45,6 @@ const Blog = () => {
     const totalFilteredPages = Math.ceil(filteredData.length /postsPerPage)
 
     const filters = [
-        { name: "Wszystkie wpisy", tag: "wszystkie-wpisy" },
         { name: "Niezbędnik przedŚLUBNY", tag: "niezbędnik-przedslubny" },
         { name: "Opowiadamy o naszych realizacjach", tag: "opowiadamy-o-naszych-realizacjach" },
         { name: "Wesela stulecia", tag: "wesela-stulecia" },
@@ -71,6 +81,7 @@ const Blog = () => {
     return (
         <div className="Blog">
             <ScrollToTopOnMount />
+            <SeoContent {...seo} />
             <ToTopOnUpdate />
             <ArrowToTop />
             <div className="page-header">
@@ -84,7 +95,7 @@ const Blog = () => {
                 O ślubach i weselach wiemy dużo... naprawdę dużo. Dodatkowo bardzo lubimy dzielić się swoją wiedzą i doświadczeniem. Zapraszamy więc do naszego małego świata pełnego porad oraz inspiracji ślubnych. Mamy nadzieję, że czytając naszego bloga zobaczycie, jak bardzo uwielbiamy swoją pracę.
                 </p>
             <div className="bg-grey">
-                <FiltersBar filters={filters} onFilterSelect={onFilterSelect} />
+                <FiltersBar filters={filters} onFilterSelect={onFilterSelect} selectedTag={tag} />
             </div>
             <div className="Blog-content">
                 <PostPreview posts={!tag ? slicedPosts : slicedFiltered }  />

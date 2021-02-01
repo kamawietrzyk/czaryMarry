@@ -2,6 +2,18 @@ import React from 'react'
 import ArrowToTop from '../ArrowToTop'
 import ScrollToTopOnMount from '../ScrollToTopOnMount'
 import './styles.scss'
+import URLS from '../../utils/urls'
+import logo from '../../utils/czarymarry_logo.png'
+import SeoContent from '../SeoContent';
+
+const APP_URL = process.env.REACT_APP_BASE_URL
+
+const seo = {
+    title: 'Oferta | konsultanci ślubni | Czary Marry',
+    description: 'Wyjątkowa oferta organizacji Waszego ślubu i wesela marzeń. Poznaj propozycję konsultanta ślubnego.',
+    url: `${APP_URL}${URLS.OFFER}`,
+    image: logo
+}
 
 const offerDetails = [
     { color: "bgPink", number: "01", title: "Kompleksowa organizacja", text: "To całkowita pomoc w organizacji oraz wsparcie na każdym etapie planowania wesela. Zaczynając od zaplanowania budżetu, poszukiwania sali, stworzenia harmonogramu przygotowań, poprzez poszukiwanie wszystkich wykonawców, skończywszy na stworzeniu scenariusza ślubnego i koordynacji przyjęcia." },
@@ -13,6 +25,7 @@ const offerDetails = [
 const Offer = () => (
     <div className="Offer main-div">
         <ScrollToTopOnMount />
+        <SeoContent {...seo} />
         <ArrowToTop />
         <div className="page-header">
             <span className="number">05</span>

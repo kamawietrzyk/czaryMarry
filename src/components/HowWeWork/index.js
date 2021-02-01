@@ -3,6 +3,18 @@ import ArrowToTop from '../ArrowToTop'
 import './styles.scss'
 import '../../utils/colors.scss'
 import ScrollToTopOnMount from '../ScrollToTopOnMount'
+import URLS from '../../utils/urls'
+import logo from '../../utils/czarymarry_logo.png'
+import SeoContent from '../SeoContent';
+
+const APP_URL = process.env.REACT_APP_BASE_URL
+const seo = {
+    title: 'Jak pracujemy | Czary Marry',
+    description: 'Chcesz wiedzieć, jak nawiązać współpracę z nami oraz jak ona przebiega? Dowiedz się, jakimi wartościami się kierujemy.',
+    url: `${APP_URL}${URLS.WORK}`,
+    image: logo
+}
+
 
 const gridDetails = [
     { gridName: "div-one", color: "pink", number: "01", text: "Nie mamy sztywnych godzin pracy. Jesteśmy do Waszej dyspozycji bez limitu, o każdej porze dnia. To Wy decydujecie, jaka forma kontaktu jest dla Was najlepsza. Spotkanie przy kawie, rozmowa telefoniczna, e-mail, WhatsApp, Skype – wszędzie nas złapiecie." },
@@ -22,6 +34,7 @@ const details = [
 const HowWeWork = () => (
     <div className="HowWeWork">
         <ScrollToTopOnMount />
+        <SeoContent {...seo} />
         <ArrowToTop />
         <div className="page-header">
             <span className="num-span number">02</span>

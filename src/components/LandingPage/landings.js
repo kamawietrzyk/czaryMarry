@@ -6,6 +6,8 @@ import CustomCategoryLink from '../CustomLink/CustomCategoryLink';
 const landings = [
     {
         path: 'wedding-planner-poznan',
+        seoTitle: 'Wedding planner Poznań – organizacja ślubów i wesel - konsultant ślubny Poznań',
+        seoText: 'Planujecie zorganizować swój ślub i wesele w okolicy Poznania? Szukacie wedding plannera, który dobrze zna okoliczne miejsca oraz miejscowych usługodawców ślubnych?',
         mainHeader: 'Wedding Planner Poznań - profesjonalna organizacja ślubów i wesel',
         boxTitle: 'Wedding planner Poznań - Jak wybrać najlepszego.',
         textOne:
@@ -92,6 +94,8 @@ const landings = [
 
     {
         path: 'organizacja-wesel-wroclaw',
+        seoTitle: 'Organizacja wesel – Wrocław – Agencja ślubna Czary Marry wedding planners',
+        seoText: 'Planujecie zorganizować swój ślub i wesele w okolicy Wrocławia? Szukacie lokalnego wedding plannera, który dobrze zna okoliczne miejsca oraz miejscowych usługodawców ślubnych?',
         mainHeader: 'Konsultant Ślubny Wrocław',
         boxTitle: 'Wedding planner Wrocław - Czy to konieczne?',
         textOne:

@@ -1,10 +1,15 @@
 import React from 'react'
-import { useParams, withRouter } from 'react-router-dom'
+import { useParams, withRouter, generatePath } from 'react-router-dom'
 import ArrowToTop from '../ArrowToTop'
 import ScrollToTopOnMount from '../ScrollToTopOnMount'
 import Slider from 'react-slick'
 import './styles.scss'
 import landings from './landings'
+import URLS from '../../utils/urls'
+import logo from '../../utils/czarymarry_logo.png'
+import SeoContent from '../SeoContent';
+
+const APP_URL = process.env.REACT_APP_BASE_URL
 
 const LandingPage = () => {
 
@@ -56,13 +61,21 @@ const LandingPage = () => {
     const { path } = useParams()
     const selectedLanding = landings.find(item => item.path === path)
 
-    const { mainHeader, boxTitle, textOne, textTwo, placePics, content, gridHeader, gridBgColor, gridTextOne, gridTextTwo, gridPics, numsTitle, numsText, numsContent, bottomTitle, bottomText } = selectedLanding
+    const { seoTitle, seoText, mainHeader, boxTitle, textOne, textTwo, placePics, content, gridHeader, gridBgColor, gridTextOne, gridTextTwo, gridPics, numsTitle, numsText, numsContent, bottomTitle, bottomText } = selectedLanding
+    const seoPath = selectedLanding.path
 
+    const seo = {
+        title: seoTitle,
+        description: seoText,
+        url: `${APP_URL}${generatePath(URLS.LANDING, { path: seoPath })}`,
+        image: logo
+    }
 
     return (
         <>
             <ArrowToTop />
             <ScrollToTopOnMount />
+            <SeoContent {...seo} />
             <div className="LandingPage main-div">
                 <h1 className="page-title">{mainHeader}</h1>
                 <div className="container-top">

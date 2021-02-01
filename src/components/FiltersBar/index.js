@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './styles.scss'
 
-const FiltersBar = ({ filters, onFilterSelect }) => {
+const FiltersBar = ({ filters, onFilterSelect, selectedTag }) => {
 
     const [dropdownOpen, setDropdownOpen] = useState(false)
     const [listOpen, setListOpen] = useState(false)
@@ -21,16 +21,17 @@ const FiltersBar = ({ filters, onFilterSelect }) => {
                 </div>
             </div>
             <div className="FiltersBar-desktop">
-                {filters.slice(0, 3).map(({ name, tag }) => (
-                    <a onClick={onFilterSelect(tag)} key={tag} href=" ">{name}</a>
+                <a className={`${!selectedTag && 'active'}`} onClick={onFilterSelect('wszystkie-wpisy')} key="wszystkie-wpisy" href=" ">Wszystkie wpisy</a>
+                {filters.slice(0, 2).map(({ name, tag }) => (
+                    <a className={`${selectedTag === tag && 'active'}`} onClick={onFilterSelect(tag)} key={tag} href=" ">{name}</a>
                 ))}
                 <div className="dropdown" onMouseOver={() => setDropdownOpen(true)} onMouseLeave={() => setDropdownOpen(false)}>
                     <a className="dropdown-toggle" onClick={e => e.preventDefault()} id="dropdownMenuButton" href=" " aria-expanded="false">
                         Więcej
                     </a>
                     <div className={`dropdown-menu ${dropdownOpen && "show"}`} aria-labelledby="dropdownMenuButton">
-                        {filters.slice(3).map(({ name, tag }) => (
-                            <a onClick={onFilterSelect(tag)} key={tag} className="dropdown-item" href=" ">{name}</a>
+                        {filters.slice(2).map(({ name, tag }) => (
+                            <a onClick={onFilterSelect(tag)} key={tag} className={`dropdown-item ${selectedTag === tag && 'active'}`} href=" ">{name}</a>
                         ))}
                     </div>
                 </div>
