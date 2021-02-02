@@ -143,8 +143,12 @@ const LandingPage = () => {
                     ))}
                 </div>
                 <div className="container-bottom">
-                    <h2>{bottomTitle}</h2>
-                    <span>{bottomText}</span>
+                    {bottomTitle &&
+                        <h2>{bottomTitle}</h2>
+                    }
+                    {bottomText &&
+                        <span>{bottomText}</span>
+                    }
                 </div>
             </div>
         </>
