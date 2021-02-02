@@ -2,8 +2,10 @@ import React from 'react';
 import Contact from '../Contact';
 import './styles.scss';
 import footerPic from './konsultantki-slubne-czary-marry-kontakt.jpg';
+import { Link, generatePath } from 'react-router-dom';
+import URLS from '../../utils/urls';
 
-const Footer = () => {
+const Footer = ({ location }) => {
 
     return (
         <div className="Footer" id="footer">
@@ -13,7 +15,7 @@ const Footer = () => {
                     <h2>Napisz <span>do nas!</span></h2>
                     <p>kontakt@czarymarry.com</p>
                     <p>Kasia 577-900-036,<span className="mobile"><br/></span> Ola 726-594-267</p>
-                    <p className="bottom">Agencja ślubna Czary Marry <br/>Wrocław</p>
+                    <p className="bottom">Agencja ślubna Czary Marry <br/><Link to={generatePath(URLS.LANDING, { path: 'organizacja-wesel-wroclaw'})} className="CustomLink text-white">Wrocław</Link>, <Link to={generatePath(URLS.LANDING, { path: 'wedding-planner-poznan'})} className="CustomLink text-white">Poznań</Link> </p>
                 </div>
             </div>
             <div className="Footer-contact">

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import ArrowToTop from '../ArrowToTop'
 import ScrollToTopOnMount from '../ScrollToTopOnMount'
 import signal from '../Icons/signal.svg'
@@ -8,11 +8,27 @@ import PostPreview from '../PostPreview'
 import FiltersBar from '../FiltersBar'
 import posts from '../../utils/posts'
 import ToTopOnUpdate from '../ToTopOnUpdate'
+import { useHistory, useParams } from 'react-router-dom'
+import URLS from '../../utils/urls'
+import logo from '../../utils/czarymarry_logo.png'
+import SeoContent from '../SeoContent';
+
+const APP_URL = process.env.REACT_APP_BASE_URL
+
+const seo = {
+    title: 'Blog | agencja ślubna | Czary Marry',
+    description: 'Blog agencji ślubnej Czary Marry - porady, aktualności, inspiracje i praktyczne wskazówki.',
+    url: `${APP_URL}${URLS.BLOG}`,
+    image: logo
+}
 
 const Blog = () => {
+    let { tag, page: currentPage } = useParams()
+    const history = useHistory()
 
-    const [currentPage, setCurrentPage] = useState(1)
-    const [clickedTab, setClickedTab] = useState("wszystkie")
+    if (!currentPage) {
+        currentPage = 1
+    }
 
     const postsPerPage = 5
     const totalPages = Math.ceil(posts.length / postsPerPage)
@@ -20,25 +36,38 @@ const Blog = () => {
     const indexOfFirstPost = indexOfLastPost - postsPerPage
     const slicedPosts = posts.slice(indexOfFirstPost, indexOfLastPost)
 
-    const filteredData = posts.filter(post => {
-        return post.tag && post.tag.toLowerCase() === clickedTab.toLowerCase()});
+    let filteredData = posts.filter(post => {
+        return !tag || (post.tag && post.tag.toLowerCase() === tag.toLowerCase());
+    });
 
     const slicedFiltered = filteredData.slice(indexOfFirstPost, indexOfLastPost)
+
     const totalFilteredPages = Math.ceil(filteredData.length /postsPerPage)
 
     const filters = [
-        { name: "Wszystkie wpisy", tag: "wszystkie" },
-        { name: "Niezbędnik przedŚLUBNY", tag: "niezbędnik" },
-        { name: "Opowiadamy o naszych realizacjach", tag: "realizacje" },
-        { name: "Wesela stulecia", tag: "stulecie" },
-        { name: "Ślubne opowieści, czyli wesela dawniej", tag: "opowieści" },
-        { name: "Śluby i wesela na świecie", tag: "świat" },
+        { name: "Niezbędnik przedŚLUBNY", tag: "niezbędnik-przedslubny" },
+        { name: "Opowiadamy o naszych realizacjach", tag: "opowiadamy-o-naszych-realizacjach" },
+        { name: "Wesela stulecia", tag: "wesela-stulecia" },
+        { name: "Ślubne opowieści, czyli wesela dawniej", tag: "ślubne-opowieści-czyli-wesela-dawniej" },
+        { name: "Śluby i wesela na świecie", tag: "śluby-i-wesela-na-świecie" },
         { name: "Podcast", tag: "podcast" }
     ]
 
     const onFilterSelect = (tag) => (e) => {
         e.preventDefault();
-        setClickedTab(tag);
+        history.push(tag === 'wszystkie-wpisy' ? URLS.BLOG : URLS.CATEGORY.replace(":tag", tag));
+    }
+
+    const setCurrentPage = (page) => {
+        if (parseInt(page) === 1) {
+            history.push(!tag
+                ? URLS.BLOG
+                : URLS.CATEGORY.replace(":tag", tag));
+        } else {
+            history.push(!tag
+                ? URLS.BLOG_PAGE.replace(':page', page)
+                : URLS.CATEGORY_PAGE.replace(':tag', tag).replace(':page', page));
+        }
     }
 
     const onPageChange = (pageNum, isSwitch) => (e) => {
@@ -46,12 +75,13 @@ const Blog = () => {
         if (isSwitch) {
             return setCurrentPage(pageNum);
         };
-        return setCurrentPage(currentPage + pageNum);
+        return setCurrentPage(parseInt(currentPage) + pageNum);
     }
 
     return (
         <div className="Blog">
             <ScrollToTopOnMount />
+            <SeoContent {...seo} />
             <ToTopOnUpdate />
             <ArrowToTop />
             <div className="page-header">
@@ -65,12 +95,12 @@ const Blog = () => {
                 O ślubach i weselach wiemy dużo... naprawdę dużo. Dodatkowo bardzo lubimy dzielić się swoją wiedzą i doświadczeniem. Zapraszamy więc do naszego małego świata pełnego porad oraz inspiracji ślubnych. Mamy nadzieję, że czytając naszego bloga zobaczycie, jak bardzo uwielbiamy swoją pracę.
                 </p>
             <div className="bg-grey">
-                <FiltersBar filters={filters} onFilterSelect={onFilterSelect} />
+                <FiltersBar filters={filters} onFilterSelect={onFilterSelect} selectedTag={tag} />
             </div>
             <div className="Blog-content">
-                <PostPreview posts={clickedTab === "wszystkie" ? slicedPosts : slicedFiltered }  />
+                <PostPreview posts={!tag ? slicedPosts : slicedFiltered }  />
             </div>
-            <Pagination onChange={onPageChange} currentPage={currentPage} totalPages={clickedTab === "wszystkie" ? totalPages : totalFilteredPages } />
+            <Pagination onChange={onPageChange} currentPage={currentPage} totalPages={ !tag ? totalPages : totalFilteredPages } />
         </div>
     )
 }

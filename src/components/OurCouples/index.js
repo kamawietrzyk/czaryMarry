@@ -4,10 +4,22 @@ import CouplesSlider from '../OurCouplesSlider'
 import ScrollToTopOnMount from '../ScrollToTopOnMount'
 import weddings from '../OurCouples/weddings'
 import './styles.scss'
+import URLS from '../../utils/urls'
+import logo from '../../utils/czarymarry_logo.png'
+import SeoContent from '../SeoContent';
+
+const APP_URL = process.env.REACT_APP_BASE_URL
+const seo = {
+    title: 'Referencje organizatorek wesel | Czary Marry',
+    description: 'Dowiedz się, co sądzą o organizatorach wesel nasze pary. Poznaj referencje i opinie o Czary Marry.',
+    url: `${APP_URL}${URLS.COUPLES}`,
+    image: logo
+}
 
 const OurCouples = () => (
     <div className="OurCouples custom-div">
         <ScrollToTopOnMount />
+        <SeoContent {...seo} />
         <ArrowToTop />
         <div className="page-header">
             <span className="number">03</span>

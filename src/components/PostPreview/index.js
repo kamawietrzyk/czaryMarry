@@ -9,7 +9,7 @@ const PostPreview = ({ posts }) => {
     return (
         <div className="PostPreview">
             {posts.map(({ title, date, mainPic, textShort, path }, index) => (
-                <Link className="custom-link" to={generatePath(URLS.POST, { url: path })} key={index}>
+                <Link className="custom-link" to={generatePath(URLS.POST, { path: path })} key={index}>
                     <div className="PostPreview-mobile">
                         <div className="overlay-div">
                             <p>{date}</p>

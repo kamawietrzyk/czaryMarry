@@ -4,12 +4,24 @@ import kasia from './kasia.jpg';
 import ola from './ola.jpg';
 import ArrowToTop from '../ArrowToTop';
 import ScrollToTopOnMount from '../ScrollToTopOnMount';
+import URLS from '../../utils/urls'
+import logo from '../../utils/czarymarry_logo.png'
+import SeoContent from '../SeoContent';
+
+const APP_URL = process.env.REACT_APP_BASE_URL
+const seo = {
+    title: 'O nas | organizacja ślubów i wesel | Czary Marry',
+    description: 'Poznajcie nas. Opowiemy Wam, dlaczego uwielbiamy pracę jako konsultantki ślubne. Jesteście ciekawi, dlaczego tworzymy duet idealny?',
+    url: `${APP_URL}${URLS.ABOUT}`,
+    image: logo
+}
 
 const AboutUs = () => {
 
     return (
         <div className="AboutUs main-div">
             <ScrollToTopOnMount />
+            <SeoContent {...seo} />
             <ArrowToTop />
             <div className="page-header">
                 <span className="number">01</span>

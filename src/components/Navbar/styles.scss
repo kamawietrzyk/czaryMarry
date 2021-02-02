@@ -82,19 +82,18 @@
                     margin-right: auto;
 
                     .nav-link {
-                        padding-left: .75rem;
-                        padding-right: .75rem;
                         color: white;
                         font-size: 20px;
                         transition: color .4s ease-in-out;
+                        border-bottom: 1px solid transparent;
 
                         &:hover {
-                            color: $mediumGrey;
+                            color: $lightGrey;
                         }
 
                         @media (min-width: $tabletHorizontal) {
-                            padding-left: 1rem;
-                            padding-right: 1rem;
+                            margin-left: .7rem;
+                            margin-right: .7rem;
                             font-size: 22px;
                         }
 
@@ -104,7 +103,10 @@
                     }
 
                     .active {
-                        color: rgb(167, 165, 165);
+                        border-bottom: 1px solid white;
+                        &:hover {
+                            color: white;
+                        }
                     }
                 }
             }

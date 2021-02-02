@@ -1,0 +1,319 @@
+@import '../../utils/colors.scss';
+@import '../../utils/media.scss';
+
+.LandingPage {
+    padding-top: 2rem;
+
+    .page-title {
+        @media (min-width: $tablet) {
+            font-size: 80px;
+            text-align: center;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        @media (min-width: $laptop) {
+            margin-top: 4rem;
+        }
+    }
+
+    h2 {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 0;
+        text-align: center;
+        padding: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+
+        @media (min-width: $tablet) {
+            font-size: 30px;
+        }
+    }
+
+    p {
+        letter-spacing: 0.02em;
+        line-height: 1.6em;
+        font-size: 18px;
+    }
+
+    .container-top {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, auto);
+        grid-template-areas:
+            "one"
+            "square"
+            "two"
+            "pics";
+
+        .square {
+            grid-area: square;
+            width: 100%;
+            height: auto;
+            background-color: $pink;
+            margin: 1rem auto 2rem auto;
+            display: flex;
+
+            @media (min-width: $tablet) {
+                margin-top: 0;
+                margin-bottom: 0;
+
+                h2 {
+                    margin-bottom: auto;
+                    margin-top: auto;
+                }
+            }
+        }
+
+        .one {
+            grid-area: one;
+            margin-top: 2rem;
+            @media (min-width: $laptop) {
+                margin-bottom: 0;
+            }
+        }
+
+        .two {
+            grid-area: two;
+        }
+
+        .custom-slider {
+            grid-area: pics;
+            width: 90vw;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+
+            & .custom-box {
+                margin-left: .5rem;
+                margin-right: .5rem;
+
+                @media (min-width: $tablet) {
+                    height: 23rem;
+                }
+                @media (min-width: $laptop) {
+                    height: 28rem;
+                }
+                @media (min-width: $desktop) {
+                    height: 31rem;
+                }
+
+                img {
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            @media (min-width: $tablet) {
+                width: 95vw;
+            }
+
+            @media (min-width: $laptop) {
+                width: 85vw;
+                margin: 2rem auto;
+            }
+
+            @media (min-width: $desktop) {
+                width: 65vw;
+            }
+            @media (min-width: $desktopL) {
+                width: 45vw;
+            }
+        }
+
+        @media (min-width: $tablet) {
+            grid-template-columns: .9fr 1fr;
+            grid-templare-rows: repeat(3, auto);
+            grid-template-areas:
+                "one one"
+                "square two"
+                "pics pics";
+            grid-gap: 2rem;
+        }
+    }
+
+    .container-middle {
+        margin-bottom: 3rem;
+    }
+
+    .container-gridPics {
+
+        h2 {
+            grid-area: header;
+        }
+
+        .txt1 {
+            grid-area: txt1;
+
+            @media (min-width: $desktop) {
+                margin-top: 1rem;
+            }
+        }
+
+        .txt2 {
+            grid-area: txt2;
+            margin-top: 1rem;
+        }
+
+        .custom-slider-two {
+            width: 90vw;
+            margin-top: 2rem;
+
+            & .custom-box {
+                height: 14rem;
+                margin-left: .5rem;
+                margin-right: .5rem;
+
+                @media (min-width: $mobileM) {
+                    height: 18.5rem;
+                }
+
+                @media (min-width: $mobileL) {
+                    height: 22.5rem;
+                }
+
+                @media (min-width: $tablet) {
+                    height: 28.5rem;
+                }
+
+                @media (min-width: $laptop) {
+                    height: 32.5rem;
+                }
+
+                @media (min-width: $desktop) {
+                    height: 29rem;
+                }
+
+                img {
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            @media (min-width: $tablet) {
+                width: 46vw;
+                margin-top: 0;
+                grid-area: slider;
+            }
+
+            @media (min-width: $laptop) {
+                width: 37vw;
+            }
+            @media (min-width: $desktop) {
+                width: 26vw;
+            }
+        }
+
+        @media (min-width: $tablet) {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            grid-template-rows: repeat(3, auto);
+            grid-gap: 2rem;
+            grid-template-areas:
+                "header header"
+                "slider txt1"
+                "txt2 txt2";
+        }
+    }
+
+    .container-nums {
+        margin-top: 2rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, auto);
+        grid-row-gap: 1.5rem;
+
+        h2 {
+            background-color: $darkGrey;
+        }
+
+        .num-small,
+        .title-small,
+        p,
+        h2 {
+            color: white;
+        }
+
+        .dark {
+            color: $textGrey;
+        }
+
+        .num-small {
+            font-size: 38px;
+            font-family: 'Oswald', sans-serif;
+            font-weight: 600;
+
+            @media (min-width: $tablet) {
+                font-size: 65px;
+            }
+
+            @media (min-width: $laptop) {
+                font-size: 115px;
+                margin: auto 4rem;
+            }
+
+            @media (min-width: $desktop) {
+                font-size: 176px;
+            }
+        }
+
+        .title-small {
+            font-size: 20px;
+            font-weight: 600;
+            letter-spacing: 0.08em;
+            margin-top: 0.5rem;
+
+            @media (min-width: $tablet) {
+                font-size: 23px;
+            }
+        }
+
+        div {
+            padding: .5rem;
+
+            @media (min-width: $tablet) {
+                padding: 1rem;
+            }
+
+            @media (min-width: $laptop) {
+                padding: auto 4rem;
+            }
+
+            @media (min-width: $desktop) {
+                padding: auto 5rem;
+            }
+        }
+
+        @media (min-width: $laptop) {
+            grid-row-gap: 2.5rem;
+
+            .grid-cont {
+                display: flex;
+                height: 26rem;
+
+                &:nth-child(1) {
+                    .num-small {
+                        padding-right: 2%;
+                    }
+                }
+
+                p {
+                    font-size: 17px;
+                    margin-bottom: 0;
+                    line-height: 1.3em;
+                    margin-top: 1.75rem;
+                    width: 85%;
+                }
+
+                span {
+                    height: fit-content;
+                    align-self: center;
+                }
+
+            }
+        }
+    }
+    @media (min-width: $desktopL) {
+        margin: 2rem 5vw;
+    }
+}

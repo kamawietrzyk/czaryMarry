@@ -5,8 +5,12 @@ const URLS = {
     COUPLES: '/realizacje',
     OFFER: '/oferta',
     BLOG: '/blog-1',
-    POST: '/post/:url',
-    CONTACT: '/kontakt'
+    BLOG_PAGE: '/blog-1/page/:page',
+    CATEGORY: '/blog-1/categories/:tag',
+    CATEGORY_PAGE: '/blog-1/categories/:tag/page/:page',
+    POST: '/post/:path',
+    CONTACT: '/kontakt',
+    LANDING: '/:path'
 }
 
 export default URLS

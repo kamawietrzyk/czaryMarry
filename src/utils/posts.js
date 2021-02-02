@@ -1,10 +1,1158 @@
 import React from 'react'
-import CustomInnerLink from '../components/CustomLink/CustomInnerLink'
-import CustomOuterLink from '../components/CustomLink/CustomOuterLink'
 import { Link } from 'react-router-dom'
+import CustomPostLink from '../components/CustomLink/CustomPostLink'
+import CustomCategoryLink from '../components/CustomLink/CustomCategoryLink'
+import CustomOuterLink from '../components/CustomLink/CustomOuterLink'
 import URLS from './urls'
 
 const posts = [
+    {
+        path: '14-hey-wedding-o-tort-i-słodkości-weselne',
+        title: '#14 Hey Wedding - Tortowa w akcji, czyli o tortach i słodkościach weselnych',
+        seoText: 'Jeśli jesteś na diecie i chcesz ograniczyć spożycie cukru nie słuchaj tego odcinka! Tym razem rozmawiamy z wicemistrzynią Europy w zdobieniu tortów — Natalią Szymańską.',
+        tag: 'podcast',
+        date: '18 sty 2021',
+        textShort: 'Jeśli jesteś na diecie i chcesz ograniczyć spożycie cukru, nie słuchaj tego odcinka! Tym razem rozmawiamy z wicemistrzynią Europy w...',
+        mainPic: {
+            src: require('./BlogPics/podcast.png').default
+        },
+        textMain:
+            <>
+                Jeśli jesteś na diecie i chcesz ograniczyć spożycie cukru, nie słuchaj tego odcinka! Tym razem rozmawiamy z wicemistrzynią Europy w zdobieniu tortów — <span className="bgMintLight">Natalią Szymańską</span>. Dowiecie się między innymi, czy każdy może zostać cukiernikiem i jak zaczęła się jej słodka przygoda. <span className="bgMintLight"></span>
+            </>,
+        content: [
+            {
+                text: 'Zastanawiacie się, kiedy rozpocząć poszukiwania tortu weselnego i słodkiego stołu? Nie wiecie, ile słodkości powinniście zamówić? Na jakie smaki się zdecydować? Ten podcast rozwieje Wasze wątpliwości. Poza tym kilka rzeczy, o których być może nie mieliście pojęcia. Dlaczego powinno się wyciągnąć tort z lodówki na godzinę przed jego zaserwowaniem i nie czekać z serwisem do północy. Dlaczego warto zdecydować się na kilka smaków tortu. Jak stworzyć candy bar zgodny z motywem przewodnim wesela.'
+            },
+            {
+                text: 'Natalia zdradzi również, co jest dla niej największym wyzwaniem w pracy przy weselach i dlaczego pary młode oraz wedding planerzy nie odbierają od niej telefonów przed ślubem. Jak zwykle nie zabraknie humoru i ciekawych anegdot. Będzie pysznie!'
+            },
+            {
+                text:
+                <p>Link do Instagrama Natalii: <CustomOuterLink to="https://www.instagram.com/tortowawakcji/" text="Tortowa w Akcji" className="bgColorMint" /> </p>
+            }
+        ],
+        links:
+            <>
+                <iframe title="#14 Hey Wedding - Tortowa w akcji - czyli o tortach i słodkościach weselnych." height="122" width="100%" style={{ border: "none" }} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/media/player/dmp9w-f7efdb?from=pb6admin&download=1&version=1&auto=0&share=1&download=1&rtl=0&fonts=Helvetica&skin=1&pfauth=&btn-skin=107"></iframe>
+            </>,
+        extras:
+            <>
+                <span className="d-block text-right"><CustomCategoryLink path="podcast" text="Podcast" className="bgColorMint" /></span>
+            </>
+    },
+    {
+        path: '13-hey-wedding-wesele-w-zamku-ksiaz',
+        title: '#13 Hey Wedding - Bajkowe wesele Angeliki i Pawła',
+        seoText: 'Rozmowa z jedną z naszych par, której wesele odbyło się w Zamku Książ. Opowiemy o ciekawych rozwiązaniach i nieoczekiwanych zwrotach akcji które spotkały nas podczas organizacji wesela.',
+        tag: 'podcast',
+        date: '18 gru 2020',
+        textShort: 'Gośćmi 13 odcinka podcastu Hey Wedding byli Angelika i Paweł. Rozmawialiśmy o ich bajkowym weselu w Zamku Książ. O spektakularnych dekoracjach, o tym z czym...',
+        mainPic: {
+            src: require('./BlogPics/podcast.png').default
+        },
+        textMain:
+            <>
+                Gośćmi 13 odcinka podcastu <span className="bgMintLight">Hey Wedding</span> byli <span className="bgMintLight">Angelika i Paweł</span>. Rozmawialiśmy o ich bajkowym weselu w Zamku Książ. O spektakularnych dekoracjach, o tym z czym wiąże się organizacja wesela w turystycznym miejscu oraz o współpracy przy projekcie, który wymagał skoordynowania bardzo dużego zespołu wykonawców.
+            </>,
+        links:
+            <>
+                <iframe title="#13 Hey Wedding - Bajkowe wesele Angeliki i Pawła" height="122" width="100%" style={{ border: 'none' }} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/media/player/qhrrz-f55d39?from=pb6admin&download=1&version=1&auto=0&share=1&download=1&rtl=0&fonts=Helvetica&skin=1&pfauth=&btn-skin=107"></iframe>
+            </>,
+        extras:
+            <>
+                <span className="d-block text-right"><CustomCategoryLink path="podcast" text="Podcast" className="bgColorMint" /></span>
+            </>
+
+    },
+    {
+        path: 'folwark-wasowo-wesele',
+        seoTitle: 'Folwark Wąsowo - wesele w romantycznym stylu | Czary Marry',
+        seoText: 'Planujecie zorganizować Wasze wesele marzeń w Folwarku Wąsowo? Zobaczcie naszą nieoczywistą realizację łączącą odcienie bladego różu obrusów z bielą piwonii oraz surowym wnętrzem stodoły.',
+        date: '10 gru 2020',
+        title: 'Folwark Wąsowo - miejsce na wesele dające nieograniczone możliwości.',
+        textShort: 'Widok na kuźnię, która znajduje się na terenie Folwarku Wąsowo.',
+        mainPic: {
+            src: require('./BlogPics/Post28/post28.jpg').default
+        },
+        textMain:
+            <>
+                Można pokusić się o stwierdzenie, że każdy, kto poszukuje pięknej i klimatycznej stodoły na wesele na terenie województwa wielkopolskiego, musi prędzej czy później trafić na <span className="bgGreyLight">Folwark Wąsowo</span>. To niezwykłe miejsce niedaleko Poznania cieszy się popularnością nie tylko wśród par młodych, ale i wykonawców ślubnych. Pamiętamy, gdy po raz pierwszy miałyśmy okazję odwiedzić Folwark Wąsowo. Byłyśmy oczarowane jego klimatem i możliwościami, jakie oferuje. W poniższym artykule opowiemy Wam o jego największych zaletach.
+            </>,
+        content: [
+            {
+                pics: [
+                    {
+                        src: require('./BlogPics/Post28/post28a.jpg').default
+                    },
+                    {
+                        src: require('./BlogPics/Post28/post28b.jpg').default
+                    },
+                ]
+            },
+            {
+                headerSmall: <span className="grey">Folwark Wąsowo — nie tylko na rustykalne wesele.</span>,
+                text:
+                    <>
+                        Mogłoby się wydawać, że stodoła Wąsowo jest miejscem bardzo określonym przez swój klimat. Jednak gwarantujemy Wam, że można tam zorganizować przyjęcia weselne nie tylko w stylu rustykalnym. Świetnie obronią się tam również bardziej nowoczesne klimaty, a także styl boho oraz bardzo popularne w ostatnich sezonach romantyczne dekoracje zakrawające na niewymuszoną elegancję. Przykładem może być wesele jednej z naszych par, które zorganizowałyśmy w Folwarku Wąsowo jakiś czas temu. Para wymarzyła sobie nieco inny klimat, a przy pomocy zespołu <span className="bgGreyLight">ART SIZE</span> udało się go wyczarować. Folwark w Wąsowie udekorowały różowe połyskliwe obrusy i biało-różowe piwonie z elementami zieleni.
+                    </>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post28/post28c.jpg').default
+                    },
+                    {
+                        src: require('./BlogPics/Post28/post28d.jpg').default
+                    },
+                    {
+                        src: require('./BlogPics/Post28/post28e.jpg').default
+                    },
+                    {
+                        src: require('./BlogPics/Post28/post28f.jpg').default
+                    },
+                ]
+            },
+            {
+                headerSmall: <span className="grey">Wąsowo Folwark - Infrastruktura, która rozpieszcza.</span>,
+                text:
+                    <>
+                        To bardzo ważny element, szczególnie jeżeli planujecie noclegi dla gości lub przedłużony weekend weselny. Na terenie Folwarku Wąsowo znajduje się aż 90 miejsc noclegowych w trzech zabytkowych budynkach. Ponadto możecie skorzystać z gościnności <span className="bgGreyLight">Źrebięciarni</span>, gdzie istnieje możliwość zjedzenia obiadu, wypicia kawy lub regionalnego piwa. Dzięki takiemu zapleczu wesele w Wąsowie zorganizujecie gładko i bezproblemowo.
+                    </>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post28/post28g.jpg').default
+                    },
+                    {
+                        src: require('./BlogPics/Post28/post28h.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: <span className="grey">Folwark w Wąsowie - Idealne miejsce na ceremonię cywilną i nie tylko.</span>,
+                text:
+                    <>
+                        Folwark Wąsowo daje ogromne możliwości aranżacyjne przestrzeni poza stodołą. To jedna z cech, za które lubimy go najbardziej. Uwielbiamy <CustomPostLink path='wesele-w-plenerze' className="bgColorLight">wesela plenerowe</CustomPostLink>, strefy chill out, zewnętrzny bar. Przestrzeń przed wejściem do stodoły Wąsowo jest bardzo duża, znajdziemy tam estetyczne parasole i stoliki. Ma to również szczególne znaczenie podczas organizacji poprawin. Kucharz będzie przygotowywał dla Was i Waszych gości pyszne specjały z grilla, a Wy możecie wylegiwać się na trawie lub ukryć w zaciszu stodoły i odpoczywać po weselu.
+                    </>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post28/post28j.jpg').default
+                    },
+                    {
+                        src: require('./BlogPics/Post28/post28j.jpg').default
+                    },
+                    {
+                        src: require('./BlogPics/Post28/post28k.jpg').default
+                    },
+                    {
+                        src: require('./BlogPics/Post28/post28l.jpg').default
+                    }
+                ]
+            },
+            {
+                text: 'W Wąsowie miejsc na ceremonię ślubną jest kilka, my mamy swoje ulubione, które zobaczycie na zdjęciach poniżej. Nie brakuje tu również pięknych zakątków, które staną się niepowtarzalnym tłem dla Waszej sesji plenerowej.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post28/post28m.jpg').default
+                    },
+                    {
+                        src: require('./BlogPics/Post28/post28n.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: <span className="grey">Stodoła Wąsowo - wybitnie dobra kuchnia.</span>,
+                text:
+                    'Folwark Wąsowo ogromną wagę przywiązuje do jedzenia - sezonowe potrawy, lokalne produkty, własny ogród warzywny i tradycyjny smak w nowoczesny wydaniu. To musi się udać. Do dziś z rozrzewnieniem wspominamy przepyszną zupę borowikową i niezwykle dopracowany sposób serwowania dań.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post28/post28o.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: <span className="grey">No i te koty...</span>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post28/post28p.jpg').default
+                    },
+                    {
+                        src: require('./BlogPics/Post28/post28q.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: <span className="grey">Folwark wąsowo - opinie</span>,
+                text: 'W naszej karierze wedding plannera organizowałyśmy wesela w wielu pięknych miejscach. Według naszej opinii wesele w Folwarku Wąsowo to gwarancja niezapomnianych wspomnień i pewności, że wszystko zostanie dopracowane w najmniejszym detalu.'
+            },
+            {
+                text:
+                    <>
+                        Jeżeli marzy Ci się wyjątkowe wesele na terenie <span className="bgGreyLight">Poznania</span> lub województwa wielkopolskiego, napisz lub zadzwoń. Pomożemy Ci zrealizować nawet najśmielsze marzenia.
+                    </>
+            }
+        ],
+        links:
+            <>
+                <p>
+                    Organizacja: <Link to={URLS.HOME} className="CustomLink">Agencja Ślubna Czary Marry</Link> <br />
+            Wesele: <CustomOuterLink to="http://folwarkwasowo.pl/" text="Folwark Wąsowo" /> <br />
+            Dekoracje: <CustomOuterLink to="https://www.artsize.pl/" text="Art Size" /> <br />
+            Fotograf: <CustomOuterLink to="http://svetlanabennington.com/" text="Svetlana Bennington" /><br />
+                </p>
+            </>
+    },
+    {
+        path: '12-hey-wedding-podcast-dekoracje-slubne-florystyka',
+        title: '#12 Hey Wedding - O florystyce ślubnej z Anello Decor',
+        seoText: 'W 12 odcinku podcastu Hey Wedding dowiecie się, na co zwrócić uwagę podczas wyboru florystki, a następnie tworząc koncepcję dekoracji. O czym należy pamiętać planując samodzielne dekorowanie sali. Usłyszycie również odpowiedzi na najcześciej zadawane pytania.',
+        tag: 'podcast',
+        date: '23 lis 2020',
+        textShort: 'W 12 odcinku podcastu Hey Wedding rozmawiamy z Anello Decor o dekoracjach ślubnych. Aneta opowie, jak narodziła się jej pasja do...',
+        mainPic: {
+            src: require('./BlogPics/podcast.png').default
+        },
+        textMain:
+            <>
+                W 12 odcinku podcastu <span className="bgMintLight">Hey Wedding</span> rozmawiamy z <span className="bgMintLight">Anello Decor</span> o dekoracjach ślubnych. <br />
+                <span className="bgMintLight">Aneta</span> opowie, jak narodziła się jej pasja do florystyki oraz o swoich zawodowych marzeniach. Nie zabraknie cennych porad, przydatnej wiedzy i kwiecistych metafor.
+            </>,
+        content: [
+            {
+                text: 'Dowiecie się, na co zwrócić uwagę podczas wyboru florystki, a następnie tworząc koncepcję dekoracji. O czym należy pamiętać planując samodzielne dekorowanie sali. Usłyszycie również odpowiedzi na najcześciej zadawane pytania dotyczące florystyki ślubnej.'
+            }
+        ],
+        links:
+            <>
+                <iframe title="#12 Hey Wedding - O florystyce ślubnej z Anello Decor." height="122" width="100%" style={{ border: "none" }} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/media/player/d3pye-f311da?from=pb6admin&download=1&version=1&auto=0&share=1&download=1&rtl=0&fonts=Helvetica&skin=1&pfauth=&btn-skin=107"></iframe>
+            </>,
+        extras:
+            <>
+                <span className="d-block text-right"><CustomCategoryLink path="podcast" text="Podcast" className="bgColorMint" /></span>
+            </>
+    },
+    {
+        path: '11-hey-wedding-musze-przelozyc-wesele-z-powodu-koronawirusa',
+        title: '#11 Hey Wedding - Znowu musimy przełożyć wesele - Rozmowa z Beatą i Pawłem',
+        seoText: 'Rozmowa z parą młodą, która z powodu koronawirusa musiała przełożyć swoje wesele.',
+        tag: 'podcast',
+        date: '27 paź 2020',
+        edited: '30 paź 2020',
+        textShort: 'Rozmowa z parą młodą, która z powodu koronawirusa musiała przełożyć...',
+        mainPic: {
+            src: require('./BlogPics/podcast.png').default
+        },
+        textMain:
+            <>
+                Wszyscy mówili, że mają pecha, ale patrząc na nich w dniu ślubu wiedziałyśmy, że to prawdziwi szczęściarze. Zapraszamy Was do przesłuchania rozmowy z <span className="bgMintLight">Beatą i Pawłem</span>, którzy musieli dwukrotnie zmienić swoje ślubno-weselne plany. Mimo że nie było łatwo, a los nie sprzyjał, udało nam się zorganizować niesamowite wesele, o którym chcielibyśmy Wam opowiedzieć.
+            </>,
+        links:
+            <>
+                <iframe title="#11 Hey Wedding - Znowu musimy przełożyć wesele - Rozmowa z Beatą i Pawłem" height="122" width="100%" style={{ border: "none" }} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/media/player/uedni-f08e66?from=pb6admin&download=1&version=1&auto=0&share=1&download=1&rtl=0&fonts=Helvetica&skin=1&pfauth=&btn-skin=107"></iframe>
+            </>,
+        extras:
+            <>
+                <span className="d-block text-right"><ustomCategoryLink path="podcast" text="Podcast" className="bgColorMint" /></span>
+            </>
+    },
+    {
+        path: 'zamek-ksiaz-wesele-motyw-rose-gold',
+        title: 'Wesele w Zamku Książ w stylu Rose Gold.',
+        seoText: 'W poniższym artykule opowiemy Wam o naszej niesamowitej podróży do wnętrz jednego z najpiękniejszych zamków na wesele w Polsce, jaką mieliśmy przyjemność odbyć, organizując i koordynując przyjęcie weselne jednej z naszych par.',
+        date: '9 paź 2020',
+        edited: '27 paź 2020',
+        textShort: 'Zamek Książ to jeden z największych a zarazem najpiękniej położonych tego typu obiektów w Polsce. Wybudowany na wzniesieniu, otoczony...',
+        mainPic: {
+            src: require('../components/OurCouples/OurCouplesPics/AngelikaPawel/11.jpg').default
+        },
+        textMain:
+            <>
+                <CustomOuterLink to="https://www.ksiaz.walbrzych.pl/" text="Zamek Książ" className="bgColorPink" /> to jeden z największych a zarazem najpiękniej położonych tego typu obiektów w Polsce. Wybudowany na wzniesieniu, otoczony gęstym lasem, o niesamowitej architekturze i historii owianej tajemnicą. Nic dziwnego, że wiele par młodych decyduje się na organizację wesela w tym niesamowitym miejscu. Jeśli marzy Wam się <span className="bgPinkLight">królewskie przyjęcie w baśniowej scenerii</span>, warto zdecydować się na ślub i wesele na zamku Książ. <br /> W poniższym artykule opowiemy Wam o naszej niesamowitej podróży do wnętrz jednego z najpiękniejszych zamków na wesele w Polsce, jaką mieliśmy przyjemność odbyć, organizując i koordynując przyjęcie weselne jednej z naszych par.
+            </>,
+        content: [
+            {
+                pics: [
+                    {
+                        src: require('../components/OurCouples/OurCouplesPics/AngelikaPawel/01.jpg').default,
+                        author: 'Magdalena Adamczewska'
+                    },
+                    {
+                        src: require('../components/OurCouples/OurCouplesPics/AngelikaPawel/ver6.jpg').default,
+                        author: 'Jam Studio'
+                    },
+                    {
+                        src: require('../utils/BlogPics/Post27/post27a.jpg').default,
+                        author: 'Jam Studio'
+                    },
+                    {
+                        src: require('../utils/BlogPics/Post27/post27b.jpg').default,
+                        author: 'Jam Studio'
+                    },
+                ]
+            },
+            {
+                headerSmall: <span className="pink">Jak zorganizować wesele na zamku Książ</span>,
+                text:
+                    <>
+                        Zamek Książ to miejsce zabytkowe, skoncentrowane na turystyce. Organizacja wesela w tego typu obiektach niesie za sobą szereg obostrzeń, które mogą wpłynąć na charakter przyjęcia i logistykę przygotowań. Dzięki uprzejmości władz zamku mogliśmy skorzystać z jego wnętrz i z należytym poszanowaniem zasad, które na nim panują, zorganizować wymarzone przyjęcie dla naszej pary młodej. <br />Podczas organizacji wesela na zamku Książ należy wziąć pod uwagę wiele czynników, takich jak ruch turystyczny, różnego rodzaju zezwolenia, wynajem odpowiednich przestrzeni, czy firmy cateringowej. Pomoc wedding planner’a okazała się nieoceniona, zarówno dla naszych klientów, jak i wykonawców ślubnych pracujących podczas wesela na zamku Książ. Ponieważ dekoracje były bardzo spektakularne, wymagały zaangażowania w projekt wyspecjalizowanych firm. Razem z zespołem <span className="bgPinkLight">Art Size</span> oraz <span className="bgPinkLight">BTL</span> pracowaliśmy przez dwa dni, aby uzyskać wymarzony efekt pięknego wesela na zamku. Oceńcie sami, czy się udało!
+                    </>,
+                pics: [
+                    {
+                        src: require('../utils/BlogPics/Post27/post27c.jpg').default,
+                        author: 'Jam Studio'
+                    },
+                    {
+                        src: require('../utils/BlogPics/Post27/post27d.jpg').default,
+                        author: 'Jam Studio'
+                    },
+                    {
+                        src: require('../components/OurCouples/OurCouplesPics/AngelikaPawel/05.jpg').default,
+                        author: 'Jam Studio'
+                    }
+                ]
+            },
+            {
+                headerSmall: <span className="pink">Ślubne dekoracje w stylu Rose Gold</span>,
+                text:
+                    <>
+                        Dlaczego motyw rose gold? Postanowiliśmy nawiązać do klimatu zamku Książ i jego elewacji. Dlatego nasz wybór padł na kolor różowy. Aby dodać dekoracjom elegancji i klasy zdecydowaliśmy się na dodatki w kolorze <span className="bgPinkLight">rose gold</span>. Było to strzałem w dziesiątkę. Zamiast tradycyjnych kompozycji na stole stanęły ponad półtorametrowe drzewa uginające się od hortensji w różnych odcieniach różu. Całość uzupełniły rose gold’owe obrusy oraz dodatki w odcieniach grafitu, które nadały aranżacji nowoczesnego charakteru. Niezwykle ważnym elementem były dekoracje świetlne, które wieczorową porą totalnie odmieniły naszą bajkową scenerię i zaskoczyły gości. Ozdoby, dodatki i dekoracje rose gold stały się wisienką na torcie <span className="bgPinkLight">eleganckiego wesela na zamku Książ</span>.
+                    </>,
+                pics: [
+                    {
+                        src: require('../components/OurCouples/OurCouplesPics/AngelikaPawel/11.jpg').default,
+                        author: 'Magdalena Adamczewska'
+                    },
+                    {
+                        src: require('../utils/BlogPics/Post27/post27e.jpg').default,
+                        author: 'Jam Studio'
+                    },
+                    {
+                        src: require('../utils/BlogPics/Post27/post27f.jpg').default,
+                        author: 'Jam Studio'
+                    },
+                    {
+                        src: require('../utils/BlogPics/Post27/post27g.jpg').default,
+                        author: 'Magdalena Adamczewska'
+                    },
+                    {
+                        src: require('../components/OurCouples/OurCouplesPics/AngelikaPawel/17.jpg').default,
+                        author: 'Magdalena Adamczewska'
+                    },
+                    {
+                        src: require('../utils/BlogPics/Post27/post27h.jpg').default,
+                        author: 'Magdalena Adamczewska'
+                    },
+                ]
+            },
+            {
+                headerSmall: <span className="pink">Zamek Książ — wesele pełne możliwości</span>,
+                text:
+                    <>
+                        Na zamku Książ do dyspozycji mieliśmy salę balową, gdzie odbywało się przyjęcie weselne, ale także rotundę, salę kominkową, holl modrzewiowy. W dwóch pierwszych miejscach zaangażowaliśmy bufety ze stolikami koktajlowymi, wszystko płynnie przechodziło w strefę relaksu z wygodnymi kanapami i barem. <br />Goście mieli również do dyspozycji <span className="bgPinkLight">Czarny Dziedziniec</span>, gdzie mogli zaczerpnąć świeżego powietrza. Tworząc takie strefy, udało nam się zamienić w atut coś, co początkowo mogło się wydawać problemem przy organizacji wesela na zamku, czyli kilka małych sal i podzieloną przestrzeń. <br /> Według naszej opinii, <span className="bgPinkLight">zamek Książ</span> to idealne miejsce na organizację zarówno eleganckiego ślubu jak i wesela. Ślub na zamku Książ to świetne rozwiązanie dla par młodych ceniących praktyczność organizacji ślubu i wesela w tym samym miejscu.
+                    </>,
+                pics: [
+                    {
+                        src: require('../components/OurCouples/OurCouplesPics/AngelikaPawel/03.jpg').default,
+                        author: 'Jam Studio'
+                    },
+                    {
+                        src: require('../utils/BlogPics/Post27/post27i.jpg').default,
+                        author: 'Jam Studio'
+                    },
+                    {
+                        src: require('../utils/BlogPics/Post27/post27n.jpg').default,
+                        author: 'Magdalena Adamczewska'
+                    },
+                    {
+                        src: require('../utils/BlogPics/Post27/post27j.jpg').default,
+                        author: 'Magdalena Adamczewska'
+                    },
+                    {
+                        src: require('../components/OurCouples/OurCouplesPics/AngelikaPawel/ver7.jpg').default,
+                        author: 'Jam Studio'
+                    },
+                    {
+                        src: require('../utils/BlogPics/Post27/post27k.jpg').default,
+                        author: 'Jam Studio'
+                    }
+                ]
+            },
+            {
+                headerSmall: <span className="pink">Zamek Książ — sesja ślubna podczas wesela</span>,
+                text: 'Zamek Książ słynie z niesamowitych wnętrz oraz przepięknego ogrodu, który go otacza. Daje ogromne możliwości do zrealizowania wymarzonej sesji plenerowej w dniu ślubu. Postanowiliśmy wykorzystać jego atuty. Zaangażowaliśmy sesję rodzinną w monumentalnej sali Maksymiliana oraz zdjęcia plenerowe. Zarówno fotograf, jak i filmowcy mieli tu ogromne pole do popisu i wykonali masę niesamowitych ujęć podczas sesji ślubnej w zamku Książ.',
+                pics: [
+                    {
+                        src: require('../components/OurCouples/OurCouplesPics/AngelikaPawel/ver3.jpg').default,
+                        author: 'Jam Studio'
+                    },
+                    {
+                        src: require('../utils/BlogPics/Post27/post27l.jpg').default,
+                        author: 'Jam Studio'
+                    },
+                    {
+                        src: require('../utils/BlogPics/Post27/post27m.jpg').default,
+                        author: 'Jam Studio'
+                    }
+                ]
+            },
+            {
+                text:
+                    <>
+                        Jeśli podoba Wam się, zorganizowane przez nas wesele na Zamku Książ z motywem przewodnim w kolorze <span className="bgPinkLight">gold rose</span>, koniecznie zajrzyjcie do naszych innych <Link to={URLS.COUPLES} className="bgColorPink">realizacji</Link>. Znajdziecie tam inne piękne przyjęcia w królewskim stylu. Polecamy również elegancką <CustomPostLink path="sesja-stylizowana-w-stylu-glamour" className="bgColorPink">ślubną sesję stylizowaną</CustomPostLink> zorganizowaną w ruinach zamku Sarny.
+                    </>
+            },
+            {
+                text: 'Wesele na zamku Książ urzekło nas swoim eleganckim i dostojnym stylem. Jeśli marzy się Wam podobne wesele na zamku to serdecznie polecamy się do organizacji tego typu przyjęcia.'
+            }
+        ],
+        links:
+            <>
+                <p>Wesele: <CustomOuterLink to="https://www.ksiaz.walbrzych.pl/" text="Zamek Książ" /> <br />
+                Motyw: Rose Gold
+                Dekoracje: <CustomOuterLink to="https://www.artsize.pl/" text="Art Size" /> <br />
+                Światło: <CustomOuterLink to="https://www.facebook.com/btlsystemymedialne/" text="BTL" /> <br />
+                Słodkości: <CustomOuterLink to="http://galeriaslodkosci.pl/" text="Galeria Słodkości" /> <br />
+                Fotograf: <CustomOuterLink to="https://jamstudio.pl/" text="Jam Studio" /> i <CustomOuterLink to="https://www.facebook.com/MagdalenaAdamczewskaphotography/" text="Magdalena Adamczewska" /> <br />
+                Filmowiec: <CustomOuterLink to="http://cameralni.com/" text="Cameralni" /> <br />
+                </p>
+            </>
+    },
+    {
+        path: '10-hey-wedding-pogromcy-mitow-cz-2',
+        title: '#10 Hey Wedding - Pogromcy mitów cz.2',
+        seoText: 'W 10 odcinku podcastu Hey Wedding bierzemy pod lupę najpopularniejsze weselne mity. Porozmawiamy między innymi o tym, czy to prawda, że wszystko co weselne jest droższe, czym jest tradycyjne Polskie wesele, oraz czy usługi wedding plannera są drogie.',
+        tag: 'podcast',
+        date: '1 wrz 2020',
+        textShort: 'Podcast o tematyce ślubnej. W 10 odcinku kolejny raz bierzemy pod lupę weselne mity.',
+        mainPic: {
+            src: require('./BlogPics/podcast.png').default
+        },
+        textMain:
+            <>
+                To już 10 odcinek naszego podcastu! Wracamy do Was po krótkiej przerwie z kolejną dawką <span className="bgMintLight">weselnych mitów</span>, które postanowiłyśmy wziąć pod lupę. Tym razem porozmawiamy czy wszystko, co ślubne jest droższe, a jeśli tak to z czego to wynika. Rozważymy, czy wesele musi być dwudniowe i czy wypada zorganizować przyjęcie bez poprawin. Będzie też sporo o "tradycyjnych, polskich weselach" i ich "najważniejszych" elementach.
+            </>,
+        content: [
+            {
+                text:
+                    <>
+                        Zdradzimy Wam, dlaczego lepiej nie planować zbyt dużej ilości atrakcji, oraz zastanowimy się, czy ślub cywilny może mieć intymny i romantyczny charakter. Podyskutujemy również o tym, czy <span className="bgMintLight">pomoc wedding plannera</span> to droga usługa oraz czy warto decydować się na jego pomoc, skoro podczas organizacji wesela możemy liczyć na rodziców i przyjaciół. Wszystko to przeplatane masą około ślubnych dygresji, inspiracji i ciekawych anegdot.
+                    </>
+            },
+            {
+                text:
+                    <>
+                        Jeśli spodobał Wam się ten odcinek, koniecznie posłuchajcie <CustomPostLink path="6-hey-wedding-pogromcy-mitów" text="#6 Hey Wedding - Pogromcy mitów" className="bgColorMint" />.
+                    </>
+            }
+        ],
+        links:
+            <>
+                <iframe title="#10 Hey Wedding - Pogromcy mitów cz.2" height="122" width="100%" style={{ border: "none" }} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/media/player/7aebs-e9c9ab?from=pb6admin&download=1&version=1&auto=0&share=1&download=1&rtl=0&fonts=Helvetica&skin=1&pfauth=&btn-skin=107"></iframe>
+            </>,
+        extras:
+            <>
+                <span className="d-block text-right"><CustomCategoryLink path="podcast" text="Podcast" className="bgColorMint" /></span>
+            </>
+    },
+    {
+        path: 'sesja-stylizowana-w-stylu-glamour',
+        title: 'Sesja stylizowana - Ślub, którego nie było.',
+        seoText: 'Sesja ślubna w stylu glamour. Nieoczywiste połączenie surowych zamkowych murów przełamane eleganckimi dodatkami i odważną kolorystyką oraz formą kwiatów.',
+        date: '10 sie 2020',
+        textShort: 'Chociaż dziwnie to brzmi do zorganizowania stylizowanej sesji fotograficznej, zainspirował nas koronawirus. Podczas pandemii, każdego dnia spotykałyśmy się z...',
+        mainPic: {
+            src: require('../components/OurCouples/OurCouplesPics/OlgaPiotr/05.jpg').default
+        },
+        textMain:
+            <>
+                Chociaż dziwnie to brzmi do zorganizowania stylizowanej sesji fotograficznej, zainspirował nas koronawirus. Podczas pandemii, każdego dnia spotykałyśmy się z rozżaleniem młodych par, które były zmuszone przełożyć swój najważniejszy dzień w życiu o kolejne miesiące. Widziałyśmy, jak ucieka z nich cały entuzjazm i tracą zapał do organizacji wymarzonego wesela. Chciałyśmy dać tym parom coś od siebie. I tu właśnie zrodził się pomysł stylizowanej sesji dla wybranej młodej pary, która przez pandemię musiała odwołać swój ślub. Tak, tak - <span className="bgPinkLight">stylizowana sesja dla prawdziwej pary młodej</span>, zamiast wynajętych modeli.<br />
+            To, na czym nam zależało to szczere emocje i prawdziwa miłość. Zobaczcie piękną relację z tego dnia, którą przygotowali <span className="bgPinkLight">Mariola i Kamil</span> z <CustomOuterLink to="http://maleszarestudio.pl/" text="Małego Szarego Studia" className="bgColorPink" />.
+            </>,
+        topPic: {
+            src: require('../components/OurCouples/OurCouplesPics/OlgaPiotr/05.jpg').default
+        },
+        content: [
+            {
+                headerSmall: <span className="pink">Sesja w stylu glamour w ruinach zamku.</span>,
+                text:
+                    <>
+                        Nie ma nic bardziej klimatycznego niż ruiny starego zamku, ale jeżeli dodamy do tego trochę dekoracji w stylu nowoczesnego glamouru mamy idealny przepis na niepowtarzalną sesję zdjęciową. Tą niezwykle ważną kwestię powierzyliśmy <span className="bgPinkLight">Anecie</span> z <CustomOuterLink to="https://www.facebook.com/anellodecor/" text="Anello Decor" className="bgColorPink" />. Wszystko uzupełniły detale od
+                        <CustomOuterLink to="https://wypozyczalnia-dekoracji.pl/" text="Wypożyczalni Dekoracji App" className="bgColorPink" /> oraz <CustomOuterLink to="https://slubnapodwiazka.com.pl/wypozyczalnia/" text="Ślubny Stół" className="bgColorPink" />. Piękne szklane kieliszki udostępniła nam <CustomOuterLink to="http://hutajulia.com/" text='Huta Szkła "Julia"' className="bgColorPink" />.
+                    </>
+            },
+            {
+                text:
+                    <>
+                        Tworząc koncepcję naszej stylizowanej sesji w ruinach zamku, postawiłyśmy na nieoczywiste połączenie kolorów. W palecie barw pojawił się więc róż, ceglany i czerń w połączeniu z jasnymi kwiatami. Dało to klimat elegancji i nowoczesności. Ruiny <CustomOuterLink to="http://www.zameksarny.pl/" text='zamku Sarny' className="bgColorPink" /> okazały się idealne dla tych kolorów.
+                    </>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post26/post26a.jpg').default
+                    },
+                    {
+                        src: require('./BlogPics/Post26/post26b.jpg').default
+                    },
+                    {
+                        src: require('../components/OurCouples/OurCouplesPics/OlgaPiotr/ver1.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: <span className="pink">Sesja ślubna glamour— detale i inspiracje.</span>,
+                text:
+                    <>
+                        Znalazłyśmy idealną parę młodą, miejsce, zadbałyśmy o główne elementy sesji. Wiedziałyśmy jednak, że stylizowana sesja ślubna nie może obyć się bez papeterii. Trzeba zadbać o każdy szczegół. Pojawiły się więc nowoczesne zaproszenia ślubne z nutką elegancji, które przygotowała dla nas pracownia <CustomOuterLink to="https://pieknieprosze.pl/" text="Pięknie Proszę" className="bgColorPink" />. Całość dopełnił tort od <CustomOuterLink to="http://tort-artystyczny.pl/" text="Petite Pivioine" className="bgColorPink" /> oraz makaroniki, które przygotowała pracownia cukiernicza <CustomOuterLink to="https://ouioui.pl/" text="Oui Oui" className="bgColorPink" /> w kolorach i motywie przewodnim. Zadbaliśmy o najmniejsze detale, takie jak jedwabne wstążki od <CustomOuterLink to="https://shemakes.pl/" text="SheMakes" className="bgColorPink" />, które podkreślały piękno dekoracji.
+                    </>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post26/post26c.jpg').default
+                    },
+                    {
+                        src: require('./BlogPics/Post26/post26d.jpg').default
+                    },
+                    {
+                        src: require('./BlogPics/Post26/post26e.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: <span className="pink">Stylizacja pary młodej.</span>,
+                text:
+                    <>
+                        Stroje naszej młodej pary również idealnie wpasowały się w klimat sesji w ruinach zamku. Pan młody miał na sobie czarny klasyczny garnitur od <CustomOuterLink to="https://giacomo.pl/" text="Giacomo Conti" className="bgColorPink" />, a nasza panna młoda dostała aż 4 sukienki ślubne oraz <CustomOuterLink to="https://whitejasmine.pl/" text="biżuterię" className="bgColorPink" />. Nad jej wizerunkiem czuwała <CustomOuterLink to="https://agnieszkaswiatly.pl/" text="Agnieszka Światły" className="bgColorPink" />. O makijaż i fryzurę zadbała <CustomOuterLink to="http://ewelinalosko.pl/" text="Ewelina Łośko" className="bgColorPink" />. W końcu sesja zdjęciowa w stylu glamour wymaga trochę przepychu i ekstrawagancji. Zdjęcia plenerowe przełamywały elegancki charakter sesji, a uzupełnieniem stylizacji panny młodej był <CustomOuterLink to="https://www.hatupdesign.com/" text="kapelusz" className="bgColorPink" />.
+                    </>,
+                pics: [
+                    {
+                        src: require('../components/OurCouples/OurCouplesPics/OlgaPiotr/ver4.jpg').default
+                    },
+                    {
+                        src: require('../components/OurCouples/OurCouplesPics/OlgaPiotr/ver7.jpg').default
+                    },
+                    {
+                        src: require('../components/OurCouples/OurCouplesPics/OlgaPiotr/ver5.jpg').default
+                    },
+                ]
+            },
+            {
+                headerSmall: <span className="pink">Elegancka sesja ślubna, czy wesele w zamku?</span>,
+                text: 'Stare, opuszczone ruiny to nie tylko wspaniałe miejsce na organizację sesji stylizowanej, ale również na nietuzinkowe przyjęcie ślubne. W miejscu, gdzie powstała nasza elegancja sesja ślubna, na co dzień odbywają się koncerty, przyjęcia oraz imprezy okolicznościowe. Mamy nadzieję, że stanie się ona dla Was inspiracją :)'
+            },
+            {
+                text:
+                    <>
+                        Chcielibyście zobaczyć więcej zdjęć z tej cudownej sesji? Zerknijcie do zakładki <Link to={URLS.COUPLES} className="bgColorPink">Nasze pary</Link>. Zobaczcie również reportaż filmowy z sesji, który przygotowali <span className="bgPinkLight">Kamil i Patryk</span> z <CustomOuterLink to="https://www.sakramentalnetak.com/" text="Sakramentalne Tak" className="bgColorPink" />.
+                    </>
+            }
+        ],
+        links:
+            <>
+                <iframe title="Ślub, którego nie było" width="100%" height="460" src="https://www.youtube.com/embed/CqlcOUVK1ns" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" frameborder="0" allowfullscreen></iframe>
+            </>
+    },
+
+    {
+        path: '9-hey-wedding-porady-od-fotografa-slubnego',
+        title: '#9 Hey Wedding - Zanim zdecydujesz się na wybór fotografa ślubnego  - rozmowa z LMFOTO',
+        seoText: 'Kolejny odcinek podcastu Hey Wedding to spotkanie dwóch duetów; Agencji Ślubnej Czary Marry oraz LMFOTO. Podczas rozmowy zadałyśmy chłopakom kilkanaście nie do końca oczywistych pytań. Nie zabrakło również ciekawych historii oraz dygresji.',
+        tag: 'podcast',
+        date: '16 lip 2020',
+        edited: '1 wrz 2020',
+        textShort: 'Kolejny odcinek podcastu Hey Wedding to spotkanie dwóch duetów - Agencji Ślubnej Czary Marry oraz...',
+        mainPic: {
+            src: require('./BlogPics/podcast.png').default
+        },
+        textMain:
+            <>
+                Kolejny odcinek podcastu <span className="bgMintLight">Hey Wedding</span> to spotkanie dwóch duetów - Agencji Ślubnej Czary Marry oraz <CustomOuterLink to="https://www.lmfoto.pl/" text="LMFoto" className="bgColorMint" />. Podczas rozmowy zadałyśmy chłopakom kilkanaście nie do końca oczywistych pytań. Nie zabrakło również ciekawych historii oraz dygresji.
+            </>,
+        content: [
+            {
+                text: <><span className="bgMintLight">Szymon i Łukasz</span> odpowiedzą, który z nich jest lepszym fotografem, o ciągłym doskonaleniu swoich umiejętności oraz dlaczego, mimo że tworzą duet, nie pracują na weselach razem. Dowiecie się również, co uważają na temat sesji plenerowych w dniu ślubu oraz sesjach innego dnia. Porozmawiamy o plusach i minusach każdego rozwiązania. Zapytamy, czy fotograf powinien ingerować w przebieg wydarzeń w dniu ślubu, a jeśli tak to w jakich momentach.</>
+            },
+            {
+                text: 'Czy warto zdecydować się na ekipę foto i film, czy na dwie osobne firmy wyspecjalizowane w tych dziedzinach? Jak wygląda współpraca na płaszczyźnie foto -film, DJ oraz zespół? Co jest kluczem do owocnej współpracy, a co może stanąć na przeszkodzie do stworzenia niesamowitych ujęć?'
+            },
+            {
+                text: 'Porozmawiamy o tym, ile godzin fotograf potrzebuje na stworzenie reportażu ślubnego, czy warto zdecydować się na skrócenie lub wydłużenie jego pracy. Dlaczego warto postawić na fotografa mającego doświadczenie w branży ślubnej. Czy goście robiący zdjęcia i kręcący filmy smartfonem przeszkadzają w pracy. Dlaczego warto odłożyć telefon do kieszeni podczas najważniejszych momentów ślubu i wesela. Pogadamy również co z tą surówką, czyli o nieobrobionym materiale zdjęciowym, o którą prosi para.'
+            },
+            {
+                text: <>
+                    Zadamy też Szymonowi jego znienawidzone pytanie... dowiedzcie się sami jakie:) <br />
+                Zapraszamy do słuchania!
+                </>
+            }
+        ],
+        textAuthor: "Kasia i Ola",
+        links:
+            <>
+                <iframe title="#9 Hey Wedding - O fotografii ślubnej z LMFOTO" height="122" width="100%" style={{ border: "none" }} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/media/player/ipx6c-e36b45?from=pb6admin&download=1&version=1&auto=0&share=1&download=1&rtl=0&fonts=Helvetica&skin=1&pfauth=&btn-skin=107"></iframe>
+            </>,
+        extras:
+            <>
+                <span className="d-block text-right"><CustomCategoryLink path="podcast" text="Podcast" className="bgColorMint" /></span>
+            </>
+    },
+    {
+        path: 'konsultant-ślubny-radzi',
+        title: 'KONSULTANT ŚLUBNY RADZI',
+        seoText: 'Zapraszamy Was do lektury artykułu przygotowanego przez naszych zaprzyjaźnionych fotografów ślubnych z LM Foto. Znajdziecie tam rozmowę z nami oraz innymi fantastycznymi wedding plannerkami. Opowiadamy o tym, dlaczego organizujemy śluby, radzimy, o czym warto pamiętać podczas przygotowań oraz zdradzamy, jakie wesela...',
+        date: '2 lip 2020',
+        edited: '23 paź 2020',
+        textShort: 'Zapraszamy Was do lektury artykułu przygotowanego przez naszych zaprzyjaźnionych fotografów ślubnych z LM Foto. Znajdziecie tam rozmowę z nami oraz innymi fantastycznymi...',
+        mainPic: {
+            src: require('./BlogPics/Post25/post25.jpg').default
+        },
+        textMain:
+            <>
+                Zapraszamy Was do lektury artykułu przygotowanego przez naszych zaprzyjaźnionych <span className="bgGreyLight">fotografów ślubnych z LM Foto</span>. Znajdziecie tam rozmowę z nami oraz innymi fantastycznymi wedding plannerkami. Opowiadamy o tym, dlaczego organizujemy śluby, radzimy, o czym warto pamiętać podczas przygotowań oraz zdradzamy, jakie wesela lubimy najbardziej. W artykule m.in. informacje co z stylem i <CustomPostLink path="motyw-przewodni-wesela" className="bgColorLight" text="motywem przewodnim wesela" />. <br />A wszystko to z kilku odmiennych perspektyw.
+            </>,
+        content: [
+            {
+                text: <CustomOuterLink to="https://www.lmfoto.pl/blog/2020/06/konsultant-slubny-radzi/?fbclid=IwAR0NrsFz6qb9xkd226N11SCoHUFTeqZyfvdXvlO5-Xu4Y1WEpcYeOFiEXGU" className="bgColorLight" text="Link do artykułu - Konsultant Ślubny Radzi LM FOTO" />,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post25/post25a.png').default
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        path: '8-hey-wedding-suknia-ślubna-z-drugiej-ręki',
+        title: '#8 Hey Wedding - Suknie ślubne z drugiej ręki.',
+        seoText: 'W ósmym odcinku podcastu Hey Wedding, miałyśmy przyjemność spotkać się z Nadją Pędzik, organizatorką festiwalu sukien ślubnych z drugiej ręki. Rozmawiałyśmy o tym,  dlaczego warto rozważyć zakup używanej sukni ślubnej, o świadomych konsumentach, ruchu Zero Waste.',
+        tag: 'podcast',
+        date: '29 cze 2020',
+        edited: '1 wrz 2020',
+        textShort: 'W ósmym odcinku podcastu Hey Wedding, miałyśmy przyjemność spotkać się z Nadją Pędzik, organizatorką festiwalu sukien...',
+        mainPic: {
+            src: require('./BlogPics/podcast.png').default
+        },
+        textMain:
+            <>
+                W ósmym odcinku podcastu <span className="bgMintLight">Hey Wedding</span> miałyśmy przyjemność spotkać się z <span className="bgMintLight">Nadją Pędzik</span>, organizatorką festiwalu sukien ślubnych z drugiej ręki. Rozmawiałyśmy o tym,  dlaczego warto rozważyć zakup używanej sukni ślubnej, o świadomych konsumentach, ruchu Zero Waste.
+            </>,
+        links:
+            <>
+                <iframe title="#8 Hey Wedding - Suknie ślubne z drugiej ręki." height="122" width="100%" style={{ border: "none" }} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/media/player/9ifjf-e17efd?from=pb6admin&download=1&version=1&auto=0&share=1&download=1&rtl=0&fonts=Helvetica&skin=1&pfauth=&btn-skin=107"></iframe>
+            </>,
+        extras:
+            <>
+                <span className="d-block text-right"><CustomCategoryLink path="podcast" text="Podcast" className="bgColorMint" /></span>
+            </>
+    },
+    {
+        path: '7-hey-wedding-polsko-irlandzkie-wesele-klaudii-i-kierana',
+        title: '#7 Hey Wedding - polsko-irlandzkie wesele Klaudii i Kierana',
+        seoText: 'W siódmym odcinku Hey Wedding rozmawiamy z Klaudią, naszą panną młodą. Porozmawiamy o połączeniu dwóch kultur, współpracy opartej na przyjacielskich relacjach i przedweselnych stresach.',
+        tag: 'podcast',
+        date: '8 cze 2020',
+        edited: '1 wrz 2020',
+        textShort: 'W siódmym odcinku Hey Wedding rozmawiamy z Klaudią, naszą panną młodą. Porozmawiamy o połączeniu dwóch kultur, współpracy...',
+        mainPic: {
+            src: require('./BlogPics/podcast.png').default
+        },
+        textMain:
+            <>
+                W siódmym odcinku <span className="bgMintLight">Hey Wedding</span> rozmawiamy z <span className="bgMintLight">Klaudią</span>, naszą panną młodą. Porozmawiamy o połączeniu dwóch kultur, współpracy opartej na przyjacielskich relacjach i przedweselnych stresach.
+            </>,
+        links:
+            <>
+                <iframe title="#7 Hey Wedding - polsko-irlandzkie wesele Klaudii i Kierana" height="122" width="100%" style={{ border: "none" }} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/media/player/rkmjd-df2c30?from=pb6admin&download=1&version=1&auto=0&share=1&download=1&rtl=0&fonts=Helvetica&skin=1&pfauth=&btn-skin=107"></iframe>
+            </>,
+        extras:
+            <>
+                <span className="d-block text-right"><CustomCategoryLink path="podcast" text="Podcast" className="bgColorMint" /></span>
+            </>
+    },
+    {
+        path: '5-faktów-o-nas-poznajcie-nas-lepiej',
+        title: '5 FAKTÓW O NAS... POZNAJCIE NAS LEPIEJ',
+        seoText: 'WROCŁAW — nie nasze miasto! Chociaż pochodzimy z małych miejscowości i trzeba to przyznać, jesteśmy „słoikami”, to ponad 10 lat mieszkamy we Wrocławiu. Każda z nas ma tutaj swój dom, ulubione knajpy i miejsca do spacerowania. Doceniamy Wrocław za jego różnorodność i możliwości, czujemy się w nim dobrze. Jednak obie...',
+        date: '31 maja 2020',
+        edited: '8 cze 2020',
+        textShort: 'WROCŁAW — nie nasze miasto! Chociaż pochodzimy z małych miejscowości i trzeba to przyznać, jesteśmy „słoikami”, to ponad 10 lat mieszkamy...',
+        mainPic: {
+            src: require('./BlogPics/Post24/post24.jpg').default
+        },
+        textMain: <>WROCŁAW — nie nasze miasto! <br /> Chociaż pochodzimy z małych miejscowości i trzeba to przyznać, jesteśmy „słoikami”, to ponad 10 lat mieszkamy we Wrocławiu. Każda z nas ma tutaj swój dom, ulubione knajpy i miejsca do spacerowania. Doceniamy Wrocław za jego różnorodność i możliwości, czujemy się w nim dobrze. Jednak obie uwielbiamy podróże, poznawanie nowych miejsc. Dlatego ogromnie doceniamy, że w sezonie ślubnym, dzięki organizacji wesel w całej Polsce, mamy możliwość poznawania nowych zakątków. Zwiedziłyśmy już sporą część kraju. Zawsze wtedy obiecujemy sobie, że kiedyś "tu" się przeprowadzimy :)</>,
+        topPic: {
+            src: require('./BlogPics/Post24/post24a.jpg').default
+        },
+        content: [
+            {
+                headerSmall: <span className="pink">NIE POTRAFIMY POZOWAĆ DO ZDJĘĆ.</span>,
+                text: 'Portfolio w naszej pracy jest bardzo ważne. Nie tylko trzeba chwalić się efektami przygotowań, pięknych dekoracji, czy szczęśliwej pary, ale warto mieć też parę zdjęć podczas pracy. Szykując się do koordynacji dnia ślubu i wesela staramy się zawsze zaplanować 5 - 10 minut, podczas których fotograf będzie mógł zrobić nam parę ujęć. I wiecie, jak to się zawsze kończy? Jesteśmy tak mocno skupione na pracy, aby wszystko było idealnie, że zapominamy o pozowaniu. Kończy się to zawsze masą zdjęć z dziwnymi minami.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post24/post24b.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: <span className="pink">JESTEŚMY DO SIEBIE BARDZO PODOBNE.</span>,
+                text: <>Każdy, kto miał okazję nas poznać i podpatrzeć jak pracujemy, powie pewnie od razu, że jesteśmy zupełnie inne. Kasia jest impulsywna, lubi działać od razu, nie cierpi czekać, ja znowu jestem z tych, które potrzebują czasu, zastanowienia, analizy, zanim przejdę do działania. Zdecydowanie wolę tabele i zestawienia od tych kreatywnych działań, w których znowu super spełnia się Kasia. Jednak jak się bliżej nam przyjrzeć to można zauważyć mnóstwo podobieństw. Obie jesteśmy bardzo zaangażowane w to, co robimy, dobro i zadowolenie naszych Par stawiamy na pierwszym miejscu. Każda z nas nie raz miała sytuację rzucenia wszystkiego i działania na rzecz jakiejś sprawy dla dobra wesela i Pary Młodej. To, że się tak świetnie dogadujemy i tak <span className="bgPinkLight">bardzo lubimy pracować ze sobą</span>, zawdzięczamy temu, że mamy takie same priorytety i nie zostały one wykreowane sztucznie. Od początku wiedziałyśmy, że ważna jest dla nas szczerość, otwartość i przyjazna atmosfera w pracy.</>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post24/post24.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: <span className="pink">BRANŻA ŚLUBNA TO NASZE POWOŁANIE.</span>,
+                text: 'Śluby i wesela są obecne zarówno w naszym życiu zawodowym i prywatnym. Jeśli akurat nie pracujemy, to planujemy rozwój naszej firmy i nas samych. Chcemy być na bieżąco, a nawet o krok do przodu w trendach i inspiracjach ślubnych. Zależy nam, aby współpraca z naszymi parami młodymi przebiegała w luźnej i przyjaznej atmosferze, dlatego ciągle zastanawiamy się, jak możemy działać, aby przynosiło to jak najlepsze efekty. No i po prostu kochamy „plotkować” o branży. Zapytajcie naszych mężczyzn, ile godzin miesięcznie spędzamy wisząc na telefonie, rozmawiając o weselach.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post24/post24c.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: <span className="pink">ZNAMY SIĘ ZDECYDOWANIE ZA DŁUGO.</span>,
+                text: 'Poznałyśmy się w liceum. Po burzliwym początku z jednym chłopakiem w tle :) szybko zrodziła się bardzo fajna przyjaźń. Potem potoczyło się już jak w starym, dobrym małżeństwie. Wspólne mieszkanie podczas studiów, wakacyjne wspólne saksy, parę kłótni i powstała firma, która przede wszystkim opiera się na tym, że świetnie się znamy i wzajemnie uzupełniamy. Wiemy w czym każda z nas jest dobra, ale też znamy swoje słabsze strony i w tych wypadkach mocno się wspieramy, możemy na siebie liczyć. No i już każda z naszych Par doświadczyła na własnej skórze, jak w tym samym momencie odpowiadamy identycznie na zadane pytanie.'
+            }
+        ]
+    },
+    {
+        path: '6-hey-wedding-pogromcy-mitów',
+        title: '#6 Hey Wedding - Pogromcy mitów',
+        seoText: 'W szóstym odcinku podcastu rozprawiamy się z najpopularniejszymi mitami ślubnymi. Dowiecie się między innymi, czy jedzenie w bufecie oraz serwowany obiad to dobry pomysł, czy można zorganizować wesele bez Disco Polo oraz czy powinno się odmieniać nazwiska gości w zaproszeniach.',
+        tag: 'podcast',
+        date: '13 maja 2020',
+        edited: '1 wrz 2020',
+        textShort: 'W szóstym odcinku podcastu rozprawiamy się z najpopularniejszymi mitami ślubnymi. Dowiecie się między innymi, czy jedzenie w bufecie oraz serwowany obiad to dobry pomysł, czy można zorganizować wesele bez...',
+        mainPic: {
+            src: require('./BlogPics/podcast.png').default
+        },
+        textMain:
+            <>
+                W szóstym odcinku podcastu rozprawiamy się z <span className="bgMintLight">najpopularniejszymi mitami ślubnymi</span>. Dowiecie się między innymi, czy jedzenie w bufecie oraz serwowany obiad to dobry pomysł, czy można zorganizować wesele bez Disco Polo oraz czy powinno się odmieniać nazwiska gości w zaproszeniach.
+            </>,
+        links:
+            <>
+                <iframe title="#6 Hey Wedding - Pogromcy mitów" height="122" width="100%" style={{ border: 'none' }} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/media/player/nsnei-dc44e4?from=pb6admin&download=1&version=1&auto=0&share=1&download=1&rtl=0&fonts=Helvetica&skin=1&pfauth=&btn-skin=107"></iframe>
+            </>,
+        extras:
+            <>
+                <span className="d-block text-right"><CustomCategoryLink path="podcast" text="Podcast" className="bgColorMint" /></span>
+            </>
+    },
+    {
+        path: 'obiecanki-cacanki-czyli-o-największych-ściemach-branży-ślubnej',
+        title: 'Obiecanki cacanki — czyli o największych ściemach branży ślubnej',
+        seoText: 'W ostatnim wpisie na blogu wyjaśniłyśmy, dlaczego najczęściej za dobrą jakością usług idą wyższe ceny oraz na co trzeba zwrócić uwagę przy wyborze tańszych wykonawców. Dziś porozmawiamy o tych, którzy braki umiejętności ukrywają pod płaszczykiem obietnic. Najczęściej niespełnionych. Nie będziemy mówić o grubych prze...',
+        date: '24 kwi 2020',
+        textShort: 'W ostatnim wpisie na blogu wyjaśniłyśmy, dlaczego najczęściej za dobrą jakością usług idą wyższe ceny oraz na co trzeba...',
+        mainPic: {
+            src: require('./BlogPics/Post23/post23.jpg').default
+        },
+        textMain: 'W ostatnim wpisie na blogu wyjaśniłyśmy, dlaczego najczęściej za dobrą jakością usług idą wyższe ceny oraz na co trzeba zwrócić uwagę przy wyborze tańszych wykonawców. Dziś porozmawiamy o tych, którzy braki umiejętności ukrywają pod płaszczykiem obietnic. Najczęściej niespełnionych. Nie będziemy mówić o grubych przekrętach i celowych oszustwach tylko drobnych i na pozór niewinnych kłamstewkach.',
+        topPic: {
+            src: require('./BlogPics/Post23/post23.jpg').default
+        },
+        content: [
+            {
+                headerSmall: <span className="pink">Miejsca weselne</span>,
+                text: 'Wchodzicie na salę weselną. Czujecie, że nie jest to do końca spełnienie Waszych marzeń, ale miejsce ma potencjał... No może, gdyby nie te szpetne zasłony, obrazki na ścianach, żyrandole i krzesła. W głowie kotłuje Wam się tysiąc pomysłów jak to wszystko ograć?! Nieśmiało pytacie, czy można pozbyć się zbędnych bibelotów i zmienić kolor zasłon. W tym momencie niczym rycerz w lśniącej zbroi na pomoc przychodzi Wam manager. "Ależ oczywiście!"  — odpowiada. Gwarantuję Wam, że w 90% przypadków to ściema. Przed ślubem okaże się, że zasłon nie można zdjąć, ponieważ to dużo roboty, po weselu ktoś będzie musiał je założyć, a ponadto na stanie nie ma innych na wymianę. Zdjęte ze ścian obrazki zostawią brzydkie jasne plamy, pod pokrowcami kryją się zniszczone i poplamione krzesła. Może w takiej sytuacji warto rozważyć inną, neutralną salę, którą udekorujecie według własnego uznania bez konieczności zakrywania tego, co Was drażni. Jeśli widzicie, że na sali jest brudno, nie oszukujcie się. Skoro właściciele nie posprzątali w związku z Waszą pierwszą wizytą, to w dniu ślubu też tego nie zrobią.'
+            },
+            {
+                text: <>Podobny problem możecie napotkać na etapie <span className="bgPinkLight">omawiania menu</span>. Jeśli widzicie w propozycjach, że kotlet mielony pogania schabowego, nie wierzcie, że nagle kucharz totalnie przearanżuje dla Was menu na rzecz lekkiej śródziemnomorskiej kuchni. To kolejne kłamstwo. Mimo szczerych chęci prawdopodobnie nie będzie miał odpowiednich umiejętności i produktów. Nie wierzcie też, że jedzenie na weselu będzie podane ładniej niż podczas degustacji. Takie historie walą ściemą na kilometr. Po to jest degustacja, żeby spróbować jedzenia i zobaczyć jak się prezentuje.</>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post23/post23a.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: <span className="pink">Kapele/DJ-e</span>,
+                text: '"Zagramy wszystko, co chcecie, zaaranżujemy dla Was utwory na życzenie". O ile w przypadku DJ-a, zagranie piosenki na życzenie nie stanowi większego problemu, z kapelą jest zupełnie inaczej. Każdy zespół dysponuje określonym repertuarem, a przygotowanie nowych utworów jest pracochłonne. Oczywiście, jeśli mówimy o jednym, dwóch utworach to jestem skłonna uwierzyć, że nie jest to duży problem. Jeśli jednak repertuar lub aranżacja utworów danego zespołu Wam nie odpowiada, to wybierzcie kogoś innego. Nie wierzcie w obietnice typu: "Jesteśmy w stanie zagrać z rockowym pazurem", jeśli w składzie zespołu widzicie klawiszowca, gitarzystę i wokalistkę o anielskim głosie. Nie wierzcie na słowo, zweryfikujcie to, oglądając urywki filmów wrzucanych na stronę zespołu. I jeszcze jedno, ale najważniejsze. Sprawdzajcie, kto aktualnie jest w składzie danego bandu. Bardzo często zdarza się, że po wokalistce, która urzekła Was barwą głosu, w zespole zostało już tylko demo na stronie.',
+            },
+            {
+                text: 'Żeby było sprawiedliwie, ujawnijmy jeszcze kilka przewinień braci Dj-skiej. To fakt, są bardziej elastyczni, jeśli chodzi o repertuar, ale również charakteryzują się określonym stylem. Jeśli jesteście fanami rocka, metalu, hip-hopu, techno, reggae lub jakiegokolwiek innego gatunku muzycznego, bez którego nie wyobrażacie sobie własnego wesela, a DJ zaręcza, że świetnie odnajduje się w tym gatunku i to dla niego żaden problem, żeby poprowadzić imprezę w tym stylu, sprawdźcie go. Zapytajcie, czy ma na swojej playliście jakiś set do odsłuchania w interesującym Was klimacie. Jeśli nie, nie powinno być problemu, żeby przygotował dla Was małą próbkę. Jeśli zacznie się migać to jest wysoce prawdopodobne, że ściemnia. Na co jeszcze warto uważać? Na chwytliwe hasła typu "gwarancja udanej imprezy" - taka gwarancja jest warta tyle samo, co ta składana przez producenta proszku Bonux — wypierze wszystko prócz kieszeni.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post23/post23b.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: <span className="pink">Fotografowie i filmowcy</span>,
+                text:
+                    <>
+                        Podczas wyboru filmu i foto musicie mieć świadomość, że każdy wykonawca ślubny, a nawet każdy człowiek chwali się swoimi największymi osiągnięciami. Podobnie jest z fotografami, filmowcami, wedding plannerami, czy florystkami. Dlatego przeglądając <span className="bgPinkLight">portfolio wykonawców ślubnych</span> odłóżcie na chwilę emocje na bok i zróbcie dokładniejszy research. Nie sugerujcie się jednym lub dwoma dobrymi ujęciami w galerii na FB, piękną parą młodą na zdjęciach, rajską wyspą w tle. Jeśli rzeczywiście poczuliście miętę do fotografa, poproście o link do pełnego reportażu ślubnego. Zerknijcie, czy na zdjęciach są wszystkie elementy, na których Wam zależy, czy podoba Wam się klimat jego zdjęć, a nie tylko ten piękny plener przy wodospadzie, którego w życiu sobie nie zrobicie. Podobnie sprawa ma się do filmowców, nie poprzestawajcie na 3-minutowych teledyskach, poproście o dostęp do dłuższych filmów. <br />
+                Nazywanie powyższych praktyk oszustwem czy kłamstwem byłoby nadużyciem - nie jest to celowe wprowadzanie klienta w błąd, w końcu chodzi o to, żeby pokazać się Wam z jak najlepszej strony. Emocjonalne wybory nie są wcale złe, ale jeśli poświęcicie trochę więcej czasu na wybór foto i filmu na pewno nie dacie się oszukać swoim własnym wyobrażeniom.
+                    </>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post23/post23c.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: <span className="pink">Wedding plannerzy</span>,
+                text:
+                    <>
+                        Konsultanci ślubni bezustannie prześcigają się swoją kreatywnością. W końcu każda para marzy o wyjątkowym i niepowtarzalnym weselu. Ale czy na pewno wszystko da się zrobić? Bardzo byśmy chciały, żeby tak było, ale nie do końca to prawda. Pewnych rzeczy nie przeskoczymy. Najczęściej na drodze stają nam obostrzenia, na które nie mamy wpływu, ograniczenia budżetowe lub logistyczne. Pokaz sztucznych ogni zorganizowany na obszarze Natura 2000? Teoretycznie da się to zrobić, ale czy warto łamać prawo albo ryzykować pożarem lasu? Postawienie namiotu weselnego za 5 tys. zł - są firmy, które podejmą się takiego wyzwania, ale czy to bezpieczne? Czy takie namioty spełniają odpowiednie atesty? Ślub kościelny w plenerze? Jest to zrobienia, ale procedura jest niezwykle trudna i prawdopodobieństwo, że się uda, jest niezwykle małe. Przypuszczam, że niektórzy <span className="bgPinkLight">wedding plannerzy</span> składają obietnice bez pokrycia "dla Waszego dobra", nie chcąc Was zawieść. W naszym odczuciu nie tędy droga, ponieważ źle zrealizowany, ryzykowny pomysł może przynieść zdecydowanie większe rozgoryczenie.
+                    </>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post23/post23d.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: <span className="pink">Fryzjerki i kosmetyczki</span>,
+                text: 'Niektóre z nich to prawdziwe mistrzynie zbrodni. Na pewno każdemu zdarzyła się kiedyś taka sytuacja. Idziesz do fryzjera, zrelaksowany siadasz na fotelu, pełen nadziei na spektakularną metamorfozę. Niestety z każdą chwilą czujesz, jak w żołądku rośnie Ci wielka klucha i strach ściska za gardło. Już wiesz, że nie tego się spodziewałeś i wszystko idzie w złym kierunku. Śmiało mówisz o swoich obawach, a w odpowiedzi słyszysz: "Nieee… tym się nie przejmuj, w dniu ślubu zrobimy to inaczej. Teraz włosy się nie kręcą, ale użyję innych wałków. Trochę wystaje, ale to tylko próba, prawdziwą fryzurę zrobimy w dniu ślubu." W takiej sytuacji jeśli możesz, uciekaj! Jeśli nie to postaw sprawę jasno. Próbny makijaż czy czesanie, jak sama nazwa wskazuje, ma być dokładnie taki jak w dniu ślubu. Jeśli zawodzi fryzjerka czy makijażystka wybierz się na próbę do kogoś innego, a jeśli to kwestia Twojego niezdecydowania, zaproponuj jeszcze jedno spotkanie. Błagam Cię tylko, nie wierz w ściemę, że w dniu ślubu będzie lepiej. Będzie gorzej! Po nieudanej próbie zarówno Ty, jak i Twoja stylistka będziecie poddenerwowane.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post23/post23e.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: <span className="pink">Florystki</span>,
+                text: 'Jakie grzeszki popełniają florystki? W zasadzie podobnie jak z foto i filmem nie będzie to celowe wprowadzanie klienta w błąd, ale chciałabym, żebyście przy wyborze odpowiedniej osoby zwrócili uwagę na jeden ważny szczegół. Proces powstawania oferty florystycznej, która spełni oczekiwania pary młodej, jest dość długotrwały. Zwykle ofertę poprzedza rozmowa, wymiana inspiracji, dyskusje o budżecie. Potem następuje moment na przedstawienia oferty. Ponieważ każdy projekt jest traktowany bardzo indywidualnie, florystki zasypują pary inspiracjami z Pinteresta. Nie ma w tym nic dziwnego, jedna inspiracja ma pokazać jakie kwiaty zastosuje florystka, inna, jaka będzie wielkość i kształt kompozycji. Wszystko to ma Wam pomóc w zrozumieniu ostateczną wizji dekoracji. Nie dajcie się jednak zwieść. Poza pięknymi inspiracjami zwracajcie uwagę na styl pracy florystki i dotychczasowe realizacje. Jeżeli na jej stronie internetowej widzicie, że 99% realizacji to przestarzały glamour możecie podejrzewać, że nie ma doświadczenia lub umiejętności do stworzenia innego klimatu. Wiecie, do czego zmierzam? Obserwując blogerki modowe łatwo stwierdzić, że ktoś jest świetnie ubrany, ale zdecydowanie trudniej iść do sklepu i ubrać się z takim samym wyczuciem stylu.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post23/post23f.jpg').default
+                    }
+                ]
+            },
+            {
+                text: 'Jak widzicie, te drobne niedopowiedzenia mogą zaważyć na tym, czy w dniu ślubu i tuż przed nim będziecie zadowoleni z dokonanych wyborów, czy też poczujecie się oszukani. Pozostańcie czujni i nie dajcie się zwieść. Jeśli coś Was niepokoi śmiało pytajcie, jeśli chcecie coś doprecyzować, koniecznie to zróbcie, najlepiej pisemnie, bo papier nie zapomina :)'
+            },
+        ]
+    },
+    {
+        path: '5-hey-wedding-ślub-humanistyczny-a-na-co-to-komu',
+        title: '#5 Hey Wedding - Ślub humanistyczny, a na co to komu?',
+        seoText: 'Jaka jest idea ślubów humanistycznych? Dla kogo są ceremonie symboliczne i jakie dają możliwości? A także skąd u naszego gościa wziął się pomysł na zostanie celebrantem? O tym wszystkim posłuchacie w inspirującej rozmowie z Jackiem Siedleckim http://www.slubhumanistyczny.com',
+        tag: 'podcast',
+        date: '13 kwi 2020',
+        edited: '1 wrz 2020',
+        textShort: 'Jaka jest idea ślubów humanistycznych? Dla kogo są ceremonie symboliczne i jakie dają możliwości? A także skąd u naszego gościa...',
+        mainPic: {
+            src: require('./BlogPics/podcast.png').default
+        },
+        textMain:
+            <>
+                Jaka jest idea ślubów humanistycznych? Dla kogo są ceremonie symboliczne i jakie dają możliwości? A także skąd u naszego gościa wziął się pomysł na zostanie celebrantem?   O tym wszystkim posłuchacie w inspirującej rozmowie z <span className="bgMintLight">Jackiem Siedleckim</span> - <CustomOuterLink className="bgColorMint" to="http://www.slubhumanistyczny.com" />.
+            </>,
+        links:
+            <>
+                <iframe title="#5 Hey Wedding - Ślub humanistyczny, a na co to komu?" height="122" width="100%" style={{ border: 'none' }} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/media/player/vi5sm-d90cca?from=pb6admin&download=1&version=1&auto=0&share=1&download=1&rtl=0&fonts=Helvetica&skin=1&pfauth=&btn-skin=107"></iframe>
+            </>,
+        extras:
+            <>
+                <span className="d-block text-right"><CustomCategoryLink path="podcast" text="Podcast" className="bgColorMint" /></span>
+            </>
+    },
+    {
+        path: 'polecany-fotograf-kamerzysta-sala-dj-zespol-na-wesele',
+        seoTitle: 'Tani i polecany zespół na wesele? O cenach za usługi w branży ślubnej wg Czary Marry',
+        seoText: 'Dlaczego nie warto organizować wesela w najtańszych salach weselach i korzystać z najtańszych usług w branży weselnej – i nie tylko?',
+        title: 'Tani i polecany zespół na wesele – czyli o cenach za usługi w branży ślubnej',
+        date: '7 kwi 2020',
+        textShort: 'To jedno z częściej pojawiających się zwrotów na forach i grupach ślubnych. Dziś postanowiłyśmy się z nim rozprawić!',
+        mainPic: {
+            src: require('./BlogPics/Post22/post22.jpg').default
+        },
+        textMain: 'To jedno z częściej pojawiających się zwrotów na forach i grupach ślubnych. Dziś postanowiłyśmy się z nim rozprawić! Oczywiście mamy świadomość, że nie zawsze cena idzie w parze z jakością, ale najczęściej właśnie tak jest. Nie dotyczy to wyłącznie branży ślubnej, ale niemal każdej dziedziny życia. Weźmy na przykład samochody. Nieważne, czy udasz się do salonu Mercedesa i wybierzesz najnowszą S klasę, czy kupisz w komisie starą Audicę od Niemca, który płakał, jak sprzedawał – tak czy siak jest to środek transportu. Obydwoma samochodami da się jeździć, ale możesz się spodziewać większego komfortu jazdy, bezpieczeństwa, niezawodności i luksusu po nowiutkim Mercedesie. Podobnie ma się sytuacja w zakresie rekomendowanych usługodawców ślubnych. Jeśli zależy Ci na jakości jakiejkolwiek usługi lub jakiegokolwiek produktu, raczej nie powinieneś brać pod uwagę najtańszych opcji.',
+        topPic: {
+            src: require('./BlogPics/Post22/post22.jpg').default
+        },
+        content: [
+            {
+                headerSmall: 'Najlepsza sala weselna a sala niskobudżetowa – na czym oszczędzają właściciele tanich sal weselnych?',
+                text:
+                    <>
+                        <p>Przede wszystkim na jakości — jedzenia, obsługi, wystroju. Jaki to ma realny wpływ na wygląd twojego Wesela? Zwykle możesz się spodziewać mało wyszukanego jedzenia, które nie cieszy ani oka, ani żołądka. Stół zapewne będzie się uginał od ilości potraw, ale przecież nie chodzi o ilość, a o jakość. Czy nie fajniej byłoby posmakować regionalnych produktów, sezonowych warzyw? A może wolicie, gdy szef kuchni przygotuje coś, co zaskoczy zarówno Was, jak i Waszych gości? Kto świadomie się odżywia i robi zakupy, wie, że dobre jedzenie nie jest tanie, a w fast foodach nie pracują master chefowie tylko studenci.</p>
+                        <p>Nikt nie lubi wolnych i wiecznie niezadowolonych kelnerów, tak samo, jak nikt nie lubi, kiedy się go oblewa rosołem podczas serwisu obiadu. Jeśli wybieracie salę, w której cena za talerzyk jest bardzo niska, musicie mieć świadomość, że prawdopodobnie właściciele nie płacą zbyt wiele obsłudze. Gdzieś te oszczędności muszą znaleźć. Nie stać ich na super kucharza i wyszkolonych kelnerów. Biznes zwyczajnie by się nie spinał. Oczywiście ogromne znaczenie ma również sam manager lub właściciel. Z doświadczenia wiem, że Pary Młode oczekują od nich otwartości i elastyczności. Czy wierzycie w to, że właściciel sali, który musi zorganizować dużo więcej wesel w roku, żeby zarobić, ma czas na śledzenie trendów, na poszerzanie horyzontów? Raczej nie. Jego odpowiedź na większość Waszych pytań będzie brzmiała: Nieee, robimy tak od 20 lat i się sprawdza… Istnieje też szansa, że na pierwszym spotkaniu zgodzą się na wszystko, a potem zapomną. Często tworzą umowy sami lub ściągają je z Internetu w przeciwieństwie do droższych miejsc, które współpracują z prawnikiem. Nietrudno się domyślić, że taka umowa jest mało konkretna i nie chroni Was w żadnym stopniu. Pamiętaj również, że zakup działki oraz budowa odpowiedniego obiektu każdemu właścicielowi sali weselnej musi się zwrócić – im piękniejsze okolice, im ciekawsza architektura, tym atmosfera na weselu lepsza.</p>
+                        <p>Wysoka cena za talerzyk nie jest gwarancją udanego przyjęcia weselnego, zdecydowanie jednak zwiększa szansę na udane wesele. Nie bez przyczyny terminy w dobrych salach weselnych są tak odległe – za jakość trzeba więcej zapłacić, a najlepszą salę weselną w okolicy trochę poczekać.</p>
+                        <span className="bgGreyLight">No to teraz inni wykonawcy...</span>
+                    </>,
+            },
+            {
+                headerSmall: 'Polecany fotograf ślubny, kamerzysta na ślub i inni polecani usługodawcy ślubni',
+                text: 'Na forach, na portalach ślubnych, a także w naszych mailach znaleźć można wiele pytań o najlepszego fotografa ślubnego, o najlepszą fryzjerkę czy o innych polecanych usługodawców ślubnych.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post22/post22a.jpg').default
+                    }
+                ]
+            },
+            {
+                text:
+                    <>
+                        Tani fotograf lub filmowiec może być teoretycznie tak samo uzdolniony, jak drogi, może mieć równie duży zapał do pracy… ale czy dysponuje tym samym sprzętem, oprogramowaniem do obróbki materiału, czy ma nieograniczony dostęp do muzyki, doskonali swoje umiejętności na dość drogich szkoleniach dla profesjonalistów, czy inwestuje w bezpieczeństwo? Również i on musi zrealizować więcej zleceń, a czas oddania Waszego materiału się oddala i oddala. <span className="bgGreyLight">Dobry fotograf ślubny</span> ma odpowiedni warsztat i sprzęt, by oddać Wam piękne zdjęcia ślubne. Ma też wystarczająco czasu, by poświecić go dużo na każde zlecenie. Rekomendowani przez nas fotografowie ślubni oraz kamerzyści na wesele będą mieli prawdopodobnie wyższe stawki niż średnia, ale macie gwarancje że to będzie dobry fotograf na wesele i profesjonalista w każdym calu.
+                    </>
+            },
+            {
+                headerSmall: 'Polecany zespół na wesele czy DJ',
+                text:
+                    <>
+                        <p>Branżowe opowieści o sprzęcie wśród filmowców, fotografów, zespołów weselnych i DJ-ów nie mają końca. U tych ostatnich nie liczy się wyłącznie jakość i moc, ale i wygląd. Światła, stanowisko Dj-skie, zaufajcie mi, te rzeczy sporo kosztują. Potrzebny jest też duży bus, żeby to wszystko przetransportować. Oczywiście to nie sprzęt świadczy o umiejętnościach prowadzenia imprezy. Wiecie jaki jest podstawowy grzech zespołów weselnych DJ-ów z dolnej półki? Disco Polo! Wiem, że jedni je lubią, a drudzy nie... Nie będziemy się o to spierać, czy można zrobić wesele bez tego gatunku muzycznego, ale z moich obserwacji wynika, że gdy DJ-owi brakuje umiejętności, ratuje się Disco Polo. Chwyta się go jak tonący brzytwy, a my musimy patrzeć na tę katastrofę i brać w niej udział. Na ratunek jest już za późno. Najlepszy zespół weselny czy dobry dj na wesele na pewno dostosuje repertuar nie tylko do najnowszych trendów ale i Waszych gustów.</p>
+                        <p>Załóżmy, że zespół weselny kosztuje 3 tys. zł (w opcji niskobudżetowej). Średnia ilość osób w zespole to 4. Zespół podczas wesela gra średnio około 10h. Wychodzi nam stawka około 75 zł/h dla jednej osoby. Ale! Nie zapominajmy o kosztach dojazdu, busie, którym owa kapela do Was dojedzie, czasami trzeba zapłacić kierowcy. No i te cholerne podatki! Śpiewanie i granie na instrumentach przez 10h to bardzo ciężka praca. Nauka gry na instrumencie to lata ćwiczeń, potu i krwi. Coś się tu nie zgadza… Coś niska ta stawka, a wiadomo muzycy to artyści i dobrze się cenią. Muzyk grający na ceremonii ślubu cywilnego to koszt około 300-500 zł. Ceremonia wraz z życzeniami to niecała godzina. Dalsze wnioski nasuwają się same. W dobrym zespole muzycznym grają osoby, które oprócz wysokich kwalifikacji, po prostu lubią tę pracę. Znajomość muzyki polskiej i światowej, umiejętność dostosowania muzyki do danej chwili tak, by wszyscy dobrze się bawili ratuje niejedno wesele. Dlatego tak chętnie polecany zespół na wesele przez znajomych czy <Link className="bgColorLight" to={URLS.HOME}>wedding plannerów</Link> liczy sobie odpowiednio więcej.</p>
+                    </>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post22/post22b.jpg').default
+                    }
+                ]
+            },
+            {
+                text:
+                    <>
+                        <p>Wróćmy na chwilę do motoryzacyjnego przykładu ze wstępu. Jakie są szanse, że Audica z Niemiec nie okaże się powypadkowym gratem, że właściciel dbał o nią i włożył całe serce, żeby służyła Wam jak najlepiej? Jedno jest pewne, kupując nowe auto z salonu bez względu, czy będzie to prestiżowy Mercedes, solidna japońska Toyota czy poczciwa Skoda, posłuży Wam przez parę ładnych lat, a w przypadku awarii macie gwarancję i wsparcie od dealera. </p>
+                        <p>Trochę zbagatelizowałyśmy sprawę doświadczenia zawodowego, a przecież powinno mieć ogromny wpływ na cenę polecanych usługodawców ślubnych. Nie najlepiej wpisuje się w mój motoryzacyjny przykład, ale pamiętajcie - ma ogromne znaczenie. Im więcej przepracowanych scenariuszy, zorganizowanych lub poprowadzonych imprez, tym lepiej. <br />
+                Nie zapominajcie o tym :)</p>
+                        <p>Wiadomo, że zazwyczaj poszukujecie najlepszych usługodawców ślubnych. My chętnie pomożemy Wam z wyborem. Polecani przez nas DJe, zespóły, fotografowie itd. mają bardzo dobre opinie i rekomendacje w branży ślubnej. Dodatkowo w kwestii wyboru sali, fotografa czy kamerzysty zawsze podchodzimy bardzo indywidualnie do sprawy, starając się dobrać obsługę tak, by była w Waszym guście.</p>
+                    </>
+            }
+        ]
+
+    },
+    {
+        path: '4-hey-wedding-wesele-w-czasie-zarazy',
+        seoText: 'W dzisiejszym odcinku rozmawiamy z Kingą, radcą prawym, współautorką bloga https://slubnepotyczkiprawne.pl  Podkast jest adresowany zarówno do par młodych jak i branży ślubnej. Znajdziecie tu informacje o wpływie koronawirusa na organizację ślubów i wesel, dowiecie się, czym jest siła wyższa i do jakich kroków uprawn...',
+        title: '#4 Hey Wedding - Wesele w czasie zarazy',
+        tag: 'podcast',
+        date: '26 mar 2020',
+        edited: '1 wrz 2020',
+        textShort: 'W dzisiejszym odcinku rozmawiamy z Kingą - radcą prawym, współautorką bloga ŚlubnePotyczkiPrawne.pl. Podcast jest adresowany zarówno do par młodych jak i...',
+        mainPic: {
+            src: require('./BlogPics/podcast.png').default
+        },
+        textMain:
+            <>
+                W dzisiejszym odcinku rozmawiamy z <span className="bgMintLight">Kingą</span> - radcą prawym, współautorką bloga <CustomOuterLink className="bgColorMint" text="Ślubne Potyczki Prawne" to="https://slubnepotyczkiprawne.pl" />. Podcast jest adresowany zarówno do par młodych jak i branży ślubnej. Znajdziecie tu informacje o wpływie koronawirusa na organizację ślubów i wesel, dowiecie się, czym jest siła wyższa i do jakich kroków uprawnia dwie strony umowy, co z zadatkami i przekładaniem uroczystości. To wszystko poparte przepisami prawa.
+            </>,
+        links:
+            <>
+                <iframe title="#4 Hey Wedding - Wesele w czasie zarazy" height="122" width="100%" style={{ border: "none" }} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/media/player/rxzc8-d786c2?from=pb6admin&download=1&version=1&auto=0&share=1&download=1&rtl=0&fonts=Helvetica&skin=1&pfauth=&btn-skin=107"></iframe>
+            </>,
+        extras:
+            <>
+                <span className="d-block text-right"><CustomCategoryLink path="podcast" text="Podcast" className="bgColorMint" /></span>
+            </>
+    },
+    {
+        path: 'trendy-slubne',
+        seoText: 'Dlaczego trendy ślubne powinny być inspiracją, a nie wykładnia podczas planowania ślubu i wesela?',
+        title: 'Trendy ślubne – dlaczego nie zawsze warto się nimi kierować?',
+        date: '23 mar 2020',
+        edited: '16 paź 2020',
+        textShort: 'Co roku portale i blogi ślubne prześcigają się w ilości artykułów na temat trendów ślubnych. Zasypują Cię informacjami o kolorze roku, najnowszych...',
+        mainPic: {
+            src: require('./BlogPics/Post21/post21.jpg').default
+        },
+        textMain:
+            <>
+                Co roku portale i blogi ślubne prześcigają się w ilości artykułów na temat <span className="bgGreyLight">trendów ślubnych</span>. Zasypują Cię informacjami o kolorze roku, najnowszych fasonach sukni, czy top makijażach. Warto przejrzeć najnowsze inspiracje ślubne, zachwycić się pięknymi zdjęciami, a następnie zapomnieć o tym wszystkim. Planując swój ślub i wesele przede wszystkim, myślcie o sobie, o tym, co Wy lubicie i w czym się dobrze czujecie. Na nic Wam podążanie za trendami ślubnymi, jeśli ich nie czujecie. Zerknijcie na naszą listę spraw, gdzie nie powinniście sugerować się tym, co jest modne i dajcie znać, czy myślicie podobnie.
+            </>,
+        topPic: {
+            src: require('./BlogPics/Post21/post21.jpg').default
+        },
+        content: [
+            {
+                headerSmall: 'Suknie ślubne 2020/2021 i garnitur ślubny – trendy ślubne nie dla każdego',
+                text: 'Najpiękniejsza suknia ślubna prosto z wybiegu nie spowoduje, że będziesz czuła się pięknie i idealnie, jeśli nie będzie dobrana do Twojej sylwetki i gustu. Kupując kreację na ten wielki dzień, przede wszystkim musisz pomyśleć o sobie i o tym, w czym się dobrze czujesz. Jeśli na co dzień lubisz prostotę i klasykę, nic Ci po trendach w stylu boho. W takim stroju będziesz czuła się przebrana. To samo tyczy się Pana Młodego. Na nic śledzenie nowości, trendów w garniturach, frakach czy smokingach jeśli najlepiej mu w klasycznym czarnym garniturze. Niech trendy ślubne będą dla Was wskazówką, ale decyzję podejmijcie w zgodzie z samym sobą. Najnowsze trendy w modzie ślubnej przemijają rok do roku a Wasz ślub powinien pozostać ponadczasowy.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post21/post21a.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: 'Trendy ślubne – dekoracje sali weselnej, samochodu i kościoła',
+                text:
+                    <>
+                        Co roku PANTONE wybiera kolor roku. W 2020 trafiło na dusty blue. Zaraz po jego ogłoszeniu każdy, ale to każdy z branży ślubnej prześciga się w inspiracjach dekoracyjnych w „świętym” kolorze by stworzyć trendy motyw przewodni wesela. Pytanie: po co? Kolory, jakie pojawią się na Waszym weselu, nie powinny być dyktowane trendami ślubnymi, a wieloma innymi czynnikami. Pomijam już aspekt Waszego gustu, ale trzeba też pomyśleć o dostosowaniu koloru przewodniego wesela do sali weselnej, pory roku czy dostępności kwiatów w hurtowni. Obecnie trendującym kolorem przewodnim jest <CustomPostLink className="bgColorLight" path="zamek-ksiaz-wesele-motyw-gold-rose" text="motyw Rose Gold" />, lecz nie oznacza to, że sprawdzi się on na każdym ślubie czy weselu. Trendy ślubne 2020/2021 mogą być Waszą inspiracją, ale zdecydowanie nie powinny być Waszą wykładnią.
+                    </>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post21/post21b.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: 'Trendy ślubne w makijażu i fryzurach ślubnych',
+                text:
+                    <>
+                        Tu znowu powtórzę to, co w pierwszym punkcie. W tym ważnym dniu <span className="bgGreyLight">masz się czuć dobrze i naturalnie</span>. Nie podążaj ślepo za trendami, a wybierz z nich to co pasuje, do Twojego stylu i wyglądu. Planując swój make-up i fryzurę zdaj się dobrą stylistkę, która dopasuje fryzurę i makijaż do Ciebie. Pomyśli o rodzaju Twoich włosów, czy kształcie twarzy. Spowoduje, że będziesz piękną Panna Młodą, a nie przemalowaną lalką z trendy makijażem ślubnym.
+                    </>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post21/post21c.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: 'Piosenka ślubna na pierwszy taniec i inne trendy ślubne',
+                text:
+                    <>
+                        Co roku mamy romantyczną piosenkę, która rządzi na listach przebojów i co roku Pary Młode przenoszą ją na salę weselną i tańczą przy niej swój pierwszy taniec. Z jednej strony nic w tym złego, ale czy nie fajniej wybrać utwór, który jest ponadczasowy, a przede wszystkim Wasz?! Każdy z nas ma piosenkę, która kojarzy mu się z ukochaną lub z chwilą, którą spędzili razem i to jest zdecydowanie lepszy wybór, niż hit lata 2020. Mimo wszystko nie strońcie od nowości – trendy ślubne mogą być źródłem inspiracji na wesele w Waszych stylu. Niektóre weselne trendy mogą wejść na stałe w kanony ślubne.
+                    </>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post21/post21d.jpg').default
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        path: '3-hey-wedding-ciekawe-przypadki-dj-a-jegomościa',
+        seoText: 'Dziś porozmawiamy z naszym kolegą z branży Krzyśkiem Krzemińskiem - DJ-em Jegomościem. Pogadamy o tym, co Krzysiek lubi w swojej pracy, jak unika popadania w schematy, jak wyglądają jego relacje z parami i wielu innych interesujących rzeczach.',
+        title: '#3 Hey Wedding - Ciekawe przypadki DJ-a Jegomościa',
+        tag: 'podcast',
+        date: '12 mar 2020',
+        edited: '1 wrz 2020',
+        textShort: 'Dziś porozmawiamy z naszym kolegą z branży Krzyśkiem Krzemińskiem - DJ-em Jegomościem. Pogadamy o tym, co Krzysiek lubi w swojej pracy, jak...',
+        mainPic: {
+            src: require('./BlogPics/podcast.png').default
+        },
+        textMain:
+            <>
+                Dziś porozmawiamy z naszym kolegą z branży <span className="bgMintLight"> Krzyśkiem Krzemińskiem - DJ-em Jegomościem</span>. Pogadamy o tym, co Krzysiek lubi w swojej pracy, jak unika popadania w schematy, jak wyglądają jego relacje z parami i wielu innych interesujących rzeczach.
+            </>,
+        links:
+            <>
+                <iframe title="#3 Hey Wedding - Ciekawe przypadki DJ-a Jegomościa" height="122" width="100%" style={{ border: 'none' }} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/media/player/5enrg-d6155c?from=pb6admin&download=1&version=1&auto=0&share=1&download=1&rtl=0&fonts=Helvetica&skin=1&pfauth=&btn-skin=107"></iframe>
+            </>,
+        extras:
+            <>
+                <span className="d-block text-right"><CustomCategoryLink path="podcast" text="Podcast" className="bgColorMint" /></span>
+            </>
+    },
+    {
+        path: 'to-nie-ma-znaczenia',
+        seoText: 'Planowanie ślubu i wesela jest ekscytujące. Możesz przecież jasno określić, jak ma wyglądać Twój wielki dzień! Co więcej, dbasz o najdrobniejsze detale, by był dokładnie taki, jak sobie wymarzyłaś! To nic dziwnego, że każda Panna Młoda nie może się doczekać TEGO WIELKIEGO DNIA. Ale, ale... planowanie ślubu to nie tylk...',
+        title: 'To nie ma znaczenia!',
+        date: '3 mar 2020',
+        textShort: 'Planowanie ślubu i wesela jest ekscytujące. Możesz przecież jasno określić, jak ma wyglądać Twój wielki dzień! Co więcej, dbasz o najdrobniejsze detale, by był dokładnie taki, jak...',
+        mainPic: {
+            src: require('./BlogPics/Post20/post20.jpg').default
+        },
+        textMain: 'Planowanie ślubu i wesela jest ekscytujące. Możesz przecież jasno określić, jak ma wyglądać Twój wielki dzień! Co więcej, dbasz o najdrobniejsze detale, by był dokładnie taki, jak sobie wymarzyłaś! To nic dziwnego, że każda Panna Młoda nie może się doczekać TEGO WIELKIEGO DNIA.',
+        topPic: {
+            src: require('./BlogPics/Post20/post20.jpg').default
+        },
+        content: [
+            {
+                text: 'Ale, ale... planowanie ślubu to nie tylko czas ekscytacji i radości, ale też stres i obawa, czy wszystko będzie tak idealne, jak sobie wymarzyłaś. To naturalne, że martwisz się, czy Twoi bliscy będą mogli być w tym dniu z Wami albo, czy każdy wykonawca dotrze na czas. Są jednak sprawy, którymi nie powinnaś się zadręczać, bo ani nie masz na nie wpływu, a też z perspektywy doświadczonej wedding plannerki zdradzę Ci, że nie mają one znaczenia.'
+            },
+            {
+                headerSmall: <span className="mint">Czy perfekcyjnie zatańczysz pierwszy taniec?</span>,
+                text: 'O ile nie potkniesz i nie przewrócisz się na środku sali, to uwierz mi – wszystkie kroki nie muszą być perfekcyjne. Jasne, ciekawy układ i płynność ruchów mają znaczenie – dlatego pomysł kursów, czy indywidualnych lekcji jest jak najbardziej trafiony. Jednak jeśli coś pójdzie niedokładnie tak, jak miało być w scenariuszu, nie oznacza to końca świata. Twoi goście, o ile nie są zawodowymi tancerzami, mogą nawet niczego nie zauważyć!',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post20/post20a.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: <span className="mint">Czy wesele przebiegnie zgodnie z harmonogramem?</span>,
+                text: 'Hej, to wesele, a nie konferencja naukowa! Harmonogram, czy plan zabawy jest oczywiście potrzebny i mile widziany, jednak daruj sobie spełnianie kolejnych podpunktów z zegarmistrzowską precyzją! Jeśli goście świetnie się bawią, nie przerywaj im, by zjedli piąty gorący posiłek. Jeśli podasz go pół godziny później – naprawdę nic się nie stanie! Doświadczony DJ, wodzirej lub zespół w połączeniu z ogarniętym menedżerem sali, będą umieli odpowiednio dostosować Twój harmonogram do faktycznego przebiegu wesela.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post20/post20b.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: <span className="mint">Czy wystarczy jedzenia i alkoholu?</span>,
+                text: 'Wystarczy. Jeszcze sporo Ci zostanie. Uwierz mi, nie słyszałam nigdy o weselu, na którym zabrakło jedzenia i alkoholu.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post20/post20c.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: <span className="mint">Ile schudniesz do dnia ślubu?</span>,
+                text: 'Dieta, ćwiczenia i Bóg wie co jeszcze. Wszystko po to, by do godziny zero zgubić te cholerne 5 kilogramów. Uwierz mi – koniec końców nikt nie zwróci na to uwagi. Nie jestem fanką drakońskich diet i odchudzania się „na okazję”. Na zdjęciach ślubnych pięknie wyjdziesz niezależnie od tego, czy uda Ci się osiągnąć określoną wagę, czy nie. Planowanie Twojego ślubu ma być przyjemnością, a nie udręką!',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post20/post20d.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: <span className="mint">Czy będzie padał deszcz?</span>,
+                text: 'Na pogodę nie masz wpływu – pogódź się z tym i miej plan B – na wypadek deszczu. Wierz mi: nawet największa ulewa nie jest w stanie zrujnować Twojego najpiękniejszego w życiu dnia! Co nie znaczy, żebyś podchodziła do tematu lekceważąco – „jakoś to będzie”. Będzie – jeśli się przygotujesz!',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post20/post20e.jpg').default
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        path: 'kameralne-wesele-czy-huczne',
+        seoTitle: 'Czy kameralne wesele jest dużo tańsze od dużego? – Czary Marry',
+        seoText: 'Czy decydując się na organizację kameralnego wesela, można liczyć na duże oszczędności? Na naszym bloku obalamy mity o kosztach małego wesela!',
+        date: '22 lut 2020',
+        edited: '26 sie 2020',
+        title: 'Dlaczego kameralne wesele nie jest dużo tańsze od dużego?',
+        textShort: 'Od zawsze marzyliście o małym weselu dla najbliższych? A może było to podyktowane ograniczeniami budżetowymi? Tak czy siak, zanim zabierzecie się...',
+        mainPic: {
+            src: require('./BlogPics/Post19/post19.jpg').default
+        },
+        textMain:
+            <>
+                Od zawsze marzyliście o małym weselu dla najbliższych? A może było to podyktowane ograniczeniami budżetowymi? Tak czy siak, zanim zabierzecie się na dobre za organizację Waszego rodzinnego przyjęcia weselnego, musicie wiedzieć o kilku rzeczach. Na początku powinniśmy określić, czym tak naprawdę jest <span className="bgGreyLight">kameralne wesele.</span> Ilu gości bawi się na małym weselu? Zapewne dla jednych będzie to 10 dla innych 30 os. Na potrzeby tego artykułu przyjmijmy, że planujemy wesele do 50 osób.
+            </>,
+        topPic: {
+            src: require('./BlogPics/Post19/post19a.jpg').default
+        },
+        content: [
+            {
+                headerSmall: 'Gdzie zorganizować małe wesele?',
+                text:
+                    <>
+                        Tu mogą się pojawić pierwsze problemy. Większość właścicieli sal weselnych ustala minimalną ilość gości. Zazwyczaj jest to więcej niż 50 osób. Jeżeli nie spełnicie tych wymagań, prawdopodobnie będziecie musieli dopłacać za puste talerzyki lub sala weselna odmówi organizacji kameralnego wesela. W takiej sytuacji o oszczędnościach nie ma mowy. Inną możliwością jest wybór miejsca, w którym na co dzień nie odbywają się wesela. To z kolei często rodzi problemy innej natury. W przypadku takiego <span className="bgGreyLight">miejsce na kameralne wesele</span> trzeba będzie od podstaw stworzyć menu, być może pomyśleć o obrusach, serwetkach, odpowiedniej zastawie. Wizja kameralnego wesela w urokliwym pensjonacie brzmi wydaje się cudowna, ale organizacja przyjęcia w miejscu nieprzystosowanym do tego typu przyjęć zawsze jest dużym wyzwaniem. Czy w takim lokalu jest odpowiednio dużo miejsca na przechowywanie jedzenia i alkoholu? Czy pracuje tam wykwalifikowana obsługa kelnerska? Różne komplikacje w organizacji kameralnego wesela w miejscu do tego nieprzystosowanym mogą pojawić się na każdym etapie – od planowania po rozliczenie się z urządzonego przyjęcia weselnego, gdy goście rozjadą się już do domów. Może się okazać, że cena małego wesela organizowanego w miejscu, w którym dotychczas wesel nie organizowano, będzie znacznie wyższa niż w typowej <span className="bgGreyLight">sali weselnej</span>.
+                    </>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post19/post19b.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: 'Organizacja kameralnego wesela – koszty fotografa, DJ’a i wedding plannera',
+                text:
+                    <>
+                        Jeżeli rozważacie organizację tradycyjnego polskiego wesela, a nie uroczystego obiadu czy kolacji, to prawdopodobnie będziecie potrzebować takich samych elementów, jak przy weselu na 200 osób. Mamy tu na głównie fotografa, DJ-a, może kamerzystę. Koszty ich usług nie będą się różnić, bo będą musieli wykonać dokładnie tę samą pracę, jak w przypadku kameralnego wesela na 30 osob. Również pomoc <Link className="bgColorLight" to={URLS.HOME}>wedding plannera</Link> przy kameralnym weselu będzie kosztować tyle samo, ile kosztuje przy organizacji hucznego wesela. Przy kompleksowej pomocy zakres pracy konsultanta ślubnego będzie dokładnie taki sam jak przypadku dużego wesela. Wierzcie nam lub nie, ale najcięższym i najbardziej wymagającym w organizacji przyjęciem w naszej karierze było wesele w stylu slow, organizowane dla 16 osób. Innymi stałymi wydatkami będą opłaty urzędowe, kościelne, Wasze stroje, samochód do ślubu i obrączki. Może się więc okazać, że przy rozważaniach: wesele kameralne czy huczne, koszta będą bardzo porównywalne.
+                    </>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post19/post19c.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: 'Kameralne wesele – na czym można zaoszczędzić?',
+                text:
+                    <>
+                        Oczywiście, jeśli zdecydujecie się na organizację intymnego ślubu i wesela, pewne elementy będą kosztować nieco mniej. O ile nie poszaleje się za bardzo z dekoracją, to oszczędnością może być florystyka. Będziecie mieć do zaaranżowania mniejszą przestrzeń, mniejszą ilość stołów. Oczywiście słyszałyśmy już o weselach dla 20 osób i 5 tirach kwiatów jadących z Holandii, ale skupiamy się tu na dekoracjach mających podkreślić charakter kameralnego przyjęcia weselnego. <br />
+                        Kolejna sprawa to papeteria. Tu też zdarzają się wyjątki, bo część firm drukuje zaproszenia od 20 lub 30 sztuk, mimo to biorąc pod uwagę ilość winietek, brak <CustomPostLink path='rozmieszczenie-gosci-weselnych' text="planu ustawienia stołów" className="bgColorPink" /> i tak powinniście zaoszczędzić. Również noclegi, transport i logistyka daje duże pole do popisu w kwestii zminimalizowania budżetu weselnego.
+                    </>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post19/post19d.jpg').default
+                    }
+                ]
+            },
+            {
+                text: 'Może się wydawać, że kameralne wesele jest czym, za czym nie przepadamy i chcemy Was do niego zniechęcić. Jest wprost przeciwnie. Uwielbiamy intymne śluby, za rodzinną atmosferę i niesamowity klimat. Chciałybyśmy po prostu uświadomić Was, na jakie problemy możecie natrafić i jakie pułapki czyhają na Pary Młode, które liczą na znacznie mniejsze koszty przy organizacji wesela do 50 osób. "Czasami mniej znaczy więcej" i chociaż powiedzenie nie do końca wydaje się adekwatne do podjętego tematu to jednak sporo w nim prawdy. Czy kameralne wesele czy huczne, polecamy się do organizacji Waszego przyjęcia. Wszelkie kłopoty i zmartwienia przeniesiemy na swoje barki.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post19/post19e.jpg').default
+                    }
+                ]
+            }
+        ]
+    },
     {
         path: '2-hey-wedding-angie-i-jej-trzy-śluby',
         seoText: 'Dziś porozmawiamy z Angie o jej kameralnym weselu w stylu slow organizowanym w Polsce oraz wielkim hinduskim weselu i tradycjach z nim związanych.',
@@ -16,15 +1164,17 @@ const posts = [
         mainPic: {
             src: require('./BlogPics/podcast.png').default
         },
-        textMain: 'Dziś porozmawiamy z Angie o jej kameralnym weselu w stylu slow organizowanym w Polsce oraz wielkim hinduskim weselu i tradycjach z nim związanych.',
-        links:
-        <>
-            <iframe title="#2 Hey Wedding - Angie i jej trzy śluby." height="122" width="100%" style={{border: "none"}} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/media/player/2gzp7-d37e74?from=pb6admin&download=1&version=1&auto=0&share=1&download=1&rtl=0&fonts=Helvetica&skin=1&pfauth=&btn-skin=107"></iframe>
+        textMain: <>
+            Dziś porozmawiamy z <span className="bgMintLight">Angie</span> o jej <span className="bgMintLight">kameralnym weselu w stylu slow</span> organizowanym w Polsce oraz wielkim hinduskim weselu i tradycjach z nim związanych.
         </>,
+        links:
+            <>
+                <iframe title="#2 Hey Wedding - Angie i jej trzy śluby." height="122" width="100%" style={{ border: "none" }} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/media/player/2gzp7-d37e74?from=pb6admin&download=1&version=1&auto=0&share=1&download=1&rtl=0&fonts=Helvetica&skin=1&pfauth=&btn-skin=107"></iframe>
+            </>,
         extras:
-        <>
-            <span className="d-block text-right"><CustomInnerLink path="/" text="Podcast" className="bgColorMint" /></span>
-        </>
+            <>
+                <span className="d-block text-right"><CustomCategoryLink path="podcast" text="Podcast" className="bgColorMint" /></span>
+            </>
     },
     {
         path: '1-hey-wedding-kasia-i-marcin',
@@ -37,20 +1187,22 @@ const posts = [
         mainPic: {
             src: require('./BlogPics/podcast.png').default
         },
-        textMain: 'Posłuchajcie naszego podcastu - Hey Wedding! W pierwszym odcinku rozmawiamy z jedną z naszych par. Kasia i Marcin mieli piękne wesele w Przystani Między Deskami.',
-        links:
-        <>
-            <iframe title="#1 Hey Wedding - Cytrynowe emocje Kasi i Marcina" height="122" width="100%" style={{border: "none"}} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/media/player/c7m3w-cf77a8?from=pb6admin&download=1&version=1&auto=0&share=1&download=1&rtl=0&fonts=Helvetica&skin=1&pfauth=&btn-skin=107"></iframe>
+        textMain: <>
+            Posłuchajcie naszego podcastu - <span className="bgMintLight">Hey Wedding!</span> W pierwszym odcinku rozmawiamy z jedną z naszych par. <span className="bgMintLight">Kasia i Marcin</span> mieli piękne wesele w Przystani Między Deskami.
         </>,
+        links:
+            <>
+                <iframe title="#1 Hey Wedding - Cytrynowe emocje Kasi i Marcina" height="122" width="100%" style={{ border: "none" }} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/media/player/c7m3w-cf77a8?from=pb6admin&download=1&version=1&auto=0&share=1&download=1&rtl=0&fonts=Helvetica&skin=1&pfauth=&btn-skin=107"></iframe>
+            </>,
         extras:
-        <>
-            <span className="d-block text-right"><CustomInnerLink path="/" text="Podcast" className="bgColorMint" /></span>
-        </>
+            <>
+                <span className="d-block text-right"><CustomCategoryLink path="podcast" text="Podcast" className="bgColorMint" /></span>
+            </>
     },
     {
         path: 'mała-rzecz-a-ucieszy',
         seoText: 'Niezbędnik ślubny. Przydatne rzeczy w dniu waszego wesela.',
-        tag: 'niezbędnik',
+        tag: 'niezbędnik-przedslubny',
         title: 'MAŁA RZECZ, A UCIESZY',
         date: '10 kwi 2018',
         edited: '13 sty 2020',
@@ -63,8 +1215,8 @@ const posts = [
             {
                 text:
                     <>
-                        <p><span className="pink bold">ZEGAREK</span><br />
-                    Mało kto go teraz używa. Tymczasem zegarek u pana młodego (czy chociażby świadka) to gadżet na wagę złota. Mało eleganckie jest zerkanie co chwilę na wyświetlacz telefonu – stąd tradycyjny sposób sprawdzenia godziny powinien w Twoim wielkim dniu jednak dominować.</p>
+                        <span className="pink bold">ZEGAREK</span><br />
+                    Mało kto go teraz używa. Tymczasem zegarek u pana młodego (czy chociażby świadka) to gadżet na wagę złota. Mało eleganckie jest zerkanie co chwilę na wyświetlacz telefonu – stąd tradycyjny sposób sprawdzenia godziny powinien w Twoim wielkim dniu jednak dominować.
                     </>,
                 pics: [
                     {
@@ -75,8 +1227,8 @@ const posts = [
             {
                 text:
                     <>
-                        <p><span className="pink bold">PARASOL</span><br />
-                    Każdemu życzę pięknej pogody w dniu ślubu i wesela, takiej bez ani jednej kropelki deszczu. Co jeśli jednak się pojawi? Warto zabrać do ślubnego samochodu biały, elegancki parasol. W razie deszczu nie będziemy musieli ratować się kolorowym parasolem babci, który później wygląda bardzo niekorzystnie na zdjęciach ślubnych, no i uratuje fryzury oraz ślubne stroje.</p>
+                        <span className="pink bold">PARASOL</span><br />
+                    Każdemu życzę pięknej pogody w dniu ślubu i wesela, takiej bez ani jednej kropelki deszczu. Co jeśli jednak się pojawi? Warto zabrać do ślubnego samochodu biały, elegancki parasol. W razie deszczu nie będziemy musieli ratować się kolorowym parasolem babci, który później wygląda bardzo niekorzystnie na zdjęciach ślubnych, no i uratuje fryzury oraz ślubne stroje.
                     </>,
                 pics: [
                     {
@@ -87,8 +1239,8 @@ const posts = [
             {
                 text:
                     <>
-                        <p><span className="pink bold">POKROWIEC NA SUKNIĘ ŚLUBNĄ</span><br />
-                    Jeśli noc poślubną spędzasz poza domem, nie chcesz chyba wracać kolejnego dnia w sukni ślubnej, ani tym bardziej, próbować upchnąć ją do reklamówki? Stąd, przydaje się pokrowiec na suknię ślubną, ewentualnie – na garnitur. Pozwala to przetransportować ślubne ubranie w dobrym stanie.</p>
+                        <span className="pink bold">POKROWIEC NA SUKNIĘ ŚLUBNĄ</span><br />
+                    Jeśli noc poślubną spędzasz poza domem, nie chcesz chyba wracać kolejnego dnia w sukni ślubnej, ani tym bardziej, próbować upchnąć ją do reklamówki? Stąd, przydaje się pokrowiec na suknię ślubną, ewentualnie – na garnitur. Pozwala to przetransportować ślubne ubranie w dobrym stanie.
                     </>,
                 pics: [
                     {
@@ -99,15 +1251,15 @@ const posts = [
             {
                 text:
                     <>
-                        <p><span className="pink bold">ROLKA DO UBRAŃ</span><br />
-                    Przyda się każdemu Panu na weselu. Zwłaszcza jeśli na garnitur włoży płaszcz.</p>
+                        <span className="pink bold">ROLKA DO UBRAŃ</span><br />
+                    Przyda się każdemu Panu na weselu. Zwłaszcza jeśli na garnitur włoży płaszcz.
                     </>
             },
             {
                 text:
                     <>
-                        <p><span className="pink bold">KOCE</span><br />
-                    Coraz częściej przenosimy nasze śluby i wesela na świeże powietrze. Organizujemy dla gości strefy relaksu z wygodnymi kanapami, planujemy atrakcję, która wieczorem będzie wymagała wyjścia na zewnątrz lub po prostu wybieramy salę z pięknym ogrodem, który, aż kusi do spędzenia chwili czasu w nim. Zadbajmy o okrycie wierzchnie dla gości, o koce, pledy, narzuty. Chociaż sezon ślubny przypada na lato, nawet o tej porze roku wieczory bywają dość chłodne. Stąd – warto zadbać o komfort swój i gości. Gdy w południe jest prawie 30 stopni, nikt nie myśli o zabraniu czegoś cieplejszego, czym można okryć się w nocy. Tymczasem, pogoda potrafi zaskakiwać. Bycie na to przygotowanym to gwarancja udanej imprezy!</p>
+                        <span className="pink bold">KOCE</span><br />
+                    Coraz częściej przenosimy nasze śluby i wesela na świeże powietrze. Organizujemy dla gości strefy relaksu z wygodnymi kanapami, planujemy atrakcję, która wieczorem będzie wymagała wyjścia na zewnątrz lub po prostu wybieramy salę z pięknym ogrodem, który, aż kusi do spędzenia chwili czasu w nim. Zadbajmy o okrycie wierzchnie dla gości, o koce, pledy, narzuty. Chociaż sezon ślubny przypada na lato, nawet o tej porze roku wieczory bywają dość chłodne. Stąd – warto zadbać o komfort swój i gości. Gdy w południe jest prawie 30 stopni, nikt nie myśli o zabraniu czegoś cieplejszego, czym można okryć się w nocy. Tymczasem, pogoda potrafi zaskakiwać. Bycie na to przygotowanym to gwarancja udanej imprezy!
                     </>,
                 pics: [
                     {
@@ -118,14 +1270,14 @@ const posts = [
         ],
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
+                <span className="d-block text-right"><CustomCategoryLink path="niezbędnik-przedslubny" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
             </>
 
     },
     {
         path: 'czy-każdy-może-zostać-wedding-plannerem',
         seoText: 'Czy każdy może zostać wedding plannerem? Pytanie na pozór banalne, chociaż odpowiedzi mogą być naprawdę różne. Teoretycznie tak, ale czy każdy ma predyspozycje do tego, aby wykonywać ten zawód z sukcesem?',
-        tag: 'niezbędnik',
+        tag: 'niezbędnik-przedslubny',
         title: 'Czy każdy może zostać wedding plannerem?',
         date: '5 lut 2018',
         edited: '8 lip 2020',
@@ -135,7 +1287,7 @@ const posts = [
         },
         textMain:
             <>
-                <span className="bold bgMintLight">Czy każdy może zostać wedding plannerem?</span> Pytanie na pozór banalne, chociaż odpowiedzi mogą być naprawdę różne. Teoretycznie tak, ale czy każdy ma predyspozycje do tego, aby wykonywać ten zawód z sukcesem? To już zupełnie inna para kaloszy.<br />
+                <span className="bgMintLight">Czy każdy może zostać wedding plannerem?</span> Pytanie na pozór banalne, chociaż odpowiedzi mogą być naprawdę różne. Teoretycznie tak, ale czy każdy ma predyspozycje do tego, aby wykonywać ten zawód z sukcesem? To już zupełnie inna para kaloszy.<br />
                 Do napisania tego artykułu skłonił mnie poniższy nagłówek, zamieszczony w popularnym portalu plotkarskim. Nie zamierzam w żaden sposób atakować Kayah, która rzeczywiście jest kobietą sukcesu i super artystką. Jej wypowiedź stała się jedynie impulsem do napisania kilku słów na temat owianego masą stereotypów zawodu konsultanta ślubnego.
             </>,
         topPic: {
@@ -180,14 +1332,14 @@ const posts = [
             </>,
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
+                <span className="d-block text-right"><CustomCategoryLink path="niezbędnik-przedslubny" text="Niezbędnik przedŚLUBNY" className="bgColorMint" /></span>
             </>
     },
     {
         path: 'przesady-slubne-zwyczaje-weselne',
         seoTitle: 'Przesądy ślubne – element, który wzbogaca naszą tradycję – Czary Marry',
         seoText: 'Oglądanie Panny Młodej przed ślubem, zakup obrączek przez Pana Młodego i inne – które przesądy ślubne znasz i kultywujesz?',
-        tag: 'niezbędnik',
+        tag: 'niezbędnik-przedslubny',
         title: 'Przesądy ślubne – nieocenione tradycje weselne czy nikomu niepotrzebne zabobony ślubne?',
         date: '8 sty 2018',
         edited: '22 gru 2020',
@@ -197,14 +1349,14 @@ const posts = [
         },
         textMain:
             <>
-                Ciężko wymienić wszystkie <b>tradycje weselne</b>, które mimo upływającego czasu są wiecznie żywe i nadal funkcjonują w naszej kulturze. Większość z nich traktujemy z przymrużeniem oka, ale w gąszczu zwyczajów weselnych można odnaleźć prawdziwe perełki, które mogą dostarczyć wielu okazji do wzruszeń i śmiechu. Poznaj najpopularniejsze <b>przesądy ślubne</b> i dowiedz się, dlaczego warto o nich pamiętać w dniu ślubu i wesela.
+                Ciężko wymienić wszystkie <span className="bgPinkLight">tradycje weselne</span>, które mimo upływającego czasu są wiecznie żywe i nadal funkcjonują w naszej kulturze. Większość z nich traktujemy z przymrużeniem oka, ale w gąszczu zwyczajów weselnych można odnaleźć prawdziwe perełki, które mogą dostarczyć wielu okazji do wzruszeń i śmiechu. Poznaj najpopularniejsze <span className="bgPinkLight">przesądy ślubne</span> i dowiedz się, dlaczego warto o nich pamiętać w dniu ślubu i wesela.
             </>,
         content: [
             {
                 headerSmall: 'Pan Młody nie może oglądać sukni przed ślubem – przesądy ślubne, które zapewniają wiele wzruszeń',
                 text:
                     <>
-                        Wiemy, że każda Panna Młoda chce się podobać swojemu przyszłemu mężowi i liczy się z jego opinią, ale ten jeden raz warto dochować tajemnicy i poradzić się kogoś innego. Nie ma nic piękniejszego niż widok oszołomionego z wrażenia Pana Młodego, gdy widzi swoją wybrankę w sukni ślubnej po raz pierwszy i odwrotnie. To emocje, których nie da się oszukać, łzy wzruszenia i spojrzenia pełne miłości, o jakiej pisze się książki. Ten zwyczaj należy do przesądów ślubnych, które zapewniają wiele wzruszeń. Te tradycje ślubne często wykorzystywane są również w fotografii ślubnej – zdjęcia lub fragment filmu ślubnego z <i>first look</i> będzie wspaniałą pamiątką.
+                        Wiemy, że każda Panna Młoda chce się podobać swojemu przyszłemu mężowi i liczy się z jego opinią, ale ten jeden raz warto dochować tajemnicy i poradzić się kogoś innego. Nie ma nic piękniejszego niż widok oszołomionego z wrażenia Pana Młodego, gdy widzi swoją wybrankę w sukni ślubnej po raz pierwszy, i odwrotnie. To emocje, których nie da się oszukać, łzy wzruszenia i spojrzenia pełne miłości, o jakiej pisze się książki. Ten zwyczaj należy do przesądów ślubnych, które zapewniają wiele wzruszeń. Te tradycje ślubne często wykorzystywane są również w fotografii ślubnej – zdjęcia lub fragment filmu ślubnego z <i>first look</i> będzie wspaniałą pamiątką.
                     </>,
                 pics: [
                     {
@@ -270,14 +1422,14 @@ const posts = [
             </>,
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
+                <span className="d-block text-right"><CustomCategoryLink path="niezbędnik-przedslubny" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
             </>
     },
     {
         path: 'wesele-pod-namiotem',
         seoTitle: "Wesele pod namiotem – zorganizujmy go wspólnie z agencją ślubną Czary Marry",
         seoText: 'Jak zapewnić gościom fantastyczną rozrywkę podczas wesela pod namiotem? Jakich błędów uniknąć, organizując wesele pod gołym niebem?',
-        tag: 'niezbędnik',
+        tag: 'niezbędnik-przedslubny',
         title: 'Wesele pod namiotem – o czym trzeba pamiętać przy jego organizacji?',
         date: '2 lis 2017',
         edited: '5 lis 2020',
@@ -339,13 +1491,13 @@ const posts = [
             <p className="mb-1">Źródło zdjęć: <CustomOuterLink to="https://pl.pinterest.com/" text="Pinterest" /></p>,
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
+                <span className="d-block text-right"><CustomCategoryLink path="niezbędnik-przedslubny" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
             </>
     },
     {
         path: 'coś-dla-relaksu',
         seoText: 'Organizujesz swój ślub i wesele. BRAWO! Jesteś bohaterką ! Zasługujesz na trochę odpoczynku i relaksu. Chcemy zaproponować Ci dziś trochę weselnych umilaczy w postaci książek i programów ślubnych. W końcu przygotowania do ceremonii zaczynają się na długo przed kluczowym dniem, dlatego wielu może się wydawać, że...',
-        tag: 'niezbędnik',
+        tag: 'niezbędnik-przedslubny',
         title: 'Coś dla relaksu',
         date: '16 paź 2017',
         edited: '8 lip 2020',
@@ -418,14 +1570,14 @@ const posts = [
             </>,
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
+                <span className="d-block text-right"><CustomCategoryLink path="niezbędnik-przedslubny" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
             </>
     },
     {
         path: 'wesele-w-plenerze',
         seoTitle: 'Jak zorganizować wesele w plenerze? radzi agencja ślubna Czary Marry',
         seoText: 'O czym trzeba pamiętać, organizując wesele w plenerze? Dlaczego warto przy tej okazji poprosić o pomoc wedding plannera? Praktyczne wskazówki i porady!',
-        tag: 'niezbędnik',
+        tag: 'niezbędnik-przedslubny',
         title: 'Jak zorganizować wesele w plenerze?',
         date: '17 sie 2017',
         edited: '18 lis 2020',
@@ -435,7 +1587,7 @@ const posts = [
         },
         textMain:
             <>
-                Pogodna wiosna, długie, upalne lato i złota polska jesień mogą stanowić doskonałą oprawę weselnej imprezy. Jeśli dodatkowo zdecydujecie się urządzić <b>wesele w plenerze</b>, TEN dzień będzie naprawdę wyjątkowy. Dowiedzcie się, o czym musicie pamiętać gdy organizujecie wesele plenerowe!
+                Pogodna wiosna, długie, upalne lato i złota polska jesień mogą stanowić doskonałą oprawę weselnej imprezy. Jeśli dodatkowo zdecydujecie się urządzić <span className="bgPinkLight">wesele w plenerze</span>, TEN dzień będzie naprawdę wyjątkowy. Dowiedzcie się, o czym musicie pamiętać gdy organizujecie wesele plenerowe!
             </>,
         content: [
             {
@@ -454,7 +1606,7 @@ const posts = [
             {
                 headerSmall: <span className="pink">2. Wesele w plenerze w nietypowym miejscu – zapewnijcie gościom parking!</span>,
                 text: <>
-                    W przypadku sal weselnych problem przeważnie się nie pojawia. Każde dobrze prosperujące miejsce ma swój prywatny parking, a w przypadku większej ilości samochodów służą swoim doświadczeniem i podpowiedzą, gdzie pokierować gości. Co, kiedy podczas organizacji przyjęcia weselnego w plenerze stawiamy <CustomInnerLink path="wesele-pod-namiotem" text="namiot weselny" /> czy jurtę na pięknej łące, u siebie w ogrodzie lub daleko od cywilizacji? Często Młode Pary nie pomyślą o organizacji parkingu i nie chodzi tu tylko o wydzielenie strefy, gdzie goście mogą zaparkować. Trzeba pomyśleć o tym, aby parking był na stabilnym gruncie. Panie będą mieć obcasy, a Panowie eleganckie półbuty. Szkoda, aby obuwie pobrudziło się od zapadania w ziemię bądź błoto podczas ewentualnego deszczu. Dobrze, gdyby miejsce było odpowiednio oświetlone, by nie szukać swojego auta, świecąc sobie smartfonem. Jeśli marzycie o weselu w plenerze, musicie zapewnić gościom jak najbardziej komfortowe warunki.</>,
+                    W przypadku sal weselnych problem przeważnie się nie pojawia. Każde dobrze prosperujące miejsce ma swój prywatny parking, a w przypadku większej ilości samochodów służą swoim doświadczeniem i podpowiedzą, gdzie pokierować gości. Co, kiedy podczas organizacji przyjęcia weselnego w plenerze stawiamy <CustomPostLink path='wesele-pod-namiotem' className="bgColorPink" text="namiot weselny" /> czy jurtę na pięknej łące, u siebie w ogrodzie lub daleko od cywilizacji? Często Młode Pary nie pomyślą o organizacji parkingu i nie chodzi tu tylko o wydzielenie strefy, gdzie goście mogą zaparkować. Trzeba pomyśleć o tym, aby parking był na stabilnym gruncie. Panie będą mieć obcasy, a Panowie eleganckie półbuty. Szkoda, aby obuwie pobrudziło się od zapadania w ziemię bądź błoto podczas ewentualnego deszczu. Dobrze, gdyby miejsce było odpowiednio oświetlone, by nie szukać swojego auta, świecąc sobie smartfonem. Jeśli marzycie o weselu w plenerze, musicie zapewnić gościom jak najbardziej komfortowe warunki.</>,
                 pics: [
                     {
                         src: require('./BlogPics/Post13/post13a.jpg').default
@@ -494,7 +1646,7 @@ const posts = [
         ],
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
+                <span className="d-block text-right"><CustomCategoryLink path="niezbędnik-przedslubny" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
             </>
     },
 
@@ -502,7 +1654,7 @@ const posts = [
         path: 'jak-zaoszczedzic-na-weselu',
         seoTitle: 'Podpowiadamy, jak zaoszczędzić na weselu – Czary Marry',
         seoText: 'Szukacie sposobów, jak zaoszczędzić na weselu? W naszym artykule podpowiadamy, z czego można zrezygnować, by obniżyć koszty wesela.',
-        tag: 'niezbędnik',
+        tag: 'niezbędnik-przedslubny',
         title: 'Jak zaoszczędzić na weselu? Z czego można zrezygnować, by zmniejszyć koszty wesela?',
         date: '5 lip 2017',
         edited: '22 gru 2020',
@@ -512,11 +1664,11 @@ const posts = [
         },
         textMain:
             <>
-                Organizacja ślubu i wesela to nie tylko wielkie wyzwanie i dużo pracy, ale i spory wydatek. Co zrobić, gdy budżet się nie dopina? Od czego najlepiej zacząć cięcie kosztów? Dowiedz się, <b>jak zaoszczędzić na weselu!</b>
+                Organizacja ślubu i wesela to nie tylko wielkie wyzwanie i dużo pracy, ale i spory wydatek. Co zrobić, gdy budżet się nie dopina? Od czego najlepiej zacząć cięcie kosztów? Dowiedz się, <span className="bgMintLight">jak zaoszczędzić na weselu!</span>
             </>,
         content: [
             {
-                headerSmall: 'Na czym zaoszczędzić na weselu – w pierwszej kolejności zrezygnujcie z poprawin',
+                headerSmall: <span className="mint">Na czym zaoszczędzić na weselu – w pierwszej kolejności zrezygnujcie z poprawin</span>,
                 text: 'Jeżeli nie macie pewności, czy wystarczy Wam pieniędzy na zorganizowanie ślubu marzeń, zdecydujcie się na wesele jednodniowe. Poprawiny generują spore koszty, często wiążą się z koniecznością rezerwacji dodatkowych miejsc noclegowych, transportu czy oprawy muzycznej. Jeżeli bardzo zależy Wam na tym, aby wesele było dwudniowe, zdecydujcie się tylko na pożegnalne śniadanie. Pamiętajcie, że lepiej zorganizować jednodniowe wesele, które goście zapamiętają na długo, niż kiepskie trwające na domiar złego dwa dni. Rezygnacja z poprawin to pierwsza odpowiedź na pytanie o to, na czym zaoszczędzić na weselu.',
                 pics: [
                     {
@@ -525,7 +1677,7 @@ const posts = [
                 ]
             },
             {
-                headerSmall: 'Zastanawiacie się, jak zaoszczędzić na weselu? Skróćcie listę gości',
+                headerSmall: <span className="mint">Zastanawiacie się, jak zaoszczędzić na weselu? Skróćcie listę gości</span>,
                 text: 'Zastanówcie się, czy Wasza lista gości nie jest zbyt długa. Skromne uroczystości w gronie rodziny i przyjaciół mają niesamowity urok i niczym nie ustępują tym na 150 osób. Nie uginajcie się, gdy najbliżsi naciskają, że należy zaprosić sąsiadkę lub ciocię, którą ostatni raz widzieliście podczas swojej komunii. Huczne czy kameralne wesele? To Wasze wesele i Wy za nie płacicie. Jeżeli mama lub teściowa mają ochotę kogoś zaprosić, postawcie ultimatum, że będą musiały pokryć wszystkie związanej tym koszty. Wiele Par Młodych nie ma ochoty zapraszać rodziny, z którą nie utrzymują kontaktu od lat i dopiero szukanie sposobu, jak zaoszczędzić na organizacji wesela, ułatwia w podjęciu decyzji dotyczącej listy gości.',
                 pics: [
                     {
@@ -534,11 +1686,11 @@ const posts = [
                 ]
             },
             {
-                headerSmall: 'Na czym zaoszczędzić na weselu? Wybierzcie odpowiedni sposób serwowania potraw',
+                headerSmall: <span className="mint">Na czym zaoszczędzić na weselu? Wybierzcie odpowiedni sposób serwowania potraw</span>,
                 text: 'Jak serwowane będzie danie główne na Waszym weselu? Zdecydowaliście się na półmiski z różnymi daniami kładzione na stołach czy dokładnie takie same posiłki dla każdego z gości serwowane przez kelnera? My zdecydowanie polecamy opcję numer dwa. Z reguły powinna być ona tańsza, ponieważ kucharz ma do przygotowania mniej jedzenia, ale to nie jest jej jedyna zaleta. Ponadto taki sposób serwowania jest bardziej elegancki i raz na zawsze rozwiązuje problem walki o jedzenie. Goście są najedzeni i szczęśliwi, a Wy wiecie już, na czym zaoszczędzić na weselu.'
             },
             {
-                headerSmall: 'Wybór odpowiedniego alkoholu – jak zaoszczędzić na weselu?',
+                headerSmall: <span className="mint">Wybór odpowiedniego alkoholu – jak zaoszczędzić na weselu?</span>,
                 text: 'Pary bezustannie główkują, jaką wódkę weselną wybrać. Zwykle odpowiadamy, że taką, jaką pije się na rodzinnych imprezach, najlepiej niezbyt drogą. Absolutnie nie namawiamy do kupowania najtańszego spirytusu, bo to droga do tragedii, ale jeżeli Wasz budżet jest ograniczony, wybierzcie alkohol ze średniej półki cenowej. Wódka to wódka. Goście będą z chęcią po nią sięgać bez względu czy jej cena to 20, czy 70 złotych za pół litra, a Wy możecie zaoszczędzić naprawdę sporo pieniędzy. Dobrą alternatywą jest oczywiście wino. W sklepach internetowych możecie znaleźć rozmaite promocje na naprawdę smaczne wina.',
                 pics: [
                     {
@@ -547,11 +1699,11 @@ const posts = [
                 ]
             },
             {
-                headerSmall: 'Jak zaoszczędzić na organizacji wesela? Obniżcie koszty za samochód Pary Młodej',
+                headerSmall: <span className="mint">Jak zaoszczędzić na organizacji wesela? Obniżcie koszty za samochód Pary Młodej</span>,
                 text: 'Z pewnością do ślubu fajnie jechać wypasioną sportową furą lub zabytkowym autem z lat powojennych, ale pamiętajcie, że to duży wydatek. W każdej rodzinie znajdzie się posiadacz nowego, ładnego samochodu, który będzie pękał z dumy, że chcecie pojechać do ślubu właśnie jego autem. Być może ktoś z przyjaciół dysponuje reprezentacyjnym samochodem i z chęcią w ramach prezentu ślubnego zawiezie Was do ślubu? Wybierając auto do ślubu, pamiętajcie o priorytetach. Są rzeczy ważne i ważniejsze. Jeśli zastanawiacie się, jak zaoszczędzić na organizacji wesela, szukajcie tańszych rozwiązań, które nie wpływają na dobrą zabawę gości.'
             },
             {
-                headerSmall: 'Zbędna papeteria ślubna i inne dodatki – jak zaoszczędzić na weselu?',
+                headerSmall: <span className="mint">Zbędna papeteria ślubna i inne dodatki – jak zaoszczędzić na weselu?</span>,
                 text: 'Głównie mamy tu na myśli winietki. Jeżeli zdecydujecie się na okrągłe stoliki, możecie zrezygnować z winietek na rzecz planu ustawienia stołów. Rozsadzenie gości przy okrągłym stoliku nie ma znaczenia, a table plan pomoże Wam uniknąć gonitwy w poszukiwaniu miejsca przy stole i wyjdzie zdecydowanie taniej. Menu? Zawieszki na alkohol? Wyglądają pięknie, ale zdecydowanie nie jest to must have niskobudżetowego wesela i rezygnacja z nich jest bezapelacyjnie dobrym pomysłem, by więcej nie zastanawiać się już, jak zaoszczędzić na weselu.',
                 pics: [
                     {
@@ -560,7 +1712,7 @@ const posts = [
                 ]
             },
             {
-                headerSmall: 'Prezenty dla gości i atrakcje dla gości weselnych – jak zaoszczędzić na ślubie?',
+                headerSmall: <span className="mint">Prezenty dla gości i atrakcje dla gości weselnych – jak zaoszczędzić na ślubie?</span>,
                 text: 'W tajemnicy zdradzimy Wam, że często goście zapominają, gubią lub po prostu nie zabierają upominków przygotowanych przez Parę Młodą. To miły gest, ale przy 100-osobowym weselu rezygnacja z prezentów dla gości to oszczędność przynajmniej 500 złotych, które można wykorzystać na bardziej przyziemne rzeczy. Ponadto przy weselu ze skromnym budżetem powinniście całkowicie odrzucić pomysł takich atrakcji jak pokaz sztucznych ogni czy lampiony szczęścia. Atrakcje są dość drogie i można sobie na nie pozwolić, jeżeli każda inna rzecz jest dopięta na ostatni guzik. Dobry zespół lub Dj zapewniają gościom znakomitą zabawę, dlatego Pary, które zastanawiają się, jak zaoszczędzić na ślubie i weselu, namawiamy do skupienia się na znalezieniu wodzireja i muzyków, którzy nie pozwolą gościom się nudzić.',
                 pics: [
                     {
@@ -584,13 +1736,13 @@ const posts = [
             </>,
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
+                <span className="d-block text-right"><CustomCategoryLink path="niezbędnik-przedslubny" text="Niezbędnik przedŚLUBNY" className="bgColorMint" /></span>
             </>
     },
     {
         path: '7-grzechów-ślubnych-na-co-uważać-przy-wyborze-wykonawców',
         seoText: 'Rynek ślubny rozwija się w niesamowitym tempie. Agencje ślubne, fotografowie, kamerzyści oraz zespoły muzyczne rosną jak grzyby po deszczu. Dziś powiem Wam jak wybrać solidnego wykonawcę spośród ofert znajdujących się na rynku. Obnażę słabostki i grzeszki „kolegów” z branży. Mam nadzieję, że poniższy artykuł pomoże...',
-        tag: 'niezbędnik',
+        tag: 'niezbędnik-przedslubny',
         title: '7 GRZECHÓW ŚLUBNYCH. Na co uważać przy wyborze wykonawców.',
         date: '9 cze 2017',
         textShort: 'Rynek ślubny rozwija się w niesamowitym tempie. Agencje ślubne, fotografowie, kamerzyści oraz zespoły muzyczne rosną jak grzyby po deszczu. Dziś powiem Wam jak wybrać...',
@@ -676,14 +1828,14 @@ const posts = [
             </>,
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
+                <span className="d-block text-right"><CustomCategoryLink path="niezbędnik-przedslubny" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
             </>
     },
     {
         path: 'formalnosci-po-slubie',
         seoTitle: 'Formalności po ślubie – co załatwić po ślubie? – Czary Marry',
         seoText: 'Zmiana dokumentów, informacja o zmianie nazwiska w banku to tylko niektóre z formalności, o których trzeba pamiętać po ślubie.',
-        tag: 'niezbędnik',
+        tag: 'niezbędnik-przedslubny',
         title: 'Formalności po ślubie – co warto wiedzieć?',
         date: '1 cze 2017',
         edited: '22 gru 2020',
@@ -715,14 +1867,14 @@ const posts = [
         ],
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
+                <span className="d-block text-right"><CustomCategoryLink path="niezbędnik-przedslubny" text="Niezbędnik przedŚLUBNY" className="bgColorMint" /></span>
             </>
     },
     {
         path: 'rozmieszczenie-gosci-weselnych',
         seoTitle: 'Plan doskonały na rozmieszczenie gości weselnych – Czary Marry',
         seoText: 'Dlaczego warto zaplanować rozmieszczenie gości weselnych? Jak rozlokować gości i jak ich poinformować, które miejsce przygotowaliśmy właśnie dla nich?',
-        tag: 'niezbędnik',
+        tag: 'niezbędnik-przedslubny',
         title: 'Rozmieszczenie gości weselnych – czy istnieje plan doskonały?',
         date: '23 maja 2017',
         edited: '26 sie 2020',
@@ -732,7 +1884,7 @@ const posts = [
         },
         textMain:
             <>
-                <b>Rozsadzenie gości weselnych</b> przy stołach to sprawa na pozór prosta, ale nasze doświadczenia w <Link to={URLS.HOME} className="bgColor">agencji ślubnej Czary Marry</Link> są najlepszym dowodem na to, że może przysporzyć masę problemów, a dla Pary Młodej jest sporym wyzwaniem. Wbrew pozorom konsekwencje nieprzemyślanego rozsadzenia gości na weselu mogą być bardzo dotkliwe. Począwszy od poczucia pominięcia i niezadowolenia po zaognienie rodzinnych sporów i weselne pranie brudów. Dziś zdradzimy Wam jak poradzić sobie z kłopotliwym tematem i sprawić, że <b>rozmieszczenie gości weselnych</b> przy stołach zajmie Wam dosłownie chwilę.
+                <span className="bgGreyLight">Rozsadzenie gości weselnych</span> przy stołach to sprawa na pozór prosta, ale nasze doświadczenia w <Link url={URLS.HOME} className="bgColorLight">agencji ślubnej Czary Marry</Link> są najlepszym dowodem na to, że może przysporzyć masę problemów, a dla Pary Młodej jest sporym wyzwaniem. Wbrew pozorom konsekwencje nieprzemyślanego rozsadzenia gości na weselu mogą być bardzo dotkliwe. Począwszy od poczucia pominięcia i niezadowolenia po zaognienie rodzinnych sporów i weselne pranie brudów. Dziś zdradzimy Wam jak poradzić sobie z kłopotliwym tematem i sprawić, że <span className="bgGreyLight">rozmieszczenie gości weselnych</span> przy stołach zajmie Wam dosłownie chwilę.
             </>,
         content: [
             {
@@ -802,13 +1954,13 @@ const posts = [
             </>,
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
+                <span className="d-block text-right"><CustomCategoryLink path="niezbędnik-przedslubny" text="Niezbędnik przedŚLUBNY" className="bgColorLight" /></span>
             </>
     },
     {
         path: 'dama-mojego-serca-historia-miłości-moich-rodziców',
         seoText: 'Dziś o swoim ślubie i weselu opowie Wam moja Kochana Mama. Naszym rozmowom zawsze towarzyszą zabawne anegdoty, wzruszenia i wielki karton ze starymi fotografiami. Jako dziecko uwielbiałam je oglądać i powiem szczerze, że zupełnie nic się nie zmieniło. Mamo, opowiedz, jak poznałaś tatę? Któregoś dnia wracając z pracy...',
-        tag: 'opowieści',
+        tag: 'ślubne-opowieści-czyli-wesela-dawniej',
         title: 'Dama Mojego Serca - Historia miłości moich rodziców',
         date: '16 maja 2017',
         textShort: 'Dziś o swoim ślubie i weselu opowie Wam moja Kochana Mama. Naszym rozmowom zawsze towarzyszą zabawne anegdoty, wzruszenia i wielki karton...',
@@ -856,7 +2008,7 @@ const posts = [
         textAuthor: "Kasia",
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Ślubne opowieści, czyli wesela dawniej" className="bgColorLight" /></span>
+                <span className="d-block text-right"><CustomCategoryLink path="ślubne-opowieści-czyli-wesela-dawniej" text="Ślubne opowieści, czyli wesela dawniej" className="bgColorPink" /></span>
             </>
     },
 
@@ -867,61 +2019,61 @@ const posts = [
         title: 'Prezenty dla gości weselnych – pomysły na upominki dla gości',
         date: '9 maja 2017',
         edited: '26 sie 2020',
-        tag: 'niezbędnik',
+        tag: 'niezbędnik-przedslubny',
         textShort: 'Wszyscy uwielbiamy prezenty! Moda na upominki dla gości weselnych trwa w najlepsze. Młodzi przygotowują drobne prezenciki, które umieszczają...',
         mainPic: {
             src: require('./BlogPics/Post7/post7.jpg').default
         },
         textMain:
             <>
-                Wszyscy uwielbiamy prezenty! Moda na <b>upominki dla gości weselnych</b> trwa w najlepsze. Młodzi przygotowują drobne prezenciki, które umieszczają na stołach, rozdają na pożegnanie lub ustawiają gdzieś w jednym widocznym miejscu do wzięcia. Takie prezenty dla gości weselnych to piękna pamiątka z dnia ślubu i wesela. <br /> W całej idei nie chodzi o to, by kupować drogie podarunki, lecz o symboliczną drobnostkę na pamiątkę – podziękowania dla gości weselnych za przybycie i chęć wspólnego celebrowania Waszego dnia ślubu. Uważamy, że to naprawdę świetny pomysł, który coraz częściej wykorzystywany jest przez Pary Młode, jako substytut rozdawania wódki czy ciasta, które zostało po weselu (co niekoniecznie jest szczególnie eleganckie). Jakie więc podarunki zostaną w pamięci gości? Przygotowałyśmy dla Was kilka ciekawych i niebanalnych propozycji – inspiracji na <b>oryginalne prezenty dla gości weselnych.</b>
+                Wszyscy uwielbiamy prezenty! Moda na <span className="bgPinkLight">upominki dla gości weselnych</span> trwa w najlepsze. Młodzi przygotowują drobne prezenciki, które umieszczają na stołach, rozdają na pożegnanie lub ustawiają gdzieś w jednym widocznym miejscu do wzięcia. Takie prezenty dla gości weselnych to piękna pamiątka z dnia ślubu i wesela. <br /> W całej idei nie chodzi o to, by kupować drogie podarunki, lecz o symboliczną drobnostkę na pamiątkę – podziękowania dla gości weselnych za przybycie i chęć wspólnego celebrowania Waszego dnia ślubu. Uważamy, że to naprawdę świetny pomysł, który coraz częściej wykorzystywany jest przez Pary Młode, jako substytut rozdawania wódki czy ciasta, które zostało po weselu (co niekoniecznie jest szczególnie eleganckie). Jakie więc podarunki zostaną w pamięci gości? Przygotowałyśmy dla Was kilka ciekawych i niebanalnych propozycji – inspiracji na <span className="bgPinkLight">oryginalne prezenty dla gości weselnych.</span>
             </>,
         topPic: {
             src: require('./BlogPics/Post7/post7a.jpg').default
         },
         content: [
             {
-                headerSmall: 'Rośliny – zaskakujące upominki dla gości',
+                headerSmall: <span className="pink">Rośliny – zaskakujące upominki dla gości</span>,
                 text: 'Bardzo ciekawym prezentem dla gości weselnych są rośliny. Niektórzy twierdzą, że doskonale nawiązują do miłości, ponieważ o nie również trzeba dbać i pielęgnować tak, jak uczucie. Można podarować małą roślinkę, kwiatka, zioła albo sadzonkę drzewka. Jest wiele roślin, które łatwo zakupić w dużej ilości oraz w miniaturowej wersji. W roli doniczki idealnie sprawdzą się małe słoiczki bądź puszki. Sukulenty na wesele czy własnoręcznie zrobiony mini las w słoiku, czyli prezenty dla gości weselnych DIY (zrób to sam), mogą okazać się strzałem w dziesiątkę szczególnie jeśli lubicie trend eko.'
             },
             {
-                headerSmall: 'Album ulubionych piosenek Pary Młodej – sentymentalny upominek dla gości',
+                headerSmall: <span className="pink">Album ulubionych piosenek Pary Młodej – sentymentalny upominek dla gości</span>,
                 text: 'Każda para ma swoje ulubione piosenki. A to wspomnienie pierwszego pocałunku, pierwszej wspólnej wycieczki rowerowej albo udanych wakacji. Warto to wykorzystać i stworzyć piękną składankę w personalizowanym pudełku i podarować je w formie prezentu dla gości weselnych. Prezenty dla gości weselnych w stylu zrób to sam? – chyba nie ma nic bardziej personalnego. Jeśli udałoby się jeszcze okleić samemu płytę, byłoby bajecznie. Innym rozwiązaniem są udekorowane pendrive’y, na którym znajdą się wspomnienia Młodych.',
                 pics: [
                     { src: require('./BlogPics/Post7/post7b.jpg').default }
                 ]
             },
             {
-                headerSmall: 'Magnesy - podziękowanie dla gości',
+                headerSmall: <span className="pink">Magnesy - podziękowanie dla gości</span>,
                 text: 'Wielu miłośników podróży ze swoich bliskich i dalekich wojaży przywozi magnesy na lodówkę. Są one pamiątką, które nie zajmują miejsca na półce, które nie kurzą się, jak inne wakacyjne pamiątki i które często traktujemy jako swojego rodzaju trofea. Dlaczego więc nie podarować gościom pamiątki z najpiękniejszego i najważniejszego dnia w Waszym życiu? Magnesy jako prezent dla gości weselnych, dzięki możliwości aplikacji na lodówce, będą przypominać wszystkim to cudowne wydarzenie, jakim był Wasz ślub – z całą pewnością pozytywnie zaskoczą gości weselnych, ceniących sobie pamiątki, które są sentymentalne i praktyczne jednocześnie.',
                 pics: [
                     { src: require('./BlogPics/Post7/post7c.jpg').default }
                 ]
             },
             {
-                headerSmall: 'Breloczek – kolejny praktyczny prezent dla gości weselnych',
+                headerSmall: <span className="pink">Breloczek – kolejny praktyczny prezent dla gości weselnych</span>,
                 text: 'Breloczek to kolejny ciekawy i przydatny prezent dla gości. Breloczki coraz częściej zastępują popularne słoiczki z miodem lub słodycze. Są trwałe, nie mają daty przydatności do spożycia i pomogą odróżnić kolejny komplet kluczy, który odkładamy obok innych. Są więc użyteczne, a obdarowana osoba będzie mogła każdego dnia patrzeć na taki upominek dla gości, otwierając drzwi kluczami zawieszonymi na tym breloczku.',
                 pics: [
                     { src: require('./BlogPics/Post7/post7d.jpg').default }
                 ]
             },
             {
-                headerSmall: 'Winietki-przypinki – upominek dla gości, oryginalny dodatek na stole',
+                headerSmall: <span className="pink">Winietki-przypinki – upominek dla gości, oryginalny dodatek na stole</span>,
                 text: 'Szukając ciekawego prezentu dla gości weselnych, możemy sięgnąć również po takie, które spełnią praktyczną funkcję w trakcie samego wesela. Zamiast tradycyjnych, "zwykłych" winietek postawcie na winietki-przypinki. Na początku imprezy przypinki kładziemy na talerzach gości tak, by spełniały funkcję wizytówek z imieniem i nazwiskiem. Po zakończeniu wesela, winietki-przypinki będą trwałą pamiątką tej wyjątkowej nocy. Taki upominek dla gości polecamy przede wszystkim tym Parom, które na wesele zamawiają foto budkę.',
                 pics: [
                     { src: require('./BlogPics/Post7/post7e.jpg').default }
                 ]
             },
             {
-                headerSmall: 'Inne pomysły na prezent dla gości weselnych',
+                headerSmall: <span className="pink">Inne pomysły na prezent dla gości weselnych</span>,
                 text:
                     <>
                         W ramach podziękowania dla gości miód, małe słoiczki z miodem, bywa dość popularnym prezentem. Nic dziwnego – miód bywa w końcu słodki jak miłość!. W ramach słodkości lizaki, krówki weselne czy czekoladki są przyjemnym sposobem na podziękowania dla gości. Bardziej wytrawnym upominkiem bywają ciasteczka z wróżbą na wesele albo popularne w Polsce mini nalewki dla gości weselnych.
-                        Prezent dla gości weselnych warto dostosować do tematyki wesela. Jeśli zdecydowaliśmy się więc urządzić wesele w stylu boho, rośliny lub herbata w małych słoikach będą strzałem w dziesiątkę. Parom, które organizują wesele w stylu <CustomInnerLink path="sesja-stylizowana-w-stylu-glamour" text="glamour" className="bgColor" />, polecamy przygotować mały, ale elegancki upominek dla gości.
+                        Prezent dla gości weselnych warto dostosować do tematyki wesela. Jeśli zdecydowaliśmy się więc urządzić wesele w stylu boho, rośliny lub herbata w małych słoikach będą strzałem w dziesiątkę. Parom, które organizują wesele w stylu <CustomPostLink path="sesja-stylizowana-w-stylu-glamour" text="glamour" className="bgColorPink" />, polecamy przygotować mały, ale elegancki upominek dla gości.
                     </>
             },
             {
-                headerSmall: 'Prezent dla gości wesele – praktyczne porady na koniec',
+                headerSmall: <span className="pink">Prezent dla gości wesele – praktyczne porady na koniec</span>,
                 text: 'Jeśli chcecie podarować swoim bliskim alkohol, zaopatrzcie się specjalnie na tę okazję np. w wino lub małe spersonalizowane buteleczki domowej nalewki, ale nie rozdawajcie wódki, która nie zeszła do śledzika! Najlepiej będzie, jeżeli każdy gość otrzyma identyczny podarunek – dzięki temu unikniecie zbędnego zamieszania. Postarajcie się przygotować taki prezent dla gości weselnych, który będzie i pamiątką, i podziękowaniem za udział w najwspanialszym dla Was dniu. Czy macie już pomysł na prezent dla Waszych gości weselnych?'
             }
         ],
@@ -938,7 +2090,7 @@ const posts = [
             </>,
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
+                <span className="d-block text-right"><CustomCategoryLink path="niezbędnik-przedslubny" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
             </>
 
     },
@@ -947,7 +2099,7 @@ const posts = [
         title: 'Marta i Michał i ich weselna przygoda w ogrodzie',
         seoText: 'Marta i Michał wymarzyli sobie plenerowy ślub i wesele na terenie swojego pięknego ogrodu. Ponieważ miejsce, które wybrali, było magiczne i pełne uroku, nie mogliśmy oprzeć się pokusie i nie wykorzystać tego w dekoracjach oraz ogólnej koncepcji wesela i ślubu. Ustaliliśmy, że motywem przewodnim będzie odniesienie do...',
         date: '3 maja 2017',
-        tag: 'realizacje',
+        tag: 'opowiadamy-o-naszych-realizacjach',
         textShort: 'Marta i Michał wymarzyli sobie plenerowy ślub i wesele na terenie swojego pięknego ogrodu. Ponieważ miejsce, które wybrali, było magiczne i pełne uroku, nie mogliśmy...',
         mainPic: {
             src: require('./BlogPics/Post6/post6.jpg').default
@@ -984,7 +2136,7 @@ const posts = [
             <p className="mb-1">Fotografie: <CustomOuterLink to="https://pokadrowani.pl/" text="Pokadrowani" /></p>,
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Opowiadamy o naszych realizacjach" className="bgColorLight" /></span>
+                <span className="d-block text-right"><CustomCategoryLink path="opowiadamy-o-naszych-realizacjach" text="Opowiadamy o naszych realizacjach" className="bgColorLight" /></span>
             </>
     },
     {
@@ -993,7 +2145,7 @@ const posts = [
         seoText: 'Podziękowania dla rodziców - oryginalne pomysły na prezenty na ślubie i weselu.',
         date: '19 kwi 2017',
         edited: '5 lis 2020',
-        tag: 'niezbędnik',
+        tag: 'niezbędnik-przedslubny',
         textShort: 'Podziękowania dla rodziców bywają twardym orzechem do zgryzienia. Z pewnością ciężko w kilku słowach lub za pomocą weselnego szlagieru...',
         mainPic: {
             src: require('./BlogPics/Post5/post5.jpg').default
@@ -1074,7 +2226,7 @@ const posts = [
             </>,
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
+                <span className="d-block text-right"><CustomCategoryLink path="niezbędnik-przedslubny" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
             </>
     },
     {
@@ -1082,7 +2234,7 @@ const posts = [
         title: "O tym, dlaczego warto zdecydować się na konsultanta ślubnego",
         seoText: "Mimo że tytuł artykułu wskazuje na coś zupełnie innego, nie będzie to skrzętnie przygotowana autoreklama. Oczywiście jako konsultant ślubny wierzę, że zawód, który wykonuję, jest potrzebny i warto zainwestować w pomoc specjalisty. To tak jak z fotografem. Czasy, gdy zdjęcia na weselu robili wujkowie lub sąsiedzi pos...",
         date: "16 kwi 2017",
-        tag: "niezbędnik",
+        tag: "niezbędnik-przedslubny",
         textShort: "Mimo że tytuł artykułu wskazuje na coś zupełnie innego, nie będzie to skrzętnie przygotowana autoreklama. Oczywiście jako konsultant ślubny wierzę, że zawód, który wykonuję, jest potrzebny i warto...",
         mainPic: {
             src: require('./BlogPics/Post4/post4.jpg').default
@@ -1134,7 +2286,7 @@ const posts = [
             </>,
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
+                <span className="d-block text-right"><CustomCategoryLink path="niezbędnik-przedslubny" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
             </>
     },
 
@@ -1143,7 +2295,7 @@ const posts = [
         title: "O poszukiwaniu sukienki idealnej",
         seoText: "To nie tajemnica, że przyszła Panna Młoda swój ślubny strój planuje na długo wcześniej przed tym wielkim dniem. Większość nie potrzebuje do tego nawet pierścionka i idealnego partnera. Od najmłodszych lat w naszej głowie tworzą się wizje pięknej, białej sukni idealne podkreślającej naszą figurę i wprawiającej gości...",
         date: "16 mar 2017",
-        tag: "niezbędnik",
+        tag: "niezbędnik-przedslubny",
         textShort: "To nie tajemnica, że przyszła Panna Młoda swój ślubny strój planuje na długo wcześniej przed tym wielkim dniem. Większość nie potrzebuje do tego nawet pierścionka i idealnego partnera. Od najmłodszych lat...",
         mainPic: {
             src: require('./BlogPics/post3.jpg').default,
@@ -1186,7 +2338,7 @@ const posts = [
         textAuthor: "Ola",
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
+                <span className="d-block text-right"><CustomCategoryLink path="niezbędnik-przedslubny" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
             </>
     },
 
@@ -1196,7 +2348,7 @@ const posts = [
         seoText: "Mało jest rzeczy, które budzą tyle emocji, co śluby i wesela. Mają jakąś magiczną moc wpędzania ludzi w amok – i nie mówię tu o Młodej Parze, u której to bardzo zrozumiałe, ale o gościach. Całkiem rozsądni na co dzień ludzie wraz ze wskoczeniem w sukienkę czy garnitur wpadają w wir dziwnych przekonań i przepychanek...",
         date: "7 mar 2017",
         edited: "8 lip 2020",
-        tag: "niezbędnik",
+        tag: "niezbędnik-przedslubny",
         textShort: "Mało jest rzeczy, które budzą tyle emocji, co śluby i wesela. Mają jakąś magiczną moc wpędzania ludzi w amok – i nie mówię tu o Młodej Parze, u której to bardzo zrozumiałe, ale o gościach. Całkiem rozsądni na co dzień ludzie...",
         mainPic: {
             src: require('./BlogPics/Post2/post2.jpg').default
@@ -1247,7 +2399,7 @@ const posts = [
         textAuthor: "Ola",
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
+                <span className="d-block text-right"><CustomCategoryLink path="niezbędnik-przedslubny" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
             </>
     },
 
@@ -1257,14 +2409,14 @@ const posts = [
         seoText: "Jak wybrać motyw przewodni wesela? Jakich błędów unikać przy wyborze przewodniego motywu ślubnego i dlaczego warto zdecydować się na motyw przewodni?",
         date: "9 lut 2017",
         edited: "23 paź 2020",
-        tag: "niezbędnik",
+        tag: "niezbędnik-przedslubny",
         textShort: "Organizując swój ślub i wesele, staracie się zaplanować każdy najdrobniejszy szczegół. Godzinami przeglądacie ślubne blogi, szukając inspiracji, oglądacie zdjęcia w poszukiwaniu idealnych kreacji, czytacie branżową prasę...",
         mainPic: {
             src: require('./BlogPics/post1.jpg').default,
         },
         textMain:
             <>
-                Organizując swój ślub i wesele, staracie się zaplanować każdy najdrobniejszy szczegół. Godzinami przeglądacie ślubne blogi, szukając inspiracji, oglądacie zdjęcia w poszukiwaniu idealnych kreacji, czytacie branżową prasę, zapisujecie każdy pomysł na przekąski i główny obiad. Jednak nie myślicie o czymś, co sprawi, że <b>wszystkie zaplanowane przez Was elementy złączą się w jedną niezapomnianą całość.</b> Zapominacie o czymś, co spowoduje, że ten dzień będzie Waszym dniem, a nie kolejnym weselem. Tym czymś jest <b>motyw przewodni wesela</b> – może nim być tematyka, kolor czy po prostu styl, w jakim wyprawicie swoje przyjęcie weselne. Zaplanujcie swój indywidualny motyw przewodni ślubu!
+                Organizując swój ślub i wesele, staracie się zaplanować każdy najdrobniejszy szczegół. Godzinami przeglądacie ślubne blogi, szukając inspiracji, oglądacie zdjęcia w poszukiwaniu idealnych kreacji, czytacie branżową prasę, zapisujecie każdy pomysł na przekąski i główny obiad. Jednak nie myślicie o czymś, co sprawi, że <span className="bgPinkLight">wszystkie zaplanowane przez Was elementy</span> złączą się w jedną niezapomnianą całość.Zapominacie o czymś, co spowoduje, że ten dzień będzie Waszym dniem, a nie kolejnym weselem. Tym czymś jest <span className="bgPinkLight">motyw przewodni wesela</span> – może nim być tematyka, kolor czy po prostu styl, w jakim wyprawicie swoje przyjęcie weselne. Zaplanujcie swój indywidualny motyw przewodni ślubu!
             </>,
         content: [
             {
@@ -1301,7 +2453,7 @@ const posts = [
         ],
         extras:
             <>
-                <span className="d-block text-right"><CustomInnerLink path="/" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
+                <span className="d-block text-right"><CustomCategoryLink path="niezbędnik-przedslubny" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
             </>
     }
 

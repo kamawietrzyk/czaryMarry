@@ -1,7 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-// import { generatePath } from 'react-router'
-// import URLS from '../../utils/urls'
 import chevLeft from '../Icons/chevLeft.svg'
 import chevRight from '../Icons/chevRight.svg'
 import doubleChev from '../Icons/doubleChev.svg'
@@ -11,9 +9,10 @@ const Pagination = ({ onChange, currentPage, totalPages }) => {
 
     const pageNumbers = [];
     const window = 5
+    let current = parseInt(currentPage)
 
-    let maxLeft = currentPage - Math.floor(window/2)
-    let maxRight = currentPage + Math.floor(window/2)
+    let maxLeft = current - Math.floor(window/2)
+    let maxRight = current + Math.floor(window/2)
 
     if (maxLeft < 1) {
         maxLeft = 1
@@ -41,14 +40,14 @@ const Pagination = ({ onChange, currentPage, totalPages }) => {
             </div> :
             <nav aria-label="navigation">
                 <ul className="pagination">
-                    <li className={`page-item mr-1 ${currentPage === 1 && 'disabled'}`}>
+                    <li className={`page-item mr-1 ${current === 1 && 'disabled'}`}>
                         <Link onClick={onChange(1, true)} className="page-link" to=" ">
                             <div className="double-chev-left">
                                 <img src={doubleChev} alt="double chevron left" />
                             </div>
                         </Link>
                     </li>
-                    <li className={`page-item mr-1 ${currentPage === 1 && 'disabled'}`}>
+                    <li className={`page-item mr-1 ${current === 1 && 'disabled'}`}>
                         <Link onClick={onChange(-1)} className="page-link" to=" ">
                             <div className="icon-wrapper">
                                 <img src={chevLeft} alt="chevron left" />
@@ -56,21 +55,21 @@ const Pagination = ({ onChange, currentPage, totalPages }) => {
                         </Link>
                     </li>
                     {pageNumbers.map(number => (
-                        <li key={number} className={`numbers-desktop page-item mx-2 ${currentPage === number && "active"}`}>
-                            <Link onClick={onChange(number, true)} className="page-link page-numbers" to="" /*{generatePath(URLS.ROUTE, { url: `page/${number}`})} ?? */>{number}</Link>
+                        <li key={number} className={`numbers-desktop page-item mx-2 ${current === number && "active"}`}>
+                            <Link onClick={onChange(number, true)} className="page-link page-numbers" to="" >{number}</Link>
                         </li>
                     ))}
                     <li className="numbers-mobile page-item mx-3">
-                        <p>{currentPage}/{totalPages}</p>
+                        <p>{current}/{totalPages}</p>
                     </li>
-                    <li className={`page-item ml-1 ${currentPage === totalPages && 'disabled'}`}>
+                    <li className={`page-item ml-1 ${current === totalPages && 'disabled'}`}>
                         <Link onClick={onChange(1)} className="page-link" to=" " >
                             <div className="icon-wrapper">
                                 <img src={chevRight} alt="chevron right" />
                             </div>
                         </Link>
                     </li>
-                    <li className={`page-item ml-1 ${currentPage === totalPages && 'disabled'}`}>
+                    <li className={`page-item ml-1 ${current === totalPages && 'disabled'}`}>
                         <Link onClick={onChange(totalPages, true)} className="page-link" to=" ">
                             <div className="double-chev-right">
                                 <img src={doubleChev} alt="double chevron right" />
