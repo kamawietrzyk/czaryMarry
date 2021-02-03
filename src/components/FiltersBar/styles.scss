@@ -46,6 +46,10 @@
             padding: .5rem;
             white-space: normal;
             color: $textGrey;
+            &:hover {
+                background-color: $mint;
+                color: $textGrey;
+            }
         }
 
         @media (min-width: $laptop) {

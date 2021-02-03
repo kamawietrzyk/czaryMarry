@@ -13,6 +13,11 @@
         img {
             width: 100%;
             object-fit: cover;
+            height: 35rem;
+
+            @media (min-width: $tablet) {
+                height: 50rem;
+            }
 
             @media (min-width: $desktop) {
                 max-height: 45rem;
@@ -21,7 +26,10 @@
 
         &_text {
             position: absolute;
-            top: 5%;
+            top: 0;
+            height: 30rem;
+            display: grid;
+            align-items: flex-end;
 
 
             & h2 {
@@ -61,7 +69,7 @@
                     }
 
                     @media (min-width: $tablet) {
-                        padding-top: 130%;
+                        padding-top: 70%;
                     }
 
                     @media (min-width: $laptop) {
@@ -76,6 +84,11 @@
                         padding-top: 95%;
                     }
                 }
+            }
+
+            @media (min-width: $tablet) {
+                top: 5%;
+                height: 40rem;
             }
         }
     }

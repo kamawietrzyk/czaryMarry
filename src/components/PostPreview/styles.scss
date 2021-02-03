@@ -111,8 +111,14 @@
                 grid-area: pic;
                 width: 100%;
                 object-fit: cover;
-                @media (min-width: $laptop) {
+
+                @media (min-width: $tablet) {
                     height: 100%;
+                    max-height: 25rem;
+                }
+
+                @media (min-width: $laptop) {
+                    max-height: 23rem;
                 }
             }
         }

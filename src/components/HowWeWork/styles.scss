@@ -38,6 +38,8 @@
         .header-small {
             font-family: 'Oswald', sans-serif;
             font-weight: 600;
+            margin-top: 1.5rem;
+            margin-bottom: .75rem;
         }
 
         .number-small {
@@ -45,6 +47,7 @@
 
             @media (min-width: $tablet) {
                 font-size: 50px;
+                margin: 0;
             }
 
             @media (min-width: $desktop) {

@@ -146,25 +146,25 @@ class Contact extends Component {
                         <form className="pageclip-form">
                             <div className="form-group">
                                 <input value={name} onChange={e => this.handleInput(e)} type="text" className="form-control" id="exampleInputName" name="name" aria-describedby="name" placeholder="Imię" required />
-                                <p className="text-danger" style={{ height: ".25rem", fontSize: "12px", marginTop: ".25rem" }}>{formErrors.name}</p>
+                                <p className="text-danger" style={{ height: ".35rem", fontSize: "12px", marginTop: ".25rem" }}>{formErrors.name}</p>
                             </div>
-                            <div className="form-group custom-box">
-                                <div className="col1">
+                            <div className="custom-box">
+                                <div className="col1 mb-2">
                                     <input value={email} onChange={e => this.handleInput(e)} type="email" className="form-control" id="exampleInputEmail" name="email" aria-describedby="emailHelp" placeholder="Email" required />
-                                    <p className="text-danger" style={{ height: ".25rem", fontSize: "12px", marginTop: ".25rem" }}>{formErrors.email}</p>
+                                    <p className="text-danger" style={{ height: ".35rem", fontSize: "12px", marginTop: ".25rem" }}>{formErrors.email}</p>
                                 </div>
-                                <div className="col2">
+                                <div className="col2 mb-2">
                                     <input value={phone} onChange={e => this.handleInput(e)} type="text" className="form-control" id="exampleInputPhone" name="phone" aria-describedby="phone" placeholder="Telefon" required />
-                                    <p className="text-danger" style={{ height: ".25rem", fontSize: "12px", marginTop: ".25rem" }}>{formErrors.phone}</p>
+                                    <p className="text-danger" style={{ height: ".35rem", fontSize: "12px", marginTop: ".25rem" }}>{formErrors.phone}</p>
                                 </div>
                             </div>
                             <div className="form-group">
                                 <input value={subject} onChange={e => this.handleInput(e)} type="text" className="form-control" id="exampleInputSubject" name="subject" aria-describedby="subject" placeholder="Temat" required />
-                                <p className="text-danger" style={{ height: ".25rem", fontSize: "12px", marginTop: ".25rem" }}>{formErrors.subject}</p>
+                                <p className="text-danger" style={{ height: ".35rem", fontSize: "12px", marginTop: ".25rem" }}>{formErrors.subject}</p>
                             </div>
                             <div className="form-group">
                                 <textarea value={message} onChange={e => this.handleInput(e)} className="form-control" name="message" id="exampleFormControlTextarea" rows="5" placeholder="Napisz wiadomość..." required />
-                                <p className="text-danger" style={{ height: ".25rem", fontSize: "12px", marginTop: ".25rem" }}>{formErrors.message}</p>
+                                <p className="text-danger" style={{ height: ".35rem", fontSize: "12px", marginTop: ".25rem" }}>{formErrors.message}</p>
                             </div>
                             <button
                                 onClick={this.handleSubmit}
