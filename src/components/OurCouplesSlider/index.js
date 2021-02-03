@@ -39,7 +39,7 @@ export default class CouplesSlider extends Component {
             slidesToScroll: 1,
             speed: 800,
             variableWidth: true,
-            lazyLoad: false,
+            lazyLoad: 'progressive',
             prevArrow: <CustomPrevArrow />,
             nextArrow: <CustomNextArrow />
         };
@@ -53,6 +53,7 @@ export default class CouplesSlider extends Component {
             arrows: true,
             cssEase: "linear",
             adaptiveHeight: true,
+            lazyLoad: 'progressive',
             prevArrow: <CustomPrevArrow />,
             nextArrow: <CustomNextArrow />
         };

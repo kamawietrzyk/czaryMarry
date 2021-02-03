@@ -80,6 +80,10 @@
       margin-bottom: 5%;
     }
 
+    @media (min-width: 1200px) {
+      padding: 0 15vw;
+    }
+
     @media (min-width: $desktop) {
       padding: 0 18vw;
     }

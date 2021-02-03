@@ -15,9 +15,11 @@
                 @media (min-width: $laptop) {
                     display: none;
                 }
+
                 @media (min-width: $desktop) {
                     display: initial;
                 }
+
                 @media (min-width: $desktopL) {
                     display: none;
                 }
