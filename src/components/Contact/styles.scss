@@ -59,7 +59,7 @@
             & .custom-box {
                 display: grid;
                 grid-template-columns: auto;
-                grid-template-rows: repeat(2, 1fr);
+                grid-template-rows: repeat(2, 63px);
                 width: 100%;
                 grid-column-gap: .75rem;
                 margin-bottom: 0;

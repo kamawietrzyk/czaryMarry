@@ -149,11 +149,11 @@ class Contact extends Component {
                                 <p className="text-danger" style={{ height: ".35rem", fontSize: "12px", marginTop: ".25rem" }}>{formErrors.name}</p>
                             </div>
                             <div className="custom-box">
-                                <div className="col1 mb-2">
+                                <div className="col1 mb-3">
                                     <input value={email} onChange={e => this.handleInput(e)} type="email" className="form-control" id="exampleInputEmail" name="email" aria-describedby="emailHelp" placeholder="Email" required />
                                     <p className="text-danger" style={{ height: ".35rem", fontSize: "12px", marginTop: ".25rem" }}>{formErrors.email}</p>
                                 </div>
-                                <div className="col2 mb-2">
+                                <div className="col2 mb-3">
                                     <input value={phone} onChange={e => this.handleInput(e)} type="text" className="form-control" id="exampleInputPhone" name="phone" aria-describedby="phone" placeholder="Telefon" required />
                                     <p className="text-danger" style={{ height: ".35rem", fontSize: "12px", marginTop: ".25rem" }}>{formErrors.phone}</p>
                                 </div>

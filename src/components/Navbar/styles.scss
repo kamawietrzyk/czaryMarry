@@ -43,9 +43,11 @@
                         margin-left: 25px;
                         opacity: .85;
                     }
+
                     .open:nth-child(2) {
                         opacity: 0;
                     }
+
                     .open:nth-child(3) {
                         transform: rotate(-45deg) translateY(-15px);
                         margin-left: 25px;
@@ -56,9 +58,11 @@
                         transform: rotate(0) translateY(0);
                         opacity: .75;
                     }
+
                     .close:nth-child(2) {
                         opacity: .75;
                     }
+
                     .close:nth-child(3) {
                         transform: rotate(0) translateY(0);
                         opacity: .75;
@@ -104,6 +108,7 @@
 
                     .active {
                         border-bottom: 1px solid white;
+
                         &:hover {
                             color: white;
                         }
@@ -117,13 +122,13 @@
         background-color: white;
         position: fixed;
         width: 100vw;
-        top: 70px;
+        top: 50px;
         z-index: 9000;
-        padding-top: 1rem;
+        padding-top: .25rem;
         height: 100vh;
         text-align: center;
         overflow-x: scroll;
-        padding-bottom: 2rem;
+        padding-bottom: 2.5rem;
         animation: Move .5s ease-in;
 
         @keyframes Move {
