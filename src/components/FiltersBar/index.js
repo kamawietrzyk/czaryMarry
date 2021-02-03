@@ -14,6 +14,7 @@ const FiltersBar = ({ filters, onFilterSelect, selectedTag }) => {
                         Filtruj
                     </a>
                     <div className={`dropdown-menu ${listOpen && "show"}`} aria-labelledby="dropdownMobileMenuButton">
+                        <a onClick={onFilterSelect('wszystkie-wpisy')} key="wszystkie-wpisy" className="dropdown-item" href=" ">Wszystkie wpisy</a>
                         {filters.map(({ name, tag }) => (
                             <a onClick={onFilterSelect(tag)} key={tag} className="dropdown-item" href=" ">{name}</a>
                         ))}
