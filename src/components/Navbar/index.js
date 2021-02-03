@@ -24,21 +24,19 @@ const Navbar = () => {
     const onClose = () => {
         setBurgerOpen(false);
         setStatus('close');
-        setTimeout(() => {window.scrollTo({ top: 450, behavior: 'smooth' })}, 350)
     }
 
-    const scrollToBottom = () => {
-        const element = document.getElementById('footer');
-        const y = element.getBoundingClientRect().top + window.pageYOffset;
-        window.scrollTo({ top: y, behavior: 'smooth' });
-    };
 
     const timeOutScroll = () => {
-        setTimeout(() => {scrollToBottom()}, 500);
+        setTimeout(() => {
+            const element = document.getElementById('footer');
+            const y = element.getBoundingClientRect().top + window.pageYOffset;
+            window.scrollTo({ top: y, behavior: 'smooth' });
+        }, 800);
     }
 
     const timeOutScrollMobile = () => {
-        setTimeout(() => {scrollToContactMobile()}, 500);
+        setTimeout(() => { scrollToContactMobile() }, 800);
     }
 
     const scrollToContactMobile = () => {
@@ -47,16 +45,6 @@ const Navbar = () => {
         const element = document.getElementById('contact');
         const y = element.getBoundingClientRect().top + window.pageYOffset;
         window.scrollTo({ top: y, behavior: 'smooth' });
-    }
-
-    const onClickScroll = () => {
-        setTimeout(() => {
-            if (window.outerWidth >= 768 && window.outerWidth < 1024) {
-                window.scrollTo({ top: 500, behavior: 'smooth' });
-            } else {
-                window.scrollTo({ top: 780, behavior: 'smooth' });
-            }
-        }, 350);
     }
 
     return (
@@ -79,7 +67,6 @@ const Navbar = () => {
                                     exact
                                     key={index}
                                     to={path}
-                                    onClick={onClickScroll}
                                     role="tab"
                                     className="nav-item nav-link"
                                     activeClassName="active">
@@ -114,7 +101,7 @@ const Navbar = () => {
                     ))}
                     <NavLink
                         key="kontakt"
-                        to={URLS.HOME}
+                        to={URLS.CONTACT}
                         onClick={timeOutScrollMobile}
                         role="tab"
                         className="nav-item nav-link">

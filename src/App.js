@@ -15,6 +15,9 @@ import Offer from './components/Offer';
 import Blog from './components/Blog';
 import PostPage from './components/PostPage';
 import LandingPage from './components/LandingPage';
+import smoothscroll from 'smoothscroll-polyfill';
+
+smoothscroll.polyfill();
 
 function App() {
   return (
