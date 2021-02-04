@@ -8,8 +8,8 @@ const tabs = [
     { label: 'O nas', path: URLS.ABOUT },
     { label: 'Jak pracujemy', path: URLS.WORK },
     { label: 'Nasze pary', path: URLS.COUPLES },
-    { label: 'Blog', path: URLS.BLOG },
-    { label: 'Oferta', path: URLS.OFFER }
+    { label: 'Oferta', path: URLS.OFFER },
+    { label: 'Blog', path: URLS.BLOG }
 ]
 const Navbar = () => {
 

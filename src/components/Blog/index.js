@@ -42,7 +42,7 @@ const Blog = () => {
 
     const slicedFiltered = filteredData.slice(indexOfFirstPost, indexOfLastPost)
 
-    const totalFilteredPages = Math.ceil(filteredData.length /postsPerPage)
+    const totalFilteredPages = Math.ceil(filteredData.length / postsPerPage)
 
     const filters = [
         { name: "Niezbędnik przedŚLUBNY", tag: "niezbędnik-przedslubny" },
@@ -85,7 +85,7 @@ const Blog = () => {
             <ToTopOnUpdate />
             <ArrowToTop />
             <div className="page-header">
-                <span className="num-span number">04</span>
+                <span className="num-span number">05</span>
                 <h2 className="page-title">Blog</h2>
                 <div className="icon-wrapper">
                     <img src={signal} alt="signal icon" />
@@ -98,9 +98,9 @@ const Blog = () => {
                 <FiltersBar filters={filters} onFilterSelect={onFilterSelect} selectedTag={tag} />
             </div>
             <div className="Blog-content">
-                <PostPreview posts={!tag ? slicedPosts : slicedFiltered }  />
+                <PostPreview posts={!tag ? slicedPosts : slicedFiltered} />
             </div>
-            <Pagination onChange={onPageChange} currentPage={currentPage} totalPages={ !tag ? totalPages : totalFilteredPages } />
+            <Pagination onChange={onPageChange} currentPage={currentPage} totalPages={!tag ? totalPages : totalFilteredPages} />
         </div>
     )
 }

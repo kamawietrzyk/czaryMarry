@@ -28,7 +28,7 @@ const Offer = () => (
         <SeoContent {...seo} />
         <ArrowToTop />
         <div className="page-header">
-            <span className="number">05</span>
+            <span className="number">04</span>
             <h2 className="page-title">Oferta</h2>
         </div>
         <div className="Offer-content">
