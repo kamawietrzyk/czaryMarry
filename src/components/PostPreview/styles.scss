@@ -72,7 +72,7 @@
                 "pic text";
             border: 1px solid $lightGrey;
             margin-bottom: 2rem;
-            max-height: 21rem;
+            max-height: 22rem;
 
             .content-div {
                 grid-area: text;
@@ -119,7 +119,7 @@
         }
 
         @media (min-width: $laptop) {
-            max-height: none;
+            max-height: 24rem;
         }
 
         @media (min-width: $desktop) {
