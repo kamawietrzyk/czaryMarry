@@ -30,4 +30,4 @@ jobs:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         AWS_DEFAULT_REGION: "eu-central-1"
-    - run: "curl -X POST \"https://api.cloudflare.com/client/v4/zones/${{ secrets.CF_ZONE_ID }}/purge_cache\" -H \"X-Auth-Email: ${{ secrets.CF_EMAIL }}\" -H \"X-Auth-Key: ${{ secrets.CF_API_KEY }}\" -H \"Content-Type: application/json\" --data '{\"purge_everything\":true}'"
+    - run: "curl -X POST \"https://api.cloudflare.com/client/v4/zones/${{ secrets.CF_ZONE }}/purge_cache\" -H \"X-Auth-Email: ${{ secrets.CF_EMAIL }}\" -H \"X-Auth-Key: ${{ secrets.CF_API_KEY }}\" -H \"Content-Type: application/json\" --data '{\"purge_everything\":true}'"
