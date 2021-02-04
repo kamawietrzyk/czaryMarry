@@ -142,7 +142,7 @@ class Home extends Component {
                         <Carousel />
                     </div>
                     <Link className="custom-link" to={URLS.OFFER}>
-                        <p>Podobają Wam nasz styl pracy oraz jej efekty? Chcielibyście się dowiedzieć w jakich aspektach organizacji wesela możemy Wam pomóc? <b>Zerknijcie tutaj.</b></p>
+                        <p>Podobają się Wam nasz styl pracy oraz jej efekty? Chcielibyście się dowiedzieć w jakich aspektach organizacji wesela możemy Wam pomóc? <b>Zerknijcie tutaj.</b></p>
                     </Link>
                 </div>
             </div>
