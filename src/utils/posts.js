@@ -29,7 +29,7 @@ const posts = [
             },
             {
                 text:
-                <p>Link do Instagrama Natalii: <CustomOuterLink to="https://www.instagram.com/tortowawakcji/" text="Tortowa w Akcji" className="bgColorMint" /> </p>
+                    <p>Link do Instagrama Natalii: <CustomOuterLink to="https://www.instagram.com/tortowawakcji/" text="Tortowa w Akcji" className="bgColorMint" /> </p>
             }
         ],
         links:
@@ -134,7 +134,7 @@ const posts = [
                     </>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post28/post28j.jpg').default
+                        src: require('./BlogPics/Post28/post28i.jpg').default
                     },
                     {
                         src: require('./BlogPics/Post28/post28j.jpg').default
