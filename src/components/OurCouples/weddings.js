@@ -268,7 +268,7 @@ const weddings = [
             picVer4: require('./OurCouplesPics/NellyPiotr/ver7.jpg').default,
             picVer5: require('./OurCouplesPics/NellyPiotr/ver6.jpg').default,
             picVer6: require('./OurCouplesPics/NellyPiotr/ver4.jpg').default,
-            picVer7: require('./OurCouplesPics/NellyPiotr/ver5.jpg').default,
+            picVer7: require('./OurCouplesPics/NellyPiotr/ver8.jpg').default,
             classNameOne: "twoVertHorizFlipped",
             classNameTwo: "threeHoriz",
             classNameThree: "twoVertHorizFlipped",
