@@ -11,9 +11,9 @@ const landings = [
         mainHeader: 'Wedding Planner Poznań - profesjonalna organizacja ślubów i wesel',
         boxTitle: 'Wedding planner Poznań - Jak wybrać najlepszego.',
         textOne:
-        <>
-        Szukacie konsultanta ślubnego, który zorganizuje Wam wymarzone wesele w Poznaniu lub okolicach? Dobrze trafiliście. Chętnie podpowiemy Wam, jakimi kryteriami kierować się podczas wyboru wedding plannera w Poznaniu oraz jak wygląda współpraca z nami – <Link className="bgColorPink" to={URLS.HOME}>Agencją Ślubną Czary Marry</Link>. <br/>Wybór idealnego wedding plannera to w końcu jedna z ważniejszych decyzji jaką przyjdzie Wam podjąć podczas organizacji wesela w Poznaniu lub okolicach. Nie da się ukryć, że z osobą, która będzie organizować Wasz dzień spędzicie parę dobrych miesięcy. Warto podjąć decyzję o współpracy świadomie.
-        </>,
+            <>
+                Szukacie konsultanta ślubnego, który zorganizuje Wam wymarzone wesele w Poznaniu lub okolicach? Dobrze trafiliście. Chętnie podpowiemy Wam, jakimi kryteriami kierować się podczas wyboru wedding plannera w Poznaniu oraz jak wygląda współpraca z nami – <Link className="bgColorPink" to={URLS.HOME}>Agencją Ślubną Czary Marry</Link>. <br />Wybór idealnego wedding plannera to w końcu jedna z ważniejszych decyzji jaką przyjdzie Wam podjąć podczas organizacji wesela w Poznaniu lub okolicach. Nie da się ukryć, że z osobą, która będzie organizować Wasz dzień spędzicie parę dobrych miesięcy. Warto podjąć decyzję o współpracy świadomie.
+            </>,
         textTwo: 'Pewnie zastanawiacie się, czy powinniście szukać wyłącznie firm z województwa wielkopolskiego, a może warto zdecydować się na agencję ślubną działającą na terenie całej Polski? Naszym zdaniem sama lokalizacja nie ma większego znaczenia. Najważniejsza jest znajomość rynku i szerokie kontakty.',
         placePics: [
             require('./LandingPics/lan2.JPG').default,
@@ -26,42 +26,42 @@ const landings = [
                 titleBgColor: 'bgMint',
                 color: 'dark',
                 text:
-                <>
-                <p>Mimo że marzycie o weselu w Poznaniu lub okolicach w województwie wielkopolskim, warto rozważyć również firmy, które działają na skalę ogólnopolską. Dlaczego? Każde województwo rządzi się swoimi prawami - dzięki temu, że pracujemy w różnych częściach kraju znamy najnowsze trendy i rozwiązania, poszerzamy horyzonty. Mamy szerokie kontakty wśród wykonawców z całej Polski. Dzięki temu znajdziemy dla Was najlepsze oferty, idealnie odpowiadające na Wasze preferencje, nie ograniczając się wyłącznie do lokalizacji.</p>
-                <p>Ze względu na aktywny tryb życia naszych par najczęściej kontaktujemy się z nimi online, jesteśmy dla nich dyspozycyjne o każdej porze dnia, kontaktując się przez WhatsApp, mail czy Skype. I choć na co dzień mieszkamy we <Link to={generatePath(URLS.LANDING, { path: 'organizacja-wesel-wroclaw' })} className="bgColorMint" target="_blank">Wrocławiu</Link> to dobrze wiemy, że odległość nie ma znaczenia przy organizacji wesel. Poznań to jedno z miast, które bardzo lubimy, które nas inspiruje i w którym mamy doświadczenie w organizacji wesel, dlatego w razie potrzeby chętnie Was odwiedzimy.
+                    <>
+                        <p>Mimo że marzycie o weselu w Poznaniu lub okolicach w województwie wielkopolskim, warto rozważyć również firmy, które działają na skalę ogólnopolską. Dlaczego? Każde województwo rządzi się swoimi prawami - dzięki temu, że pracujemy w różnych częściach kraju znamy najnowsze trendy i rozwiązania, poszerzamy horyzonty. Mamy szerokie kontakty wśród wykonawców z całej Polski. Dzięki temu znajdziemy dla Was najlepsze oferty, idealnie odpowiadające na Wasze preferencje, nie ograniczając się wyłącznie do lokalizacji.</p>
+                        <p>Ze względu na aktywny tryb życia naszych par najczęściej kontaktujemy się z nimi online, jesteśmy dla nich dyspozycyjne o każdej porze dnia, kontaktując się przez WhatsApp, mail czy Skype. I choć na co dzień mieszkamy we <Link to={generatePath(URLS.LANDING, { path: 'organizacja-wesel-wroclaw' })} className="bgColorMint" target="_blank">Wrocławiu</Link> to dobrze wiemy, że odległość nie ma znaczenia przy organizacji wesel. Poznań to jedno z miast, które bardzo lubimy, które nas inspiruje i w którym mamy doświadczenie w organizacji wesel, dlatego w razie potrzeby chętnie Was odwiedzimy.
                 </p>
-                </>
+                    </>
             },
             {
                 title: 'Profesjonalny wedding planner Poznań - kryteria wyboru.',
                 titleBgColor: 'bgDark',
                 color: 'text-white',
                 text:
-                <>
-                <p>Poszukiwania wedding plannera najlepiej rozpocząć od przejrzenia jego <Link to={URLS.COUPLES} className="bgColorLight">portfolio realizacji ślubnych</Link>. Jeżeli realizacje i styl pracy danej agencji ślubnej przypadną Wam do gustu, możecie być pewni, że zrozumie zrealizuje również Waszą wizję. Kolejny niezwykle ważny krok to spotkanie. Koniecznie musicie poznać i porozmawiać ze swoim przyszłym konsultantem ślubnym.</p>
-                <p>
-                Powinniście poczuć, że nadajecie na tych samych falach i dobrze czujecie się w jego towarzystwie, będzie Wam towarzyszył w jednych z najważniejszych chwil Waszego życia. Warto zerknąć również na dodatkowe aktywności rozważanego wedding plannera np.<Link className="bgColorLight" to={URLS.BLOG}>blog</Link>, <CustomCategoryLink path="podcast" className="bgColorLight" text="podcast"/>, publikacje w mediach branżowych. Na koniec zróbcie dokładny research, zapoznajcie się z opiniami na temat wybranych konsultantów ślubnych z Poznania, nieoceniony okaże się tu FB i wizytówka Google.
+                    <>
+                        <p>Poszukiwania wedding plannera najlepiej rozpocząć od przejrzenia jego <Link to={URLS.COUPLES} className="bgColorLight">portfolio realizacji ślubnych</Link>. Jeżeli realizacje i styl pracy danej agencji ślubnej przypadną Wam do gustu, możecie być pewni, że zrozumie zrealizuje również Waszą wizję. Kolejny niezwykle ważny krok to spotkanie. Koniecznie musicie poznać i porozmawiać ze swoim przyszłym konsultantem ślubnym.</p>
+                        <p>
+                            Powinniście poczuć, że nadajecie na tych samych falach i dobrze czujecie się w jego towarzystwie, będzie Wam towarzyszył w jednych z najważniejszych chwil Waszego życia. Warto zerknąć również na dodatkowe aktywności rozważanego wedding plannera np.<Link className="bgColorLight" to={URLS.BLOG}>blog</Link>, <CustomCategoryLink path="podcast" className="bgColorLight" text="podcast" />, publikacje w mediach branżowych. Na koniec zróbcie dokładny research, zapoznajcie się z opiniami na temat wybranych konsultantów ślubnych z Poznania, nieoceniony okaże się tu FB i wizytówka Google.
                 </p>
-                </>
+                    </>
             },
         ],
         gridHeader: 'Czary Marry - Twój wymarzony konsultant ślubny w Poznaniu.',
         gridBgColor: 'bgGrey',
         gridTextOne:
-        <p>
-            W Agencji Ślubnej Czary Marry zmieniamy marzenia w rzeczywistość. Organizujemy piękne uroczystości, pełne wzruszeń i radości oraz niezapomnianych momentów spędzonych w gronie najbliższych osób. Zajmujemy się organizacją ślubów nie tylko w Poznaniu ale działamy na terenie całej Polski. Choć musimy przyznać, że mamy szczególną słabość do Wielkopolski. Uwielbiamy klimat starych stodół, klimatycznych folwarków, przeszklonych oranżerii – wybór świetnych sal weselnych nieopodal <CustomOuterLink to="https://www.poznan.pl/" text="Poznania" className="bgColorLight"/> przyprawia o zawrót głowy.
+            <p>
+                W Agencji Ślubnej Czary Marry zmieniamy marzenia w rzeczywistość. Organizujemy piękne uroczystości, pełne wzruszeń i radości oraz niezapomnianych momentów spędzonych w gronie najbliższych osób. Zajmujemy się organizacją ślubów nie tylko w Poznaniu ale działamy na terenie całej Polski. Choć musimy przyznać, że mamy szczególną słabość do Wielkopolski. Uwielbiamy klimat starych stodół, klimatycznych folwarków, przeszklonych oranżerii – wybór świetnych sal weselnych nieopodal <CustomOuterLink to="https://www.poznan.pl/" text="Poznania" className="bgColorLight" /> przyprawia o zawrót głowy.
         </p>,
         gridTextTwo:
-        <p>
-            W pracy konsultanta ślubnego cenimy sobie relacje, zależy nam, żeby proces organizacji wesela przebiegał w przyjaznej atmosferze, a wspólnie spędzony czas był wspaniałą przygodą. Współpraca z nami to gwarancja niebanalnej, perfekcyjnie zaplanowanej uroczystości oraz komfortu i poczucia bezpieczeństwa. Pozwólcie nam sprawić, by organizacja Waszego wymarzonego wesela w Poznaniu stała się przyjemnością.
+            <p>
+                W pracy konsultanta ślubnego cenimy sobie relacje, zależy nam, żeby proces organizacji wesela przebiegał w przyjaznej atmosferze, a wspólnie spędzony czas był wspaniałą przygodą. Współpraca z nami to gwarancja niebanalnej, perfekcyjnie zaplanowanej uroczystości oraz komfortu i poczucia bezpieczeństwa. Pozwólcie nam sprawić, by organizacja Waszego wymarzonego wesela w Poznaniu stała się przyjemnością.
         </p>,
         gridPics:
-        [
-            require('../Home/konsultantki-slubne-czary-marry-home.jpg').default,
-            require('../AboutUs/kasia.jpg').default,
-            require('../AboutUs/ola.jpg').default,
-            require('../Home/instaPic3.jpg').default,
-        ],
+            [
+                require('../Home/konsultantki-slubne-czary-marry-home.jpg').default,
+                require('../AboutUs/kasia.jpg').default,
+                require('../AboutUs/ola.jpg').default,
+                require('../Home/instaPic3.jpg').default,
+            ],
         numsTitle: 'Organizacja ślubów Poznań - zakres obowiązków konsultanta ślubnego.',
         numsContent: [
             {
@@ -85,10 +85,10 @@ const landings = [
         ],
         bottomTitle: 'Organizacja wesela Poznań',
         bottomText:
-        <>
-        <p>Jeśli postanowiliście, że samodzielnie zajmiecie się organizacją ślubu i wesela w Poznaniu, nie zapominajcie, że zawsze możecie skorzystać z konsultacji online z profesjonalnymi organizatorami ślubów i wesel. Czasami warto zapytać o zdanie doświadczonych wedding plannerek, szczególnie, gdy do podjęcia jest dużo niezwykle ważnych decyzji. Mamy duże doświadczenie w organizacji wesel w Poznaniu i chętnie podzielimy się z Wami naszą wiedzą. Koniecznie zerknijcie na naszą ofertę szkoleń dla Par Młodych, które zdecydowały się na samodzielną organizację ślubu i wesela, ale marzą o niepowtarzalnych i pięknych uroczystościach. Więcej informacji znajdziecie tu: <CustomOuterLink className="bgColorMint" to="https://www.wedding-know-how.com/" text="Wedding-Know-How"/>.</p>
-        <p>Jeśli szukacie profesjonalnego wedding plannera, doświadczonego w organizacji ślubów i planujecie organizację wesela w Poznaniu i okolicach to serdecznie zapraszamy do kontaktu. Zorganizujemy dla Was ślub waszych marzeń.</p>
-        </>
+            <>
+                <p>Jeśli postanowiliście, że samodzielnie zajmiecie się organizacją ślubu i wesela w Poznaniu, nie zapominajcie, że zawsze możecie skorzystać z konsultacji online z profesjonalnymi organizatorami ślubów i wesel. Czasami warto zapytać o zdanie doświadczonych wedding plannerek, szczególnie, gdy do podjęcia jest dużo niezwykle ważnych decyzji. Mamy duże doświadczenie w organizacji wesel w Poznaniu i chętnie podzielimy się z Wami naszą wiedzą. Koniecznie zerknijcie na naszą ofertę szkoleń dla Par Młodych, które zdecydowały się na samodzielną organizację ślubu i wesela, ale marzą o niepowtarzalnych i pięknych uroczystościach. Więcej informacji znajdziecie tu: <CustomOuterLink className="bgColorMint" to="https://www.wedding-know-how.com/" text="Wedding-Know-How" />.</p>
+                <p>Jeśli szukacie profesjonalnego wedding plannera, doświadczonego w organizacji ślubów i planujecie organizację wesela w Poznaniu i okolicach to serdecznie zapraszamy do kontaktu. Zorganizujemy dla Was ślub waszych marzeń.</p>
+            </>
 
     },
 
@@ -105,10 +105,10 @@ const landings = [
             </>,
         textTwo: 'Marzy Wam się wesele w Sudetach, Karkonoszach lub Górach Stołowych? Schodziłyśmy je wielokrotnie wzdłuż i wszerz, znamy najpiękniejsze zakamarki. A może urzekają Was okoliczne pałace i zamki? Jest ich więcej, niż Wam się wydaje. Znamy je chyba wszystkie. Chętnie je Wam pokażemy. Mamy dla Was bogatą bazę lokalnych usługodawców ślubnych z Wrocławia. Jeśli rozważacie wesele we Wrocławiu i okolicach, nie wahajcie się i wybierzcie lokalnego wedding plannera z Wrocławia. Będziecie mogli liczyć na jego pełne wsparcie w organizacji Waszego ślubu i wesela marzeń.',
         placePics: [
-            require('../OurCouples/OurCouplesPics/FoodtruckWedding/ftVer6.jpg').default,
-            require('../OurCouples/OurCouplesPics/FoodtruckWedding/ftVer1.jpg').default,
-            require('../OurCouples/OurCouplesPics/FoodtruckWedding/ftVer3.jpg').default,
-            require('../OurCouples/OurCouplesPics/FoodtruckWedding/ftVer5.jpg').default
+            require('../OurCouples/OurCouplesPics/FoodtruckWedding/ver6.jpg').default,
+            require('../OurCouples/OurCouplesPics/FoodtruckWedding/ver1.jpg').default,
+            require('../OurCouples/OurCouplesPics/FoodtruckWedding/ver3.jpg').default,
+            require('../OurCouples/OurCouplesPics/FoodtruckWedding/ver5.jpg').default
         ],
         content: [
             {
@@ -161,17 +161,17 @@ const landings = [
         ],
         bottomTitle: 'Organizacja Wesel Wrocław',
         bottomText:
-        <>
-        <p>
-        Jeśli ostatecznie podjęliście decyzję, że organizacją ślubu i wesela we Wrocławiu zajmiecie się samodzielnie to pamiętajcie, że na każdym etapie przygotowań możecie skorzystać z konsultacji online. Spraw do ogarnięcia i decyzji do podjęcia potrafi być dużo i warto zapytać o zdanie specjalisty czyli doświadczonych konsultantek ślubnych. Zwłaszcza jeśli jest z okolic i organizowały niejeden ślub we Wrocławiu. Organizację wesel mamy we krwi!
+            <>
+                <p>
+                    Jeśli ostatecznie podjęliście decyzję, że organizacją ślubu i wesela we Wrocławiu zajmiecie się samodzielnie to pamiętajcie, że na każdym etapie przygotowań możecie skorzystać z konsultacji online. Spraw do ogarnięcia i decyzji do podjęcia potrafi być dużo i warto zapytać o zdanie specjalisty czyli doświadczonych konsultantek ślubnych. Zwłaszcza jeśli jest z okolic i organizowały niejeden ślub we Wrocławiu. Organizację wesel mamy we krwi!
         </p>
-        <p>
-        Zajrzyjcie też na ofertę szkoleń dla Par, które działają same, ale chcą, aby ich ślub i wesele były piękne i niepowtarzalne. Więcej przeczytacie tu: <CustomOuterLink className="bgColorMint" to="https://www.wedding-know-how.com/" text="Wedding-Know-How"/>.
+                <p>
+                    Zajrzyjcie też na ofertę szkoleń dla Par, które działają same, ale chcą, aby ich ślub i wesele były piękne i niepowtarzalne. Więcej przeczytacie tu: <CustomOuterLink className="bgColorMint" to="https://www.wedding-know-how.com/" text="Wedding-Know-How" />.
         </p>
-        <p>
-        A jeśli chcecie umilić sobie czas ślubnych przygotowań to zapraszamy na nasz <CustomOuterLink className="bgColorMint" to="https://open.spotify.com/show/7Lj581I8xRqkY3lRwkOvrc" text="podcast" />.
+                <p>
+                    A jeśli chcecie umilić sobie czas ślubnych przygotowań to zapraszamy na nasz <CustomOuterLink className="bgColorMint" to="https://open.spotify.com/show/7Lj581I8xRqkY3lRwkOvrc" text="podcast" />.
         </p>
-        </>
+            </>
     }
 ]
 
