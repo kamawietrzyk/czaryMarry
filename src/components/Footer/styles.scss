@@ -49,40 +49,33 @@
                 }
             }
 
-            & p {
-                color: white;
-                font-size: 19px;
-                text-align: center;
-                margin-bottom: 0;
+            & span.mobile {
+                @media (min-width: $tablet) {
+                    display: none;
+                }
+            }
 
-                & span.mobile {
-                    @media (min-width: $tablet) {
-                        display: none;
-                    }
+            .bottom {
+
+                & p {
+                    color: white;
+                    font-size: 19px;
+                    text-align: center;
+                    margin-bottom: 0;
                 }
 
-                &.bottom {
-                    padding-top: 12vw;
+                padding-top: 35vw;
 
-                    @media (min-width: $mobileM) {
-                        padding-top: 27vw;
-                    }
+                @media (min-width: $tablet) {
+                    padding-top: 90%;
+                }
 
-                    @media (min-width: $tablet) {
-                        padding-top: 70%;
-                    }
+                @media (min-width: $desktop) {
+                    padding-top: 100%;
+                }
 
-                    @media (min-width: $laptop) {
-                        padding-top: 85%;
-                    }
-
-                    @media (min-width: $desktop) {
-                        padding-top: 100%;
-                    }
-
-                    @media (min-width: $desktopL) {
-                        padding-top: 95%;
-                    }
+                @media (min-width: $desktopL) {
+                    padding-top: 95%;
                 }
             }
 
