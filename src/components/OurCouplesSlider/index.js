@@ -79,69 +79,69 @@ export default class CouplesSlider extends Component {
                 </div>
                 <div className="CouplesSlider">
                     <Slider {...settings}>
-                        <div className="main-con" style={{ width: 460 }}>
+                        <div className="main-con" style={{ width: 380 }}>
                             <GridEven picOne={pic1} picTwo={pic2} />
                         </div>
                         {picVer1 && picVer2 && pic3 && classNameOne &&
-                            <div className="main-con" style={{ width: 430 }}>
+                            <div className="main-con" style={{ width: 350 }}>
                                 <GridTwoVertHoriz picVer1={picVer1} picVer2={picVer2} picHoriz={pic3} className={classNameOne} />
                             </div>
                         }
-                        <div className="main-con" style={{ width: 460 }}>
+                        <div className="main-con" style={{ width: 380 }}>
                             <GridEven picOne={pic4} picTwo={pic5} />
                         </div>
                         {picVer3 &&
-                            <div className="main-con" style={{ width: 420 }}>
+                            <div className="main-con" style={{ width: 340 }}>
                                 <SingleVert picOne={picVer3} />
                             </div>
                         }
                         {pic10 && pic11 && pic12 && classNameTwo &&
-                            <div className="main-con" style={{ width: 605 }}>
+                            <div className="main-con" style={{ width: 505 }}>
                                 <GridThreeHoriz picOne={pic10} picTwo={pic11} picThree={pic12} className={classNameTwo} />
                             </div>
                         }
                         {pic6 && pic7 &&
-                            <div className="main-con" style={{ width: 460 }}>
+                            <div className="main-con" style={{ width: 380 }}>
                                 <GridEven picOne={pic6} picTwo={pic7} />
                             </div>
                         }
                         {picVer4 &&
-                            <div className="main-con" style={{ width: 410 }}>
+                            <div className="main-con" style={{ width: 360 }}>
                                 <SingleVert picOne={picVer4} />
                             </div>
                         }
                         {picVer6 && picVer7 && pic16 && classNameThree &&
-                            <div className="main-con" style={{ width: 415 }}>
+                            <div className="main-con" style={{ width: 350 }}>
                                 <GridTwoVertHoriz picVer1={picVer6} picVer2={picVer7} picHoriz={pic16} className={classNameThree} />
                             </div>
                         }
                         {pic8 && pic9 &&
-                            <div className="main-con" style={{ width: 460 }}>
+                            <div className="main-con" style={{ width: 380 }}>
                                 <GridEven picOne={pic8} picTwo={pic9} />
                             </div>
                         }
                         {picVer5 && pic13 &&
-                            <div className="main-con" style={{ width: 262 }}>
+                            <div className="main-con" style={{ width: 220 }}>
                                 <GridVertHoriz picOne={picVer5} picTwo={pic13} />
                             </div>
                         }
                         {pic14 && pic15 &&
-                            <div className="main-con" style={{ width: 460 }}>
+                            <div className="main-con" style={{ width: 380 }}>
                                 <GridEven picOne={pic14} picTwo={pic15} />
                             </div>
                         }
                         {picVer10 &&
-                            <div className="main-con" style={{ width: 410 }}>
+                            <div className="main-con" style={{ width: 355 }}>
                                 <SingleVert picOne={picVer10} />
                             </div>
                         }
                         {picVer8 && picVer9 && pic17 && classNameFour &&
-                            <div className="main-con" style={{ width: 430 }}>
+                            <div className="main-con" style={{ width: 350 }}>
                                 <GridTwoVertHoriz picVer1={picVer8} picVer2={picVer9} picHoriz={pic17} className={classNameFour} />
                             </div>
                         }
                         {pic17 && pic18 && pic19 && classNameFive &&
-                            <div className="main-con" style={{ width: 602 }}>
+                            <div className="main-con" style={{ width: 505 }}>
                                 <GridThreeHoriz picOne={pic17} picTwo={pic18} picThree={pic19} className={classNameFive} />
                             </div>
                         }

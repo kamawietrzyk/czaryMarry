@@ -47,10 +47,18 @@
             @media (min-width: $tablet) {
                 margin-bottom: 3rem;
             }
+
+            @media (min-width: $laptop) {
+                margin-bottom: 5rem;
+            }
         }
 
         &_form {
             text-align: left;
+
+            p {
+                white-space: nowrap;
+            }
 
             & .form-control {
                 border-radius: 0;
@@ -77,6 +85,14 @@
                 @media (min-width: $tablet) {
                     grid-template-columns: 1.5fr 1fr;
                     grid-template-rows: 63px;
+                }
+
+                @media (min-width: $laptop) {
+                    grid-template-columns: 1.1fr 1fr;
+                }
+
+                @media (min-width: $desktop) {
+                    grid-template-columns: 1.4fr 1fr;
                 }
             }
 
@@ -119,7 +135,11 @@
         }
 
         @media (min-width: $laptop) {
-            padding: 3rem 5vw;
+            padding: 3rem 0;
+        }
+
+        @media (min-width: $desktop) {
+            padding: 3rem;
         }
     }
 }

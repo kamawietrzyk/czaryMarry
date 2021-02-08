@@ -16,11 +16,7 @@
             height: 35rem;
 
             @media (min-width: $tablet) {
-                height: 50rem;
-            }
-
-            @media (min-width: $desktop) {
-                max-height: 45rem;
+                height: 45rem;
             }
         }
 
@@ -49,40 +45,33 @@
                 }
             }
 
-            & p {
-                color: white;
-                font-size: 19px;
-                text-align: center;
-                margin-bottom: 0;
+            & span.mobile {
+                @media (min-width: $tablet) {
+                    display: none;
+                }
+            }
 
-                & span.mobile {
-                    @media (min-width: $tablet) {
-                        display: none;
-                    }
+            .bottom {
+
+                & p {
+                    color: white;
+                    font-size: 19px;
+                    text-align: center;
+                    margin-bottom: 0;
                 }
 
-                &.bottom {
-                    padding-top: 12vw;
+                padding-top: 35vw;
 
-                    @media (min-width: $mobileM) {
-                        padding-top: 27vw;
-                    }
+                @media (min-width: $tablet) {
+                    padding-top: 90%;
+                }
 
-                    @media (min-width: $tablet) {
-                        padding-top: 70%;
-                    }
+                @media (min-width: $desktop) {
+                    padding-top: 100%;
+                }
 
-                    @media (min-width: $laptop) {
-                        padding-top: 85%;
-                    }
-
-                    @media (min-width: $desktop) {
-                        padding-top: 100%;
-                    }
-
-                    @media (min-width: $desktopL) {
-                        padding-top: 95%;
-                    }
+                @media (min-width: $desktopL) {
+                    padding-top: 95%;
                 }
             }
 
@@ -97,6 +86,8 @@
         width: 100%;
         height: auto;
         background-color: $mint;
+        display: grid;
+        align-items: center;
     }
 
     @media (min-width: $laptop) {
@@ -106,6 +97,6 @@
     }
 
     @media (min-width: $desktopL) {
-        padding: 0 22vw;
+        padding: 0 25vw;
     }
 }
