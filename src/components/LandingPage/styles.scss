@@ -69,6 +69,7 @@
         .one {
             grid-area: one;
             margin-top: 2rem;
+
             @media (min-width: $laptop) {
                 margin-bottom: 0;
             }
@@ -91,9 +92,11 @@
                 @media (min-width: $tablet) {
                     height: 23rem;
                 }
+
                 @media (min-width: $laptop) {
                     height: 28rem;
                 }
+
                 @media (min-width: $desktop) {
                     height: 31rem;
                 }
@@ -116,8 +119,9 @@
             @media (min-width: $desktop) {
                 width: 65vw;
             }
+
             @media (min-width: $desktopL) {
-                width: 45vw;
+                width: 36vw;
             }
         }
 
@@ -199,6 +203,7 @@
             @media (min-width: $laptop) {
                 width: 37vw;
             }
+
             @media (min-width: $desktop) {
                 width: 26vw;
             }
@@ -313,6 +318,7 @@
             }
         }
     }
+
     @media (min-width: $desktopL) {
         margin: 2rem 5vw;
     }

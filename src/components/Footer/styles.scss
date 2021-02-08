@@ -16,11 +16,7 @@
             height: 35rem;
 
             @media (min-width: $tablet) {
-                height: 50rem;
-            }
-
-            @media (min-width: $desktop) {
-                max-height: 45rem;
+                height: 45rem;
             }
         }
 
@@ -90,6 +86,8 @@
         width: 100%;
         height: auto;
         background-color: $mint;
+        display: grid;
+        align-items: center;
     }
 
     @media (min-width: $laptop) {
@@ -99,6 +97,6 @@
     }
 
     @media (min-width: $desktopL) {
-        padding: 0 22vw;
+        padding: 0 25vw;
     }
 }

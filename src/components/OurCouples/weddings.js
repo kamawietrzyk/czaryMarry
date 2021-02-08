@@ -119,7 +119,7 @@ const weddings = [
     {
         bgColor: "bgDark",
         title: "Angelika & Paweł",
-        details: "Zamek Książ zachwyca niesamowitą architekturą i historią. Dzięki zaufaniu i otwartości pary oraz niezastąpionej ekipie udało nam się dopisać kolejny, cudowny rozdział tej historii i stworzyć niesamowity klimat. Postanowiliśmy nie walczyć z zamkiem i nawiązać do niego. Wyszło bajecznie.",
+        details: "Zamek Książ zachwyca niesamowitą architekturą i historią. Dzięki zaufaniu i otwartości pary oraz niezastąpionej ekipie udało nam się dopisać kolejny, cudowny rozdział tej historii i stworzyć niesamowity klimat.",
         org: "Agencja Ślubna Czary Marry",
         orgLink: "",
         place: "Zamek Książ",
