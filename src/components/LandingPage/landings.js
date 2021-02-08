@@ -86,7 +86,7 @@ const landings = [
         bottomTitle: 'Organizacja wesela Poznań',
         bottomText:
             <>
-                <p>Jeśli postanowiliście, że samodzielnie zajmiecie się organizacją ślubu i wesela w Poznaniu, nie zapominajcie, że zawsze możecie skorzystać z konsultacji online z profesjonalnymi organizatorami ślubów i wesel. Czasami warto zapytać o zdanie doświadczonych wedding plannerek, szczególnie, gdy do podjęcia jest dużo niezwykle ważnych decyzji. Mamy duże doświadczenie w organizacji wesel w Poznaniu i chętnie podzielimy się z Wami naszą wiedzą. Koniecznie zerknijcie na naszą ofertę szkoleń dla Par Młodych, które zdecydowały się na samodzielną organizację ślubu i wesela, ale marzą o niepowtarzalnych i pięknych uroczystościach. Więcej informacji znajdziecie tu: <CustomOuterLink className="bgColorMint" to="https://www.wedding-know-how.com/" text="Wedding-Know-How" />.</p>
+                <p>Jeśli postanowiliście, że samodzielnie zajmiecie się organizacją ślubu i wesela w Poznaniu, nie zapominajcie, że zawsze możecie skorzystać z konsultacji online z profesjonalnymi organizatorami ślubów i wesel. Czasami warto zapytać o zdanie doświadczonych wedding plannerek, szczególnie, gdy do podjęcia jest dużo niezwykle ważnych decyzji. Mamy duże doświadczenie w organizacji wesel w Poznaniu i chętnie podzielimy się z Wami naszą wiedzą.</p>
                 <p>Jeśli szukacie profesjonalnego wedding plannera, doświadczonego w organizacji ślubów i planujecie organizację wesela w Poznaniu i okolicach to serdecznie zapraszamy do kontaktu. Zorganizujemy dla Was ślub waszych marzeń.</p>
             </>
 
@@ -164,9 +164,6 @@ const landings = [
             <>
                 <p>
                     Jeśli ostatecznie podjęliście decyzję, że organizacją ślubu i wesela we Wrocławiu zajmiecie się samodzielnie to pamiętajcie, że na każdym etapie przygotowań możecie skorzystać z konsultacji online. Spraw do ogarnięcia i decyzji do podjęcia potrafi być dużo i warto zapytać o zdanie specjalisty czyli doświadczonych konsultantek ślubnych. Zwłaszcza jeśli jest z okolic i organizowały niejeden ślub we Wrocławiu. Organizację wesel mamy we krwi!
-        </p>
-                <p>
-                    Zajrzyjcie też na ofertę szkoleń dla Par, które działają same, ale chcą, aby ich ślub i wesele były piękne i niepowtarzalne. Więcej przeczytacie tu: <CustomOuterLink className="bgColorMint" to="https://www.wedding-know-how.com/" text="Wedding-Know-How" />.
         </p>
                 <p>
                     A jeśli chcecie umilić sobie czas ślubnych przygotowań to zapraszamy na nasz <CustomOuterLink className="bgColorMint" to="https://open.spotify.com/show/7Lj581I8xRqkY3lRwkOvrc" text="podcast" />.
