@@ -33,7 +33,7 @@ const landings = [
                     </>
             },
             {
-                title: 'Profesjonalny wedding planner Poznań - kryteria wyboru.',
+                title: 'Profesjonalny wedding planner Poznań - kryteria wyboru',
                 titleBgColor: 'bgDark',
                 color: 'text-white',
                 text:
