@@ -101,9 +101,17 @@
                     height: 31rem;
                 }
 
+                @media (min-width: $desktopL) {
+                    max-height: 26rem;
+                }
+
                 img {
                     width: 100%;
                     object-fit: cover;
+
+                    @media (min-width: $desktopL) {
+                        height: 100%;
+                    }
                 }
             }
 
@@ -117,11 +125,12 @@
             }
 
             @media (min-width: $desktop) {
-                width: 65vw;
+                width: 100%;
+                max-width: 65vw;
             }
 
             @media (min-width: $desktopL) {
-                width: 36vw;
+                max-width: 36vw;
             }
         }
 
@@ -205,7 +214,11 @@
             }
 
             @media (min-width: $desktop) {
-                width: 26vw;
+                width: 27vw;
+            }
+
+            @media (min-width: $desktopL) {
+                width: 19vw;
             }
         }
 
