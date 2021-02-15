@@ -151,6 +151,51 @@
   .bgDarkLight {
     background-color: #31373e62;
   }
+
+  .linkPink,
+  .linkMint,
+  .linkLight,
+  .linkDark {
+    text-decoration: none;
+    font-weight: 600;
+
+    &:hover {
+      text-decoration: none;
+      font-weight: 600;
+    }
+  }
+
+  .linkPink {
+    color: #db8a8be3;
+
+    &:hover {
+      color: #b97273ef;
+    }
+  }
+
+  .linkMint {
+    color: #90bdb1f6;
+
+    &:hover {
+      color: #77a196f6;
+    }
+  }
+
+  .linkLight {
+    color: #9b9999e5;
+
+    &:hover {
+      color: #858383f3;
+    }
+  }
+
+  .linkDark {
+    color: #31373ee1;
+
+    &:hover {
+      color: #292d35;
+    }
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {

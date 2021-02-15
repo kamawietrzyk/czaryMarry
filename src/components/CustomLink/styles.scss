@@ -10,58 +10,55 @@
     }
 }
 
-.bgColorPink {
-    background-color: #db8a8b77;
-    color: $darkGrey;
+.bgColorPink,
+.bgColorMint,
+.bgColorLight,
+.bgColorDark {
     text-decoration: none;
     font-weight: 600;
 
     &:hover {
-        background-color: #db8a8b94;
-        color: $textGrey;
         text-decoration: none;
         font-weight: 600;
+    }
+}
+
+.bgColorPink {
+    background-color: #db8a8b77;
+    color: $darkGrey;
+
+    &:hover {
+        background-color: #db8a8b94;
+        color: $textGrey;
     }
 }
 
 .bgColorMint {
     background-color: #adc8c1b6;
     color: $darkGrey;
-    text-decoration: none;
-    font-weight: 600;
 
     &:hover {
         background-color: #adc8c1f6;
         color: $textGrey;
-        text-decoration: none;
-        font-weight: 600;
     }
 }
 
 .bgColorLight {
     background-color: #afafaf94;
     color: $darkGrey;
-    text-decoration: none;
-    font-weight: 600;
 
     &:hover {
         background-color: #afafafbd;
         color: $textGrey;
-        text-decoration: none;
-        font-weight: 600;
     }
 }
 
 .bgColorDark {
     background-color: #31373e62;
     color: $darkGrey;
-    text-decoration: none;
-    font-weight: 600;
 
     &:hover {
         background-color: #31373e8a;
         color: $textGrey;
-        text-decoration: none;
-        font-weight: 600;
     }
 }
