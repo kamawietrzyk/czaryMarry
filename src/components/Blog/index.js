@@ -87,9 +87,6 @@ const Blog = () => {
             <div className="page-header">
                 <span className="num-span number">05</span>
                 <h2 className="page-title">Blog</h2>
-                <div className="icon-wrapper">
-                    <img src={signal} alt="signal icon" />
-                </div>
             </div>
             <p className="main-header">
                 O ślubach i weselach wiemy dużo... naprawdę dużo. Dodatkowo bardzo lubimy dzielić się swoją wiedzą i doświadczeniem. Zapraszamy więc do naszego małego świata pełnego porad oraz inspiracji ślubnych. Mamy nadzieję, że czytając naszego bloga zobaczycie, jak bardzo uwielbiamy swoją pracę.
