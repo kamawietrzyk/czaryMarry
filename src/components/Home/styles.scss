@@ -29,11 +29,7 @@
 
         @media (min-width: $desktopL) {
             left: 30%;
-            top: -3.5%;
-        }
-
-        @media (min-width: 2100px) {
-            top: 0;
+            top: -1%;
         }
 
         & .hello {
@@ -121,7 +117,14 @@
             align-items: center;
         }
 
+        @media (min-width: 1750px) {
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
         @media (min-width: $desktopL) {
+            width: 70rem;
             grid-template-columns: .8fr 1fr;
             grid-template-rows: auto;
         }
@@ -370,6 +373,6 @@
     }
 
     @media (min-width: $desktopL) {
-        padding: 0 25vw;
+        padding: 0 20vw;
     }
 }

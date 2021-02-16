@@ -26,8 +26,12 @@
             font-size: 112px;
         }
 
+        @media (min-width: 1650px) {
+            font-size: 135px;
+        }
+
         @media (min-width: 1950px) {
-            font-size: 165px;
+            font-size: 160px;
         }
     }
 
@@ -117,10 +121,10 @@
                 }
             }
 
-            @media (min-width: $desktopL) {
+            @media (min-width: 1750px) {
                 margin-left: auto;
                 margin-right: auto;
-                width: 80%;
+                width: 64rem;
             }
         }
 
@@ -142,6 +146,6 @@
     }
 
     @media (min-width: $desktopL) {
-        padding: 0 25vw;
+        padding: 0 18vw;
     }
 }

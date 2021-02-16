@@ -39,6 +39,7 @@ const LandingPage = () => {
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
+        centerMode: false,
         responsive: [
             {
                 breakpoint: 768,
