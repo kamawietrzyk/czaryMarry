@@ -10,28 +10,9 @@
         color: $darkGrey;
     }
 
-    .page-header {
-        position: relative;
-
-        .icon-wrapper {
-            width: 1.75rem;
-            position: absolute;
-            left: 165px;
-            top: 5%;
-
-            @media (min-width: $tablet) {
-                width: 2.5rem;
-                left: 325px;
-                top: 8%;
-            }
-
-            @media (min-width: $laptop) {
-                width: 4rem;
-                left: 570px;
-                top: 10%;
-            }
-        }
-    }
+    // .page-header {
+    //     position: relative;
+    // }
 
     .main-header {
         font-size: 17px;

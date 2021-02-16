@@ -127,7 +127,7 @@
 
             @media (min-width: $laptop) {
                 margin-bottom: 3rem;
-                width: 100%;
+                width: 60rem;
                 grid-template-columns: 2fr 1.4fr;
                 grid-template-rows: auto;
                 grid-template-areas:
@@ -136,7 +136,6 @@
 
             @media (min-width: $desktopL) {
                 grid-template-columns: 2fr 1.2fr;
-                width: 83%;
             }
         }
 
@@ -165,6 +164,6 @@
     }
 
     @media (min-width: $desktopL) {
-        padding: 0 25vw;
+        padding: 0 18vw;
     }
 }

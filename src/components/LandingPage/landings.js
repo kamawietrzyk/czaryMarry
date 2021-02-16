@@ -85,35 +85,35 @@ const landings = [
                 <h2 className="bgPink">Wedding planner Warszawa - zakres obowiązków.</h2>
                 <p>
                     Pomoc w przygotowaniach na każdym etapie organizacji ślubu i wesela:
+                    <ul className="mt-3">
+                        <li>Przygotowanie budżetu wesela i harmonogramu prac,</li>
+                        <li>Pomoc w formalnościach przedślubnych,</li>
+                        <li>Znalezienie sali oraz wszelkie ustalenia z miejscem weselnym,</li>
+                        <li>Przedstawienie propozycji wykonawców (m.in. oprawa muzyczna, fotograficzna, filmowa wesela),</li>
+                        <li>Logistyka (noclegi oraz transport dla gości),</li>
+                        <li>Zaplanowanie stylu oraz dekoracji przyjęcia weselnego (florystyka, oświetlenie, papeteria, dodatki),</li>
+                        <li>Zaplanowanie atrakcji weselnych (np. candy bar, barman, strefy chillout),</li>
+                        <li>Pomoc w znalezieniu fryzjera i makijażystki oraz doborze strojów,</li>
+                        <li>Zaplanowanie i koordynacja przebiegu dnia ślubu i wesela,</li>
+                        <li>...oraz wszystko, czego potrzebujecie organizując wesele w Warszawie i okolicach.</li>
+                    </ul>
                 </p>
-                <ul>
-                    <li>Przygotowanie budżetu wesela i harmonogramu prac,</li>
-                    <li>Pomoc w formalnościach przedślubnych,</li>
-                    <li>Znalezienie sali oraz wszelkie ustalenia z miejscem weselnym,</li>
-                    <li>Przedstawienie propozycji wykonawców (m.in. oprawa muzyczna, fotograficzna, filmowa wesela),</li>
-                    <li>Logistyka (noclegi oraz transport dla gości),</li>
-                    <li>Zaplanowanie stylu oraz dekoracji przyjęcia weselnego (florystyka, oświetlenie, papeteria, dodatki),</li>
-                    <li>Zaplanowanie atrakcji weselnych (np. candy bar, barman, strefy chillout),</li>
-                    <li>Pomoc w znalezieniu fryzjera i makijażystki oraz doborze strojów,</li>
-                    <li>Zaplanowanie i koordynacja przebiegu dnia ślubu i wesela,</li>
-                    <li>...oraz wszystko, czego potrzebujecie organizując wesele w Warszawie i okolicach.</li>
-                </ul>
 
                 <h2 className="bgGrey mt-5">Koordynacja ślubu i wesela w Warszawie.</h2>
                 <p>
                     Kompleksowa organizacja ślubu i wesela Warszawa:
+                    <ul className="mt-3">
+                        <li>Przygotowanie scenariusza dnia ślubu i przyjęcia weselnego,</li>
+                        <li>Nadzorowanie pracy wykonawców,</li>
+                        <li>Kontakt sms-owy lub mailowy z gośćmi na dzień przed weselem,</li>
+                        <li>Koordynacja ceremonii ślubnej i przyjęcia weselnego,</li>
+                        <li>Dopilnowanie, aby wszystkie ustalenia i życzenia Pary Młodej zostały zrealizowane,</li>
+                        <li>Pomoc w sytuacjach niespodziewanych, rozwiązywanie bieżących problemów,</li>
+                        <li>Opieka nad Parą Młodą i gośćmi weselnymi,</li>
+                        <li>Rozliczenie z usługodawcami,</li>
+                        <li>Spotkanie w celu podsumowania przebiegu wesela i organizacji.</li>
+                    </ul>
                 </p>
-                <ul>
-                    <li>Przygotowanie scenariusza dnia ślubu i przyjęcia weselnego,</li>
-                    <li>Nadzorowanie pracy wykonawców,</li>
-                    <li>Kontakt sms-owy lub mailowy z gośćmi na dzień przed weselem,</li>
-                    <li>Koordynacja ceremonii ślubnej i przyjęcia weselnego,</li>
-                    <li>Dopilnowanie, aby wszystkie ustalenia i życzenia Pary Młodej zostały zrealizowane,</li>
-                    <li>Pomoc w sytuacjach niespodziewanych, rozwiązywanie bieżących problemów,</li>
-                    <li>Opieka nad Parą Młodą i gośćmi weselnymi,</li>
-                    <li>Rozliczenie z usługodawcami,</li>
-                    <li>Spotkanie w celu podsumowania przebiegu wesela i organizacji.</li>
-                </ul>
             </>,
         bottomTitle: 'Organizacja ślubu i wesela Warszawa',
         bottomText:
@@ -151,7 +151,7 @@ const landings = [
                     </>
             },
             {
-                title: 'Profesjonalny wedding planner Poznań - kryteria wyboru.',
+                title: 'Profesjonalny wedding planner Poznań - kryteria wyboru',
                 titleBgColor: 'bgDark',
                 color: 'text-white',
                 text:

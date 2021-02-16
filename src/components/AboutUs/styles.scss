@@ -35,6 +35,10 @@
             }
 
             @media (min-width: $laptop) {
+                font-size: 155px;
+            }
+
+            @media (min-width: $desktop) {
                 font-size: 176px;
             }
         }
@@ -91,6 +95,12 @@
                 }
             }
 
+            @media (min-width: 1200px) and (max-width: $desktop) {
+                h2 {
+                    top: -15%;
+                }
+            }
+
             @media (min-width: $desktopL) {
                 h2 {
                     right: 10%;
@@ -121,9 +131,15 @@
                 }
             }
 
+            @media (min-width: 1200px) and (max-width: $desktop) {
+                h2 {
+                    top: -20%;
+                }
+            }
+
             @media (min-width: $desktopL) {
                 h2 {
-                    top: -7%;
+                    top: -10%;
                     left: 25%;
                 }
             }
