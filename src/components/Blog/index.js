@@ -1,7 +1,6 @@
 import React from 'react'
 import ArrowToTop from '../ArrowToTop'
 import ScrollToTopOnMount from '../ScrollToTopOnMount'
-import signal from '../Icons/signal.svg'
 import './styles.scss'
 import Pagination from '../Pagination'
 import PostPreview from '../PostPreview'
