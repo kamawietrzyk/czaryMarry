@@ -11,7 +11,7 @@ import ArrowToTop from '../ArrowToTop'
 import ToStartOnUpdate from '../ToStartOnUpdate'
 import SeoContent from '../SeoContent'
 
-    const APP_URL = process.env.REACT_APP_BASE_URL
+const APP_URL = process.env.REACT_APP_BASE_URL
 
 const PostPage = () => {
     const { path } = useParams()
@@ -51,9 +51,9 @@ const PostPage = () => {
                     {topPic &&
                         <Picture item={topPic} />
                     }
-                    {content && content.map(({ headerSmall, pics, text }, index) => (
+                    {content && content.map(({ headerClassName, headerSmall, pics, text }, index) => (
                         <div className="mb-4" key={index}>
-                            <h3 className="subheader">{headerSmall}</h3>
+                            <h3 className={`subheader ${headerClassName}`}>{headerSmall}</h3>
                             <p>{text}</p>
                             {pics && pics.map((pic, index) => (
                                 <Picture className="my-2" item={pic} key={index} />))}
