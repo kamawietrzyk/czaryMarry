@@ -1200,7 +1200,7 @@ const posts = [
             </>
     },
     {
-        path: "mała-rzecz-a-ucieszy", // "akcesoria-slubne-gadzety"
+        path: "mała-rzecz-a-ucieszy", //  <--- stary URL, nowy URL: akcesoria-slubne-gadzety
         seoTitle: 'Nietypowe akcesoria ślubne – gadżety ślubne, które warto mieć pod ręką – Czary Marry',
         seoText: 'Czy wiecie, jakie nietypowe akcesoria ślubne zwiększą komfort Wasz i Waszych gości? Przekonajcie się, o jakich gadżetach ślubnych warto pamiętać!',
         tag: 'niezbędnik-przedslubny',
@@ -2305,7 +2305,7 @@ const posts = [
     },
 
     {
-        path: 'o-poszukiwaniu-sukienki-idealnej',
+        path: 'o-poszukiwaniu-sukienki-idealnej', // <--- stary URL, nowy URL: suknia-slubna-jak-wybrac
         title: "Idealna suknia ślubna – jak ją znaleźć?",
         seoTitle: 'Idealna suknia ślubna – jak ją znaleźć? – Czary Marry radzi',
         seoText: "Jak przygotować się do kupna sukni ślubnej? O czym warto pamiętać, by wybrać swoją wymarzoną suknię ślubną i uniknąć niepotrzebnego stresu?",
