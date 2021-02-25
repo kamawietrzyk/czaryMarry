@@ -1200,7 +1200,8 @@ const posts = [
             </>
     },
     {
-        path: "mała-rzecz-a-ucieszy", //  <--- stary URL, nowy URL: akcesoria-slubne-gadzety
+        path: "mała-rzecz-a-ucieszy",
+        newPath: 'akcesoria-slubne-gadzety',
         seoTitle: 'Nietypowe akcesoria ślubne – gadżety ślubne, które warto mieć pod ręką – Czary Marry',
         seoText: 'Czy wiecie, jakie nietypowe akcesoria ślubne zwiększą komfort Wasz i Waszych gości? Przekonajcie się, o jakich gadżetach ślubnych warto pamiętać!',
         tag: 'niezbędnik-przedslubny',
@@ -1259,19 +1260,19 @@ const posts = [
             {
                 text:
                     <>
-                        Pary Młode powinny zadbać między innymi o koce. Coraz częściej przenosimy nasze śluby i wesela na świeże powietrze. Organizujemy dla gości strefy relaksu z wygodnymi kanapami, planujemy atrakcję, która wieczorem będzie wymagała wyjścia na zewnątrz lub po prostu wybieramy salę z pięknym ogrodem, który, aż kusi do spędzenia chwili czasu w nim. Organizując <CustomPostLink path="wesele-pod-namiotem" text="wesele pod namiotem" className="linkDark" />, pod chmurką czy w ogrodzie zadbajmy o okrycie wierzchnie dla gości, o koce, pledy, narzuty. Chociaż sezon ślubny przypada na lato, nawet o tej porze roku wieczory bywają dość chłodne. Stąd – warto zadbać o komfort swój i gości. Gdy w południe jest prawie 30 stopni, nikt nie myśli o zabraniu czegoś cieplejszego, czym można okryć się w nocy. Koce okażą się wtedy akcesoriami ślubnymi, które wręcz uratują Wasze przyjęcie weselne. Tymczasem, pogoda potrafi zaskakiwać. Bycie na to przygotowanym to gwarancja udanej imprezy!
-                    </>
-            },
-            {
-                text:
-                    <>
-                        <span className="pink bold">Nakładki na obcasy</span> to coraz popularniejsze ślubne gadżety – tym bardziej, że wiele Par decyduje się na ślub w plenerze. Nawet jeśli nie planujesz wesela w ogrodzie ani strefy relaksu na zewnątrz, nakładki na obcasy mogą przydać się niejednej pani.
+                        Pary Młode powinny zadbać między innymi o <span className="pink bold">koce</span>. Coraz częściej przenosimy nasze śluby i wesela na świeże powietrze. Organizujemy dla gości strefy relaksu z wygodnymi kanapami, planujemy atrakcję, która wieczorem będzie wymagała wyjścia na zewnątrz lub po prostu wybieramy salę z pięknym ogrodem, który, aż kusi do spędzenia chwili czasu w nim. Organizując <CustomPostLink path="wesele-pod-namiotem" text="wesele pod namiotem" className="linkDark" />, pod chmurką czy w ogrodzie zadbajmy o okrycie wierzchnie dla gości, o koce, pledy, narzuty. Chociaż sezon ślubny przypada na lato, nawet o tej porze roku wieczory bywają dość chłodne. Stąd – warto zadbać o komfort swój i gości. Gdy w południe jest prawie 30 stopni, nikt nie myśli o zabraniu czegoś cieplejszego, czym można okryć się w nocy. Koce okażą się wtedy akcesoriami ślubnymi, które wręcz uratują Wasze przyjęcie weselne. Tymczasem, pogoda potrafi zaskakiwać. Bycie na to przygotowanym to gwarancja udanej imprezy!
                     </>,
                 pics: [
                     {
                         src: require('./BlogPics/Post18/post18d.jpg').default
                     }
                 ]
+            },
+            {
+                text:
+                    <>
+                        <span className="pink bold">Nakładki na obcasy</span> to coraz popularniejsze ślubne gadżety – tym bardziej, że wiele Par decyduje się na ślub w plenerze. Nawet jeśli nie planujesz wesela w ogrodzie ani strefy relaksu na zewnątrz, nakładki na obcasy mogą przydać się niejednej pani.
+                    </>
             },
             {
                 headerSmall: "Inne nietypowe akcesoria ślubne",
@@ -2305,7 +2306,7 @@ const posts = [
     },
 
     {
-        path: 'o-poszukiwaniu-sukienki-idealnej', // <--- stary URL, nowy URL: suknia-slubna-jak-wybrac
+        path: 'o-poszukiwaniu-sukienki-idealnej',
         title: "Idealna suknia ślubna – jak ją znaleźć?",
         seoTitle: 'Idealna suknia ślubna – jak ją znaleźć? – Czary Marry radzi',
         seoText: "Jak przygotować się do kupna sukni ślubnej? O czym warto pamiętać, by wybrać swoją wymarzoną suknię ślubną i uniknąć niepotrzebnego stresu?",
