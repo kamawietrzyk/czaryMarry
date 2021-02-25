@@ -3,18 +3,18 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter as Router } from 'react-router-dom';
-import TagManager from 'react-gtm-module'
+import {BrowserRouter as Router} from 'react-router-dom';
+import TagManager from 'react-gtm-module';
 
 TagManager.initialize({
     gtmId: 'AW-750267016'
-})
+});
 
 ReactDOM.render(
-  <Router>
-    <App />
-  </Router>,
-  document.getElementById('root')
+    <Router>
+        <App/>
+    </Router>,
+    document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function

@@ -1201,6 +1201,7 @@ const posts = [
     },
     {
         path: 'mała-rzecz-a-ucieszy',
+        altPath: 'akcesoria-slubne-gadzety',
         seoText: 'Niezbędnik ślubny. Przydatne rzeczy w dniu waszego wesela.',
         tag: 'niezbędnik-przedslubny',
         title: 'MAŁA RZECZ, A UCIESZY',
