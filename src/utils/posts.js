@@ -29,7 +29,7 @@ const posts = [
             },
             {
                 text:
-                    <p>Link do Instagrama Natalii: <CustomOuterLink to="https://www.instagram.com/tortowawakcji/" text="Tortowa w Akcji" className="bgColorMint" /> </p>
+                    <>Link do Instagrama Natalii: <CustomOuterLink to="https://www.instagram.com/tortowawakcji/" text="Tortowa w Akcji" className="bgColorMint" /> </>
             }
         ],
         links:
@@ -250,7 +250,7 @@ const posts = [
             </>,
         extras:
             <>
-                <span className="d-block text-right"><ustomCategoryLink path="podcast" text="Podcast" className="bgColorMint" /></span>
+                <span className="d-block text-right"><CustomCategoryLink path="podcast" text="Podcast" className="bgColorMint" /></span>
             </>
     },
     {
@@ -1200,24 +1200,28 @@ const posts = [
             </>
     },
     {
-        path: 'mała-rzecz-a-ucieszy',
+
+        path: "mała-rzecz-a-ucieszy",
         altPath: 'akcesoria-slubne-gadzety',
-        seoText: 'Niezbędnik ślubny. Przydatne rzeczy w dniu waszego wesela.',
+        seoTitle: 'Nietypowe akcesoria ślubne – gadżety ślubne, które warto mieć pod ręką – Czary Marry',
+        seoText: 'Czy wiecie, jakie nietypowe akcesoria ślubne zwiększą komfort Wasz i Waszych gości? Przekonajcie się, o jakich gadżetach ślubnych warto pamiętać!',
         tag: 'niezbędnik-przedslubny',
-        title: 'MAŁA RZECZ, A UCIESZY',
+        title: 'Nietypowe akcesoria ślubne – te gadżety ślubne ratują z wielu opresji!',
         date: '10 kwi 2018',
-        edited: '13 sty 2020',
-        textShort: 'Pewnie macie długą listę niezbędnych rzeczy, które absolutnie muszą pojawić się na miejscu ślubu i wesela. Koszyczek ratunkowy do łazienki, dodatkowa gotówka, przybory do makijażu i...',
+        edited: '20 lut 2021',
+        textShort: 'Pewnie macie długą listę gadżetów ślubnych, które absolutnie muszą pojawić się na miejscu, gdzie organizujecie ślub i wesele. Koszyczek ratunkowy do łazienki, dodatkowa gotówka, przybory do makijażu i...',
         mainPic: {
             src: require('./BlogPics/Post18/post18.jpg').default
         },
-        textMain: 'Pewnie macie długą listę niezbędnych rzeczy, które absolutnie muszą pojawić się na miejscu ślubu i wesela. Koszyczek ratunkowy do łazienki, dodatkowa gotówka, przybory do makijażu i ulubiona szminka na pewno się na niej znalazły. Tymczasem jest kilka gadżetów, które niezbyt kojarzą się ze ślubem i weselem, a które są na sali weselnej szalenie przydatne.',
+        textMain:
+            <>Pewnie macie długą listę gadżetów ślubnych, które absolutnie muszą pojawić się na miejscu, gdzie organizujecie ślub i wesele. Koszyczek ratunkowy do łazienki, dodatkowa gotówka, przybory do makijażu i ulubiona szminka na pewno się na niej znalazły. Tymczasem, jest kilka akcesoriów, które niezbyt kojarzą się ze ślubem i weselem, a które są na sali weselnej szalenie przydatne. Sprawdź, jakie <span className="bold pink">gadżety na ślub</span> warto przygotować!
+            </>,
         content: [
             {
+                headerSmall: 'Akcesoria ślubne – dodatki, które ułatwią życie Parze Młodej',
                 text:
                     <>
-                        <span className="pink bold">ZEGAREK</span><br />
-                    Mało kto go teraz używa. Tymczasem zegarek u pana młodego (czy chociażby świadka) to gadżet na wagę złota. Mało eleganckie jest zerkanie co chwilę na wyświetlacz telefonu – stąd tradycyjny sposób sprawdzenia godziny powinien w Twoim wielkim dniu jednak dominować.
+                        <span className="pink bold">Zegarek</span> to dodatek, który nosi coraz mniej osób. Tymczasem zegarek u Pana Młodego (czy chociażby u świadka) jest na wagę złota. Mało eleganckie jest zerkanie co chwilę na wyświetlacz telefonu – stąd, tradycyjny sposób sprawdzenia godziny powinien w Twoim wielkim dniu jednak dominować. Ponadto elegancki zegarek jest naprawdę niezastąpionym elementem męskiej garderoby – warto zainwestować w elegancki zegarek, który będzie nie tylko jednym z akcesoriów ślubnych, ale Panu Młodemu posłuży wiele lat.
                     </>,
                 pics: [
                     {
@@ -1228,8 +1232,7 @@ const posts = [
             {
                 text:
                     <>
-                        <span className="pink bold">PARASOL</span><br />
-                    Każdemu życzę pięknej pogody w dniu ślubu i wesela, takiej bez ani jednej kropelki deszczu. Co jeśli jednak się pojawi? Warto zabrać do ślubnego samochodu biały, elegancki parasol. W razie deszczu nie będziemy musieli ratować się kolorowym parasolem babci, który później wygląda bardzo niekorzystnie na zdjęciach ślubnych, no i uratuje fryzury oraz ślubne stroje.
+                        Pary Młode marzą o pięknej pogodzie. Deszcz może popsuć wiele planów, nawet jeśli nie organizujemy ślubu czy <CustomPostLink path="wesele-w-plenerze" className="linkDark" text="wesela w plenerze" />. Każdemu życzymy pięknej pogody w dniu ślubu i wesela, takiej bez ani jednej kropelki deszczu. Co, jeśli jednak się pojawi? Warto zabrać do ślubnego samochodu biały, elegancki <span className="pink bold">parasol</span>. W razie deszczu nie będziemy musieli ratować się kolorowym parasolem babci, który później wygląda bardzo niekorzystnie na zdjęciach ślubnych. Parasole to akcesoria ślubne, które ratują fryzury oraz ślubne stroje, a przede wszystkim oszczędzają nerwy Parom, które w trakcie ślubu łapie deszcz.
                     </>,
                 pics: [
                     {
@@ -1240,8 +1243,7 @@ const posts = [
             {
                 text:
                     <>
-                        <span className="pink bold">POKROWIEC NA SUKNIĘ ŚLUBNĄ</span><br />
-                    Jeśli noc poślubną spędzasz poza domem, nie chcesz chyba wracać kolejnego dnia w sukni ślubnej, ani tym bardziej, próbować upchnąć ją do reklamówki? Stąd, przydaje się pokrowiec na suknię ślubną, ewentualnie – na garnitur. Pozwala to przetransportować ślubne ubranie w dobrym stanie.
+                        <span className="pink bold">Pokrowiec na suknię ślubną i garnitur</span> Pana Młodego to kolejne gadżety ślubne, w które naprawdę warto się wyposażyć. Jeśli noc poślubną spędzacie poza domem, nie chcecie chyba wracać kolejnego dnia w sukni ślubnej czy garniturze, ani tym bardziej, próbować upchnąć ich do reklamówki? Stąd, przydaje się pokrowiec na suknię ślubną i na garnitur. Pozwala to przetransportować ślubne ubranie w dobrym stanie. Być może planujecie sesję ślubną tydzień po weselu? Może chcecie sprzedać suknię ślubną, a garnitur wykorzystać na inne uroczystości? Pokrowce na suknię ślubną i garnitur to akcesoria ślubne, które Wam to umożliwią.
                     </>,
                 pics: [
                     {
@@ -1250,17 +1252,16 @@ const posts = [
                 ]
             },
             {
+                headerSmall: 'Gadżety ślubne dla gości',
                 text:
                     <>
-                        <span className="pink bold">ROLKA DO UBRAŃ</span><br />
-                    Przyda się każdemu Panu na weselu. Zwłaszcza jeśli na garnitur włoży płaszcz.
+                        Z dodatków ślubnych modny ostatnio <span className="pink bold">koszyk ratunkowy</span> jest wynalazkiem naprawdę genialnym. Znajdują się w nim przybory kosmetyczne, nie powinno też zabraknąć igły i nitek w kilku podstawowych kolorach. Koniecznie powinna znaleźć się również biała nić – wierzcie, że przydaje się bardzo często. Przydatne okazują się też agrafki i plastry różnej wielkości. Powinna znaleźć się w nich również <span className="pink bold">rolka do ubrań</span>, dzięki której zarówno panie, jak i panowie, szybko pozbędą się niechcianych nitek i czy pyłków z ubrań. Jednak koszyk ratunkowy nie jedyne gadżet na ślub, który warto zapewnić gościom weselnym.
                     </>
             },
             {
                 text:
                     <>
-                        <span className="pink bold">KOCE</span><br />
-                    Coraz częściej przenosimy nasze śluby i wesela na świeże powietrze. Organizujemy dla gości strefy relaksu z wygodnymi kanapami, planujemy atrakcję, która wieczorem będzie wymagała wyjścia na zewnątrz lub po prostu wybieramy salę z pięknym ogrodem, który, aż kusi do spędzenia chwili czasu w nim. Zadbajmy o okrycie wierzchnie dla gości, o koce, pledy, narzuty. Chociaż sezon ślubny przypada na lato, nawet o tej porze roku wieczory bywają dość chłodne. Stąd – warto zadbać o komfort swój i gości. Gdy w południe jest prawie 30 stopni, nikt nie myśli o zabraniu czegoś cieplejszego, czym można okryć się w nocy. Tymczasem, pogoda potrafi zaskakiwać. Bycie na to przygotowanym to gwarancja udanej imprezy!
+                        Pary Młode powinny zadbać między innymi o <span className="pink bold">koce</span>. Coraz częściej przenosimy nasze śluby i wesela na świeże powietrze. Organizujemy dla gości strefy relaksu z wygodnymi kanapami, planujemy atrakcję, która wieczorem będzie wymagała wyjścia na zewnątrz lub po prostu wybieramy salę z pięknym ogrodem, który, aż kusi do spędzenia chwili czasu w nim. Organizując <CustomPostLink path="wesele-pod-namiotem" text="wesele pod namiotem" className="linkDark" />, pod chmurką czy w ogrodzie zadbajmy o okrycie wierzchnie dla gości, o koce, pledy, narzuty. Chociaż sezon ślubny przypada na lato, nawet o tej porze roku wieczory bywają dość chłodne. Stąd – warto zadbać o komfort swój i gości. Gdy w południe jest prawie 30 stopni, nikt nie myśli o zabraniu czegoś cieplejszego, czym można okryć się w nocy. Koce okażą się wtedy akcesoriami ślubnymi, które wręcz uratują Wasze przyjęcie weselne. Tymczasem, pogoda potrafi zaskakiwać. Bycie na to przygotowanym to gwarancja udanej imprezy!
                     </>,
                 pics: [
                     {
@@ -1268,6 +1269,20 @@ const posts = [
                     }
                 ]
             },
+            {
+                text:
+                    <>
+                        <span className="pink bold">Nakładki na obcasy</span> to coraz popularniejsze ślubne gadżety – tym bardziej, że wiele Par decyduje się na ślub w plenerze. Nawet jeśli nie planujesz wesela w ogrodzie ani strefy relaksu na zewnątrz, nakładki na obcasy mogą przydać się niejednej pani.
+                    </>
+            },
+            {
+                headerSmall: "Inne nietypowe akcesoria ślubne",
+                text:
+                    <>
+                        Do innych nietypowych ślubnych gadżetów zaliczyć można <span className="pink bold">wachlarze</span>, które doskonale sprawdzają się w upalne, duszne wieczory. Warto także zapewnić swoim gościom coś zimnego do picia pod kościołem lub USC – szczególnie, jeśli czeka wszystkich podróż na salę weselną. Takie dodatki na ślub znacznie zwiększą komfort Waszych gości, szczególnie tych starszych i najmłodszych.<br /> Nietypowe akcesoria ślubne mogą znacznie ułatwić życie Parze Młodej i gościom weselnym, dlatego warto je zapewnić na swoim przyjęciu weselnym i uroczystości zaślubin.
+
+                    </>
+            }
         ],
         extras:
             <>
@@ -2293,53 +2308,82 @@ const posts = [
 
     {
         path: 'o-poszukiwaniu-sukienki-idealnej',
-        title: "O poszukiwaniu sukienki idealnej",
-        seoText: "To nie tajemnica, że przyszła Panna Młoda swój ślubny strój planuje na długo wcześniej przed tym wielkim dniem. Większość nie potrzebuje do tego nawet pierścionka i idealnego partnera. Od najmłodszych lat w naszej głowie tworzą się wizje pięknej, białej sukni idealne podkreślającej naszą figurę i wprawiającej gości...",
+        altPath: 'suknia-slubna-jak-wybrac',
+        title: "Idealna suknia ślubna – jak ją znaleźć?",
+        seoTitle: 'Idealna suknia ślubna – jak ją znaleźć? – Czary Marry radzi',
+        seoText: "Jak przygotować się do kupna sukni ślubnej? O czym warto pamiętać, by wybrać swoją wymarzoną suknię ślubną i uniknąć niepotrzebnego stresu?",
         date: "16 mar 2017",
+        edited: "20 lut 2021",
         tag: "niezbędnik-przedslubny",
-        textShort: "To nie tajemnica, że przyszła Panna Młoda swój ślubny strój planuje na długo wcześniej przed tym wielkim dniem. Większość nie potrzebuje do tego nawet pierścionka i idealnego partnera. Od najmłodszych lat...",
+        textShort: "To nie tajemnica, że przyszła Panna Młoda o swojej sukni ślubnej marzy od wielu lat i wyobraża ją sobie na długo wcześniej przed tym wielkim dniem. Dla wielu kobiet idealna suknia ślubna jest...",
         mainPic: {
             src: require('./BlogPics/post3.jpg').default,
         },
         textMain:
             <>
-                To nie tajemnica, że przyszła Panna Młoda swój ślubny strój planuje na długo wcześniej przed tym wielkim dniem. Większość nie potrzebuje do tego nawet pierścionka i idealnego partnera. Od najmłodszych lat w naszej głowie tworzą się wizje pięknej, białej sukni idealne podkreślającej naszą figurę i wprawiającej gości weselnych w zachwyt. Nie wspominając już o Panu Młodym, który to nie powinien w ten dzień odwracać od nas wzroku.
+                To nie tajemnica, że przyszła Panna Młoda o swojej sukni ślubnej marzy od wielu lat i wyobraża ją sobie na długo wcześniej przed tym wielkim dniem. Dla wielu kobiet <span className="bold mint">idealna suknia ślubna</span> jest nawet ważniejsza od pięknego pierścionka zaręczynowego. Od najmłodszych lat w naszej głowie tworzą się wizje pięknej, białej sukni ślubnej, idealne podkreślającej naszą figurę i wprawiającej gości weselnych w zachwyt. Nie wspominając już o Panu Młodym, który to nie powinien w dniu ślubu odwracać od nas wzroku.
+                Co zrobić, aby dzień zaplanowany na znalezienie perfekcyjnej sukni ślubnej przebiegł idealnie i zakończył się kupieniem TEJ kreacji? Jak sprawić, że marzenia i wizje przemienią się w rzeczywistość?
             </>,
         content: [
             {
+                headerSmall: 'Idealna suknia ślubna – czyli jaka?',
+                headerClassName: 'mint',
                 text:
                     <>
-                        <p>Co zrobić, aby dzień zaplanowany na znalezienie perfekcyjnej sukienki ślubnej przebiegł idealnie i zakończył się kupieniem TEJ kreacji? Jak sprawić, że marzenia i wizje przemienią się w rzeczywistość?</p>
-                        <p className="bold"><span className="pink">Krok 1: </span>Przygotuj się.</p>
-                        <p>
-                            W Twojej głowie powstał projekt idealnej sukienki. Zamykasz oczy i widzisz każdy szczegół. Wiesz dokładnie jaki powinna mieć krój, kolor, długość. Pamiętaj jednak, że często ciężko słowami wytłumaczyć swoją wizję, dlatego koniecznie przed wizytą w salonie sukien ślubnych przygotuj zdjęcia paru sukienek, odpowiadających Twojej wizji. Tobie będzie łatwiej przekazać, co masz na myśli, a ekspedientce zrozumieć Twoją wizję. Współpraca pójdzie sprawnie, a ty nie zmarnujesz czasu na mierzenie kreacji nie w Twoim stylu.
-                        </p>
-                        <p className="bold"><span className="pink">Krok 2: </span>Pomyśl o budżecie.</p>
-                        <p>
-                            Zastanów się, ile możesz wydać na sukienkę ślubną, pamiętając również o budżecie całego wesela. Warto pamiętać, że sama suknia to nie wszystko. Do niej będziesz musiała dobrać buty, bieliznę, dodatki. Poinformuj o planowanej kwocie panią w salonie, w którym będziesz mierzyć suknie ślubne. Pozwoli to na uniknięcie zakochania się w kreacji, na którą nie będzie Cię stać.
-                        </p>
-                        <p className="bold"><span className="pink">Krok 3: </span>Nie zabieraj na zakupy wszystkich gości weselnych.</p>
-                        <p>
-                            Ile osób pomaga wybrać Ci sukienkę, tyle gustów i opinii. Nie zabieraj na poszukiwania wszystkich zainteresowanych, ale też nie idź sama. Najlepiej zabierz ze sobą jedną lub dwie przyjaciółki, które znają Twój gust, wiedzą, w czym czujesz się dobrze, jakie fasony nie pasują do Twojej figury. Będziesz mogła liczyć wtedy na szczerą opinię, ale też unikniesz ogromu "dobrych rad", którymi zasypałyby cię dodatkowe, przypadkowe osoby. Dobrze zabrać kogoś z kim na co dzień chodzisz na zakupy. Osoba, która doradza Ci podczas wyboru codziennych kreacji, sprawdzi się doskonale także tego dnia.
-                        </p>
-                        <p className="bold"><span className="pink">Krok 4: </span>Zadbaj o siebie.</p>
-                        <p>
-                            Zadbaj o odpowiednią bieliznę. Mocno zabudowany stanik i majtki z kokardkami, które będą odciskały się na sukience, nie zrobią najlepszego wrażenia. Nie zapomnij o makijażu i zadbanych włosach, jeżeli tego dnia nie będziesz się dobrze czuła sama ze sobą, żadna suknia ślubna Ci się nie spodoba. Salony ślubne zazwyczaj oferują buty do przymiarki, ale dla własnego komfortu możesz zabrać ze sobą swoje ulubione szpilki. Weź także szczotkę, gumkę do włosów i spinki. Być może będziesz chciała poeksperymentować z fryzurą, aby wybrać welon. Zabierz też ze sobą notes, w którym będziesz mogła zapisać interesujące Cię modele (niestety wiele salonów ślubnych zabrania robienia zdjęć, gdy jeszcze nie jesteś w pełni zdecydowana).
-                        </p>
-                        <p className="bold"><span className="pink">Krok 5: </span>Nie śpiesz się.</p>
-                        <p>
-                            Przygotuj się na poszukiwania i nie planuj, że idealną ślubną kreację znajdziesz w godzinę i miesiąc przed weselem. Przed wizytami w salonie dobrze jest zrobić krótki research i zorientować się, które salony proponują kreacje, fasony, które cię interesują. Zrób listę salonów i koniecznie umów się na wizytę. Warto poszukiwana zaplanować minimum 4 miesiące przed weselem. Twoja kreacja na pewno będzie wymagała krawieckich poprawek. Każdy salon to około godzinna wizyta. Jeśli masz parę miejsc, które chciałabyś odwiedzić, warto poszukiwania rozłożyć na parę dni. Pozwoli Ci to na rozsądne i komfortowe zakupy. Zaplanowanie wizyty w paru salonach w jednym dniu to męczarnia i żadna przyjemność.
-                        </p>
-                        <p>Inne sukienkowe inspiracje znajdziecie tutaj: <br />
-                            <CustomOuterLink to="https://www.pinterest.com/czarymarry/perfect-wedding-dresses/" text="Pinterest Czary Marry - perfect wedding dresses" className="bgColor" />
-                        </p>
+                        W Twojej głowie powstał projekt idealnej sukienki. Zamykasz oczy i widzisz każdy szczegół. Wiesz dokładnie jaki powinna mieć krój, kolor, długość. Pamiętaj jednak, że często ciężko słowami wytłumaczyć swoją wizję, dlatego koniecznie przed wizytą w salonie sukien ślubnych przygotuj zdjęcia paru sukienek, odpowiadających Twojej wizji. Tobie będzie łatwiej przekazać, co masz na myśli, a ekspedientce zrozumieć Twoją wizję. Współpraca pójdzie sprawnie, a Ty nie zmarnujesz czasu na mierzenie kreacji nie w Twoim stylu. Nie muszą to być oczywiście zdjęcia dokładnie takiej sukni ślubnej, o jakiej marzysz – ważne, by zdjęcia pozwalały zrozumieć, czego od sukni ślubnej oczekujesz. Nie dla każdego pojęcie „suknia ślubna boho” oznacza to samo, dlatego pokaż kilka modeli, które Ci się podobają.
                     </>
+            },
+            {
+                headerSmall: 'Zakup sukni ślubnej a budżet na ślub',
+                headerClassName: 'mint',
+                text:
+                    <>
+                        Zastanów się, ile możesz wydać na suknię ślubną, pamiętając również o budżecie całego wesela. Warto pamiętać, że sama suknia to nie wszystko. Do niej będziesz musiała dobrać buty, bieliznę, dodatki i <CustomPostLink path="akcesoria-slubne-gadzety" text="akcesoria ślubne" className="linkDark" />. Poinformuj o planowanej kwocie panią w salonie, w którym będziesz mierzyć suknie ślubne. Pozwoli to na uniknięcie zakochania się w kreacji, na którą nie będzie Cię stać. Wiemy, że o swojej sukni ślubnej marzyłaś od lat, dlatego tym bardziej radzimy, by do jej kupna dobrze się przygotować.
+                    </>
+            },
+            {
+                headerSmall: 'Z kim udać się na wyprawę po suknię ślubną?',
+                headerClassName: 'mint',
+                text:
+                    <>
+                        Ile osób pomaga wybrać Ci sukienkę, tyle gustów i opinii. Nie zabieraj na poszukiwania wszystkich zainteresowanych, ale też nie idź sama. Najlepiej zabierz ze sobą jedną lub dwie przyjaciółki, które znają Twój gust, wiedzą, w czym czujesz się dobrze, jakie fasony nie pasują do Twojej figury. Będziesz mogła liczyć wtedy na szczerą opinię, ale też unikniesz ogromu „dobrych rad”, którymi zasypałyby cię dodatkowe, przypadkowe osoby. Dobrze zabrać kogoś z kim na co dzień chodzisz na zakupy. Osoba, która doradza Ci podczas wyboru codziennych kreacji, sprawdzi się doskonale także przy wyborze sukni ślubnej.
+                    </>
+            },
+            {
+                headerSmall: 'Suknie ślubne a moda – na co zwrócić uwagę, wybierając suknię ślubną?',
+                headerClassName: 'mint',
+                text:
+                    <>
+                        W naszych wpisach często podkreślamy, by w przygotowaniach do ślubu nie kierować się wyłącznie modą i <CustomPostLink path="trendy-slubne" text="trendami ślubnymi" className="linkDark" />. To, co modne, niekoniecznie sprawdzi się u nas. Dokładnie tak samo jest z suknią ślubną. Modne fasony nie leżą perfekcyjnie na każdym typie figury – weź to pod uwagę, wybierając swoją ślubną suknię. Dobierz ją, uwzględniając swoje atuty i mankamenty, a będziesz czuła się w niej doskonale! Pomocne będzie wsparcie osoby bliskiej, która umie doradzić, w czym Ci jest lepiej, a w czym gorzej.
+                        <br />
+                        Warto także przymierzyć różne modele sukni ślubnych. Naprawdę! Czasami na wieszaku suknia ślubna nam się nie podoba, a na nas samych dużo zyskuje. Z pewnością przekonałaś się o tym na codziennych zakupach odzieżowych, podobnie jest z sukniami ślubnymi. Takie przymiarki pomogą Ci dostrzec także inne zalety i wady poszczególnych modeli. Być może rozglądasz się za suknią ślubną princeską, ale po założeniu jej okaże się, że zwyczajnie jest Ci w niej niewygodnie. Podobne wrażenie możesz mieć w przypadku sukni ślubnej z kołem.
+                    </>
+            },
+            {
+                headerSmall: 'Suknia ślubna to nie wszystko!',
+                headerClassName: 'mint',
+                text:
+                    <>
+                        Chociaż to ona wydaje się być najważniejszym elementem stroju Panny Młodej, nie możesz zlekceważyć roli, jaką w Twoim wyglądzie odgrywają inne elementy – między innymi <span className="bold mint">bielizna</span>. Dobrze dobrana bielizna zapewni Ci nie tylko komfort, ale poprawi także proporcje sylwetki. Mocno zabudowany stanik i majtki z kokardkami, które będą, odciskały się na sukience ślubnej, nie zrobią najlepszego wrażenia. Nie tylko w dniu ślubu, ale również na przymiarkach.
+                        <br />
+                        Nie zapomnij także o umiejętnie wykonanym makijażu i zadbanych włosach. Jeżeli tego dnia nie będziesz się dobrze czuła sama ze sobą, żadna suknia ślubna Ci się nie spodoba. Salony ślubne zazwyczaj oferują buty do przymiarki, ale dla własnego komfortu możesz zabrać ze sobą swoje ulubione szpilki. Weź także szczotkę, gumkę do włosów i spinki. Być może będziesz chciała poeksperymentować z fryzurą, aby wybrać welon. Zabierz też ze sobą notes, w którym będziesz mogła zapisać interesujące Cię modele sukni ślubnych (niestety wiele salonów ślubnych zabrania robienia zdjęć, gdy jeszcze nie jesteś w pełni zdecydowana).
+                    </>
+            },
+            {
+                headerSmall: 'Na wybór sukni ślubnej zarezerwuj co najmniej kilka godzin',
+                headerClassName: 'mint',
+                text:
+                    <>
+                        Przygotuj się na poszukiwania i nie planuj, że idealną ślubną suknię znajdziesz w godzinę i miesiąc przed weselem. Przed wizytami w salonie dobrze jest zrobić krótki research i zorientować się, które salony proponują kreacje, fasony, które cię interesują. Zrób listę salonów i koniecznie umów się na wizytę. Warto poszukiwana zaplanować minimum 4 miesiące przed weselem. Twoja kreacja na pewno będzie wymagała krawieckich poprawek. Każdy salon to około godzinna wizyta. Jeśli masz parę miejsc, które chciałabyś odwiedzić, warto poszukiwania rozłożyć na parę dni. Pozwoli Ci to na rozsądne i komfortowe zakupy. Zaplanowanie wizyty w paru salonach w jednym dniu to męczarnia i żadna przyjemność.
+                    </>
+            },
+            {
+                text: 'Wybór i kupno sukni ślubnej może być prawdziwą przyjemnością. Pod warunkiem, że nie będziesz czuć presji czasu, że pozostaniesz otwarta na różne propozycje i że do zakupów odpowiednio się przygotujesz. Powodzenia!'
             }
         ],
-        textAuthor: "Ola",
         extras:
             <>
-                <span className="d-block text-right"><CustomCategoryLink path="niezbędnik-przedslubny" text="Niezbędnik przedŚLUBNY" className="bgColorPink" /></span>
+                <span className="d-block text-right"><CustomCategoryLink path="niezbędnik-przedslubny" text="Niezbędnik przedŚLUBNY" className="bgColorMint" /></span>
             </>
     },
 

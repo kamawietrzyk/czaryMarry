@@ -10,7 +10,7 @@ export default class ScrollToTopOnMount extends Component {
             } else {
                 window.scrollTo({ top: 780, behavior: 'smooth' });
             }
-        }, 550);
+        }, 1000);
     }
 
     render() {
