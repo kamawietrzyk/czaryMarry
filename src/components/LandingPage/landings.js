@@ -178,7 +178,7 @@ const landings = [
                 require('../Home/konsultantki-slubne-czary-marry-home.jpg').default,
                 require('../AboutUs/kasia.jpg').default,
                 require('../AboutUs/ola.jpg').default,
-                require('../Home/instaPic3.jpg').default,
+                require('../Home/instaPic3-czarymarry-wedding-planner.jpg').default,
             ],
         numsTitle: 'Organizacja ślubów Poznań - zakres obowiązków konsultanta ślubnego.',
         numsContent: [
@@ -254,7 +254,7 @@ const landings = [
                 require('../Home/konsultantki-slubne-czary-marry-home.jpg').default,
                 require('../AboutUs/kasia.jpg').default,
                 require('../AboutUs/ola.jpg').default,
-                require('../Home/instaPic3.jpg').default,
+                require('../Home/instaPic3-czarymarry-wedding-planner.jpg').default,
             ],
         numsTitle: 'Ogranizacja Ślubów Wrocław - zakres prac konsultanta ślubnego',
         numsText: 'Zanim ostatecznie zdecydujecie się na współpracę z wedding planner’em warto poznać zakres usług Czary Marry - konsultantek ślubnych z Wrocławia. Uważamy, że najlepsza formą współpracy jest kompleksowa pomoc w organizacji ślubów, ponieważ przynosi ona najlepsze efekty. Poniżej przedstawiamy Wam zakres naszych usług:',

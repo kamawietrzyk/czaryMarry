@@ -8,9 +8,9 @@ import picThree from './three.png';
 import picFour from './four.png';
 import Carousel from '../Carousel';
 import ArrowToTop from '../ArrowToTop';
-import instaPic1 from './instaPic1.jpg';
-import instaPic2 from './instaPic2.jpg';
-import instaPic3 from './instaPic3.jpg';
+import instaPic1 from './instaPic1-czarymarry-organizacja-wesel.jpg';
+import instaPic2 from './instaPic2-czarymarry-agencja-slubna.jpg';
+import instaPic3 from './instaPic3-czarymarry-wedding-planner.jpg';
 import konsultantki from './konsultantki-slubne-czary-marry-home.jpg';
 import ScrollToTopOnMount from '../ScrollToTopOnMount';
 import logo from '../../utils/czarymarry_logo.png'
