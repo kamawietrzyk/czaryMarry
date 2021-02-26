@@ -10,7 +10,7 @@ const SeoContent = ({ title, description, url, image }) => {
             {title && <title>{title}</title>}
             {title && <meta property="og:title" content={title} />}
 
-            {/* {truncatedDescription && <meta name="description" content={truncatedDescription} />} */}
+            {truncatedDescription && <meta name="description" content={truncatedDescription} />}
             {truncatedDescription && <meta name="og:description" content={truncatedDescription} />}
 
             {url && <meta property="og:url" content={url} />}
