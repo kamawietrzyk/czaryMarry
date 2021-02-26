@@ -7,7 +7,7 @@ import {BrowserRouter as Router} from 'react-router-dom';
 import TagManager from 'react-gtm-module';
 
 TagManager.initialize({
-    gtmId: 'AW-750267016'
+    gtmId: 'GTM-5VLHJJS'
 });
 
 ReactDOM.render(
