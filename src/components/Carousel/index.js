@@ -2,10 +2,10 @@ import React from 'react';
 import './styles.scss';
 import Slider from 'react-slick';
 import JuliaMarcin from './JuliaMarcin.jpg';
-import NelliPiotr from './NelliPiotr.jpg';
+import NelliPiotr from './NelliPiotr-czarymarry-organizacja-slubow.jpg';
 import PaulinaKrzysiek from './PaulinaKrzysiek.jpg';
 import KasiaMarcin from './KasiaMarcin.jpg';
-import LiliMarcin from './LiliMarcin.jpg';
+import LiliMarcin from './LiliMarcin-czarymarry-koordynacja-slubow.jpg';
 
 const Carousel = () => {
     const settings = {

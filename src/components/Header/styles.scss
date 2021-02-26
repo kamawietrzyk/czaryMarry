@@ -1,7 +1,7 @@
 @import '../../utils/media.scss';
 
 .Header {
-    background: url(./para-mloda.jpg) center center no-repeat;
+    background: url(./para-mloda-czarymarry-organizacja-slubow-sesji.jpg) center center no-repeat;
     background-size: cover;
     object-fit: cover;
     width: 100%;
@@ -11,9 +11,11 @@
     @media (min-width: $mobileHorizontal) {
         height: 32rem;
     }
+
     @media (min-width: $tablet) {
         margin-top: 0;
     }
+
     @media (min-width: $laptop) {
         height: 48rem;
     }
