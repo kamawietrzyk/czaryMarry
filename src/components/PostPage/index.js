@@ -64,7 +64,7 @@ const PostPage = () => {
                             <p className="date">{date}</p>
                         </div>
                     </div>
-                    <h2 className="post-title">{title}</h2>
+                    <h1 className="post-title">{title}</h1>
                     {edited && <p className="date">Aktualizacja: {edited}</p>}
                     <p className="mt-5">
                         {textMain}
