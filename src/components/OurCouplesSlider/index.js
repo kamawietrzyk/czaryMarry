@@ -8,7 +8,6 @@ import GridTwoVertHoriz from './GridTwoVertHoriz'
 import SingleVert from './SingleVert'
 import GridThreeHoriz from './GridThreeHoriz'
 import GridVertHoriz from './GridVertHoriz'
-import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 export default class CouplesSlider extends Component {
 
@@ -70,7 +69,7 @@ export default class CouplesSlider extends Component {
                         {mobilePics.filter(pic => { return pic !== undefined }).map((pic, index) => (
                             <div key={index}>
                                 <div className="image">
-                                    <LazyLoadImage src={pic} alt={pic} placeholderSrc={pic} />
+                                    <img src={pic} alt={pic} placeholderSrc={pic} />
                                 </div>
                             </div>
                         ))}
