@@ -22,6 +22,7 @@
             text-align: end;
             padding: 1rem;
             border-radius: 0;
+            margin: 0;
 
             &:active,
             &:hover {
@@ -46,6 +47,7 @@
             padding: .5rem;
             white-space: normal;
             color: $textGrey;
+
             &:hover {
                 background-color: $mint;
                 color: $textGrey;

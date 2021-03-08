@@ -1823,7 +1823,7 @@ const posts = [
         title: 'Jak zaoszczędzić na weselu? Z czego można zrezygnować, by zmniejszyć koszty wesela?',
         date: '5 lip 2017',
         edited: '22 gru 2020',
-        textShort: 'Organizacja ślubu i wesela to nie tylko wielkie wyzwanie i dużo pracy, ale i spory wydatek. Co zrobić, gdy budżet się nie dopina?...',
+        textShort: 'Organizacja ślubu i wesela to nie tylko wielkie wyzwanie i dużo pracy, ale i...',
         mainPic: {
             src: require('./BlogPics/Post12/post12.jpg').default
         },
@@ -1913,7 +1913,7 @@ const posts = [
         title: 'Wybór wykonawców ślubnych – na co zwrócić uwagę przy wyborze usługodawców ślubnych?',
         date: '9 cze 2017',
         edited: '8 mar 2021',
-        textShort: 'Rynek ślubny rozwija się w niesamowitym tempie. Agencje ślubne, fotografowie, kamerzyści oraz zespoły muzyczne – każdego roku branża ślubna się rozrasta. Dziś powiemy Wam jak...',
+        textShort: 'Rynek ślubny rozwija się w niesamowitym tempie. Agencje ślubne, fotografowie, kamerzyści oraz zespoły muzyczne – każdego roku...',
         mainPic: {
             src: require('./BlogPics/Post11/post11.jpg').default
         },
