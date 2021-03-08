@@ -998,7 +998,7 @@ const posts = [
                         <p>Przede wszystkim na jakości — jedzenia, obsługi, wystroju. Jaki to ma realny wpływ na wygląd twojego Wesela? Zwykle możesz się spodziewać mało wyszukanego jedzenia, które nie cieszy ani oka, ani żołądka. Stół zapewne będzie się uginał od ilości potraw, ale przecież nie chodzi o ilość, a o jakość. Czy nie fajniej byłoby posmakować regionalnych produktów, sezonowych warzyw? A może wolicie, gdy szef kuchni przygotuje coś, co zaskoczy zarówno Was, jak i Waszych gości? Kto świadomie się odżywia i robi zakupy, wie, że dobre jedzenie nie jest tanie, a w fast foodach nie pracują master chefowie tylko studenci.</p>
                         <p>Nikt nie lubi wolnych i wiecznie niezadowolonych kelnerów, tak samo, jak nikt nie lubi, kiedy się go oblewa rosołem podczas serwisu obiadu. Jeśli wybieracie salę, w której cena za talerzyk jest bardzo niska, musicie mieć świadomość, że prawdopodobnie właściciele nie płacą zbyt wiele obsłudze. Gdzieś te oszczędności muszą znaleźć. Nie stać ich na super kucharza i wyszkolonych kelnerów. Biznes zwyczajnie by się nie spinał. Oczywiście ogromne znaczenie ma również sam manager lub właściciel. Z doświadczenia wiem, że Pary Młode oczekują od nich otwartości i elastyczności. Czy wierzycie w to, że właściciel sali, który musi zorganizować dużo więcej wesel w roku, żeby zarobić, ma czas na śledzenie trendów, na poszerzanie horyzontów? Raczej nie. Jego odpowiedź na większość Waszych pytań będzie brzmiała: Nieee, robimy tak od 20 lat i się sprawdza… Istnieje też szansa, że na pierwszym spotkaniu zgodzą się na wszystko, a potem zapomną. Często tworzą umowy sami lub ściągają je z Internetu w przeciwieństwie do droższych miejsc, które współpracują z prawnikiem. Nietrudno się domyślić, że taka umowa jest mało konkretna i nie chroni Was w żadnym stopniu. Pamiętaj również, że zakup działki oraz budowa odpowiedniego obiektu każdemu właścicielowi sali weselnej musi się zwrócić – im piękniejsze okolice, im ciekawsza architektura, tym atmosfera na weselu lepsza.</p>
                         <p>Wysoka cena za talerzyk nie jest gwarancją udanego przyjęcia weselnego, zdecydowanie jednak zwiększa szansę na udane wesele. Nie bez przyczyny terminy w dobrych salach weselnych są tak odległe – za jakość trzeba więcej zapłacić, a najlepszą salę weselną w okolicy trochę poczekać.</p>
-                        <span className="bgGreyLight">No to teraz inni wykonawcy...</span>
+                        <span className="bold grey">No to teraz inni wykonawcy...</span>
                     </>,
             },
             {
@@ -1013,7 +1013,7 @@ const posts = [
             {
                 text:
                     <>
-                        Tani fotograf lub filmowiec może być teoretycznie tak samo uzdolniony, jak drogi, może mieć równie duży zapał do pracy… ale czy dysponuje tym samym sprzętem, oprogramowaniem do obróbki materiału, czy ma nieograniczony dostęp do muzyki, doskonali swoje umiejętności na dość drogich szkoleniach dla profesjonalistów, czy inwestuje w bezpieczeństwo? Również i on musi zrealizować więcej zleceń, a czas oddania Waszego materiału się oddala i oddala. <span className="bgGreyLight">Dobry fotograf ślubny</span> ma odpowiedni warsztat i sprzęt, by oddać Wam piękne zdjęcia ślubne. Ma też wystarczająco czasu, by poświecić go dużo na każde zlecenie. Rekomendowani przez nas fotografowie ślubni oraz kamerzyści na wesele będą mieli prawdopodobnie wyższe stawki niż średnia, ale macie gwarancje że to będzie dobry fotograf na wesele i profesjonalista w każdym calu.
+                        Tani fotograf lub filmowiec może być teoretycznie tak samo uzdolniony, jak drogi, może mieć równie duży zapał do pracy… ale czy dysponuje tym samym sprzętem, oprogramowaniem do obróbki materiału, czy ma nieograniczony dostęp do muzyki, doskonali swoje umiejętności na dość drogich szkoleniach dla profesjonalistów, czy inwestuje w bezpieczeństwo? Również i on musi zrealizować więcej zleceń, a czas oddania Waszego materiału się oddala i oddala. <span className="bold grey">Dobry fotograf ślubny</span> ma odpowiedni warsztat i sprzęt, by oddać Wam piękne zdjęcia ślubne. Ma też wystarczająco czasu, by poświecić go dużo na każde zlecenie. Rekomendowani przez nas fotografowie ślubni oraz kamerzyści na wesele będą mieli prawdopodobnie wyższe stawki niż średnia, ale macie gwarancje że to będzie dobry fotograf na wesele i profesjonalista w każdym calu.
                     </>
             },
             {
@@ -1155,10 +1155,13 @@ const posts = [
             </>
     },
     {
-        path: 'to-nie-ma-znaczenia',
-        seoText: 'Planowanie ślubu i wesela jest ekscytujące. Możesz przecież jasno określić, jak ma wyglądać Twój wielki dzień! Co więcej, dbasz o najdrobniejsze detale, by był dokładnie taki, jak sobie wymarzyłaś! To nic dziwnego, że każda Panna Młoda nie może się doczekać TEGO WIELKIEGO DNIA. Ale, ale... planowanie ślubu to nie tylk...',
-        title: 'To nie ma znaczenia!',
+        altPath: 'to-nie-ma-znaczenia',
+        path: 'stres-przed-slubem',
+        seoTitle: 'Jak pokonać stres przed ślubem? – Czary Marry radzi',
+        seoText: 'Do ślubu coraz bliżej, a Ty zaczynasz się stresować? Dowiedz się, jak pokonać stres przed ślubem – podsuwamy pomysły na opanowanie przedślubnego stresu.',
+        title: 'Jak pokonać stres przed ślubem?',
         date: '3 mar 2020',
+        edited: '8 mar 2021',
         textShort: 'Planowanie ślubu i wesela jest ekscytujące. Możesz przecież jasno określić, jak ma wyglądać Twój wielki dzień! Co więcej, dbasz o najdrobniejsze detale, by był dokładnie taki, jak...',
         mainPic: {
             src: require('./BlogPics/Post20/post20.jpg').default
@@ -1169,11 +1172,13 @@ const posts = [
         },
         content: [
             {
-                text: 'Ale, ale... planowanie ślubu to nie tylko czas ekscytacji i radości, ale też stres i obawa, czy wszystko będzie tak idealne, jak sobie wymarzyłaś. To naturalne, że martwisz się, czy Twoi bliscy będą mogli być w tym dniu z Wami albo, czy każdy wykonawca dotrze na czas. Są jednak sprawy, którymi nie powinnaś się zadręczać, bo ani nie masz na nie wpływu, a też z perspektywy doświadczonej wedding plannerki zdradzę Ci, że nie mają one znaczenia.'
+                text:
+                    <>Ale, ale... planowanie ślubu to nie tylko czas ekscytacji i radości, ale też <span className="bold mint">stres przed ślubem</span> i obawa, czy wszystko będzie tak idealne, jak sobie wymarzyłaś. To naturalne, że martwisz się, czy Twoi bliscy będą mogli być w tym dniu z Wami albo czy każdy wykonawca dotrze na czas. Są jednak sprawy, którymi nie powinnaś się zadręczać, bo ani nie masz na nie wpływu, a też z perspektywy doświadczonych <Link to={URLS.HOME} className="linkMint">wedding plannerek</Link> zdradzimy Ci, że nie mają one znaczenia. Dowiedz się, jak pokonać stres przed ślubem!
+                    </>
             },
             {
-                headerSmall: <span className="mint">Czy perfekcyjnie zatańczysz pierwszy taniec?</span>,
-                text: 'O ile nie potkniesz i nie przewrócisz się na środku sali, to uwierz mi – wszystkie kroki nie muszą być perfekcyjne. Jasne, ciekawy układ i płynność ruchów mają znaczenie – dlatego pomysł kursów, czy indywidualnych lekcji jest jak najbardziej trafiony. Jednak jeśli coś pójdzie niedokładnie tak, jak miało być w scenariuszu, nie oznacza to końca świata. Twoi goście, o ile nie są zawodowymi tancerzami, mogą nawet niczego nie zauważyć!',
+                headerSmall: <span className="mint">Pierwszy taniec a stres przed ślubem – jak nad nim zapanować?</span>,
+                text: 'O ile nie potkniesz i nie przewrócisz się na środku sali, to uwierz mi – wszystkie kroki nie muszą być perfekcyjne. Jasne, ciekawy układ i płynność ruchów mają znaczenie – dlatego pomysł kursów, czy indywidualnych lekcji jest jak najbardziej trafiony. Jednak jeśli coś pójdzie niedokładnie tak, jak miało być w scenariuszu, nie oznacza to końca świata. Twoi goście, o ile nie są zawodowymi tancerzami, mogą nawet niczego nie zauważyć! Stres przed ślubem i pierwszym tańcem towarzyszy chyba każdej Młodej Parze – pamiętaj jednak, że ćwiczyliście taniec i poradzicie sobie doskonale, a drobne pomyłki nie mają żadnego znaczenia.',
                 pics: [
                     {
                         src: require('./BlogPics/Post20/post20a.jpg').default
@@ -1181,8 +1186,10 @@ const posts = [
                 ]
             },
             {
-                headerSmall: <span className="mint">Czy wesele przebiegnie zgodnie z harmonogramem?</span>,
-                text: 'Hej, to wesele, a nie konferencja naukowa! Harmonogram, czy plan zabawy jest oczywiście potrzebny i mile widziany, jednak daruj sobie spełnianie kolejnych podpunktów z zegarmistrzowską precyzją! Jeśli goście świetnie się bawią, nie przerywaj im, by zjedli piąty gorący posiłek. Jeśli podasz go pół godziny później – naprawdę nic się nie stanie! Doświadczony DJ, wodzirej lub zespół w połączeniu z ogarniętym menedżerem sali, będą umieli odpowiednio dostosować Twój harmonogram do faktycznego przebiegu wesela.',
+                headerSmall: <span className="mint">Stres przed ślubem – czy wesele przebiegnie zgodnie z harmonogramem?</span>,
+                text:
+                    <>Hej, to wesele, a nie konferencja naukowa! Harmonogram, czy plan zabawy jest oczywiście potrzebny i mile widziany, jednak daruj sobie spełnianie kolejnych podpunktów z zegarmistrzowską precyzją! Jeśli goście świetnie się bawią, nie przerywaj im, by zjedli piąty gorący posiłek. Jeśli podasz go pół godziny później – naprawdę nic się nie stanie! <CustomPostLink text="Doświadczony DJ, wodzirej lub zespół" path="polecany-fotograf-kamerzysta-sala-dj-zespol-na-wesele" className="linkMint" />, w połączeniu z ogarniętym menedżerem sali, będą umieli odpowiednio dostosować Twój harmonogram do faktycznego przebiegu wesela. Z całą pewnością stres przed ślubem pomoże Ci opanować właśnie doświadczony wodzirej, który będzie Waszą prawą ręką. Aha – jeszcze jedno! Nie martw się, że zabraknie jedzenia albo alkoholu. Wystarczy. Jeszcze sporo Ci zostanie. Uwierz mi, nie słyszałam nigdy o weselu, na którym zabrakło jedzenia i alkoholu.
+                    </>,
                 pics: [
                     {
                         src: require('./BlogPics/Post20/post20b.jpg').default
@@ -1190,17 +1197,10 @@ const posts = [
                 ]
             },
             {
-                headerSmall: <span className="mint">Czy wystarczy jedzenia i alkoholu?</span>,
-                text: 'Wystarczy. Jeszcze sporo Ci zostanie. Uwierz mi, nie słyszałam nigdy o weselu, na którym zabrakło jedzenia i alkoholu.',
-                pics: [
-                    {
-                        src: require('./BlogPics/Post20/post20c.jpg').default
-                    }
-                ]
-            },
-            {
-                headerSmall: <span className="mint">Ile schudniesz do dnia ślubu?</span>,
-                text: 'Dieta, ćwiczenia i Bóg wie co jeszcze. Wszystko po to, by do godziny zero zgubić te cholerne 5 kilogramów. Uwierz mi – koniec końców nikt nie zwróci na to uwagi. Nie jestem fanką drakońskich diet i odchudzania się „na okazję”. Na zdjęciach ślubnych pięknie wyjdziesz niezależnie od tego, czy uda Ci się osiągnąć określoną wagę, czy nie. Planowanie Twojego ślubu ma być przyjemnością, a nie udręką!',
+                headerSmall: <span className="mint">Ile schudniesz do ślubu? Jak opanować stres przed ślubem i ostatnią przymiarką sukni?</span>,
+                text:
+                    <>Dieta, ćwiczenia i Bóg wie co jeszcze. Wszystko po to, by do godziny zero zgubić te cholerne 5 kilogramów. Uwierz mi – koniec końców nikt nie zwróci na to uwagi. Nie jesteśmy fankami drakońskich diet i odchudzania się „na okazję”. Na zdjęciach w <CustomPostLink text="sukni ślubnej" path="suknia-slubna-jak-wybrac" className="linkMint" /> pięknie wyjdziesz niezależnie od tego, czy uda Ci się osiągnąć określoną wagę, czy nie. Planowanie Twojego ślubu ma być przyjemnością, a nie udręką!
+                    Zbilansowana dieta i ulubionego ćwiczenia czy jogging sprawią, że będziesz czuła się lepiej. Będziesz mieć więcej energii, Twoje włosy i skóra nabiorą blasku, a efektem ubocznym będzie lepsza kondycja, która z pewnością przyda się podczas zabawy na weselu. Jednak pod żadnym pozorem nie katuj się dietami i treningami, a zdrowy styl życia potraktuj jako jeden ze skutecznych sposobów na opanowanie stresu przed ślubem.</>,
                 pics: [
                     {
                         src: require('./BlogPics/Post20/post20d.jpg').default
@@ -1208,13 +1208,31 @@ const posts = [
                 ]
             },
             {
-                headerSmall: <span className="mint">Czy będzie padał deszcz?</span>,
-                text: 'Na pogodę nie masz wpływu – pogódź się z tym i miej plan B – na wypadek deszczu. Wierz mi: nawet największa ulewa nie jest w stanie zrujnować Twojego najpiękniejszego w życiu dnia! Co nie znaczy, żebyś podchodziła do tematu lekceważąco – „jakoś to będzie”. Będzie – jeśli się przygotujesz!',
+                headerSmall: <span className="mint">Czy będzie ładna pogoda, a może będzie padał deszcz? Stres przed ślubem a dobre przygotowanie</span>,
+                text:
+                    <>Na pogodę nie masz wpływu – pogódź się z tym i miej plan B – na wypadek deszczu. Wierz mi: nawet największa ulewa nie jest w stanie zrujnować Twojego najpiękniejszego w życiu dnia! Co nie znaczy, żebyś podchodziła do tematu lekceważąco – „jakoś to będzie”. Będzie – jeśli się przygotujesz!<br />
+                    Przygotuj więc przydatne <CustomPostLink text="akcesoria ślubne" path="akcesoria-slubne-gadzety" className="linkMint" /> w tym dobrej jakości parasol, który nie będzie uginał się pod każdym podmuchem wiatru. Jeśli faktycznie spadnie deszcz – i tak nie zmokniesz. Nie ma się czym przejmować!</>,
                 pics: [
                     {
                         src: require('./BlogPics/Post20/post20e.jpg').default
                     }
                 ]
+            },
+            {
+                headerSmall: <span className="mint">Jak poradzić sobie ze stresem przed ślubem? Kilka praktycznych wskazówek</span>,
+                text: 'Jesteśmy zwolenniczkami dobrego przygotowania według wcześniej zaplanowanego harmonogramu ślubnego. Parom Młodym radzimy, by niczego nie zostawiać na ostatnią chwilę, a czasochłonne działania rozłożyć w czasie. Dlatego nie zostawiaj rozdawania zaproszeń na ostatnią chwilę, ani żadnych innych przygotowań – będą szły sprawniej i będą Cię kosztowały o wiele mniej nerwów.'
+            },
+            {
+                text:
+                    'Wspomniałyśmy przed chwilą, byś nie katowała się ani dietami, ani katorżniczymi treningami. Jednak ulubiona aktywność fizyczna jest jak najbardziej mile widziana. Wysiłek fizyczny pobudza endorfiny, czyli hormony szczęścia i doskonale pomaga zredukować stres. Nie lubisz chodzić na siłownię? Ale może lubisz pływać lub biegać? A może relaksuje Cię jazda na rowerze? Nawet jeśli nie lubisz ćwiczyć, zacznij chodzić na spacery. Jeśli to możliwe, staraj się wybierać aktywność na świeżym powietrzu.'
+            },
+            {
+                text:
+                    'W redukcji stresu pomaga także odpowiednia ilość snu. Staraj się wysypiać, a godzinę przed zaśnięciem wyłącz wszystkie ekrany – telewizor, smartfon czy tablet. Emisja światła wpływa na jakość snu, pogarszając ją. Staraj się także ograniczać kawę, pijąc do dwóch kubków dziennie. W dniu ślubu wypij kawę dopiero po zjedzeniu śniadania, ponieważ kofeina może podrażnić żołądek.'
+            },
+            {
+                text:
+                    'Boisz się że dopadnie Cię stres w dniu ślubu? Zadbaj o relaks – znajdź czas na ulubione hobby, pojedź do SPA albo zafunduj sobie profesjonalny masaż relaksacyjny. W opanowaniu stresu przed ślubem pomoże Ci miło spędzony czas z przyjaciółkami, które pomogą Ci oderwać się na chwilę od obowiązków związanych z przygotowaniem do ślubu.'
             }
         ]
     },
@@ -1811,7 +1829,7 @@ const posts = [
         },
         textMain:
             <>
-                Organizacja ślubu i wesela to nie tylko wielkie wyzwanie i dużo pracy, ale i spory wydatek. Co zrobić, gdy budżet się nie dopina? Od czego najlepiej zacząć cięcie kosztów? Dowiedz się, <span className="bgMintLight">jak zaoszczędzić na weselu!</span>
+                Organizacja ślubu i wesela to nie tylko wielkie wyzwanie i dużo pracy, ale i spory wydatek. Co zrobić, gdy budżet się nie dopina? Od czego najlepiej zacząć cięcie kosztów? Dowiedz się, jak zaoszczędzić na weselu!
             </>,
         content: [
             {
@@ -1887,23 +1905,26 @@ const posts = [
             </>
     },
     {
-        path: '7-grzechów-ślubnych-na-co-uważać-przy-wyborze-wykonawców',
-        seoText: 'Rynek ślubny rozwija się w niesamowitym tempie. Agencje ślubne, fotografowie, kamerzyści oraz zespoły muzyczne rosną jak grzyby po deszczu. Dziś powiem Wam jak wybrać solidnego wykonawcę spośród ofert znajdujących się na rynku. Obnażę słabostki i grzeszki „kolegów” z branży. Mam nadzieję, że poniższy artykuł pomoże...',
+        altPath: '7-grzechów-ślubnych-na-co-uważać-przy-wyborze-wykonawców',
+        path: 'na-co-zwrocic-uwage-przy-wyborze-slubnych-wykonawcow',
+        seoTitle: 'Wybór wykonawców ślubnych – na co zwrócić uwagę? – Czary Marry',
+        seoText: 'Na co zwrócić uwagę przy wyborze fotografa, zespołu muzycznego na ślub czy sali weselnej? Podpowiadamy, jakie pułapki czekają na Pary Młode!',
         tag: 'niezbędnik-przedslubny',
-        title: '7 GRZECHÓW ŚLUBNYCH. Na co uważać przy wyborze wykonawców.',
+        title: 'Wybór wykonawców ślubnych – na co zwrócić uwagę przy wyborze usługodawców ślubnych?',
         date: '9 cze 2017',
-        textShort: 'Rynek ślubny rozwija się w niesamowitym tempie. Agencje ślubne, fotografowie, kamerzyści oraz zespoły muzyczne rosną jak grzyby po deszczu. Dziś powiem Wam jak wybrać...',
+        edited: '8 mar 2021',
+        textShort: 'Rynek ślubny rozwija się w niesamowitym tempie. Agencje ślubne, fotografowie, kamerzyści oraz zespoły muzyczne – każdego roku branża ślubna się rozrasta. Dziś powiemy Wam jak...',
         mainPic: {
             src: require('./BlogPics/Post11/post11.jpg').default
         },
-        textMain: 'Rynek ślubny rozwija się w niesamowitym tempie. Agencje ślubne, fotografowie, kamerzyści oraz zespoły muzyczne rosną jak grzyby po deszczu. Dziś powiem Wam jak wybrać solidnego wykonawcę spośród ofert znajdujących się na rynku. Obnażę słabostki i grzeszki "kolegów" z branży. Mam nadzieję, że poniższy artykuł pomoże Wam oddzielić ziarno od plew i dokonać samych trafnych wyborów.',
+        textMain: 'Rynek ślubny rozwija się w niesamowitym tempie. Agencje ślubne, fotografowie, kamerzyści oraz zespoły muzyczne – każdego roku branża ślubna się rozrasta. Dziś powiemy Wam jak wybrać solidnego wykonawcę spośród ofert znajdujących się na rynku. Obnażymy także słabostki i grzeszki "kolegów" z branży. Mamy nadzieję, że poniższy artykuł pomoże Wam oddzielić ziarno od plew i dokonać samych trafnych wyborów.',
         content: [
             {
-                headerSmall: <span className="pink">1. Lewe portfolio.</span>,
+                headerSmall: <span className="pink">Usługodawcy ślubni – jak wybrać i o czym pamiętać, podpisując umowę?</span>,
                 text: <>
-                    Każdy kiedyś zaczynał… Z doświadczenia wiem, że początki bywają trudne. Przecież nikt nie zaufa przysłowiowej firmie kogucik, która nie ma na swoim koncie żadnego zlecenia. Jest wiele opcji, aby skompletować portfolio. Praca za darmo lub po kosztach, pomoc znajomym, praktyki, staże. Takie rozwiązanie wybierają pasjonaci. Niestety są i tacy, którzy wolą drogę na skróty. Młode agencje ślubne kupują tzw. zdjęcia stockowe, czyli odsprzedane fotografie, które można ściągnąć ze strony internetowej lub – co gorsza – kradną je komuś przypadkowemu. Do tego kilka zmyślonych rekomendacji i gotowe.<br />
-                Jak zdemaskować oszustów? Mamy dla Was istną perełkę: <CustomOuterLink to="https://www.tineye.com" text="https://www.tineye.com" />. Pod tym adresem znajdziecie ciekawe narzędzie do sprawdzenia źródła zdjęć zamieszczonych w internecie. Wystarczy, że ściągniecie je na dysk i załadujecie na tej stronie lub wpiszecie jego adres URL. Tineye przeszuka za Was internet i pokaże ewentualne źródła. Jeżeli nie uda mu się namierzyć fotografii prawdopodobnie nie pochodzi ona z bazy zdjęć stockowych. <br />
-                Nie zapomnijcie również o prześwietleniu kapeli, która ma zagrać na Waszym weselu. Często skład zespołu ulega zmianie, a na stronie nadal możecie odsłuchiwać utwory wykonywane przez byłych wokalistów. Najlepiej zapytać orkiestrę lub DJ'a, gdzie można wysłuchać ich na żywo. Często takie kapele obsługują również imprezy okolicznościowe lub miejskie festyny.
+                    Pierwszą rzeczą, na jaką zwracają uwagę Pary Młode, wybierając usługodawców ślubnych, to ich portfolio. Jednak powinniście być czujni. Każdy kiedyś zaczynał... Z doświadczenia organizatorów ślubów i wesel wiemy, że początki bywają trudne. Przecież nikt nie zaufa przysłowiowej firmie kogucik, która nie ma na swoim koncie żadnego zlecenia. Jest wiele opcji, aby skompletować portfolio. Praca za darmo lub po kosztach, pomoc znajomym, praktyki, staże. Takie rozwiązanie wybierają pasjonaci.<br />
+                Niestety są i tacy wykonawcy ślubni, którzy wolą drogę na skróty. Młode <Link to={URLS.HOME} className="linkPink">agencje ślubne</Link> kupują tzw. zdjęcia stockowe, czyli odsprzedane fotografie, które można ściągnąć ze strony internetowej lub – co gorsza – kradną je komuś przypadkowemu. Do tego kilka zmyślonych rekomendacji i gotowe. Jak zdemaskować oszustów? Mamy dla Was istną perełkę: <CustomOuterLink to="https://www.tineye.com" />. Pod tym adresem znajdziecie ciekawe narzędzie do sprawdzenia źródła zdjęć zamieszczonych w Internecie. Wystarczy, że ściągniecie je na dysk i załadujecie na tej stronie lub wpiszecie jego adres URL. Tineye przeszuka za Was Internet i pokaże ewentualne źródła. Jeżeli nie uda mu się namierzyć fotografii, prawdopodobnie nie pochodzi ona z bazy zdjęć stockowych.<br />
+                Nie zapomnijcie również o prześwietleniu kapeli, która ma zagrać na Waszym weselu. Często skład zespołu ulega zmianie, a na stronie nadal możecie odsłuchiwać utwory wykonywane przez byłych wokalistów. Najlepiej zapytać orkiestrę lub DJ'a, gdzie można wysłuchać ich na żywo. Często takie kapele obsługują również imprezy okolicznościowe lub miejskie festyny, a nawet zorganizowane na sali Sylwestra. Jeśli jest taka możliwość, koniecznie idźcie posłuchać na żywo muzyków, których bierzecie pod uwagę, jako Wasz przyszły zespół na wesele.
                 </>,
                 pics: [
                     {
@@ -1912,8 +1933,20 @@ const posts = [
                 ]
             },
             {
-                headerSmall: <span className="pink">2. Forum prawdę Ci powie.</span>,
-                text: 'Szukajcie opinii, recenzji, komentarzy na forach lub innych stronach o tematyce ślubnej. Im więcej pozytywów tym lepiej ale pamiętajcie, że zdarza się, że firmy piszą je same lub działają na szkodę konkurencji. Często niepochlebna opinia bywa spowodowana niedopatrzeniem ze strony Pary Młodej, która czuje się niesłusznie rozgoryczona. Nie dajcie się zwieść! Bądźcie czujni!',
+                headerSmall: <span className="pink">Na co zwrócić uwagę przy wyborze fotografa ślubnego i kamerzysty na wesele?</span>,
+                text:
+                    <> Szukając fotografa ślubnego, warto porównać co najmniej kilka usługodawców. Prześledźcie portfolio każdego z nich, a także porozmawiajcie z nimi, choćby przez telefon. Pamiętajcie, że kontakt z wykonawcami ślubnymi jest bardzo ważny – między Wami a usługodawcami ślubnymi musi być nić porozumienia, aby w dniu ślubu nie było żadnych zgrzytów.<br />
+                    Podpowiemy, na co zwrócić uwagę przy wyborze fotografa ślubnego:
+                        <ul>
+                            <li>portfolio</li>
+                            <li>jakość i styl oddawanych zdjęć poszczególnym Parom Młodym (pojedyncze historie)</li>
+                            <li>jakość materiałów – albumów, odbitek</li>
+                            <li>kopia zapasowa zdjęć i zabezpieczenie przed ich utratą</li>
+                            <li>zapisy umowy (zakres usług, termin realizacji, koszty)</li>
+                            <li>opinie dotychczasowych klientów</li>
+                        </ul><br />
+                        Jeśli macie takie możliwość, przetestujcie jakość pracy fotografa ślubnego i jakość współpracy z nim, np. na sesji narzeczeńskiej. Podobnymi kategoriami kierujcie się, wybierając filmowca na ślub.
+                    </>,
                 pics: [
                     {
                         src: require('./BlogPics/Post11/post11b.jpg').default
@@ -1921,8 +1954,17 @@ const posts = [
                 ]
             },
             {
-                headerSmall: <span className="pink">3. Portale społecznościowe.</span>,
-                text: 'Mawia się, że jak nie ma Cię na Facebooku, to nie istniejesz. Jeżeli firma nie działa prężnie na portalach społecznościowych takich jak Instagram czy Facebook jest to niemal równoznaczne z tym, że nie prosperuje najlepiej. Nie chodzi tu nawet o ilość lików czy obserwatorów, a o regularne wrzucanie postów. Bardzo łatwo zweryfikować również jakość zamieszczanych publikacji. Jeżeli są to wyłącznie inspiracje lub cytaty o tematyce ślubnej jest to jednoznaczne z tym, że firma nie ma na swoim koncie żadnych realizacji.',
+                headerSmall: <span className="pink">Na co zwrócić uwagę przy wyborze zespołu muzycznego lub DJ’a na ślub?</span>,
+                text:
+                    <>Z doświadczenia wiemy, że dobry zespół muzyczny to przepis na sukces każdej Pary Młodej. Jedzenie może być średnie, dekoracje niekoniecznie idealne (na tych rzeczach da się <CustomPostLink text="zaoszczędzić" path="jak-zaoszczedzic-na-weselu" className="linkPink" />), ale jeśli zespół lub DJ będą dobrze grali i przede wszystkim mądrze prowadzili zabawę, wszyscy będą się znakomicie bawić. Jednocześnie doświadczenie pokazuje nam, że z muzykami bywa największy problem – niestety zdarza się (i to wcale nie tak rzadko), że sięgają oni po alkohol, co uniemożliwia im utrzymanie wysokiego poziomu do samego końca wesela.<br />
+                    Podpowiemy, na co zwrócić uwagę przy wyborze zespołu muzycznego lub DJ’a na wesele:
+                        <ul>
+                            <li>nagrania udostępnione na stronie – umiejętności</li>
+                            <li>wszechstronność – możliwość grania różnych gatunków muzycznych</li>
+                            <li>umowa – zapisy dotyczące ilości i długości przerw, zakaz picia alkoholu itd.</li>
+                            <li>możliwość zobaczenia występu na żywo</li>
+                        </ul>
+                    </>,
                 pics: [
                     {
                         src: require('./BlogPics/Post11/post11c.jpg').default
@@ -1930,8 +1972,8 @@ const posts = [
                 ]
             },
             {
-                headerSmall: <span className="pink">4. Artyści i gwiazdy.</span>,
-                text: 'To bardzo niewdzięczna grupa wykonawców ślubnych. Znajdziecie ich głównie wśród fotografów, kamerzystów i muzyków. To Wy jesteście szefem i macie prawo decydować o tym, co zostanie zagrane na Waszym weselu lub jakiego typu zdjęć czy filmu oczekujecie. Oczywiście każdy fotograf, kamerzysta, muzyk ma swój bliżej określony styl i nie można oczekiwać, że zrobi coś zupełnie wbrew sobie, ale niedopuszczalne jest byście, nie mieli prawa głosu w tak ważnych kwestiach. Jeżeli więc obiło się Wam o uszy, że Wasz fotograf to artysta, który nie lubi się podporządkowywać, zrezygnujcie z jego usług. Na swojej czarnej liście wykonawców mamy kilku delikwentów, którzy robią piękne zdjęcia, kręcą nieziemskie filmy i grają super muzykę, ale po prostu nie da się z nimi współpracować. Są aroganccy, nie słuchają uwag i wiedzą wszystko najlepiej. Taka współpraca zwykle odbija się czkawką.',
+                headerSmall: <span className="pink">Wykonawcy ślubni – artyści i gwiazdy</span>,
+                text: 'To bardzo niewdzięczna grupa wykonawców ślubnych. Znajdziecie ich głównie wśród fotografów, kamerzystów i muzyków. To Wy jesteście szefem i macie prawo decydować o tym, co zostanie zagrane na Waszym weselu lub jakiego typu zdjęć czy filmu oczekujecie. Oczywiście każdy fotograf, kamerzysta, muzyk ma swój bliżej określony styl i nie można oczekiwać, że zrobi coś zupełnie wbrew sobie, ale niedopuszczalne jest byście, nie mieli prawa głosu w tak ważnych kwestiach. Jeżeli więc obiło się Wam o uszy, że Wasz fotograf to artysta, który nie lubi się podporządkowywać, zrezygnujcie z jego usług. Na swojej czarnej liście wykonawców ślubnych mamy kilku delikwentów, którzy robią piękne zdjęcia, kręcą nieziemskie filmy i grają super muzykę, ale po prostu nie da się z nimi współpracować. Są aroganccy, nie słuchają uwag i wiedzą wszystko najlepiej. Taka współpraca zwykle odbija się czkawką.',
                 pics: [
                     {
                         src: require('./BlogPics/Post11/post11d.jpg').default
@@ -1939,7 +1981,7 @@ const posts = [
                 ]
             },
             {
-                headerSmall: <span className="pink">5. To się nie da.</span>,
+                headerSmall: <span className="pink">Usługodawcy ślubni – wymówki wykonawców ślubnych</span>,
                 text: 'Jeżeli po raz kolejny słyszycie, że coś się nie da, że już się tak nie robi, albo "my tak nie robimy" to znajdźcie kogoś, kto z przyjemnością zrobi wszystko, aby Wasze marzenia stały się rzeczywistością. Czasami oczywiście trzeba sprowadzić Parę Młodą na ziemię, ponieważ nie ma nic gorszego niż obiecanki i zbyt ryzykowne pomysły, ale rynek ślubny jest tak przesycony specjalistami i daje taką masę możliwości, że da się prawie wszystko. Oczywiście o ile znajdą się dobre chęci i pozwala na to budżet.',
                 pics: [
                     {
@@ -1948,12 +1990,25 @@ const posts = [
                 ]
             },
             {
-                headerSmall: <span className="pink">6. Umywanie rąk.</span>,
-                text: 'Nawet przy wyborze solidnego wykonawcy los może spłatać Wam figla. Oby nigdy Was to nie spotkało, ale zdarza się, że sala weselna spłonie zaraz przed weselem, orkiestra nie dojedzie, a kamerzysta wyląduje w szpitalu. Tak niestety bywa. Dlatego postarajcie się przed tym zabezpieczyć. Często rozmawiając z Parami Młodymi widzimy, że umowy z wykonawcami traktują po macoszemu. Kasa się zgadza, zaliczka wpłacona, termin ślubu zaklepany. To nie takie proste. Jest masę rzeczy, które powinny być ujęte w umowie, a o których totalnie zapominacie. Jeżeli sala spłonie lub jej właściciel ogłosi upadłość musicie mieć alternatywę, a osoba, z którą podpisaliście umowę, powinna ponieść konsekwencje. Jeżeli orkiestra nie dojedzie, powinna zapewnić zastępstwo w postaci podobnej kapeli w tym samym przedziale cenowym. Jeżeli fotograf jest w szpitalu to nie wysyła swojej żony z polaroidem, tylko kolegę po fachu. Nie może być tak, że cała odpowiedzialność spada wyłącznie na Was. Umowa powinna być dla Was korzystna i zapewniać poczucie bezpieczeństwa. Bo właśnie po to ją podpisujecie.'
+                headerSmall: <span className="pink">Wykonawcy ślubni na zastępstwo</span>,
+                text: 'Nawet przy wyborze solidnego wykonawcy ślubnego los może spłatać Wam figla. Oby nigdy Was to nie spotkało, ale zdarza się, że sala weselna spłonie zaraz przed weselem, orkiestra nie dojedzie, a kamerzysta wyląduje w szpitalu. Tak niestety bywa. Dlatego postarajcie się przed tym zabezpieczyć. Często rozmawiając z Parami Młodymi widzimy, że umowy z wykonawcami traktują po macoszemu. Kasa się zgadza, zaliczka wpłacona, termin ślubu zaklepany. To nie takie proste. Jest masę rzeczy, które powinny być ujęte w umowie, a o których totalnie zapominacie. Jeżeli sala spłonie lub jej właściciel ogłosi upadłość musicie mieć alternatywę, a osoba, z którą podpisaliście umowę, powinna ponieść konsekwencje. Jeżeli orkiestra nie dojedzie, powinna zapewnić zastępstwo w postaci podobnej kapeli w tym samym przedziale cenowym. Jeżeli fotograf jest w szpitalu to nie wysyła swojej żony z polaroidem, tylko kolegę po fachu. Nie może być tak, że cała odpowiedzialność spada wyłącznie na Was. Umowa powinna być dla Was korzystna i zapewniać poczucie bezpieczeństwa. Bo właśnie po to ją podpisujecie.'
             },
             {
-                headerSmall: <span className="pink">7. A teraz idziemy na jednego.</span>,
-                text: 'Wymieńcie mi firmę, w której bez ogródek podczas pracy można spożywać alkohol. Nie mogę zrozumieć, dlaczego w branży ślubnej panują inne standardy. Niestety najczęściej problem dotyczy zespołów muzycznych. Widzimy, jak szanowny pan wokalista pije coraz więcej i więcej, jego twarz staje się purpurowa, coraz ciężej mu się śpiewa, a przerwy między setami robią się coraz dłuższe. To niedopuszczalne! Zaznaczcie w umowie, że nie wyrażacie zgody na spożywanie alkoholu przez obsługę podczas wesela. Jeżeli wykonawca odmówi takiego zapisu, jest to jednoznaczne z tym, że Wasze wesele traktuje jak mocno zakrapianą imprezę z dobrym jedzeniem.',
+                headerSmall: <span className="pink">Na co zwrócić uwagę przy wyborze sali weselnej?</span>,
+                text:
+                    <>Wybór sali weselnej jest początkiem przygotowań do ślubu – obłożenie terminów zmusza Pary Młode, by to właśnie od poszukiwań miejsca na wesele zacząć przygotowania do ślubu.
+                    Dowiedzcie się, na co zwrócić uwagę przy wyborze sali weselnej:
+                        <ul>
+                            <li>aranżacja sali weselnej – w stodole nie urządzicie wesela w <CustomPostLink text="stylu glamour" path="sesja-stylizowana-w-stylu-glamour" className="linkPink" />, a w sali z filarami wesela boho</li>
+                            <li>liczba miejsc – sala nie może być ani za mała, ani za duża</li>
+                            <li>możliwość dostawienia i <CustomPostLink text="aranżacja stołów weselnych" path="rozmieszczenie-gosci-weselnych" className="linkPink" /> okrągłych lub prostokątnych, w zależności od Waszych oczekiwań</li>
+                            <li>czystość – koniecznie sprawdźcie łazienkę</li>
+                            <li>sprawna i wydajna klimatyzacja</li>
+                            <li>umowa – zwróćcie uwagę na zapisy dotyczące alkoholu oraz ewentualnego podniesienia cen (niektóre sale zastrzegają sobie prawo do podniesienia ceny w zależności od inflacji)</li>
+                            <li>lokalizacja – jeśli sala znajduje się poza miastem, musicie pomyśleć o noclegach i transporcie</li>
+                            <li>możliwość ślubu cywilnego w plenerze lub <CustomPostLink text="wesela w plenerze" path="wesele-w-plenerze" className="linkPink" /> – coraz więcej Par decyduje się na takie rozwiązanie, a możliwość wzięcia ślubu w plenerze na terenie sali jest nie tylko wygodne, ale także ogranicza koszty, np. związane z wynajęciem samochodu ślubnego</li>
+                        </ul>
+                    </>,
                 pics: [
                     {
                         src: require('./BlogPics/Post11/post11f.jpg').default
@@ -1961,10 +2016,18 @@ const posts = [
                 ]
             },
             {
-                text: 'Jeżeli macie wątpliwości czy dokonane przez Was wybory są słuszne, napiszcie do nas i umówcie się na spotkanie. Z przyjemnością przejrzymy Wasze umowy z wykonawcami w ramach bezpłatnej konsultacji.'
-            }
+                headerSmall: <span className="pink">Wykonawcy ślubnie – jak zweryfikować usługodawców ślubnych?</span>,
+                text: 'Szukajcie opinii, recenzji, komentarzy na forach lub innych stronach o tematyce ślubnej. Im więcej pozytywów tym lepiej ale pamiętajcie, że zdarza się, że firmy piszą je same lub działają na szkodę konkurencji. Często niepochlebna opinia bywa spowodowana niedopatrzeniem ze strony Pary Młodej, która czuje się niesłusznie rozgoryczona. Nie dajcie się zwieść! Bądźcie czujni! Mawia się, że jak nie ma Cię na Facebooku, to nie istniejesz. Jeżeli firma nie działa prężnie na portalach społecznościowych takich jak Instagram czy Facebook jest to niemal równoznaczne z tym, że nie prosperuje najlepiej.Nie chodzi tu nawet o ilość linków czy obserwatorów, a o regularne wrzucanie postów.Bardzo łatwo zweryfikować również jakość zamieszczanych publikacji.Jeżeli są to wyłącznie inspiracje lub cytaty o tematyce ślubnej jest to jednoznaczne z tym, że firma nie ma na swoim koncie żadnych realizacji.'
+            },
+            {
+                headerClassName: <span className="pink">Prohibicja dla usługodawców ślubnych</span>,
+                text:
+                    <>
+                        Wymieńcie firmę, w której bez ogródek podczas pracy można spożywać alkohol. Nie możemy zrozumieć, dlaczego w branży ślubnej panują inne standardy. Niestety najczęściej problem dotyczy zespołów muzycznych. Widzimy, jak szanowny pan wokalista pije coraz więcej i więcej, jego twarz staje się purpurowa, coraz ciężej mu się śpiewa, a przerwy między setami robią się coraz dłuższe. To niedopuszczalne! Zaznaczcie w umowie, że nie wyrażacie zgody na spożywanie alkoholu przez obsługę podczas wesela. Jeżeli wykonawca odmówi takiego zapisu, jest to jednoznaczne z tym, że Wasze wesele traktuje jak mocno zakrapianą imprezę z dobrym jedzeniem. O problemie tym wspomniałyśmy przed chwilą, podpowiadając, na co zwrócić uwagę przy wyborze zespołu muzycznego na ślub. Ale jeszcze raz uczulamy – zawrzyjcie zapis w umowie o zakazie picia alkoholu podczas wesela z każdym wykonawcom ślubnym.<br />
+                        Przemyślane decyzje w związku z wyborem usługodawców ślubnych zaprocentują udanym weselem, bez niepotrzebnych, dodatkowych stresów i komplikacji. Oczywiście polecamy o <CustomPostLink text="opinię o wykonawcach ślubnych" path="polecany-fotograf-kamerzysta-sala-dj-zespol-na-wesele" className="linkPink" /> pytać rodzinę i znajomych, którzy sami niedawno organizowali ślub i wesele. Każda opinia jest cenna!
+                    </>
+            },
         ],
-        textAuthor: "Kasia",
         links:
             <>
                 <p className="mb-1">Linki do zdjęć:</p>
