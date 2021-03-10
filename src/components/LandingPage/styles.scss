@@ -85,18 +85,27 @@
             margin-bottom: 2rem;
 
             & .custom-box {
+                height: 16rem;
                 margin-left: .5rem;
                 margin-right: .5rem;
 
+                @media (min-width: $mobileM) {
+                    height: 19rem;
+                }
+
+                @media (min-width: $mobileL) {
+                    height: 22rem;
+                }
+
                 @media (min-width: $tablet) {
-                    height: 23rem;
+                    height: 24rem;
                 }
 
                 @media (min-width: $laptop) {
                     height: 28rem;
                 }
 
-                @media (min-width: $desktop) {
+                @media (min-width: 1200px) {
                     height: 31rem;
                 }
 
@@ -120,7 +129,7 @@
                 margin: 2rem auto;
             }
 
-            @media (min-width: $desktop) {
+            @media (min-width: 1200px) {
                 width: 100%;
                 max-width: 65vw;
             }
