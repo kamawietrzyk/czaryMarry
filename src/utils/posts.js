@@ -7,6 +7,151 @@ import URLS from './urls'
 
 const posts = [
     {
+        path: 'przygotowania-do-slubu-formalnosci',
+        seoTitle: 'Od czego zacząć przygotowania do ślubu? Formalności przed ślubem',
+        seoText: 'Planujecie ślub i wesele, ale nie wiecie kiedy i od czego zacząć przygotowania? Przekonajcie się, jak łatwo i sprawnie dzięki naszym radom zaplanować organizację ślubu i wesela!',
+        title: 'Wszystko o formalnościach przed ślubem, czyli jak zacząć przygotowania do ślubu?',
+        textShort: 'Przygotowania do ślubu i wesela to ogromne wyzwanie dla Młodej Pary, a czasami również dla najbliższych jej osób. To na przyszłych...',
+        date: '14 mar 2021',
+        mainPic: {
+            src: require('./BlogPics/Post30/post30-sesja-ślubna.jpg').default
+        },
+        textMain:
+            <>
+                Przygotowania do ślubu i wesela to ogromne wyzwanie dla Młodej Pary, a czasami również dla najbliższych jej osób. To na przyszłych małżonkach spoczywa największa odpowiedzialność, by wszystko zostało dopięte na ostatni guzik, do tego dochodzi jeszcze stres czy wszystko uda się zaplanować tak jak sobie wymarzyliście. Postanowiłyśmy podzielić się z Wami naszym doświadczeniem i zebrać najważniejsze informacje o przygotowaniach do ślubu – krok po kroku przeprowadzając Was przez <span className="bold dark">terminarz przygotowań do ślubu.</span>
+            </>,
+        content: [
+            {
+                headerSmall: "Przygotowania do ślubu – o czym należy pamiętać?",
+                headerClassName: "mint",
+                text:
+                    <>
+                        Jeszcze przed rozpoczęciem przygotowań do ślubu musicie sobie uświadomić kilka najważniejszych zasad, jakie rządzą przygotowaniami do ślubu i wesela, niezależnie gdzie, kiedy i jaką uroczystość planujecie zorganizować. Przede wszystkim każda Para Młoda uskarża się na brak czasu i pośpiech w kwestii przygotowań do ślubu. Dlatego pod żadnym pozorem nie zostawiajcie żadnych zadań na ostatnią chwilę. Dobrą praktyką jest rozłożenie przygotowań na poszczególne miesiące i sukcesywne załatwianie pojedynczych spraw krok po kroku. W momencie, kiedy zaczniecie organizować wszystko na raz, szybko się pogubicie, a przede wszystkim zniechęcicie.<br />
+                        Podobną zasadą kierujcie się przy ustalaniu budżetu na ślub. Być może robiliście już kiedyś remont? Wszyscy powtarzali Wam, by budżet zaplanować „z zakładką” 10%? Jesteśmy niemal przekonane, że mimo takiego zapasu i tak pod koniec brakowało Wam funduszy na niektóre drobiazgi, które musieliście przełożyć w czasie. No właśnie – w przypadku wesela nie będziecie w stanie przełożyć wydatków, dlatego naprawdę wyznaczcie sobie bufor w postaci co najmniej 10%.
+                    </>,
+
+                // extraContent: "Etiam vulputate lobortis erat, sit amet egestas ipsum mollis quis. Nulla et blandit massa, et placerat arcu. Nunc id posuere lacus. Nulla rhoncus eu risus eu finibus. In efficitur, sapien scelerisque pellentesque interdum, dolor nulla ornare risus, sed auctor eros odio condimentum elit.",
+                // extraContentClassName: "mx-5 bgPinkLight px-5 py-4 shadowBox",
+
+                pics: [
+                    {
+                        src: require('./BlogPics/Post30/post30-sesja-ślubna.jpg').default,
+                        author: "Ania Kopeć Serdeczności"
+                    }
+                ]
+            },
+            {
+                headerSmall: "Przygotowania do ślubu a harmonogram weselny",
+                headerClassName: "mint",
+                text: "Dla osób, które na co dzień posługują się terminarzem, pomysł stworzenia harmonogramu wesela jest oczywisty. Jednak osoby, które nie mają potrzeby zapisywania każdego terminu spotkania, wizyty u lekarza czy wywiadówek w szkole, mogą się wahać, czy taki kalendarz weselny pomoże w przygotowaniach do wesela. Jednoznacznie odpowiadamy – pomoże, i to bardzo!"
+            },
+            {
+                text: "Przede wszystkim harmonogram weselny pomoże Wam uporządkować zadania, przydzielając je do poszczególnych miesięcy, ale także osób, które będziecie chcieli zaangażować do pomocy. Nie wszystko przecież musicie załatwiać wspólnie. Panna Młoda może zająć się zaproszeniami, winietkami i dekoracjami, a Pan Młody samochodem ślubnym, DJ’em i alkoholem, a pomóc Wam w tym mogą świadkowie czy rodzina. Jeśli wolicie wersję elektroniczną kalendarza weselnego, w Internecie dostępne są aplikacje, które ułatwią planowanie ślubu."
+            },
+            {
+                headerSmall: "Kiedy zacząć przygotowania do ślubu?",
+                headerClassName: "mint",
+                text:
+                    <>
+                        Przygotowania do wesela musicie zacząć co najmniej 1,5 roku wcześniej. Ale! Przypominamy o buforze czasowym – dlatego planowanie i budowanie wizji tego dnia możecie zacząć nawet 2 lata wcześniej. W pierwszej fazie ustalcie, <span className="bold dark">od czego zacząć przygotowania do ślubu.</span> Ustalcie:
+                        <ul style={{ marginTop: ".5rem" }}>
+                            <li>datę ślubu,</li>
+                            <li>wstępną liczbę gości,</li>
+                            <li>wstępny budżet,</li>
+                            <li>styl waszej uroczystości oraz elementy, które są dla Was ważne,</li>
+                            <li>zarezerwujcie salę weselną,</li>
+                            <li>rozpiszcie harmonogram przygotowań.</li>
+                        </ul>
+                        Planując wstępną liczbę gości, nie sugerujcie się aż tak bardzo budżetem – o tym, <CustomPostLink text="dlaczego kameralne wesele nie jest dużo tańsze" path="kameralne-wesele-czy-huczne" className="linkMint" /> już pisałyśmy. Jeśli jesteście ciekawi, <CustomPostLink text="jak obniżyć koszty wesela" path="jak-zaoszczedzic-na-weselu" className="linkMint" />, również przeczytacie o tym w naszym poradniku. Orientacyjna liczba gości będzie Wam potrzebna już na tym etapie, by znaleźć odpowiednią salę. Pamiętajcie, żeby wesela nie urządzać w zbyt dużej sali weselnej – widok pustawej sali może być bardzo przygnębiający.
+                    </>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post30/post30a-papeteria-ślubna.jpg').default,
+                        author: "Wojciech Makuła"
+                    }
+                ]
+            },
+            {
+                headerSmall: "Przygotowania do wesela krok po kroku",
+                headerClassName: "mint",
+                text:
+                    <>
+                        Po rezerwacji sali powinniście poszukać zespołu na wesele lub DJ’a – najlepsi muzycy szybko zapełniają swój kalendarz i naprawdę nie warto oszczędzać na tym elemencie. Dobry zespół lub DJ znacząco zwiększają szansę, że Wasze wesele będzie cudowne i niezapomniane.<br />
+                        W tym czasie możecie również udać się do kościoła lub Urzędu Stanu Cywilnego, celem rezerwacji daty ślubu. W wielu kościołach wystarczy zarezerwować termin rok przed ślubem, a nawet później, warto jednak poprosić księdza o rezerwację terminu jak najszybciej. Będziecie mieć więcej czasu na przygotowania do ślubu kościelnego, a przede wszystkim na odbycie nauk przedmałżeńskich czy wizyty w poradni. Jeśli chodzi o ślub cywilny to oficjalnie termin i dokumenty możecie złożyć na 6 miesięcy przed datą uroczystości, ale wiele urzędów zgadza się na wcześniejszą wstępna rezerwację.
+                    </>
+            },
+            {
+                text:
+                    <>
+                        Temat ogarnięcia dokumentów zarówno do ślubu cywilnego, jak i kościelnego czy konkordatowego nie należy do najprostszych. Warto dobrze przygotować się do tego procesu. Aby ułatwić naszym Parom załatwianie formalności przygotowałyśmy poradniki. Chcecie wiedzieć jakie dokumenty przygotować przed ślubem? <br /> Więcej możecie przeczytać tu:<br />
+                        <ul style={{ marginTop: "1rem" }}>
+                            <li><CustomPostLink text="PORADNIK - ślub cywilny krok po kroku" path="UZUPEŁNIĆ!!" className="linkMint" /></li>
+                            <li><CustomPostLink text="PORADNIK - ślub konkordatowy" path="UZUPEŁNIĆ!!!" className="linkMint" /></li>
+                        </ul>
+                    </>
+            },
+            {
+                headerSmall: "Przygotowania do ślubu na rok przed",
+                headerClassName: "mint",
+                text: "Rok przed ślubem powinniście też poszukać fotografa ślubnego i filmowca jeśli go rozważacie. Możecie też zająć się tym tuż po rezerwacji sali weselnej i oprawy muzycznej wesela. Z całą pewnością Panna Młoda powinna rozglądać się już za suknią ślubną – rzadko która z nas znajduje tę jedną jedyną suknię w pierwszym salonie. A jeśli nawet Wam się to uda, z całą pewnością rok przed ślubem będziecie mogły ją już zamówić. Panowie również mogą poszukać już garnituru, w ostateczności mogą to zadanie zostawić na pół roku przed ślubem. Nie polecamy jednak tego rozwiązania – chociaż odpowiedni garnitur łatwiej znaleźć niż wymarzoną suknię ślubną, pół roku przed ślubem będziecie mieli już bardzo dużo na głowie. To także doskonały czas, by robić research, szukać informacji, pomysłów czy pójść na targi ślubne."
+            },
+            {
+                headerSmall: "Przygotowania do ślubu pół roku przed wielkim dniem",
+                headerClassName: "mint",
+                text: "Jeśli do Waszego ślubu zostało pół rok, najwyższy czas zakasać rękawy. Zastanówcie się, kogo zaprosić na ślub i przygotujcie zaproszenia ślubne. Zacznijcie powoli już je rozdawać – im więcej wręczycie osobiście, tym lepiej. Postarajcie się rozłożyć rozdawanie zaproszeń ślubnych na parę tygodni.. Wierzcie nam, to jeden z najbardziej czasochłonnych i męczących elementów przygotowań do wesela, a jednocześnie jest on niezmiernie ważny. Pokażcie swoim gościom, że naprawdę zależy Wam na ich uczestnictwie w najważniejszym dniu w Waszym życiu! Ponadto pamiętajcie, że bliskie Wam osoby mogą dużo wcześniej planować wyjazd – nie stawiajcie ich w kłopotliwej sytuacji i po prostu poinformujcie wcześniej o dacie wesela, najlepiej od razu wręczając zaproszenie."
+            },
+            {
+                text: "Parę miesięcy przed ślubem powinniście także umówić się z florystą i omówić z nią Waszą wizję dekoracji sali oraz miejsca weselnego. To także odpowiedni moment, by zamówić takie atrakcje, jak fotobudkę, pokaz sztucznych ogni czy barmanów na wesele. Pamiętajcie również o znalezieniu idealne cukierni i zamówieniu tortu oraz słodkiego bufetu. Zajęcie się tym tematem z odpowiednim wyprzedzeniem pozwoli Wam na degustację. Dzięki temu będziecie mieć pewność, że wybraliście najlepszą firmę, a słodkości z wesela długo będą wspominane przez Waszych gości.",
+                pics: [
+                    {
+                        src: require('./BlogPics/Post30/post30b-ślub-w-plenerze.jpg').default,
+                        author: "Katarzyna Wosiak"
+                    }
+                ]
+            },
+            {
+                headerSmall: "Harmonogram ślubny - wesele krok po kroku",
+                headerClassName: "mint",
+                text: "Zakładając, że powoli zaczynacie rozwozić zaproszenia na ślub, Wasze przygotowania do wesela nabierają tempa. Jeśli do ślubu zostało mniej więcej 5 miesięcy pomyślcie o dodatkach do stroju. Panna Młoda powinna pomyśleć o butach, ozdobach do włosów, bolerku, Pan Młody o butach, muszce, poszetce. Warto zarezerwować już dwie wizyty u fryzjera – w dniu ślubu oraz na ok.2 miesiące przed ślubem na fryzurę próbną. Takie same zasady odnoszą się do makijażystki."
+            },
+            {
+                text:
+                    <>
+                        Na 2-3 miesiące przed ślubem warto stworzyć już listę potwierdzonych <CustomPostLink text="gości z podziałem na miejsca przy stole" path="rozmieszczenie-gosci-weselnych" className="linkMint" /> lub stołach. Zamówcie już też winietki, a także pomyślcie o <CustomPostLink text="prezentach dla gości" path="prezent-dla-gosci-wesele" className="linkMint" /> i dla rodziców. Zarezerwujcie także termin urlopu w pracy. Warto także zainteresować się już noclegiem dla gości i transportem dla nich, jeśli miejsce ślubu i wesela tego wymaga. Czasami wystarczy nocleg i transport zarezerwować nawet miesiąc przed ślubem, nie zaszkodzi jednak zrobić to wcześniej i ograniczyć sobie stres. Trzy miesiące przed wielkim wydarzeniem jest także odpowiednim momentem, by załatwić samochód do ślubu oraz kupić alkohol na ślub. Warto także przygotować gadżety weselne dla gości – koszyk ratunkowy z kosmetykami i przyborami kosmetycznymi, koce czy nakładki na obcasy. Możecie tym zająć się nieco później, nie zostawiajcie jednak tego na ostatni miesiąc przed ślubem.
+                    </>
+            },
+            {
+                text: <>Miesiąc przed ślubem polecamy zadzwonić do wszystkich umówionych specjalistów, by omówić przebieg uroczystości i ustalić najważniejsze kluczowe kwestie  – zadzwońcie do fotografa, DJ’a lub zespołu, dekoratora, fryzjera i wizażysty. Potwierdźcie także nocleg dla gości i przewóz gości, jeśli je rezerwowaliście. Z właścicielami bądź managerem sali weselnej najprawdopodobniej będziecie w tym czasie w kontakcie, jeśli jednak by tak nie było, koniecznie skontaktujcie się również z nimi. <br />
+                Dla Panny Młodej ostatni miesiąc przed ślubem to czas ostatnich przymiarek <CustomPostLink text="sukni ślubnej" path="suknia-slubna-jak-wybrac" className="linkMint" /> i ewentualnych zmian. W salonie wyznaczą termin, kiedy należy zgłosić się celem ostatnich przymiarek – pilnujcie tego terminu, ponieważ terminarz krawcowej jest naprawdę napięty.
+                </>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post30/post30c-przygotowania-do-ślubu.jpg').default,
+                        author: "Svetlana Bennington"
+                    }
+                ]
+            },
+            {
+                headerSmall: "Ostatnie przygotowania do ślubu i wesela",
+                headerClassName: "mint",
+                text: "Dzień ślubu od wczesnych godzin porannych będzie dla Was bardzo intensywny. Zaplanujcie ten dzień tak, abyście mieli jak najmniej na głowie. Wszystko co możecie powierzyć swoim wykonawcom zostawcie im. Nie bierzcie na swoje barki tego dnia odbioru tortu czy rozkładania winietek. W dniu uroczystości powinniście być skupieni przede wszystkim na sobie i swoich gościach. Jedynie co możecie się upewnić to to, że osoby odpowiedzialne za zabranie obrączek, nie zapomniały o nich (naprawdę warto przypomnieć o obrączkach)."
+            },
+            {
+                text:
+                    <>
+                        Pamiętajcie również, że ślub i wesele to żywy organizm, niestety nie zawsze wszystko pójdzie według planu. W myśl pierwszej rady warto planować wszystko powoli i sukcesywnie, po dopięciu jednego tematu zabierać się dopiero za następny. Na pewno pomocny będzie też planer ślubny, gdzie będziecie mogli zapisywać wszystkie ustalone szczegóły. Jeśli jednak czujecie, że stres związany z przygotowaniami może być dla Was za duży, najlepiej o pomoc w przygotowaniach do ślubu i wesela poprosić <Link to={URLS.HOME} className="linkMint">wedding plannerki</Link>. Organizacja ślubu i wesela w asyście doświadczonej osoby będzie szła sprawnie, ale przede wszystkim będzie dużą przyjemnością.
+                    </>
+            },
+            {
+                text:
+                    <>
+                        Jeżeli macie ochotę dowiedzieć się więcej o organizacji wesela krok po kroku zachęcamy do przesłuchania naszego <CustomPostLink text="podcastu" path="15-hey-wedding-jak-zorganizowac-wesele-krok-po-kroku" className="linkMint" /> na ten temat.
+                    </>
+            }
+        ]
+
+    },
+    {
         path: '15-hey-wedding-jak-zorganizowac-wesele-krok-po-kroku',
         title: '#15 Hey Wedding - Jak zorganizować wesele krok po kroku',
         seoText: 'Zastanawiacie się od czego zacząć planowanie wesela? W 15 odcinku podcastu Hey Wedding odpowiadamy na to i wiele innych pytań.',
@@ -49,7 +194,8 @@ const posts = [
         },
         content: [
             {
-                headerSmall: <span className="grey">WESELE W OGRODZIE - LOKALIZACJA</span>,
+                headerSmall: "WESELE W OGRODZIE - LOKALIZACJA",
+                headerClassName: "grey",
                 text:
                     <>
                         Najlepszym rozwiązaniem jest znalezienie typowego miejsca weselnego, które dysponuje pięknym terenem zielonym wokół dostosowanym do <CustomPostLink text="wesel w plenerze" path="wesele-w-plenerze" className="linkDark" />. Wynajęcie od sali weselnej ich ogrodu pozwoli na wiele usprawnień i też na oszczędności. Przy takim rozwiązaniu możemy dogadać się z salą i skorzystać z ich menu, obsługi, mebli czy zastawy stołowej. Takie rozwiązanie to też świetna alternatywa, kiedy nie dopisze nam pogoda. Odchodzi stres i załatwianie na szybko kosztownego zadaszenia. Wtedy po prostu przenosimy przyjęcie weselne w grodzie na salę weselną.
@@ -66,7 +212,8 @@ const posts = [
                 ],
             },
             {
-                headerSmall: <span className="grey">WESELE W OGRODZIE - WROCŁAW</span>,
+                headerSmall: "WESELE W OGRODZIE - WROCŁAW",
+                headerClassName: "grey",
                 text:
                     <>
                         Organizowaliśmy już parę przyjęć na łonie natury, ale szczególnie wspominamy nasze <span className="grey bold">garden party pt. FOODTRUCK WEDDING</span> zorganizowane w parku pięknego pałacu na Dolnym Śląsku. Pałac Osowa Sień to idealne miejsce na <CustomPostLink text="kameralne" path="kameralne-wesele-czy-huczne" className="linkDark" />  przyjęcie weselne w ogrodzie. Na terenach zielonych obiektu znajdziecie i podłączenie do prądu, dostęp do wody, jak i piękne drzewa, pod którymi można zorganizować strefy chilloutu dla Waszych gości. Obiekt ma też bazę noclegową, co jest szczególnie ważne podczas całonocnej zabawy. <br />
@@ -74,7 +221,8 @@ const posts = [
                     </>
             },
             {
-                headerSmall: <span className="grey">WESELE W OGRODZIE - DEKORACJE</span>,
+                headerSmall: "WESELE W OGRODZIE - DEKORACJE",
+                headerClassName: "grey",
                 text:
                     <>
                         Przyjęcie weselne w ogrodzie może być piękne i romantyczne, ale również zaskakujące, nietuzinkowe i wyróżniające Was.Wybierając zabawę na świeżym powietrzu możemy zdecydować się na każdy styl i <CustomPostLink text="motyw przewodni" path="motyw-przewodni-wesela" className="linkDark" />. Do pięknej ogrodowej zieleni będą pasować zarówno pastelowe kwiaty, jak i boho dodatki. Nie ma koloru na który nie moglibyście się zdecydować. W takiej scenerii idealnie sprawdzi się też miks kolorów i faktur dodatków. Śmiało możecie łączyć szklane elementy z surowym drewnem czy miedzianymi dodatkami.
@@ -99,7 +247,8 @@ const posts = [
                 ],
             },
             {
-                headerSmall: <span className="grey">WESELE W OGRODZIE - MUZYKA</span>,
+                headerSmall: "WESELE W OGRODZIE - MUZYKA",
+                headerClassName: "grey",
                 text:
                     <>
                         Dobrej muzyki nie może zabraknąć również na przyjęciu organizowanym w ogrodzie. Zarówno zespół, jak i dobry DJ powinni świetnie sobie poradzić. Pamiętajcie tylko, aby przed wyborem którejś z opcji omówić wszystkie techniczne kwestie. Trzeba będzie dobrze sprawdzić czy mamy odpowiednią ilość gniazdek, oraz czy może nie będzie potrzebna organizacja sceny i parkietu. Dobrym rozwiązaniem jest też przygotowanie fajnej playlisty z zróżnicowanymi stylami muzycznymi, aby każdy gość mógł się pobawić. Przy tym rozwiązaniu redukujemy koszty, jednak musimy pamiętać o zorganizowaniu komputera lub laptopa oraz dobrym nagłośnieniu.
@@ -116,7 +265,8 @@ const posts = [
                 ],
             },
             {
-                headerSmall: <span className="grey">WESELE W OGRODZIE - JAK SIĘ UBRAĆ</span>,
+                headerSmall: "WESELE W OGRODZIE - JAK SIĘ UBRAĆ",
+                headerClassName: "grey",
                 text:
                     <>
                         Przede wszystkim tak jak tego chcecie i jak będzie Wam wygodnie. Nic nie stoi na przeszkodzie, aby Panna Młoda miała piekną białą suknie do samej ziemi, a Pan Młody wystąpił w eleganckim garniturze. Na pewno warto pomyśleć o obuwiu na zmianę dla Panny Młodej czy narzucie, kiedy przyjdzie już wieczór i zrobi się chłodno.
@@ -222,7 +372,8 @@ const posts = [
                 ]
             },
             {
-                headerSmall: <span className="grey">Folwark Wąsowo — nie tylko na rustykalne wesele.</span>,
+                headerSmall: "Folwark Wąsowo — nie tylko na rustykalne wesele.",
+                headerClassName: "grey",
                 text:
                     <>
                         Mogłoby się wydawać, że stodoła Wąsowo jest miejscem bardzo określonym przez swój klimat. Jednak gwarantujemy Wam, że można tam zorganizować przyjęcia weselne nie tylko w stylu rustykalnym. Świetnie obronią się tam również bardziej nowoczesne klimaty, a także styl boho oraz bardzo popularne w ostatnich sezonach romantyczne dekoracje zakrawające na niewymuszoną elegancję. Przykładem może być wesele jednej z naszych par, które zorganizowałyśmy w Folwarku Wąsowo jakiś czas temu. Para wymarzyła sobie nieco inny klimat, a przy pomocy zespołu <span className="bgGreyLight">ART SIZE</span> udało się go wyczarować. Folwark w Wąsowie udekorowały różowe połyskliwe obrusy i biało-różowe piwonie z elementami zieleni.
@@ -243,7 +394,8 @@ const posts = [
                 ]
             },
             {
-                headerSmall: <span className="grey">Wąsowo Folwark - Infrastruktura, która rozpieszcza.</span>,
+                headerSmall: "Wąsowo Folwark - Infrastruktura, która rozpieszcza.",
+                headerClassName: "grey",
                 text:
                     <>
                         To bardzo ważny element, szczególnie jeżeli planujecie noclegi dla gości lub przedłużony weekend weselny. Na terenie Folwarku Wąsowo znajduje się aż 90 miejsc noclegowych w trzech zabytkowych budynkach. Ponadto możecie skorzystać z gościnności <span className="bgGreyLight">Źrebięciarni</span>, gdzie istnieje możliwość zjedzenia obiadu, wypicia kawy lub regionalnego piwa. Dzięki takiemu zapleczu wesele w Wąsowie zorganizujecie gładko i bezproblemowo.
@@ -258,7 +410,8 @@ const posts = [
                 ]
             },
             {
-                headerSmall: <span className="grey">Folwark w Wąsowie - Idealne miejsce na ceremonię cywilną i nie tylko.</span>,
+                headerSmall: "Folwark w Wąsowie - Idealne miejsce na ceremonię cywilną i nie tylko.",
+                headerClassName: "grey",
                 text:
                     <>
                         Folwark Wąsowo daje ogromne możliwości aranżacyjne przestrzeni poza stodołą. To jedna z cech, za które lubimy go najbardziej. Uwielbiamy <CustomPostLink path='wesele-w-plenerze' className="linkLight">wesela plenerowe</CustomPostLink>, strefy chill out, zewnętrzny bar. Przestrzeń przed wejściem do stodoły Wąsowo jest bardzo duża, znajdziemy tam estetyczne parasole i stoliki. Ma to również szczególne znaczenie podczas organizacji poprawin. Kucharz będzie przygotowywał dla Was i Waszych gości pyszne specjały z grilla, a Wy możecie wylegiwać się na trawie lub ukryć w zaciszu stodoły i odpoczywać po weselu.
@@ -290,7 +443,8 @@ const posts = [
                 ]
             },
             {
-                headerSmall: <span className="grey">Stodoła Wąsowo - wybitnie dobra kuchnia.</span>,
+                headerSmall: "Stodoła Wąsowo - wybitnie dobra kuchnia.",
+                headerClassName: "grey",
                 text:
                     'Folwark Wąsowo ogromną wagę przywiązuje do jedzenia - sezonowe potrawy, lokalne produkty, własny ogród warzywny i tradycyjny smak w nowoczesny wydaniu. To musi się udać. Do dziś z rozrzewnieniem wspominamy przepyszną zupę borowikową i niezwykle dopracowany sposób serwowania dań.',
                 pics: [
@@ -300,7 +454,8 @@ const posts = [
                 ]
             },
             {
-                headerSmall: <span className="grey">No i te koty...</span>,
+                headerSmall: "No i te koty...",
+                headerClassName: "grey",
                 pics: [
                     {
                         src: require('./BlogPics/Post28/post28p.jpg').default
@@ -311,7 +466,8 @@ const posts = [
                 ]
             },
             {
-                headerSmall: <span className="grey">Folwark wąsowo - opinie</span>,
+                headerSmall: "Folwark wąsowo - opinie",
+                headerClassName: "grey",
                 text: 'W naszej karierze wedding plannera organizowałyśmy wesela w wielu pięknych miejscach. Według naszej opinii wesele w Folwarku Wąsowo to gwarancja niezapomnianych wspomnień i pewności, że wszystko zostanie dopracowane w najmniejszym detalu.'
             },
             {
@@ -1249,7 +1405,7 @@ const posts = [
         },
         textMain:
             <>
-                Od zawsze marzyliście o małym weselu dla najbliższych? A może było to podyktowane ograniczeniami budżetowymi? Tak czy siak, zanim zabierzecie się na dobre za organizację Waszego rodzinnego przyjęcia weselnego, musicie wiedzieć o kilku rzeczach. Na początku powinniśmy określić, czym tak naprawdę jest <span className="bgGreyLight">kameralne wesele.</span> Ilu gości bawi się na małym weselu? Zapewne dla jednych będzie to 10 dla innych 30 os. Na potrzeby tego artykułu przyjmijmy, że planujemy wesele do 50 osób.
+                Od zawsze marzyliście o małym weselu dla najbliższych? A może było to podyktowane ograniczeniami budżetowymi? Tak czy siak, zanim zabierzecie się na dobre za organizację Waszego rodzinnego przyjęcia weselnego, musicie wiedzieć o kilku rzeczach. Na początku powinniśmy określić, czym tak naprawdę jest kameralne wesele. Ilu gości bawi się na małym weselu? Zapewne dla jednych będzie to 10 dla innych 30 os. Na potrzeby tego artykułu przyjmijmy, że planujemy wesele do 50 osób.
             </>,
         topPic: {
             src: require('./BlogPics/Post19/post19a.jpg').default
@@ -1259,7 +1415,7 @@ const posts = [
                 headerSmall: 'Gdzie zorganizować małe wesele?',
                 text:
                     <>
-                        Tu mogą się pojawić pierwsze problemy. Większość właścicieli sal weselnych ustala minimalną ilość gości. Zazwyczaj jest to więcej niż 50 osób. Jeżeli nie spełnicie tych wymagań, prawdopodobnie będziecie musieli dopłacać za puste talerzyki lub sala weselna odmówi organizacji kameralnego wesela. W takiej sytuacji o oszczędnościach nie ma mowy. Inną możliwością jest wybór miejsca, w którym na co dzień nie odbywają się wesela. To z kolei często rodzi problemy innej natury. W przypadku takiego <span className="bgGreyLight">miejsce na kameralne wesele</span> trzeba będzie od podstaw stworzyć menu, być może pomyśleć o obrusach, serwetkach, odpowiedniej zastawie. Wizja kameralnego wesela w urokliwym pensjonacie brzmi wydaje się cudowna, ale organizacja przyjęcia w miejscu nieprzystosowanym do tego typu przyjęć zawsze jest dużym wyzwaniem. Czy w takim lokalu jest odpowiednio dużo miejsca na przechowywanie jedzenia i alkoholu? Czy pracuje tam wykwalifikowana obsługa kelnerska? Różne komplikacje w organizacji kameralnego wesela w miejscu do tego nieprzystosowanym mogą pojawić się na każdym etapie – od planowania po rozliczenie się z urządzonego przyjęcia weselnego, gdy goście rozjadą się już do domów. Może się okazać, że cena małego wesela organizowanego w miejscu, w którym dotychczas wesel nie organizowano, będzie znacznie wyższa niż w typowej <span className="bgGreyLight">sali weselnej</span>.
+                        Tu mogą się pojawić pierwsze problemy. Większość właścicieli sal weselnych ustala minimalną ilość gości. Zazwyczaj jest to więcej niż 50 osób. Jeżeli nie spełnicie tych wymagań, prawdopodobnie będziecie musieli dopłacać za puste talerzyki lub sala weselna odmówi organizacji kameralnego wesela. W takiej sytuacji o oszczędnościach nie ma mowy. Inną możliwością jest wybór miejsca, w którym na co dzień nie odbywają się wesela. To z kolei często rodzi problemy innej natury. W przypadku takiego miejsce na kameralne wesele trzeba będzie od podstaw stworzyć menu, być może pomyśleć o obrusach, serwetkach, odpowiedniej zastawie. Wizja kameralnego wesela w urokliwym pensjonacie brzmi wydaje się cudowna, ale organizacja przyjęcia w miejscu nieprzystosowanym do tego typu przyjęć zawsze jest dużym wyzwaniem. Czy w takim lokalu jest odpowiednio dużo miejsca na przechowywanie jedzenia i alkoholu? Czy pracuje tam wykwalifikowana obsługa kelnerska? Różne komplikacje w organizacji kameralnego wesela w miejscu do tego nieprzystosowanym mogą pojawić się na każdym etapie – od planowania po rozliczenie się z urządzonego przyjęcia weselnego, gdy goście rozjadą się już do domów. Może się okazać, że cena małego wesela organizowanego w miejscu, w którym dotychczas wesel nie organizowano, będzie znacznie wyższa niż w typowej sali weselnej.
                     </>,
                 pics: [
                     {
