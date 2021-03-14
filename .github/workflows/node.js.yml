@@ -21,6 +21,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: yarn install
+    - run: yarn sitemap
     - run: yarn build
     - name: S3 Sync
       uses: ItsKarma/aws-cli@v1.70.0
