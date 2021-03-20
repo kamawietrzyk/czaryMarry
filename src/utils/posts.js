@@ -254,7 +254,7 @@ const posts = [
                         <span className="bold dark">Do wyboru macie następujące opcje:</span>
                         <ul style={{ marginTop: ".5rem" }}>
                             <li>Zachowanie dotychczasowych nazwisk.</li>
-                            <li>Nazwisko dwuczłonowe - dodanie do swojego nazwiska, nazwiska współmałżonka.</li>
+                            <li>Nazwisko dwuczłonowe - dodanie do swojego nazwiska nazwiska współmałżonka.</li>
                             <li>Wybór wspólnego nazwiska, które dotąd nosiło jedno z Was.</li>
                         </ul>
                     </>
