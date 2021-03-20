@@ -7,6 +7,295 @@ import URLS from './urls'
 
 const posts = [
     {
+        path: 'dokumenty-slub-cywilny-formalnosci',
+        seoTitle: 'Jakie dokumenty do ślubu cywilnego - zawarcie małżeństwa w USC',
+        seoText: 'Planujesz zorganizować ślub cywilny? Zastanawiasz się co należy przygotować do ślubu cywilnego? Krok po kroku przeprowadzi cię agencja ślubna Czary Marry',
+        title: 'Co jest potrzebne do ślubu cywilnego?',
+        date: '20 mar 2021',
+        textShort: 'Z poradnika dowiesz się wszystkiego o formalnościach związanych z organizacją ślubu cywilnego, w tym jakie dokumenty do ślubu cywilnego potrzebujesz. Ślub cywilny...',
+        mainPic: {
+            src: require('../components/OurCouples/OurCouplesPics/BeataPawel/06.jpg').default
+        },
+        textMain:
+            <>
+                Z poradnika dowiesz się wszystko o formalnościach związanych z organizacją ślubu cywilnego w tym jakie dokumenty do ślubu cywilnego potrzebujesz.<br />
+            Ślub cywilny jest jedną z najpopularniejszych form zawarcia związku małżeńskiego w Polsce. Zgodnie z definicją zaczerpniętą z <CustomOuterLink text="Wikipedii" to="https://pl.wikipedia.org/wiki/Związek_cywilny" className="linkLight" /> jest to związek formalny, który w świetle prawa legalizuje wspólne życie partnerów, wiążąc ich emocjonalnie i ekonomicznie.<br />
+            Istnieje przeświadczenie, że ma wyłącznie urzędowy charakter i jest pozbawiony emocji. Nic bardziej mylnego. Są to niezwykle wzruszające ceremonie, w których nie brakuje pięknych przemów i muzyki, a co najważniejsze, można go zorganizować na łonie natury, co jest marzeniem wielu par młodych.
+            </>,
+        content: [
+            {
+                text: <span className="bold dark">Poniżej znajdziecie odpowiedzi na wszystkie pytania dotyczące formalności przed ślubem cywilnym.</span>,
+                pics: [
+                    {
+                        src: require('../components/OurCouples/OurCouplesPics/BeataPawel/06.jpg').default,
+                        author: 'Ania Kopeć Serdeczności'
+                    }
+                ],
+            },
+            {
+                headerSmall: 'Kto może wziąć ślub cywilny.',
+                headerClassName: 'pink',
+                text:
+                    <>
+                        Osoby, które mogą zawrzeć związek małżeński to:
+                        <ol style={{ marginTop: ".5rem" }}>
+                            <li>Osoby pełnoletnie.</li>
+                            <li>Niebędące w związku małżeńskim.</li>
+                            <li>Niespokrewnione w linii prostej oraz niebędące rodzeństwem (np. ojciec i córka, brat i siostra).</li>
+                            <li>Niespowinowacone w linii prostej (np. zięć i teściowa). </li>
+                            <li>Niebędące w stosunku przysposobienia (osoba adoptująca i adoptowana).</li>
+                        </ol>
+                    </>
+            },
+            {
+                text:
+                    <>
+                        Przypadki, w których o możliwości zawarcia związku małżeńskiego wymagana jest decyzja sądu:
+                        <ol style={{ marginTop: ".5rem" }}>
+                            <li>Kobiety niepełnoletnie, które ukończyły 16 lat.</li>
+                            <li>Osoby spowinowacone.</li>
+                            <li>Osoby dotknięte chorobą psychiczną albo niedorozwojem umysłowym.</li>
+                        </ol>
+
+                    </>
+            },
+            {
+                headerSmall: 'Który Urząd Stanu Cywilnego wybrać.',
+                headerClassName: 'pink',
+                text:
+                    <>
+                        Zależy od tego, w którym urzędzie lub jakiej miejscowości chcielibyście wziąć ślub. Wszystko, <span className="bold dark">co jest potrzebne do ślubu cywilnego</span>, należy złożyć w USC, który odpowiada za obszar, na którym odbędzie się ceremonia. Miejsce Waszego zameldowania nie ma tu znaczenia. Jeśli marzy Wam się <span className="bold dark">ślub cywilny poza urzędem</span> również wybieracie adekwatny do wybranego miejsca Urząd Stanu Cywilnego.
+                    </>
+            },
+            {
+                extraContent: <><span className="bold dark">UWAGA:</span> Jeśli macie wątpliwości, do którego USC się udać, możecie to sprawdzić na stronie <CustomOuterLink text="gov.pl" to="https://www.gov.pl/" className="linkDark" /> w zakładce "Gdzie wziąć ślub cywilny". Wystarczy tylko wpisać adres miejsca, a wyszukiwarka wskaże Wam odpowiedni urząd.</>,
+                extraContentClassName: "mx-5 bgPinkLight px-5 py-4 shadowBox",
+            },
+            {
+                headerSmall: 'Kto może udzielić ślubu cywilnego.',
+                headerClassName: 'pink',
+                text:
+                    <>
+                        Odpowiedź wydaje się oczywista - <span className="bold dark">kierownik Urzędu Stanu Cywilnego lub jego zastępca</span>. Jednak na mocy prawa czynności z zakresu rejestracji stanu cywilnego, w szczególności udzielania ślubów posiada również <span className="bold dark">wójt, burmistrz oraz prezydent miasta</span>. Może mieć to szczególne znaczenie w sytuacjach, kiedy sam urzędnik nie może udzielić ślubu w wyznaczonym terminie. Uzyskanie zgody na udzielenie ślubu przez którąś z wyżej wymienionych osób nie jest łatwe, jednak  warto mieć tego świadomość. Taka wiedza może okazać się przydatna w sytuacji, kiedy z jakichś przyczyn sam urzędnik odmawia Wam udzielenia ślubu, zasłaniając się swoją niedyspozycyjnością.
+                    </>
+            },
+            {
+                headerSmall: 'W jakie dni można wziąć ślub cywilny.',
+                headerClassName: 'pink',
+                text:
+                    <>
+                        Śluby cywilne są udzielane <span className="bold dark">od poniedziałku do soboty w godzinach pracy urzędu.</span> Oczywiście dokładne godziny należy skonsultować bezpośrednio z urzędnikiem, który będzie udzielał Wam ślubu. Najczęściej nieco późniejsze godziny jak 17:00 nie stanowią problemu. Problem pojawia się, jeśli chcecie wziąć ślub w niedzielę, która jest dniem wolnym od pracy. Z naszego doświadczenia wynika, że urzędy ściśle tego przestrzegają, ale z odsieczą może przyjść właśnie wspomniany wyżej wójt, burmistrz lub prezydent, o ile oczywiście zgodzi się udzielić ślubu osobiście.
+                    </>
+            },
+            {
+                headerSmall: 'Kiedy zgłosić się do Urzędu Stanu Cywilnego.',
+                headerClassName: 'pink',
+                text:
+                    <>
+                        Na pierwszą wizytę do Urzędu Stanu Cywilnego możecie wybrać się <span className="bold dark"> nie szybciej niż 6 miesięcy, ale nie później niż miesiąc (31 dni) przed planowanym ślubem.</span> Wynika to z faktu, że ważność zapewnienia o braku okoliczności wyłączających zawarcie małżeństwa wynosi właśnie 6 miesięcy. Ten dokument będziecie wypełniać na wizycie w Urzędzie Stanu Cywilnego.
+                    </>,
+                extraContent: <><span className="bold dark">UWAGA:</span> Niektóre urzędy praktykują wstępne rezerwowanie dat i godzin. Warto zadzwonić i dopytać o taką opcję. Ma to szczególne znaczenie w przypadku ślubów plenerowych, które wymagają wyjścia urzędnika poza USC.</>,
+                extraContentClassName: "mx-5 bgPinkLight px-5 py-4 shadowBox",
+            },
+            {
+                text: 'W szczególnych przypadkach okres oczekiwania na ślub może zostać skrócony. Najlepiej zapytać o taką możliwość w interesującym Was urzędzie. Zdarza się, że kierownicy urzędów wymagają bardzo rzetelnego uzasadnienia i składania oficjalnego wniosku, podczas gdy w innym urzędzie będzie to tylko formalnością wiążącą się z uiszczeniem opłaty w wysokości 39 zł.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post31/post31-podpisanie dokumentów - ślub cywilny.jpeg').default,
+                        author: 'Marta Brodziak'
+                    }
+                ]
+            },
+            {
+                headerSmall: 'Dokumenty potrzebne do ślubu cywilnego.',
+                headerClassName: 'grey',
+                text:
+                    <>
+                        <span className="bold dark" style={{ fontSize: '1.25rem', marginTop: '2rem', display: 'block' }}>Ślub cywilny polskich obywateli</span>
+                        <ol style={{ marginTop: "1rem" }}>
+                            <li>Dokumenty tożsamości (dowody osobiste lub paszporty) – do okazania.</li>
+                            <li>Dowód opłaty skarbowej – możecie zapłacić w kasie lub przelewem na konto urzędu - 84 zł.</li>
+                        </ol>
+                    </>
+            },
+            {
+                text:
+                    <>
+                        <span className="bold grey">Dodatkowe dokumenty potrzebne do ślubu cywilnego z wdowcem lub rozwodnikiem:</span>
+                        <ul style={{ marginTop: ".5rem" }}>
+                            <li>Rozwodnicy: skrócony odpis aktu małżeństwa oraz odpis wyroku sądu potwierdzającego rozwód.</li>
+                            <li>Wdowcy: odpis aktu zgonu małżonka.</li>
+                        </ul>
+                    </>
+            },
+            {
+                text:
+                    <>
+                        <span className="bold grey">Dodatkowe dokumenty potrzebne do ślubu cywilnego w wyjątkowych sytuacjach:</span>
+                        <ul style={{ marginTop: ".5rem" }}>
+                            <li>Jeśli jest wymagane – zezwolenie sądu na zawarcie małżeństwa.</li>
+                            <li>Jeśli będziecie korzystać z  pomocy pełnomocnika – zezwolenie sądu na zawarcie małżeństwa przez pełnomocnika wraz z pełnomocnictwem.</li>
+                            <li>Jeśli nie posiadasz polskich aktów cywilnych, należy przygotować ich zagraniczne odpowiedniki wraz z tłumaczeniem przysięgłym.</li>
+                        </ul>
+                    </>,
+                extraContent: <><span className="bold dark">UWAGA:</span> Nie musicie dostarczać aktów urodzenia osobiście, ponieważ znajdują się one w ogólnopolskim systemie. Mimo to, przed wizytą warto upewnić się, jak to wygląda w interesującym Was urzędzie. Może się okazać, że z jakichś powodów urzędnik nie widzi Waszych aktów urodzenia i będziecie musieli pobrać dokumenty osobiście, co wydłuży proces o kolejne 10 dni i będzie się wiązało z kolejnym spotkaniem z urzędnikiem. Jeśli jesteś obywatelem Polski, ale nie posiadasz polskiego aktu urodzenia, należy złożyć jego zagraniczny odpowiednik wraz z tłumaczeniem przysięgłym.</>,
+                extraContentClassName: "mx-5 bgGreyLight px-5 py-4 shadowBox",
+            },
+            {
+                text:
+                    <>
+                        <span className="bold dark" style={{ fontSize: '1.25rem', marginTop: '2rem' }}>Ślub cywilny z obcokrajowcem</span><br />
+                        <span style={{ marginTop: '1rem', display: 'block' }}>Osoby polskiego obywatelstwa obowiązują takie same formalności przed ślubem cywilnym z obcokrajowcem jak w przypadku ślubu z osobą tej samej narodowości.</span>
+                    </>
+            },
+            {
+                text:
+                    <>
+                        <span className="bold grey">Ślub z obcokrajowcem - dokumenty:</span>
+                        <ol style={{ marginTop: ".5rem" }}>
+                            <li>Ważny paszport lub inny dokument tożsamości.</li>
+                            <li>Odpis aktu urodzenia wraz z tłumaczeniem sporządzonym przez tłumacza przysięgłego.</li>
+                            <li>Dokument potwierdzający, możliwość zawarcia związku małżeńskiego według prawa, które obowiązuje w kraju, z którego pochodzi obcokrajowiec wraz z tłumaczeniem przysięgłym.</li>
+                            <li>Dodatkowo: karta pobytu - w przypadku osób, które mają prawo pobytu w Polsce lub Genewski Dokument Podróży - dla osób, które otrzymały status uchodźcy w Polsce.</li>
+                        </ol>
+                    </>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post31/post31 - ślub humanistyczny.jpeg').default,
+                        author: 'Greg Solak'
+                    }
+                ]
+            },
+            {
+                text:
+                    <>
+                        Wykaz państw wraz z organem wydającym <span className="bold dark">zaświadczenie stwierdzające możliwość zawarcia małżeństwa</span> znajdziecie <CustomOuterLink text="tutaj" to="https://www.migrapolis.pl/pl/dzialy-tematyczne/slub/zdolność-matrymonialna-cudzoziemca?fbclid=IwAR38xrIbG4gAVHC7Ef4f3YQBhAQ4sQFmTYHYmeoVyOBPd1K2h-XIvi1z2GU" className="linkLight" /> (dane z roku 2015). Istnieje również możliwość uzyskania dokumentu poprzez konsulat lub ambasadę danego kraju. <br />
+                    Zdarza się, że uzyskanie zaświadczenia o możliwości zawarcia małżeństwa okazuje się bardzo trudne. W takiej sytuacji niezbędne jest <span className="bold dark">orzeczenie sądu zwalniające z obowiązku złożenia zaświadczenia</span> oraz zgodę na ślub cywilny z obcokrajowcem w Polsce. <br />
+                    Wykaz państw, które nie wydają zaświadczeń stwierdzających możliwość zawarcia małżeństwa, znajdziecie <CustomOuterLink text="tutaj" to="https://www.migrapolis.pl/pl/dzialy-tematyczne/slub/zdolność-matrymonialna-cudzoziemca?fbclid=IwAR38xrIbG4gAVHC7Ef4f3YQBhAQ4sQFmTYHYmeoVyOBPd1K2h-XIvi1z2GU" className="linkLight" /> (dane z roku 2015).
+                    </>
+            },
+            {
+                text:
+                    <>
+                        <span className="bold dark">Aby uzyskać wspomniane orzeczenie</span>, należy złożyć wniosek do Sądu Rejonowego, właściwego dla miejsca zamieszkania cudzoziemca. W tej sprawie najlepiej skontaktować się bezpośrednio z sądem, który pokieruje Was w dalszych działaniach. Niestety sądy w różnych regionach posługują się nieco innymi wzorami wniosków i często wymagają innych załączników.<br /> <span className="bold dark">Najczęściej wymagane są:</span> odpis wniosku, aktu urodzenia, oraz paszportu wraz z tłumaczeniami przysięgłymi w dwóch egzemplarzach oraz dowód opłaty skarbowej w wysokości 100 zł. Czasami do wniosku należy dołączyć również zaświadczenia z Konsulatu o nie wydawaniu zaświadczeń lub odpis aktu urodzenia narzeczonego z polskim obywatelstwem.<br />
+                        <span className="bold dark">W uzasadnieniu należy podać utrudnienia</span>, jakie powodują, że obcokrajowiec nie może uzyskać zaświadczenia w kraju, z którego pochodzi i deklarujecie, że nie występują przeszkody do zawarcia małżeństwa z cudzoziemcem. Jeżeli któryś z narzeczonych nie posługuje się językiem polskim, należy zaznaczyć, że podczas rozprawy wymagana jest obecność tłumacza.
+                    </>
+            },
+            {
+                text:
+                    <>
+                        Po otrzymaniu wniosku wraz z kompletem dokumentów <span className="bold dark">sąd wyznacza termin rozprawy w postępowaniu nieprocesowym</span> i wzywa wnioskodawcę oraz drugiego z narzeczonych, aby ustalić, czy nie ma przeciwwskazań do zawarcia małżeństwa z cudzoziemcem w Polsce. Niestety nie jest jasno określone, ile czasu ma sąd od momentu złożenia wniosku do wezwania na rozprawę. Może to być zaledwie kilka dni, aczkolwiek na forach znajdziecie masę informacji, że na wezwanie trzeba czekać nawet 3 miesiące. Na pewno nie warto zostawiać tego na ostatnią chwilę.<br />
+                        Po zakończonym postępowaniu sąd wydaje postanowienie. Jeśli zgadzacie się z jego treścią, po upływie 21 dni ponownie udajecie się do sądu i prosicie o <span className="bold dark">odpis postanowienia wraz z klauzulą o prawomocności</span>, które składacie wraz z innymi dokumentami w USC.
+                    </>
+            },
+            {
+                headerSmall: 'Jak wygląda wizyta w USC przed ślubem.',
+                headerClassName: 'pink',
+                text:
+                    <>
+                        Podczas wizyty w urzędzie stanu cywilnego <span className="bold dark">powinniście ustalić lub potwierdzić ostateczną datę i godzinę ślubu. Złożyć komplet dokumentów oraz zapewnienie o tym, że nie wiecie o istnieniu okoliczności wyłączających zawarcie małżeństwa.</span> Taki dokument przygotuje dla Was urzędnik i poprosi o Wasze podpisy. Wszystkie dokumenty potrzebne do ślubu cywilnego musicie złożyć osobiście. Jeżeli nie ma takiej możliwości, by zgłosili się do USC  jednocześnie, możecie dopełnić formalności w różnych terminach.<br />
+                        W przypadku ślubu cywilnego podczas wizyty w USC nie musicie podejmować decyzji o nazwisku, jakie przyjmiecie po ślubie, macie na to czas, aż do momentu zawarcia ślubu. To również czas na złożenie wniosku o możliwości wzięcia ślubu poza urzędem stanu cywilnego.
+                    </>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post31/post31 - ślub w plenerze.jpeg').default,
+                        author: 'Svetlana Bennington'
+                    }
+                ]
+            },
+            {
+                headerSmall: 'Ślub cywilny poza urzędem.',
+                headerClassName: 'grey',
+                text:
+                    <>
+                        Na podstawie ustawy z dnia 1 stycznia 2015 r. dotyczącej prawa o aktach stanu cywilnego <span className="bold dark">istnieje możliwość zawarcia małżeństwa poza Urzędem Stanu Cywilnego.</span> W myśl nowych przepisów urzędnik jest zobowiązany do udzielenia ślubu w plenerze lub wynajętej w tym celu przestrzeni, o ile gwarantuje ono zachowanie uroczystej formy i bezpieczeństwo uczestników ceremonii. W przeciwnym razie kierownik Urzędu Stanu Cywilnego ma prawo odmówić udzielenia ślubu cywilnego poza urzędem. W zależności od tego, na jakie miejsce się zdecydujecie, urzędnik może poprosić o zgodę właściciela terenu, na którym chcecie zorganizować ceremonię. Nie jest to jednak regułą, ponieważ niektóre z nich zostały wcześniej zatwierdzone przez urząd, jako godne organizacji ślubu poza urzędem. <span className="bold dark">Optymalnym miejscem na ślub cywilny w plenerze  z przyczyn logistycznych jest teren otaczający salę</span>, jednak bardzo często pary marzą o ceremonii na plaży czy w górach. W takiej sytuacji musicie dowiedzieć się, kto jest właścicielem tego terenu. Być może jest nim nadleśnictwo, urząd miasta, hotel lub osoba prywatna. Wynajem przestrzeni na ślub cywilny w plenerze może się wiązać z dodatkowymi kosztami, które są ciężkie do oszacowania. W przypadku władz lokalnych może być to kwota około 500 zł, ale istnieją miasta, które udostępniają teren za darmo w ramach autopromocji. Pamiętajcie, aby unikać popularnych kąpielisk, czy bardzo turystycznych miejsc, gdzie nie ma możliwości na wyodrębnienie osobnej strefy na ślub cywilny w plenerze.  W takiej sytuacji z pewnością spotkacie się z odmową urzędnika, a jeśli nawet taką zgodę otrzymacie, to tłem dla Waszej uroczystości mogą stać się dmuchane zamki unoszące się na wodzie oraz roznegliżowani plażowicze. Niewskazane są również miejsca z utrudnionym dojazdem oraz takie gdzie trwają głośne prace remontowe lub organizowane są imprezy np. okolice beach barów. Niektórzy urzędnicy odmawiają również udzielenia ślubu w tej samej sali, w której odbywa się konsumpcja. <br />
+                        <span className="bold dark">Ile kosztuje ślub cywilny poza urzędem?</span> Oprócz standardowej opłaty w wysokości 84 zł doliczany jest koszt 1000 zł. Z opłaty są zwolnione osoby, których ślub cywilny odbywa się na terenie szpitala lub zakładu karnego.
+                    </>
+            },
+            {
+                headerSmall: 'Świadkowie - formalności związane ze ślubem w USC.',
+                headerClassName: 'grey',
+                text:
+                    <>
+                        <span className="bold dark">Świadkiem może być każdy, kobieta lub mężczyzna, którzy ukończyli 18 lat oraz posiadają aktualny dowód osobisty lub paszport.</span> Mogą to być dwie osoby tej samej płci. Jeśli nie są to osoby posługujące się językiem polskim wymagana jest obecność tłumacza na ceremonii. Od świadków, w razie potrzeby wymagane jest poświadczenia, że złożenie przysiąg małżeńskich miało miejsce. W związku z tym świadkowie nie mogą być jednocześnie osobami niesłyszącymi i niewidzącymi.
+                    </>
+            },
+            {
+                headerSmall: 'Dzień ślubu - co jest potrzebne do ślubu cywilnego.',
+                headerClassName: 'grey',
+                text:
+                    <>
+                        W przypadku ślubu w urzędzie stanu cywilnego musicie się do niego zgłosić na około 15 minut przed ceremonią. Pamiętajcie, że organizacja ceremonii w sali ślubów nie wyklucza przygotowania dekoracji. Musicie to tylko wcześniej skonsultować z kierownikiem urzędu. Jeżeli zaplanowaliście ślub cywilny w plenerze, urzędnik pojawi się chwilę przed rozpoczęciem ceremonii w wyznaczonym miejscu.<br />
+                        W obydwóch przypadkach urzędnik musi zweryfikować dane narzeczonych i świadków, w tym celu poprosi o:
+                        <ol style={{ marginTop: ".5rem" }}>
+                            <li>Dokumenty tożsamości narzeczonych (dowody osobiste lub paszporty).</li>
+                            <li>Dokumenty tożsamości świadków (dowody osobiste lub paszporty).</li>
+                        </ol>
+                    </>,
+                extraContent: <><span className="bold dark">UWAGA:</span> Jeśli jedno z Was lub waszych świadków nie mówi po polsku, musicie zapewnić tłumacza lub biegłego - nie jest wymagany tłumacz przysięgły.</>,
+                extraContentClassName: "mx-5 bgGreyLight px-5 py-4 shadowBox",
+            },
+            {
+                text:
+                    <>
+                        W przypadku ceremonii poza USC zadbajcie o <span className="bold dark">stolik dla urzędnika.</span> Jest on niezbędny w celu podpisania dokumentów. Na ślub cywilny poza urzędem należy również przygotować <span className="bold dark">wydruk godła, najlepiej w oprawie.</span> Zadbanie o ten element leży po stronie narzeczonych, ale często dysponują nim sale, innym razem urzędnik zabiera je ze sobą, zdarza się również, że urzędnicy w ogóle go nie wymagają, deklarując, że orzeł z godła jest zawieszony na ich szyi.<br />
+                        Co ciekawe, podczas ślubu cywilnego <span className="bold dark">nie musicie wymieniać się obrączkami.</span> Jest to symbol, na który decydują się niemal wszystkie pary, ale z prawnego punktu widzenia nie jest obowiązkiem.
+                    </>
+            },
+            {
+                headerSmall: 'Wybór nazwiska na ślubie cywilnym.',
+                headerClassName: 'grey',
+                text:
+                    'Po złożeniu oświadczenia o wstąpieniu w związek małżeński urzędnik poprosi o podanie nazwiska, jakie będziecie nosić po ślubie wy oraz Wasze dzieci.'
+            },
+            {
+                text:
+                    <>
+                        <span className="bold dark">Do wyboru macie następujące opcje:</span>
+                        <ul style={{ marginTop: ".5rem" }}>
+                            <li>Zachowanie dotychczasowych nazwisk.</li>
+                            <li>Nazwisko dwuczłonowe - dodanie do swojego nazwiska, nazwiska współmałżonka.</li>
+                            <li>Wybór wspólnego nazwiska, które dotąd nosiło jedno z Was.</li>
+                        </ul>
+                    </>
+            },
+            {
+                text: 'W przypadku gdy zdecydujecie się na zachowanie własnych nazwisk, musicie podjąć decyzję, jakie nazwisko będzie nosić Wasze przyszłe potomstwo. Może to być nazwisko jednego z Was lub nazwisko, które powstanie w wyniku ich połączenia. W przypadku braku decyzji z Waszej strony dzieci będą nosiły nazwisko dwuczłonowe.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post31/post31 - panna młoda z druhnami.jpeg').default,
+                        author: 'Małe szare studio'
+                    }
+                ]
+            },
+            {
+                headerSmall: 'Ślub cywilny kiedyś, a obecnie.',
+                headerClassName: 'pink',
+                text: 'Mimo że sam przebieg oraz treść przysięgi składanej podczas ślubu cywilnego nie uległy zmianie, to urzędnicy są coraz bardziej otwarci na wplatanie w ceremonię spersonalizowanych elementów. Na porządku dziennym jest już oprawa muzyczna ceremonii, urzędnicy bardzo chętnie przemawiają do pary młodej i gości, żartują, wplatają w swoje wystąpienia wiersze, czy cytaty. Niejednokrotnie wyrażają zgodę na odczytanie czegoś przez gości lub rozbudowanie samej przysięgi o bardziej intymne sformułowania. Najważniejsze, żeby wszystkie urozmaicenia, jakie planujecie skonsultować wcześniej z urzędnikiem, który będzie prowadził waszą ceremonię. Dzięki temu nie będzie zaskoczony, a i wy unikniecie w dniu ślubu nieprzyjemnego rozczarowania spowodowanego odmową.'
+            },
+            {
+                headerSmall: 'Po ślubie cywilnym.',
+                headerClassName: 'pink',
+                text:
+                    <>
+                        W przypadku ślubu zawartego w Urzędzie Stanu Cywilnego <span className="bold dark">dwa odpisy aktu małżeństwa</span> zostaną sporządzone natychmiastowo i otrzymacie je zaraz po ceremonii. Jeśli zdecydujecie się na ślub cywilny poza urzędem, prawdopodobnie będzie je można odebrać po weekendzie, w przypadku ślubów, które odbywają się w sobotę. <span className="bold dark">Zasadniczo dokumenty są przygotowywane najszybciej jak to możliwe,  są bezpłatne i należy je odebrać osobiście.</span>
+                    </>
+            },
+            {
+                text:
+                    'Sporządzenie każdego kolejnego odpisu aktu małżeństwa to koszt 22 zł za odpis skrócony oraz 32 zł za odpis zupełny. Wniosek o kolejne odpisy aktu stanu cywilnego możecie złożyć osobiście lub przez pełnomocnika. W kontekście tego artykułu warto wymienić rodziców, rodzeństwo oraz dziadków. Odpisy aktu małżeństwa możecie otrzymać w formie papierowej na podstawie wniosku złożonego w dowolnym Urzędzie Stanu Cywilnego lub w formie elektronicznej poprzez profil zaufany.Pamiętajcie, że elektroniczna forma aktu jest ważna tylko w tej formie, nie można jej drukować, ponieważ w formie papierowej nie ma mocy prawnej.',
+                extraContent: <><span className="bold dark">UWAGA:</span> Jeśli jeden z małżonków jest obcokrajowcem, nie ma prawnego obowiązku, żeby zgłaszać wstąpienie w związek małżeński w państwie, z którego pochodzi. Jednak warto to zrobić, żeby uniknąć nieporozumień w przyszłości, kiedy będziecie musieli załatwić jakieś formalności poza Polską.</>,
+                extraContentClassName: "mx-5 bgPinkLight px-5 py-4 shadowBox"
+            },
+            {
+                text:
+                    <>
+                        Jeśli chcecie dowiedzieć się więcej, jakie formalności czekają Was po ślubie to zapraszamy do lektury naszego poradnika <CustomPostLink text="Co załatwić po ślubie" path="formalnosci-po-slubie" className="linkPink" />.
+                    </>
+            }
+        ]
+    },
+    {
         path: 'przygotowania-do-slubu-formalnosci',
         seoTitle: 'Od czego zacząć przygotowania do ślubu? Formalności przed ślubem',
         seoText: 'Planujecie ślub i wesele, ale nie wiecie kiedy i od czego zacząć przygotowania? Przekonajcie się, jak łatwo i sprawnie dzięki naszym radom zaplanować organizację ślubu i wesela!',
@@ -29,9 +318,6 @@ const posts = [
                         Jeszcze przed rozpoczęciem przygotowań do ślubu musicie sobie uświadomić kilka najważniejszych zasad, jakie rządzą przygotowaniami do ślubu i wesela, niezależnie gdzie, kiedy i jaką uroczystość planujecie zorganizować. Przede wszystkim każda Para Młoda uskarża się na brak czasu i pośpiech w kwestii przygotowań do ślubu. Dlatego pod żadnym pozorem nie zostawiajcie żadnych zadań na ostatnią chwilę. Dobrą praktyką jest rozłożenie przygotowań na poszczególne miesiące i sukcesywne załatwianie pojedynczych spraw krok po kroku. W momencie, kiedy zaczniecie organizować wszystko na raz, szybko się pogubicie, a przede wszystkim zniechęcicie.<br />
                         Podobną zasadą kierujcie się przy ustalaniu budżetu na ślub. Być może robiliście już kiedyś remont? Wszyscy powtarzali Wam, by budżet zaplanować „z zakładką” 10%? Jesteśmy niemal przekonane, że mimo takiego zapasu i tak pod koniec brakowało Wam funduszy na niektóre drobiazgi, które musieliście przełożyć w czasie. No właśnie – w przypadku wesela nie będziecie w stanie przełożyć wydatków, dlatego naprawdę wyznaczcie sobie bufor w postaci co najmniej 10%.
                     </>,
-
-                // extraContent: "Etiam vulputate lobortis erat, sit amet egestas ipsum mollis quis. Nulla et blandit massa, et placerat arcu. Nunc id posuere lacus. Nulla rhoncus eu risus eu finibus. In efficitur, sapien scelerisque pellentesque interdum, dolor nulla ornare risus, sed auctor eros odio condimentum elit.",
-                // extraContentClassName: "mx-5 bgPinkLight px-5 py-4 shadowBox",
 
                 pics: [
                     {
@@ -85,8 +371,8 @@ const posts = [
                     <>
                         Temat ogarnięcia dokumentów zarówno do ślubu cywilnego, jak i kościelnego czy konkordatowego nie należy do najprostszych. Warto dobrze przygotować się do tego procesu. Aby ułatwić naszym Parom załatwianie formalności przygotowałyśmy poradniki. Chcecie wiedzieć jakie dokumenty przygotować przed ślubem? <br /> Więcej możecie przeczytać tu:<br />
                         <ul style={{ marginTop: "1rem" }}>
-                            <li><CustomPostLink text="PORADNIK - ślub cywilny krok po kroku" path="UZUPEŁNIĆ!!" className="linkMint" /></li>
-                            <li><CustomPostLink text="PORADNIK - ślub konkordatowy" path="UZUPEŁNIĆ!!!" className="linkMint" /></li>
+                            <li><CustomPostLink text="PORADNIK - ślub cywilny krok po kroku" path="dokumenty-slub-cywilny-formalnosci" className="linkMint" /></li>
+                            <li><CustomPostLink text="PORADNIK - ślub konkordatowy" path="dokumenty-do-slubu-koscielnego-konkordatowego" className="linkMint" /></li>
                         </ul>
                     </>
             },
