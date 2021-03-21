@@ -78,7 +78,7 @@ const PostPage = () => {
                             <h2 className={`subheader ${headerClassName}`}>{headerSmall}</h2>
                             <p>{text}</p>
                             {extraContent &&
-                                <div className={`my-5 ${extraContentClassName}`}>{extraContent}</div>}
+                                <div className={`extra-content ${extraContentClassName}`}>{extraContent}</div>}
                             {pics && pics.map((pic, index) => (
                                 <Picture className="my-2" item={pic} key={index} />))}
                         </div>

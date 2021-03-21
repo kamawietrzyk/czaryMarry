@@ -30,7 +30,7 @@ const posts = [
             {
                 text: 'Zanim przejdziemy dalej warto wyjaśnić sobie parę pojęć, które używane są zamiennie i my też tak tu będziemy robić, ale oficjalnie znaczą co innego.',
                 extraContent: 'Ślub konkordatowy ma moc prawną i jest jednocześnie ślubem wyznaniowym, natomiast w dokładnym rozumieniu ślub kościelny nie ma mocy prawnej i dotyczy głównie osób, które zgodnie z prawem są już małżeństwem.',
-                extraContentClassName: "mx-5 bgMintLight px-5 py-4 shadowBox",
+                extraContentClassName: "bgMintLight shadowBox",
             },
             {
                 text: <>Decydując się na ślub kościelny pamiętajcie, że każda parafia jest inna. Zwyczaje czy obowiązki do spełnienia mogą różnić się w zależności od kościoła. W kwestii dokumentów do ślubu kościelnego istotne jest, aby mieć wszystko ustalone z księdzem w parafii w której bierze się ślub. <br />Kierowanie się radami w kwestii co trzeba załatwić przed ślubem kościelnych osób, które brały ślub konkordatowy w innym miejscu, nie jest najlepszym pomysłem. Jeśli coś jest dla Was niejasne lub nie jesteście pewni co jest potrzebne do ślubu kościelnego przede wszystkim pytajcie osoby decyzyjnej, czyli Waszego księdza proboszcza.</>
@@ -52,7 +52,7 @@ const posts = [
                             <li>Osoby niebędące ze sobą spowinowacone w linii prostej.</li>
                         </ol>
                     </>,
-                extraContentClassName: "mx-5 bgMintLight px-5 py-4 shadowBox",
+                extraContentClassName: "bgMintLight shadowBox",
             },
             {
                 text: <span className="bold dark">Więcej o tym, kto może zawrzeć związek małżeński w rozumieniu polskiego prawa dowiecie się <CustomPostLink text="tutaj" path="dokumenty-slub-cywilny-formalnosci" className="linkMint" />.</span>,
@@ -71,7 +71,7 @@ const posts = [
                     <>
                         Musimy tutaj wspomnieć, że choć w rozumieniu tradycji za parafię Pana Młodego czy Panny Młodej uważa się miejsce, gdzie mieszkali przez swoje młodzieńcze życie i gdzie przystępowali do najważniejszych sakramentów kościelnych to w świetle prawa kanonicznego <span className="bold">Waszymi parafiami są te, które odpowiadają Waszym aktualnym miejscom zamieszkania</span>, przy czym musicie zamieszkiwać tam co najmniej 6 miesięcy.
                     </>,
-                extraContentClassName: "mx-5 bgGreyLight px-5 py-4 shadowBox",
+                extraContentClassName: "bgGreyLight shadowBox",
             },
             {
                 text:
@@ -134,7 +134,7 @@ const posts = [
                     </>,
                 extraContent:
                     'Pamiętajcie, że dokumenty z Urzędu Stanu Cywilnego do ślubu konkordatowego ważne są maksymalnie 6 miesięcy, więc wizyta z dużym wyprzedzeniem nie będzie miała sensu.',
-                extraContentClassName: "mx-5 bgMintLight px-5 py-4 shadowBox",
+                extraContentClassName: "bgMintLight shadowBox",
             },
             {
                 text:
@@ -145,15 +145,15 @@ const posts = [
                         O ten dokument ksiądz może poprosić, ale nie musi. W oficjalnych informacjach o tym co jest potrzebne do ślubu konkordatowego nie jest wymieniany ten punkt, ale coraz częściej słyszy się, że księża wymagają poświadczenia uczęszczania na religię. <br />Kiedy uda Wam się załatwić dokumenty z poniższej listy czeka Was kolejny ważny punkt, a mianowicie spotkanie z Waszym księdzem i spisanie protokołu przedmałżeńskiego.
                     </>,
                 extraContent:
-                    <ul>
+                    <ol>
                         <li>Nauki przedmałżeńskie.</li>
                         <li>Zaświadczenie z poradni życia rodzinnego.</li>
                         <li>Aktualne zaświadczenie z USC.</li>
                         <li>Akt chrztu oraz akt bierzmowania.</li>
                         <li>Świadectwo uczęszczania na katechezę (jeśli jest wymagane).</li>
                         <li>Licencje (jeśli wybraliście na miejsce swojego ślubu kościół poza miejscem zamieszkania).</li>
-                    </ul>,
-                extraContentClassName: "mx-5 bgMintLight px-5 py-4 shadowBox",
+                    </ol>,
+                extraContentClassName: "bgMintLight shadowBox",
                 pics: [
                     {
                         src: require('./BlogPics/Post32/post32 - wymiana obrączek.jpeg').default,
@@ -167,7 +167,7 @@ const posts = [
                 text: 'Pamiętajcie, aby przed wizytą u Waszego duchownego sprawdzić czy macie skompletowane wszystkie papiery do ślubu konkordatowego.',
                 extraContent:
                     <><span className="bold dark">WAŻNE:</span> Weźcie ze sobą aktualne dowody osobiste lub paszporty.</>,
-                extraContentClassName: "mx-5 bgGreyLight px-5 py-4 shadowBox",
+                extraContentClassName: "bgGreyLight shadowBox",
             },
             {
                 text: 'Ksiądz na podstawie przyniesionych przez Was dokumentów sporządzi protokół przedślubny oraz rozpisze zapowiedzi przedślubne. Zapowiedzi powinny być wygłaszane przez dwie kolejne niedziele w parafii panny młodej oraz pana młodego.Pamiętajcie, że w przypadku brania ślubu poza swoją parafią to do Was należy obowiązek poinformowania swojej parafii o planowanym ślubie i skierowane prośby o wygłoszenie zapowiedzi.Wygłoszenie zapowiedzi podczas mszy, zostanie potwierdzone wydaniem zaświadczenia.'
@@ -208,7 +208,7 @@ const posts = [
                         </ol>
                     </>
                 ,
-                extraContentClassName: "mx-5 bgMintLight px-5 py-4 shadowBox",
+                extraContentClassName: "bgMintLight shadowBox",
             },
             {
                 headerSmall: 'DZIEŃ ŚLUBU KOŚCIELNEGO.',
@@ -240,7 +240,7 @@ const posts = [
                 text: 'Od dłuższego czasu mieszkacie zagranicą, ale oboje jesteście narodowości polskiej i podjęliście decyzję o wzięciu ślubu oraz organizacji wesela w Polsce i teraz zastanawiacie się czy formalności do ślubu konkordatowego różnią się dla was od tych dla Par Młodych mieszkających na stałe w kraju. Musicie wiedzieć, że po upływie 3 miesięcy od opuszczenia kraju i zamieszkania w innym państwie nabywacie tzw. quasi domicilium, czyli czasowe zamieszkanie kanoniczne w innym miejscu, a tym samym najbliższy kościół staje się waszą nową parafią. Ponieważ po stronie proboszcza Waszej parafii leży obowiązek załatwienia w Waszym imieniu formalności związanych ze ślubem, nie powinniście mieć obaw udając się do kościoła w waszym miejscu zamieszkania i prosząc go o przygotowanie dokumentów. Jeśli obawiacie się o barierę językową, możecie sprawdzić czy w pobliżu nie znajduje się Polska Misja Katolicka, a więc polska parafia stacjonująca na obczyźnie.',
                 extraContent:
                     'Obowiązkiem księdza jest załatwienie formalności, ale to po Waszej stronie leży dostarczenie mu kompletu dokumentów. Zasady pozyskania poszczególnych zaświadczeń są dla Was takie same jak dla Par mieszkających na stałe w Polsce.',
-                extraContentClassName: "mx-5 bgGreyLight px-5 py-4 shadowBox",
+                extraContentClassName: "bgGreyLight shadowBox",
             },
             {
                 text:
@@ -257,7 +257,7 @@ const posts = [
                     </>,
                 extraContent:
                     <><span className="bold dark">WAŻNE:</span> Weźcie ze sobą dowody osobiste lub paszporty.</>,
-                extraContentClassName: "mx-5 bgGreyLight px-5 py-4 shadowBox",
+                extraContentClassName: "bgGreyLight shadowBox",
             },
             {
                 text:
@@ -266,7 +266,7 @@ const posts = [
                     </>,
                 extraContent:
                     <><span className="bold dark">Podsumowując:</span> Narzeczeni w celu załatwienia formalności do ślubu kościelnego powinni udać się zawsze do proboszcza parafii, gdzie faktycznie mieszkają przynajmniej od trzech miesięcy (a nie tam, gdzie posiadają cywilne zameldowanie).</>,
-                extraContentClassName: "mx-5 bgGreyLight px-5 py-4 shadowBox",
+                extraContentClassName: "bgGreyLight shadowBox",
             },
             {
                 text: 'Jeśli udało Wam się pominąć wizyty w Polsce na etapie załatwiania formalności to na pewno nie uniknięcie wizyty w docelowym kościele, gdzie chcecie wziąć ślub w Polsce i osobistego zarezerwowania terminu. Duchowny na podstawie wspomnianej licencji kanonicznej, potwierdzonej przez dwie kurie diecezjalne rezerwuje dla Was termin.'
@@ -311,7 +311,7 @@ const posts = [
                         </ol>
                     </>
                 ,
-                extraContentClassName: "mx-5 bgMintLight px-5 py-4 shadowBox",
+                extraContentClassName: "bgMintLight shadowBox",
             },
             {
                 text: 'Pomiędzy ceremoniami nie ma wielu różnic (msze przebiegają tak samo). Nie ma obowiązku, aby podczas ślubu kościelnego towarzyszyli Wam Ci sami świadkowie co podczas ślubu cywilnego. Ponownie wymienicie się obrączkami, ale tu w zupełności sprawdzą się te ze ślubu cywilnego. Nie ma potrzeby kupowania nowych.'
@@ -358,7 +358,7 @@ const posts = [
                 extraContent:
                     <><span className="bold dark">Ważne:</span> Osoba niewierząca nie musi uczestniczyć w załatwieniu formalności, ale jeśli będzie to dla niej ważne to jak najbardziej może wesprzeć w tym drugą osobę.<br /> Przed osobą wierzącą, po załatwieniu wymaganych dokumentów, leży wizyta w parafii i spisanie protokołu przedślubnego.
                     </>,
-                extraContentClassName: "mx-5 bgGreyLight px-5 py-4 shadowBox",
+                extraContentClassName: "bgGreyLight shadowBox",
             },
             {
                 text: 'Pamiętajcie również, że jeśli zdecydowaliście się na ślub poza miejscem zamieszkania osoby wierzącej musicie zadbać o wydanie sublicencji lub licencji dla księdza, gdzie będzie odbywać się ceremonia zaślubin. Sublicencja upoważnia księdza z parafii, w której odbędzie się ślub do załatwienia wszystkich formalności do ślubu kościelnego. Licencja upoważnia księdza z parafii, w której odbędzie się ślub tylko do udzielenia sakramentu. Dokumenty do ślubu kościelnego załatwiacie wtedy z księdzem w parafii, gdzie mieszkacie.'
@@ -384,7 +384,7 @@ const posts = [
                 extraContent:
                     <><span className="bold dark">Ważne:</span> Prawo kanoniczne zabrania udzielania ślubu w dwóch obrządkach, zawrzeć go można tylko w jednym. <br />Jeśli jesteście dwóch wyznań, nie możecie zrobić tak, że każde z Was podczas jednej ceremonii będzie przysięgać drugiej osobie w swojej religii. Zabronione jest bowiem udzielenie małżeństwa jednocześnie przez księdza katolickiego i kapłana innego wyznania. <br /> Dodatkowo nie możecie najpierw wziąć ślubu w jednym wyznaniu, a za jakiś czas w drugim. Decydując się na ceremonię musicie wybrać, w którym obrządku zostanie ona przeprowadzona.
                     </>,
-                extraContentClassName: "mx-5 bgMintLight px-5 py-4 shadowBox"
+                extraContentClassName: "bgMintLight shadowBox"
             },
             {
                 headerSmall: 'Ślub z osobą wyznania prawosławnego',
@@ -419,7 +419,7 @@ const posts = [
                         </ol>
                     </>
                 ,
-                extraContentClassName: "mx-5 bgMintLight px-5 py-4 shadowBox",
+                extraContentClassName: "bgMintLight shadowBox",
             },
             {
                 text:
@@ -528,7 +528,7 @@ const posts = [
             },
             {
                 extraContent: <><span className="bold dark">UWAGA:</span> Jeśli macie wątpliwości, do którego USC się udać, możecie to sprawdzić na stronie <CustomOuterLink text="gov.pl" to="https://www.gov.pl/" className="linkDark" /> w zakładce "Gdzie wziąć ślub cywilny". Wystarczy tylko wpisać adres miejsca, a wyszukiwarka wskaże Wam odpowiedni urząd.</>,
-                extraContentClassName: "mx-5 bgPinkLight px-5 py-4 shadowBox",
+                extraContentClassName: "bgPinkLight shadowBox",
             },
             {
                 headerSmall: 'Kto może udzielić ślubu cywilnego.',
@@ -554,7 +554,7 @@ const posts = [
                         Na pierwszą wizytę do Urzędu Stanu Cywilnego możecie wybrać się <span className="bold dark"> nie szybciej niż 6 miesięcy, ale nie później niż miesiąc (31 dni) przed planowanym ślubem.</span> Wynika to z faktu, że ważność zapewnienia o braku okoliczności wyłączających zawarcie małżeństwa wynosi właśnie 6 miesięcy. Ten dokument będziecie wypełniać na wizycie w Urzędzie Stanu Cywilnego.
                     </>,
                 extraContent: <><span className="bold dark">UWAGA:</span> Niektóre urzędy praktykują wstępne rezerwowanie dat i godzin. Warto zadzwonić i dopytać o taką opcję. Ma to szczególne znaczenie w przypadku ślubów plenerowych, które wymagają wyjścia urzędnika poza USC.</>,
-                extraContentClassName: "mx-5 bgPinkLight px-5 py-4 shadowBox",
+                extraContentClassName: "bgPinkLight shadowBox",
             },
             {
                 text: 'W szczególnych przypadkach okres oczekiwania na ślub może zostać skrócony. Najlepiej zapytać o taką możliwość w interesującym Was urzędzie. Zdarza się, że kierownicy urzędów wymagają bardzo rzetelnego uzasadnienia i składania oficjalnego wniosku, podczas gdy w innym urzędzie będzie to tylko formalnością wiążącą się z uiszczeniem opłaty w wysokości 39 zł.',
@@ -598,7 +598,7 @@ const posts = [
                         </ul>
                     </>,
                 extraContent: <><span className="bold dark">UWAGA:</span> Nie musicie dostarczać aktów urodzenia osobiście, ponieważ znajdują się one w ogólnopolskim systemie. Mimo to, przed wizytą warto upewnić się, jak to wygląda w interesującym Was urzędzie. Może się okazać, że z jakichś powodów urzędnik nie widzi Waszych aktów urodzenia i będziecie musieli pobrać dokumenty osobiście, co wydłuży proces o kolejne 10 dni i będzie się wiązało z kolejnym spotkaniem z urzędnikiem. Jeśli jesteś obywatelem Polski, ale nie posiadasz polskiego aktu urodzenia, należy złożyć jego zagraniczny odpowiednik wraz z tłumaczeniem przysięgłym.</>,
-                extraContentClassName: "mx-5 bgGreyLight px-5 py-4 shadowBox",
+                extraContentClassName: "bgGreyLight shadowBox",
             },
             {
                 text:
@@ -692,7 +692,7 @@ const posts = [
                         </ol>
                     </>,
                 extraContent: <><span className="bold dark">UWAGA:</span> Jeśli jedno z Was lub waszych świadków nie mówi po polsku, musicie zapewnić tłumacza lub biegłego - nie jest wymagany tłumacz przysięgły.</>,
-                extraContentClassName: "mx-5 bgGreyLight px-5 py-4 shadowBox",
+                extraContentClassName: "bgGreyLight shadowBox",
             },
             {
                 text:
@@ -744,7 +744,7 @@ const posts = [
                 text:
                     'Sporządzenie każdego kolejnego odpisu aktu małżeństwa to koszt 22 zł za odpis skrócony oraz 32 zł za odpis zupełny. Wniosek o kolejne odpisy aktu stanu cywilnego możecie złożyć osobiście lub przez pełnomocnika. W kontekście tego artykułu warto wymienić rodziców, rodzeństwo oraz dziadków. Odpisy aktu małżeństwa możecie otrzymać w formie papierowej na podstawie wniosku złożonego w dowolnym Urzędzie Stanu Cywilnego lub w formie elektronicznej poprzez profil zaufany.Pamiętajcie, że elektroniczna forma aktu jest ważna tylko w tej formie, nie można jej drukować, ponieważ w formie papierowej nie ma mocy prawnej.',
                 extraContent: <><span className="bold dark">UWAGA:</span> Jeśli jeden z małżonków jest obcokrajowcem, nie ma prawnego obowiązku, żeby zgłaszać wstąpienie w związek małżeński w państwie, z którego pochodzi. Jednak warto to zrobić, żeby uniknąć nieporozumień w przyszłości, kiedy będziecie musieli załatwić jakieś formalności poza Polską.</>,
-                extraContentClassName: "mx-5 bgPinkLight px-5 py-4 shadowBox"
+                extraContentClassName: "bgPinkLight shadowBox"
             },
             {
                 text:
