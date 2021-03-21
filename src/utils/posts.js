@@ -7,6 +7,465 @@ import URLS from './urls'
 
 const posts = [
     {
+        path: 'dokumenty-do-slubu-koscielnego-konkordatowego',
+        seoTitle: 'Dokumenty do ślubu kościelnego i konkordatowego | formalności objaśniają Czary Marry',
+        seoText: 'Przed Wami ślub kościelny lub konkordatowy? Przez formalności krok po kroku przeprowadzi Was agencja ślubna Czary Marry.',
+        title: 'Dokumenty potrzebne do ślubu kościelnego i konkordatowego, czyli o formalnościach słów kilka',
+        date: '21 mar 2021',
+        textShort: 'Ślub wyznaniowy, nazywany potocznie ślubem konkordatowym lub ślubem kościelnym, to jedna z...',
+        mainPic: {
+            src: require('../components/OurCouples/OurCouplesPics/AngelikaPawel/04.jpg').default
+        },
+        textMain: 'Ślub wyznaniowy, nazywany potocznie ślubem konkordatowym lub ślubem kościelnym, to jedna z najpopularniejszych form zawierania małżeństwa przez Młode Pary. Jest bardzo ważny dla osób wierzących, ale cieszy się też dużym powodzeniem ze względu na swoją podniosłą formę. Często uważa się, że taki ślub silniej cementuje związek niż sam ślub cywilny. Za ślubem kościelnym przemawia również jego długość trwania, a także miejsce jego zawierania. Mówi się, że wnętrza kościołów tylko potęgują podniosłość tego dnia. Pomimo licznych ograniczeń, takich jak praktycznie brak możliwości wzięcia go w plenerze, brak wygłoszenia własnych przysiąg czy zakaz grania świeckich utworów, Pary często zaznaczają, że czują, że ten ślub ma większą moc od ślubu cywilnego.',
+        content: [
+            {
+                text: <span className="bold dark">Poniżej przeczytacie, jakie należy spełnić warunki ślubu konkordatowego.</span>,
+                pics: [
+                    {
+                        src: require('../components/OurCouples/OurCouplesPics/AngelikaPawel/04.jpg').default,
+                        author: ' Jam Studio'
+                    }
+                ]
+            },
+            {
+                text: 'Zanim przejdziemy dalej warto wyjaśnić sobie parę pojęć, które używane są zamiennie i my też tak tu będziemy robić, ale oficjalnie znaczą co innego.',
+                extraContent: 'Ślub konkordatowy ma moc prawną i jest jednocześnie ślubem wyznaniowym, natomiast w dokładnym rozumieniu ślub kościelny nie ma mocy prawnej i dotyczy głównie osób, które zgodnie z prawem są już małżeństwem.',
+                extraContentClassName: "mx-5 bgMintLight px-5 py-4 shadowBox",
+            },
+            {
+                text: <>Decydując się na ślub kościelny pamiętajcie, że każda parafia jest inna. Zwyczaje czy obowiązki do spełnienia mogą różnić się w zależności od kościoła. W kwestii dokumentów do ślubu kościelnego istotne jest, aby mieć wszystko ustalone z księdzem w parafii w której bierze się ślub. <br />Kierowanie się radami w kwestii co trzeba załatwić przed ślubem kościelnych osób, które brały ślub konkordatowy w innym miejscu, nie jest najlepszym pomysłem. Jeśli coś jest dla Was niejasne lub nie jesteście pewni co jest potrzebne do ślubu kościelnego przede wszystkim pytajcie osoby decyzyjnej, czyli Waszego księdza proboszcza.</>
+            },
+            {
+                headerSmall: 'KTO MOŻE WZIĄĆ ŚLUB KONKORDATOWY.',
+                headerClassName: 'mint',
+                text:
+                    <>
+                        Wg Kodeksu Prawa Kanonicznego Kan. 1058 - Małżeństwo mogą zawrzeć wszyscy, którym prawo tego nie zabrania. Jeśli patrzeć na aspekt wiary to ślub konkordatowy jest dla osób, które są osobami wierzącymi, przynależą do wybranej parafii, przystąpiły do wymaganych sakramentów świętych, takich jak np. chrzest czy bierzmowanie.<br /> Ślub wyznaniowy spowoduje, że zostaniecie małżeństwem zgodnie z polskim prawem, a więc będzie miał skutki cywilne, dlatego pojawiają się też prawne wymogi, kto może wejść w związek małżeński i są takie same jak przy ślubie cywilnym.
+                    </>,
+                extraContent:
+                    <>
+                        <span className="bold">Ślub mogą zawrzeć:</span>
+                        <ol style={{ marginTop: ".5rem" }}>
+                            <li>Osoby pełnoletnie.</li>
+                            <li>Osoby niebędące w związku małżeńskim.</li>
+                            <li>Osoby niebędące ze sobą spokrewnione w linii prostej i niebędące rodzeństwem.</li>
+                            <li>Osoby niebędące ze sobą spowinowacone w linii prostej.</li>
+                        </ol>
+                    </>,
+                extraContentClassName: "mx-5 bgMintLight px-5 py-4 shadowBox",
+            },
+            {
+                text: <span className="bold dark">Więcej o tym, kto może zawrzeć związek małżeński w rozumieniu polskiego prawa dowiecie się <CustomPostLink text="tutaj" path="dokumenty-slub-cywilny-formalnosci" className="linkMint" />.</span>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post32/post32 - ślub kościelny przysięga.jpeg').default,
+                        author: 'Bauaban Wedding Stories'
+                    }
+                ]
+            },
+            {
+                headerSmall: 'ŚLUB KOŚCIELNY - REZERWACJA TERMINU.',
+                headerClassName: 'grey',
+                text: 'W celu rezerwacji terminu ślubu udajcie się do zakrystii lub kancelarii kościoła, który wybraliście na miejsce ceremonii. Jeśli tylko wybrana przez Was parafia prowadzi kalendarz to termin możecie zarezerwować zaraz po znalezieniu sali weselnej. Jeszcze do niedawna silnie zakorzeniona tradycja nakazywała, aby przyszli małżonkowie pobierali się w kościele parafialnym odpowiadającym miejscu zamieszkania panny młodej.Od jakiegoś czasu obyczaje mocno się zmieniły i przyszli małżonkowie coraz mniej przejmują się tą tradycją. To, co jednak ważne, to od wyboru miejsca ceremonii będą zależały dalsze formalności. W przypadku wyboru lokalizacji poza Waszą aktualną parafią (inne miasto lub kraj) gromadzenie i dostarczanie dokumentów często bywa bardziej skomplikowane.',
+                extraContent:
+                    <>
+                        Musimy tutaj wspomnieć, że choć w rozumieniu tradycji za parafię Pana Młodego czy Panny Młodej uważa się miejsce, gdzie mieszkali przez swoje młodzieńcze życie i gdzie przystępowali do najważniejszych sakramentów kościelnych to w świetle prawa kanonicznego <span className="bold">Waszymi parafiami są te, które odpowiadają Waszym aktualnym miejscom zamieszkania</span>, przy czym musicie zamieszkiwać tam co najmniej 6 miesięcy.
+                    </>,
+                extraContentClassName: "mx-5 bgGreyLight px-5 py-4 shadowBox",
+            },
+            {
+                text:
+                    <>
+                        Jeszcze do niedawna według Kościoła śluby mogły odbywać się tylko w soboty. Od roku 2019  prawo kościoła pozwala na wyjątki i zawieranie ślubu również w inne dni tygodnia. W związku z tym, w przypadku rozważania ślubu w dzień powszedni możemy poprosić księdza o udzielenie dyspensy, czyli zwolnienie od przepisów prawa kościelnego. <br /> Jednak jeśli rozważacie ślub w piątek doradzamy zamienić kolejność i przed rezerwacją sali udać się w pierwszej kolejności do księdza. Ciągle w rozumowaniu wielu księży piątek to dzień pokutny i nie patrzą przychylnie na udzielanie ślubów w ten dzień. <br /> Po zarezerwowaniu terminu możecie zacząć powoli kompletować papiery do ślubu konkordatowego. <br /> Oficjalnie jednak dokumenty do ślubu kościelnego załatwia się na około  3 miesiące przed datą uroczystości ponieważ tyle ważne są odpisy kościelne.
+                    </>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post32/post32 - ślub z obcokrajowcem.jpeg').default,
+                        author: 'Jakub Nowotyński'
+                    }
+                ]
+            },
+            {
+                headerSmall: 'ŚLUB KONKORDATOWY - DOKUMENTY.',
+                headerClassName: 'mint',
+                text:
+                    <>
+                        <span className="bold dark" style={{ fontSize: '1.25rem', marginTop: '2rem', marginBottom: '1rem', display: 'block' }}>1. Licencja.</span>
+                        <span style={{ display: "block", marginBottom: "1rem" }}>
+                            Jeśli zdecydowaliście się na ślub kościelny poza parafią zamieszkania jednego z narzeczonych należy zadbać również o tzw. licencję dla księdza z parafii, w której odbędzie się ślub.  Pamiętajcie, że istnieją dwa różne dokumenty i to od odpowiedniego dokumentu będzie zależało, gdzie później będziecie załatwiać wszystkie formalności.
+                        </span>
+                        <span className="bold mint" style={{ display: "block" }}>W przypadku otrzymania sublicencji:</span> ksiądz z parafii, w której bierzecie ślub będzie zobowiązany sporządzić protokół przedślubny i zgłosić ślub do Urzędu Stanu Cywilnego, jeśli planujecie ślub konkordatowy. Jest to zdecydowanie wygodniejszy sposób załatwiania formalności do ślubu konkordatowego. Zarówno oficjalne dokumenty, jaki przebieg ceremonii będziecie wtedy ustalać w jednym miejscu. <br />
+                        <span className="bold mint" style={{ display: "block", marginTop: "1rem" }}>W przypadku licencji:</span> ksiądz z parafii, w której bierzecie ślub jedynie udzieli wam ślubu (zgłoszenie do Urzędu Stanu Cywilnego i spisanie protokołu leży po stronie księdza z parafii panny młodej lub parafii pana młodego).
+                    </>
+            },
+            {
+                text:
+                    <>
+                        <span className="bold dark" style={{ fontSize: '1.25rem', marginTop: '2rem', marginBottom: '1rem', display: 'block' }}>2. Dokument o odbyciu nauk przedmałżeńskich.</span>
+                        <span style={{ display: "block", marginBottom: "1rem" }}>Do wypełnienia formalności ślubu kościelnego  niezbędne jest odbycie nauk przedmałżeńskich. To od Was zależy czy zapiszecie się na nauki przedmałżeńskie odbywają się w weekendy, w tygodniu, czy wyjedziecie na 2-4 dniowe intensywne rekolekcje. Nawet jeśli w Waszej parafii lub w kościele, gdzie będzie brać ślub prowadzone są kursy, nie ma obowiązku, aby właśnie w tych miejscach chodzić na nauki. Możecie z nich skorzystać w dowolnym kościele.</span>
+                        <span style={{ display: "block", marginBottom: "1rem" }}>Istnieje też coś takiego jak “zwolnienie z nauk przedmałżeńskich”. Jest to trudne do załatwienia, ale czasem możliwe. Kto może ubiegać się o takie zwolnienie? Teoretycznie mogą być to Pary, które w ostatniej klasie liceum chodziły na lekcje religii i od księdza czy katechety otrzymają odpowiednie dokumenty. Ciężko jednak o oficjalne informację jakie to są konkretnie pisma. W internecie możemy spotkać się z informacją, że wystarczy świadectwo szkolne, w którym znajdzie się informacja o uczęszczaniu na religię. Inne źródła podają, że musi to być zaświadczenie o ukończeniu nauk przedmałżeńskich w ramach lekcji religii, jednak nigdzie nie znajdziemy oficjalnego wzoru.</span>
+                        <span style={{ display: "block", marginBottom: "1rem" }}>Jak w większości formalności przed ślubem kościelnym w każdej niejasnej kwestii najlepiej upewnić się u księdza i dopytać czy możecie skorzystać z takiego zaświadczenia i czy zostanie ono przez niego uznane.</span>
+                        <span style={{ display: "block", marginBottom: "1rem" }}>W internecie możemy znaleźć ofertę nauk przedmałżeńskich w wersji online. Jest to na pewno bardzo wygodna forma, jednak bardzo rzadko akceptowalna przez księży. Jeśli rozważacie opcję zapisu na ten rodzaj kursu koniecznie w pierwszej kolejności zapytajcie księdza udzielającego ślubu czy zaakceptuje zaświadczenie po kursie online.</span>
+                        <span style={{ display: "block", marginBottom: "1rem" }}>Zaświadczenie o odbyciu nauk przedmałżeńskich jest ważne bezterminowo. Jeśli chodzi o płatności to nauki przedmałżeńskie są bezpłatne, mogą pojawić się jednak opłaty w przypadku wyjazdowych rekolekcji, jak np. za nocleg czy wyżywienie.</span>
+                    </>
+            },
+            {
+                text:
+                    <>
+                        <span className="bold dark" style={{ fontSize: '1.25rem', marginTop: '2rem', marginBottom: '1rem', display: 'block' }}>3. Zaświadczenie z poradni życia rodzinnego.</span>
+                        Oprócz odbycia nauk przedmałżeńskich czeka Was także zapisanie się do poradni życia rodzinnego. Zaświadczenie z poradni jest również jednym z dokumentów, którego potrzebujecie, aby móc dopełnić wszystkich formalności i spisać protokół przedślubny. Poradnię musicie znaleźć na własną rękę, poza zapisem na nauki przedmałżeńskie. Dlatego zapisując się na nauki przedmałżeńskie zróbcie to także od razu w poradni. Często wybierając konkretne nauki możecie spotkać się z poleceniem konkretnej poradni. Warto z takiej rekomendacji skorzystać.
+                    </>
+            },
+            {
+                text: 'Według prawa kościoła spotkań w poradni życia rodzinnego powinno być 3. Zdarza się, że w niektórych miejscach zaświadczenie dostaniecie po dwóch, czy nawet po jednym spotkaniu. Na czym będzie polegało spotkanie w poradni? Ma na celu nauczenia Was naturalnych metod planowania rodziny. Bardzo często pojawia się zadanie domowe do odrobienia dla nowożeńców w postaci obserwacji dni cyklu i uzupełniania wykresów.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post32/post32 - ślub kościelny zimą.jpeg').default,
+                        author: 'Rafał Frączek'
+                    }
+                ]
+            },
+            {
+                text:
+                    <>
+                        <span className="bold dark" style={{ fontSize: '1.25rem', marginTop: '2rem', marginBottom: '1rem', display: 'block' }}>4. Zaświadczenie o braku przeciwwskazań do zawarcia związku małżeńskiego.</span>
+                        W trakcie załatwiania formalności związanych ze ślubem konkordatowym czeka Was również wizyta w Urzędzie Stanu Cywilnego. Waszym obowiązkiem jest dostarczenie księdzu odpowiedzialnemu za Wasz ślub zaświadczenia o braku przeciwskazań do zawarcia związku małżeńskiego. W tym celu, nie wcześniej niż 6 miesięcy przed datą Waszego ślubu, ale nie później niż na 30 dni przed, udajcie się do USC, nie ze względu na Wasze zameldowanie, ale ze względu na miejsce wybranego na ślub kościoła (KONIECZNIE Z DOWODAMI OSOBISTYMI LUB PASZPORTAMI), gdzie złożycie zapewnienie, w którym deklarujecie, że nie wiecie o istnieniu okoliczności wyłączających zawarcie małżeństwa. Udając się do Urzędu Stanu Cywilnego przygotujcie się także na opłatę za wydanie zaświadczenia, wynosi ona 84zł. Możecie zapłacić w kasie urzędu lub przelewem na konto urzędu. <br />
+                        Jeżeli Wasza sytuacja jest bardziej skomplikowana, jedno z Was jest obcokrajowcem, jesteście po rozwodzie itp. zerknijcie <CustomPostLink text="tutaj" path="dokumenty-slub-cywilny-formalnosci" className="linkMint" />, jakie dodatkowe dokumenty musicie donieść.
+                    </>,
+                extraContent:
+                    'Pamiętajcie, że dokumenty z Urzędu Stanu Cywilnego do ślubu konkordatowego ważne są maksymalnie 6 miesięcy, więc wizyta z dużym wyprzedzeniem nie będzie miała sensu.',
+                extraContentClassName: "mx-5 bgMintLight px-5 py-4 shadowBox",
+            },
+            {
+                text:
+                    <>
+                        <span className="bold dark" style={{ fontSize: '1.25rem', marginTop: '2rem', marginBottom: '1rem', display: 'block' }}>5. Świadectwo aktu chrztu oraz świadectwo bierzmowania.</span>
+                        Ze swojej parafii, a więc kościoła w którym byliście chrzczeni musicie pobrać akt chrztu oraz zaświadczenie o odbyciu bierzmowaniu.Zazwyczaj adnotacja o wzięciu bierzmowania jest wpisana na świadectwie chrztu, ale jeśli braliście bierzmowanie w innym kościele, to zaświadczenie trzeba uzyskać w parafii, której przyjęty był sakrament. Dokumenty te można uzyskać od ręki w godzinach pracy kancelarii, ale zasady mogą różnić się lekko w każdym kościele, więc przed wizytą warto upewnić się telefonicznie jak wygląda wydanie dokumentów. Przed uzyskaniem zaświadczeń na pewno zostanie zweryfikowana Wasza tożsamość, także nie zapomnijcie zabrać ze sobą dowodu osobistego lub paszportu. Świadectwo chrztu i świadectwo bierzmowania mogą zostać wydane wyłącznie osobom, których akty te dotyczą. Inne osoby mogą je otrzymać wyłącznie na podstawie pełnomocnictwa udzielonego przez wyżej wymienione osoby. Jeśli chcecie skorzystać z tej opcji pierw zadzwońcie do parafii i upewnijcie się czy takie pełnomocnictwo zostanie uznane i jakie informacje musi posiadać. W Internecie nie znajdziecie jednolitego i oficjalnie potwierdzonego wzoru. <br />Zdarza się, że dokumenty mogą zostać przesłane do parafii zamieszkania osoby wnioskującej o wydanie dokumentów i tam mogą zostać odebrane, po zweryfikowaniu tożsamości i uprawnień osoby odbierającej (np. pełnomocnictwa).
+                        <span className="bold dark" style={{ fontSize: '1.25rem', marginTop: '2rem', marginBottom: '1rem', display: 'block' }}>6. Świadectwo uczęszczania na katechezę w szkole średniej.</span>
+                        O ten dokument ksiądz może poprosić, ale nie musi. W oficjalnych informacjach o tym co jest potrzebne do ślubu konkordatowego nie jest wymieniany ten punkt, ale coraz częściej słyszy się, że księża wymagają poświadczenia uczęszczania na religię. <br />Kiedy uda Wam się załatwić dokumenty z poniższej listy czeka Was kolejny ważny punkt, a mianowicie spotkanie z Waszym księdzem i spisanie protokołu przedmałżeńskiego.
+                    </>,
+                extraContent:
+                    <ul>
+                        <li>Nauki przedmałżeńskie.</li>
+                        <li>Zaświadczenie z poradni życia rodzinnego.</li>
+                        <li>Aktualne zaświadczenie z USC.</li>
+                        <li>Akt chrztu oraz akt bierzmowania.</li>
+                        <li>Świadectwo uczęszczania na katechezę (jeśli jest wymagane).</li>
+                        <li>Licencje (jeśli wybraliście na miejsce swojego ślubu kościół poza miejscem zamieszkania).</li>
+                    </ul>,
+                extraContentClassName: "mx-5 bgMintLight px-5 py-4 shadowBox",
+                pics: [
+                    {
+                        src: require('./BlogPics/Post32/post32 - wymiana obrączek.jpeg').default,
+                        author: 'Małe Szare Studio'
+                    }
+                ]
+            },
+            {
+                headerSmall: 'PROTOKÓŁ PRZEDMAŁŻEŃSKI.',
+                headerClassName: 'grey',
+                text: 'Pamiętajcie, aby przed wizytą u Waszego duchownego sprawdzić czy macie skompletowane wszystkie papiery do ślubu konkordatowego.',
+                extraContent:
+                    <><span className="bold dark">WAŻNE:</span> Weźcie ze sobą aktualne dowody osobiste lub paszporty.</>,
+                extraContentClassName: "mx-5 bgGreyLight px-5 py-4 shadowBox",
+            },
+            {
+                text: 'Ksiądz na podstawie przyniesionych przez Was dokumentów sporządzi protokół przedślubny oraz rozpisze zapowiedzi przedślubne. Zapowiedzi powinny być wygłaszane przez dwie kolejne niedziele w parafii panny młodej oraz pana młodego.Pamiętajcie, że w przypadku brania ślubu poza swoją parafią to do Was należy obowiązek poinformowania swojej parafii o planowanym ślubie i skierowane prośby o wygłoszenie zapowiedzi.Wygłoszenie zapowiedzi podczas mszy, zostanie potwierdzone wydaniem zaświadczenia.'
+            },
+            {
+                text: 'Protokół przedślubny to kilkustronicowy papier w którym zostaniecie poproszeni o  odpowiedzenie na kilkanaście pytań. Część protokołu to czysta formalność i będzie dotyczyć wypełnienia takich kwestii jak dane osobowe, adres zamieszkania etc. Spora część pytań, jakie zadaje ksiądz przed ślubem dotyczyć będzie kwestii wiary. Tym, co również staje się przedmiotem protokołu przedślubnego, są również sprawy dotyczące waszych wspólnych relacji, czyli np. pytania dotyczące tego, jak długo jesteście ze sobą, czy wasze rodziny miały okazję się poznać. Nie mniej istotne pytania zadawane przez księdza przed ślubem dotyczą ewentualnych przeszkód w zawarciu małżeństwa. Przez przeszkody rozumie się np. z bliskie pokrewieństwo narzeczonych, pozostawaniem przez nich w innym związku małżeńskim (bigamia) lub dotyczyć tzw. „niezdolności fizycznej”, która dotyczy także sfery seksualnej.'
+            },
+            {
+                text: 'Musicie pamiętać, że przed Wami jeszcze spowiedź przedślubna. Według zasad panujących w kościele narzeczeni powinni wyspowiadać się dwukrotnie. Pierwszy raz nastąpić powinien tuż po wygłoszeniu pierwszych zapowiedzi przedślubnych. Drugi tuż przed ślubem, aby w dniu uroczystości móc cieszyć się „stanem łaski uświęcającej”. Często jest jednak tak, że kiedy Para Młoda deklaruje, że mieszka osobno ksiądz wystawia zaświadczenie tylko z jedną spowiedzią. To ksiądz podczas spisywania protokołu ustali, do ilu spowiedzi powinniście przystąpić i czy wystarczy tylko jedna.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post32/post32 - ślub kościelny.jpeg').default,
+                        author: 'Małe Szare Studio'
+                    }
+                ]
+            },
+            {
+                headerSmall: 'ŚWIADKOWIE NA ŚLUBIE KOŚCIELNYM - CO JEST WAŻNE PRZY ICH WYBORZE.',
+                headerClassName: 'mint',
+                text: 'Zgodnie z Kodeksem Prawa Kanonicznego powinny być to dwie osoby, które są pełnoletnie. Inne wytyczne nie są narzucane przez kościół, dotyczy to również płci świadków. Możecie zdecydować się na dwie osoby tej samej płci. Od świadków w razie potrzeby może wymagać się potwierdzenia, że złożenie przysiąg małżeńskich miało miejsce. Prawo kościelne mówi więc, że świadkowie nie mogą być zatem jednocześnie głusi i niewidzący. Świadkowie w dniu ślubu powinni mieć ze sobą ważny dokument tożsamości - dowód osobisty lub paszport. Przed ślubem powinni udać się do zachrystii, gdzie ksiądz spisze ich dane osobowe oraz poprosi o podpis na protokole.'
+            },
+            {
+                text: 'To co ciekawe, świadkowie nie muszą być wyznania katolickiego, mogą być innej wiary. Tak i nie. Tu wszystko zależy od Waszego księdza, który będzie udzielał Wam ślubu.Warunki ślubu kościelnego mówią, że na około tydzień przed ślubem powinniście dostarczyć zaświadczenie o wygłoszeniu zapowiedzi oraz poświadczenie odbycia pierwszej spowiedzi.Bardzo często jednak ksiądz zwalnia z kolejnej wizyty i o te dokumenty prosi przed ślubem.'
+            },
+            {
+                headerSmall: 'ŚLUB KOŚCIELNY - OPŁATY.',
+                headerClassName: 'mint',
+                text:
+                    'Nie możemy zapomnieć o jeszcze jednej ważnej formalności przed ślubem kościelnym, a więc o opłacie za niego. Kodeks Prawa Kanonicznego nie porusza tej kwestii, ale wszyscy na pewno znają popularne stwierdzenie “co łaska”. Nigdzie nie znajdziemy oficjalnych danych. Na forach i portalach ślubnych czy grupach na facebooku padają różne kwoty i widać, że dużo zależy od regionu, w którym organizujecie ślub.',
+                extraContent:
+                    <><span className="bold dark">Nieoficjalnie warto przygotować się na następujące koszty:</span>
+                        <ol style={{ marginTop: '.5rem' }}>
+                            <li>Nauki małżeńskie i poradnia: 0zł - 500 zł</li>
+                            <li>Za przeprowadzenie ślubu dla księdza: 500 zł - 1000 zł</li>
+                            <li>Organista: 200 zł - 300 zł</li>
+                            <li>Kościelny: 50 zł -  200 zł</li>
+                            <li>USC: 84 zł</li>
+                        </ol>
+                    </>
+                ,
+                extraContentClassName: "mx-5 bgMintLight px-5 py-4 shadowBox",
+            },
+            {
+                headerSmall: 'DZIEŃ ŚLUBU KOŚCIELNEGO.',
+                headerClassName: 'mint',
+                text: 'Najpopularniejsze jest zawarcie związku małżeńskiego podczas mszy świętej. Dopuszcza się jednak możliwość zawarcia małżeństwa bez uroczystego sakramentu. Jeśli z jakiegoś powodu zrezygnujecie z mszy świętej wtedy wypada, aby młodzi małżonkowie zamówili mszę świętą w swojej intencji w innym terminie.'
+            },
+            {
+                text: 'Dla zawarcia związku małżeńskiego kluczowe jest wypowiedzenie słów przysięgi przez obie strony. Duchowny, po lub w trakcie uroczystości, poprosi was oraz waszych świadków o podpisanie zaświadczenia, w którym potwierdzicie, że w jego obecności złożyliście oświadczenie o wstąpieniu w związek małżeński.'
+            },
+            {
+                headerSmall: 'PO ŚLUBIE KOŚCIELNYM.',
+                headerClassName: 'mint',
+                text:
+                    <>
+                        Po ślubie, w ciągu 5 dni od zawarcia małżeństwa, duchowny ma obowiązek przekazać do USC wszystkie niezbędne dokumenty. Na ich podstawie kierownik USC zarejestruje małżeństwo. Po ok 3 tygodniach od ślubu możecie udać się do USC (tego samego, w którym byliście podczas zbierania dokumentów) gdzie będzie czekać dla Was do odbioru jeden skrócony odpis aktu małżeńskiego. <br />
+                        Oczywiście może się zdarzyć, że w tym okresie nie będziecie już w tym miejscu i nie będziecie mieli jak odebrać dokumentu. Warto wtedy zadzwonić do USC i zapytać o możliwość przesłania aktu małżeństwa do USC, gdzie jedno z Was jest zameldowane. <br />
+                        Kilka praktycznych wskazówek dotyczących formalności poślubnych znajdziecie w naszym poradniku <CustomPostLink text="Co załatwić po ślubie" path="formalnosci-po-slubie" className="linkMint" />.
+                    </>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post32/post32 - ślub kościelny z obcokrajowcem.jpeg').default,
+                        author: 'Jakub Nowotyński'
+                    }
+                ]
+            },
+            {
+                headerSmall: 'ŚLUB KONKORDATOWY DLA PAR MIESZKAJĄCYCH ZA GRANICĄ KRAJU.',
+                headerClassName: 'grey',
+                text: 'Od dłuższego czasu mieszkacie zagranicą, ale oboje jesteście narodowości polskiej i podjęliście decyzję o wzięciu ślubu oraz organizacji wesela w Polsce i teraz zastanawiacie się czy formalności do ślubu konkordatowego różnią się dla was od tych dla Par Młodych mieszkających na stałe w kraju. Musicie wiedzieć, że po upływie 3 miesięcy od opuszczenia kraju i zamieszkania w innym państwie nabywacie tzw. quasi domicilium, czyli czasowe zamieszkanie kanoniczne w innym miejscu, a tym samym najbliższy kościół staje się waszą nową parafią. Ponieważ po stronie proboszcza Waszej parafii leży obowiązek załatwienia w Waszym imieniu formalności związanych ze ślubem, nie powinniście mieć obaw udając się do kościoła w waszym miejscu zamieszkania i prosząc go o przygotowanie dokumentów. Jeśli obawiacie się o barierę językową, możecie sprawdzić czy w pobliżu nie znajduje się Polska Misja Katolicka, a więc polska parafia stacjonująca na obczyźnie.',
+                extraContent:
+                    'Obowiązkiem księdza jest załatwienie formalności, ale to po Waszej stronie leży dostarczenie mu kompletu dokumentów. Zasady pozyskania poszczególnych zaświadczeń są dla Was takie same jak dla Par mieszkających na stałe w Polsce.',
+                extraContentClassName: "mx-5 bgGreyLight px-5 py-4 shadowBox",
+            },
+            {
+                text:
+                    <>
+                        <span className="bold dark">Do ślubu kościelnego musicie załatwić następujące dokumenty:</span>
+                        <ol style={{ marginTop: '.5rem' }}>
+                            <li>Zaświadczenia z Urzędu Stanu Cywilnego.</li>
+                            <li>Świadectwo chrztu.</li>
+                            <li>Świadectwo bierzmowania.</li>
+                            <li>Zaświadczenie o ukończeniu kursu nauk przedmałżeńskich.</li>
+                            <li>Licencję.</li>
+                            <li>Świadectwa nauki religii (zależy od parafii).</li>
+                        </ol>
+                    </>,
+                extraContent:
+                    <><span className="bold dark">WAŻNE:</span> Weźcie ze sobą dowody osobiste lub paszporty.</>,
+                extraContentClassName: "mx-5 bgGreyLight px-5 py-4 shadowBox",
+            },
+            {
+                text:
+                    <>
+                        Może się więc okazać, że bez wizyty w Polsce lub pomocy bliskich osób, które uzyskają od Was odpowiednie poręczenie nie obejdzie się. W kwestii tego jak ma wyglądać i co powinno zawierać upoważnienie przede wszystkim kontaktujcie się z miejscem od którego chcielibyście uzyskać odpowiednie dokumenty. <br /> Ksiądz na podstawie przyniesionych przez Was dokumentów sporządzi protokół przedślubny oraz rozpisze zapowiedzi przedślubne, a także wystawi Wam kartę do spowiedzi (więcej o tym etapie możecie przeczytać wyżej).Musicie pamiętać, że wystawiana na obczyźnie przez księdza licencja kanoniczna oraz komplet dokumentów  trafią jeszcze do kurii diecezji zagranicznej, a potem kurii w Polsce, której zadaniem będzie sprawdzenie poprawności przygotowanych dokumentów.
+                    </>,
+                extraContent:
+                    <><span className="bold dark">Podsumowując:</span> Narzeczeni w celu załatwienia formalności do ślubu kościelnego powinni udać się zawsze do proboszcza parafii, gdzie faktycznie mieszkają przynajmniej od trzech miesięcy (a nie tam, gdzie posiadają cywilne zameldowanie).</>,
+                extraContentClassName: "mx-5 bgGreyLight px-5 py-4 shadowBox",
+            },
+            {
+                text: 'Jeśli udało Wam się pominąć wizyty w Polsce na etapie załatwiania formalności to na pewno nie uniknięcie wizyty w docelowym kościele, gdzie chcecie wziąć ślub w Polsce i osobistego zarezerwowania terminu. Duchowny na podstawie wspomnianej licencji kanonicznej, potwierdzonej przez dwie kurie diecezjalne rezerwuje dla Was termin.'
+            },
+            {
+                text: 'Pamiętajcie, że po stronie księdza, gdzie odbędzie się ślub leży wysłanie do parafii gdzie byliście chrzczeni oraz parafii zagranicznej, gdzie były przeprowadzone formalności ślubne, zawiadomienie o zawarciu w jego parafii danego związku małżeńskiego. Następnie czeka na pisemne potwierdzenie wpisów i dopiero wtedy zamyka całą praktykę kancelaryjną ślubu kościelnego, a dokumenty umieszcza w archiwum parafialnym.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post32/post32 - ślub kościelny w plenerze.jpeg').default,
+                        author: 'Wawrzykowski Team'
+                    }
+                ]
+            },
+            {
+                headerSmall: 'ŚLUB KOŚCIELNY BEZ ŚLUBU CYWILNEGO.',
+                headerClassName: 'mint',
+                text: 'Ślub kościelny zawarty bez ślubu cywilnego nie niesie za sobą skutków cywilnych i  praktycznie jest niemożliwy. Rzeczpospolita Polska nie uznaje ślubu zawartego w kościele, a nie będącego ślubem konkordatowym za akt prawny, więc formalnie dla państwa jest to równoznaczne, jakby uroczystość nie odbyła się. Zdarza się jednak, że narzeczeni decydują się najpierw na ślub cywilny, który traktuje ich jako małżeństwo w obliczu prawa, jednak z punktu widzenia religii taki ślub jest niepełny i wiele osób w późniejszym czasie decyduje się na zawarcie również ślubu kościelnego.'
+            },
+            {
+                text:
+                    <>
+                        <span className="bold mint" style={{ display: 'block', marginBottom: '1rem' }}>Co jest potrzebne do ślubu kościelnego, kiedy ma się już za sobą ślub cywilny?</span>
+                        Dokumenty do ślubu kościelnego są praktycznie identyczne jak opisywane wyżej papiery do ślubu konkordatowego. Taki ślub nie ma już skutków cywilnoprawnych, więc odpada Wam wizyta w Urzędzie Stanu Cywilnego i podpisywanie dokumentów o braku przeciwwskazań do zawarcia małżeństwa.
+                    </>,
+            },
+            {
+                text:
+                    <>
+                        <span className="bold dark" style={{ display: 'block', marginBottom: '1rem' }}>Dla przypomnienia - poniżej znajdziecie spis dokumentów, które musicie skompletować przed wizytą w Parafii.</span>
+                    </>,
+                extraContent:
+                    <>
+                        <span className="bold dark">Ślub kościelny - dokumenty:</span>
+                        <ol style={{ marginTop: '.5rem' }}>
+                            <li>Akty chrztu.</li>
+                            <li>Akt bierzmowania.</li>
+                            <li>Zaświadczenie o odbyciu nauk przedmałżeńskich.</li>
+                            <li>Zaświadczenie z Poradni Życia Rodzinnego.</li>
+                            <li>Wygłoszenie zapowiedzi.</li>
+                            <li>Świadectwo uczęszczają na katechezę.</li>
+                            <li>Dodatkowo pary będące już po ślubie cywilnym powinny przygotować akt małżeństwa do wglądu.</li>
+                        </ol>
+                    </>
+                ,
+                extraContentClassName: "mx-5 bgMintLight px-5 py-4 shadowBox",
+            },
+            {
+                text: 'Pomiędzy ceremoniami nie ma wielu różnic (msze przebiegają tak samo). Nie ma obowiązku, aby podczas ślubu kościelnego towarzyszyli Wam Ci sami świadkowie co podczas ślubu cywilnego. Ponownie wymienicie się obrączkami, ale tu w zupełności sprawdzą się te ze ślubu cywilnego. Nie ma potrzeby kupowania nowych.'
+            },
+            {
+                text: 'Zdarzają się Pary, które z różnych, osobistych względów pragną wziąć tylko ślub kościelny. Nie zależy im na zalegalizowaniu związku w świetle prawa. Ślub bez konsekwencji urzędowych, wymaga zgody biskupa, któremu należy wcześniej przedłożyć oficjalny wniosek zawierający konkretne i mocne argumenty. Argumenty mogą pojawić się różne, ale pary najczęściej powołują się na kwestie finansowe (mówimy tu o rozdzielność majątkowej) albo zawodowe (para nie chce być ze sobą kojarzona, bo z różnych względów mogłoby to mieć wpływ pracę któregoś lub obydwojga małżonków). Złożenie podania do biskupa to ważny i niezbędny krok, ponieważ zgoda ordynariusza jest niezbędna, aby małżeństwo bez skutków urzędowych mogło zostać zawarte.'
+            },
+            {
+                text: 'W przypadku uzyskania pozytywnej zgody przed Parą stoi załatwienie wszystkich formalności. Są one takie same jak dotychczas opisane, oczywiście z pominięciem wizyty w USC.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post32/post32 - obrączki.jpeg').default,
+                        author: 'Jakub Nowotyński'
+                    }
+                ]
+            },
+            {
+                headerSmall: 'ŚLUB JEDNOSTRONNY.',
+                headerClassName: 'grey',
+                text:
+                    <>
+                        <span className="bold dark">Ślub jednostronny</span> nazywany jest również ślubem mieszanym czy ekumenicznym. Zdecydować mogą się na niego pary, gdzie jedna strona w przeszłości brała już ślub kościelny (i nie uzyskała rozwodu kościelnego), jest innego wyznania lub jest osobą niewierzącą. W takim przypadku osoba wierząca zgodnie z wiarą bierze ślub kościelny, natomiast osoba niewierząca po prostu w nim uczestniczy. Istotne jest to, że w tym przypadku możecie wziąć też ślub konkordatowy. Taki ślub będzie miał moc prawną dla Waszej dwójki, a tylko dla jednego z was będzie także wiążący w kwestii wiary.
+                    </>
+            },
+            {
+                headerSmall: 'Formalności dla ślubu jednostronnego z ateistą lub apostatą.',
+                headerClassName: 'grey',
+                text: 'W pierwszej kolejności osoba wierząca musi złożyć przed księdzem zapewnienie, że zrobi wszystko, aby nie utracić wiary oraz że dołoży wszelkich starań, by jej dzieci zostały ochrzczone, a także wychowane w religii katolickiej. Może się zdarzyć, że o podobne zaświadczenie zostanie poproszona druga strona. Ksiądz od osoby niewierzącej będzie chciał uzyskać zaświadczenie, że nie będzie ona utrudniać swojej drugiej połówce życia w wierze katolickeij oraz wychowania ich wspólnego potomstwa również wg zasad wiary. Po złożeniu zapewnienia proboszcz parafii, w której chcecie wziąć ślub wysyła do biskupa oficjalne pismo z prośbą o wyrażenie zgody na zawarcie przez Was małżeństwa.'
+            },
+            {
+                text:
+                    <>
+                        W przypadku wyrażenia przez biskupa zgody na ślub jednostronny, osoba wierząca musi spełnić wszystkie formalności dla ślubu kościelnego, a więc powinna dostarczyć:
+                        <ol>
+                            <li>Zaświadczenie o odbyciu nauk przedmałżeńskich.</li>
+                            <li>Zaświadczenie z poradni życia rodzinnego.</li>
+                            <li>Aktualne zaświadczenie z USC.</li>
+                            <li>Akt chrztu oraz akt bierzmowania.</li>
+                            <li>Świadectwo uczęszczania na katechezę (jeśli jest wymagane).</li>
+                            <li>Zaświadczenie o spowiedzi (dostarczane przez samym ślubem).</li>
+                            <li>Zaświadczenie o zapowiedziach (jeśli ślub jest poza parafią osoby wierzącej).</li>
+                        </ol>
+                    </>,
+                extraContent:
+                    <><span className="bold dark">Ważne:</span> Osoba niewierząca nie musi uczestniczyć w załatwieniu formalności, ale jeśli będzie to dla niej ważne to jak najbardziej może wesprzeć w tym drugą osobę.<br /> Przed osobą wierzącą, po załatwieniu wymaganych dokumentów, leży wizyta w parafii i spisanie protokołu przedślubnego.
+                    </>,
+                extraContentClassName: "mx-5 bgGreyLight px-5 py-4 shadowBox",
+            },
+            {
+                text: 'Pamiętajcie również, że jeśli zdecydowaliście się na ślub poza miejscem zamieszkania osoby wierzącej musicie zadbać o wydanie sublicencji lub licencji dla księdza, gdzie będzie odbywać się ceremonia zaślubin. Sublicencja upoważnia księdza z parafii, w której odbędzie się ślub do załatwienia wszystkich formalności do ślubu kościelnego. Licencja upoważnia księdza z parafii, w której odbędzie się ślub tylko do udzielenia sakramentu. Dokumenty do ślubu kościelnego załatwiacie wtedy z księdzem w parafii, gdzie mieszkacie.'
+            },
+            {
+                text: 'Msza święta nie różni się niczym od tej zawieranej przez dwie osoby będące tej samej wiary. Wymienicie się obrączkami i będziecie potrzebować dwojga świadków. Jeśli chodzi o różnice to przysięgę wypowie tylko osoba wierząca. Również tylko ona przyjmie komunię świętą i zostanie pobłogosławiona przez księdza.'
+            },
+            {
+                headerSmall: 'Ślub jednostronny z osobą rozwiedzioną.',
+                headerClassName: 'grey',
+                text: 'Jeśli jedno z Was jest już po ślubie kościelnym to tu niestety napotykamy na znaczące przeciwności i ślub jednostronny nie jest możliwy. Pojęcie rozwodu w kościele dotyczy jedynie ślubu cywilnego, w świetle religii taka osoba jest ciągle w związku małżeńskim. Wiele Par Młodych myśli, że jeśli jedna strona jest po rozwodzie cywilnym to rozwiązaniem dla osoby wierzącej będzie ślub jednostronny. Niestety prawo kanoniczne uważa rozwód za istotną przeszkodę do zawarcia małżeństwa. Jeżeli małżeństwo nie zostało unieważnione przez kościół, to wedle jego prawa nadal ono istnieje i jedynie śmierć może je rozwiązać. Czyli chodzi o to, że jak ktoś miał konkordatowy i wziął rozwód to nie można wziąć ślubu kościelnego z niewierzącym? To nie jest do końca zrozumiałe chyba. Jakoś łatwiej trzeba to napisać, dosadniej.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post32/post32 - ślub w plenerze.jpeg').default,
+                        author: 'Svetlana Bennington'
+                    }
+                ]
+            },
+            {
+                headerSmall: 'ŚLUB OSÓB RÓŻNEGO WYZNANIA',
+                headerClassName: 'mint',
+                text: 'Sprawa komplikuje się trochę, gdy mówimy o dwóch osobach różnego wyznania. Zdarza się, że niektóre wyznania nie akceptują małżeństw mieszanych. W przypadku takiej sytuacji koniecznie udajcie się do duchownego, w kościele w którym chcielibyście wziąć ślub i zapytajcie jak moglibyście to załatwić.Duże znaczenie ma z kim porozmawiać i na ile ksiądz będzie chciał Wam pomóc.',
+                extraContent:
+                    <><span className="bold dark">Ważne:</span> Prawo kanoniczne zabrania udzielania ślubu w dwóch obrządkach, zawrzeć go można tylko w jednym. <br />Jeśli jesteście dwóch wyznań, nie możecie zrobić tak, że każde z Was podczas jednej ceremonii będzie przysięgać drugiej osobie w swojej religii. Zabronione jest bowiem udzielenie małżeństwa jednocześnie przez księdza katolickiego i kapłana innego wyznania. <br /> Dodatkowo nie możecie najpierw wziąć ślubu w jednym wyznaniu, a za jakiś czas w drugim. Decydując się na ceremonię musicie wybrać, w którym obrządku zostanie ona przeprowadzona.
+                    </>,
+                extraContentClassName: "mx-5 bgMintLight px-5 py-4 shadowBox"
+            },
+            {
+                headerSmall: 'Ślub z osobą wyznania prawosławnego',
+                headerClassName: 'mint',
+                text: 'Kościół katolicki dopuszcza ślub z prawosławnym. Prawosławie to jedna z trzech gałęzi chrześcijaństwa zwana wschodnią ortodoksją. Są więc oni też chrześcijanami, ale mają inne obrządki religijne. Wszelkie warunki ślubu z osobą prawosławną określa prawo kanoniczne.'
+            },
+            {
+                text:
+                    <>
+                        <span className="bold dark">Jeśli chodzi o dokumenty, które muszą przedłożyć obie strony to wygląda to następująco:</span>
+                        <ol style={{ marginTop: '.5rem' }}>
+                            <li><span className="bold mint">Katolik </span>zobowiązany jest do złożenia dokumentów, jak w przypadku opisanego wyżej ślubu osób wierzących.</li>
+                            <li><span className="bold mint">Osoba wyznania prawosławnego</span> dostarcza metrykę chrztu z kościoła prawosławnego, skrócony odpisy aktu urodzenia oraz zaświadczenie informujące o braku jakichkolwiek przeszkód na zawarcie związku małżeńskiego. Ważne jest, aby osoba tej wiary wyspowiadała się przed ceremonią ślubu w swojej cerkwi.</li>
+                        </ol>
+                    </>
+            },
+            {
+                text: 'Może się zdarzyć, że ksiądz udzielający ślubu będzie wymagał od obu stron uczestnictwa w naukach przedmałżeńskich i wizyty w poradni życia rodzinnego. Warto przed załatwianiem tego kroku upewnić się jakie zostaną Wam postawione wymagania. W przypadku ślubu katolika z prawosławnym ceremonia odbędzie się podczas mszy świętej w obecności dwóch świadków. Małżonkowie składają tę samą przysięgę. Osoba wiary prawosławnej może również przyjąć komunię świętą.'
+            },
+            {
+                headerSmall: "Ślub prawosławny z osobą wyznania katolickiego.",
+                headerClassName: 'mint',
+                text: 'Inaczej niż w przypadku ślubu w kościele katolickim, śluby w cerkwi mogą odbywać się każdego dnia z wyjątkiem soboty, ponieważ wesele nie może być przeszkodą do przyjścia na niedzielne nabożeństwo. Preferowany dzień to piątek lub niedziela wieczorem. Nie udziela się ślubów również w dni postne. Przygotowanie przedślubne do ślubu prawosłwnego są mniej wymagające niż do ślubu kościelnego.',
+                extraContent:
+                    <>
+                        <span className="bold dark">Para Młoda powinna złożyć następujące dokumenty: </span>
+                        <ol style={{ marginTop: '.5rem' }}>
+                            <li>Akty chrztu. Strona katolicka składa akt chrztu ze swojej parafii. Cerkiew uznaje chrzty dokonane w kościele katolickim.</li>
+                            <li>Zaświadczenia o wygłoszeniu trzech zapowiedzi przedślubnych w parafiach Młodych.</li>
+                            <li>Zaświadczenia z USC.</li>
+                            <li>Ważne dowody osobiste lub paszporty.</li>
+                        </ol>
+                    </>
+                ,
+                extraContentClassName: "mx-5 bgMintLight px-5 py-4 shadowBox",
+            },
+            {
+                text:
+                    <>
+                        W przypadku ślubu w cerkwi nie ma obowiązkowych odbywania kursów przedmałżeńskich, jak to jest w przypadku kościoła katolickiego. <br />Sama ceremonia jest dłuższa i zdecydowanie inna niż w przypadku mszy świętej w kościele ktolickim. Trwa ok.2 godzin i składa się z zaręczyn i ślubu, czyli ukoronowania. <br />
+                        Pięknym zwyczajem jest przyniesienie do cerkwi przez Młodych ikony podarowanej im przez rodziców lub dziadków podczas błogosławieństwa, a która towarzyszy im podczas ceremonii zaślubin.
+                    </>
+            },
+            {
+                text: 'W uroczystości towarzyszy Parze Młodej również dwoje świadków, którym powierzone jest bardzo istotne zadanie. Ważnym momentem ceremonii jest nałożenie (trzymanie nad głową) wieńców lub koron, gdzie świadkowie unoszą je nad głowami młodych około pół godziny. Po uroczystości w obrządku prawosławnym osoba wyznania katolickeogo powinna udać się do kancelarii swojej parafii i złożyć oświadczenie o odbyciu ślubu oraz poprosić o oznacznie tego faktu w księgach kościoła. W prawie kanonicznym taki ślub jest ważny nie tylko ze względów formalnych, ale także w aspekcie wiary i w przypadku ewentualnego rozwodu taka osoba nie będzie mogła ponownie zawrzeć ślubu kościelnego.'
+            },
+            {
+                headerSmall: "Ślub z osobą wyznania grekokatolickiego.",
+                headerClassName: 'mint',
+                text: 'Osoba wyznania katolickeogo, jak i osoba wyznania grekokatolickiego należą do tego samego kościoła katolickiego, czyli wyznajecie tę samą wiarę. Oba kościoły mają  jednak różne tradycje. Kościół grekokatolicki to  tradycja zachodnia, która ma obrządek łaciński. Jest to kościół rzymskokatolicki, nazywany także kościołem łacińskim. W tym przypadku formalności do waszej ceremonii będą wyglądały identycznie jak w przypadku “standardowego” ślubu kościelnego.',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post32/post32 - wymiana obrączek ślub cywilny.jpeg').default,
+                        author: 'Ania Kopeć Serdeczności'
+                    }
+                ]
+            },
+            {
+                headerSmall: 'ŚLUB KOŚCIELNY Z OBCOKRAJOWCEM.',
+                headerClassName: 'grey',
+                text:
+                    <>
+                        Możemy spotkać się z dwoma przypadkami zawarcia związku małżeńskiego obywatela RP z osobą innej narodowości:
+                        <ol>
+                            <li>Oboje jesteście osobami wierzącymi.</li>
+                            <li>Tylko jedno z Was jest osobą wierzącą.</li>
+                        </ol>
+                    </>
+            },
+            {
+                text: 'Ślub z cudzoziemcem wyznania rzymskokatolickiego nie odbiega formalnościami od tych załatwianych przez Pary Młode tej samej narodowości. Musicie przygotować świadectwa chrztu, świadectwa bierzmowania, zaświadczenia o ukończeniu kursu przedmałżeńskiego wraz z wizytą w poradni przedmałżeńskiej, ważne dokumenty tożsamości. Dodatkowo możecie zostać poproszeni o zaświadczenie o uczęszczaniu na katechezę. Z formalności przed Wami będzie jeszcze spowiedź święta, zapowiedzi oraz uzyskanie licencji dla księdza, jeśli ślub jest poza parafią Waszego miejsca zamieszkania.'
+            },
+            {
+                text:
+                    <>
+                        Podczas <CustomPostLink text="ślubu cywilnego" path="dokumenty-slub-cywilny-formalnosci" className="linkLight" /> wymagana jest obecność tłumacza, jeśli jedno z Was nie zna języka polskiego. Przy ślubie kościelnym nie ma takiej konieczności. To od Was zależy czy zdecydujecie się na obecność tłumacza. Może zdarzyć się że  msza będzie prowadzona w dwóch językach, jeśli oczywiście ksiądz będzie takowy znał i zgodzi się na to. Gdy jedna z osób jest niewierząca lub jest innego wyznania, możecie postarać się o ślub jednostronny.
+                    </>
+            }
+        ]
+    },
+    {
         path: 'dokumenty-slub-cywilny-formalnosci',
         seoTitle: 'Jakie dokumenty do ślubu cywilnego - zawarcie małżeństwa w USC',
         seoText: 'Planujesz zorganizować ślub cywilny? Zastanawiasz się co należy przygotować do ślubu cywilnego? Krok po kroku przeprowadzi cię agencja ślubna Czary Marry',
