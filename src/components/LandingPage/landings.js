@@ -5,6 +5,124 @@ import CustomCategoryLink from '../CustomLink/CustomCategoryLink';
 
 const landings = [
     {
+        path: 'wedding-planner-slask-katowice',
+        seoTitle: 'Wedding planner Śląsk | Czary Marry agencja ślubna Katowice',
+        seoText: 'Planujecie zorganizować swój ślub marzeń na Śląsku? Poszukujecie sprawdzonej agencji ślubnej, która zadba o koordynację przyjęcia weselnego? Postawcie na Czary Marry!',
+        mainHeader: 'Czary Marry - sprawdzony wedding planner na Śląsku',
+        boxTitle: 'Organizacja wesela Śląsk ≠ agencja ślubna Śląsk.',
+        boxColor: 'bgGrey',
+        textOne: <>Jeśli trafiliście na tę stronę to prawdopodobnie jesteście zaręczeni i rozpoczynacie swoją przygodę z organizacją wesela na śląsku. Gratulujemy! Mimo że to Wasze pierwsze kroki, jak dotąd podejmujecie same dobre decyzje. Rozważacie pomoc wedding plannera i wybraliście świetną lokalizację na Wasze wesele. Oby tak dalej! Poniżej znajdziecie kilka cennych wskazówek dotyczących wyboru odpowiedniej agencji ślubnej na Śląsku. Przeczytacie o tym, jak pracujemy i jakimi wartościami się kierujemy oraz dowiecie się, dlaczego tak jak Wy lubimy Katowice, Zabrze, Czechowice-Dziedzice i inne śląskie miasta.<br /><br />
+        Intuicja podpowiada, że skoro zdecydowaliście się na organizację wesela w Katowicach lub województwie śląskim to powinniście poszukać wedding plannera z tej okolicy. Można przypuszczać, że świetnie zna lokalne sale oraz wykonawców. Przemyślcie to jednak zanim zamkniecie się na wachlarz innych możliwości. Większość wykonawców ślubnych, w tym wedding plannerów, pracuje na terenie całej polski. Dzięki temu mamy duże doświadczenie, nie ulegamy schematom, a każde miejsce i wesele jest dla nas inspirującym i nowym wyzwaniem. Miło jest spotkać się w klimatycznej kawiarni, ale my oferujemy Wam coś znacznie lepszego. Możecie w każdej chwili wypić z nami kawę i podjąć najważniejsze decyzje dotyczące Waszego wesela nie ruszając się z własnej kanapy.</>,
+        textTwo: 'Zauważyliśmy, że nasi klienci preferują kontakt online, dlatego jesteśmy do Waszej dyspozycji o każdej porze dnia, komunikując się przez Whatsapp, mail oraz telekonferencje. Współpracujemy z parami z całego świata, często dzielą nas tysiące kilometrów oraz różnice czasowe. W związku z tym organizacja wesela na śląsku nie stanowi dla nas żadnego problemu. Tym bardziej że lubimy podróże i chętnie odwiedzimy z Wami salę weselną, jeśli będziecie mieli na to ochotę. Podobnie jest z polecanymi przez nas wykonawcami.Kryterium wyboru nie jest lokalizacja, tylko Wasze oczekiwania oraz preferencje.',
+        placePics: [
+            require('./LandingPics/Katowice/lan-wedding-planner-katowice.jpg').default,
+            require('./LandingPics/Katowice/lan-agencja-slubna-slask.jpg').default,
+            require('./LandingPics/Katowice/lan-wedding-planner-slask.jpg').default,
+            require('./LandingPics/Katowice/lan-agencja-slubna-katowice.jpg').default
+        ],
+        content: [
+            {
+                title: 'Wedding planner Śląsk - czym się kierować przy wyborze.',
+                titleBgColor: 'bgMint',
+                color: 'dark',
+                text:
+                    <>
+                        <p>Wiecie już, co naszym zdaniem nie ma znaczenia. Teraz zdradzimy Wam, na co warto zwrócić uwagę, zanim dokonacie ostatecznego wyboru wedding plannera.</p>
+                        <p><span className="bold mint">Portfolio</span> — podobają Wam się <Link to={URLS.COUPLES} className="linkDark">realizacje</Link> danej agencji ślubnej oraz jej styl pracy. To dobry znak, prawdopodobnie nadajecie na tych samych falach.</p>
+                        <p><span className="bold mint">Opinie</span> — warto pogrzebać nieco głębiej i zapoznać się z recenzjami na temat danego konsultanta ślubnego.</p>
+                        <p><span className="bold mint">Spotkanie</span> — najczęściej jest niezbędne do przygotowania spersonalizowanej oferty, która będzie odpowiedzią na Wasze potrzeby. Spotkanie jest też świetną okazją do upewnienia się, że odpowiada Wam styl pracy, a nawet osobowość wedding plannera, któremu powierzycie organizację Waszego wesela.</p>
+                        <p><span className="bold mint">Oferta</span> — zapoznajcie się z nią dokładnie, nie bójcie się zadawać pytań, mówcie o wątpliwościach. Organizacja wesela to skomplikowany proces złożony z wielu elementów. Ważne, żebyście mieli pewność, że nic nie zostało pominięte.</p>
+                        <p><span className="bold mint">Sprawny kontakt</span> — jeżeli musicie w nieskończoność czekać na odpowiedź od wedding plannera i wysyłać mu maile z przypomnieniem nie wróży to owocnej współpracy.</p>
+                    </>
+            },
+            {
+                title: 'Organizacja wesel Śląsk - za co go lubimy.',
+                titleBgColor: 'bgGrey',
+                color: 'dark',
+                text: <>
+                    <p>
+                        Obiecałyśmy opowiedzieć Wam, dlaczego lubimy <CustomOuterLink text="Śląsk" to="https://pl.wikipedia.org/wiki/%C5%9Al%C4%85sk" className="linkLight" />. Głównie za niepowtarzalny charakter. Uważamy, że wiele osób nie docenia tych regionów, a przecież są one unikatowe pod względem kulturowym, architektonicznym, kulinarnym, czy językowym. W ostatnich czasach stały się również łakomym kąskiem ze względu na industrialne przestrzenie, które otwierają ogromne możliwości. Przygotowując propozycje miejsc weselnych dla naszych klientów, Katowice pojawiają się w nich równie często, jak Warszawa, Wrocław, Kraków czy Poznań. Znamy też wielu niesamowitych wykonawców ślubnych z województwa śląskiego, z którymi chętnie współpracujemy na weselach w całej Polsce.
+                    </p>
+                </>
+            },
+            {
+                title: 'Kompleksowa organizacja wesel Śląsk — nasze wartości.',
+                titleBgColor: 'bgPink',
+                color: 'dark',
+                text: <>
+                    <h3 className="bold pink">01</h3>
+                    <p>Jesteśmy do Waszej dyspozycji o każdej porze dnia i bez limitu. Organizując wesela na Śląsku stawiamy na kontakt online, posługując się narzędziami do telekonferencji oraz mailem. Do codziennej komunikacji służy nam Whatsapp.</p>
+
+                    <h3 className="bold pink">02</h3>
+                    <p>Pracujemy we dwie. Wspólnie koordynujemy również dzień ślubu. Dzięki temu proces przygotowań przebiega sprawnie, a Wasze wesele będzie dopracowane.</p>
+
+                    <h3 className="bold pink">03</h3>
+                    <p>W naszej pracy stawiamy na szczerość i przyjazną atmosferę. Zależy nam, żeby organizacja wesela była dla Was mile spędzonym czasem.</p>
+                </>
+            }
+        ],
+        gridHeader: 'Czary Marry — Wasza wymarzona Agencja Ślubna Śląsk.',
+        gridBgColor: 'bgGrey',
+        gridTextOne:
+            <>
+                <p>
+                    Jedni nazywają nas dobrymi wróżkami lub czarodziejkami, nieco odważniejsi czarownicami. Prawdą jest, że zmienimy Wasze marzenia w rzeczywistość. Bez użycia czarodziejskiej różdżki i pomocy baśniowej matki chrzestnej. Bazujemy na doświadczeniu i wiedzy, którą bezustannie pogłębiamy, wykonując zawód wedding plannera. Agencję ślubną Czary Marry zbudowałyśmy na serdecznych relacjach z parami młodymi i naszej 15-letniej przyjaźni. Więcej informacji o nas znajdziecie <Link to={URLS.ABOUT} className="linkLight">tutaj</Link>.
+                    </p>
+            </>,
+        gridPics:
+            [
+                require('./LandingPics/Katowice/lan-wedding-plannerki-katowice.jpg').default,
+                require('./LandingPics/Katowice/lan-organizacja-wesel-slask.jpg').default,
+                require('./LandingPics/lan6.jpg').default,
+                require('./LandingPics/lan4.jpg').default,
+            ],
+
+        numsTitle: 'Organizacja wesela Śląsk — etapy współpracy.',
+        numsContent: [
+            {
+                bgColor: 'bgMint',
+                number: '01',
+                title: 'Spotkanie',
+                text: ' To świetna okazja, żeby się poznać i odpowiedzieć na Wasze pytania oraz posłuchać o Waszej wizji ślubu i wesela. Spotkanie umożliwia też określenie zakresu naszych obowiązków.'
+            },
+            {
+                bgColor: 'bgPink',
+                number: '02',
+                title: 'Oferta',
+                text: 'Po rozmowie otrzymacie od nas indywidualną ofertę organizacji wesela na śląsku wraz z wyceną naszych usług.'
+            },
+            {
+                bgColor: 'bgGrey',
+                number: '03',
+                title: 'Umowa',
+                text:
+                    'Zabezpiecza interesy obu stron. Po jej podpisaniu i wpłaceniu pierwszej transzy naszego wynagrodzenia niezwłocznie bierzemy się do pracy.'
+            },
+            {
+                bgColor: 'bgMint',
+                number: '04',
+                title: 'Organizacja wesela Śląsk',
+                text:
+                    'Rozpoczynamy ją od stworzenia budżetu oraz harmonogramu prac. Następnie realizujemy ustalony plan. Jesteśmy z Wami w kontakcie na każdym etapie przygotowań.'
+            },
+            {
+                bgColor: 'bgPink',
+                number: '05',
+                title: 'Koordynacja',
+                text:
+                    'Rozpiszemy scenariusz dnia ślubu i wesela. Na jego podstawie będziemy koordynować przygotowania i przyjęcie weselne. Dzięki temu będziecie mogli skupić się na tym, co najważniejsze, a nam powierzyć wszystkie obowiązki.'
+            }
+        ],
+
+        bottomTitle: 'Wedding planner Śląsk - zakres obowiązków.',
+        bottomText:
+            <>
+                <p>To od Was zależy, w jakim stopniu chcecie nas zaangażować w przygotowania. Z doświadczenia wiemy, że najlepiej sprawdza się kompleksowa pomoc. Mimo to możecie zdecydować się tylko na wybrane usługi, koordynację dnia ślubu i wesela lub konsultacje online. Serdecznie zapraszamy do kontaktu. Zorganizujemy dla Was ślub Waszych marzeń.</p>
+                <p>Zachęcamy do przesłuchania naszego podcastu <CustomOuterLink className="linkPink" to="https://open.spotify.com/show/7Lj581I8xRqkY3lRwkOvrc?si=Kt_f171HSBar9aWWzwbRsg&nd=1" text="Hey Wedding" />. Znajdziecie tam rozmowy z naszymi parami młodymi i wiele ciekawych rad dotyczących organizacji ślubu i wesela. </p>
+            </>
+    },
+
+    {
         path: 'wedding-planner-warszawa',
         seoTitle: 'Wedding planner Warszawa - Czary Marry organizacja ślubów i wesel Warszawa',
         seoText: 'Planujecie zorganizować ślub marzeń w Warszawie? Szukacie profesjonalnego wedding plannera który perfekcyjnie urządzi Wasze wesele w Warszawie?',

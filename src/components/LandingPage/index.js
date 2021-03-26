@@ -99,7 +99,7 @@ const LandingPage = () => {
                         </Slider>
                     </div>
                 </div>
-                {content.map(({ title, titleBgColor, color, text }, index) => (
+                {content && content.map(({ title, titleBgColor, color, text }, index) => (
                     <div className="container-middle" key={index}>
                         <h2 className={`middle-header ${titleBgColor} ${color}`}>{title}</h2>
                         {text &&
@@ -117,7 +117,7 @@ const LandingPage = () => {
                     }
                     <div className="custom-slider-two">
                         <Slider {...settingsTwo}>
-                            {gridPics.map((pic, index) => (
+                            {gridPics && gridPics.map((pic, index) => (
                                 <div key={index}>
                                     <div className="custom-box">
                                         <img src={pic} alt={pic} />
