@@ -1,7 +1,8 @@
 import CustomOuterLink from '../CustomLink/CustomOuterLink'
-import { generatePath, Link } from 'react-router-dom';
+import { generatePath, Link } from 'react-router-dom'
 import URLS from '../../utils/urls'
-import CustomCategoryLink from '../CustomLink/CustomCategoryLink';
+import CustomCategoryLink from '../CustomLink/CustomCategoryLink'
+import CustomPostLink from '../CustomLink/CustomPostLink'
 
 const landings = [
     {
@@ -375,7 +376,7 @@ const landings = [
                 require('../Home/instaPic3-czarymarry-wedding-planner.jpg').default,
             ],
         numsTitle: 'Ogranizacja Ślubów Wrocław - zakres prac konsultanta ślubnego',
-        numsText: 'Zanim ostatecznie zdecydujecie się na współpracę z wedding planner’em warto poznać zakres usług Czary Marry - konsultantek ślubnych z Wrocławia. Uważamy, że najlepsza formą współpracy jest kompleksowa pomoc w organizacji ślubów, ponieważ przynosi ona najlepsze efekty. Poniżej przedstawiamy Wam zakres naszych usług:',
+        numsText: 'Zanim ostatecznie zdecydujecie się na współpracę z wedding plannerem warto poznać zakres usług Czary Marry - konsultantek ślubnych z Wrocławia. Uważamy, że najlepsza formą współpracy jest kompleksowa pomoc w organizacji ślubów, ponieważ przynosi ona najlepsze efekty. Poniżej przedstawiamy Wam zakres naszych usług:',
         numsContent: [
             {
                 bgColor: 'bgPink',
@@ -403,7 +404,7 @@ const landings = [
                     Jeśli ostatecznie podjęliście decyzję, że organizacją ślubu i wesela we Wrocławiu zajmiecie się samodzielnie to pamiętajcie, że na każdym etapie przygotowań możecie skorzystać z konsultacji online. Spraw do ogarnięcia i decyzji do podjęcia potrafi być dużo i warto zapytać o zdanie specjalisty czyli doświadczonych konsultantek ślubnych. Zwłaszcza jeśli jest z okolic i organizowały niejeden ślub we Wrocławiu. Organizację wesel mamy we krwi!
         </p>
                 <p>
-                    A jeśli chcecie umilić sobie czas ślubnych przygotowań to zapraszamy na nasz <CustomOuterLink className="linkMint" to="https://open.spotify.com/show/7Lj581I8xRqkY3lRwkOvrc" text="podcast" />.
+                    A jeśli chcecie umilić sobie czas <CustomPostLink text="ślubnych przygotowań" path="przygotowania-do-slubu-formalnosci" className="linkMint" /> to zapraszamy na nasz <CustomOuterLink className="linkMint" to="https://open.spotify.com/show/7Lj581I8xRqkY3lRwkOvrc" text="podcast" />.
         </p>
             </>
     }

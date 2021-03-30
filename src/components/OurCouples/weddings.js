@@ -1,3 +1,5 @@
+import CustomPostLink from "../CustomLink/CustomPostLink"
+
 const weddings = [
     {
         bgColor: "bgDark",
@@ -203,7 +205,7 @@ const weddings = [
     {
         bgColor: "bgMint",
         title: "Ewelina & Łukasz",
-        details: "Ślub kościelny w cudownej parkowej scenerii. Srebro, transparentność, morze kwiatów i namiot. Glamour w najczystszej formie, łączący się z pięknem otaczającej natury.",
+        details: <><CustomPostLink text="Ślub kościelny" path="dokumenty-do-slubu-koscielnego-konkordatowego" className="bold" /> w cudownej parkowej scenerii. Srebro, transparentność, morze kwiatów i namiot. Glamour w najczystszej formie, łączący się z pięknem otaczającej natury.</>,
         org: "Agencja Ślubna Czary Marry",
         orgLink: "",
         place: "Pałac Pstrokonie",

@@ -5,7 +5,8 @@ import '../../utils/colors.scss'
 import ScrollToTopOnMount from '../ScrollToTopOnMount'
 import URLS from '../../utils/urls'
 import logo from '../../utils/czarymarry_logo.png'
-import SeoContent from '../SeoContent';
+import SeoContent from '../SeoContent'
+import CustomPostLink from '../CustomLink/CustomPostLink'
 
 const APP_URL = process.env.REACT_APP_BASE_URL
 const seo = {
@@ -28,7 +29,7 @@ const details = [
     { title: "Umowa", text: "Skonstruowana jest w prosty i przejrzysty sposób, zabezpiecza interesy obu stron. Po jej podpisaniu i wpłaceniu pierwszej transzy naszego wynagrodzenia zaczynamy działać.", color: "mint" },
     { title: "Organizacja", text: "Startujemy od stworzenia budżetu wesela oraz harmonogramu prac. Następnie działamy według ustalonego planu, zaczynając od najważniejszych elementów takich jak poszukiwanie sali, DJ'a lub zespołu, fotografa itd. Co najważniejsze jesteśmy w stałym kontakcie. Na każdym etapie służymy Wam radą i naszym doświadczeniem.", color: "grey" },
     { title: "Koordynacja", text: "Tworzymy scenariusz dnia ślubu i wesela, a następnie działamy zgodnie z nim. Jesteśmy z Wami od początku przygotowań. Pilnujemy prac na sali weselnej. Jesteśmy w stałym kontakcie z wykonawcami, Waszymi gośćmi, ale co najważniejsze jesteśmy blisko Was, abyście mogli skupić się na tym, co najważniejsze, a nam powierzyć wszystkie obowiązki.", color: "dark" },
-    { title: "Po weselu", text: "Wasz ślub i wesele było wspaniałe. Zostało jednak jeszcze trochę formalności i spraw do domknięcia. Tu też możecie liczyć na naszą pomoc i wsparcie.", color: "pink" }
+    { title: "Po weselu", text: <>Wasz ślub i wesele było wspaniałe. Zostało jednak jeszcze trochę <CustomPostLink text="formalności" path="przygotowania-do-slubu-formalnosci" className="linkPink" />  i spraw do domknięcia. Tu też możecie liczyć na naszą pomoc i wsparcie.</>, color: "pink" }
 ]
 
 const HowWeWork = () => (

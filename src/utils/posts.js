@@ -1459,13 +1459,13 @@ const posts = [
         },
         textMain:
             <>
-                To już 10 odcinek naszego podcastu! Wracamy do Was po krótkiej przerwie z kolejną dawką <span className="bgMintLight">weselnych mitów</span>, które postanowiłyśmy wziąć pod lupę. Tym razem porozmawiamy czy wszystko, co ślubne jest droższe, a jeśli tak to z czego to wynika. Rozważymy, czy wesele musi być dwudniowe i czy wypada zorganizować przyjęcie bez poprawin. Będzie też sporo o "tradycyjnych, polskich weselach" i ich "najważniejszych" elementach.
+                To już 10 odcinek naszego podcastu! Wracamy do Was po krótkiej przerwie z kolejną dawką weselnych mitów, które postanowiłyśmy wziąć pod lupę. Tym razem porozmawiamy czy wszystko, co ślubne jest droższe, a jeśli tak to z czego to wynika. Rozważymy, czy wesele musi być dwudniowe i czy wypada zorganizować przyjęcie bez poprawin. Będzie też sporo o "tradycyjnych, polskich weselach" i ich "najważniejszych" elementach.
             </>,
         content: [
             {
                 text:
                     <>
-                        Zdradzimy Wam, dlaczego lepiej nie planować zbyt dużej ilości atrakcji, oraz zastanowimy się, czy ślub cywilny może mieć intymny i romantyczny charakter. Podyskutujemy również o tym, czy <span className="bgMintLight">pomoc wedding plannera</span> to droga usługa oraz czy warto decydować się na jego pomoc, skoro podczas organizacji wesela możemy liczyć na rodziców i przyjaciół. Wszystko to przeplatane masą około ślubnych dygresji, inspiracji i ciekawych anegdot.
+                        Zdradzimy Wam, dlaczego lepiej nie planować zbyt dużej ilości atrakcji, oraz zastanowimy się, czy <CustomPostLink text="ślub cywilny" path="dokumenty-slub-cywilny-formalnosci" className="linkMint" /> może mieć intymny i romantyczny charakter. Podyskutujemy również o tym, czy pomoc wedding plannera to droga usługa oraz czy warto decydować się na jego pomoc, skoro podczas organizacji wesela możemy liczyć na rodziców i przyjaciół. Wszystko to przeplatane masą około ślubnych dygresji, inspiracji i ciekawych anegdot.
                     </>
             },
             {
@@ -1822,7 +1822,7 @@ const posts = [
                 headerSmall: <span className="pink">Wedding plannerzy</span>,
                 text:
                     <>
-                        Konsultanci ślubni bezustannie prześcigają się swoją kreatywnością. W końcu każda para marzy o wyjątkowym i niepowtarzalnym weselu. Ale czy na pewno wszystko da się zrobić? Bardzo byśmy chciały, żeby tak było, ale nie do końca to prawda. Pewnych rzeczy nie przeskoczymy. Najczęściej na drodze stają nam obostrzenia, na które nie mamy wpływu, ograniczenia budżetowe lub logistyczne. Pokaz sztucznych ogni zorganizowany na obszarze Natura 2000? Teoretycznie da się to zrobić, ale czy warto łamać prawo albo ryzykować pożarem lasu? Postawienie namiotu weselnego za 5 tys. zł - są firmy, które podejmą się takiego wyzwania, ale czy to bezpieczne? Czy takie namioty spełniają odpowiednie atesty? Ślub kościelny w plenerze? Jest to zrobienia, ale procedura jest niezwykle trudna i prawdopodobieństwo, że się uda, jest niezwykle małe. Przypuszczam, że niektórzy <span className="bold pink">wedding plannerzy</span> składają obietnice bez pokrycia "dla Waszego dobra", nie chcąc Was zawieść. W naszym odczuciu nie tędy droga, ponieważ źle zrealizowany, ryzykowny pomysł może przynieść zdecydowanie większe rozgoryczenie.
+                        Konsultanci ślubni bezustannie prześcigają się swoją kreatywnością. W końcu każda para marzy o wyjątkowym i niepowtarzalnym weselu. Ale czy na pewno wszystko da się zrobić? Bardzo byśmy chciały, żeby tak było, ale nie do końca to prawda. Pewnych rzeczy nie przeskoczymy. Najczęściej na drodze stają nam obostrzenia, na które nie mamy wpływu, ograniczenia budżetowe lub logistyczne. Pokaz sztucznych ogni zorganizowany na obszarze Natura 2000? Teoretycznie da się to zrobić, ale czy warto łamać prawo albo ryzykować pożarem lasu? Postawienie namiotu weselnego za 5 tys. zł - są firmy, które podejmą się takiego wyzwania, ale czy to bezpieczne? Czy takie namioty spełniają odpowiednie atesty? <CustomPostLink text="Ślub kościelny" path="dokumenty-do-slubu-koscielnego-konkordatowego" className="linkPink" /> w plenerze? Jest to zrobienia, ale procedura jest niezwykle trudna i prawdopodobieństwo, że się uda, jest niezwykle małe. Przypuszczam, że niektórzy <span className="bold pink">wedding plannerzy</span> składają obietnice bez pokrycia "dla Waszego dobra", nie chcąc Was zawieść. W naszym odczuciu nie tędy droga, ponieważ źle zrealizowany, ryzykowny pomysł może przynieść zdecydowanie większe rozgoryczenie.
                     </>,
                 pics: [
                     {
@@ -2571,7 +2571,7 @@ const posts = [
         mainPic: {
             src: require('./BlogPics/Post14/post14.jpg').default
         },
-        textMain: 'Organizujesz swój ślub i wesele. BRAWO! Jesteś bohaterką ! Zasługujesz na trochę odpoczynku i relaksu. Chcemy zaproponować Ci dziś trochę weselnych umilaczy w postaci książek i programów ślubnych. W końcu przygotowania do ceremonii zaczynają się na długo przed kluczowym dniem, dlatego wielu może się wydawać, że łączy się to tylko z jeżdżeniem, załatwianiem, przymierzaniem, próbowaniem i podpisywaniem umów. Są też miłe i zabawne strony. :)',
+        textMain: <>Organizujesz swój ślub i wesele. BRAWO! Jesteś bohaterką ! Zasługujesz na trochę odpoczynku i relaksu. Chcemy zaproponować Ci dziś trochę weselnych umilaczy w postaci książek i programów ślubnych. W końcu <CustomPostLink text="przygotowania do ceremonii" path="przygotowania-do-slubu-formalnosci" className="linkPink" /> zaczynają się na długo przed kluczowym dniem, dlatego wielu może się wydawać, że łączy się to tylko z jeżdżeniem, załatwianiem, przymierzaniem, próbowaniem i podpisywaniem umów. Są też miłe i zabawne strony. :)</>,
         content: [
             {
                 headerSmall: <span className="pink">"Say Yes to the Dress"</span>,
@@ -3091,7 +3091,7 @@ const posts = [
             Malowałam się sama, a do fryzjera byłam umówiona, ale powiem szczerze, że pani fryzjerka prawie doprowadziła mnie do łez zbyt krótkim obcięciem grzywki. Do dziś oglądając zdjęcia, spoglądam na tę nieszczęsną, przykrótką grzywkę.<br />
                 <span className="pink">Jak wyglądał ślub i wesele?</span> <br />
             To było 19 kwietnia 1980. Trudno uwierzyć, że minęło już 37 lat. Pagoda była brzydka, padał deszcz ze śniegiem. Goście weselni żartowali, że na pewno szorowałam przypalone garnki i dlatego mamy taką brzydką pogodę w dniu ślubu. To taki stary przesąd.<br />
-            Ślub cywilny był na godzinę 13. Pamiętam, że nie mogłam wcisnąć obrączki na palec taty. Bardzo mnie to rozbawiło, co widać na zdjęciach. Na dodatek zająknęłam się podczas składania przysięgi, ponieważ, mimo że chodziłam z twoim tatą tak długo, nie wiedziałam, że ma na drugie imię Waldemar. Po ceremonii świadek kazał nam oddać obrączki i na godzinę 16 pojechaliśmy do kościoła. Zaskakujące było, że tego dnia ślub kościelny brały trzy pary podczas jednej ceremonii. Jeszcze większym zbiegiem okoliczności były imiona panów młodych: Lechosław, Lech oraz Leszek. Wszystko odbyło się oczywiście za naszą zgodą, nie zależało nam na tym, żeby wszystko kręciło się wokół nas, nie przeszkadzało, że dzielimy ceremonię z dwoma innymi parami.
+                <CustomPostLink text="Ślub cywilny" path="dokumenty-slub-cywilny-formalnosci" className="linkPink" />  był na godzinę 13. Pamiętam, że nie mogłam wcisnąć obrączki na palec taty. Bardzo mnie to rozbawiło, co widać na zdjęciach. Na dodatek zająknęłam się podczas składania przysięgi, ponieważ, mimo że chodziłam z twoim tatą tak długo, nie wiedziałam, że ma na drugie imię Waldemar. Po ceremonii świadek kazał nam oddać obrączki i na godzinę 16 pojechaliśmy do kościoła. Zaskakujące było, że tego dnia ślub kościelny brały trzy pary podczas jednej ceremonii. Jeszcze większym zbiegiem okoliczności były imiona panów młodych: Lechosław, Lech oraz Leszek. Wszystko odbyło się oczywiście za naszą zgodą, nie zależało nam na tym, żeby wszystko kręciło się wokół nas, nie przeszkadzało, że dzielimy ceremonię z dwoma innymi parami.
             </>,
         topPic: {
             src: require('./BlogPics/Post8/post8a.jpg').default
@@ -3101,7 +3101,7 @@ const posts = [
                 text:
                     <>
                         <span className="pink">W porównaniu do innych par, z jakimi rozmawiałyśmy macie bardzo dużo zdjęć z wesela. Opowiedz, jak sprawa fotografa wyglądała u Was?</span><br />
-                        Fotografa dzieliśmy ze znajomą parą młodą, która brała ślub tego samego dnia, a wesele miała w innej sali. Ponieważ ślub kościelny mieliśmy wspólny, a cywilny w innych godzinach nie sprawiło to żadnego problemu.<br />
+                        Fotografa dzieliśmy ze znajomą parą młodą, która brała ślub tego samego dnia, a wesele miała w innej sali. Ponieważ <CustomPostLink text="ślub kościelny" path="dokumenty-do-slubu-koscielnego-konkordatowego" className="linkPink" /> mieliśmy wspólny, a cywilny w innych godzinach nie sprawiło to żadnego problemu.<br />
                         <span className="pink">Mówiłaś o problemie z założeniem obrączek i drugim imieniu taty. Czy podczas wesela wydarzyło się jeszcze coś zabawnego?</span><br />
                         Pamiętam, że tata strasznie się stresował o to, czy goście dobrze się bawią. "Krystyna, zobacz - oni nie jedzą, Krystyna, zobacz - nic nie piją" — powtarzał bez przerwy. Zawsze wspominam to z rozbawieniem.<br />
                         <span className="pink">A co z prezentami?</span><br />
