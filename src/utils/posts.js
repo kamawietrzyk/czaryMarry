@@ -7,6 +7,30 @@ import URLS from './urls'
 
 const posts = [
     {
+        path: '16-hey-wedding-niedobre-rady',
+        title: '#16 Hey Wedding - Niedobre rady',
+        seoText: 'Czy podczas organizacji wesela nieustannie słyszycie „dobre rady" ze strony najbliższych? Jeśli tak, ten podcast jest właśnie dla Was.',
+        date: '07 kwi 2021',
+        tag: 'podcast',
+        textShort: 'Czy podczas organizacji wesela nieustannie słyszycie "dobre rady" ze strony najbliższych? Jeśli tak, ten podcast jest właśnie dla Was.',
+        mainPic: {
+            src: require('./BlogPics/podcast.png').default
+        },
+        textMain:
+            <>
+                Czy podczas organizacji wesela nieustannie słyszycie "dobre rady" ze strony najbliższych? Jeśli tak, ten podcast jest właśnie dla Was. Będziemy rozmawiać o presji ze strony rodziny, poruszymy temat tradycji, tego, co wypada robić na weselu, kogo należy zaprosić, co się sprawdzi, a co jest fanaberią. Czy warto wybierać wykonawców na podstawie poleceń od znajomych? <br /> <br />
+                Powiemy również, jak sobie radzić z radami, z którymi nie jest Wam po drodze i dlaczego nie warto ulegać presji.
+            </>,
+        links:
+            <>
+                <iframe title="#16 Hey Wedding - Niedobre rady" allowtransparency="true" height="150" width="100%" style={{ border: "none", minWidth: "min(100%, 430px)" }} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=xbs3v-fff791-pb&from=pb6admin&download=1&share=1&download=1&rtl=0&fonts=Arial&skin=1&btn-skin=7"></iframe>
+            </>,
+        extras:
+            <>
+                <span className="d-block text-right"><CustomCategoryLink path="podcast" text="Podcast" className="bgColorMint" /></span>
+            </>
+    },
+    {
         path: 'dokumenty-do-slubu-koscielnego-konkordatowego',
         seoTitle: 'Dokumenty do ślubu kościelnego i konkordatowego | formalności objaśniają Czary Marry',
         seoText: 'Przed Wami ślub kościelny lub konkordatowy? Przez formalności krok po kroku przeprowadzi Was agencja ślubna Czary Marry.',
@@ -1044,7 +1068,7 @@ const posts = [
         },
         textMain:
             <>
-                Jeśli jesteś na diecie i chcesz ograniczyć spożycie cukru, nie słuchaj tego odcinka! Tym razem rozmawiamy z wicemistrzynią Europy w zdobieniu tortów — <span className="bgMintLight">Natalią Szymańską</span>. Dowiecie się między innymi, czy każdy może zostać cukiernikiem i jak zaczęła się jej słodka przygoda. <span className="bgMintLight"></span>
+                Jeśli jesteś na diecie i chcesz ograniczyć spożycie cukru, nie słuchaj tego odcinka! Tym razem rozmawiamy z wicemistrzynią Europy w zdobieniu tortów — Natalią Szymańską. Dowiecie się między innymi, czy każdy może zostać cukiernikiem i jak zaczęła się jej słodka przygoda.
             </>,
         content: [
             {
@@ -1079,7 +1103,7 @@ const posts = [
         },
         textMain:
             <>
-                Gośćmi 13 odcinka podcastu <span className="bgMintLight">Hey Wedding</span> byli <span className="bgMintLight">Angelika i Paweł</span>. Rozmawialiśmy o ich bajkowym weselu w Zamku Książ. O spektakularnych dekoracjach, o tym z czym wiąże się organizacja wesela w turystycznym miejscu oraz o współpracy przy projekcie, który wymagał skoordynowania bardzo dużego zespołu wykonawców.
+                Gośćmi 13 odcinka podcastu <span className="bold mint">Hey Wedding</span> byli Angelika i Paweł. Rozmawialiśmy o ich bajkowym weselu w Zamku Książ. O spektakularnych dekoracjach, o tym z czym wiąże się organizacja wesela w turystycznym miejscu oraz o współpracy przy projekcie, który wymagał skoordynowania bardzo dużego zespołu wykonawców.
             </>,
         links:
             <>
@@ -1244,8 +1268,8 @@ const posts = [
         },
         textMain:
             <>
-                W 12 odcinku podcastu <span className="bgMintLight">Hey Wedding</span> rozmawiamy z <span className="bgMintLight">Anello Decor</span> o dekoracjach ślubnych. <br />
-                <span className="bgMintLight">Aneta</span> opowie, jak narodziła się jej pasja do florystyki oraz o swoich zawodowych marzeniach. Nie zabraknie cennych porad, przydatnej wiedzy i kwiecistych metafor.
+                W 12 odcinku podcastu <span className="bold mint">Hey Wedding</span> rozmawiamy z <span className="bold mint">Anello Decor</span> o dekoracjach ślubnych. <br />
+                Aneta opowie, jak narodziła się jej pasja do florystyki oraz o swoich zawodowych marzeniach. Nie zabraknie cennych porad, przydatnej wiedzy i kwiecistych metafor.
             </>,
         content: [
             {
@@ -1274,7 +1298,7 @@ const posts = [
         },
         textMain:
             <>
-                Wszyscy mówili, że mają pecha, ale patrząc na nich w dniu ślubu wiedziałyśmy, że to prawdziwi szczęściarze. Zapraszamy Was do przesłuchania rozmowy z <span className="bgMintLight">Beatą i Pawłem</span>, którzy musieli dwukrotnie zmienić swoje ślubno-weselne plany. Mimo że nie było łatwo, a los nie sprzyjał, udało nam się zorganizować niesamowite wesele, o którym chcielibyśmy Wam opowiedzieć.
+                Wszyscy mówili, że mają pecha, ale patrząc na nich w dniu ślubu wiedziałyśmy, że to prawdziwi szczęściarze. Zapraszamy Was do przesłuchania rozmowy z <span className="bold mint">Beatą i Pawłem</span>, którzy musieli dwukrotnie zmienić swoje ślubno-weselne plany. Mimo że nie było łatwo, a los nie sprzyjał, udało nam się zorganizować niesamowite wesele, o którym chcielibyśmy Wam opowiedzieć.
             </>,
         links:
             <>
@@ -1593,11 +1617,11 @@ const posts = [
         },
         textMain:
             <>
-                Kolejny odcinek podcastu <span className="bold grey">Hey Wedding</span> to spotkanie dwóch duetów - Agencji Ślubnej Czary Marry oraz <CustomOuterLink to="https://www.lmfoto.pl/" text="LMFoto" className="linkMint" />. Podczas rozmowy zadałyśmy chłopakom kilkanaście nie do końca oczywistych pytań. Nie zabrakło również ciekawych historii oraz dygresji.
+                Kolejny odcinek podcastu <span className="bold mint">Hey Wedding</span> to spotkanie dwóch duetów - Agencji Ślubnej Czary Marry oraz <CustomOuterLink to="https://www.lmfoto.pl/" text="LMFoto" className="linkMint" />. Podczas rozmowy zadałyśmy chłopakom kilkanaście nie do końca oczywistych pytań. Nie zabrakło również ciekawych historii oraz dygresji.
             </>,
         content: [
             {
-                text: <><span className="bold grey">Szymon i Łukasz</span> odpowiedzą, który z nich jest lepszym fotografem, o ciągłym doskonaleniu swoich umiejętności oraz dlaczego, mimo że tworzą duet, nie pracują na weselach razem. Dowiecie się również, co uważają na temat sesji plenerowych w dniu ślubu oraz sesjach innego dnia. Porozmawiamy o plusach i minusach każdego rozwiązania. Zapytamy, czy fotograf powinien ingerować w przebieg wydarzeń w dniu ślubu, a jeśli tak to w jakich momentach.</>
+                text: <><span className="bold mint">Szymon i Łukasz</span> odpowiedzą, który z nich jest lepszym fotografem, o ciągłym doskonaleniu swoich umiejętności oraz dlaczego, mimo że tworzą duet, nie pracują na weselach razem. Dowiecie się również, co uważają na temat sesji plenerowych w dniu ślubu oraz sesjach innego dnia. Porozmawiamy o plusach i minusach każdego rozwiązania. Zapytamy, czy fotograf powinien ingerować w przebieg wydarzeń w dniu ślubu, a jeśli tak to w jakich momentach.</>
             },
             {
                 text: 'Czy warto zdecydować się na ekipę foto i film, czy na dwie osobne firmy wyspecjalizowane w tych dziedzinach? Jak wygląda współpraca na płaszczyźnie foto -film, DJ oraz zespół? Co jest kluczem do owocnej współpracy, a co może stanąć na przeszkodzie do stworzenia niesamowitych ujęć?'
@@ -1660,7 +1684,7 @@ const posts = [
         },
         textMain:
             <>
-                W ósmym odcinku podcastu <span className="bgMintLight">Hey Wedding</span> miałyśmy przyjemność spotkać się z <span className="bgMintLight">Nadją Pędzik</span>, organizatorką festiwalu sukien ślubnych z drugiej ręki. Rozmawiałyśmy o tym,  dlaczego warto rozważyć zakup używanej sukni ślubnej, o świadomych konsumentach, ruchu Zero Waste.
+                W ósmym odcinku podcastu <span className="bold mint">Hey Wedding</span> miałyśmy przyjemność spotkać się z <span className="bold mint">Nadją Pędzik</span>, organizatorką festiwalu sukien ślubnych z drugiej ręki. Rozmawiałyśmy o tym,  dlaczego warto rozważyć zakup używanej sukni ślubnej, o świadomych konsumentach, ruchu Zero Waste.
             </>,
         links:
             <>
@@ -1684,7 +1708,7 @@ const posts = [
         },
         textMain:
             <>
-                W siódmym odcinku <span className="bgMintLight">Hey Wedding</span> rozmawiamy z <span className="bgMintLight">Klaudią</span>, naszą panną młodą. Porozmawiamy o połączeniu dwóch kultur, współpracy opartej na przyjacielskich relacjach i przedweselnych stresach.
+                W siódmym odcinku <span className="bold mint">Hey Wedding</span> rozmawiamy z <span className="bold mint">Klaudią</span>, naszą panną młodą. Porozmawiamy o połączeniu dwóch kultur, współpracy opartej na przyjacielskich relacjach i przedweselnych stresach.
             </>,
         links:
             <>
@@ -1756,7 +1780,7 @@ const posts = [
         },
         textMain:
             <>
-                W szóstym odcinku podcastu rozprawiamy się z <span className="bgMintLight">najpopularniejszymi mitami ślubnymi</span>. Dowiecie się między innymi, czy jedzenie w bufecie oraz serwowany obiad to dobry pomysł, czy można zorganizować wesele bez Disco Polo oraz czy powinno się odmieniać nazwiska gości w zaproszeniach.
+                W szóstym odcinku podcastu rozprawiamy się z <span className="bold mint">najpopularniejszymi mitami ślubnymi</span>. Dowiecie się między innymi, czy jedzenie w bufecie oraz serwowany obiad to dobry pomysł, czy można zorganizować wesele bez Disco Polo oraz czy powinno się odmieniać nazwiska gości w zaproszeniach.
             </>,
         links:
             <>
@@ -1866,7 +1890,7 @@ const posts = [
         },
         textMain:
             <>
-                Jaka jest idea ślubów humanistycznych? Dla kogo są ceremonie symboliczne i jakie dają możliwości? A także skąd u naszego gościa wziął się pomysł na zostanie celebrantem? O tym wszystkim posłuchacie w inspirującej rozmowie z <span className="bold grey">Jackiem Siedleckim</span> - <CustomOuterLink className="linkMint" to="http://www.slubhumanistyczny.com" />.
+                Jaka jest idea ślubów humanistycznych? Dla kogo są ceremonie symboliczne i jakie dają możliwości? A także skąd u naszego gościa wziął się pomysł na zostanie celebrantem? O tym wszystkim posłuchacie w inspirującej rozmowie z <span className="bold mint">Jackiem Siedleckim</span> - <CustomOuterLink className="linkMint" to="http://www.slubhumanistyczny.com" />.
             </>,
         links:
             <>
@@ -1955,7 +1979,7 @@ const posts = [
         },
         textMain:
             <>
-                W dzisiejszym odcinku rozmawiamy z <span className="bgMintLight">Kingą</span> - radcą prawym, współautorką bloga <CustomOuterLink className="linkMint" text="Ślubne Potyczki Prawne" to="https://slubnepotyczkiprawne.pl" />. Podcast jest adresowany zarówno do par młodych jak i branży ślubnej. Znajdziecie tu informacje o wpływie koronawirusa na organizację ślubów i wesel, dowiecie się, czym jest siła wyższa i do jakich kroków uprawnia dwie strony umowy, co z zadatkami i przekładaniem uroczystości. To wszystko poparte przepisami prawa.
+                W dzisiejszym odcinku rozmawiamy z <span className="bold mint">Kingą</span> - radcą prawym, współautorką bloga <CustomOuterLink className="linkMint" text="Ślubne Potyczki Prawne" to="https://slubnepotyczkiprawne.pl" />. Podcast jest adresowany zarówno do par młodych jak i branży ślubnej. Znajdziecie tu informacje o wpływie koronawirusa na organizację ślubów i wesel, dowiecie się, czym jest siła wyższa i do jakich kroków uprawnia dwie strony umowy, co z zadatkami i przekładaniem uroczystości. To wszystko poparte przepisami prawa.
             </>,
         links:
             <>
@@ -2044,7 +2068,7 @@ const posts = [
         },
         textMain:
             <>
-                Dziś porozmawiamy z naszym kolegą z branży <span className="bgMintLight"> Krzyśkiem Krzemińskiem - DJ-em Jegomościem</span>. Pogadamy o tym, co Krzysiek lubi w swojej pracy, jak unika popadania w schematy, jak wyglądają jego relacje z parami i wielu innych interesujących rzeczach.
+                Dziś porozmawiamy z naszym kolegą z branży <span className="bold mint"> Krzyśkiem Krzemińskiem - DJ-em Jegomościem</span>. Pogadamy o tym, co Krzysiek lubi w swojej pracy, jak unika popadania w schematy, jak wyglądają jego relacje z parami i wielu innych interesujących rzeczach.
             </>,
         links:
             <>
@@ -2215,7 +2239,7 @@ const posts = [
             src: require('./BlogPics/podcast.png').default
         },
         textMain: <>
-            Dziś porozmawiamy z <span className="bgMintLight">Angie</span> o jej <span className="bgMintLight">kameralnym weselu w stylu slow</span> organizowanym w Polsce oraz wielkim hinduskim weselu i tradycjach z nim związanych.
+            Dziś porozmawiamy z <span className="bold mint">Angie</span> o jej kameralnym weselu w stylu slow organizowanym w Polsce oraz wielkim hinduskim weselu i tradycjach z nim związanych.
         </>,
         links:
             <>
@@ -2238,7 +2262,7 @@ const posts = [
             src: require('./BlogPics/podcast.png').default
         },
         textMain: <>
-            Posłuchajcie naszego podcastu - <span className="bgMintLight">Hey Wedding!</span> W pierwszym odcinku rozmawiamy z jedną z naszych par. <span className="bgMintLight">Kasia i Marcin</span> mieli piękne wesele w Przystani Między Deskami.
+            Posłuchajcie naszego podcastu - <span className="bold mint">Hey Wedding!</span> W pierwszym odcinku rozmawiamy z jedną z naszych par. <span className="bold mint">Kasia i Marcin</span> mieli piękne wesele w Przystani Między Deskami.
         </>,
         links:
             <>
