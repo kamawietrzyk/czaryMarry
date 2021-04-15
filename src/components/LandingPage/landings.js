@@ -8,7 +8,7 @@ const landings = [
     {
         path: 'wedding-planner-slask-katowice',
         seoTitle: 'Wedding planner Śląsk | Czary Marry agencja ślubna Katowice',
-        seoText: 'Planujecie zorganizować swój ślub marzeń na Śląsku? Poszukujecie sprawdzonej agencji ślubnej, która zadba o koordynację przyjęcia weselnego? Postawcie na Czary Marry!',
+        seoText: 'Poszukujecie profesjonalnego wedding plannera na Śląsku? Zapraszamy do współpracy. Z przyjemnością pomożemy Wam w organizacji ślubu i wesela.',
         mainHeader: 'Czary Marry - sprawdzony wedding planner na Śląsku',
         boxTitle: 'Organizacja wesela Śląsk ≠ agencja ślubna Śląsk.',
         boxColor: 'bgGrey',
