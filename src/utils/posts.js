@@ -7,6 +7,29 @@ import URLS from './urls'
 
 const posts = [
     {
+        path: '17-hey-wedding-male-szare-madrosci',
+        title: '#17 Hey Wedding - Małe szare mądrości - rozmowa o emocjach, relacjach i fotografii ślubnej',
+        seoText: 'W 17 odcinku podcastu Hey Wedding zasiadamy na wspólnej kanapie i rozmawiamy z Mariolą i Kamilem z Małego Szarego Studia.',
+        date: '05 maj 2021',
+        tag: 'podcast',
+        textShort: 'W 17 odcinku podcastu Hey Wedding zasiadamy na wspólnej kanapie i rozmawiamy z...',
+        mainPic: {
+            src: require('./BlogPics/podcast.png').default
+        },
+        textMain:
+            <>
+                W 17 odcinku podcastu Hey Wedding zasiadamy na wspólnej kanapie i rozmawiamy z Mariolą i Kamilem z <CustomOuterLink to="https://maleszarestudio.pl/" text="Małego Szarego Studia" className="linkMint" />. To odcinek o pasji, emocjach, relacjach i fotografii. Nie jest to jednak zwykła rozmowa bliskich znajomych, raczej cenna lekcja zarówno dla par, jak i dla wykonawców ślubnych o tym, co w dniu wesela jest naprawdę ważne i jak nie zatracić się w tym, co powinno być jedynie dodatkiem.
+            </>,
+        links:
+            <>
+                <iframe title="#17 Małe szare mądrości - rozmowa o emocjach, relacjach i fotografii ślubnej." allowtransparency="true" height="150" width="100%" style={{ border: "none", minWidth: "min(100%, 430px)" }} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=8n4dx-1029e5d-pb&from=pb6admin&download=1&share=1&download=1&rtl=0&fonts=Arial&skin=1&btn-skin=7"></iframe>
+            </>,
+        extras:
+            <>
+                <span className="d-block text-right"><CustomCategoryLink path="podcast" text="Podcast" className="bgColorMint" /></span>
+            </>
+    },
+    {
         path: '16-hey-wedding-niedobre-rady',
         title: '#16 Hey Wedding - Niedobre rady',
         seoText: 'Czy podczas organizacji wesela nieustannie słyszycie „dobre rady" ze strony najbliższych? Jeśli tak, ten podcast jest właśnie dla Was.',
