@@ -967,6 +967,7 @@ const posts = [
             </>
     },
     {
+        altPath: 'marta-i-michał-i-ich-weselna-przygoda-w-ogrodzie',
         path: 'wesele-w-ogrodzie-garden-party',
         title: 'WESELE W OGRODZIE',
         seoTitle: 'Wesele w ogrodzie | Garden party z foodtruckami',
@@ -1815,92 +1816,6 @@ const posts = [
             </>
     },
     {
-        path: 'obiecanki-cacanki-czyli-o-największych-ściemach-branży-ślubnej',
-        title: 'Obiecanki cacanki — czyli o największych ściemach branży ślubnej',
-        seoText: 'W ostatnim wpisie na blogu wyjaśniłyśmy, dlaczego najczęściej za dobrą jakością usług idą wyższe ceny oraz na co trzeba zwrócić uwagę przy wyborze tańszych wykonawców. Dziś porozmawiamy o tych, którzy braki umiejętności ukrywają pod płaszczykiem obietnic. Najczęściej niespełnionych. Nie będziemy mówić o grubych prze...',
-        date: '24 kwi 2020',
-        textShort: 'W ostatnim wpisie na blogu wyjaśniłyśmy, dlaczego najczęściej za dobrą jakością usług idą wyższe ceny oraz na co trzeba...',
-        mainPic: {
-            src: require('./BlogPics/Post23/post23.jpg').default
-        },
-        textMain: 'W ostatnim wpisie na blogu wyjaśniłyśmy, dlaczego najczęściej za dobrą jakością usług idą wyższe ceny oraz na co trzeba zwrócić uwagę przy wyborze tańszych wykonawców. Dziś porozmawiamy o tych, którzy braki umiejętności ukrywają pod płaszczykiem obietnic. Najczęściej niespełnionych. Nie będziemy mówić o grubych przekrętach i celowych oszustwach tylko drobnych i na pozór niewinnych kłamstewkach.',
-        topPic: {
-            src: require('./BlogPics/Post23/post23.jpg').default
-        },
-        content: [
-            {
-                headerSmall: <span className="pink">Miejsca weselne</span>,
-                text: 'Wchodzicie na salę weselną. Czujecie, że nie jest to do końca spełnienie Waszych marzeń, ale miejsce ma potencjał... No może, gdyby nie te szpetne zasłony, obrazki na ścianach, żyrandole i krzesła. W głowie kotłuje Wam się tysiąc pomysłów jak to wszystko ograć?! Nieśmiało pytacie, czy można pozbyć się zbędnych bibelotów i zmienić kolor zasłon. W tym momencie niczym rycerz w lśniącej zbroi na pomoc przychodzi Wam manager. "Ależ oczywiście!"  — odpowiada. Gwarantuję Wam, że w 90% przypadków to ściema. Przed ślubem okaże się, że zasłon nie można zdjąć, ponieważ to dużo roboty, po weselu ktoś będzie musiał je założyć, a ponadto na stanie nie ma innych na wymianę. Zdjęte ze ścian obrazki zostawią brzydkie jasne plamy, pod pokrowcami kryją się zniszczone i poplamione krzesła. Może w takiej sytuacji warto rozważyć inną, neutralną salę, którą udekorujecie według własnego uznania bez konieczności zakrywania tego, co Was drażni. Jeśli widzicie, że na sali jest brudno, nie oszukujcie się. Skoro właściciele nie posprzątali w związku z Waszą pierwszą wizytą, to w dniu ślubu też tego nie zrobią.'
-            },
-            {
-                text: <>Podobny problem możecie napotkać na etapie <span className="bold pink">omawiania menu</span>. Jeśli widzicie w propozycjach, że kotlet mielony pogania schabowego, nie wierzcie, że nagle kucharz totalnie przearanżuje dla Was menu na rzecz lekkiej śródziemnomorskiej kuchni. To kolejne kłamstwo. Mimo szczerych chęci prawdopodobnie nie będzie miał odpowiednich umiejętności i produktów. Nie wierzcie też, że jedzenie na weselu będzie podane ładniej niż podczas degustacji. Takie historie walą ściemą na kilometr. Po to jest degustacja, żeby spróbować jedzenia i zobaczyć jak się prezentuje.</>,
-                pics: [
-                    {
-                        src: require('./BlogPics/Post23/post23a.jpg').default
-                    }
-                ]
-            },
-            {
-                headerSmall: <span className="pink">Kapele/DJ-e</span>,
-                text: '"Zagramy wszystko, co chcecie, zaaranżujemy dla Was utwory na życzenie". O ile w przypadku DJ-a, zagranie piosenki na życzenie nie stanowi większego problemu, z kapelą jest zupełnie inaczej. Każdy zespół dysponuje określonym repertuarem, a przygotowanie nowych utworów jest pracochłonne. Oczywiście, jeśli mówimy o jednym, dwóch utworach to jestem skłonna uwierzyć, że nie jest to duży problem. Jeśli jednak repertuar lub aranżacja utworów danego zespołu Wam nie odpowiada, to wybierzcie kogoś innego. Nie wierzcie w obietnice typu: "Jesteśmy w stanie zagrać z rockowym pazurem", jeśli w składzie zespołu widzicie klawiszowca, gitarzystę i wokalistkę o anielskim głosie. Nie wierzcie na słowo, zweryfikujcie to, oglądając urywki filmów wrzucanych na stronę zespołu. I jeszcze jedno, ale najważniejsze. Sprawdzajcie, kto aktualnie jest w składzie danego bandu. Bardzo często zdarza się, że po wokalistce, która urzekła Was barwą głosu, w zespole zostało już tylko demo na stronie.',
-            },
-            {
-                text: 'Żeby było sprawiedliwie, ujawnijmy jeszcze kilka przewinień braci Dj-skiej. To fakt, są bardziej elastyczni, jeśli chodzi o repertuar, ale również charakteryzują się określonym stylem. Jeśli jesteście fanami rocka, metalu, hip-hopu, techno, reggae lub jakiegokolwiek innego gatunku muzycznego, bez którego nie wyobrażacie sobie własnego wesela, a DJ zaręcza, że świetnie odnajduje się w tym gatunku i to dla niego żaden problem, żeby poprowadzić imprezę w tym stylu, sprawdźcie go. Zapytajcie, czy ma na swojej playliście jakiś set do odsłuchania w interesującym Was klimacie. Jeśli nie, nie powinno być problemu, żeby przygotował dla Was małą próbkę. Jeśli zacznie się migać to jest wysoce prawdopodobne, że ściemnia. Na co jeszcze warto uważać? Na chwytliwe hasła typu "gwarancja udanej imprezy" - taka gwarancja jest warta tyle samo, co ta składana przez producenta proszku Bonux — wypierze wszystko prócz kieszeni.',
-                pics: [
-                    {
-                        src: require('./BlogPics/Post23/post23b.jpg').default
-                    }
-                ]
-            },
-            {
-                headerSmall: <span className="pink">Fotografowie i filmowcy</span>,
-                text:
-                    <>
-                        Podczas wyboru filmu i foto musicie mieć świadomość, że każdy wykonawca ślubny, a nawet każdy człowiek chwali się swoimi największymi osiągnięciami. Podobnie jest z fotografami, filmowcami, wedding plannerami, czy florystkami. Dlatego przeglądając <span className="bold pink">portfolio wykonawców ślubnych</span> odłóżcie na chwilę emocje na bok i zróbcie dokładniejszy research. Nie sugerujcie się jednym lub dwoma dobrymi ujęciami w galerii na FB, piękną parą młodą na zdjęciach, rajską wyspą w tle. Jeśli rzeczywiście poczuliście miętę do fotografa, poproście o link do pełnego reportażu ślubnego. Zerknijcie, czy na zdjęciach są wszystkie elementy, na których Wam zależy, czy podoba Wam się klimat jego zdjęć, a nie tylko ten piękny plener przy wodospadzie, którego w życiu sobie nie zrobicie. Podobnie sprawa ma się do filmowców, nie poprzestawajcie na 3-minutowych teledyskach, poproście o dostęp do dłuższych filmów. <br />
-                Nazywanie powyższych praktyk oszustwem czy kłamstwem byłoby nadużyciem - nie jest to celowe wprowadzanie klienta w błąd, w końcu chodzi o to, żeby pokazać się Wam z jak najlepszej strony. Emocjonalne wybory nie są wcale złe, ale jeśli poświęcicie trochę więcej czasu na wybór foto i filmu na pewno nie dacie się oszukać swoim własnym wyobrażeniom.
-                    </>,
-                pics: [
-                    {
-                        src: require('./BlogPics/Post23/post23c.jpg').default
-                    }
-                ]
-            },
-            {
-                headerSmall: <span className="pink">Wedding plannerzy</span>,
-                text:
-                    <>
-                        Konsultanci ślubni bezustannie prześcigają się swoją kreatywnością. W końcu każda para marzy o wyjątkowym i niepowtarzalnym weselu. Ale czy na pewno wszystko da się zrobić? Bardzo byśmy chciały, żeby tak było, ale nie do końca to prawda. Pewnych rzeczy nie przeskoczymy. Najczęściej na drodze stają nam obostrzenia, na które nie mamy wpływu, ograniczenia budżetowe lub logistyczne. Pokaz sztucznych ogni zorganizowany na obszarze Natura 2000? Teoretycznie da się to zrobić, ale czy warto łamać prawo albo ryzykować pożarem lasu? Postawienie namiotu weselnego za 5 tys. zł - są firmy, które podejmą się takiego wyzwania, ale czy to bezpieczne? Czy takie namioty spełniają odpowiednie atesty? <CustomPostLink text="Ślub kościelny" path="dokumenty-do-slubu-koscielnego-konkordatowego" className="linkPink" /> w plenerze? Jest to zrobienia, ale procedura jest niezwykle trudna i prawdopodobieństwo, że się uda, jest niezwykle małe. Przypuszczam, że niektórzy <span className="bold pink">wedding plannerzy</span> składają obietnice bez pokrycia "dla Waszego dobra", nie chcąc Was zawieść. W naszym odczuciu nie tędy droga, ponieważ źle zrealizowany, ryzykowny pomysł może przynieść zdecydowanie większe rozgoryczenie.
-                    </>,
-                pics: [
-                    {
-                        src: require('./BlogPics/Post23/post23d.jpg').default
-                    }
-                ]
-            },
-            {
-                headerSmall: <span className="pink">Fryzjerki i kosmetyczki</span>,
-                text: 'Niektóre z nich to prawdziwe mistrzynie zbrodni. Na pewno każdemu zdarzyła się kiedyś taka sytuacja. Idziesz do fryzjera, zrelaksowany siadasz na fotelu, pełen nadziei na spektakularną metamorfozę. Niestety z każdą chwilą czujesz, jak w żołądku rośnie Ci wielka klucha i strach ściska za gardło. Już wiesz, że nie tego się spodziewałeś i wszystko idzie w złym kierunku. Śmiało mówisz o swoich obawach, a w odpowiedzi słyszysz: "Nieee… tym się nie przejmuj, w dniu ślubu zrobimy to inaczej. Teraz włosy się nie kręcą, ale użyję innych wałków. Trochę wystaje, ale to tylko próba, prawdziwą fryzurę zrobimy w dniu ślubu." W takiej sytuacji jeśli możesz, uciekaj! Jeśli nie to postaw sprawę jasno. Próbny makijaż czy czesanie, jak sama nazwa wskazuje, ma być dokładnie taki jak w dniu ślubu. Jeśli zawodzi fryzjerka czy makijażystka wybierz się na próbę do kogoś innego, a jeśli to kwestia Twojego niezdecydowania, zaproponuj jeszcze jedno spotkanie. Błagam Cię tylko, nie wierz w ściemę, że w dniu ślubu będzie lepiej. Będzie gorzej! Po nieudanej próbie zarówno Ty, jak i Twoja stylistka będziecie poddenerwowane.',
-                pics: [
-                    {
-                        src: require('./BlogPics/Post23/post23e.jpg').default
-                    }
-                ]
-            },
-            {
-                headerSmall: <span className="pink">Florystki</span>,
-                text: 'Jakie grzeszki popełniają florystki? W zasadzie podobnie jak z foto i filmem nie będzie to celowe wprowadzanie klienta w błąd, ale chciałabym, żebyście przy wyborze odpowiedniej osoby zwrócili uwagę na jeden ważny szczegół. Proces powstawania oferty florystycznej, która spełni oczekiwania pary młodej, jest dość długotrwały. Zwykle ofertę poprzedza rozmowa, wymiana inspiracji, dyskusje o budżecie. Potem następuje moment na przedstawienia oferty. Ponieważ każdy projekt jest traktowany bardzo indywidualnie, florystki zasypują pary inspiracjami z Pinteresta. Nie ma w tym nic dziwnego, jedna inspiracja ma pokazać jakie kwiaty zastosuje florystka, inna, jaka będzie wielkość i kształt kompozycji. Wszystko to ma Wam pomóc w zrozumieniu ostateczną wizji dekoracji. Nie dajcie się jednak zwieść. Poza pięknymi inspiracjami zwracajcie uwagę na styl pracy florystki i dotychczasowe realizacje. Jeżeli na jej stronie internetowej widzicie, że 99% realizacji to przestarzały glamour możecie podejrzewać, że nie ma doświadczenia lub umiejętności do stworzenia innego klimatu. Wiecie, do czego zmierzam? Obserwując blogerki modowe łatwo stwierdzić, że ktoś jest świetnie ubrany, ale zdecydowanie trudniej iść do sklepu i ubrać się z takim samym wyczuciem stylu.',
-                pics: [
-                    {
-                        src: require('./BlogPics/Post23/post23f.jpg').default
-                    }
-                ]
-            },
-            {
-                text: 'Jak widzicie, te drobne niedopowiedzenia mogą zaważyć na tym, czy w dniu ślubu i tuż przed nim będziecie zadowoleni z dokonanych wyborów, czy też poczujecie się oszukani. Pozostańcie czujni i nie dajcie się zwieść. Jeśli coś Was niepokoi śmiało pytajcie, jeśli chcecie coś doprecyzować, koniecznie to zróbcie, najlepiej pisemnie, bo papier nie zapomina :)'
-            },
-        ]
-    },
-    {
         path: '5-hey-wedding-ślub-humanistyczny-a-na-co-to-komu',
         title: '#5 Hey Wedding - Ślub humanistyczny, a na co to komu?',
         seoText: 'Jaka jest idea ślubów humanistycznych? Dla kogo są ceremonie symboliczne i jakie dają możliwości? A także skąd u naszego gościa wziął się pomysł na zostanie celebrantem? O tym wszystkim posłuchacie w inspirującej rozmowie z Jackiem Siedleckim http://www.slubhumanistyczny.com',
@@ -1925,6 +1840,7 @@ const posts = [
             </>
     },
     {
+        altPath: 'obiecanki-cacanki-czyli-o-największych-ściemach-branży-ślubnej',
         path: 'polecany-fotograf-kamerzysta-sala-dj-zespol-na-wesele',
         seoTitle: 'Tani i polecany zespół na wesele? O cenach za usługi w branży ślubnej wg Czary Marry',
         seoText: 'Dlaczego nie warto organizować wesela w najtańszych salach weselach i korzystać z najtańszych usług w branży weselnej – i nie tylko?',
@@ -2608,21 +2524,47 @@ const posts = [
             </>
     },
     {
-        path: 'coś-dla-relaksu',
-        seoText: 'Organizujesz swój ślub i wesele. BRAWO! Jesteś bohaterką ! Zasługujesz na trochę odpoczynku i relaksu. Chcemy zaproponować Ci dziś trochę weselnych umilaczy w postaci książek i programów ślubnych. W końcu przygotowania do ceremonii zaczynają się na długo przed kluczowym dniem, dlatego wielu może się wydawać, że...',
+        altPath: 'coś-dla-relaksu',
+        path: 'programy-filmy-o-slubach',
+        seoTitle: 'Filmy o ślubach i programy o ślubach, które warto obejrzeć - Czary Marry',
+        seoText: 'Zastanawiasz się, jaki filmy i programy o ślubach warto obejrzeć? Przygotowałyśmy subiektywą listę z tytułami, które pomogą Ci się odprężyć przed ślubem.',
         tag: 'niezbędnik-przedslubny',
-        title: 'Coś dla relaksu',
+        title: 'Filmy o ślubach, programy i inne odprężające przerywniki od przygotowań ślubnych',
         date: '16 paź 2017',
-        edited: '8 lip 2020',
-        textShort: 'Organizujesz swój ślub i wesele. BRAWO! Jesteś bohaterką ! Zasługujesz na trochę odpoczynku i relaksu. Chcemy zaproponować Ci dziś trochę weselnych umilaczy w postaci książek i programów ślubnych. W końcu przygotowania do ceremonii zaczynają się na długo przed...',
+        edited: '7 maja 2021',
+        textShort: 'Organizujesz swój ślub i wesele. BRAWO! Jesteś bohaterką! Zasługujesz na trochę odpoczynku i relaksu. Chcemy zaproponować...',
         mainPic: {
             src: require('./BlogPics/Post14/post14.jpg').default
         },
-        textMain: <>Organizujesz swój ślub i wesele. BRAWO! Jesteś bohaterką ! Zasługujesz na trochę odpoczynku i relaksu. Chcemy zaproponować Ci dziś trochę weselnych umilaczy w postaci książek i programów ślubnych. W końcu <CustomPostLink text="przygotowania do ceremonii" path="przygotowania-do-slubu-formalnosci" className="linkPink" /> zaczynają się na długo przed kluczowym dniem, dlatego wielu może się wydawać, że łączy się to tylko z jeżdżeniem, załatwianiem, przymierzaniem, próbowaniem i podpisywaniem umów. Są też miłe i zabawne strony. :)</>,
+        textMain: <>Organizujesz swój ślub i wesele. BRAWO! Jesteś bohaterką! Zasługujesz na
+        trochę odpoczynku i relaksu. Chcemy zaproponować Ci dziś trochę weselnych
+        umilaczy w postaci książek, filmów i programów ślubnych. W końcu <CustomPostLink text="przygotowania do ceremonii" path="przygotowania-do-slubu-formalnosci" className="linkPink" /> zaczynają się na długo przed kluczowym dniem, dlatego wielu może się wydawać, że łączy się to tylko z jeżdżeniem, załatwianiem, przymierzaniem, próbowaniem i podpisywaniem umów. Są też miłe i zabawne strony.</>,
         content: [
             {
-                headerSmall: <span className="pink">"Say Yes to the Dress"</span>,
-                text: 'Przyszłe panny młode zjeżdżają z całej Ameryki do Nowego Jorku, by znaleźć perfekcyjną suknię ślubną. To fascynująca seria pokazująca dramat, jakim niejednokrotnie staje się znalezienie sukni, która spełniałaby oczekiwania wymagającej i czasem trudnej grupy, jaką tworzą druhny czy rodzina. Z pomocą przychodzi zespół konsultantów, aby pomóc pannom młodym i druhnom osiągnąć porozumienie co do stroju zadowalającego wszystkich. Niestety spory, różne gusta i wysokie ceny potrafią zmienić wymarzone wesele każdej panny młodej w najgorszy koszmar. Koniec końców sukces pojawia się częściej niż porażka.',
+                headerSmall: "Program o ślubach, który warto obejrzeć",
+                headerClassName: "pink",
+                text:
+                    <>
+                        Spośród wszystkich filmów o ślubach i programów poświęconych tej tematyce wybrałyśmy takie,
+                        które warto obejrzeć, rozpoczynając przygotowania do własnego ślubu:
+                        <ul style={{ marginTop: ".5rem" }}>
+                            <li>"Say Yes to the Dress" – program o ślubach w Stanach Zjednoczonych</li>
+                            <li>"W czym do ślubu" – program o tym, jak znaleźć wymarzoną suknię ślubną</li>
+                            <li>"Panny Młode ponad miarę" – program poświęcony paniom plus size</li>
+                            <li>"Salon sukien ślubnych Goka" – Wan Gok pomaga polskim Pannom Młodym</li>
+                            <li>"Dziennik naszego ślubu" Winiarskiego – książka o ślubach</li>
+                            <li>"Mike ratuje wesele" – program o ślubach w USA</li>
+                            <li>"Seks w wielkim mieście" – film będący kontynuacją serialowego hitu</li>
+                            <li>"Mamma Mia!"" – gwiazdorska obsada, cudowne widoki</li>
+                            <li>"Jak wziąć ślub i nie zwariować" – program o ślubach z udziałem komików</li>
+                        </ul>
+                        Na sam koniec wspomniałyśmy również o programie, który lepiej pominąć lub oglądać go z przymrużeniem oka.
+                    </>
+            },
+            {
+                headerSmall: '"Say Yes to the Dress" - program o ślubach w USA',
+                headerClassName: "grey",
+                text: '"Say Yes to the Dress" to jeden z tych programów o ślubach, które ogląda się z przyjemnością.Przyszłe panny młode zjeżdżają z całej Ameryki do Nowego Jorku, by znaleźć perfekcyjną suknię ślubną.To fascynująca seria pokazująca dramat, jakim niejednokrotnie staje się znalezienie sukni, która spełniałaby oczekiwania wymagającej i czasem trudnej grupy, jaką tworzą druhny czy rodzina.Z pomocą przychodzi zespół konsultantów, aby pomóc pannom młodym i druhnom osiągnąć porozumienie co do stroju zadowalającego wszystkich. Niestety spory, różne gusta i wysokie ceny potrafią zmienić wymarzone wesele każdej panny młodej w najgorszy koszmar. Koniec końców sukces pojawia się częściej niż porażka.',
                 pics: [
                     {
                         src: require('./BlogPics/Post14/post14a.jpg').default
@@ -2630,8 +2572,24 @@ const posts = [
                 ]
             },
             {
-                headerSmall: <span className="pink">"Dziennik naszego ślubu" Antoni Winiarski</span>,
-                text: 'Dla każdej kobiety, która zmaga się z przygotowaniami ślubu i wesela. Ta książka to najlepszy przewodnik na polskim rynku do organizacji ślubu i przyjęcia weselnego. Rozdziały dotyczą inspiracji i szczegółowych planów, które pomogą nowożeńcom przejść przez ten trudny okres organizacji tych ważnych dla nich wydarzeń. Znajdziemy tu karty na zaplanowanie strojów, wydatków, na plan usadzenia gości i wiele innych niezbędnych czynności, których wykonanie zapewni, że ślub będzie elegancki i niezapomniany, a książka ta stanie się pamiętnikiem tej wyjątkowej i szczęśliwej ceremonii.',
+                headerSmall: '"W czym do ślubu" – polski program o ślubach',
+                headerClassName: "grey",
+                text: "Program prowadzi sympatyczna Izabela Janachowska, która pomaga rozwikłać problem wielu przyszłych Panien Młodych, którym nie udało się znaleźć wymarzonej sukni ślubnej.Prowadząca program pomaga znaleźć suknię, która nie tylko sprosta oczekiwaniom Panny Młodej, ale także podkreśli jej największe atuty i ukryje ewentualne niedoskonałości.Następnie Izabela Janachowska pomaga odnaleźć stroje na mamy Panny Młodej, druhen i oczywiście Pana Młodego.Na koniec wszyscy przechodzą metamorfozę u stylistów fryzur i wizażystów."
+            },
+            {
+                headerSmall: '"Panny Młode ponad miarę" – program o ślubach i sukniach plus size',
+                headerClassName: "grey",
+                text: "„Panny Młode ponad miarę” to bliźniaczy program do poprzedniego, który również prowadzi Izabela Janachowska. Tym razem swoją uwagę skupia na kobietach, które mają nieco większe rozmiary i dla których znalezienie idealnej sukni ślubnych nierzadko graniczy z cudem. Izabela Janachowska doradza, w czym przyszłej Pannie Młodej będzie najlepiej, ale ostateczny wybór należy oczywiście do bohaterki programu."
+            },
+            {
+                headerSmall: '"Salon sukien ślubnych Goka" – program o ślubach i sukniach ślubnych z ulubionym prezenterem',
+                headerClassName: "grey",
+                text: "Gok Wan jest rozpoznawalny w wielu krajach na całym świecie. Sympatię zyskał dzięki niezwykle sympatycznemu usposobieniu i profesjonalizmowi, który udowadnia na każdym kroku. Gok Wan wspierał w wyborze sukni ślubnej Panny Młode w Wielkiej Brytanii, a także w Polsce. Ten program o ślubach ogląda się z prawdziwą przyjemnością."
+            },
+            {
+                headerSmall: '"Dziennik naszego ślubu" Antoni Winiarski - nie tylko programy o ślubach',
+                headerClassName: "grey",
+                text: 'Chociaż obejrzenie programu o ślubach wymaga mniej czasu i możemy tę czynność połączyć z jazdą na rowerku stacjonarnym, czasami warto także sięgnąć po literaturę. Książka „Dziennik naszego ślubu Antoniego Winiarskiego jest doskonałą pozycją dla każdej kobiety, która zmaga się z przygotowaniami ślubu i wesela.Ta książka to najlepszy przewodnik na polskim rynku do organizacji ślubu i przyjęcia weselnego.Rozdziały dotyczą inspiracji i szczegółowych planów, które pomogą nowożeńcom przejść przez ten trudny okres organizacji tych ważnych dla nich wydarzeń. Znajdziemy tu karty na zaplanowanie strojów, wydatków, na plan usadzenia gości i wiele innych niezbędnych czynności, których wykonanie zapewni, że ślub będzie elegancki i niezapomniany, a książka ta stanie się pamiętnikiem tej wyjątkowej i szczęśliwej ceremonii.',
                 pics: [
                     {
                         src: require('./BlogPics/Post14/post14b.jpg').default
@@ -2639,8 +2597,9 @@ const posts = [
                 ]
             },
             {
-                headerSmall: <span className="pink">"Mikie ratuje wesele"</span>,
-                text: 'Mikie Russo jest wyjątkowym organizatorem unikalnych wesel. Jego przyjęcia to istna uczta dla zmysłów. W dodatku ma dar rozładowywania najbardziej napiętych sytuacji, do których tak często dochodzi podczas planowania wesela. Ten niesłychanie zdolny samouk, przekonany o tym, że jeśli coś ma być zrobione dobrze, trzeba to zrobić samemu. Zdobył uznanie w branży dzięki swemu zamiłowaniu do sztuki florystycznej. Po trwającej parę lat praktyce w firmie florystycznej, gdzie doradzał Pannom Młodym, w końcu założył swoją własną firmę eventową – Michael Russo Events. W każdym odcinku możemy zobaczyć, jak Mike pomaga przyszłym małżonkom zrealizować ich marzenia o wyjątkowym dniu.',
+                headerSmall: '"Mikie ratuje wesele" - program o ślubach od A do Z',
+                headerClassName: "grey",
+                text: 'W przeciwieństwie do wcześniej wspomnianych programów, które skupiały się przede wszystkim na sukniach ślubnych, „Mike ratuje wesele” jest programem, który o ślubach opowiada w szerszym zakresie.Mikie Russo jest wyjątkowym organizatorem unikalnych wesel.Jego przyjęcia to istna uczta dla zmysłów.W dodatku ma dar rozładowywania najbardziej napiętych sytuacji, do których tak często dochodzi podczas planowania wesela. Ten niesłychanie zdolny samouk, przekonany o tym, że jeśli coś ma być zrobione dobrze, trzeba to zrobić samemu. Zdobył uznanie w branży dzięki swemu zamiłowaniu do sztuki florystycznej.Po trwającej parę lat praktyce w firmie florystycznej, gdzie doradzał Pannom Młodym, w końcu założył swoją własną firmę eventową – Michael Russo Events. W każdym odcinku możemy zobaczyć, jak Mike pomaga przyszłym małżonkom zrealizować ich marzenia o wyjątkowym dniu.',
                 pics: [
                     {
                         src: require('./BlogPics/Post14/post14c.jpg').default
@@ -2648,7 +2607,8 @@ const posts = [
                 ]
             },
             {
-                headerSmall: <span className="pink">"Seks w wielkim mieście" - film</span>,
+                headerSmall: '"Seks w wielkim mieście" - film o ślubie i modzie',
+                headerClassName: "grey",
                 text: 'Znana z serialu o tym samym tytule Carrie Bradshaw (Sarah Jessica Parker) po wielu perypetiach w końcu wychodzi za mąż za swojego ukochanego, słynnego Mr Biga. Carrie oraz jej przyjaciółki szykują wesele w iście nowojorskim stylu. Sukienka będzie od słynnej projektantki, a goście weselni to śmietanka towarzyska Manhattanu. Ja zazdroszczę jej miejsca, w którym ceremonia się odbędzie.',
                 pics: [
                     {
@@ -2657,11 +2617,19 @@ const posts = [
                 ]
             },
             {
-                text: 'A czego nie oglądać?'
+                headerSmall: '"Mamma Mia!" – film o ślubach, który warto obejrzeć',
+                headerClassName: "grey",
+                text: 'I nie mamy tutaj na myśli wartości merytorycznych, a doskonałą rozrywkę. Wspaniała Meryl Streep obok Pierce’a Brosnana i Colina Firtha – to naprawdę trzeba obejrzeć. Komedia romantyczna utrzymana jest w konwencji musicalowej, a na ekranie podziwiać możemy rewelacyjne widoki – film kręcono na jednej z greckich wysp, Skopelos.'
             },
             {
-                headerSmall: <span className="pink">I nie opuszczę Cię aż do ślubu</span>,
-                text: 'Iza Janachowska – prowadząca program w TVN Style jest na pewno piękna, uśmiechnięta i zaangażowana w przygotowanie wymarzonego wesela Pary, ale na tym się kończy. Program każe wierzyć nam, że w dwa dni przed ślubem załatwimy nie tylko ekskluzywne auto, sukienkę z poprawkami krawieckimi, ale i gwiazdę disco polo. A do tego nasz makijaż nie ulegnie nawet minimalnemu zniszczeniu.',
+                headerSmall: '"Jak wziąć ślub i nie zwariować" – program o ślubach na Netflix',
+                headerClassName: "grey",
+                text: 'Program o ślubach „Jak wziąć ślub i nie zwariować” obejrzymy na platformie Netflix. Program ten prowadzi komiczka Jamie Lee, która nie boi się pokazać organizacji i przygotowań do ślubu wraz ze wszystkimi trudnościami, jakie czekają na Pary Młode.W każdym odcinku występuje inny komik, a program naprawdę potrafi podnieść na duchu – nie tylko Ciebie przygotowania do ślubu bardziej przerażają niż zachwycają, ale ze wszystkim poradzisz sobie znakomicie!'
+            },
+            {
+                headerSmall: '"I nie opuszczę Cię aż do ślubu" - program o ślubach, które nie mają szansy się udać',
+                headerClassName: "grey",
+                text: 'Iza Janachowska – prowadząca program w TVN Style jest na pewno piękna, uśmiechnięta i zaangażowana w przygotowanie wymarzonego wesela Pary, ale na tym się kończy. Program każe wierzyć nam, że w dwa dni przed ślubem załatwimy nie tylko ekskluzywne auto, sukienkę z poprawkami krawieckimi, ale i gwiazdę disco polo. A do tego nasz makijaż nie ulegnie nawet minimalnemu zniszczeniu. Czas spędzony na oglądaniu tego programu o ślubach potraktuj czysto rozrywkowo, a o radach z niego zaczerpniętych szybko zapomnij.',
                 pics: [
                     {
                         src: require('./BlogPics/Post14/post14e.jpg').default
@@ -2669,10 +2637,9 @@ const posts = [
                 ]
             },
             {
-                text: 'Dajcie znać, co Wy lubicie oglądać najbardziej.'
+                text: 'Każdy program o ślubach może być źródłem inspiracji, jednak – podobnie jak filmy o ślubie – warto oglądać go przede wszystkim dla przyjemności.'
             }
         ],
-        textAuthor: "Ola",
         links:
             <>
                 <p className="mb-1">Linki do zdjęć:</p>
@@ -3253,51 +3220,6 @@ const posts = [
 
     },
     {
-        path: 'marta-i-michał-i-ich-weselna-przygoda-w-ogrodzie',
-        title: 'Marta i Michał i ich weselna przygoda w ogrodzie',
-        seoText: 'Marta i Michał wymarzyli sobie plenerowy ślub i wesele na terenie swojego pięknego ogrodu. Ponieważ miejsce, które wybrali, było magiczne i pełne uroku, nie mogliśmy oprzeć się pokusie i nie wykorzystać tego w dekoracjach oraz ogólnej koncepcji wesela i ślubu. Ustaliliśmy, że motywem przewodnim będzie odniesienie do...',
-        date: '3 maja 2017',
-        tag: 'opowiadamy-o-naszych-realizacjach',
-        textShort: 'Marta i Michał wymarzyli sobie plenerowy ślub i wesele na terenie swojego pięknego ogrodu. Ponieważ miejsce, które wybrali, było magiczne i pełne uroku, nie mogliśmy...',
-        mainPic: {
-            src: require('./BlogPics/Post6/post6.jpg').default
-        },
-        textMain:
-            <>
-                Marta i Michał wymarzyli sobie plenerowy ślub i wesele na terenie swojego pięknego ogrodu. Ponieważ miejsce, które wybrali, było magiczne i pełne uroku, nie mogliśmy oprzeć się pokusie i nie wykorzystać tego w dekoracjach oraz ogólnej koncepcji wesela i ślubu. Ustaliliśmy, że motywem przewodnim będzie odniesienie do Secret Garden. Kolory miały być intensywne, mocne, przełamane specjalnie zaprojektowanymi dodatkami z kwiatową fakturą. Wszystko miało być idealne i spójne ze sobą.
-            </>,
-        topPic: {
-            src: require('./BlogPics/Post6/post6.jpg').default
-        },
-        content: [
-            {
-                text: 'Kolory główne, które wybrała Para to fuksja, brzoskwinia oraz turkus. Motyw kwiatowy pojawił się w indywidualnie zaprojektowanej papeterii, w dekoracji stołów i bufetów oraz w aranżacjach najdrobniejszych elementów, takich jak prezenty dla gości czy księga życzeń. Lekkości wnętrza namiotu nadały przeźroczyste krzesła chiavarii. Najciekawszym elementem dekoracji były krzesła, które zawisły nad bufetami. Żywe kwiaty, którymi ozdobiono wiszące krzesła, idealnie pasowały do kompozycji kwiatowych, które znalazły się na stołach. Wszystko tworzyło spójną całość.',
-                pics: [
-                    { src: require('./BlogPics/Post6/post6a.jpg').default }
-                ]
-            },
-            {
-                text: 'Przed namiotem postały trzy strefy chillout. Każda z nich została urządzona w klimacie zgodnym z przeznaczeniem. Była degustacja whisky z podświetlanymi meblami Chesterfield, kolorowa strefa relaksu z fajką wodną udekorowana drewnianymi paletami i miękkimi poduchami.',
-                pics: [
-                    { src: require('./BlogPics/Post6/post6b.jpg').default }
-                ]
-            },
-            {
-                text: 'Goście przez całe wesele mogli skorzystać z usług barmana i baristy. Kolorowe drinki zachwycały smakiem, a zapach aromatycznej kawy unosił się przez cały czas trwania wesela. Po zapadnięciu zmroku namiot, strefy chillout oraz ogród zostały oświetlone setkami świec i światłem architektonicznym, co podkreśliło niesamowitą atmosferę przyjęcia.',
-                pics: [
-                    { src: require('./BlogPics/Post6/post6c.jpg').default }
-                ]
-            }
-        ],
-        textAuthor: "Ola",
-        links:
-            <p className="mb-1">Fotografie: <CustomOuterLink to="https://pokadrowani.pl/" text="Pokadrowani" /></p>,
-        extras:
-            <>
-                <span className="d-block text-right"><CustomCategoryLink path="opowiadamy-o-naszych-realizacjach" text="Opowiadamy o naszych realizacjach" className="bgColorLight" /></span>
-            </>
-    },
-    {
         path: 'podziekowania-dla-rodzicow',
         title: 'Podziękowania dla rodziców na weselu',
         seoText: 'Podziękowania dla rodziców - oryginalne pomysły na prezenty na ślubie i weselu.',
@@ -3388,10 +3310,13 @@ const posts = [
             </>
     },
     {
-        path: 'o-tym-dlaczego-warto-zdecydować-się-na-konsultanta-ślubnego',
-        title: "O tym, dlaczego warto zdecydować się na konsultanta ślubnego",
-        seoText: "Mimo że tytuł artykułu wskazuje na coś zupełnie innego, nie będzie to skrzętnie przygotowana autoreklama. Oczywiście jako konsultant ślubny wierzę, że zawód, który wykonuję, jest potrzebny i warto zainwestować w pomoc specjalisty. To tak jak z fotografem. Czasy, gdy zdjęcia na weselu robili wujkowie lub sąsiedzi pos...",
+        altPath: 'o-tym-dlaczego-warto-zdecydować-się-na-konsultanta-ślubnego',
+        path: 'wedding-planner-czy-warto-zatrudnic',
+        seoTitle: "Wedding planner – czy warto go zatrudnić? – Czary Marry",
+        seoText: "Zastanawiasz się, czy warto zatrudnić wedding plannera? Dowiedz się, jakie są zalety współpracy z konsultantem ślubnym!",
+        title: 'Wedding planner – czy warto go zatrudnić?',
         date: "16 kwi 2017",
+        edited: "7 maja 2021",
         tag: "niezbędnik-przedslubny",
         textShort: "Mimo że tytuł artykułu wskazuje na coś zupełnie innego, nie będzie to skrzętnie przygotowana autoreklama. Oczywiście jako konsultant ślubny wierzę, że zawód, który wykonuję, jest potrzebny i warto...",
         mainPic: {
@@ -3406,25 +3331,53 @@ const posts = [
         },
         content: [
             {
-                text: 'Nie mam zamiaru więcej rozpisywać się czy i dlaczego wedding planner jest przydatny podczas organizacji wesela, bo takich artykułów znajdziecie tysiące. Być może już zaobserwowaliście, że lubię spojrzeć na problem z nieco innej perspektywy. Dziś chciałabym napisać, dlaczego warto obciążyć obowiązkami właśnie jego zamiast świadkową, świadka, mamę, teściową czy siebie samych. Muszę zaznaczyć, że użycie słowa "obciążyć" nie jest kwestią przypadku. Na początku zastanówmy się, kogo zwykle Pary Młode wybierają na swoich świadków? Odpowiedź jest oczywista: brata, siostrę, najlepszą przyjaciółkę, dobrego kumpla. Kogokolwiek z nich wybiorą, chcą, aby była to bliska i zaufana osoba, na której im zależy i w której towarzystwie czują się dobrze. Blogi ślubne rozpisują się jakie cechy powinien mieć idealny świadek oraz jakie są jego obowiązki podczas wesela. Dbając o to, aby goście weselni świetnie się bawili i niczego im nie brakowało, Nowożeńcy często zapominają o tych najważniejszych, których wybrali na swoich świadków.',
+                headerSmall: "Dowiedz się, dlaczego warto zatrudnić wedding plannera!",
+                headerClassName: "pink",
+                text: 'Nie mam zamiaru więcej rozpisywać się czy i dlaczego warto zatrudnić wedding plannera, bo takich artykułów znajdziecie tysiące. Być może już zaobserwowaliście, że lubię spojrzeć na problem z nieco innej perspektywy. Dziś chciałabym napisać, dlaczego warto obciążyć obowiązkami właśnie jego zamiast świadkową, świadka, mamę, teściową czy siebie samych. Muszę zaznaczyć, że użycie słowa "obciążyć" nie jest kwestią przypadku. Na początku zastanówmy się, kogo zwykle Pary Młode wybierają na swoich świadków ? Odpowiedź jest oczywista: brata, siostrę, najlepszą przyjaciółkę, dobrego kumpla.Kogokolwiek z nich wybiorą, chcą, aby była to bliska i zaufana osoba, na której im zależy i w której towarzystwie czują się dobrze. Blogi ślubne rozpisują się jakie cechy powinien mieć idealny świadek oraz jakie są jego obowiązki podczas wesela. Dbając o to, aby goście weselni świetnie się bawili i niczego im nie brakowało, Nowożeńcy często zapominają o tych najważniejszych, których wybrali na swoich świadków.',
                 pics: [
                     { src: require('./BlogPics/Post4/post4b.jpg').default },
                 ]
             },
             {
-                text: 'Z pewnością dla przeważającej większości osób jest to ogromny zaszczyt i czysta przyjemność móc okazać wsparcie i pomóc Parze Młodej podczas przygotowań i wesela. Wszystko oczywiście zależy od charakteru Państwa Młodych - jedni są mniej wymagający i podchodzą do wyboru świadków jak do pewnego rodzaju formalności, inni oczekują pełnego zaangażowania i powierzają mu dużą część swoich obowiązków. Tak czy siak, czy nie byłoby przyjemniej, gdyby pomoc z ich strony wynikała wyłącznie z ich chęci w takim stopniu, na jaki mają ochotę? Zawsze łatwiej jest zrzucić całą odpowiedzialność na konsultanta, któremu się za to płaci i który zna koncepcję naszego wesela od podszewki, niż na najlepszą przyjaciółkę, która od 20 minut próbuje dokończyć swój rosół. Niestety czasami zdarza się i tak, że na weselu dochodzi do bardzo delikatnych sytuacji. Znam masę historii o skłóconych członkach rodziny i niezałatwionych sprawach, które ponownie ujrzały światło dzienne przy weselnym stole. Wtedy niejednokrotnie pojawia się dylemat, kogo wysłać między zwaśnione strony, aby nie pogłębiać konfliktu. Mama, siostra, ciocia komuś na pewno pozostanie niesmak - Parze Młodej z pewnością. W sytuacjach takich jak ta wedding planner okazuje się nieoceniony. Obca osoba, która zwykłym pytaniem "Jak się Państwo bawicie?" może całkowicie zmienić bieg wydarzeń.',
+                headerSmall: "Pomoc świadków czy wedding plannera – czy warto brać na siebie wszystkie zadania?",
+                headerClassName: "pink",
+                text:
+                    <>
+                        Z pewnością dla przeważającej większości osób jest to ogromny zaszczyt i czysta
+                        przyjemność móc okazać wsparcie i pomóc Parze Młodej podczas przygotowań i
+                        wesela. Wszystko oczywiście zależy od charakteru Państwa Młodych - jedni są
+                        mniej wymagający i podchodzą do wyboru świadków jak do pewnego rodzaju <CustomPostLink text="formalności" path="przygotowania-do-slubu-formalnosci" className="linkPink" />, inni oczekują pełnego zaangażowania i powierzają mu dużą część
+                        swoich obowiązków. Tak czy siak, czy nie byłoby przyjemniej, gdyby pomoc z ich
+                        strony wynikała wyłącznie z ich chęci w takim stopniu, na jaki mają ochotę?
+                        Zawsze łatwiej jest zrzucić całą odpowiedzialność na konsultanta, któremu się za
+                        to płaci i który zna koncepcję naszego wesela od podszewki, niż na najlepszą
+                        przyjaciółkę, która od 20 minut próbuje dokończyć swój rosół. Niestety czasami
+                        zdarza się i tak, że na weselu dochodzi do bardzo delikatnych sytuacji. Znam masę
+                        historii o skłóconych członkach rodziny i niezałatwionych sprawach, które
+                        ponownie ujrzały światło dzienne przy weselnym stole. Wtedy niejednokrotnie
+                        pojawia się dylemat, kogo wysłać między zwaśnione strony, aby nie pogłębiać
+                        konfliktu. Mama, siostra, ciocia, komuś na pewno pozostanie niesmak - Parze
+                        Młodej z pewnością. W sytuacjach takich, jak ta, <Link to={URLS.HOME} className="linkPink">wedding planner</Link> okazuje się
+                        nieoceniony. Obca osoba, która zwykłym pytaniem "Jak się Państwo bawicie?"
+                        może całkowicie zmienić bieg wydarzeń. A jeśli to nie przekonało Was, dlaczego
+                        warto zatrudnić wedding plannera, mam dla Was kolejne argumenty.
+                    </>,
                 pics: [
                     { src: require('./BlogPics/Post4/post4c.jpg').default },
                 ]
             },
             {
-                text: 'Kolejna sprawa, nad którą warto się zastanowić to to, czy będziecie organizować Wasze wesele sami, czy potrzebujecie do tego pomocy innych osób. Zdarza się, że Para Młoda planuje wesele w miejscowości oddalonej od swojego miejsca zamieszkania o setki kilometrów. W takiej sytuacji po raz kolejny angażują swoich rodziców lub rodzeństwo. Ci z kolei pomagają jak tylko mogą. Dzwonią, jeżdżą, są niemal na każde zawołanie Pary Młodej. Czasami zdarza się i tak, że organizacja sprawia im tak wiele przyjemności, że sami chcą zorganizować coś od siebie lub zaproponować własne rozwiązania. Nie ma w tym oczywiście nic złego, a wprost przeciwnie jest to naprawdę miłe. Z doświadczenia wiem, że wychodzą z tego cudowne rzeczy, ale niestety bywa i tak, że wizja pomocników totalnie rozmywa się z wizją Pary Młodej. Jak powiedzieć teściowej, że kolejny pomysł, jaki zaproponowała, nie przypadł Wam do gustu? Trochę strach... Nikt przecież nie chce, żeby poczuła się dotknięta.',
+                headerSmall: "Ślubne plany vs rzeczywistość – dlaczego warto zatrudnić wedding plannera?",
+                headerClassName: "pink",
+                text: 'Kolejna sprawa, nad którą warto się zastanowić to to, czy będziecie organizować Wasze wesele sami, czy potrzebujecie do tego pomocy innych osób. Zdarza się, że Para Młoda planuje wesele w miejscowości oddalonej od swojego miejsca zamieszkania o setki kilometrów.W takiej sytuacji po raz kolejny angażują swoich rodziców lub rodzeństwo. Ci z kolei pomagają jak tylko mogą. Dzwonią, jeżdżą, są niemal na każde zawołanie Pary Młodej. Czasami zdarza się i tak, że organizacja sprawia im tak wiele przyjemności, że sami chcą zorganizować coś od siebie lub zaproponować własne rozwiązania. Nie ma w tym oczywiście nic złego, a wprost przeciwnie – jest to naprawdę miłe. Z doświadczenia wiem, że wychodzą z tego cudowne rzeczy, ale niestety bywa i tak, że wizja pomocników totalnie rozmywa się z wizją Pary Młodej. Jak powiedzieć teściowej, że kolejny pomysł, jaki zaproponowała, nie przypadł Wam do gustu? Trochę strach... Nikt przecież nie chce, żeby poczuła się dotknięta.',
                 pics: [
                     { src: require('./BlogPics/Post4/post4d.jpg').default },
                 ]
             },
             {
-                text: 'Jak to wygląda, gdy Narzeczeni korzystają z usług wedding plannera? Wspólnie określają każdy szczegół uroczystości, wybierają bez ograniczeń, co im się podoba a co nie, zmieniają zdanie, znowu wybierają. Nikt nie ma żalu, taka praca. Ponadto dobry konsultant ślubny wie, że wprost należy zaangażować najbliższych w przygotowania, o ile tego oczywiście chcą. Najczęściej ogranicza się to do przygotowania atrakcji, która jest zgodna z motywem przewodnim ślubu lub innej rzeczy mającej sprawić radość Parze Młodej. Wilk syty i owca cała. Załóżmy, że Para Młoda decyduje się na przygotowanie wszystkiego samodzielnie. Wszystkiego! Łącznie z zaproszeniami, dekoracjami sali, płaceniem wykonawcom i dbaniem o to, czy goście dobrze bawią się na weselu. To oczywiście do zrobienia i można to zrobić naprawdę dobrze. To masa frajdy i satysfakcji, ale też ciężkiej pracy i czasu. Przypomina mi się opowieść moich przyjaciół, którzy organizowali wesele samodzielnie. Wyszło pięknie, uzdolniona Pani Młoda przygotowała własną papeterię ślubną, piękne ozdoby i upominki dla gości. Było naprawdę perfekcyjnie. Młodzi skończyli sklejać winietki o trzeciej w nocy na dzień przed weselem, ponieważ papier nie doszedł na czas.',
+                headerSmall: "Wedding planner – czy warto w przygotowania do ślubu angażować rodzinę?",
+                headerClassName: "pink",
+                text: 'Jak to wygląda, gdy Narzeczeni korzystają z usług wedding plannera? Wspólnie określają każdy szczegół uroczystości, wybierają bez ograniczeń, co im się podoba a co nie, zmieniają zdanie, znowu wybierają. Nikt nie ma żalu, taka praca. Ponadto dobry konsultant ślubny wie, że wprost należy zaangażować najbliższych w przygotowania, o ile tego oczywiście chcą. Najczęściej ogranicza się to do przygotowania atrakcji, która jest zgodna z motywem przewodnim ślubu lub innej rzeczy mającej sprawić radość Parze Młodej. Wilk syty i owca cała. Załóżmy, że Para Młoda decyduje się na przygotowanie wszystkiego samodzielnie. Wszystkiego! Łącznie z zaproszeniami, dekoracjami sali, płaceniem wykonawcom i dbaniem o to, czy goście dobrze bawią się na weselu. To oczywiście do zrobienia i można to zrobić naprawdę dobrze. To masa frajdy i satysfakcji, ale też ciężkiej pracy i czasu. Przypomina mi się opowieść moich przyjaciół, którzy organizowali wesele samodzielnie. Wyszło pięknie, uzdolniona Pani Młoda przygotowała własną papeterię ślubną, piękne ozdoby i upominki dla gości. Było naprawdę perfekcyjnie. Młodzi skończyli sklejać winietki o trzeciej w nocy na dzień przed weselem, ponieważ papier nie doszedł na czas. Czy już wiecie, dlaczego warto zatrudnić wedding plannera?',
                 pics: [
                     { src: require('./BlogPics/Post4/post4e.jpg').default },
                 ]
