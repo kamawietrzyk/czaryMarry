@@ -2304,19 +2304,21 @@ const posts = [
 
     },
     {
-        path: 'czy-każdy-może-zostać-wedding-plannerem',
-        seoText: 'Czy każdy może zostać wedding plannerem? Pytanie na pozór banalne, chociaż odpowiedzi mogą być naprawdę różne. Teoretycznie tak, ale czy każdy ma predyspozycje do tego, aby wykonywać ten zawód z sukcesem?',
+        altPath: 'czy-każdy-może-zostać-wedding-plannerem',
+        path: 'wedding-planner-czy-warto',
+        seoTitle: 'Czy każdy może zostać wedding plannerem? – jak zostać? jak zacząć?',
+        seoText: 'Czy każdy może zostać wedding plannerem? Jakimi cechami wyróżnia się dobry konsultant ślubny? Dowiedz się, jak zostać wedding plannerem!',
         tag: 'niezbędnik-przedslubny',
         title: 'Czy każdy może zostać wedding plannerem?',
         date: '5 lut 2018',
-        edited: '8 lip 2020',
+        edited: '09 maja 2021',
         textShort: 'Czy każdy może zostać wedding plannerem? Pytanie na pozór banalne, chociaż odpowiedzi mogą być naprawdę różne. Teoretycznie tak, ale czy każdy ma predyspozycje do tego, aby...',
         mainPic: {
             src: require('./BlogPics/Post17/post17.jpg').default
         },
         textMain:
             <>
-                <span className="bgMintLight">Czy każdy może zostać wedding plannerem?</span> Pytanie na pozór banalne, chociaż odpowiedzi mogą być naprawdę różne. Teoretycznie tak, ale czy każdy ma predyspozycje do tego, aby wykonywać ten zawód z sukcesem? To już zupełnie inna para kaloszy.<br />
+                <span className="bold dark">Czy każdy może zostać wedding plannerem?</span> Pytanie na pozór banalne, chociaż odpowiedzi mogą być naprawdę różne. Teoretycznie tak, ale czy każdy ma predyspozycje do tego, aby wykonywać ten zawód z sukcesem? To już zupełnie inna para kaloszy.<br />
                 Do napisania tego artykułu skłonił mnie poniższy nagłówek, zamieszczony w popularnym portalu plotkarskim. Nie zamierzam w żaden sposób atakować Kayah, która rzeczywiście jest kobietą sukcesu i super artystką. Jej wypowiedź stała się jedynie impulsem do napisania kilku słów na temat owianego masą stereotypów zawodu konsultanta ślubnego.
             </>,
         topPic: {
@@ -2324,12 +2326,19 @@ const posts = [
         },
         content: [
             {
-                text: 'Jakiś czas temu wraz z Olą obwieściłyśmy wszem i wobec, że zamierzamy otworzyć własną agencję ślubną. Większość osób patrzyła na nas z niedowierzaniem. Niby wszyscy kibicowali, ale podskórnie wyczuwałyśmy, że znajomi nie za bardzo wierzą, że może się nam to udać. Wedding planner? A na co to komu? Naprawdę ktoś płaci za takie rzeczy? Co Wy właściwie robicie? Mimo że początki były trudne, nie dawałyśmy za wygraną. Szkoliłyśmy się, starałyśmy się zdobyć doświadczenie. W końcu pary młode zaczęły obdarzać nas zaufaniem i korzystać z naszych usług. Obecnie, co nas ogromnie cieszy, coraz częściej pary młode podczas organizacji ślubu decydują się na pomoc wedding plannera. Nie mamy wątpliwości, że niebawem profesja ta będzie nie mniej popularna niż usługi fotografa lub kamerzysty ślubnego.'
+                headerSmall: 'Jak zostałyśmy wedding plannerkami? Początki pracy w agencji ślubnej',
+                headerClassName: 'mint',
+                text: <>
+                    Jakiś czas temu wraz z Olą obwieściłyśmy wszem i wobec, że zamierzamy otworzyć własną <Link to={URLS.HOME} className="linkMint">agencję ślubną</Link>. Większość osób patrzyła na nas z niedowierzaniem. Niby wszyscy kibicowali, ale podskórnie wyczuwałyśmy, że znajomi nie za bardzo wierzą, że może się nam to udać. Wedding planner? A na co to komu? Naprawdę ktoś płaci za takie rzeczy? Co Wy właściwie robicie? Mimo że początki były trudne, nie dawałyśmy za wygraną. Szkoliłyśmy się, starałyśmy się zdobyć doświadczenie. W końcu pary młode zaczęły obdarzać nas zaufaniem i korzystać z naszych usług. Obecnie, co nas ogromnie cieszy, coraz częściej pary młode podczas organizacji ślubu decydują się na pomoc wedding plannera. Nie mamy wątpliwości, że niebawem profesja ta będzie nie mniej popularna niż usługi fotografa lub kamerzysty ślubnego.</>
             },
             {
+                headerSmall: "Czy każdy może zostać wedding plannerem?",
+                headerClassName: "mint",
                 text: 'Nic więc dziwnego, że coraz więcej osób zaczyna myśleć o tym jak o idealnej pracy dla siebie. Tym bardziej, że praca wedding plannera wydaje się sielanką i niczym nadzwyczajnie trudnym. Pewnie dlatego co jakiś czas dostajemy maile, które zaczynają się od słów „zorganizowałam swoje wesele i myślę, że świetnie sprawdziłabym się...” Niestety to, że ktoś zorganizował własne wesele według własnych preferencji i upodobań niczego nie oznacza. Nasza praca polega na spełnianiu oczekiwań innych, niejednokrotnie skrajnych z naszymi. Granica między doradzaniem a dyktowaniem jest bardzo cienka. Nie ma tu też miejsca na pomyłki i gapiostwo. To ogromna odpowiedzialność, działanie pod presją czasu i skrajne emocje. Dalszy rozwój tej branży z pewnością spowoduje, że ciężej będzie znaleźć dobrego konsultanta i oddzielić ziarno od plew.'
             },
             {
+                headerSmall: "Wedding planner z indywidualnym podejściem do każdej Młodej Pary",
+                headerClassName: "mint",
                 text: 'Wracając do tematu osób publicznych i ich angażowania się w branżę ślubną - mam kilka spostrzeżeń. Po pierwsze trzeba sobie od razu powiedzieć, że ani Pani Jonachowska, ani Pani Rozenek-Majdan, ani Pani Kayah nigdy nie zorganizują wesela osobiście. Są to osoby niezwykle zapracowane, z napiętym do granic możliwości grafikiem i managerem, który ogarnia za nich większość spraw. Same niejednokrotnie publicznie narzekają na totalny brak czasu. Chyba nikt nie ma wątpliwości, że żadna z Pań nie będzie siedzieć wieczorem i poszerzać bazy usługodawców, wysyłać maili lub spotykać się ze „swoimi” parami na mieście w celu konsultacji. Z pewnością znana twarz przyciągnie wielu klientów i zrobi wszystko, aby zatrudnić wykwalifikowany personel. Dla mnie to jednak odzieranie tej profesji z jej najpiękniejszego aspektu - bezpośredniego kontaktu z parą, stopniowego poznawania jej i realizacji marzeń. Branża ślubna, a szczególnie wedding planning, nie powinna działać jak taśma produkcyjna, z której wychodzą nawet najpiękniejsze śluby.',
                 pics: [
                     {
@@ -2338,6 +2347,8 @@ const posts = [
                 ]
             },
             {
+                headerSmall: "Wedding planning według celebrytek vs rzeczywistość",
+                headerClassName: "mint",
                 text:
                     <>
                         Pani Rozenek-Majdan wydaje kolejną perfekcyjną książkę, tym razem o ślubach. Zastanawia mnie, czy jest tak samo oderwana od rzeczywistości, jak pozostałe porady Pani Małgosi. Pani Popielewicz prowadzi portal ślubny, którego właścicielami są sportowcy, Pani Jonachowska wkręca ludzi, że kiepskie wesele z małym budżetem można odmienić w jedną noc, a zakup nowej sukni ślubnej dzień przed przyjęciem to żaden problem. Żeby było jeszcze bardziej bajkowo przymiarki odbywają się w ruinach zamku, a suknia ma rozmiar xxl. Business is business. <br />
@@ -2350,7 +2361,32 @@ const posts = [
                 ]
             },
             {
-                text: 'Tak czy inaczej, ogromnym plusem całej sytuacji jest to, że nie ma lepszej reklamy dla branży wedding plannerowej niż znana twarz, za co wszystkim wyżej wymienionym Paniom z telewizji bardzo dziękujemy :) Tylko błagam Was, nie wkręcajcie ludziom bajek, że niewielkim nakładem sił i finansów można odmienić wygląd wesela w jeden dzień, szkolcie się i poszerzajcie horyzonty. Organizacja wesela to zawsze ogrom pracy i wielkie poświęcenie bez względu na to, czy zajmuje się tym profesjonalny wedding planner, czy para młoda. No chyba, że ma się pod ręką 50-osobową ekipę, która usłużnie załatwi wszystko, podczas gdy Wy uśmiechacie się do nas z okienka telewizora Waszymi nierealnie białymi uśmiechami.'
+                headerSmall: 'Jak zostać wedding plannerem?',
+                headerClassName: 'mint',
+                text:
+                    <>
+                        Osoby, które poważnie zastanawiają się, jak zostać wedding plannerem, powinny odpowiedzieć sobie na kilka (no, kilkanaście) pytań, a przede wszystkim na to, dlaczego chcą zostać wedding plannerami. Szybki i łatwy zarobek, praca głównie w weekendy czy zamiłowanie do tematyki mody i stylu to nie są odpowiedzi, które kwalifikują do bycia wedding plannerami. Do cech dobrego konsultanta ślubnego zaliczymy przede wszystkim:
+                        <ul style={{ marginTop: ".5rem" }}>
+                            <li>doskonała komunikatywność – współpraca z klientami, a także ich rodzinami oraz podwykonawcami wymaga doskonale rozwiniętych kompetencji interpersonalnych</li>
+                            <li>doskonała organizacja czasu pracy – prowadząc własny biznes zawsze musisz umiejętnie
+                            zarządzać czasem; w pracy wedding plannera jest to o tyle ważne, że niedopilnowanie terminu odbije się nie tylko na Tobie, a przede wszystkim na Parze Młodej</li>
+                            <li>znajomość branży ślubnej – zarówno od strony technicznej, jak i zmieniających się trendów w modzie</li>
+                            <li>odporność na stres – nie ukrywajmy, Pary Młode zatrudniają wedding plannerów, żeby zminimalizować stres, który wówczas odczuwamy my - konsultanci ślubni</li>
+                            <li>gotowość do pracy wiele weekendów z rzędu oraz pracy wieczorami w tygodniu</li>
+                            <li>pozytywne nastawienie i umiejętność realnej oceny sytuacji</li>
+                            <li>cierpliwość</li>
+                            <li>wielozadaniowość – jednocześnie przygotowujemy śluby dla kilku Par Młodych, a te <CustomPostLink text="przygotowania ślubne" path="przygotowania-do-slubu-formalnosci" className="linkMint" /> są na różnym etapie</li>
+                            <li>wiedza z zakresu marketingu</li>
+                        </ul>
+                    </>
+            },
+            {
+                headerSmall: "Konsultant ślubny – jak zacząć?",
+                headerClassName: "mint",
+                text: "Początki pracy konsultanta ślubnego są bardzo trudne i nie będziemy Cię oszukiwać, że jest inaczej. Nawet, jeśli pomagałaś (pomagałeś) w organizacji niejednego wesela jako świadek czy rodzeństwo Panny lub Pana Młodego, musisz przygotować się, że wiele godzin spędzisz na nauce. A skąd czerpać wiedzę o wedding planningu? Z YouTube, z podcastów, z książek, czasopism – sięgaj również po anglojęzyczną literaturę. Pomocny może okazać się także profesjonalny kurs. Z całą pewnością warto także szukać inspiracji w social mediach i w źródłach nie związanych ściśle z branżą ślubną. Dzięki temu zwiększysz szansę, by oferować nieszablonowe pomysły i wyróżnić się na tle konkurencji. Konieczna jest także wiedza z zakresu marketingu. Promocja agencji ślubnej wymaga zresztą nie tylko wiedzy, ale także czasu – chyba, że stać Cię na wynajęcie agencji reklamowej, która kompleksowo zajmie się reklamą Twojej marki..."
+            },
+            {
+                text: 'Ogromnym plusem wszystkich programów o wedding planningu i wypowiedzi celebry tek jest fakt, że nie ma lepszej reklamy dla branży wedding plannerowej niż znana twarz, za co wszystkim wyżej wymienionym Paniom z telewizji bardzo dziękujemy :) Tylko błagam Was, nie wkręcajcie ludziom bajek, że niewielkim nakładem sił i finansów można odmienić wygląd wesela w jeden dzień, szkolcie się i poszerzajcie horyzonty.Organizacja wesela to zawsze ogrom pracy i wielkie poświęcenie bez względu na to, czy zajmuje się tym profesjonalny wedding planner, czy para młoda. No chyba, że ma się pod ręką 50 - osobową ekipę, która usłużnie załatwi wszystko, podczas gdy Wy uśmiechacie się do nas z okienka telewizora Waszymi nierealnie białymi uśmiechami.'
             }
         ],
         links:
