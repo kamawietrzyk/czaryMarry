@@ -11,8 +11,8 @@ const weddings = [
         placeLink: "https://palac-lagow.pl/",
         photo: "Ania Kopeć Serdeczności",
         photoLink: "https://serdecznosci.com.pl/",
-        flowers: "Pracownia Zieleni",
-        flowersLink: "http://pracowniazieleni.pl/",
+        flowers: "My Precious",
+        flowersLink: "http://myprecious.pl/",
         photos: {
             pic1: require('./OurCouplesPics/BeataPawel/01.jpg').default,
             pic2: require('./OurCouplesPics/BeataPawel/02.jpg').default,
