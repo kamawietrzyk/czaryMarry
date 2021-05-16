@@ -7,9 +7,9 @@ import CustomPostLink from '../CustomLink/CustomPostLink'
 
 const landings = [
     {
-        path: "wedding-planner-krakow",
+        path: 'wedding-planner-krakow',
         seoTitle: "Wedding planner Kraków - Czary Marry agencja ślubna Kraków",
-        seoText: "Poszukujecie wedding planner’a w Krakowie który przygotuje Wasz ślub na tip top?! Agencja ślubna Czary Marry perfekcyjnie zorganizuje Twój wyjątkowy dzień!",
+        seoText: "Poszukujecie wedding plannera w Krakowie, który przygotuje Wasz ślub na tip top? Agencja ślubna Czary Marry perfekcyjnie zorganizuje Twój wyjątkowy dzień!",
         mainHeader: "Najlepszy wedding planner w Krakowie? Postaw na Czary Marry",
         boxTitle: 'Organizacja wesel w Krakowie',
         boxColor: "bgMint",
