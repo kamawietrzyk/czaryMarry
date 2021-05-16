@@ -200,20 +200,24 @@
       color: #292d35;
     }
   }
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+  .extra-content {
+    width: 90vw;
+    margin: 3rem auto;
+    padding: 2rem 1.25rem;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+    @media (min-width: $tablet) {
+      width: 75vw;
+      padding: 2rem;
+    }
 
-  to {
-    transform: rotate(360deg);
+    @media (min-width: $laptop) {
+      width: 34rem;
+      padding: 2rem 2.5rem;
+    }
+
+    @media (min-width: $desktop) {
+      width: 38rem;
+    }
   }
 }

@@ -1,3 +1,4 @@
+import { Fragment } from "react"
 import CustomOuterLink from '../CustomLink/CustomOuterLink'
 import { generatePath, Link } from 'react-router-dom'
 import URLS from '../../utils/urls'
@@ -5,6 +6,163 @@ import CustomCategoryLink from '../CustomLink/CustomCategoryLink'
 import CustomPostLink from '../CustomLink/CustomPostLink'
 
 const landings = [
+    {
+        path: "wedding-planner-krakow",
+        seoTitle: "Wedding planner Kraków - Czary Marry agencja ślubna Kraków",
+        seoText: "Poszukujecie wedding planner’a w Krakowie który przygotuje Wasz ślub na tip top?! Agencja ślubna Czary Marry perfekcyjnie zorganizuje Twój wyjątkowy dzień!",
+        mainHeader: "Najlepszy wedding planner w Krakowie? Postaw na Czary Marry",
+        boxTitle: 'Organizacja wesel w Krakowie',
+        boxColor: "bgMint",
+        textOne:
+            <>
+                Zastanawiacie się nad skorzystaniem z pomocy wedding plannera? Kraków to Wasze miejsce zamieszkania lub ukochane miasto, w którym postanowiliście zorganizować wesele? Tak się składa, że trafiliście na dwie konsultantki ślubne, które mają ogromną słabość do organizacji ślubów w Krakowie.
+                Jesteśmy również laureatkami plebiscytu zorganizowanego przez branżowy portal Zankyou na <CustomOuterLink text="najlepsze konsultantki ślubne w Krakowie" to="https://www.zankyou.pl/p/najlepsze-wedding-plannerki-w-krakowie-zaplanuj-uroczystosc-slubna-swoich-marzen-46022" className="linkMint" />.
+            </>,
+        textTwo:
+            <>
+                Na początek chciałybyśmy ułatwić Wam podjęcie pierwszej ważnej decyzji, z jaką będziecie musieli się zmierzyć podczas organizacji wesela w Małopolsce. Podpowiemy Wam jakimi kryteriami kierować się podczas wyboru agencji ślubnej w Krakowie oraz jak wygląda współpraca z nami. Podjęcie świadomej decyzji pozwoli na uniknięcie rozczarowań i sprawi, że przygotowania będą niesamowitą przygodą. <br /> <br />
+                <i style={{ color: "#77a196f6", marginLeft: "1rem" }}>”Kasia i Ola – Czary Marry = duet idealny. Od pierwszego spotkania wiedzieliśmy, że to będzie owocna współpraca, bo dziewczyny zrobiły na nas ogromne wrażenie. Nie wyobrażamy sobie zresztą, żeby komuś nie zaimponował sposób pracy tej dwójki”.</i>
+            </>,
+        placePics: [
+            require('./LandingPics/Kraków/lan-wedding planner kraków 3.jpeg').default,
+            require('./LandingPics/Kraków/lan-konsultant ślubny kraków 1.jpeg').default,
+            require('./LandingPics/Kraków/lan-konsultanci ślubni kraków 3.jpeg').default,
+            require('./LandingPics/Kraków/lan-organizacja ślubów kraków 2.jpeg').default
+        ],
+        content: [
+            {
+                title: 'Wedding planner Kraków — Czy lokalizacja ma znaczenie?',
+                titleBgColor: 'bgPink',
+                color: 'dark',
+                text:
+                    <>
+                        <div className="extra-content bgPinkLight shadowBox">
+                            <p><i>„Doświadczenie, pracowitość, wyobraźnia, połączone z niesamowicie pozytywną energią sprawiały, że każdy kontakt z dziewczynami powodował uśmiech na naszych twarzach.”</i></p>
+                        </div>
+
+                        <p>Może się wydawać, że skoro zdecydowaliście się na <span className="bold pink">organizację ślubu w Krakowie</span>, to idąc za ciosem jedynym słusznym wyborem będzie konsultant ślubny z okolicy. Z pewnością zna Małopolskę jak własną kieszeń oraz ma szerokie kontakty wśród lokalnych wykonawców. Czy jest jedynym słusznym wyborem? Absolutnie nie. Ograniczanie wyboru wedding plannera wyłącznie do lokalnych usługodawców jest błędem. Najważniejszymi kryteriami wyboru powinno być wzajemne porozumienie i wspólna wizja Waszego wesela, a także elastyczność i spersonalizowana oferta. Pamiętajcie, że specyfika branży ślubnej powoduje, że większość usługodawców pracuje na terenie całej Polski. Umożliwia to ciągłe poszerzanie horyzontów, zdobywanie doświadczenia oraz unikanie schematów. Nasza baza wykonawców sięga daleko poza granice województwa małopolskiego. Znajdziemy dla Was najlepsze oferty, które spełnią Wasze oczekiwania jakościowe oraz budżetowe, a nie jedynie lokalizacyjne.</p>
+
+                        <div className="extra-content bgPinkLight shadowBox">
+                            <p><i>„Jeśli musielibyśmy opisać współpracę z Czary Marry w jednym zdaniem, to byłoby to „mówisz i masz". Zanim sobie coś pomyśleliśmy i o to poprosiliśmy, dziewczyny już to zrobiły i wszystko było przygotowane. Po prostu magia.”</i></p>
+                        </div>
+                    </>
+            },
+            {
+                title: 'Organizacja ślubów Kraków — Co ze spotkaniami face to face?',
+                titleBgColor: 'bgGrey',
+                color: 'dark',
+                text:
+                    <><p>Zauważyłyśmy, że nasi klienci ze względu na swój aktywny tryb życia zdecydowanie bardziej upodobali sobie kontakt online. Będziemy do Waszej dyspozycji o każdej porze dnia, kontaktując się przez WhatsApp, mail, czy Skype. Super byłoby spotkać się w kawiarni, planując Wasz ślub i wesele, ale możemy Wam zaoferować coś znacznie lepszego. Możecie się z nami spotykać i podejmować najważniejsze decyzje nie ruszając się z własnej kanapy i nie tracąc czasu na dojazdy. Pracując głównie z parami z zagranicy, dobrze wiemy, że odległość nie ma najmniejszego znaczenia przy organizacji ślubu i wesela. Kraków to miasto, które darzymy ogromnym sentymentem. Jeśli będzie taka potrzeba, chętnie wsiądziemy do auta i odwiedzimy z Wami salę weselną.</p>
+                        <div className="extra-content bgGreyLight shadowBox">
+                            <p><i>„Korzystnych epitetów można byłoby wymieniać bez końca, ale najważniejszymi jest zdecydowanie bezproblemowość i dbałość nawet o najmniejsze szczegóły. Dzięki tej współpracy zarówno przygotowania, jak i dzień wesela przebiegały bezstresowo i z poczuciem pełnej kontroli nad tym, co się dzieje.”
+                        </i></p>
+                        </div>
+                    </>
+            },
+            {
+                title: 'Organizacja ślubów Kraków — Zakres obowiązków.',
+                titleBgColor: 'bgMint',
+                color: 'dark',
+                text: <>
+                    <h3 className="bold mint">01</h3>
+                    <p>Stworzenie budżetu wesela i harmonogramu prac.</p>
+
+                    <h3 className="bold pink">02</h3>
+                    <p>Przeprowadzenie przez formalności przedślubne.</p>
+
+                    <h3 className="bold grey">03</h3>
+                    <p>Poszukiwania sali weselnej w okolicach Krakowa oraz ustalenia z miejscem weselnym.</p>
+
+                    <h3 className="bold dark">04</h3>
+                    <p>Pomoc w wyborze wykonawców (m.in. zespół/DJ, fotograf, film).</p>
+
+                    <h3 className="bold pink">05</h3>
+                    <p>Ustalenie wizji wesela, dekoracji, papeterii.</p>
+
+                    <h3 className="bold grey">06</h3>
+                    <p>Logistyka (noclegi oraz transport dla gości).</p>
+
+                    <h3 className="bold mint">07</h3>
+                    <p>Zaproponowanie atrakcji weselnych (np. barman, strefy chillout, słodki stół).</p>
+
+                    <h3 className="bold dark">08</h3>
+                    <p>Pomoc w znalezieniu makijażystki, fryzjera oraz w wyborze stylizacji pary młodej i orszaku weselnego.</p>
+
+                    <h3 className="bold pink">09</h3>
+                    <p>Zaplanowanie i koordynacja przebiegu dnia ślubu i wesela.</p>
+
+                    <h3 className="bold grey">10</h3>
+                    <p>Oraz wszystko, czego potrzebujecie <span className="bold dark">organizując wesele w Krakowie.</span></p>
+                </>
+            }
+        ],
+        gridHeader: 'Czary Marry — Wasza wymarzona agencja ślubna Kraków.',
+        gridBgColor: 'bgGrey',
+        gridTextOne:
+            <>
+                <p>
+                    Nasze pary często nazywają nas dobrymi wróżkami lub czarodziejkami. Daleko nam jednak do baśniowej matki chrzestnej. Zamiast liczyć na cud ciężko pracujemy, bazując na doświadczeniu i wiedzy, którą bezustannie pogłębiamy, wykonując zawód wedding plannera. Mamy ogromne szczęście, ponieważ kochamy wesela i naszą pracę. ”Myślimy weselami”. Co to oznacza? Wszędzie szukamy nowych inspiracji i pomysłów. Codziennością są nasze długie rozmowy o branży, trendach i nieszablonowych rozwiązaniach. Więcej informacji o nas znajdziecie <Link to={URLS.ABOUT} className="linkLight">tutaj</Link>.
+                    </p>
+            </>,
+        gridTextTwo:
+            <div className="extra-content bgGreyLight shadowBox">
+                <p><i>
+                    „Żadna prośba nie była kłopotem. Żaden problem nie do rozwiązania. Wszystko to sprawiło, że nasz ślub i wesele były dokładnie takie, jak chcieliśmy — magiczne, romantyczne i pełne luzu!”
+        </i></p>
+            </div>,
+        gridPics:
+            [
+                require('./LandingPics/Katowice/lan-organizacja-wesel-slask.jpg').default,
+                require('./LandingPics/lan4.jpg').default,
+                require('./LandingPics/lan5.jpg').default,
+                require('./LandingPics/lan6.jpg').default,
+            ],
+
+        numsTitle: 'Konsultanci ślubni Kraków — proces wyboru.',
+        numsContent: [
+            {
+                bgColor: 'bgMint',
+                number: '01',
+                title: 'Portfolio',
+                text: <>Jeśli podobają Wam się <Link className="linkDark" to={URLS.COUPLES}>realizacje</Link> danej agencji ślubnej to zapewne macie podobny gust i możecie być pewni, że wedding planner odnajdzie się również w Waszej wizji wesela.</>
+            },
+            {
+                bgColor: 'bgPink',
+                number: '02',
+                title: 'Opinie',
+                text: <>Zróbcie dokładny research, zapoznajcie się z recenzjami na temat wybranych konsultantów ślubnych z Krakowa, nieoceniony okaże się tu <CustomOuterLink text="FB" to="https://www.facebook.com/Agencja.Slubna.CzaryMarry/reviews/?ref=page_internal" className="linkDark" /> i wizytówka Google.</>
+            },
+            {
+                bgColor: 'bgGrey',
+                number: '03',
+                title: 'Aktywność w branży ślubnej',
+                text:
+                    <>Warto zwrócić uwagę na dodatkowe aktywności rozważanego konsultanta ślubnego np. <Link className="linkDark" to={URLS.BLOG}>blog</Link>, <CustomOuterLink text="podcast" to="https://open.spotify.com/show/7Lj581I8xRqkY3lRwkOvrc?si=LIgR_pXtTD6zwGUSDULRnA" className="linkDark" />, publikacje w mediach branżowych, wyróżnienia.</>
+            },
+            {
+                bgColor: 'bgMint',
+                number: '04',
+                title: 'Oferta',
+                text:
+                    'Po spotkaniu z wedding plannerem otrzymacie spersonalizowaną ofertę, zapoznajcie się z nią dokładnie. Zwróćcie uwagę na zakres proponowanych obowiązków. Nie bójcie się zadawać pytań, mówcie o wątpliwościach.'
+            },
+            {
+                bgColor: 'bgPink',
+                number: '05',
+                title: 'Sprawny kontakt',
+                text:
+                    'To podstawa dobrej organizacji. Jeżeli wedding planner nie ma czasu na przesłanie oferty i musicie mu się przypominać to prawdopodobnie będzie zaniedbywał również swoje obowiązki.'
+            },
+            {
+                bgColor: 'bgGrey',
+                number: '06',
+                title: 'Umowa',
+                text:
+                    'Powinna chronić interesy dwóch stron i dawać Wam poczucie bezpieczeństwa. Przeczytajcie ją dokładnie i nie bójcie się wyjaśniać niejasności. Szczerość to podstawa dobrej współpracy.'
+            }
+        ],
+        extras: <p>To Wy podejmujecie decyzję, w jakim stopniu chcecie nas zaangażować w organizację wesela. Oczywiście zachęcamy Was do skorzystania z kompleksowej pomocy, ponieważ daje ona najlepsze efekty. Mimo to możecie zdecydować się tylko na wybrane usługi, koordynację dnia ślubu i wesela lub patronat ślubny. Serdecznie zapraszamy do kontaktu. Zorganizujmy razem Twój ślub i wesele marzeń w <CustomOuterLink text="Krakowie" to="https://www.krakow.pl/" className="linkMint" />!</p>
+    },
     {
         path: 'wedding-planner-slask-katowice',
         seoTitle: 'Wedding planner Śląsk | Czary Marry agencja ślubna Katowice',
