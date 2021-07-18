@@ -7,6 +7,120 @@ import URLS from './urls'
 
 const posts = [
     {
+        path: 'plan-wesela-harmonogram-dnia-slubu-krok-po-kroku',
+        title: 'Plan wesela i dnia ślubu - czyli harmonogram wesela krok po kroku',
+        seoText: 'Planujesz scenariusz Waszego wymarzonego dnia ślubu i wesela? Zobacz gotowy harmonogram ślubu i wesela od Czary Marry - profesjonalnych organizatorek wesel.',
+        date: '18 lip 2021',
+        textShort: 'Dopracowany scenariusz wesela to must have. Obnaża niedociągnięcia, pozwala na doprecyzowanie szczegółów oraz...',
+        mainPic: {
+            src: require('./BlogPics/Post33/post33-00.jpeg').default
+        },
+        textMain: <>Dopracowany <span className="bold pink">scenariusz wesela</span> to must have. Obnaża niedociągnięcia, pozwala na doprecyzowanie szczegółów oraz dopięcie przyjęcia na przysłowiowy ostatni guzik. Daje poczucie kontroli i ułatwia pracę wykonawców ślubnych. Gdy masz dopracowany harmonogram wesela krok po kroku, śpisz spokojnie.</>,
+        content: [
+            {
+                text:
+                    <>Przez lata pracy jako <Link to={URLS.HOME} className="linkPink">wedding planner</Link> dopracowałyśmy harmonogram ślubny do perfekcji. Dziś zdradzamy Wam, jak zaplanować dzień ślubu krok po kroku. Wszystko po to, by scenariusz Twojego ślubu ziścił się tak, jak o tym marzyłaś.</>
+            },
+            {
+                headerSmall: '1. Przygotowania — co powinien zawierać plan dnia ślubu:',
+                headerClassName: 'grey',
+                text:
+                    <ul>
+                        <li>Miejsce przygotowań pary młodej (razem/osobno, adres/numer pokoju).</li>
+                        <li>Makijaże i czesania (miejsce, godziny, imiona osób, które będą się malować i czesać, kto będzie wykonywał usługi).</li>
+                        <li>Ubieranie panny młodej i pana młodego (kto pomaga parze, szacowana godzina, miejsce).</li>
+                        <li>Reportaż foto i video z przygotowań pary młodej (panna młoda około 60 min, pan młody około 30 min).</li>
+                        <li>First look — jeśli jest (gdzie, kiedy, w jakich okolicznościach).</li>
+                        <li>Błogosławieństwo — jeśli jest (gdzie, kiedy, w jakich okolicznościach).</li>
+                        <li>Wyjazd na ceremonię (o której, czym, czy para jedzie/idzie razem czy osobno, z kim, numer do kierowcy).</li>
+                    </ul>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post33/post33-00.jpeg').default,
+                        author: 'Małe szare studio'
+                    }
+                ]
+            },
+            {
+                headerSmall: '2. Przygotowania na sali — czyli plan wesela krok po kroku:',
+                headerClassName: 'pink',
+                text:
+                    <ul>
+                        <li>Miejsce wesela (adres i nazwa sali).</li>
+                        <li>Godziny rozpoczęcia prac na sali (florystyka, rozłożenie słodkiego stołu, dowóz mebli, przyjazd barmana i DJ'a/zespołu itp.).</li>
+                        <li>Wskazówki dotyczące prac na sali oraz w miejscu ceremonii (miejsce rozłożenia baru, DJ-a, strefy relaksu, słodkiego stołu itp.).</li>
+                        <li>Gotowość sali — czyli zakończenie prac.</li>
+                    </ul>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post33/post33-01.jpeg').default,
+                        author: 'Ania Kopeć - Serdeczności'
+                    }
+                ]
+            },
+            {
+                headerSmall: '3. Ceremonia - co powinien zawierać harmonogram ślubu:',
+                headerClassName: 'grey',
+                text:
+                    <ul>
+                        <li>Rodzaj ceremonii (<CustomPostLink text="ślub cywilny" path="dokumenty-slub-cywilny-formalnosci" className="linkLight" />, <CustomPostLink text="ślub kościelny" path="dokumenty-do-slubu-koscielnego-konkordatowego" className="linkLight" />, ceremonia plenerowa, humanistyczna).</li>
+                        <li>Miejsce ceremonii (adres, wskazówki dotyczące miejsca np. pod drzewem).</li>
+                        <li>Szacowana godzina zebrania się gości.</li>
+                        <li>Przyjazd pary młodej na miejsce ceremonii.</li>
+                        <li>Oprawa muzyczna ślubu (lista utworów z przyporządkowaniem do konkretnych momentów ceremonii).</li>
+                        <li>Informacje dotyczące przejścia orszaku weselnego (np. pan młody czeka przy ołtarzu, pannę młodą prowadzi tata, dziewczynki sypią kwiatki).</li>
+                        <li>Szacowany czas ceremonii (godzina startu, zakończenie).</li>
+                        <li>Ważne informacje dotyczące przebiegu ceremonii (np. czyta mama, śpiewa siostra).</li>
+                        <li>Życzenia (szacowany czas, miejsce — na sali/przed kościołem/w plenerze, kto pomaga z odbieraniem kopert, prezentów, kwiatów).</li>
+                        <li>Zdjęcie grupowe.</li>
+                    </ul>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post33/post33-02.jpeg').default,
+                        author: 'Bauaban wedding stories'
+                    }
+                ]
+            },
+            {
+                headerSmall: '4. Przyjęcie weselne — co powinien zawierać plan weselny:',
+                headerClassName: 'pink',
+                text:
+                    <ul>
+                        <li>Wejście na salę (godzina przyjazdu na salę, czy jest przywitanie chlebem i solą, kto wita, kto pierwszy wchodzi na salę — goście/para).</li>
+                        <li>Pierwszy toast (jak wygląda — tłuczenie kieliszków, śpiewanie "Sto lat" itp.).</li>
+                        <li>Przemowy (jeśli są to, kto i kiedy przemawia).</li>
+                        <li>Alkohol — w jaki sposób jest serwowany (przed/w trakcie/po obiedzie/do stołów/w bufecie).</li>
+                        <li>Obiad (szacowany czas startu i serwisu, ilość i rodzaj dań).</li>
+                        <li>Pierwszy taniec i sety muzyczne (godzina, cały utwór/fragment, czy jest to układ, czy tzw. przytulaniec. Rozpisanie setów muzycznych pokaże Wam, czy plan nie jest zbyt napięty).</li>
+                        <li>Pozostałe posiłki (godziny, sposób serwowania, rodzaj dań, kiedy wykładane są bufety).</li>
+                        <li>Tort (godzina, kroi para młoda/obsługa).</li>
+                        <li>Sesja plenerowa i wspólne zdjęcie (kiedy jest planowana, czy chcecie również zdjęcia rodzinne).</li>
+                        <li>Atrakcje weselne (godzina i rodzaj atrakcji  — pokaz barmański, fotobudka, występ artysty, live cooking itp.).</li>
+                        <li><CustomPostLink text="Podziękowania dla rodziców" path="podziekowania-dla-rodzicow" className="linkPink" /> (godzina, czy odbywają się na sali, czy kameralnie, czy ma Wam towarzyszyć film i foto).</li>
+                        <li>Oczepiny (czas i rodzaj oczepin — zabawy, rzucanie bukietem).</li>
+                        <li>Zakończenie pracy poszczególnych wykonawców oraz godzina zakończenia wesela.</li>
+                        <li>Informacje o ewentualnym transporcie (rozkład jazdy).</li>
+                    </ul>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post33/post33-03.jpeg').default,
+                        author: 'Marta Brodziak'
+                    }
+                ]
+            },
+            {
+                headerSmall: '5. Poprawiny — opcjonalny punkt na planowanie wesela:',
+                headerClassName: 'grey',
+                text:
+                    <ul>
+                        <li>Informacje o zakończeniu doby hotelowej.</li>
+                        <li>Czas serwowania śniadania.</li>
+                        <li>Informacja o poprawinach (rodzaj poprawin np. brunch, grill, <CustomPostLink text="garden party" path="wesele-w-ogrodzie-garden-party" className="linkLight" />, uroczysty obiad, godziny trwania poprawin).</li>
+                    </ul>
+            }
+        ]
+    },
+    {
         path: '17-hey-wedding-male-szare-madrosci',
         title: '#17 Hey Wedding - Małe szare mądrości - rozmowa o emocjach, relacjach i fotografii ślubnej',
         seoText: 'W 17 odcinku podcastu Hey Wedding zasiadamy na wspólnej kanapie i rozmawiamy z Mariolą i Kamilem z Małego Szarego Studia.',
@@ -838,7 +952,7 @@ const posts = [
                 text: "Dla osób, które na co dzień posługują się terminarzem, pomysł stworzenia harmonogramu wesela jest oczywisty. Jednak osoby, które nie mają potrzeby zapisywania każdego terminu spotkania, wizyty u lekarza czy wywiadówek w szkole, mogą się wahać, czy taki kalendarz weselny pomoże w przygotowaniach do wesela. Jednoznacznie odpowiadamy – pomoże, i to bardzo!"
             },
             {
-                text: "Przede wszystkim harmonogram weselny pomoże Wam uporządkować zadania, przydzielając je do poszczególnych miesięcy, ale także osób, które będziecie chcieli zaangażować do pomocy. Nie wszystko przecież musicie załatwiać wspólnie. Panna Młoda może zająć się zaproszeniami, winietkami i dekoracjami, a Pan Młody samochodem ślubnym, DJ’em i alkoholem, a pomóc Wam w tym mogą świadkowie czy rodzina. Jeśli wolicie wersję elektroniczną kalendarza weselnego, w Internecie dostępne są aplikacje, które ułatwią planowanie ślubu."
+                text: <>Przede wszystkim <CustomPostLink text="harmonogram weselny" path="plan-wesela-harmonogram-dnia-slubu-krok-po-kroku" className="linkMint" /> pomoże Wam uporządkować zadania, przydzielając je do poszczególnych miesięcy, ale także osób, które będziecie chcieli zaangażować do pomocy. Nie wszystko przecież musicie załatwiać wspólnie. Panna Młoda może zająć się zaproszeniami, winietkami i dekoracjami, a Pan Młody samochodem ślubnym, DJ’em i alkoholem, a pomóc Wam w tym mogą świadkowie czy rodzina. Jeśli wolicie wersję elektroniczną kalendarza weselnego, w Internecie dostępne są aplikacje, które ułatwią planowanie ślubu.</>
             },
             {
                 headerSmall: "Kiedy zacząć przygotowania do ślubu?",
@@ -2052,7 +2166,7 @@ const posts = [
             {
                 headerSmall: <span className="mint">Stres przed ślubem – czy wesele przebiegnie zgodnie z harmonogramem?</span>,
                 text:
-                    <>Hej, to wesele, a nie konferencja naukowa! Harmonogram, czy plan zabawy jest oczywiście potrzebny i mile widziany, jednak daruj sobie spełnianie kolejnych podpunktów z zegarmistrzowską precyzją! Jeśli goście świetnie się bawią, nie przerywaj im, by zjedli piąty gorący posiłek. Jeśli podasz go pół godziny później – naprawdę nic się nie stanie! <CustomPostLink text="Doświadczony DJ, wodzirej lub zespół" path="polecany-fotograf-kamerzysta-sala-dj-zespol-na-wesele" className="linkMint" />, w połączeniu z ogarniętym menedżerem sali, będą umieli odpowiednio dostosować Twój harmonogram do faktycznego przebiegu wesela. Z całą pewnością stres przed ślubem pomoże Ci opanować właśnie doświadczony wodzirej, który będzie Waszą prawą ręką. Aha – jeszcze jedno! Nie martw się, że zabraknie jedzenia albo alkoholu. Wystarczy. Jeszcze sporo Ci zostanie. Uwierz mi, nie słyszałam nigdy o weselu, na którym zabrakło jedzenia i alkoholu.
+                    <>Hej, to wesele, a nie konferencja naukowa! <CustomPostLink text="Harmonogram" path="plan-wesela-harmonogram-dnia-slubu-krok-po-kroku" className="linkMint" />, czy plan zabawy jest oczywiście potrzebny i mile widziany, jednak daruj sobie spełnianie kolejnych podpunktów z zegarmistrzowską precyzją! Jeśli goście świetnie się bawią, nie przerywaj im, by zjedli piąty gorący posiłek. Jeśli podasz go pół godziny później – naprawdę nic się nie stanie! <CustomPostLink text="Doświadczony DJ, wodzirej lub zespół" path="polecany-fotograf-kamerzysta-sala-dj-zespol-na-wesele" className="linkMint" />, w połączeniu z ogarniętym menedżerem sali, będą umieli odpowiednio dostosować Twój harmonogram do faktycznego przebiegu wesela. Z całą pewnością stres przed ślubem pomoże Ci opanować właśnie doświadczony wodzirej, który będzie Waszą prawą ręką. Aha – jeszcze jedno! Nie martw się, że zabraknie jedzenia albo alkoholu. Wystarczy. Jeszcze sporo Ci zostanie. Uwierz mi, nie słyszałam nigdy o weselu, na którym zabrakło jedzenia i alkoholu.
                     </>,
                 pics: [
                     {

@@ -269,7 +269,7 @@ const landings = [
                 number: '05',
                 title: 'Koordynacja',
                 text:
-                    'Rozpiszemy scenariusz dnia ślubu i wesela. Na jego podstawie będziemy koordynować przygotowania i przyjęcie weselne. Dzięki temu będziecie mogli skupić się na tym, co najważniejsze, a nam powierzyć wszystkie obowiązki.'
+                    <>Rozpiszemy <CustomPostLink text="scenariusz dnia ślubu i wesela" path="plan-wesela-harmonogram-dnia-slubu-krok-po-kroku" className="linkDark" />. Na jego podstawie będziemy koordynować przygotowania i przyjęcie weselne. Dzięki temu będziecie mogli skupić się na tym, co najważniejsze, a nam powierzyć wszystkie obowiązki.</>
             }
         ],
 
@@ -540,19 +540,20 @@ const landings = [
                 bgColor: 'bgPink',
                 number: '01',
                 title: 'Kompleksowa organizacja',
-                text: 'To całkowita pomoc w organizacji ślubu oraz wsparcie na każdym etapie planowania wesela. Zaczynając od zaplanowania budżetu, poszukiwania sali, stworzenia harmonogramu przygotowań, poprzez poszukiwanie wszystkich wykonawców, skończywszy na stworzeniu scenariusza ślubnego i koordynacji przyjęcia. Wszystko co potrzebujecie od profesjonalnego wedding planner’a z Wrocławia.'
+                text: 'To całkowita pomoc w organizacji ślubu oraz wsparcie na każdym etapie planowania wesela. Zaczynając od zaplanowania budżetu, poszukiwania sali, stworzenia harmonogramu przygotowań, poprzez poszukiwanie wszystkich wykonawców, skończywszy na stworzeniu scenariusza ślubnego i koordynacji przyjęcia. Wszystko co potrzebujecie od profesjonalnego wedding plannera z Wrocławia.'
             },
             {
                 bgColor: 'bgMint',
                 number: '02',
                 title: 'Koordynacja ślubu i wesela',
-                text: 'Będziemy do Waszej dyspozycji w dniu ślubu.  Dopilnujemy, aby wszystko przebiegło tak jak to sobie zaplanowaliście, a Wam pozostawimy świętowanie. Stworzymy scenariusz uroczystości, będziemy w kontakcie z wykonawcami oraz salą weselną.'
+                text: <>Będziemy do Waszej dyspozycji w dniu ślubu. Dopilnujemy, aby wszystko przebiegło tak jak to sobie zaplanowaliście, a Wam pozostawimy świętowanie Waszego najpiękniejszego dnia. Stworzymy <CustomPostLink text="scenariusz uroczystości" path="plan-wesela-harmonogram-dnia-slubu-krok-po-kroku" className="linkDark" /> ślubnej we Wrocławiu, będziemy w kontakcie z wykonawcami oraz salą weselną.</>
             },
             {
                 bgColor: 'bgGrey',
                 number: '03',
                 title: 'Wybrane elementy',
-                text: 'Będziemy do Waszej dyspozycji w dniu ślubu.  Dopilnujemy, aby wszystko przebiegło tak jak to sobie zaplanowaliście, a Wam pozostawimy świętowanie Waszego najpiękniejszego dnia. Stworzymy scenariusz uroczystości ślubnej we Wrocławiu, będziemy w kontakcie z wykonawcami oraz salą weselną.'
+                text:
+                    'Potrzebujecie wsparcia wyłącznie przy części organizacji usług? To oferta stworzona jest z myślą o Was! To od Was zależy w jakim wymiarze chcecie nas włączyć w proces przygotowań i organizacji Waszego ślubu we Wrocławiu.'
             }
         ],
         bottomTitle: 'Organizacja Wesel Wrocław',
