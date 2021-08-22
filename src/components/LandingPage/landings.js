@@ -7,6 +7,104 @@ import CustomPostLink from '../CustomLink/CustomPostLink'
 
 const landings = [
     {
+        path: 'wedding-planner-lodz',
+        seoTitle: 'Wedding planner Łódź - Czary Marry agencja ślubna Łódź',
+        seoText: 'Poszukujesz wedding plannera, który organizuje wesela marzeń na terenie Łodzi? Sprawdź agencję ślubną Czary Marry!',
+        mainHeader: 'Wedding planner Łódź - agencja ślubna Czary Marry',
+        boxTitle: "Kim jesteśmy? Agencja ślubna Łódź",
+        boxColor: 'bgPink',
+        textOne: "Gratulujemy decyzji o ślubie! Przed Wami organizacja wesela. Łódź i okolice to lokalizacja, którą rozważacie? Chcielibyście zdecydować się na współpracę z wedding plannerem? Jeśli na któreś z tych pytań odpowiedzieliście twierdząco, to świetnie się składa. Podpowiemy Wam, jakimi kryteriami kierować się, żeby świadomie wybrać odpowiedniego wedding plannera, który zorganizuje Wam piękne wesele w Łodzi.",
+        textTwo:
+            <>
+                Jedni nazywają nas czarodziejkami, inni dobrymi wróżkami, bo prawdą jest, że zmienimy Wasze marzenia w rzeczywistość. Nie używamy czarodziejskiej różdżki i nie prosimy o pomocy baśniowej matki chrzestnej. Bazujemy na wiedzy i doświadczeniu, którą bezustannie pogłębiamy, wykonując zawód wedding plannera. <Link to={URLS.HOME} className="linkPink">Agencję ślubną Czary Marry</Link> zbudowałyśmy na 15-letniej przyjaźni oraz serdecznych relacjach z parami młodym. Więcej informacji o nas znajdziecie <Link to={URLS.ABOUT} className="linkPink">tutaj</Link>.
+            </>,
+        placePics: [
+            require('./LandingPics/lan5.jpg').default,
+            require('./LandingPics/lan7.jpg').default,
+            require('./LandingPics/lan8.jpg').default,
+            require('./LandingPics/lan4.jpg').default,
+        ],
+        content: [
+            {
+                title: 'Wedding planner Łódź — Lokalizacja.',
+                titleBgColor: 'bgDark',
+                color: 'text-light',
+                text: 'Powyższy tytuł nie pozostawia wątpliwości. Skoro zdecydowaliście się na organizację wesela w Łodzi, musicie znaleźć konsultanta ślubnego z okolicy. Nic bardziej mylnego. Lokalizacja nie powinna być kluczową wytyczną zarówno podczas wyboru wedding plannera, jak i każdego innego wykonawcy. Macie cały wachlarz możliwości, po co ograniczać się już na samym początku. Większość osób związanych z branżą ślubną pracuje na terenie całej Polski. Uwielbiamy odwiedzać nowe lokalizacje, a przy okazji poszerzać horyzonty. Dzięki podróżom uciekamy od rutyny i utartych schematów, a każde nowe miejsce jest dla nas inspirującym wyzwaniem. Ale dość o nas. Co daje wybór wedding plannera działającego na terenie całej Polski? Nieograniczoną bazę wykonawców dostosowanych do Waszych indywidualnych potrzeb i jeszcze sprawniejszy kontakt. Musimy jakoś nadrobić dzielącą nas odległość, dlatego jesteśmy do Waszej dyspozycji przez cały dzień, siedem dni w tygodniu. Komunikujemy się mailowo, spotykamy online, ale naszą podstawową formą kontaktu jest dedykowana grupa na Whatsappie. Bywa, że z naszymi klientami dzielą nas tysiące kilometrów, różnice językowe i czasowe. Świetnie się w tym odnajdujemy.'
+            },
+            {
+                title: 'Zakres obowiązków — organizacja ślubu Łódź.',
+                titleBgColor: 'bgGrey',
+                color: 'dark',
+                text:
+                    <>
+                        <p>
+                            Prawdopodobnie wiecie już, że wedding planner to nieoceniona pomoc podczas organizacji wesela w Łodzi i okolicach. Poniżej znajdziecie informacje o tym, jakie obowiązki wchodzą w skład obowiązków konsultanta ślubnego:
+                            <ul className="mt-3">
+                                <li>Przygotowanie harmonogramu prac oraz budżetu wesela.</li>
+                                <li>Pomoc i doradztwo związane z formalnościami przedślubnymi.</li>
+                                <li>Poszukiwanie sali, wizytacje miejsc weselnych, dogrywanie umowy, oraz ustalenia z managerem.</li>
+                                <li>Poszukiwanie wykonawców ślubnych takich jak DJ, zespół, fotograf itd.</li>
+                                <li>Logistyka — czyli noclegi i transporty dla Was i Waszych gości.</li>
+                                <li>Dekoracje, florystyka, oświetlenie.</li>
+                                <li>Zaplanowanie atrakcji weselnych — strefy relaksu, barman, fotobudka i co tylko sobie wymarzycie.</li>
+                                <li>Pomoc w znalezieniu fryzjera i makijażystki oraz w doborze strojów.</li>
+                                <li>Zaplanowanie i koordynacja przebiegu dnia ślubu i wesela.</li>
+                                <li>...oraz wszystko, czego potrzebujecie, organizując wesele w Łodzi i okolicach.</li>
+                            </ul>
+                        </p>
+                    </>
+            }
+        ],
+        gridHeader: 'Kryteria wyboru. Konsultant ślubny Łódź.',
+        gridBgColor: 'bgMint',
+        gridTextOne:
+            <>
+                <p>Wiemy już, czym nie warto się kierować. Pora ustalić jakie kryteria powinniście brać pod uwagę.</p>
+                <h4 className="bold mint mt-5">Portfolio i sposób komunikacji.</h4>
+                <p>To Wasz pierwszy kontakt z wedding plannerem. Jeśli podoba Wam się, w jaki sposób dana agencja ślubna prezentuje się w internecie, w jaki sposób opisuje swoją pracę, a zdjęcia z realizacji zapierają dech w piersiach to bardzo dobry początek.</p>
+
+                <h4 className="bold mint mt-4">Kontakt, kontakt i jeszcze raz kontakt.</h4>
+                <p>Jeśli wysłaliście zapytanie do wedding plannera, na które od tygodnia nie dostaliście odpowiedzi lub agencja ślubna zwleka z wysłaniem do Was oferty i musicie się jej przypominać, to bardzo zły znak. Możemy śmiało założyć, że tak będzie wyglądał cały proces organizacji. To konsultant ślubny jest od przypominania się Wam, a nie odwrotnie.</p>
+            </>,
+        gridTextTwo:
+            <>
+                <h4 className="bold mint">Wspólny vibe.</h4>
+                <p>Brzmi trochę młodzieżowo, ale to bardzo ważne. Podczas organizacji wesela wymienicie tysiące wiadomości i przeprowadzicie masę rozmów z Waszym konsultantem ślubnym. Prawdopodobnie spędzicie wspólnie około półtora roku, planując przyjęcie weselne. Wybrana agencja ślubna będzie Wam towarzyszyć również w dniu ślubu, byłoby bardzo fatalnie, gdyby wedding planner działał Wam na nerwy. Powinniście czuć się w jego towarzystwie swobodnie i nadawać na podobnych falach.</p>
+
+                <h4 className="bold mint mt-4">Doświadczenie.</h4>
+                <p>Zaangażowanie i świeże podejście do tematu są super. Niejednokrotnie mniejsze doświadczenie wiąże się również z atrakcyjniejszą ceną za usługę organizacji wesela. Bardzo kibicujemy naszym koleżankom i kolegom, którzy stawiają pierwsze kroki w branży weddingowej, w końcu każdy kiedyś zaczynał. Jednak lata doświadczeń pokazały, jak wiele daje praktyka i doświadczenie. Przerobiliśmy setki scenariuszy, a nadal wiele rzeczy potrafi nas zaskoczyć. Jesteśmy jednak bogatsze o doświadczenie, które powoduje, że potrafimy zachować zimną krew nawet w najbardziej niespodziewanych sytuacjach.</p>
+            </>,
+        gridPics:
+            [
+                require('./LandingPics/Łódź/lan-wesele-łódź.jpeg').default,
+                require('./LandingPics/Łódź/lan-konsultant-ślubny-łódź.jpeg').default,
+                require('./LandingPics/Łódź/lan-wedding-planner-w-łodzi.jpeg').default,
+                require('./LandingPics/Łódź/lan-czary-marry-łódź.jpeg').default,
+            ],
+        numsTitle: 'Nasze wartości - organizacja wesela Łódź.',
+        numsText: 'Wiecie już, kim jesteśmy i czym się zajmujemy, teraz opowiemy Wam, co jest dla nas ważne we współpracy z parami młodymi. Nie będziemy Wam pisać o profesjonalizmie i kreatywności, bo to oczywista sprawa.',
+        numsContent: [
+            {
+                bgColor: 'bgMint',
+                number: '01',
+                text: 'Jesteśmy do Waszej dyspozycji o każdej porze dnia, bez limitu, stawiamy na sprawny kontakt. Organizując wesela w Łodzi, bazujemy na kontakcie online, używając maila WhatsApp oraz narzędzi do telekonferencji.'
+            },
+            {
+                bgColor: 'bgPink',
+                number: '02',
+                text: 'Pracujemy w duecie. Wspólnie organizujemy i koordynujemy Wasze wesele. Dzięki temu proces przygotowań przebiega sprawnie oraz bez wpadek...'
+            },
+            {
+                bgColor: 'bgGrey',
+                number: '03',
+                text: 'W kontaktach z parami stawiamy na szczerość i dobrą atmosferę. Organizacja wesel w Łódzkiem, powinna być mile spędzonym czasem bez niepotrzebnego stresu i frustracji.'
+            }
+        ],
+        extras:
+            <p>Jeśli dotarliście do tego momentu to znaczy, że zrobiłyśmy na Was całkiem niezłe wrażenie. Nie pozostaje nam nic innego jak zaprosić Was do kontaktu. Jeśli jesteście zainteresowani współpracą, piszcie lub dzwońcie. Zorganizujemy dla Was wesele marzeń w <CustomOuterLink to="https://uml.lodz.pl/" className="linkPink" text="Łodzi" />.
+            </p>
+    },
+    {
         path: 'wedding-planner-krakow',
         seoTitle: "Wedding planner Kraków - Czary Marry agencja ślubna Kraków",
         seoText: "Poszukujecie wedding plannera w Krakowie, który przygotuje Wasz ślub na tip top? Agencja ślubna Czary Marry perfekcyjnie zorganizuje Twój wyjątkowy dzień!",
@@ -55,7 +153,7 @@ const landings = [
                     <><p>Zauważyłyśmy, że nasi klienci ze względu na swój aktywny tryb życia zdecydowanie bardziej upodobali sobie kontakt online. Będziemy do Waszej dyspozycji o każdej porze dnia, kontaktując się przez WhatsApp, mail, czy Skype. Super byłoby spotkać się w kawiarni, planując Wasz ślub i wesele, ale możemy Wam zaoferować coś znacznie lepszego. Możecie się z nami spotykać i podejmować najważniejsze decyzje nie ruszając się z własnej kanapy i nie tracąc czasu na dojazdy. Pracując głównie z parami z zagranicy, dobrze wiemy, że odległość nie ma najmniejszego znaczenia przy organizacji ślubu i wesela. Kraków to miasto, które darzymy ogromnym sentymentem. Jeśli będzie taka potrzeba, chętnie wsiądziemy do auta i odwiedzimy z Wami salę weselną.</p>
                         <div className="extra-content bgGreyLight shadowBox">
                             <p><i>„Korzystnych epitetów można byłoby wymieniać bez końca, ale najważniejszymi jest zdecydowanie bezproblemowość i dbałość nawet o najmniejsze szczegóły. Dzięki tej współpracy zarówno przygotowania, jak i dzień wesela przebiegały bezstresowo i z poczuciem pełnej kontroli nad tym, co się dzieje.”
-                        </i></p>
+                            </i></p>
                         </div>
                     </>
             },
@@ -102,13 +200,13 @@ const landings = [
             <>
                 <p>
                     Nasze pary często nazywają nas dobrymi wróżkami lub czarodziejkami. Daleko nam jednak do baśniowej matki chrzestnej. Zamiast liczyć na cud ciężko pracujemy, bazując na doświadczeniu i wiedzy, którą bezustannie pogłębiamy, wykonując zawód wedding plannera. Mamy ogromne szczęście, ponieważ kochamy wesela i naszą pracę. ”Myślimy weselami”. Co to oznacza? Wszędzie szukamy nowych inspiracji i pomysłów. Codziennością są nasze długie rozmowy o branży, trendach i nieszablonowych rozwiązaniach. Więcej informacji o nas znajdziecie <Link to={URLS.ABOUT} className="linkLight">tutaj</Link>.
-                    </p>
+                </p>
             </>,
         gridTextTwo:
             <div className="extra-content bgGreyLight shadowBox">
                 <p><i>
                     „Żadna prośba nie była kłopotem. Żaden problem nie do rozwiązania. Wszystko to sprawiło, że nasz ślub i wesele były dokładnie takie, jak chcieliśmy — magiczne, romantyczne i pełne luzu!”
-        </i></p>
+                </i></p>
             </div>,
         gridPics:
             [
@@ -171,7 +269,7 @@ const landings = [
         boxTitle: 'Organizacja wesela Śląsk ≠ agencja ślubna Śląsk.',
         boxColor: 'bgGrey',
         textOne: <>Jeśli trafiliście na tę stronę to prawdopodobnie jesteście zaręczeni i rozpoczynacie swoją przygodę z organizacją wesela na śląsku. Gratulujemy! Mimo że to Wasze pierwsze kroki, jak dotąd podejmujecie same dobre decyzje. Rozważacie pomoc wedding plannera i wybraliście świetną lokalizację na Wasze wesele. Oby tak dalej! Poniżej znajdziecie kilka cennych wskazówek dotyczących wyboru odpowiedniej agencji ślubnej na Śląsku. Przeczytacie o tym, jak pracujemy i jakimi wartościami się kierujemy oraz dowiecie się, dlaczego tak jak Wy lubimy Katowice, Zabrze, Czechowice-Dziedzice i inne śląskie miasta.<br /><br />
-        Intuicja podpowiada, że skoro zdecydowaliście się na organizację wesela w Katowicach lub województwie śląskim to powinniście poszukać wedding plannera z tej okolicy. Można przypuszczać, że świetnie zna lokalne sale oraz wykonawców. Przemyślcie to jednak zanim zamkniecie się na wachlarz innych możliwości. Większość wykonawców ślubnych, w tym wedding plannerów, pracuje na terenie całej polski. Dzięki temu mamy duże doświadczenie, nie ulegamy schematom, a każde miejsce i wesele jest dla nas inspirującym i nowym wyzwaniem. Miło jest spotkać się w klimatycznej kawiarni, ale my oferujemy Wam coś znacznie lepszego. Możecie w każdej chwili wypić z nami kawę i podjąć najważniejsze decyzje dotyczące Waszego wesela nie ruszając się z własnej kanapy.</>,
+            Intuicja podpowiada, że skoro zdecydowaliście się na organizację wesela w Katowicach lub województwie śląskim to powinniście poszukać wedding plannera z tej okolicy. Można przypuszczać, że świetnie zna lokalne sale oraz wykonawców. Przemyślcie to jednak zanim zamkniecie się na wachlarz innych możliwości. Większość wykonawców ślubnych, w tym wedding plannerów, pracuje na terenie całej polski. Dzięki temu mamy duże doświadczenie, nie ulegamy schematom, a każde miejsce i wesele jest dla nas inspirującym i nowym wyzwaniem. Miło jest spotkać się w klimatycznej kawiarni, ale my oferujemy Wam coś znacznie lepszego. Możecie w każdej chwili wypić z nami kawę i podjąć najważniejsze decyzje dotyczące Waszego wesela nie ruszając się z własnej kanapy.</>,
         textTwo: 'Zauważyliśmy, że nasi klienci preferują kontakt online, dlatego jesteśmy do Waszej dyspozycji o każdej porze dnia, komunikując się przez Whatsapp, mail oraz telekonferencje. Współpracujemy z parami z całego świata, często dzielą nas tysiące kilometrów oraz różnice czasowe. W związku z tym organizacja wesela na śląsku nie stanowi dla nas żadnego problemu. Tym bardziej że lubimy podróże i chętnie odwiedzimy z Wami salę weselną, jeśli będziecie mieli na to ochotę. Podobnie jest z polecanymi przez nas wykonawcami.Kryterium wyboru nie jest lokalizacja, tylko Wasze oczekiwania oraz preferencje.',
         placePics: [
             require('./LandingPics/Katowice/lan-wedding-planner-katowice.jpg').default,
@@ -226,7 +324,7 @@ const landings = [
             <>
                 <p>
                     Jedni nazywają nas dobrymi wróżkami lub czarodziejkami, nieco odważniejsi czarownicami. Prawdą jest, że zmienimy Wasze marzenia w rzeczywistość. Bez użycia czarodziejskiej różdżki i pomocy baśniowej matki chrzestnej. Bazujemy na doświadczeniu i wiedzy, którą bezustannie pogłębiamy, wykonując zawód wedding plannera. Agencję ślubną Czary Marry zbudowałyśmy na serdecznych relacjach z parami młodymi i naszej 15-letniej przyjaźni. Więcej informacji o nas znajdziecie <Link to={URLS.ABOUT} className="linkLight">tutaj</Link>.
-                    </p>
+                </p>
             </>,
         gridPics:
             [
@@ -306,7 +404,7 @@ const landings = [
                 text:
                     <>
                         <p>Wykonując zawód konsultanta ślubnego na terenie całej Polski mamy nieco szersze spojrzenie na organizację wesel w Warszawie. Z powodzeniem organizowałyśmy wesela nie tylko w stolicy, ale również w takich miastach jak <Link to={generatePath(URLS.LANDING, { path: 'organizacja-wesel-wroclaw' })} className="linkPink" target="_blank">Wrocław</Link>, <Link to={generatePath(URLS.LANDING, { path: 'wedding-planner-poznan' })} className="linkPink" target="_blank">Poznań</Link> czy Kraków. Zauważyłyśmy, że każde województwo rządzi się nieco innymi prawami. Dzięki tej wiedzy możemy zaproponować Wam zupełnie inne rozwiązania, a nasza baza wykonawców sięga daleko poza granice województwa mazowieckiego. Niejednokrotnie okazuje się to bardzo przydatne. Możecie być pewni, że znajdziemy dla Was najlepsze oferty, które spełnią Wasze oczekiwania jakościowe oraz budżetowe, a nie jedynie lokalizacyjne.
-                </p>
+                        </p>
                         <p>Zauważyłyśmy, że nasi klienci ze względu na swój aktywny tryb życia zdecydowanie bardziej upodobali sobie kontakt online. Jesteśmy dla nich do dyspozycyjne o każdej porze dnia, kontaktując się przez WhatsApp, mail, czy Skype. Dlatego dobrze wiemy, że odległość nie ma znaczenia przy organizacji ślubu i wesela. Warszawa to jedno z najbardziej zakorkowanych miast w Polsce, po co tracić Wasz czas na spotkania osobiste, na które trzeba przecież dojechać? Możemy wspólnie organizować Wasze wesele z perspektywy wygodnej kanapy w Waszym domu. To od Was zależy częstotliwość naszych spotkań oraz stopień, w jakim chcecie się zaangażować w organizację ślubu i wesela. Warszawa to miasto, do którego mamy szczególny sentyment. Jeśli będzie taka potrzeba, chętnie wsiądziemy w auto i odwiedzimy z Wami salę weselną.</p>
                     </>
             },
@@ -424,7 +522,7 @@ const landings = [
                     <>
                         <p>Mimo że marzycie o weselu w Poznaniu lub okolicach w województwie wielkopolskim, warto rozważyć również firmy, które działają na skalę ogólnopolską. Dlaczego? Każde województwo rządzi się swoimi prawami - dzięki temu, że pracujemy w różnych częściach kraju znamy najnowsze trendy i rozwiązania, poszerzamy horyzonty. Mamy szerokie kontakty wśród wykonawców z całej Polski. Dzięki temu znajdziemy dla Was najlepsze oferty, idealnie odpowiadające na Wasze preferencje, nie ograniczając się wyłącznie do lokalizacji.</p>
                         <p>Ze względu na aktywny tryb życia naszych par najczęściej kontaktujemy się z nimi online, jesteśmy dla nich dyspozycyjne o każdej porze dnia, kontaktując się przez WhatsApp, mail czy Skype. I choć na co dzień mieszkamy we <Link to={generatePath(URLS.LANDING, { path: 'organizacja-wesel-wroclaw' })} className="linkMint" target="_blank">Wrocławiu</Link> to dobrze wiemy, że odległość nie ma znaczenia przy organizacji wesel. Poznań to jedno z miast, które bardzo lubimy, które nas inspiruje i w którym mamy doświadczenie w organizacji wesel, dlatego w razie potrzeby chętnie Was odwiedzimy.
-                </p>
+                        </p>
                     </>
             },
             {
@@ -436,7 +534,7 @@ const landings = [
                         <p>Poszukiwania wedding plannera najlepiej rozpocząć od przejrzenia jego <Link to={URLS.COUPLES} className="linkLight">portfolio realizacji ślubnych</Link>. Jeżeli realizacje i styl pracy danej agencji ślubnej przypadną Wam do gustu, możecie być pewni, że zrozumie zrealizuje również Waszą wizję. Kolejny niezwykle ważny krok to spotkanie. Koniecznie musicie poznać i porozmawiać ze swoim przyszłym konsultantem ślubnym.</p>
                         <p>
                             Powinniście poczuć, że nadajecie na tych samych falach i dobrze czujecie się w jego towarzystwie, będzie Wam towarzyszył w jednych z najważniejszych chwil Waszego życia. Warto zerknąć również na dodatkowe aktywności rozważanego wedding plannera np.<Link className="linkLight" to={URLS.BLOG}>blog</Link>, <CustomCategoryLink path="podcast" className="linkLight" text="podcast" />, publikacje w mediach branżowych. Na koniec zróbcie dokładny research, zapoznajcie się z opiniami na temat wybranych konsultantów ślubnych z Poznania, nieoceniony okaże się tu FB i wizytówka Google.
-                </p>
+                        </p>
                     </>
             },
         ],
@@ -445,11 +543,11 @@ const landings = [
         gridTextOne:
             <p>
                 W Agencji Ślubnej Czary Marry zmieniamy marzenia w rzeczywistość. Organizujemy piękne uroczystości, pełne wzruszeń i radości oraz niezapomnianych momentów spędzonych w gronie najbliższych osób. Zajmujemy się organizacją ślubów nie tylko w Poznaniu ale działamy na terenie całej Polski. Choć musimy przyznać, że mamy szczególną słabość do Wielkopolski. Uwielbiamy klimat starych stodół, klimatycznych folwarków, przeszklonych oranżerii – wybór świetnych sal weselnych nieopodal <CustomOuterLink to="https://www.poznan.pl/" text="Poznania" className="linkLight" /> przyprawia o zawrót głowy.
-        </p>,
+            </p>,
         gridTextTwo:
             <p>
                 W pracy konsultanta ślubnego cenimy sobie relacje, zależy nam, żeby proces organizacji wesela przebiegał w przyjaznej atmosferze, a wspólnie spędzony czas był wspaniałą przygodą. Współpraca z nami to gwarancja niebanalnej, perfekcyjnie zaplanowanej uroczystości oraz komfortu i poczucia bezpieczeństwa. Pozwólcie nam sprawić, by organizacja Waszego wymarzonego wesela w Poznaniu stała się przyjemnością.
-        </p>,
+            </p>,
         gridPics:
             [
                 require('../Home/konsultantki-slubne-czary-marry-home.jpg').default,
@@ -516,7 +614,7 @@ const landings = [
                         <p>Zacznij od przeglądu portfolio lokalnych konsultantów ślubnych we Wrocławiu. Powinny podobać Wam się ich <Link className="linkMint" to={URLS.COUPLES}>realizacje</Link>, bo dzięki temu możecie być pewni, że spełni on także Waszą wizję. Wiele zaręczonych par dokonuje jednak  wyboru wyłącznie na podstawie realizacji konsultantów ślubnych, a to duży błąd. Dobry wedding planner powinien umieć zrealizować każde stylistyczne marzenie, mieć głowę otwartą na różne style i najnowsze treny. Dużo ważniejsze jest jednak poznanie swojego przyszłego organizatora ślubu i wesela we Wrocławiu. Ważne jest, abyście poczuli, że nadajecie na tych samych falach z Waszym konsultantem ślubnym i styl pracy jaki Wam przedstawił będzie odpowiadać również waszemu. Spotkajcie się z konsultantem ślubnym bezpośrednio we Wrocławiu i porozmawiajcie o współpracy przy organizacji Waszego ślubu i wesela marzeń.</p>
                         <p>Przejrzyj także kilka wpisów na <Link className="linkMint" to={URLS.BLOG}>blogu</Link> wedding plannera, aby ocenić jakie ma podejście do ślubnych tematów. Z tekstów można bardzo dobrze poznać charakter wybranej osoby.</p>
                         <p>Poznajcie opinie na temat wybranych konsultantów ślubnych z Wrocławia lub okolic. Opinie i doświadczenia innych par młodych są bezcenne.
-                </p>
+                        </p>
                     </>
             }
         ],
@@ -561,10 +659,10 @@ const landings = [
             <>
                 <p>
                     Jeśli ostatecznie podjęliście decyzję, że organizacją ślubu i wesela we Wrocławiu zajmiecie się samodzielnie to pamiętajcie, że na każdym etapie przygotowań możecie skorzystać z konsultacji online. Spraw do ogarnięcia i decyzji do podjęcia potrafi być dużo i warto zapytać o zdanie specjalisty czyli doświadczonych konsultantek ślubnych. Zwłaszcza jeśli jest z okolic i organizowały niejeden ślub we Wrocławiu. Organizację wesel mamy we krwi!
-        </p>
+                </p>
                 <p>
                     A jeśli chcecie umilić sobie czas <CustomPostLink text="ślubnych przygotowań" path="przygotowania-do-slubu-formalnosci" className="linkMint" /> to zapraszamy na nasz <CustomOuterLink className="linkMint" to="https://open.spotify.com/show/7Lj581I8xRqkY3lRwkOvrc" text="podcast" />.
-        </p>
+                </p>
             </>
     }
 ]

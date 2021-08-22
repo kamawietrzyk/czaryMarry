@@ -127,21 +127,24 @@ const LandingPage = () => {
                         </Slider>
                     </div>
                 </div>
-                <div className="container-nums">
-                    <h2>{numsTitle}</h2>
-                    {numsText &&
-                        <p className="dark">{numsText}</p>
-                    }
-                    {numsContent.map(({ bgColor, number, title, text }, index) => (
-                        <div key={index} className={`grid-cont ${bgColor}`}>
-                            <h3 className="num-small">{number}</h3>
-                            <span>
-                                <h4 className="title-small">{title}</h4>
-                                <p>{text}</p>
-                            </span>
-                        </div>
-                    ))}
-                </div>
+
+                {numsTitle &&
+                    <div className="container-nums">
+                        <h2>{numsTitle}</h2>
+                        {numsText &&
+                            <p className="dark">{numsText}</p>
+                        }
+                        {numsContent.map(({ bgColor, number, title, text }, index) => (
+                            <div key={index} className={`grid-cont ${bgColor}`}>
+                                <h3 className="num-small">{number}</h3>
+                                <span>
+                                    {title && <h4 className="title-small">{title}</h4>}
+                                    <p>{text}</p>
+                                </span>
+                            </div>
+                        ))}
+                    </div>
+                }
                 {extras &&
                     <div className="extras my-5">
                         {extras}
