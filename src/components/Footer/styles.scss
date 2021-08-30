@@ -63,12 +63,12 @@
                 padding-top: 35vw;
 
                 @media (min-width: $tablet) {
-                    padding-top: 72%;
+                    padding-top: 70%;
                 }
 
-                @media (min-width: $desktopL) {
-                    padding-top: 85%;
-                }
+                // @media (min-width: $desktopL) {
+                //     padding-top: 70%;
+                // }
             }
 
             @media (min-width: $tablet) {
