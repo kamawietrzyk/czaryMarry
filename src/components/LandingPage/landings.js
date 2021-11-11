@@ -11,7 +11,7 @@ const landings = [
         seoTitle: 'Wedding planner Łódź - Czary Marry agencja ślubna Łódź',
         seoText: 'Poszukujesz wedding plannera, który organizuje wesela marzeń na terenie Łodzi? Sprawdź agencję ślubną Czary Marry!',
         mainHeader: 'Wedding planner Łódź - agencja ślubna Czary Marry',
-        boxTitle: "Kim jesteśmy? Agencja ślubna Łódź",
+        boxTitle: 'Kim jesteśmy? Agencja ślubna Łódź',
         boxColor: 'bgPink',
         textOne: "Gratulujemy decyzji o ślubie! Przed Wami organizacja wesela. Łódź i okolice to lokalizacja, którą rozważacie? Chcielibyście zdecydować się na współpracę z wedding plannerem? Jeśli na któreś z tych pytań odpowiedzieliście twierdząco, to świetnie się składa. Podpowiemy Wam, jakimi kryteriami kierować się, żeby świadomie wybrać odpowiedniego wedding plannera, który zorganizuje Wam piękne wesele w Łodzi.",
         textTwo:
