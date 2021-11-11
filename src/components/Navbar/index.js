@@ -35,16 +35,16 @@ const Navbar = () => {
         }, 800);
     }
 
-    const timeOutScrollMobile = () => {
-        setTimeout(() => { scrollToContactMobile() }, 800);
-    }
-
     const scrollToContactMobile = () => {
         setBurgerOpen(false);
         setStatus('close');
         const element = document.getElementById('contact');
         const y = element.getBoundingClientRect().top + window.pageYOffset;
         window.scrollTo({ top: y, behavior: 'smooth' });
+    }
+
+    const timeOutScrollMobile = () => {
+        setTimeout(() => { scrollToContactMobile() }, 800);
     }
 
     return (
@@ -87,7 +87,7 @@ const Navbar = () => {
                     </div>
                 </nav>
             </div>
-            { burgerOpen &&
+            {burgerOpen &&
                 <div className="Navbar-mobile">
                     {tabs.map(({ label, path }, index) => (
                         <NavLink
