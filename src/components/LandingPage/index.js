@@ -63,7 +63,7 @@ const LandingPage = () => {
     const { path } = useParams()
     const selectedLanding = landings.find(item => item.path === path)
 
-    const { seoTitle, seoText, mainHeader, boxTitle, boxColor, textOne, textTwo, placePics, content, gridHeader, gridBgColor, gridTextOne, gridTextTwo, gridPics, numsTitle, numsText, numsContent, extras, bottomTitle, bottomText } = selectedLanding
+    const { seoTitle, seoText, mainHeader, boxTitle, boxColor, textOne, textTwo, placePics, content, gridHeader, gridBgColor, gridTextOne, gridTextTwo, gridPics, numsTitle, numsText, numsContent, extras, bottomTitle, bottomText, extraSliderOnePics, extraSliderTwoPics } = selectedLanding
     const seoPath = selectedLanding.path
 
     const seo = {
@@ -109,6 +109,22 @@ const LandingPage = () => {
                         }
                     </div>
                 ))}
+
+                {extraSliderOnePics &&
+                    <div className='extra-pics-wrapper'>
+                        <div className="custom-slider">
+                            <Slider {...settingsOne}>
+                                {extraSliderOnePics.map((pic, index) => (
+                                    <div key={index}>
+                                        <div className="custom-box">
+                                            <img src={pic} alt="" />
+                                        </div>
+                                    </div>
+                                ))}
+                            </Slider>
+                        </div>
+                    </div>}
+
                 <div className="container-gridPics">
                     <h2 className={gridBgColor}>{gridHeader}</h2>
                     <div className="txt1">{gridTextOne}</div>
@@ -150,6 +166,7 @@ const LandingPage = () => {
                         {extras}
                     </div>
                 }
+
                 <div className="container-bottom">
                     {bottomTitle &&
                         <h2>{bottomTitle}</h2>
@@ -158,6 +175,22 @@ const LandingPage = () => {
                         <span>{bottomText}</span>
                     }
                 </div>
+
+                {extraSliderTwoPics &&
+                    <div className='extra-pics-wrapper'>
+                        <div className="custom-slider">
+                            <Slider {...settingsOne}>
+                                {extraSliderTwoPics.map((pic, index) => (
+                                    <div key={index}>
+                                        <div className="custom-box">
+                                            <img src={pic} alt="" />
+                                        </div>
+                                    </div>
+                                ))}
+                            </Slider>
+                        </div>
+                    </div>}
+
             </div>
         </>
     )
