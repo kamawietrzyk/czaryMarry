@@ -81,7 +81,7 @@ const LandingPage = () => {
         image: logo
     }
 
-    const resolveSliderOneSettings = () => {
+    const resolveSliderLastSettings = () => {
         if (isExtraSliderLastHorizontal) {
             return settingsHorizontal;
         } return settingsOne;
@@ -186,7 +186,7 @@ const LandingPage = () => {
                 {extraSliderLastPics &&
                     <div className='extra-pics-wrapper'>
                         <div className="custom-slider">
-                            <Slider {...resolveSliderOneSettings()}>
+                            <Slider {...resolveSliderLastSettings()}>
                                 {extraSliderLastPics.map((pic, index) => (
                                     <div key={index}>
                                         <div className={isExtraSliderLastHorizontal ? "custom-box-horizontal" : "custom-box"}>
