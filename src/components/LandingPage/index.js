@@ -206,6 +206,7 @@ const LandingPage = () => {
                         <span>{bottomText}</span>
                     }
                 </div>
+
             </div>
         </>
     )
