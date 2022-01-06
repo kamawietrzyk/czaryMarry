@@ -110,7 +110,7 @@
                 }
 
                 @media (min-width: $desktopL) {
-                    max-height: 26rem;
+                    max-height: 32rem;
                 }
 
                 img {
@@ -191,11 +191,11 @@
                 }
 
                 @media (min-width: $laptop) {
-                    height: 32.5rem;
+                    height: 30rem;
                 }
 
                 @media (min-width: $desktop) {
-                    height: 29rem;
+                    height: 31rem;
                 }
 
                 img {
@@ -212,15 +212,15 @@
             }
 
             @media (min-width: $laptop) {
-                width: 37vw;
+                width: 40vw;
             }
 
             @media (min-width: $desktop) {
-                width: 27vw;
+                width: 33vw;
             }
 
             @media (min-width: $desktopL) {
-                width: 19vw;
+                width: 18vw;
             }
         }
 
@@ -238,6 +238,7 @@
 
     .container-nums {
         margin-top: 2rem;
+        margin-bottom: 3rem;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3, auto);
@@ -334,39 +335,81 @@
         }
     }
 
+    .container-bottom {
+        h2 {
+            background-color: $lightGrey;
+        }
+    }
+
     .extra-pics-wrapper {
         .custom-slider {
             width: 90vw;
             margin-top: 1rem;
-            margin-bottom: 2rem;
+            margin-bottom: 2.5rem;
 
             & .custom-box {
-                height: 16rem;
+                height: 18rem;
                 margin-left: .5rem;
                 margin-right: .5rem;
 
                 @media (min-width: $mobileM) {
-                    height: 19rem;
+                    height: 21rem;
                 }
 
                 @media (min-width: $mobileL) {
-                    height: 22rem;
-                }
-
-                @media (min-width: $tablet) {
                     height: 24rem;
                 }
 
+                @media (min-width: $tablet) {
+                    height: 26rem;
+                }
+
                 @media (min-width: $laptop) {
-                    height: 28rem;
+                    height: 30rem;
                 }
 
                 @media (min-width: 1200px) {
-                    height: 31rem;
+                    height: 33rem;
                 }
 
                 @media (min-width: $desktopL) {
-                    max-height: 26rem;
+                    max-height: 30rem;
+                }
+
+                img {
+                    width: 100%;
+                    object-fit: cover;
+                    height: 100%;
+                }
+            }
+
+            & .custom-box-horizontal {
+                height: 8rem;
+                margin-left: .5rem;
+                margin-right: .5rem;
+
+                @media (min-width: $mobileM) {
+                    height: 10rem;
+                }
+
+                @media (min-width: $mobileL) {
+                    height: 12rem;
+                }
+
+                @media (min-width: $tablet) {
+                    height: 26rem;
+                }
+
+                @media (min-width: $laptop) {
+                    height: 32rem;
+                }
+
+                @media (min-width: 1200px) {
+                    height: 33rem;
+                }
+
+                @media (min-width: $desktopL) {
+                    height: 32rem;
                 }
 
                 img {
@@ -382,7 +425,7 @@
 
             @media (min-width: $laptop) {
                 width: 85vw;
-                margin: 2rem auto;
+                margin: 4rem auto;
             }
 
             @media (min-width: 1200px) {
@@ -391,7 +434,7 @@
             }
 
             @media (min-width: $desktopL) {
-                max-width: 36vw;                
+                max-width: 35vw;                
             }
         }
     }

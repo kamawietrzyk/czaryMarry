@@ -58,12 +58,20 @@ const LandingPage = () => {
         ]
     };
 
-
+    const settingsHorizontal = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        centerMode: true,
+        arrows: false
+    };
 
     const { path } = useParams()
     const selectedLanding = landings.find(item => item.path === path)
 
-    const { seoTitle, seoText, mainHeader, boxTitle, boxColor, textOne, textTwo, placePics, content, gridHeader, gridBgColor, gridTextOne, gridTextTwo, gridPics, numsTitle, numsText, numsContent, extras, bottomTitle, bottomText, extraSliderOnePics, extraSliderTwoPics } = selectedLanding
+    const { seoTitle, seoText, mainHeader, boxTitle, boxColor, textOne, textTwo, placePics, content, gridHeader, gridBgColor, gridTextOne, gridTextTwo, gridPics, numsTitle, numsText, numsContent, extras, bottomTitle, bottomText, extraSliderLastPics, extraSliderHorizontalPics, isExtraSliderLastHorizontal } = selectedLanding
     const seoPath = selectedLanding.path
 
     const seo = {
@@ -71,6 +79,12 @@ const LandingPage = () => {
         description: seoText,
         url: `${APP_URL}${generatePath(URLS.LANDING, { path: seoPath })}`,
         image: logo
+    }
+
+    const resolveSliderOneSettings = () => {
+        if (isExtraSliderLastHorizontal) {
+            return settingsHorizontal;
+        } return settingsOne;
     }
 
     return (
@@ -110,20 +124,21 @@ const LandingPage = () => {
                     </div>
                 ))}
 
-                {extraSliderOnePics &&
+                {extraSliderHorizontalPics &&
                     <div className='extra-pics-wrapper'>
                         <div className="custom-slider">
-                            <Slider {...settingsOne}>
-                                {extraSliderOnePics.map((pic, index) => (
+                            <Slider {...settingsHorizontal}>
+                                {extraSliderHorizontalPics.map((pic, index) => (
                                     <div key={index}>
-                                        <div className="custom-box">
+                                        <div className="custom-box-horizontal">
                                             <img src={pic} alt="" />
                                         </div>
                                     </div>
                                 ))}
                             </Slider>
                         </div>
-                    </div>}
+                    </div>
+                }
 
                 <div className="container-gridPics">
                     <h2 className={gridBgColor}>{gridHeader}</h2>
@@ -161,11 +176,27 @@ const LandingPage = () => {
                         ))}
                     </div>
                 }
+
                 {extras &&
                     <div className="extras my-5">
                         {extras}
                     </div>
                 }
+
+                {extraSliderLastPics &&
+                    <div className='extra-pics-wrapper'>
+                        <div className="custom-slider">
+                            <Slider {...resolveSliderOneSettings()}>
+                                {extraSliderLastPics.map((pic, index) => (
+                                    <div key={index}>
+                                        <div className={isExtraSliderLastHorizontal ? "custom-box-horizontal" : "custom-box"}>
+                                            <img src={pic} alt="" />
+                                        </div>
+                                    </div>
+                                ))}
+                            </Slider>
+                        </div>
+                    </div>}
 
                 <div className="container-bottom">
                     {bottomTitle &&
@@ -175,22 +206,6 @@ const LandingPage = () => {
                         <span>{bottomText}</span>
                     }
                 </div>
-
-                {extraSliderTwoPics &&
-                    <div className='extra-pics-wrapper'>
-                        <div className="custom-slider">
-                            <Slider {...settingsOne}>
-                                {extraSliderTwoPics.map((pic, index) => (
-                                    <div key={index}>
-                                        <div className="custom-box">
-                                            <img src={pic} alt="" />
-                                        </div>
-                                    </div>
-                                ))}
-                            </Slider>
-                        </div>
-                    </div>}
-
             </div>
         </>
     )

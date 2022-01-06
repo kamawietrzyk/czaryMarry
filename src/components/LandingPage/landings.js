@@ -260,7 +260,21 @@ const landings = [
                     'Powinna chronić interesy dwóch stron i dawać Wam poczucie bezpieczeństwa. Przeczytajcie ją dokładnie i nie bójcie się wyjaśniać niejasności. Szczerość to podstawa dobrej współpracy.'
             }
         ],
-        extras: <p>To Wy podejmujecie decyzję, w jakim stopniu chcecie nas zaangażować w organizację wesela. Oczywiście zachęcamy Was do skorzystania z kompleksowej pomocy, ponieważ daje ona najlepsze efekty. Mimo to możecie zdecydować się tylko na wybrane usługi, koordynację dnia ślubu i wesela lub patronat ślubny. Serdecznie zapraszamy do kontaktu. Zorganizujmy razem Twój ślub i wesele marzeń w <CustomOuterLink text="Krakowie" to="https://www.krakow.pl/" className="linkMint" />!</p>
+        extras: <p>To Wy podejmujecie decyzję, w jakim stopniu chcecie nas zaangażować w organizację wesela. Oczywiście zachęcamy Was do skorzystania z kompleksowej pomocy, ponieważ daje ona najlepsze efekty. Mimo to możecie zdecydować się tylko na wybrane usługi, koordynację dnia ślubu i wesela lub patronat ślubny. Serdecznie zapraszamy do kontaktu. Zorganizujmy razem Twój ślub i wesele marzeń w <CustomOuterLink text="Krakowie" to="https://www.krakow.pl/" className="linkMint" />!</p>,
+
+        extraSliderHorizontalPics: [
+            require('./LandingPics/Kraków/Custom2/konsultanci-slubni-krakow-1.jpg').default,
+            require('./LandingPics/Kraków/Custom2/konsultanci-slubni-krakow-2.jpg').default,
+            require('./LandingPics/Kraków/Custom2/konsultanci-slubni-krakow-3.jpg').default,
+            require('./LandingPics/Kraków/Custom2/konsultanci-slubni-krakow-4.jpg').default
+        ],
+        extraSliderLastPics: [
+            require('./LandingPics/Kraków/Custom1/organizacja-slubow-krakow-2.jpg').default,
+            require('./LandingPics/Kraków/Custom1/organizacja-slubow-krakow-1.jpg').default,
+            require('./LandingPics/Kraków/Custom1/organizacja-slubow-krakow-3.jpg').default,
+            require('./LandingPics/Kraków/Custom1/organizacja-slubow-krakow-4.jpg').default
+        ],
+        isExtraSliderLastHorizontal: true,
     },
     {
         path: 'wedding-planner-slask-katowice',
@@ -377,7 +391,13 @@ const landings = [
             <>
                 <p>To od Was zależy, w jakim stopniu chcecie nas zaangażować w przygotowania. Z doświadczenia wiemy, że najlepiej sprawdza się kompleksowa pomoc. Mimo to możecie zdecydować się tylko na wybrane usługi, koordynację dnia ślubu i wesela lub konsultacje online. Serdecznie zapraszamy do kontaktu. Zorganizujemy dla Was ślub Waszych marzeń.</p>
                 <p>Zachęcamy do przesłuchania naszego podcastu <CustomOuterLink className="linkPink" to="https://open.spotify.com/show/7Lj581I8xRqkY3lRwkOvrc?si=Kt_f171HSBar9aWWzwbRsg&nd=1" text="Hey Wedding" />. Znajdziecie tam rozmowy z naszymi parami młodymi i wiele ciekawych rad dotyczących organizacji ślubu i wesela. </p>
-            </>
+            </>,
+        extraSliderHorizontalPics: [
+            require('./LandingPics/Katowice/Custom1/agencja-slubna-slask-4.jpg').default,
+            require('./LandingPics/Katowice/Custom1/agencja-slubna-slask-3.jpg').default,
+            require('./LandingPics/Katowice/Custom1/agencja-slubna-slask-1.jpg').default,
+            require('./LandingPics/Katowice/Custom1/agencja-slubna-slask-2.jpg').default,
+        ]
     },
 
     {
@@ -582,8 +602,19 @@ const landings = [
             <>
                 <p>Jeśli postanowiliście, że samodzielnie zajmiecie się organizacją ślubu i wesela w Poznaniu, nie zapominajcie, że zawsze możecie skorzystać z konsultacji online z profesjonalnymi organizatorami ślubów i wesel. Czasami warto zapytać o zdanie doświadczonych wedding plannerek, szczególnie, gdy do podjęcia jest dużo niezwykle ważnych decyzji. Mamy duże doświadczenie w organizacji wesel w Poznaniu i chętnie podzielimy się z Wami naszą wiedzą.</p>
                 <p>Jeśli szukacie profesjonalnego wedding plannera, doświadczonego w organizacji ślubów i planujecie organizację wesela w Poznaniu i okolicach to serdecznie zapraszamy do kontaktu. Zorganizujemy dla Was ślub waszych marzeń.</p>
-            </>
-
+            </>,
+        extraSliderHorizontalPics: [
+            require('./LandingPics/Poznań/Custom2/konsultant-slubny-poznan-2.jpg').default,
+            require('./LandingPics/Poznań/Custom2/konsultant-slubny-poznan-3.jpg').default,
+            require('./LandingPics/Poznań/Custom2/konsultant-slubny-poznan-1.jpg').default,
+        ],
+        extraSliderLastPics: [
+            require('./LandingPics/Poznań/Custom1/wedding-planner-poznan-3.jpg').default,
+            require('./LandingPics/Poznań/Custom1/wedding-planner-poznan-4.jpg').default,
+            require('./LandingPics/Poznań/Custom1/wedding-planner-poznan-1.jpg').default,
+            require('./LandingPics/Poznań/Custom1/wedding-planner-poznan-2.jpg').default,
+        ],
+        isExtraSliderLastHorizontal: true,
     },
 
     {
@@ -600,10 +631,10 @@ const landings = [
             </>,
         textTwo: 'Marzy Wam się wesele w Sudetach, Karkonoszach lub Górach Stołowych? Schodziłyśmy je wielokrotnie wzdłuż i wszerz, znamy najpiękniejsze zakamarki. A może urzekają Was okoliczne pałace i zamki? Jest ich więcej, niż Wam się wydaje. Znamy je chyba wszystkie. Chętnie je Wam pokażemy. Mamy dla Was bogatą bazę lokalnych usługodawców ślubnych z Wrocławia. Jeśli rozważacie wesele we Wrocławiu i okolicach, nie wahajcie się i wybierzcie lokalnego wedding plannera z Wrocławia. Będziecie mogli liczyć na jego pełne wsparcie w organizacji Waszego ślubu i wesela marzeń.',
         placePics: [
-            require('../OurCouples/OurCouplesPics/FoodtruckWedding/ver6.jpg').default,
-            require('../OurCouples/OurCouplesPics/FoodtruckWedding/ver1.jpg').default,
-            require('../OurCouples/OurCouplesPics/FoodtruckWedding/ver3.jpg').default,
-            require('../OurCouples/OurCouplesPics/FoodtruckWedding/ver5.jpg').default
+            require('./LandingPics/Wrocław/miejsca/czary-marry-agencja-slubna-wroclaw-1.jpg').default,
+            require('./LandingPics/Wrocław/miejsca/czary-marry-agencja-slubna-wroclaw-2.jpg').default,
+            require('./LandingPics/Wrocław/miejsca/czary-marry-agencja-slubna-wroclaw-3.jpg').default,
+            require('./LandingPics/Wrocław/miejsca/czary-marry-agencja-slubna-wroclaw-4.jpg').default
         ],
         content: [
             {
@@ -627,10 +658,10 @@ const landings = [
             <p>Bardzo zależy nam, aby proces organizacji dnia ślubu i wesela przebiegał w przyjaznej i swobodnej atmosferze. Staramy się, aby był to świetnie spędzony czas, który będziecie wspominać równie miło jak sam dzień ślubu i wesela. Współpraca z nami to poczucie spokoju i komfort, a także pewność, że wszystko będzie perfekcyjnie zaplanowanie i dopięte na ostatni guzik. Pozwólcie by organizacja wesela we Wrocławiu stała się przyjemnością.</p>,
         gridPics:
             [
-                require('../Home/konsultantki-slubne-czary-marry-home.jpg').default,
-                require('../AboutUs/kasia.jpg').default,
-                require('../AboutUs/ola.jpg').default,
-                require('../Home/instaPic3-czarymarry-wedding-planner.jpg').default,
+                require('./LandingPics/Wrocław/konsultantki/konsultant-slubny-wroclaw-czary-marry-1.jpg').default,
+                require('./LandingPics/Wrocław/konsultantki/konsultant-slubny-wroclaw-czary-marry-2.jpg').default,
+                require('./LandingPics/Wrocław/konsultantki/konsultant-slubny-wroclaw-czary-marry-3.jpg').default,
+                require('./LandingPics/Wrocław/konsultantki/konsultant-slubny-wroclaw-czary-marry-4.jpg').default,
             ],
         numsTitle: 'Ogranizacja Ślubów Wrocław - zakres prac konsultanta ślubnego',
         numsText: 'Zanim ostatecznie zdecydujecie się na współpracę z wedding plannerem warto poznać zakres usług Czary Marry - konsultantek ślubnych z Wrocławia. Uważamy, że najlepsza formą współpracy jest kompleksowa pomoc w organizacji ślubów, ponieważ przynosi ona najlepsze efekty. Poniżej przedstawiamy Wam zakres naszych usług:',
@@ -664,7 +695,19 @@ const landings = [
                 <p>
                     A jeśli chcecie umilić sobie czas <CustomPostLink text="ślubnych przygotowań" path="przygotowania-do-slubu-formalnosci" className="linkMint" /> to zapraszamy na nasz <CustomOuterLink className="linkMint" to="https://open.spotify.com/show/7Lj581I8xRqkY3lRwkOvrc" text="podcast" />.
                 </p>
-            </>
+            </>,
+        extraSliderHorizontalPics: [
+            require('./LandingPics/Wrocław/custom2/konsultant-slubny-wroclaw-czary-marry-1.jpg').default,
+            require('./LandingPics/Wrocław/custom2/konsultant-slubny-wroclaw-czary-marry-2.jpg').default,
+            require('./LandingPics/Wrocław/custom2/konsultant-slubny-wroclaw-czary-marry-3.jpg').default,
+            require('./LandingPics/Wrocław/custom2/konsultant-slubny-wroclaw-czary-marry-4.jpg').default,
+        ],
+        extraSliderLastPics: [
+            require('./LandingPics/Wrocław/custom1/czary-marry-wedding-planner-wroclaw-1.jpg').default,
+            require('./LandingPics/Wrocław/custom1/czary-marry-wedding-planner-wroclaw-2.jpg').default,
+            require('./LandingPics/Wrocław/custom1/czary-marry-wedding-planner-wroclaw-3.jpg').default,
+            require('./LandingPics/Wrocław/custom1/czary-marry-wedding-planner-wroclaw-4.jpg').default,
+        ]
     }
 ]
 
