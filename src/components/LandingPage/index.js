@@ -64,8 +64,8 @@ const LandingPage = () => {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
-        centerMode: true,
-        arrows: false
+        centerMode: false,
+        arrows: false,
     };
 
     const { path } = useParams()

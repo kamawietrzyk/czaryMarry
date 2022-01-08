@@ -348,20 +348,24 @@
             margin-bottom: 2.5rem;
 
             & .custom-box {
-                height: 18rem;
+                height: 19rem;
                 margin-left: .5rem;
                 margin-right: .5rem;
 
                 @media (min-width: $mobileM) {
-                    height: 21rem;
+                    height: 22rem;
                 }
 
                 @media (min-width: $mobileL) {
-                    height: 24rem;
+                    height: 26rem;
+                }
+
+                @media (min-width: $mobileHorizontal) {
+                    height: 28rem;
                 }
 
                 @media (min-width: $tablet) {
-                    height: 26rem;
+                    height: 29rem;
                 }
 
                 @media (min-width: $laptop) {
@@ -384,16 +388,19 @@
             }
 
             & .custom-box-horizontal {
-                height: 8rem;
-                margin-left: .5rem;
+                height: 12rem;
                 margin-right: .5rem;
 
                 @media (min-width: $mobileM) {
-                    height: 10rem;
+                    height: 14rem;
                 }
 
                 @media (min-width: $mobileL) {
-                    height: 12rem;
+                    height: 19rem;
+                }
+
+                @media (min-width: $mobileHorizontal) {
+                    height: 24rem;
                 }
 
                 @media (min-width: $tablet) {
@@ -419,7 +426,11 @@
                 }
             }
 
-            @media (min-width: $tablet) {
+            @media (min-width: 568px) {
+                width: 94vw;
+            }
+
+            @media (min-width: $mobileHorizontal) {
                 width: 95vw;
             }
 
