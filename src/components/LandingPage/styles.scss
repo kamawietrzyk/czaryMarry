@@ -348,24 +348,24 @@
             margin-bottom: 2.5rem;
 
             & .custom-box {
-                height: 19rem;
+                height: 17rem;
                 margin-left: .5rem;
                 margin-right: .5rem;
 
                 @media (min-width: $mobileM) {
-                    height: 22rem;
+                    height: 20rem;
                 }
 
                 @media (min-width: $mobileL) {
-                    height: 26rem;
+                    height: 24rem;
                 }
 
                 @media (min-width: $mobileHorizontal) {
-                    height: 28rem;
+                    height: 26rem;
                 }
 
                 @media (min-width: $tablet) {
-                    height: 29rem;
+                    height: 28rem;
                 }
 
                 @media (min-width: $laptop) {
