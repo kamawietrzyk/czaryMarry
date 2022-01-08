@@ -30,6 +30,6 @@ jobs:
     - name: S3 Sync
       run: aws s3 sync --delete --acl public-read build/ s3://czarymarry.com/
     - name: Invalidate Cloud Front Cache
-      run: aws cloudfront create-invalidation --distribution-id E3OU4VYZREVR6T --paths /*
+      run: aws cloudfront create-invalidation --distribution-id E3OU4VYZREVR6T --paths "/*"
     - name: Invalidate Cloud Front Cache
       run: "curl -X POST \"https://api.cloudflare.com/client/v4/zones/${{ secrets.CF_ZONE }}/purge_cache\" -H \"X-Auth-Email: ${{ secrets.CF_EMAIL }}\" -H \"X-Auth-Key: ${{ secrets.CF_API_KEY }}\" -H \"Content-Type: application/json\" --data '{\"purge_everything\":true}'"
