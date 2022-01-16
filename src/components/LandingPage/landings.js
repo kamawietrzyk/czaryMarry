@@ -61,19 +61,20 @@ const landings = [
         gridTextOne:
             <>
                 <p>Wiemy już, czym nie warto się kierować. Pora ustalić jakie kryteria powinniście brać pod uwagę.</p>
-                <h4 className="bold mint mt-5">Portfolio i sposób komunikacji.</h4>
+
+                <h4 className="bold mint mt-4">Doświadczenie.</h4>
+                <p>Zaangażowanie i świeże podejście do tematu są super. Niejednokrotnie mniejsze doświadczenie wiąże się również z atrakcyjniejszą ceną za usługę organizacji wesela. Bardzo kibicujemy naszym koleżankom i kolegom, którzy stawiają pierwsze kroki w branży weddingowej, w końcu każdy kiedyś zaczynał. Jednak lata doświadczeń pokazały, jak wiele daje praktyka i doświadczenie. Przerobiliśmy setki scenariuszy, a nadal wiele rzeczy potrafi nas zaskoczyć. Jesteśmy jednak bogatsze o doświadczenie, które powoduje, że potrafimy zachować zimną krew nawet w najbardziej niespodziewanych sytuacjach.</p>
+            </>,
+        gridTextTwo:
+            <>
+                <h4 className="bold mint">Portfolio i sposób komunikacji.</h4>
                 <p>To Wasz pierwszy kontakt z wedding plannerem. Jeśli podoba Wam się, w jaki sposób dana agencja ślubna prezentuje się w internecie, w jaki sposób opisuje swoją pracę, a zdjęcia z realizacji zapierają dech w piersiach to bardzo dobry początek.</p>
 
                 <h4 className="bold mint mt-4">Kontakt, kontakt i jeszcze raz kontakt.</h4>
                 <p>Jeśli wysłaliście zapytanie do wedding plannera, na które od tygodnia nie dostaliście odpowiedzi lub agencja ślubna zwleka z wysłaniem do Was oferty i musicie się jej przypominać, to bardzo zły znak. Możemy śmiało założyć, że tak będzie wyglądał cały proces organizacji. To konsultant ślubny jest od przypominania się Wam, a nie odwrotnie.</p>
-            </>,
-        gridTextTwo:
-            <>
-                <h4 className="bold mint">Wspólny vibe.</h4>
-                <p>Brzmi trochę młodzieżowo, ale to bardzo ważne. Podczas organizacji wesela wymienicie tysiące wiadomości i przeprowadzicie masę rozmów z Waszym konsultantem ślubnym. Prawdopodobnie spędzicie wspólnie około półtora roku, planując przyjęcie weselne. Wybrana agencja ślubna będzie Wam towarzyszyć również w dniu ślubu, byłoby bardzo fatalnie, gdyby wedding planner działał Wam na nerwy. Powinniście czuć się w jego towarzystwie swobodnie i nadawać na podobnych falach.</p>
 
-                <h4 className="bold mint mt-4">Doświadczenie.</h4>
-                <p>Zaangażowanie i świeże podejście do tematu są super. Niejednokrotnie mniejsze doświadczenie wiąże się również z atrakcyjniejszą ceną za usługę organizacji wesela. Bardzo kibicujemy naszym koleżankom i kolegom, którzy stawiają pierwsze kroki w branży weddingowej, w końcu każdy kiedyś zaczynał. Jednak lata doświadczeń pokazały, jak wiele daje praktyka i doświadczenie. Przerobiliśmy setki scenariuszy, a nadal wiele rzeczy potrafi nas zaskoczyć. Jesteśmy jednak bogatsze o doświadczenie, które powoduje, że potrafimy zachować zimną krew nawet w najbardziej niespodziewanych sytuacjach.</p>
+                <h4 className="bold mint mt-4">Wspólny vibe.</h4>
+                <p>Brzmi trochę młodzieżowo, ale to bardzo ważne. Podczas organizacji wesela wymienicie tysiące wiadomości i przeprowadzicie masę rozmów z Waszym konsultantem ślubnym. Prawdopodobnie spędzicie wspólnie około półtora roku, planując przyjęcie weselne. Wybrana agencja ślubna będzie Wam towarzyszyć również w dniu ślubu, byłoby bardzo fatalnie, gdyby wedding planner działał Wam na nerwy. Powinniście czuć się w jego towarzystwie swobodnie i nadawać na podobnych falach.</p>
             </>,
         gridPics:
             [
@@ -103,7 +104,14 @@ const landings = [
         ],
         extras:
             <p>Jeśli dotarliście do tego momentu to znaczy, że zrobiłyśmy na Was całkiem niezłe wrażenie. Nie pozostaje nam nic innego jak zaprosić Was do kontaktu. Jeśli jesteście zainteresowani współpracą, piszcie lub dzwońcie. Zorganizujemy dla Was wesele marzeń w <CustomOuterLink to="https://uml.lodz.pl/" className="linkPink" text="Łodzi" />.
-            </p>
+            </p>,
+
+        extraSliderLastPics: [
+            require('./LandingPics/Łódź/custom2/Wedding-planner-lodz.jpg').default,
+            require('./LandingPics/Łódź/custom2/Agencja-slubna-lodz.jpg').default,
+            require('./LandingPics/Łódź/custom2/Konsultant-slubny-lodz.jpg').default,
+            require('./LandingPics/Łódź/custom2/Organizacja-slubu-lodz.jpg').default,
+        ]
     },
     {
         path: 'wedding-planner-krakow',
