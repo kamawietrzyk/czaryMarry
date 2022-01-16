@@ -22,7 +22,7 @@ const posts = [
             </>,
         links:
             <>
-                <iframe title="#18 Hey Wedding - Zaufaliśmy profesjonalistom - Rozmowa z Eweliną i Krzyśkiem." allowtransparency="true" height="150" width="100%" style={{ border: "none", minWidth: "min(100%, 430px)" }} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=j9gvc-117ea01-pb&from=pb6admin&share=1&download=1&rtl=0&fonts=Arial&skin=1&font-color=auto&btn-skin=7"></iframe>
+                <iframe title="#18 Hey Wedding - Zaufaliśmy profesjonalistom - Rozmowa z Eweliną i Krzyśkiem." allowtransparency="true" height="150" width="100%" style={{ border: "none", minWidth: "min(100%, 430px)" }} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=t5d3q-117ea4b-pb&from=pb6admin&share=1&download=1&rtl=0&fonts=Arial&skin=1&font-color=auto&btn-skin=7"></iframe>
 
                 <p className="mt-5">
                     Organizacja: <Link to={URLS.HOME} className="CustomLink">Agencja Ślubna Czary Marry</Link> <br />
