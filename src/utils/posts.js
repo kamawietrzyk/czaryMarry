@@ -7,6 +7,41 @@ import URLS from './urls'
 
 const posts = [
     {
+        path: '18-hey-wedding-zaufalismy-profesjonalistom',
+        title: '#18 Hey Wedding - Zaufaliśmy profesjonalistom - Rozmowa z Eweliną i Krzyśkiem.',
+        seoText: 'Po ośmiomiesięcznej przerwie wracamy do nagrywania podcastu z nową energią i ciekawymi gośćmi.',
+        date: '17 sty 2022',
+        tag: 'podcast',
+        textShort: 'Po ośmiomiesięcznej przerwie wracamy do nagrywania podcastu z nową energią i...',
+        mainPic: {
+            src: require('./BlogPics/podcast.png').default
+        },
+        textMain:
+            <>
+                Po ośmiomiesięcznej przerwie wracamy do nagrywania podcastu z nową energią i ciekawymi gośćmi. <span className="mint bold">Na pierwszy ogień bierzemy Ewelinę i Krzyśka</span>. Porozmawiamy o współpracy z <span className="mint bold">wedding plannerem</span> oraz korzyściach jakie z niej płyną, o doborze wykonawców i tym dlaczego warto im zaufać. O oryginalnych rozwiązaniach, niecodziennym motywie przewodnim wesela oraz atrakcjach weselnych. Jak zwykle nie zabraknie ciekawych dygresji i cennych rad dla par młodych planujących ślub i wesele.
+            </>,
+        links:
+            <>
+                <iframe title="#18 Hey Wedding - Zaufaliśmy profesjonalistom - Rozmowa z Eweliną i Krzyśkiem." allowtransparency="true" height="150" width="100%" style={{ border: "none", minWidth: "min(100%, 430px)" }} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=yxstp-117e8a1-pb&from=pb6admin&share=1&download=1&rtl=0&fonts=Arial&skin=1&font-color=auto&btn-skin=7"></iframe>
+
+                <p className="mt-5">
+                    Organizacja: <Link to={URLS.HOME} className="CustomLink">Agencja Ślubna Czary Marry</Link> <br />
+                    Miejsce: <CustomOuterLink to="http://zielonabrama.com.pl/" text="Zielona Brama" /> <br />
+                    Dekoracje: <CustomOuterLink to="https://www.facebook.com/bukietybankiety/" text="Bukiety Bankiety" /> <br />
+                    Foto i film: <CustomOuterLink to="https://www.lowlightproductions.com/" text="Low Light Productions" /><br />
+                    DJ: <CustomOuterLink to="https://michalmarat.pl/" text="Michał Marat" /> <br />
+                    Saksofon: <CustomOuterLink to="https://www.facebook.com/LudwickiLukasz/" text="Łukasz Ludwicki Sax" /> <br />
+                    Tork i słodki stół: <CustomOuterLink to="https://cremo.pl/" text="Cremo" /> <br />
+                    Bar: <CustomOuterLink to="https://chemicznybar.pl/" text="Chemiczny Bar" /> <br />
+                </p>
+            </>,
+        extras:
+            <>
+                <span className="d-block text-right"><CustomCategoryLink path="podcast" text="Podcast" className="bgColorMint" /></span>
+            </>
+    },
+
+    {
         path: 'slub-wesele-w-gorach',
         title: 'Ślub i wesele w górach - organizacja + lista miejsc',
         seoText: 'Pragniesz zorganizować swój ślub i wesele w górach? Zobacz jak agencja ślubna Czary Marry realizuje marzenia o ceremonii i przyjęciu w otoczeniu gór!',
@@ -264,8 +299,8 @@ const posts = [
                     Mamy nadzieję, że nasze wskazówki będą przydatne podczas organizacji wesela w górach. Jeśli marzy Wam się wesele jak ze zdjęć, <Link to={URLS.CONTACT} className='linkDark'>śmiało piszcie lub dzwońcie</Link>. Z przyjemnością pomożemy Wam i wyczarujemy coś niezwykłego, ponieważ tak jak Wy kochamy wesela w górach. Ponadto mamy ogromne doświadczenie w organizacji przyjęć plenerowych w stylu slow wedding. Wiemy, na co zwrócić uwagę, jak ustrzec Was przed popełnieniem najczęstszych błędów i sprawić, by Wasze wesele w górach miało niesamowity klimat. Bez względu na to, czy zdecydujecie się na organizację wesela w Sudetach na <Link to={generatePath(URLS.LANDING, { path: 'organizacja-wesel-wroclaw' })} className="linkDark">Dolnym Śląsku</Link>, Tatrach w <Link to={generatePath(URLS.LANDING, { path: 'wedding-planner-krakow' })} className="linkDark">Małopolsce</Link>, czy Beskidach na <Link to={generatePath(URLS.LANDING, { path: 'wedding-planner-slask-katowice' })} className="linkDark">Śląsku</Link>, jesteśmy do Waszej dyspozycji na każdym etapie przygotowań. To Wy podejmujecie decyzję, w jakim stopniu chcecie nas zaangażować w organizację wesela. Oczywiście zachęcamy Was do skorzystania z kompleksowej pomocy, ponieważ daje ona najlepsze efekty.
                 </>
             },
-
-        ]
+        ],
+        extras: <><span className="d-block">Autorem zdjęć jest <CustomOuterLink to="https://fotoreportazslubny.com/" text=" Jakub Nowotyński" className="linkMint" /></span></>
     },
     {
         path: 'plan-wesela-harmonogram-dnia-slubu-krok-po-kroku',
