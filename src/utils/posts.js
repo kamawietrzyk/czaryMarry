@@ -7,6 +7,267 @@ import URLS from './urls'
 
 const posts = [
     {
+        path: 'slub-wesele-w-gorach',
+        title: 'Ślub i wesele w górach - organizacja + lista miejsc',
+        seoText: 'Pragniesz zorganizować swój ślub i wesele w górach? Zobacz jak agencja ślubna Czary Marry realizuje marzenia o ceremonii i przyjęciu w otoczeniu gór!',
+        date: '16 sty 2022',
+        textShort: 'Wiele par młodych, które proszą o pomoc przy organizacji ślubu, marzy o weselu w górach. Nic w tym dziwnego, za każdym razem, gdy otrzymujemy takie zapytanie...',
+        mainPic: {
+            src: require('./BlogPics/Post34/slub-w-gorach.jpg').default
+        },
+        topPic: {
+            src: require('./BlogPics/Post34/slub-w-gorach.jpg').default,
+        },
+        content: [
+            {
+                headerSmall: 'Ślub i wesele w górach — jak je zorganizować i o czym pamiętać.'.toUpperCase(),
+                headerClassName: 'mint',
+                text:
+                    <>Wiele par młodych, które proszą o pomoc przy organizacji ślubu, marzy o weselu w górach. Nic w tym dziwnego - za każdym razem, gdy otrzymujemy takie zapytanie, bardzo się cieszymy. Same uwielbiamy górski klimat i piesze wędrówki. Mamy spore doświadczenie w planowaniu tego typu uroczystości, dlatego postanowiłyśmy podzielić się z Wami wiedzą, jak zorganizować wymarzone wesele w górach.<br />
+                        Więcej informacji o <CustomPostLink text="organizacji wesela krok po kroku znajdziesz tutaj" path="15-hey-wedding-jak-zorganizowac-wesele-krok-po-kroku" className="linkMint" />.
+                    </>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post34/wesele-w-gorach.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: 'Organizacja wesela w górach — tradycja czy nowoczesność?'.toUpperCase(),
+                headerClassName: 'grey',
+                text:
+                    <>Czy wesele organizowane w górach musi być tym, co powszechnie uważane jest za tradycyjne? Absolutnie nie! Już sama organizacja wesela jest tradycją. Warto również zastanowić się, czy zależy Wam na organizacji wesela w góralskim stylu, czy wesela w górach. Pierwsze jest dość mocno określone, drugie daje dużo większe możliwości i nie zamyka żadnych drzwi. Jeśli wybraliście tę drugą opcję to nic nie stoi na przeszkodzie, żeby pójść o krok dalej i zorganizować wesele inaczej niż wszyscy - w nowoczesny sposób. Nie pędzić na obiad, tylko niespiesznie popijać drinki w ogrodzie, delektując się widokiem. Tańczyć do białego rana pod rozgwieżdżonym niebem lub prowadzić zajmujące rozmowy przy ognisku. Popijać grzańca, grać w gry plenerowe i spędzać czas tak, jak się na to ma aktualnie ochotę. Zrezygnować z tradycyjnych poprawin na rzecz chilloutu na leżaku lub pieszej wycieczki.
+                    </>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post34/kameralne-wesele-w-gorach.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: 'Ślub w górach — gdzie?'.toUpperCase(),
+                headerClassName: 'mint',
+                text:
+                    <>
+                        <p>Wesele w górach to niekoniecznie ślub w Zakopanem. Oczywiście Tatry to nasza narodowa duma i jeden z najpiękniejszych rejonów turystycznych Polski. Wesele w Tatrach ma również swoje oczywiste plusy logistyczne. Duża baza noclegowa, transportowa, masa atrakcji, sporo karczm i restauracji, w których można zorganizować wesele w iście góralskim stylu. Należy pamiętać, że Zakopane to również wyższe ceny, sporo turystów oraz nuta przaśności ukrywająca się pod płaszczykiem źle rozumianego folkloru. Oczywiście są osoby, które kochają Zakopane właśnie za klimat Krupówek, doliny Chochołowskiej i Morskiego Oka, i nie ma w tym nic złego. Są też i tacy, którzy omijają je szerokim łukiem i wybierają mniej popularne szlaki. Wszystko zależy od Waszych preferencji i wyobrażeń o tym, jak powinien wyglądać Wasz ślub i wesele w górach. Poszukując idealnego miejsca rozważcie również inne lokalizacje, choćby w celach porównawczych, żeby przekonać się, że to, które ostatecznie wybraliście, jest zdecydowanie najlepsze.</p>
+                        <p>Jakie jeszcze lokalizacje warto wziąć pod uwagę? Jeżeli rozważacie wyłącznie wesele w Tatrach, poszukajcie miejsc nieco bardziej oddalonych od popularnych szlaków turystycznych. Tatry to nie tylko <span className="dark bold">Zakopane</span> i <span className="dark bold">Białka Tatrzańska</span>. Jeśli zdecydujecie się na nieco niższe, ale równie malownicze pasma górskie to mamy dla Was dobrą wiadomość. Jest sporo ciekawych lokalizacji na wesele w górach w innych regionach Polski - <span className="dark bold">Beskidy, Pieniny, Karkonosze, Bieszczady, Góry Świętokrzyskie i wiele innych</span>. U ich podnóża znajdziecie masę klimatycznych miejsc, które idealnie nadadzą się na kameralne wesele w górach.</p>
+                    </>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post34/slub-cywilny-w-gorach.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: 'Organizacja wesela w górach — miejsce weselne.'.toUpperCase(),
+                headerClassName: 'grey',
+                text: <>
+                    Zanim rozpoczniecie poszukiwania idealnej sali weselnej, określcie sobie jaką ilość osób chcielibyście zaprosić. Często pary młode pytają nas o kameralne wesele w górach. Zauważyłyśmy, że to bardzo szerokie pojęcie i dla każdego znaczy trochę co innego. Dla jednych będzie to przyjęcie na 15 osób, a dla innych na 80. Naszym zdaniem kameralne wesele w górach to nie tylko liczba osób, ale i specyficzny klimat samego przyjęcia. Przyjemna atmosfera, celebrowanie chwili w gronie najbliższych, serdecznych osób bez względu na ich ostateczną liczbę.</>,
+                extraContent: 'Oczywiście, zanim na dobre ruszycie z organizacją wesela w górach, musicie odpowiedzieć sobie na pytanie, ile osób chcecie zaprosić.',
+                extraContentClassName: 'bgMintLight shadowBox',
+                pics: [
+                    {
+                        src: require('./BlogPics/Post34/slub-w-zakopanem.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: 'Kameralne wesele w górach.',
+                headerClassName: 'mint',
+                text: <>Jeżeli planujecie <span className='dark bold'>małe wesele w górach na około 10-30 osób</span>, powinniście skupić się na poszukiwaniach agroturystyki lub pensjonatu. Takie miejsca mają niesamowity klimat i kameralny charakter. Zazwyczaj przy takiej ilości gości, pary młode decydują się na wesele w górach z noclegiem dla zaproszonych osób. Baza noclegowa na miejscu to kolejny plus takich obiektów. Pamiętajcie, że mają one też swoje pułapki. Najczęściej ich właściciele nie mają pojęcia jak organizować przyjęcia weselne. Musicie mieć na uwadze, że spora część obowiązków spadnie na Was. O ile zaplanowanie menu nie powinno stanowić większego problemu, logistyka może okazać się bardzo kłopotliwa. Czy kameralny obiekt z małą kuchnią będzie w stanie przygotować odpowiednią ilość jedzenia? Czy będzie dysponował wystarczającą ilością miejsca na jego przechowywanie? Gdzie będziecie chłodzić alkohol, napoje lub tort? Czy dysponuje odpowiednią zastawą, szkłem, sztućcami, tekstyliami? Czy posiada obsługę kelnerską? To wszystko pytania, na które warto sobie odpowiedzieć, zanim na dobre zajmiecie się organizacją <span className='dark bold'>małego wesela w górach</span> oraz zdecydujecie się na wybór miejsca, które na co dzień nie zajmuje się organizacją imprez okolicznościowych. Zdarza się również, że tego typu miejsca nie chcą wynajmować obiektów wyłącznie na jedną dobę, szczególnie w okresie wzmożonego ruchu turystycznego.</>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post34/cichy-slub-w-gorach.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: 'Średnie wesele w górach.',
+                headerClassName: 'mint',
+                text: <>Według naszego doświadczenia i zapytań, jakie przesyłają do nas pary młode, <span className='dark bold'>przyjęcie na około 40-70 osób</span> nadal traktowane są jako kameralne. Taka ilość osób pozwala na zachowanie rodzinnej atmosfery, gdzie dobrze znacie wszystkich gości i utrzymujecie z nimi stały kontakt. Macie czas na to, żeby każdemu z osobna poświęcić trochę czasu na rozmowę, ale i znaleźć chwilę dla siebie. Jeśli Wasza lista gości mieści się w tych widełkach, sugerujemy rozpocząć poszukiwania miejsca weselnego od restauracji, które można wynająć na wyłączność. Mimo że często nie specjalizują się w weselach i nie mają przygotowanej gotowej oferty, mają spore doświadczenie w obsłudze większej ilości osób, dysponują niezbędnymi elementami, żeby zorganizować na ich terenie wesele. Mają własne chłodnie i zamrażarki, doświadczonych kucharzy i łatwą do zweryfikowania jakość. Wystarczy tylko wybrać się do nich na obiad, żeby zobaczyć, jak serwowane są dania oraz jak smakują. <span className='dark bold'>Organizacja wesela w górach na 70 osób</span> może się więc okazać znacznie łatwiejsza, niż w przypadku małego wesela. Jakie są minusy restauracji? To zależy, czy planujecie wesele w górach z noclegiem, czy bez. Najczęściej restauracje nie posiadają bowiem bazy noclegowej. Jest to spory minus, ale z drugiej strony, jeśli miejsce jest piękne i ma smaczną kuchnię, może warto rozważyć transport dla gości do hotelu. Innym minusem może być brak terenu zielonego wokół restauracji, na przykład zakładając, że zdecydujecie się na wspomniane wcześniej Krupówki. My jednak sugerujemy, żeby wybierać restauracje z ogródkiem lub tarasem.</>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post34/wesele-w-gorach-z-noclegiem.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: 'Duże wesele w górach.',
+                headerClassName: 'mint',
+                text: <>Przy <span className='dark bold'>dużych weselach powyżej 90 osób</span> możecie zdecydować się na typowe miejsca weselne lub sale hotelowe. Zaletą hoteli jest ich kompleksowość. Oczywistym plusem jest to, że możemy upiec dwie pieczenie na jednym ogniu i zorganizować wesele w górach z noclegiem. Goście mogą skorzystać z hotelowej restauracji, basenu lub spa. Niestety to, co dla jednych będzie plusem dla innych może się okazać dyskwalifikujące. Hotel to brak intymności, wiele i przypadkowych osób wkoło. Często sale hotelowe są pozbawione klimatu i przypominają bardziej centra konferencyjne niż idealną scenerię do organizacji wesela w górach. A co z typowymi domami weselnymi? Tu problem jest zupełnie inny. Często miejsca te za bardzo chcą nawiązać do góralskiego klimatu. Wszechobecne drewno, rzeźby, ornamenty, firanki z folkowym wzorem, ciupagi, wypchane niedźwiedzie, obrazki. To rzeczy, których radzimy unikać. Góralska gościnność nakazuje zapraszać na wesele nie tylko rodzinę i przyjaciół pary młodej, ale i sąsiadów, czy znajomych. Dlatego w tradycyjnych górskich miejscowościach często możemy spotkać ogromne sale weselne <span className='dark bold'>mieszczące nawet 250 do 300 osób</span>.</>,
+                extraContent: <>Jeśli chcielibyście się dowiedzieć, <CustomPostLink path="kameralne-wesele-czy-huczne" text="dlaczego kameralne wesele nie jest dużo tańsze od dużego, zerknijcie tutaj" className='linkDark' />.</>,
+                extraContentClassName: 'bgGreyLight shadowBox',
+            },
+            {
+                headerSmall: '10 pięknych miejsc na wesele w górach, które warto rozważyć:',
+                headerClassName: 'grey',
+                text:
+                    <ul>
+                        <li><CustomOuterLink to="https://www.facebook.com/Ziebowka/" text="Ziębówka" className="linkDark" /></li>
+                        <li><CustomOuterLink to="http://www.hotelaries.pl/wesele" text="Hotel Aries Zakopane" className="linkDark" /></li>
+                        <li><CustomOuterLink to="http://goralskatradycja.pl" text="Góralska tradycja" className="linkDark" /></li>
+                        <li><CustomOuterLink to="https://stodolaujojo.wordpress.com" text="Stodoła u Jojo" className="linkDark" /></li>
+                        <li><CustomOuterLink to="https://zlotyjar.pl" text="Złoty Jar" className="linkDark" /></li>
+                        <li><CustomOuterLink to="https://www.facebook.com/stara.kruszarnia/" text="Stara Kruszarnia" className="linkDark" /></li>
+                        <li><CustomOuterLink to="http://www.polnazdroj.com" text="Polna Zdrój" className="linkDark" /></li>
+                        <li><CustomOuterLink to="https://heron-hotel.com/#hotel" text="Hotel Heron" className="linkDark" /></li>
+                        <li><CustomOuterLink to="https://www.poziom511.pl" text="Poziom 511" className="linkDark" /></li>
+                        <li><CustomOuterLink to="https://kocierz.pl/" text="Hotel Kocierz" className="linkDark" /></li>
+                    </ul>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post34/kameralny-slub-w-gorach.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: 'Ślub w górach'.toUpperCase(),
+                headerClassName: 'mint',
+                text: <>Ślub w małym kościółku w górach lub ślub plenerowy to jeden z powodów, dla których pary młode marzą o organizacji swojego wesela w Tatrach. Trudno się dziwić, to jeden z najważniejszych momentów całego dnia, który zasługuje na wyjątkową oprawę. Zanim jednak dacie ponieść się wodzy fantazji i zaczniecie planować cichy ślub w górach na środku malowniczej doliny u podnóża gór, powinniście pamiętać o kilku ważnych sprawach i <CustomPostLink path="przygotowania-do-slubu-formalnosci" text="formalnościach przedślubnych" className="linkMint" />.</>,
+            },
+            {
+                headerSmall: 'Ślub kościelny.',
+                headerClassName: 'grey',
+                text: <>Jeżeli marzy Wam się ślub w małym kościółku w górach to macie szczęście. W okolicach gór jest ich bardzo dużo i są pięknie położone. Najpierw czeka na Was trochę formalności. Musicie udać się do proboszcza parafii, do której należycie. Ten udzieli Wam licencji lub sublicencji, z którą będziecie musieli się udać do wybranego kościoła w górach i dopełnić resztę formalności związanych z organizacją ślubu kościelnego.<br />
+                    Więcej o formalnościach przy ślubie konkordatowym przeczytacie w poradniku <CustomPostLink path="dokumenty-do-slubu-koscielnego-konkordatowego" text="dokumenty do ślubu kościelnego" className="linkLight" />.</>,
+            },
+            {
+                headerSmall: '5 niesamowitych kościołów i kaplic położonych w górach:',
+                headerClassName: 'grey',
+                text:
+                    <ul>
+                        <li><CustomOuterLink to="http://wang.com.pl" text="Świątynia Wang" className="linkDark" /></li>
+                        <li><CustomOuterLink to="https://pl.wikipedia.org/wiki/Kaplica_Najświętszego_Serca_Jezusa_w_Jaszczurówce" text="Kaplica Najświętszego Serca Jezusa w Jaszczurówce" className="linkDark" /></li>
+                        <li><CustomOuterLink to="https://pl.wikipedia.org/wiki/Plik:Kaplica_św._Anna_na_Płazówce_(1).jpg" text="Kaplica św. Anny na Płazówce" className="linkDark" /></li>
+                        <li><CustomOuterLink to="https://pl.wikipedia.org/wiki/Sanktuarium_Matki_Boskiej_Skałkowej" text="Sanktuarium Matki Boskiej Skałkowej" className="linkDark" /></li>
+                        <li><CustomOuterLink to="https://pl.wikipedia.org/wiki/Kaplica_na_Polanie_Chochołowskiej" text="Kaplica na Polanie Chochołowskiej" className="linkDark" /></li>
+                    </ul>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post34/wesele-w-tatrach.jpg').default
+                    }
+                ]
+            },
+
+            {
+                headerSmall: 'Ślub cywilny w górach.',
+                headerClassName: 'grey',
+                text: <>Tu możliwości wydają się nieograniczone, jest tyle pięknych polan, górskich zboczy, zagajników, gdzie cudownie byłoby sobie powiedzieć sakramentalne tak. Żeby zorganizować ślub cywilny w górach, musicie wybrać miejsce ceremonii, a następnie udać się do odpowiedniego dla tego terenu Urzędu Stanu Cywilnego. Urzędnik jest zobowiązany do udzielenia Wam ślubu w plenerze za dodatkową opłatą 1000 zł. Musicie jednak pamiętać, że miejsce musi być godne. Co to oznacza? Przepisy jasno tego nie określają, ale nie powinno być to miejsce zbyt publiczne, gdzie kręci się dużo ludzi. Należy również pamiętać o samym dojeździe na wyznaczone miejsce, nie może on być utrudniony. W przeciwnym razie urzędnik ma prawo odmówić Wam udzielenia ślubu w plenerze, odrzucając Wasz wniosek. Najlepiej pod względem logistycznym sprawdzają się najbliższe okolice sali. Są jednak pary, które marzą o bardziej spektakularnych widokach. Jeżeli należycie do tej grupy, pamiętajcie, że im bardziej popularne będzie miejsce, tym więcej gapiów i turystów będzie Wam towarzyszyło podczas ceremonii. Jeśli będą się przyglądać, zachowując należyty dystans, to jeszcze nie koniec świata, ale istnieje duże prawdopodobieństwo, że przechodząc przez uczęszczany szlak turystyczny, będą Wam zwyczajnie przeszkadzać i zaburzać przebieg Waszego cichego ślubu w górach. Więcej o <CustomPostLink path="dokumenty-slub-cywilny-formalnosci" text="formalnościach przy ślubie cywilnym" className="linkLight" /> przeczytacie w poradniku.</>,
+            },
+            {
+                headerSmall: 'Ślub humanistyczny.',
+                headerClassName: 'grey',
+                text: <>To ta amerykańska symboliczna ceremonia, która nie mieści się w żadnych ramach i pozwala Wam wyrecytować własne przysięgi. Tu nie ma żadnych formalnych zasad i obostrzeń, ale podobnie jak w przypadku ślubu cywilnego warto dokładnie przemyśleć wybór lokalizacji. Więcej o <CustomPostLink path="5-hey-wedding-ślub-humanistyczny-a-na-co-to-komu" text="idei ślubu humanistycznego posłuchacie tutaj" className="linkLight" />.</>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post34/slub-w-plenerze-w-gorach.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: 'Organizacja wesela w górach — Dekoracje.'.toUpperCase(),
+                headerClassName: 'mint',
+                text: <>Tworząc koncepcję dekoracji, staramy się wprowadzić gości w odpowiedni nastrój. To jak opowiadanie historii, tworzenie tła dla momentów, które mają się wydarzyć. Jak mówi nasza zaprzyjaźniona florystyka, z którą często współpracujemy, dekoracje są tłem dla Waszej miłości. To dlatego traktujemy je z taką uwagą i poświęcamy tak dużo czasu na ich organizację. Rozmowę  <CustomPostLink path="12-hey-wedding-podcast-dekoracje-slubne-florystyka" text="z Anetą na temat dekoracji znajdziecie tutaj" className="linkMint" />.<br />
+                    <span>Podczas planowania koncepcji należy się kierować kilkoma podstawowymi zasadami, które pomogą uniknąć błędów. Oto one:</span>
+                    <ul style={{ marginTop: ".5rem" }}>
+                        <li>Nie walczcie z miejscem i jego stylistyką, podkreślcie jego mocne strony, zamiast skupiać się na ukrywaniu niedoskonałości.</li>
+                        <li>Mniej znaczy więcej. Unikajcie oczywistych nawiązań. Np. w przypadku wesela w górach będą to folkowe wzory.</li>
+                        <li>Nie traktujcie dekoracji po macoszemu, to jedna z rzeczy, którą goście zapamiętają na bardzo długo.</li>
+                        <li>Bądźcie konsekwentni w swoich wyborach. Wybierzcie styl wesela i trzymajcie się go. Zaproszenie to zapowiedź tego, co będzie się działo na sali.</li>
+                    </ul>
+                </>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post34/slub-w-malym-kosciolku-w-gorach.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: 'Organizacja wesela w górach — Menu.'.toUpperCase(),
+                headerClassName: 'grey',
+                text: <>To niezwykle ważny aspekt każdego przyjęcia weselnego. Byłoby idealnie, gdyby menu stało się częścią historii, którą chcecie opowiedzieć Waszym gościom. Wasz wybór miejsca weselnego nie był przecież kwestią przypadku. Skoro ściągacie Waszych gości na wesele w Zakopanem, ugośćcie ich, jak przystało na podhalańską tradycję. Absolutnie nie mamy tu na myśli stołów uginających się pod ciężarem jedzenia, ale o rodzaj serwowanych dań. Niech będą to podhalańskie przysmaki takie jak oscypki i bundz, ale również kwaśnica lub polywka. Na danie główne zaserwujcie Waszym gościom jagnięcinę, a na kolację bryjki, hałuski czy bombolki. Dacie się ponieść i zapomnijcie o weselnych schematach, nie jesteście przecież na niedzielnym obiedzie u babci. To Wasze wymarzone wesele w górach! Bez względu na to, jaki region Polski wybierzecie, na pewno znajdą się jakieś lokalne specjały, którymi możecie zaskoczyć swoich gości.</>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post34/wesele-w-gorach-beskidy.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: 'Organizacja wesela w górach — Muzyka.'.toUpperCase(),
+                headerClassName: 'mint',
+                text: <>
+                    Nie koniecznie góralska. Ta, mimo że potrafi zachwycać, może równie szybko zmęczyć. Jeśli planujecie kameralne wesele w górach, a sala, na którą się zdecydowaliście, nie jest zbyt duża, wybierzcie DJa. Jeśli macie do dyspozycji trochę więcej przestrzeni i lubicie muzykę na żywo, idealnym rozwiązaniem będzie zespół. Jeżeli uwielbiacie dźwięki góralskiej muzyki i zależy Wam na tym elemencie, wprowadźcie go jako atrakcję dla gości w postaci krótkiego występu. Innym sposobem na przemycenie tego elementu w subtelny sposób jest oprawa muzyczna ceremonii ślubnej. Zapraszamy do słuchania <CustomPostLink path="3-hey-wedding-ciekawe-przypadki-dj-a-jegomościa" text="podcastu o pracy Dj-a" className="linkMint" />.</>,
+            },
+            {
+                headerSmall: 'Organizacja wesela w górach — Atrakcje.'.toUpperCase(),
+                headerClassName: 'grey',
+                text: <>Możliwości są nieograniczone, ale nie warto popadać w skrajności. Zbyt dużo atrakcji może zmęczyć każdego. Należy pamiętać, że podczas przyjęcia weselnego mamy sporo przerw na życzenia, toast, posiłki, tort, pierwszy taniec, podziękowania dla rodziców, oczepiny. W tych momentach goście proszeni są o zajęcie miejsc przy stolikach, wyjście na parkiet, ustawienie się w kole. Z perspektywy osób, które przychodzą na wesele, żeby dobrze się bawić, może być to uciążliwe. Dlatego warto zdecydować się na atrakcje, które nie zaburzają ciągłości wesela i są alternatywą, z której można, ale nie trzeba korzystać. Najlepszym przykładem takich atrakcji, które jednocześnie świetnie wpiszą się w klimat wesela w górach, będzie strefa relaksu, rozłożona w ogrodzie, letnie kino, gry plenerowe, barman lub prosecco van, ognisko z kiełbaskami i grzańcem.</>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post34/wesele-w-gorach-tatry.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: 'Organizacja wesela w górach — Sesja ślubna.'.toUpperCase(),
+                headerClassName: 'mint',
+                text: <>
+                    Może odbyć się zarówno w dniu ślubu, jak i po nim. Naszym zdaniem najlepsze jest to pierwsze rozwiązanie. Emocje towarzyszące Wam w dniu ślubu są nie do podrobienia. Wystarczy 20-minutowa sesja z dobrym fotografem, w którego towarzystwie czujecie się swobodnie. Górskie tereny są tak piękne, że nie trzeba szukać spektakularnego miejsca na plener. Czasami wystarczy wyjść przed salę, żeby zrobić niesamowite zdjęcia, które będą pamiątką na całe życie.
+                    Tu posłuchasz <CustomPostLink path="9-hey-wedding-porady-od-fotografa-slubnego" text="podcastu, na co zwrócić uwagę przed wyborem fotografa ślubnego" className="linkMint" />.</>,
+            },
+            {
+                headerSmall: 'Organizacja wesela w górach — Poprawiny.'.toUpperCase(),
+                headerClassName: 'grey',
+                text: <>To świetny pomysł pod warunkiem, że podejdziecie do tego tematu nieco inaczej. Zamiast typowej posiadówki przy odgrzewanym kotlecie z wczoraj, proponujemy brunch w ogrodzie lub wylegiwanie się na kocach. Dla bardziej aktywnych, dla których kac jest pojęciem obcym, proponujemy spływ kajakowy lub spacer. Możecie zaplanować też jakieś atrakcje na dzień przed weselem. Wspólna kolacja i rozmowy przy winie wprowadzą Was w weselny klimat i pozwolą się odprężyć.</>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post34/slub-i-wesele-w-gorach.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: 'Organizacja wesela w górach — Logistyka.'.toUpperCase(),
+                headerClassName: 'mint',
+                text: <>
+                    <span>Co może Was zaskoczyć podczas organizacji wesela w górach?</span>
+                    <ul style={{ marginTop: ".5rem" }}>
+                        <li>Noclegi — organizując wesele w szczycie sezonu turystycznego, może się okazać, że właściciele pensjonatów nie chcą wynajmować pokoi na jedną dobę.</li>
+                        <li>Ceny i dostępność terminów — im bardziej turystyczne miejsce, tym mocniej ceny szybują w górę, a ilość dostępnych noclegów oraz  transportów maleje.</li>
+                        <li>Staroświeckie podejście do organizowania wesel — oczywiście wszystko zależy od miejsca, jakie wybierzecie, ale zdarza się, że właściciele górskich karczm nie podążają za trendami, upierając się przy sprawdzonych schematach.</li>
+                        <li>Ruch turystyczny — korki w Zakopanem w sobotę o godzinie 14:00 potrafią zaskakiwać. Turyści są wszędzie i są bardzo zdeterminowani w poszukiwaniu odpowiedniego miejsca na obiad. Tablica zamknięte nie stanowi większej przeszkody.</li>
+                        <li>Dynamiczne zmiany pogody — Jeśli planujecie ceremonię lub przyjęcie pod gołym niebem, zawsze miejcie w zanadrzu plan B, czyli miejsce, gdzie możecie przenieść się podczas deszczu.</li>
+                    </ul>
+                    <span>Więcej o organizacji wesela w plenerze przeczytacie tutaj: <CustomPostLink path="wesele-w-ogrodzie-garden-party" text="Wesele w ogrodzie" className="linkMint" />, <CustomPostLink path="wesele-w-plenerze" text="Jak zorganizować wesele w plenerze" className="linkMint" />, <CustomPostLink path="wesele-pod-namiotem" text="Wesele pod namiotem" className="linkMint" />.</span>
+                </>,
+            },
+            {
+                headerSmall: 'Dlaczego warto zorganizować ślub i wesele w górach?',
+                headerClassName: 'grey',
+                text: <>
+                    <ul style={{ marginTop: ".5rem" }}>
+                        <li>Góry to idealne miejsce na wesele w stylu slow. Pozytywnie nastrajają i wprowadzają gości w wakacyjny, sielski klimat.</li>
+                        <li>Widoki — otaczająca natura, góry, las i szumiący w oddali strumień.</li>
+                        <li>Niesamowite zdjęcia — czyli krótka sesja w dniu ślubu z widokiem na góry.</li>
+                        <li>Mini wakacje — możliwość przedłużenia weekendu w górach, spędzenia czasu ze znajomymi lub rodziną.</li>
+                    </ul>
+                </>,
+                pics: [
+                    {
+                        src: require('./BlogPics/Post34/slub-w-gorach-organizacja.jpg').default
+                    }
+                ]
+            },
+            {
+                headerSmall: 'Wedding plannerki, które pomogą zorganizować wymarzone wesele w górach'.toUpperCase(),
+                headerClassName: 'mint',
+                text: <>
+                    Mamy nadzieję, że nasze wskazówki będą przydatne podczas organizacji wesela w górach. Jeśli marzy Wam się wesele jak ze zdjęć, <Link to={URLS.CONTACT} className='linkDark'>śmiało piszcie lub dzwońcie</Link>. Z przyjemnością pomożemy Wam i wyczarujemy coś niezwykłego, ponieważ tak jak Wy kochamy wesela w górach. Ponadto mamy ogromne doświadczenie w organizacji przyjęć plenerowych w stylu slow wedding. Wiemy, na co zwrócić uwagę, jak ustrzec Was przed popełnieniem najczęstszych błędów i sprawić, by Wasze wesele w górach miało niesamowity klimat. Bez względu na to, czy zdecydujecie się na organizację wesela w Sudetach na <Link to={generatePath(URLS.LANDING, { path: 'organizacja-wesel-wroclaw' })} className="linkDark">Dolnym Śląsku</Link>, Tatrach w <Link to={generatePath(URLS.LANDING, { path: 'wedding-planner-krakow' })} className="linkDark">Małopolsce</Link>, czy Beskidach na <Link to={generatePath(URLS.LANDING, { path: 'wedding-planner-slask-katowice' })} className="linkDark">Śląsku</Link>, jesteśmy do Waszej dyspozycji na każdym etapie przygotowań. To Wy podejmujecie decyzję, w jakim stopniu chcecie nas zaangażować w organizację wesela. Oczywiście zachęcamy Was do skorzystania z kompleksowej pomocy, ponieważ daje ona najlepsze efekty.
+                </>
+            },
+
+        ]
+    },
+    {
         path: 'plan-wesela-harmonogram-dnia-slubu-krok-po-kroku',
         title: 'Plan wesela i dnia ślubu - czyli harmonogram wesela krok po kroku',
         seoText: 'Planujesz scenariusz Waszego wymarzonego dnia ślubu i wesela? Zobacz gotowy harmonogram ślubu i wesela od Czary Marry - profesjonalnych organizatorek wesel.',
@@ -184,7 +445,7 @@ const posts = [
                 pics: [
                     {
                         src: require('../components/OurCouples/OurCouplesPics/AngelikaPawel/04.jpg').default,
-                        author: ' Jam Studio'
+                        author: 'Jam Studio'
                     }
                 ]
             },
@@ -639,8 +900,8 @@ const posts = [
         textMain:
             <>
                 Z poradnika dowiesz się wszystko o formalnościach związanych z organizacją ślubu cywilnego w tym jakie dokumenty do ślubu cywilnego potrzebujesz.<br />
-            Ślub cywilny jest jedną z najpopularniejszych form zawarcia związku małżeńskiego w Polsce. Zgodnie z definicją zaczerpniętą z <CustomOuterLink text="Wikipedii" to="https://pl.wikipedia.org/wiki/Związek_cywilny" className="linkLight" /> jest to związek formalny, który w świetle prawa legalizuje wspólne życie partnerów, wiążąc ich emocjonalnie i ekonomicznie.<br />
-            Istnieje przeświadczenie, że ma wyłącznie urzędowy charakter i jest pozbawiony emocji. Nic bardziej mylnego. Są to niezwykle wzruszające ceremonie, w których nie brakuje pięknych przemów i muzyki, a co najważniejsze, można go zorganizować na łonie natury, co jest marzeniem wielu par młodych.
+                Ślub cywilny jest jedną z najpopularniejszych form zawarcia związku małżeńskiego w Polsce. Zgodnie z definicją zaczerpniętą z <CustomOuterLink text="Wikipedii" to="https://pl.wikipedia.org/wiki/Związek_cywilny" className="linkLight" /> jest to związek formalny, który w świetle prawa legalizuje wspólne życie partnerów, wiążąc ich emocjonalnie i ekonomicznie.<br />
+                Istnieje przeświadczenie, że ma wyłącznie urzędowy charakter i jest pozbawiony emocji. Nic bardziej mylnego. Są to niezwykle wzruszające ceremonie, w których nie brakuje pięknych przemów i muzyki, a co najważniejsze, można go zorganizować na łonie natury, co jest marzeniem wielu par młodych.
             </>,
         content: [
             {
@@ -790,8 +1051,8 @@ const posts = [
                 text:
                     <>
                         Wykaz państw wraz z organem wydającym <span className="bold dark">zaświadczenie stwierdzające możliwość zawarcia małżeństwa</span> znajdziecie <CustomOuterLink text="tutaj" to="https://www.migrapolis.pl/pl/dzialy-tematyczne/slub/zdolność-matrymonialna-cudzoziemca?fbclid=IwAR38xrIbG4gAVHC7Ef4f3YQBhAQ4sQFmTYHYmeoVyOBPd1K2h-XIvi1z2GU" className="linkLight" /> (dane z roku 2015). Istnieje również możliwość uzyskania dokumentu poprzez konsulat lub ambasadę danego kraju. <br />
-                    Zdarza się, że uzyskanie zaświadczenia o możliwości zawarcia małżeństwa okazuje się bardzo trudne. W takiej sytuacji niezbędne jest <span className="bold dark">orzeczenie sądu zwalniające z obowiązku złożenia zaświadczenia</span> oraz zgodę na ślub cywilny z obcokrajowcem w Polsce. <br />
-                    Wykaz państw, które nie wydają zaświadczeń stwierdzających możliwość zawarcia małżeństwa, znajdziecie <CustomOuterLink text="tutaj" to="https://www.migrapolis.pl/pl/dzialy-tematyczne/slub/zdolność-matrymonialna-cudzoziemca?fbclid=IwAR38xrIbG4gAVHC7Ef4f3YQBhAQ4sQFmTYHYmeoVyOBPd1K2h-XIvi1z2GU" className="linkLight" /> (dane z roku 2015).
+                        Zdarza się, że uzyskanie zaświadczenia o możliwości zawarcia małżeństwa okazuje się bardzo trudne. W takiej sytuacji niezbędne jest <span className="bold dark">orzeczenie sądu zwalniające z obowiązku złożenia zaświadczenia</span> oraz zgodę na ślub cywilny z obcokrajowcem w Polsce. <br />
+                        Wykaz państw, które nie wydają zaświadczeń stwierdzających możliwość zawarcia małżeństwa, znajdziecie <CustomOuterLink text="tutaj" to="https://www.migrapolis.pl/pl/dzialy-tematyczne/slub/zdolność-matrymonialna-cudzoziemca?fbclid=IwAR38xrIbG4gAVHC7Ef4f3YQBhAQ4sQFmTYHYmeoVyOBPd1K2h-XIvi1z2GU" className="linkLight" /> (dane z roku 2015).
                     </>
             },
             {
@@ -1028,7 +1289,7 @@ const posts = [
             },
             {
                 text: <>Miesiąc przed ślubem polecamy zadzwonić do wszystkich umówionych specjalistów, by omówić przebieg uroczystości i ustalić najważniejsze kluczowe kwestie  – zadzwońcie do fotografa, DJ’a lub zespołu, dekoratora, fryzjera i wizażysty. Potwierdźcie także nocleg dla gości i przewóz gości, jeśli je rezerwowaliście. Z właścicielami bądź managerem sali weselnej najprawdopodobniej będziecie w tym czasie w kontakcie, jeśli jednak by tak nie było, koniecznie skontaktujcie się również z nimi. <br />
-                Dla Panny Młodej ostatni miesiąc przed ślubem to czas ostatnich przymiarek <CustomPostLink text="sukni ślubnej" path="suknia-slubna-jak-wybrac" className="linkMint" /> i ewentualnych zmian. W salonie wyznaczą termin, kiedy należy zgłosić się celem ostatnich przymiarek – pilnujcie tego terminu, ponieważ terminarz krawcowej jest naprawdę napięty.
+                    Dla Panny Młodej ostatni miesiąc przed ślubem to czas ostatnich przymiarek <CustomPostLink text="sukni ślubnej" path="suknia-slubna-jak-wybrac" className="linkMint" /> i ewentualnych zmian. W salonie wyznaczą termin, kiedy należy zgłosić się celem ostatnich przymiarek – pilnujcie tego terminu, ponieważ terminarz krawcowej jest naprawdę napięty.
                 </>,
                 pics: [
                     {
@@ -1106,7 +1367,7 @@ const posts = [
                 text:
                     <>
                         Najlepszym rozwiązaniem jest znalezienie typowego miejsca weselnego, które dysponuje pięknym terenem zielonym wokół dostosowanym do <CustomPostLink text="wesel w plenerze" path="wesele-w-plenerze" className="linkDark" />. Wynajęcie od sali weselnej ich ogrodu pozwoli na wiele usprawnień i też na oszczędności. Przy takim rozwiązaniu możemy dogadać się z salą i skorzystać z ich menu, obsługi, mebli czy zastawy stołowej. Takie rozwiązanie to też świetna alternatywa, kiedy nie dopisze nam pogoda. Odchodzi stres i załatwianie na szybko kosztownego zadaszenia. Wtedy po prostu przenosimy przyjęcie weselne w grodzie na salę weselną.
-                    Oryginalnym rozwiązaniem będzie wesele we własnym ogrodzie. Logistycznie jest to dużo większe wyzwanie ale w dobie obostrzeń weselnych może się okazać idealną alternatywą. Jeśli planujecie wesele w ogrodzie w domu to z chęcią pomożemy w organizacji takiego przedsięwzięcia.
+                        Oryginalnym rozwiązaniem będzie wesele we własnym ogrodzie. Logistycznie jest to dużo większe wyzwanie ale w dobie obostrzeń weselnych może się okazać idealną alternatywą. Jeśli planujecie wesele w ogrodzie w domu to z chęcią pomożemy w organizacji takiego przedsięwzięcia.
                     </>,
                 pics: [
                     {
@@ -1388,9 +1649,9 @@ const posts = [
             <>
                 <p>
                     Organizacja: <Link to={URLS.HOME} className="CustomLink">Agencja Ślubna Czary Marry</Link> <br />
-            Wesele: <CustomOuterLink to="http://folwarkwasowo.pl/" text="Folwark Wąsowo" /> <br />
-            Dekoracje: <CustomOuterLink to="https://www.artsize.pl/" text="Art Size" /> <br />
-            Fotograf: <CustomOuterLink to="http://svetlanabennington.com/" text="Svetlana Bennington" /><br />
+                    Wesele: <CustomOuterLink to="http://folwarkwasowo.pl/" text="Folwark Wąsowo" /> <br />
+                    Dekoracje: <CustomOuterLink to="https://www.artsize.pl/" text="Art Size" /> <br />
+                    Fotograf: <CustomOuterLink to="http://svetlanabennington.com/" text="Svetlana Bennington" /><br />
                 </p>
             </>
     },
@@ -1600,12 +1861,12 @@ const posts = [
         links:
             <>
                 <p>Wesele: <CustomOuterLink to="https://www.ksiaz.walbrzych.pl/" text="Zamek Książ" /> <br />
-                Motyw: Rose Gold
-                Dekoracje: <CustomOuterLink to="https://www.artsize.pl/" text="Art Size" /> <br />
-                Światło: <CustomOuterLink to="https://www.facebook.com/btlsystemymedialne/" text="BTL" /> <br />
-                Słodkości: <CustomOuterLink to="http://galeriaslodkosci.pl/" text="Galeria Słodkości" /> <br />
-                Fotograf: <CustomOuterLink to="https://jamstudio.pl/" text="Jam Studio" /> i <CustomOuterLink to="https://www.facebook.com/MagdalenaAdamczewskaphotography/" text="Magdalena Adamczewska" /> <br />
-                Filmowiec: <CustomOuterLink to="http://cameralni.com/" text="Cameralni" /> <br />
+                    Motyw: Rose Gold
+                    Dekoracje: <CustomOuterLink to="https://www.artsize.pl/" text="Art Size" /> <br />
+                    Światło: <CustomOuterLink to="https://www.facebook.com/btlsystemymedialne/" text="BTL" /> <br />
+                    Słodkości: <CustomOuterLink to="http://galeriaslodkosci.pl/" text="Galeria Słodkości" /> <br />
+                    Fotograf: <CustomOuterLink to="https://jamstudio.pl/" text="Jam Studio" /> i <CustomOuterLink to="https://www.facebook.com/MagdalenaAdamczewskaphotography/" text="Magdalena Adamczewska" /> <br />
+                    Filmowiec: <CustomOuterLink to="http://cameralni.com/" text="Cameralni" /> <br />
                 </p>
             </>
     },
@@ -1658,7 +1919,7 @@ const posts = [
         textMain:
             <>
                 Chociaż dziwnie to brzmi do zorganizowania stylizowanej sesji fotograficznej, zainspirował nas koronawirus. Podczas pandemii, każdego dnia spotykałyśmy się z rozżaleniem młodych par, które były zmuszone przełożyć swój najważniejszy dzień w życiu o kolejne miesiące. Widziałyśmy, jak ucieka z nich cały entuzjazm i tracą zapał do organizacji wymarzonego wesela. Chciałyśmy dać tym parom coś od siebie. I tu właśnie zrodził się pomysł stylizowanej sesji dla wybranej młodej pary, która przez pandemię musiała odwołać swój ślub. Tak, tak - <span className="bold pink">stylizowana sesja dla prawdziwej pary młodej</span>, zamiast wynajętych modeli.<br />
-            To, na czym nam zależało to szczere emocje i prawdziwa miłość. Zobaczcie piękną relację z tego dnia, którą przygotowali <span className="bold pink">Mariola i Kamil</span> z <CustomOuterLink to="http://maleszarestudio.pl/" text="Małego Szarego Studia" className="linkPink" />.
+                To, na czym nam zależało to szczere emocje i prawdziwa miłość. Zobaczcie piękną relację z tego dnia, którą przygotowali <span className="bold pink">Mariola i Kamil</span> z <CustomOuterLink to="http://maleszarestudio.pl/" text="Małego Szarego Studia" className="linkPink" />.
             </>,
         topPic: {
             src: require('../components/OurCouples/OurCouplesPics/OlgaPiotr/05.jpg').default
@@ -1770,7 +2031,7 @@ const posts = [
             {
                 text: <>
                     Zadamy też Szymonowi jego znienawidzone pytanie... dowiedzcie się sami jakie:) <br />
-                Zapraszamy do słuchania!
+                    Zapraszamy do słuchania!
                 </>
             }
         ],
@@ -2012,7 +2273,7 @@ const posts = [
                     <>
                         <p>Wróćmy na chwilę do motoryzacyjnego przykładu ze wstępu. Jakie są szanse, że Audica z Niemiec nie okaże się powypadkowym gratem, że właściciel dbał o nią i włożył całe serce, żeby służyła Wam jak najlepiej? Jedno jest pewne, kupując nowe auto z salonu bez względu, czy będzie to prestiżowy Mercedes, solidna japońska Toyota czy poczciwa Skoda, posłuży Wam przez parę ładnych lat, a w przypadku awarii macie gwarancję i wsparcie od dealera. </p>
                         <p>Trochę zbagatelizowałyśmy sprawę doświadczenia zawodowego, a przecież powinno mieć ogromny wpływ na cenę polecanych usługodawców ślubnych. Nie najlepiej wpisuje się w mój motoryzacyjny przykład, ale pamiętajcie - ma ogromne znaczenie. Im więcej przepracowanych scenariuszy, zorganizowanych lub poprowadzonych imprez, tym lepiej. <br />
-                Nie zapominajcie o tym :)</p>
+                            Nie zapominajcie o tym :)</p>
                         <p>Wiadomo, że zazwyczaj poszukujecie najlepszych usługodawców ślubnych. My chętnie pomożemy Wam z wyborem. Polecani przez nas DJe, zespóły, fotografowie itd. mają bardzo dobre opinie i rekomendacje w branży ślubnej. Dodatkowo w kwestii wyboru sali, fotografa czy kamerzysty zawsze podchodzimy bardzo indywidualnie do sprawy, starając się dobrać obsługę tak, by była w Waszym guście.</p>
                     </>
             }
@@ -2178,7 +2439,7 @@ const posts = [
                 headerSmall: <span className="mint">Ile schudniesz do ślubu? Jak opanować stres przed ślubem i ostatnią przymiarką sukni?</span>,
                 text:
                     <>Dieta, ćwiczenia i Bóg wie co jeszcze. Wszystko po to, by do godziny zero zgubić te cholerne 5 kilogramów. Uwierz mi – koniec końców nikt nie zwróci na to uwagi. Nie jesteśmy fankami drakońskich diet i odchudzania się „na okazję”. Na zdjęciach w <CustomPostLink text="sukni ślubnej" path="suknia-slubna-jak-wybrac" className="linkMint" /> pięknie wyjdziesz niezależnie od tego, czy uda Ci się osiągnąć określoną wagę, czy nie. Planowanie Twojego ślubu ma być przyjemnością, a nie udręką!
-                    Zbilansowana dieta i ulubionego ćwiczenia czy jogging sprawią, że będziesz czuła się lepiej. Będziesz mieć więcej energii, Twoje włosy i skóra nabiorą blasku, a efektem ubocznym będzie lepsza kondycja, która z pewnością przyda się podczas zabawy na weselu. Jednak pod żadnym pozorem nie katuj się dietami i treningami, a zdrowy styl życia potraktuj jako jeden ze skutecznych sposobów na opanowanie stresu przed ślubem.</>,
+                        Zbilansowana dieta i ulubionego ćwiczenia czy jogging sprawią, że będziesz czuła się lepiej. Będziesz mieć więcej energii, Twoje włosy i skóra nabiorą blasku, a efektem ubocznym będzie lepsza kondycja, która z pewnością przyda się podczas zabawy na weselu. Jednak pod żadnym pozorem nie katuj się dietami i treningami, a zdrowy styl życia potraktuj jako jeden ze skutecznych sposobów na opanowanie stresu przed ślubem.</>,
                 pics: [
                     {
                         src: require('./BlogPics/Post20/post20d.jpg').default
@@ -2189,7 +2450,7 @@ const posts = [
                 headerSmall: <span className="mint">Czy będzie ładna pogoda, a może będzie padał deszcz? Stres przed ślubem a dobre przygotowanie</span>,
                 text:
                     <>Na pogodę nie masz wpływu – pogódź się z tym i miej plan B – na wypadek deszczu. Wierz mi: nawet największa ulewa nie jest w stanie zrujnować Twojego najpiękniejszego w życiu dnia! Co nie znaczy, żebyś podchodziła do tematu lekceważąco – „jakoś to będzie”. Będzie – jeśli się przygotujesz!<br />
-                    Przygotuj więc przydatne <CustomPostLink text="akcesoria ślubne" path="akcesoria-slubne-gadzety" className="linkMint" /> w tym dobrej jakości parasol, który nie będzie uginał się pod każdym podmuchem wiatru. Jeśli faktycznie spadnie deszcz – i tak nie zmokniesz. Nie ma się czym przejmować!</>,
+                        Przygotuj więc przydatne <CustomPostLink text="akcesoria ślubne" path="akcesoria-slubne-gadzety" className="linkMint" /> w tym dobrej jakości parasol, który nie będzie uginał się pod każdym podmuchem wiatru. Jeśli faktycznie spadnie deszcz – i tak nie zmokniesz. Nie ma się czym przejmować!</>,
                 pics: [
                     {
                         src: require('./BlogPics/Post20/post20e.jpg').default
@@ -2483,7 +2744,7 @@ const posts = [
                         <ul style={{ marginTop: ".5rem" }}>
                             <li>doskonała komunikatywność – współpraca z klientami, a także ich rodzinami oraz podwykonawcami wymaga doskonale rozwiniętych kompetencji interpersonalnych</li>
                             <li>doskonała organizacja czasu pracy – prowadząc własny biznes zawsze musisz umiejętnie
-                            zarządzać czasem; w pracy wedding plannera jest to o tyle ważne, że niedopilnowanie terminu odbije się nie tylko na Tobie, a przede wszystkim na Parze Młodej</li>
+                                zarządzać czasem; w pracy wedding plannera jest to o tyle ważne, że niedopilnowanie terminu odbije się nie tylko na Tobie, a przede wszystkim na Parze Młodej</li>
                             <li>znajomość branży ślubnej – zarówno od strony technicznej, jak i zmieniających się trendów w modzie</li>
                             <li>odporność na stres – nie ukrywajmy, Pary Młode zatrudniają wedding plannerów, żeby zminimalizować stres, który wówczas odczuwamy my - konsultanci ślubni</li>
                             <li>gotowość do pracy wiele weekendów z rzędu oraz pracy wieczorami w tygodniu</li>
@@ -2687,8 +2948,8 @@ const posts = [
             src: require('./BlogPics/Post14/post14.jpg').default
         },
         textMain: <>Organizujesz swój ślub i wesele. BRAWO! Jesteś bohaterką! Zasługujesz na
-        trochę odpoczynku i relaksu. Chcemy zaproponować Ci dziś trochę weselnych
-        umilaczy w postaci książek, filmów i programów ślubnych. W końcu <CustomPostLink text="przygotowania do ceremonii" path="przygotowania-do-slubu-formalnosci" className="linkPink" /> zaczynają się na długo przed kluczowym dniem, dlatego wielu może się wydawać, że łączy się to tylko z jeżdżeniem, załatwianiem, przymierzaniem, próbowaniem i podpisywaniem umów. Są też miłe i zabawne strony.</>,
+            trochę odpoczynku i relaksu. Chcemy zaproponować Ci dziś trochę weselnych
+            umilaczy w postaci książek, filmów i programów ślubnych. W końcu <CustomPostLink text="przygotowania do ceremonii" path="przygotowania-do-slubu-formalnosci" className="linkPink" /> zaczynają się na długo przed kluczowym dniem, dlatego wielu może się wydawać, że łączy się to tylko z jeżdżeniem, załatwianiem, przymierzaniem, próbowaniem i podpisywaniem umów. Są też miłe i zabawne strony.</>,
         content: [
             {
                 headerSmall: "Program o ślubach, który warto obejrzeć",
@@ -2988,8 +3249,8 @@ const posts = [
                 headerSmall: <span className="pink">Usługodawcy ślubni – jak wybrać i o czym pamiętać, podpisując umowę?</span>,
                 text: <>
                     Pierwszą rzeczą, na jaką zwracają uwagę Pary Młode, wybierając usługodawców ślubnych, to ich portfolio. Jednak powinniście być czujni. Każdy kiedyś zaczynał... Z doświadczenia organizatorów ślubów i wesel wiemy, że początki bywają trudne. Przecież nikt nie zaufa przysłowiowej firmie kogucik, która nie ma na swoim koncie żadnego zlecenia. Jest wiele opcji, aby skompletować portfolio. Praca za darmo lub po kosztach, pomoc znajomym, praktyki, staże. Takie rozwiązanie wybierają pasjonaci.<br />
-                Niestety są i tacy wykonawcy ślubni, którzy wolą drogę na skróty. Młode <Link to={URLS.HOME} className="linkPink">agencje ślubne</Link> kupują tzw. zdjęcia stockowe, czyli odsprzedane fotografie, które można ściągnąć ze strony internetowej lub – co gorsza – kradną je komuś przypadkowemu. Do tego kilka zmyślonych rekomendacji i gotowe. Jak zdemaskować oszustów? Mamy dla Was istną perełkę: <CustomOuterLink to="https://www.tineye.com" />. Pod tym adresem znajdziecie ciekawe narzędzie do sprawdzenia źródła zdjęć zamieszczonych w Internecie. Wystarczy, że ściągniecie je na dysk i załadujecie na tej stronie lub wpiszecie jego adres URL. Tineye przeszuka za Was Internet i pokaże ewentualne źródła. Jeżeli nie uda mu się namierzyć fotografii, prawdopodobnie nie pochodzi ona z bazy zdjęć stockowych.<br />
-                Nie zapomnijcie również o prześwietleniu kapeli, która ma zagrać na Waszym weselu. Często skład zespołu ulega zmianie, a na stronie nadal możecie odsłuchiwać utwory wykonywane przez byłych wokalistów. Najlepiej zapytać orkiestrę lub DJ'a, gdzie można wysłuchać ich na żywo. Często takie kapele obsługują również imprezy okolicznościowe lub miejskie festyny, a nawet zorganizowane na sali Sylwestra. Jeśli jest taka możliwość, koniecznie idźcie posłuchać na żywo muzyków, których bierzecie pod uwagę, jako Wasz przyszły zespół na wesele.
+                    Niestety są i tacy wykonawcy ślubni, którzy wolą drogę na skróty. Młode <Link to={URLS.HOME} className="linkPink">agencje ślubne</Link> kupują tzw. zdjęcia stockowe, czyli odsprzedane fotografie, które można ściągnąć ze strony internetowej lub – co gorsza – kradną je komuś przypadkowemu. Do tego kilka zmyślonych rekomendacji i gotowe. Jak zdemaskować oszustów? Mamy dla Was istną perełkę: <CustomOuterLink to="https://www.tineye.com" />. Pod tym adresem znajdziecie ciekawe narzędzie do sprawdzenia źródła zdjęć zamieszczonych w Internecie. Wystarczy, że ściągniecie je na dysk i załadujecie na tej stronie lub wpiszecie jego adres URL. Tineye przeszuka za Was Internet i pokaże ewentualne źródła. Jeżeli nie uda mu się namierzyć fotografii, prawdopodobnie nie pochodzi ona z bazy zdjęć stockowych.<br />
+                    Nie zapomnijcie również o prześwietleniu kapeli, która ma zagrać na Waszym weselu. Często skład zespołu ulega zmianie, a na stronie nadal możecie odsłuchiwać utwory wykonywane przez byłych wokalistów. Najlepiej zapytać orkiestrę lub DJ'a, gdzie można wysłuchać ich na żywo. Często takie kapele obsługują również imprezy okolicznościowe lub miejskie festyny, a nawet zorganizowane na sali Sylwestra. Jeśli jest taka możliwość, koniecznie idźcie posłuchać na żywo muzyków, których bierzecie pod uwagę, jako Wasz przyszły zespół na wesele.
                 </>,
                 pics: [
                     {
@@ -3001,7 +3262,7 @@ const posts = [
                 headerSmall: <span className="pink">Na co zwrócić uwagę przy wyborze fotografa ślubnego i kamerzysty na wesele?</span>,
                 text:
                     <> Szukając fotografa ślubnego, warto porównać co najmniej kilka usługodawców. Prześledźcie portfolio każdego z nich, a także porozmawiajcie z nimi, choćby przez telefon. Pamiętajcie, że kontakt z wykonawcami ślubnymi jest bardzo ważny – między Wami a usługodawcami ślubnymi musi być nić porozumienia, aby w dniu ślubu nie było żadnych zgrzytów.<br />
-                    Podpowiemy, na co zwrócić uwagę przy wyborze fotografa ślubnego:
+                        Podpowiemy, na co zwrócić uwagę przy wyborze fotografa ślubnego:
                         <ul>
                             <li>portfolio</li>
                             <li>jakość i styl oddawanych zdjęć poszczególnym Parom Młodym (pojedyncze historie)</li>
@@ -3022,7 +3283,7 @@ const posts = [
                 headerSmall: <span className="pink">Na co zwrócić uwagę przy wyborze zespołu muzycznego lub DJ’a na ślub?</span>,
                 text:
                     <>Z doświadczenia wiemy, że dobry zespół muzyczny to przepis na sukces każdej Pary Młodej. Jedzenie może być średnie, dekoracje niekoniecznie idealne (na tych rzeczach da się <CustomPostLink text="zaoszczędzić" path="jak-zaoszczedzic-na-weselu" className="linkPink" />), ale jeśli zespół lub DJ będą dobrze grali i przede wszystkim mądrze prowadzili zabawę, wszyscy będą się znakomicie bawić. Jednocześnie doświadczenie pokazuje nam, że z muzykami bywa największy problem – niestety zdarza się (i to wcale nie tak rzadko), że sięgają oni po alkohol, co uniemożliwia im utrzymanie wysokiego poziomu do samego końca wesela.<br />
-                    Podpowiemy, na co zwrócić uwagę przy wyborze zespołu muzycznego lub DJ’a na wesele:
+                        Podpowiemy, na co zwrócić uwagę przy wyborze zespołu muzycznego lub DJ’a na wesele:
                         <ul>
                             <li>nagrania udostępnione na stronie – umiejętności</li>
                             <li>wszechstronność – możliwość grania różnych gatunków muzycznych</li>
@@ -3062,7 +3323,7 @@ const posts = [
                 headerSmall: <span className="pink">Na co zwrócić uwagę przy wyborze sali weselnej?</span>,
                 text:
                     <>Wybór sali weselnej jest początkiem przygotowań do ślubu – obłożenie terminów zmusza Pary Młode, by to właśnie od poszukiwań miejsca na wesele zacząć przygotowania do ślubu.
-                    Dowiedzcie się, na co zwrócić uwagę przy wyborze sali weselnej:
+                        Dowiedzcie się, na co zwrócić uwagę przy wyborze sali weselnej:
                         <ul>
                             <li>aranżacja sali weselnej – w stodole nie urządzicie wesela w <CustomPostLink text="stylu glamour" path="sesja-stylizowana-w-stylu-glamour" className="linkPink" />, a w sali z filarami wesela boho</li>
                             <li>liczba miejsc – sala nie może być ani za mała, ani za duża</li>
@@ -3217,7 +3478,7 @@ const posts = [
                 headerSmall: 'Czy planowe rozmieszczenie gości jest konieczne?',
                 text: <>
                     Zastanawiacie się, czy nie byłoby lepiej, gdyby goście sami zadecydowali, gdzie chcą siedzieć? Nie róbcie tego! To bardzo przestarzały sposób i z jakiegoś powodu przeszedł do lamusa. Chyba nie chcecie doprowadzić do sytuacji, w której przy jednym stole zasiada Wasza babcia, koleżanka z pracy oraz 5-letnia bratanica. tablica gości weselnych i plan rozmieszczenia gości weselnych ułatwi Wam znacząco organizację wesela.<br />
-                Jeżeli macie pytania odnośnie rozsadzania gości piszcie śmiało. Postaramy się rozwiać Wasze wątpliwości. Być może jest jeszcze inny temat, który Was trapi, a nie został poruszony na łamach bloga? Chętnie się z nim rozprawimy.
+                    Jeżeli macie pytania odnośnie rozsadzania gości piszcie śmiało. Postaramy się rozwiać Wasze wątpliwości. Być może jest jeszcze inny temat, który Was trapi, a nie został poruszony na łamach bloga? Chętnie się z nim rozprawimy.
                 </>
             },
         ],
@@ -3246,15 +3507,15 @@ const posts = [
             <>
                 Dziś o swoim ślubie i weselu opowie Wam moja Kochana Mama. Naszym rozmowom zawsze towarzyszą zabawne anegdoty, wzruszenia i wielki karton ze starymi fotografiami. Jako dziecko uwielbiałam je oglądać i powiem szczerze, że zupełnie nic się nie zmieniło.<br />
                 <span className="pink">Mamo, opowiedz, jak poznałaś tatę?</span> <br />
-            Któregoś dnia wracając z pracy, spotkałam moją kuzynkę, która poprosiła mnie o pomoc przy upieczeniu ciasta na jakąś rodzinną uroczystość. Zgodziłam się pomóc. Poszłyśmy do jej mieszkania. Chwilę później w odwiedziny wpadł jej narzeczony z najlepszym kolegą. Tym kolegą był twój tata. Oczywiście nie robiłyśmy żadnego ciasta, a wszystko było skrzętnie zaplanowane. Niedługo po tym zaczęliśmy się spotykać częściej i tak się wszystko zaczęło.<br />
+                Któregoś dnia wracając z pracy, spotkałam moją kuzynkę, która poprosiła mnie o pomoc przy upieczeniu ciasta na jakąś rodzinną uroczystość. Zgodziłam się pomóc. Poszłyśmy do jej mieszkania. Chwilę później w odwiedziny wpadł jej narzeczony z najlepszym kolegą. Tym kolegą był twój tata. Oczywiście nie robiłyśmy żadnego ciasta, a wszystko było skrzętnie zaplanowane. Niedługo po tym zaczęliśmy się spotykać częściej i tak się wszystko zaczęło.<br />
                 <span className="pink">Jak wyglądały zaręczyny?</span> <br />
-            Po roku znajomości tata dostał powołanie do wojska. Wtedy zadecydowaliśmy, że po powrocie weźmiemy ślub. W tamtych czasach służba wojskowa trwała 2 lata. Mimo to widywaliśmy się dość często. Tata pisał do mnie listy w pięknych kopertach sygnowanych literami DMS co oznaczało Dama Mojego Serca. Kiedy wrócił do domu, wręczył mi 24 goździki. Po jednym za każdy miesiąc rozłąki. Kilka miesięcy przed planowanym ślubem spotkaliśmy się wraz z rodzicami, żeby ustalić wszystkie szczegóły dotyczące ślubu. Było to tak jakby przyjęcie zaręczynowe. Pamiętam, że tego dnia odwiedził nas przyjaciel rodziny, który dowiedział się, że zamierzamy wziąć ślub. Bardzo zależało mu, żeby wziąć udział w uroczystości. Oczywiście był na liście zaproszonych gości. Dzień po jego wizycie dowiedziałam się, że zginął w wypadku na kopalni. To było bardzo smutne wydarzenie. <br />
+                Po roku znajomości tata dostał powołanie do wojska. Wtedy zadecydowaliśmy, że po powrocie weźmiemy ślub. W tamtych czasach służba wojskowa trwała 2 lata. Mimo to widywaliśmy się dość często. Tata pisał do mnie listy w pięknych kopertach sygnowanych literami DMS co oznaczało Dama Mojego Serca. Kiedy wrócił do domu, wręczył mi 24 goździki. Po jednym za każdy miesiąc rozłąki. Kilka miesięcy przed planowanym ślubem spotkaliśmy się wraz z rodzicami, żeby ustalić wszystkie szczegóły dotyczące ślubu. Było to tak jakby przyjęcie zaręczynowe. Pamiętam, że tego dnia odwiedził nas przyjaciel rodziny, który dowiedział się, że zamierzamy wziąć ślub. Bardzo zależało mu, żeby wziąć udział w uroczystości. Oczywiście był na liście zaproszonych gości. Dzień po jego wizycie dowiedziałam się, że zginął w wypadku na kopalni. To było bardzo smutne wydarzenie. <br />
                 <span className="pink">Opowiedz o przygotowaniach do ślubu?</span> <br />
-            Najpierw zamówiliśmy salę weselną, potem orkiestrę, którą słyszałam na weselu mojej koleżanki i bardzo mi się spodobała. Mama i starsza siostra pomagały mi w wyborze sukienek do ślubu. Ostatecznie kupiłam je w Jeleniej Górze. Pierwsza do cywilnego miała jasnoróżowy kolor, a druga do kościelnego oczywiście biały. Miały dokładnie taki sam krój, pasowały na mnie idealnie, więc nie musiałam niczego przerabiać. Tata również szył dwa garnitury, pierwszy w odcieniach beżu z koszulą w kolorze mojej sukienki, drugi czarny.<br />
+                Najpierw zamówiliśmy salę weselną, potem orkiestrę, którą słyszałam na weselu mojej koleżanki i bardzo mi się spodobała. Mama i starsza siostra pomagały mi w wyborze sukienek do ślubu. Ostatecznie kupiłam je w Jeleniej Górze. Pierwsza do cywilnego miała jasnoróżowy kolor, a druga do kościelnego oczywiście biały. Miały dokładnie taki sam krój, pasowały na mnie idealnie, więc nie musiałam niczego przerabiać. Tata również szył dwa garnitury, pierwszy w odcieniach beżu z koszulą w kolorze mojej sukienki, drugi czarny.<br />
                 <span className="pink">Co z makijażem i fryzjerem?</span> <br />
-            Malowałam się sama, a do fryzjera byłam umówiona, ale powiem szczerze, że pani fryzjerka prawie doprowadziła mnie do łez zbyt krótkim obcięciem grzywki. Do dziś oglądając zdjęcia, spoglądam na tę nieszczęsną, przykrótką grzywkę.<br />
+                Malowałam się sama, a do fryzjera byłam umówiona, ale powiem szczerze, że pani fryzjerka prawie doprowadziła mnie do łez zbyt krótkim obcięciem grzywki. Do dziś oglądając zdjęcia, spoglądam na tę nieszczęsną, przykrótką grzywkę.<br />
                 <span className="pink">Jak wyglądał ślub i wesele?</span> <br />
-            To było 19 kwietnia 1980. Trudno uwierzyć, że minęło już 37 lat. Pagoda była brzydka, padał deszcz ze śniegiem. Goście weselni żartowali, że na pewno szorowałam przypalone garnki i dlatego mamy taką brzydką pogodę w dniu ślubu. To taki stary przesąd.<br />
+                To było 19 kwietnia 1980. Trudno uwierzyć, że minęło już 37 lat. Pagoda była brzydka, padał deszcz ze śniegiem. Goście weselni żartowali, że na pewno szorowałam przypalone garnki i dlatego mamy taką brzydką pogodę w dniu ślubu. To taki stary przesąd.<br />
                 <CustomPostLink text="Ślub cywilny" path="dokumenty-slub-cywilny-formalnosci" className="linkPink" />  był na godzinę 13. Pamiętam, że nie mogłam wcisnąć obrączki na palec taty. Bardzo mnie to rozbawiło, co widać na zdjęciach. Na dodatek zająknęłam się podczas składania przysięgi, ponieważ, mimo że chodziłam z twoim tatą tak długo, nie wiedziałam, że ma na drugie imię Waldemar. Po ceremonii świadek kazał nam oddać obrączki i na godzinę 16 pojechaliśmy do kościoła. Zaskakujące było, że tego dnia ślub kościelny brały trzy pary podczas jednej ceremonii. Jeszcze większym zbiegiem okoliczności były imiona panów młodych: Lechosław, Lech oraz Leszek. Wszystko odbyło się oczywiście za naszą zgodą, nie zależało nam na tym, żeby wszystko kręciło się wokół nas, nie przeszkadzało, że dzielimy ceremonię z dwoma innymi parami.
             </>,
         topPic: {
@@ -3383,7 +3644,7 @@ const posts = [
         textMain:
             <>
                 Podziękowania dla rodziców bywają twardym orzechem do zgryzienia. Z pewnością ciężko w kilku słowach lub za pomocą weselnego szlagieru „Cudownych rodziców mam” wyrazić wdzięczność za trud wychowania, okazaną miłość, cierpliwość i wsparcie. Postaramy się pomóc w wyborze odpowiedniego podziękowania dla rodziców, ale pamiętajcie, że nikt tak dobrze nie zna Waszych rodziców, jak Wy sami. <br />
-            Podstawową i najważniejszą sprawą jest, że to PODZIĘKOWANIA DLA RODZICÓW. Nie robicie ich dla siebie tylko dla osób, które mimo, że są Wam bardzo bliskie niejednokrotnie mają zupełnie inny gust niż Wy. Starajcie się spojrzeć na temat z ich perspektywy. Co sprawi im największą radość? Co lubią? Jacy są? Idąc tym tropem, przedstawiamy kilka popularnych sposobów na wyrażenie podziękowanie rodzicom w dniu ślubu.
+                Podstawową i najważniejszą sprawą jest, że to PODZIĘKOWANIA DLA RODZICÓW. Nie robicie ich dla siebie tylko dla osób, które mimo, że są Wam bardzo bliskie niejednokrotnie mają zupełnie inny gust niż Wy. Starajcie się spojrzeć na temat z ich perspektywy. Co sprawi im największą radość? Co lubią? Jacy są? Idąc tym tropem, przedstawiamy kilka popularnych sposobów na wyrażenie podziękowanie rodzicom w dniu ślubu.
             </>,
         content: [
             {
