@@ -119,6 +119,15 @@
                 grid-area: photos;
             }
 
+            .mainPic-wrapper {
+                display: flex;
+
+                & img {
+                    object-fit: cover;
+                    width: 100%;
+                }
+            }
+
             @media (min-width: $tablet) {
                 width: 77%;
                 margin-left: auto;
@@ -144,6 +153,10 @@
                 grid-template-columns: 1.4fr 2fr;
                 grid-template-areas:
                     "description photos";
+            }
+
+            .with-min-height {
+                min-height: 30rem;
             }
         }
     }
