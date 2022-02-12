@@ -16,6 +16,7 @@ import Blog from './components/Blog';
 import PostPage from './components/PostPage';
 import LandingPage from './components/LandingPage';
 import smoothscroll from 'smoothscroll-polyfill';
+import RealizationPage from './components/OurCouples/RealizationPage';
 
 smoothscroll.polyfill();
 
@@ -28,6 +29,7 @@ function App() {
         <Route exact path={URLS.ABOUT} component={AboutUs} />
         <Route exact path={URLS.WORK} component={HowWeWork} />
         <Route exact path={URLS.COUPLES} component={OurCouples} />
+        <Route exact path={URLS.COUPLES_EVENT} component={RealizationPage} />
         <Route exact path={URLS.POST} component={PostPage} />
         <Route exact path={URLS.CATEGORY} component={Blog} />
         <Route exact path={URLS.CATEGORY_PAGE} component={Blog} />

@@ -41,6 +41,12 @@ const weddings = [
     {
         bgColor: "bgMint",
         title: "Foodtruck Wedding",
+        path: "foodtruck-wedding",
+        date: "12 lut 2022",
+        mainPic: {
+            src: require('./OurCouplesPics/FoodtruckWedding/01.jpg').default
+        },
+        minHeight: true,
         details: "Event branżowy połączony z sesją stylizowaną w stylu slow, czyli tak jak lubimy najbardziej. Garden party odbyło się w pałacowym ogrodzie, w którym stanęły pięknie odrestaurowane stare samochody. Nie zabrakło również dekoracji kwiatowych, stref chilloutu i dobrej muzyki.",
         org: "Agencja Ślubna Czary Marry",
         orgLink: "",

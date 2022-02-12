@@ -3,6 +3,7 @@ const URLS = {
     ABOUT: '/o-nas',
     WORK: '/jak-pracujemy',
     COUPLES: '/realizacje',
+    COUPLES_EVENT: '/realizacje/:path',
     OFFER: '/oferta',
     BLOG: '/blog-1',
     BLOG_PAGE: '/blog-1/page/:page',
