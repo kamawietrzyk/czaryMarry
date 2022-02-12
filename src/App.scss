@@ -170,34 +170,34 @@
   }
 
   .linkPink {
-    color: #db8a8be3;
+    color: $linkPink;
 
     &:hover {
-      color: #b97273ef;
+      color: $linkPinkHover;
     }
   }
 
   .linkMint {
-    color: #90bdb1f6;
+    color: $linkMint;
 
     &:hover {
-      color: #77a196f6;
+      color: $linkMintHover;
     }
   }
 
   .linkLight {
-    color: #9b9999e5;
+    color: $linkLight;
 
     &:hover {
-      color: #858383f3;
+      color: $linkLightHover;
     }
   }
 
   .linkDark {
-    color: #31373ee1;
+    color: $linkDark;
 
     &:hover {
-      color: #292d35;
+      color: $linkDarkHover;
     }
   }
 

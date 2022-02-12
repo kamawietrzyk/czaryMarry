@@ -11,10 +11,36 @@
     font-size: 15px;
     font-weight: 400;
 
-    &:hover {
-        color: $darkGrey;
-        border-top: 1px solid $mediumGrey;
-        border-bottom: 1px solid $mediumGrey;
+    &_greyTheme {
+        &:hover {
+            color: $linkLightHover;
+            border-top: 1px solid $mediumGrey;
+            border-bottom: 1px solid $mediumGrey;
+        }
+    }
+
+    &_darkTheme {
+        &:hover {
+            color: $linkDarkHover;
+            border-top: 1px solid $darkGrey;
+            border-bottom: 1px solid $darkGrey;
+        }
+    }
+
+    &_mintTheme {
+        &:hover {
+            color: $linkMintHover;
+            border-top: 1px solid $mint;
+            border-bottom: 1px solid $mint;
+        }
+    }
+
+    &_pinkTheme {
+        &:hover {
+            color: $linkPinkHover;
+            border-top: 2px solid $pink;
+            border-bottom: 2px solid $pink;
+        }
     }
 
     @media (min-width: $tablet) {
@@ -109,6 +135,20 @@
             }
         }
 
+        .subheader {
+            font-size: 1.5rem;
+            margin-top: 2.25rem;
+            margin-bottom: 1.25rem;
+
+            @media (min-width: $laptop) {
+                font-size: 1.8rem;
+            }
+        }
+
+        .extras {
+            padding-bottom: 1.5rem;
+        }
+
         img {
             width: 100%;
             object-fit: cover;
@@ -121,7 +161,22 @@
         @media (min-width: $laptop) {
             margin: 3rem 10vw;
             padding: 3rem 6rem;
-            border: 1px solid $lightGrey;
+            
+            &_greyTheme {
+                border: 1px solid $lightGrey;
+            }
+
+            &_darkTheme {
+                border: 1px solid $darkGrey;
+            }
+
+            &_mintTheme {
+                border: 1px solid $mint;
+            }
+
+            &_pinkTheme {
+                border: 1px solid $pink;
+            }
         }
 
         @media (min-width: $desktop) {
