@@ -43,7 +43,7 @@ const weddings = [
         }
     },
     {
-        bgColor: "bgMint",
+        bgColor: "bgDark",
         title: "Foodtruck Wedding",
         path: "food-truck-wesele",
         minHeight: true,
