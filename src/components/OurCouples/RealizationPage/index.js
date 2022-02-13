@@ -63,22 +63,20 @@ const RealizationPage = () => {
             <ArrowToTop />
             <div className='RealizationPage'>
                 <main className={`RealizationPage-main RealizationPage-main_${resolveColor(bgColor)}`}>
-                    <header>
-                        <div className="header-box">
-                            <img className="logo" src={logo} alt="Czary Marry logo" />
-                            <div>
-                                <p className="author">• Kasia&Ola •</p>
-                                <p className="date">{date}</p>
-                            </div>
+                    <div className="header-box">
+                        <img className="logo" src={logo} alt="Czary Marry logo" />
+                        <div>
+                            <p className="author">• Kasia&Ola •</p>
+                            <p className="date">{date}</p>
                         </div>
-                        <h1 className="post-title">{title}</h1>
-                        <p className="mt-5">
-                            {textMain}
-                        </p>
-                        {topPic &&
-                            <Picture item={topPic} />
-                        }
-                    </header>
+                    </div>
+                    <h1 className="post-title">{title}</h1>
+                    <p className="mt-5">
+                        {textMain}
+                    </p>
+                    {topPic &&
+                        <Picture item={topPic} />
+                    }
                     <section>
                         {content && content.map(({ headerClassName, headerSmall, pics, text, extraContent, extraContentClassName }, index) => (
                             <article className="mb-4" key={index}>
