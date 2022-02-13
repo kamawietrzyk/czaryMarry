@@ -35,15 +35,12 @@ const OurCouples = () => (
             {weddings.map((item, index) => (
                 <>
                     {item.path ?
-                        <Link className="custom-link" to={generatePath(URLS.COUPLES_EVENT, { path: item.path })} key={index}>
-                            <div key={index} className={`OurCouples-content_grid ${index % 2 && "flipped"} ${item.minHeight && "with-min-height"}`}>
-                                <div className="photos mainPic-wrapper">
-                                    <img src={item.mainPic.src} alt={item.mainPic.src} />
-                                </div>
-                                <OurCouplesContent {...item} />
-                            </div>
-                        </Link>
-
+                        <div key={index} className={`OurCouples-content_grid ${index % 2 && "flipped"} ${item.minHeight && "with-min-height"}`}>
+                            <Link className="mainPic-wrapper photos" to={generatePath(URLS.COUPLES_EVENT, { path: item.path })} key={index}>
+                                <img src={item.mainPic.src} alt={item.mainPic.src} />
+                            </Link>
+                            <OurCouplesContent {...item} />
+                        </div>
                         :
                         <div key={index} className={`OurCouples-content_grid ${index % 2 && "flipped"}`}>
                             <div className="photos">
@@ -55,7 +52,7 @@ const OurCouples = () => (
                 </>
             ))}
         </div>
-    </div>
+    </div >
 )
 
 export default OurCouples
