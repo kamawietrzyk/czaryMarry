@@ -7,6 +7,39 @@ import URLS from './urls'
 
 const posts = [
     {
+        path: '19-hey-wedding-ekipa-marzen-i-kosmiczne-wesele',
+        title: '#19 Hey Wedding - Ekipa marzeń i kosmiczne wesele - Rozmowa z Angeliką i Danielem.',
+        seoText: 'W dzisiejszym odcinku rozmawiamy z Angeliką i Danielem o ich absolutnie odjechanym kosmicznym weselu.',
+        date: '14 lut 2022',
+        tag: 'podcast',
+        textShort: 'W dzisiejszym odcinku rozmawiamy z Angeliką i Danielem o ich absolutnie odjechanym...',
+        mainPic: {
+            src: require('./BlogPics/podcast.png').default
+        },
+        textMain:
+            <>
+                W dzisiejszym odcinku rozmawiamy z <span className="mint bold">Angeliką i Danielem</span> o ich absolutnie odjechanym kosmicznym weselu. Będziemy rozmawiać o muzyce, ślubie humanistycznym, słodkościach, jedzeniu, atrakcjach weselnych i o tym, jak ważne jest by w dniu swojego ślubu otaczać się odpowiednimi ludźmi. Nasi goście jak zwykle udzielą kilku cennych rad przyszłym parom młodym.
+            </>,
+        links:
+            <>
+                <iframe title="#19 Hey Wedding - Ekipa marzeń i kosmiczne wesele - Rozmowa z Angeliką i Danielem." allowtransparency="true" height="150" width="100%" style={{ border: "none", minWidth: "min(100%, 430px)" }} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=9qn2r-11a7c52-pb&from=pb6admin&share=1&download=1&rtl=0&fonts=Arial&skin=1&font-color=auto&btn-skin=7"></iframe>
+
+                <p className="mt-5">
+                    Organizacja: <Link to={URLS.HOME} className="CustomLink">Agencja Ślubna Czary Marry</Link> <br />
+                    Miejsce: <CustomOuterLink to="http://sk.kopalniazlota.pl/" text="Stara Kruszarnia" /> <br />
+                    Dekoracje: <CustomOuterLink to="https://pl-pl.facebook.com/anellodecor/" text="Anello Decor" /> <br />
+                    DJ: <CustomOuterLink to="https://thejegomosc.pl/" text="DJ Jegomość" />, <CustomOuterLink to="https://djglosny.pl/" text="DJ Głośny" /><br />
+                    Saksofon: <CustomOuterLink to="https://www.facebook.com/LudwickiLukasz/" text="Łukasz Ludwicki Sax" /> <br />
+                    Tork i słodki stół: <CustomOuterLink to="https://www.tortypotwojemu.pl/" text="Torty po Twojemu" /> <br />
+                    Ceremonia humanistyczna: <CustomOuterLink to="https://djglosny.pl/celebrant-slubny/" text="DJ Głośny - Celebrant Ślubny" /><br />
+                </p>
+            </>,
+        extras:
+            <>
+                <span className="d-block text-right"><CustomCategoryLink path="podcast" text="Podcast" className="bgColorMint" /></span>
+            </>
+    },
+    {
         path: '18-hey-wedding-zaufalismy-profesjonalistom',
         title: '#18 Hey Wedding - Zaufaliśmy profesjonalistom - Rozmowa z Eweliną i Krzyśkiem.',
         seoText: 'Po ośmiomiesięcznej przerwie wracamy do nagrywania podcastu z nową energią i ciekawymi gośćmi.',

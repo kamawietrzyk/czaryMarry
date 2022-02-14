@@ -65,11 +65,20 @@ const weddings = [
         flowers: "Pracownia Zieleni",
         flowersLink: "http://pracowniazieleni.pl/",
         date: "12 lut 2022",
-        textMain: <>Był środek pandemii, zakaz organizacji wesel i kiepski rok dla par młodych i branży ślubnej. Wszyscy z niepokojem czekali na rozluźnienie obostrzeń, które miało nadejść lada moment. Pomyślałyśmy, że nie możemy stać w miejscu i warto zorganizować sesję stylizowaną… ale sesji nie lubimy. Brakuje w nich szczerych emocji par młodych, czyli tego, co w weselach lubimy najbardziej. Nieco bez przekonania zaczęliśmy szukać inspiracji. Wtedy pojawił się on, z czeluści internetu przemówił do nas swoim żółtym kolorem. Pięknie odnowione Renault Estafette o wdzięcznej nazwie <CustomOuterLink to="https://www.szelestbus.pl" text="Szelest Bus" className="linkMint" />. Jeszcze tego samego dnia napisaliśmy do Wojtka, właściciela Szelesta. Zapadła decyzja — robimy sesję stylizowaną food truck wedding. Bardzo szybko zorientowałyśmy się, organizacja sesji nie wykorzysta potencjału tego, co udało nam się zorganizować i należy zrobić kameralny event branżowy przypominający wesele i będący inspiracją dla par młodych. Dziś bazując na naszym foodtruckowym i wedding plannerskim doświadczeniu opowiemy Wam, jak zorganizować food truckowe wesele oraz o czym należy pamiętać, wybierając food truck na wesele.</>,
-        topPic: {
-            src: require('./OurCouplesPics/FoodtruckWedding/food-truck-na-wesele-01.jpg').default,
+        textMain: "Był środek pandemii, zakaz organizacji wesel i kiepski rok dla par młodych i branży ślubnej. Wszyscy z niepokojem czekali na rozluźnienie obostrzeń, które miało nadejść lada moment. Pomyślałyśmy, że nie możemy stać w miejscu i warto zorganizować sesję stylizowaną… ale sesji nie lubimy. Brakuje w nich szczerych emocji par młodych, czyli tego, co w weselach lubimy najbardziej. Nieco bez przekonania zaczęliśmy szukać inspiracji.",
+        topPic:
+        {
+            src: require('./OurCouplesPics/FoodtruckWedding/food-truck-na-wesele-10.jpg').default,
         },
         content: [
+            {
+                text: <>Wtedy pojawił się on, z czeluści internetu przemówił do nas swoim żółtym kolorem. Pięknie odnowione Renault Estafette o wdzięcznej nazwie <CustomOuterLink to="https://www.szelestbus.pl" text="Szelest Bus" className="linkMint" />. Jeszcze tego samego dnia napisaliśmy do Wojtka, właściciela Szelesta. Zapadła decyzja — robimy sesję stylizowaną food truck wedding. Bardzo szybko zorientowałyśmy się, organizacja sesji nie wykorzysta potencjału tego, co udało nam się zorganizować i należy zrobić kameralny event branżowy przypominający wesele i będący inspiracją dla par młodych. Dziś bazując na naszym foodtruckowym i wedding plannerskim doświadczeniu opowiemy Wam, jak zorganizować food truckowe wesele oraz o czym należy pamiętać, wybierając food truck na wesele.</>,
+                pics: [
+                    {
+                        src: require('./OurCouplesPics/FoodtruckWedding/food-truck-na-wesele-01.jpg').default,
+                    },
+                ]
+            },
             {
                 headerSmall: 'Food truck na wesele — miejsce',
                 headerClassName: 'mint',
@@ -120,9 +129,6 @@ const weddings = [
                 pics: [
                     {
                         src: require('./OurCouplesPics/FoodtruckWedding/food-truck-na-wesele-09.JPG').default,
-                    },
-                    {
-                        src: require('./OurCouplesPics/FoodtruckWedding/food-truck-na-wesele-10.jpg').default,
                     },
                     {
                         src: require('./OurCouplesPics/FoodtruckWedding/food-truck-na-wesele-11.jpg').default,
