@@ -32,6 +32,11 @@ const posts = [
                     Saksofon: <CustomOuterLink to="https://www.facebook.com/LudwickiLukasz/" text="Łukasz Ludwicki Sax" /> <br />
                     Tork i słodki stół: <CustomOuterLink to="https://www.tortypotwojemu.pl/" text="Torty po Twojemu" /> <br />
                     Ceremonia humanistyczna: <CustomOuterLink to="https://djglosny.pl/celebrant-slubny/" text="DJ Głośny - Celebrant Ślubny" /><br />
+                    Film: <CustomOuterLink to="https://pawelsawski.pl" text="Paweł Sawski" /> <br />
+                    Zdjęcia: <CustomOuterLink to="https://yesidophotography.pic-time.com/portfolio" text="Yes, I Do Photography" /> <br />
+                    Wypożyczalnie: <CustomOuterLink to="https://slubnapodwiazka.com.pl/slubny-stol/" text="Ślubna Podwiązka" /> <br />
+                    Papeteria: <CustomOuterLink to="https://projektslub.com" text="Projekt Ślub" /> <br />
+                    Winietki: <CustomOuterLink to="https://instagram.com/katelov.calligraphy?utm_medium=copy_link" text="Kate Lov Calligraphy" /> <br />
                 </p>
             </>,
         extras:
