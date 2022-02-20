@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, generatePath } from 'react-router-dom'
 import CustomPostLink from "../CustomLink/CustomPostLink"
 import CustomOuterLink from "../CustomLink/CustomOuterLink"
 import URLS from '../../utils/urls'
@@ -517,6 +517,164 @@ const weddings = [
         photoLink: "https://www.facebook.com/yesidoweddingphotography",
         flowers: "Anello Decor",
         flowersLink: "https://www.facebook.com/anellodecor",
+        date: "20 lut 2022",
+        textMain: <>Ciężko nam sobie przypomnieć, kto wpadł na pomysł kosmicznego motywu przewodniego. Czy była to para młoda, florystka, czy my? Odmęty pamięci podpowiadają, że Angelika i Daniel zaufali nam i dali wolną rękę. Gdy dzieją się takie rzeczy, idziemy na całość i sięgamy gwiazd. Tak też stało się w tym przypadku. Kosmiczna energia udzieliła się wszystkim - parze młodej, gościom oraz obsłudze. Tego dnia <CustomOuterLink to="http://sk.kopalniazlota.pl/wesela/" text="Stara Kruszarnia" className="linkPink" /> zaświeciła tysiącem gwiazd.</>,
+        topPic:
+        {
+            src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-wesele-01.jpg').default,
+        },
+        content: [
+            {
+                headerSmall: "Stara Kruszarnia — Zaczęło się od miejsca.",
+                headerClassName: "grey",
+                text:
+                    <>Każdy, kto planuje <Link to={generatePath(URLS.LANDING, { path: 'organizacja-wesel-wroclaw' })} className="linkPink">wesele na Dolnym Śląsku</Link> i marzy o pięknej sali otoczonej lasem, powinien odwiedzić Starą Kruszarnię w Złotym Stoku. To jedno z najbardziej plastycznych miejsc weselnych, jakie znamy. Co to znaczy? Można tam wyczarować absolutnie wszystko. Ceglane wnętrze Starej Kruszarni może być tłem dla przeróżnych motywów przewodnich i stylów. Nas zachwyca nie tylko wnętrzem, ale również otwartością właścicieli oraz managera, pięknym otoczeniem i pyszną kuchnią, a od niedawna również klimatyczną strefą chilloutu. To samo urzekło Angelikę i Daniela, a ich wybór <CustomOuterLink to="http://sk.kopalniazlota.pl/wesela/" text="Starej Kruszarni" className="linkPink" /> był praktycznie tylko formalnością.</>,
+                pics: [
+                    {
+                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-wesele-02.jpg').default,
+                    },
+                    {
+                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-wesele-03.jpg').default,
+                    },
+                    {
+                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-wesele-04.jpg').default,
+                    },
+                    {
+                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-wesele-06.jpg').default,
+                    },
+                    {
+                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-wesele-07.jpg').default,
+                    },
+                    {
+                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-wesele-08.jpg').default,
+                    },
+                    {
+                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-wesele-09.jpg').default,
+                    },
+                ]
+            },
+            {
+                headerSmall: "Kosmos w Starej Kruszarni.",
+                headerClassName: "grey",
+                text: <>Postanowiliśmy, że pójdziemy o krok dalej i nie będziemy się trzymać utartych schematów. Stworzymy własną interpretację kosmicznego wesela, nawiązując jednocześnie do jesieni, która wkradała się przez okna i drzwi Starej Kruszarni. Integralną częścią sali jest jej otoczenie. Nie mogliśmy go zignorować. Wraz z Anetą z <CustomPostLink path="12-hey-wedding-podcast-dekoracje-slubne-florystyka" text="Anello Decor" className="linkPink" /> oraz panną młodą skrupulatnie doprecyzowywałyśmy wizję i dobierałyśmy dodatki. Postanowiliśmy na pampasowy księżyc przy stole pary młodej, lustra z pampasowymi promieniami, przypominające gwiazdy i zawieszone pod sufitem. Była również kurtyna świetlna za parą młodą świecąca tysiącem drobnych lampek oraz ledowe gwiazdki. Wszystko to tworzyło niesamowity klimat po zmroku. Na stołach stanęły wysokie kompozycje w kolorach bordo. Całość uzupełniły złote podtalerze oraz sztućce, kamienie z ozdobną kaligrafią i granatowe kieliszki.</>,
+                pics: [
+                    {
+                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-wesele-10.jpg').default,
+                    },
+                    {
+                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-wesele-11.jpg').default,
+                    },
+                    {
+                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-wesele-12.jpg').default,
+                    },
+                    {
+                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-wesele-13.jpg').default,
+                    },
+                    {
+                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-wesele-14.jpg').default,
+                    },
+                    {
+                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-wesele-15.jpg').default,
+                    },
+                    {
+                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-wesele-16.jpg').default,
+                    },
+                ]
+            },
+            {
+                headerSmall: "Ceremonia — niesamowite otoczenie Starej Kruszarni.",
+                headerClassName: "grey",
+                text: <>Stara Kruszarnia to jedna z najpiękniej położonych sal weselnych na Dolnym Śląsku. Samo miejsce przeznaczone na ceremonię powala. Jest to przestrzeń otoczona lasem, gdzie korony drzew tworzą baldachim, przez który przedziera się słońce. Bardzo często po zmroku rozpalane jest tak ognisko. Angelika i Daniel zdecydowali się na ceremonię humanistyczną, którą poprowadził  <CustomOuterLink to="https://djglosny.pl/celebrant-slubny/" text="celebrant ślubny Maciej Głos" className="linkPink" />. Było romantycznie i wzruszająco. Piękne otoczenie wprawiało gości w niesamowity nastrój, otaczając ich jesienną aurą.</>,
+                pics: [
+                    {
+                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-01.jpg').default,
+                    },
+                    {
+                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-02.jpg').default,
+                    },
+                    {
+                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-03.jpg').default,
+                    },
+                    {
+                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-04.jpg').default,
+                    },
+                    {
+                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-sala-weselna-01.jpg').default,
+                    },
+                    {
+                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-sala-weselna-02.jpg').default,
+                    },
+                ]
+            },
+            {
+                headerSmall: "Strefa chilloutu w Starej Kruszarni.",
+                headerClassName: "grey",
+                text: "Poza wcześniej wspomnianą przestrzenią na zewnątrz Starej Kruszarni, gdzie można ogrzać się przy ognisku i pobujać w hamaku ma ona jeszcze jednego asa w rękawie. Piętro niżej sali jadalnej znajduje się strefa chilloutu z barem. To idealne miejsce, żeby odpocząć, spokojnie porozmawiać, napić się kawy. Jest przytulnie i klimatycznie, a co najważniejsze nie trzeba się przejmować pogodą panującą na zewnątrz jak przy zewnętrznych strefach relaksu.",
+                pics: [
+                    {
+                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-sala-weselna-03.jpg').default,
+                    },
+                    {
+                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-sala-weselna-04.jpg').default,
+                    },
+                    {
+                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-sala-weselna-05.jpg').default,
+                    },
+                    {
+                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-sala-weselna-06.jpg').default,
+                    },
+                    {
+                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-sala-weselna-07.jpg').default,
+                    },
+                    {
+                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-sala-weselna-08.jpg').default,
+                    },
+                ]
+            },
+            {
+                headerSmall: "Ekipa do zadań specjalnych na weselu w Starej Kruszarni.",
+                headerClassName: "grey",
+                text: <>Nie znamy wykonawcy ślubnego, który nie lubiłby Starej Kruszarni. W Złotym Stoku można się zakochać, góry, lasy, cisza i spokój. Co prawda nasza ekipa nie szukała spokoju, to była raczej prawdziwa petarda energetyczna. Za konsolą aż dwóch DJ ów i to nie byle jakich — <CustomPostLink path="3-hey-wedding-ciekawe-przypadki-dj-a-jegomościa" text="DJ Jegomość" className="linkPink" /> i <CustomOuterLink to="https://djglosny.pl" text="DJ Głośny" className="linkPink" />, a na dokładkę <CustomOuterLink to="https://www.facebook.com/LudwickiLukasz/" text="Łukasz Ludwicki" className="linkPink" asFB /> na saksofonie. Team film i foto również zarażał wszystkich pozytywną energią. Klaudia z <CustomOuterLink to="https://www.facebook.com/yesidoweddingphotography" text="Yes, I Do Photography" className="linkPink" asFB /> przy wsparciu <CustomOuterLink to="https://ohstorytellers.com" text="Jacka Olszewskiego" className="linkPink" /> wykonali piękne zdjęcia. Za film odpowiedzialny był <CustomOuterLink to="https://pawelsawski.pl" text="Paweł Sawski" className="linkPink" />. Dekoracjami zajęła się wcześniej wspomniana Aneta z Anello Decor, a słodki stół i tort przygotowała Natalia z <CustomPostLink path="14-hey-wedding-o-tort-i-słodkości-weselne" text="Torty po Twojemu" className="linkPink" />. Nad całą organizacją wesela czuwaliśmy oczywiście my - <Link to={URLS.HOME} className="linkPink">Czary Marry</Link>. Mamy wrażenie, że tego dnia wszyscy nakręciliśmy się pozytywnie, a nasza kosmiczna energia rozsadzała Starą Kruszarnię.</>,
+                pics: [
+                    {
+                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-zloty-stok-01.jpg').default,
+                    },
+                    {
+                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-zloty-stok-02.jpg').default,
+                    },
+                    {
+                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-zloty-stok-03.jpg').default,
+                    },
+                    {
+                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-zloty-stok-04.jpg').default,
+                    },
+                    {
+                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-zloty-stok-05.jpg').default,
+                    },
+                    {
+                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-zloty-stok-06.jpg').default,
+                    },
+                    {
+                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-zloty-stok-07.jpg').default,
+                    },
+                ]
+            },
+            {
+                headerSmall: "Para Młoda na medal.",
+                headerClassName: "grey",
+                text: <>Mamy niesamowite szczęście do ludzi, trafiamy na super pary, we współpracy stawiamy na pozytywne relacje. To wszystko powoduje, że efekty są spektakularne. Dzięki otwartości Angeliki i Daniela udało się znaleźć niesamowite miejsce, wspaniałą ekipę oraz wyczarować coś niepowtarzalnego, co stało się inspiracją dla wielu par młodych. Udowadniamy, że można połączyć dwa bardzo wyraziste motywy jak jesień oraz kosmos w jedną spójną całość. O naszej weselnej przygodzie możecie posłuchać więcej w <CustomPostLink path="19-hey-wedding-ekipa-marzen-i-kosmiczne-wesele" text='19 odcinku podcastu “Hey wedding”' className="linkPink" />.<br /><br />
+                    Nasi potencjalni klienci często pytają nas, jaki mamy styl oraz jakie wesela lubimy najbardziej. Nasze realizacje i ich klimat jest podyktowany tym, czego oczekuje od nas para młoda. To dlatego w naszym portfolio znajdziecie tak różne wesela. Tydzień po kosmicznym weselu Angeliki i Daniela w Starej Kruszarni, odbyło się piękne <span className="bold grey">jesienne przyjęcie Magdy i Szymona</span> w tym samym miejscu. Tym razem postawiłyśmy na kaktusy i letnie intensywne kolory, które pięknie łączyły się z kolorami złotej polskiej jesieni. Tym samym udowodniłyśmy, że Stara Kruszarnia jest miejscem niezwykle plastycznym i mimo swojego wyrazistego klimatu neutralnym.
+                </>,
+                pics: [
+                    {
+                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-zloty-stok-08.jpg').default,
+                    },
+                ]
+            },
+            {
+                text: <>Spodobało się Wam kosmiczne wesele w Starej Kruszarni? Jeśli i Wy marzycie o wyjątkowym przyjęciu stworzonym na miarę Waszych oczekiwań, zapraszamy do <Link to={URLS.CONTACT} className='linkPink'>kontaktu</Link>. Do każdej pary i pomysłu podchodzimy indywidualnie. To Wasz dzień i powinien wyglądać dokładnie tak, jak sobie wymarzyliście.</>
+            }
+        ]
     },
     {
         bgColor: "bgDark",
