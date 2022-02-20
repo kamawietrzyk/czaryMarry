@@ -1,10 +1,19 @@
 import React from 'react'
 import './styles.scss'
+import { Link } from 'react-router-dom'
+import { generatePath } from 'react-router'
+import URLS from '../../utils/urls'
 
-export const OurCouplesContent = ({ bgColor, title, details, orgLink, org, placeLink, place, photoLink, photo, photoTwo, photoLinkTwo, movie, movieLink, flowers, flowersLink }) => (
+export const OurCouplesContent = ({ path, bgColor, title, details, orgLink, org, placeLink, place, photoLink, photo, photoTwo, photoLinkTwo, movie, movieLink, flowers, flowersLink }) => (
     <div className={`description ${bgColor}`}>
         <div className="content-box">
-            <h2 className="top-h">{title}</h2>
+            {path ?
+                <Link className="linkWhite" to={generatePath(URLS.COUPLES_EVENT, { path: path })}>
+                    <h2 className="top-h">{title}</h2>
+                </Link>
+                :
+                <h2 className="top-h">{title}</h2>}
+
             <p>{details}</p>
             <h2 className="small-h">Realizacja:</h2>
             <span>

@@ -36,7 +36,7 @@ const OurCouples = () => (
                 <>
                     {item.path ?
                         <div key={index} className={`OurCouples-content_grid ${index % 2 && "flipped"} ${item.minHeight && "with-min-height"}`}>
-                            <Link className="mainPic-wrapper photos" to={generatePath(URLS.COUPLES_EVENT, { path: item.path })} key={index}>
+                            <Link className="mainPic-wrapper photos" to={generatePath(URLS.COUPLES_EVENT, { path: item.path })}>
                                 <img src={item.mainPic.src} alt={item.mainPic.src} />
                             </Link>
                             <OurCouplesContent {...item} />
