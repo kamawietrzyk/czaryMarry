@@ -3,6 +3,9 @@ import { Link, generatePath } from 'react-router-dom'
 import CustomPostLink from "../CustomLink/CustomPostLink"
 import CustomOuterLink from "../CustomLink/CustomOuterLink"
 import URLS from '../../utils/urls'
+import { main as AniaBenMain, slowWed01, slowWed02, slowWed03, slowWed04, slowWed05, slowWed06, slowWed07, slowWed08, slowWed09, slowWed10, slowWed11, slowWed12, slowWed13, slowWed14, slowWed15, wesLuz01, wesLuz02, wesLuz03, wesLuz04, wesLuz05, wesLuz06, wesLuz07, wesLuz08, wesSlow01, wesSlow02, wesSlow03, wesSlow04, wesSlow05, wesSlow06, wesSlow07, wesSlow08 } from './OurCouplesPics/AniaBen/index'
+
+import { main as PatrycjaPrzemekMain, cegCen01, cegCen02, cegCen03, cegCen04, cegCen05, cegJar01, cegJar02, cegJar03, cegJar04, cegJar05, cegJarOp01, cegJarOp02, cegJarOp03, cegJarOp04, cegJarOp05, cegWes01, cegWes02, cegWes03, cegWes04, cegWes05, cegWes06, cegWes07, cegWes08, cegWes09, cegWes10, cegWes11, cegWes12, cegWes13, cegWes14, cegWes15, cegWes16, cegWes17 } from './OurCouplesPics/PatrycjaPrzemek/index'
 
 const weddings = [
     {
@@ -13,7 +16,7 @@ const weddings = [
         seoTitle: "Slow wedding | agencja ślubna Czary Marry",
         seoText: "Pragniesz urządzić swoje wesele w stylu slow? Zobacz naszą realizację i poznaj zasady organizacji wesela w stylu slow.",
         mainPic: {
-            src: require('./OurCouplesPics/AniaBen/main.jpg').default
+            src: AniaBenMain
         },
         details: "Bez pośpiechu, stresu i oglądania się na to, co powiedzą inni. Kameralnie i na własnych zasadach. W otoczeniu przyrody i najbliższych.",
         org: "Agencja Ślubna Czary Marry",
@@ -28,23 +31,23 @@ const weddings = [
         textMain: <><span className="dark bold">Wesele w stylu slow</span> to przyjęcie toczące się własnym rytmem. Bez niepotrzebnego pośpiechu, stresu i oglądania się na to, co powiedzą inni. To czas na celebrowanie chwil w gronie serdecznych Wam osób, gdzie schematy zastępuje spontaniczność, a na pierwszym miejscu jesteście Wy i przysięga, którą sobie składacie. To, jak będzie wyglądało Wasze <span className="dark bold">slow wedding</span>, zależy wyłącznie od Was. Pozwólcie, że opowiemy Wam, jak było w przypadku jednej naszych par. Mamy nadzieję, że ich historia stanie się dla Was inspiracją.</>,
         topPic:
         {
-            src: require('./OurCouplesPics/AniaBen/slow-wedding-01.jpg').default,
+            src: slowWed01,
         },
         content: [
             {
                 text: <><span className="dark bold">Ania i Ben</span> trafili do nas z polecenia jednej z naszych byłych par młodych. Na co dzień mieszkają w Atlancie, w związku z czym nie byli w stanie samodzielnie zorganizować wesela i potrzebowali naszej pomocy. Od razu znaleźliśmy nić porozumienia i pokochałyśmy wizję wesela, jaką przedstawili. Marzyło im się kameralne <CustomPostLink text="wesele w górach" path="slub-wesele-w-gorach" className="linkPink" />, najlepiej w okolicach Zakopanego. Sprawnie przeszliśmy przez formalności i zabraliśmy się do pracy. Połowę zaproszonych gości stanowili Amerykanie, drugą połowę Polacy. Parze zależało na uniknięciu utartych schematów przy jednoczesnym poszanowaniu polskich i amerykańskich tradycji i zwyczajów. To było dla nas wyzwanie, którego z przyjemnością się podjęłyśmy.</>,
                 pics: [
                     {
-                        src: require('./OurCouplesPics/AniaBen/slow-wedding-02.jpg').default,
+                        src: slowWed02,
                     },
                     {
-                        src: require('./OurCouplesPics/AniaBen/slow-wedding-03.jpg').default,
+                        src: slowWed03,
                     },
                     {
-                        src: require('./OurCouplesPics/AniaBen/slow-wedding-04.jpg').default,
+                        src: slowWed04,
                     },
                     {
-                        src: require('./OurCouplesPics/AniaBen/slow-wedding-05.jpg').default,
+                        src: slowWed05,
                     },
                 ]
             },
@@ -54,13 +57,13 @@ const weddings = [
                 text: "Ania z Benem opowiedzieli nam o początkach swojej znajomości, o tym, jak ważną rolę odgrywają dla nich Tatry, jakie piękne wspomnienia łączą ich z tym miejscem. Wiedziałyśmy, że to właśnie tam musimy rozpocząć poszukiwania. Zależało nam na kameralnym i spokojnym miejscu z pięknym ogrodem. Priorytetem był jednak widok, marzyło nam się miejsce z panoramą Tatr w tle. Uruchomiłyśmy kontakty, przegrzebałyśmy czeluści internetu i przedstawiłyśmy parze kilka propozycji. Niestety ze względu na pandemię wiedziałyśmy, że para młoda nie będzie w stanie samodzielnie odwiedzić wybranych miejsc. Nie zastanawiając się długo, wsiadłyśmy w samochód i pojechałyśmy na wizytację. Odwiedziłyśmy miejsca, które Ani i Benowi najbardziej przypadły do gustu, przy okazji zaglądając chyba do każdej okolicznej restauracji, hotelu i karczmy.",
                 pics: [
                     {
-                        src: require('./OurCouplesPics/AniaBen/slow-wedding-06.jpg').default,
+                        src: slowWed06,
                     },
                     {
-                        src: require('./OurCouplesPics/AniaBen/slow-wedding-07.jpg').default,
+                        src: slowWed07,
                     },
                     {
-                        src: require('./OurCouplesPics/AniaBen/slow-wedding-08.jpg').default,
+                        src: slowWed08,
                     },
                 ]
             },
@@ -68,13 +71,13 @@ const weddings = [
                 text: "Kiedy przekroczyłyśmy próg Restauracji Ziębówka poczuliśmy, że to właśnie to miejsce, którego szukaliśmy, para młoda, poczuła dokładnie to samo. Restauracja jest położona w miejscowości Witów, nieco dalej od zakopiańskiego zgiełku, ale bliżej Tatr i Śpiącego Rycerza, niedaleko doliny Chochołowskiej. Otacza ją piękny dziki ogród i las. To w zasadzie gotowa strefa chilloutu, idealna przestrzeń na wesele na luzie. Pełno tam urokliwych zakamarków ze stolikami. Na jednym z drzew zawieszona jest huśtawka, na innym hamak. Na środku znajduje się drewniana platforma — idealne miejsce na ceremonię plenerową lub zewnętrzny parkiet. Oczami wyobraźni widzieliśmy wrześniowy ciepły dzień i gości relaksujących się w ogrodzie. Jak się później okazało, nasze wyobrażenia całkowicie pokryły się z rzeczywistością.",
                 pics: [
                     {
-                        src: require('./OurCouplesPics/AniaBen/slow-wedding-09.jpg').default,
+                        src: slowWed09,
                     },
                     {
-                        src: require('./OurCouplesPics/AniaBen/slow-wedding-10.jpg').default,
+                        src: slowWed10,
                     },
                     {
-                        src: require('./OurCouplesPics/AniaBen/slow-wedding-11.jpg').default,
+                        src: slowWed11,
                     },
                 ]
             },
@@ -82,13 +85,13 @@ const weddings = [
                 text: "Sama Ziębówka jest góralską chatą utrzymaną w tradycyjnym stylu. Wchodząc do środka, zobaczycie piękny kaflowy piec, niesamowite meble, góralskie drewniane ornamenty. Widać tam niezwykły szacunek do tradycji, ale bez zbędnych bibelotów, które mogłyby sprawić, że klimat miejsca się zatraci i będzie męczący. Na drugim piętrze znajduje się kolejna sala, do której prowadzą szerokie drewniane schody. Tam całą uwagę przyciąga duże zdobione okno z niesamowitym widokiem na góry, który możecie podziwiać na jednym ze zdjęć. Uznaliśmy, że dzielona struktura sali nie będzie przeszkodą. Potraktowaliśmy ją jako atut. Strefa jadalna na górze pozwoli gościom spokojnie porozmawiać i odpocząć, podczas gdy najwytrwalsi fani parkietu będą mogli szaleć do woli. Od początku nie chcieliśmy niczego narzucać gościom, nie baliśmy się, że będą rozproszeni, czy nie trafią na parkiet. Wiedzieliśmy, że slow wedding rządzi się własnymi prawami.",
                 pics: [
                     {
-                        src: require('./OurCouplesPics/AniaBen/slow-wedding-12.jpg').default,
+                        src: slowWed12,
                     },
                     {
-                        src: require('./OurCouplesPics/AniaBen/slow-wedding-13.jpg').default,
+                        src: slowWed13,
                     },
                     {
-                        src: require('./OurCouplesPics/AniaBen/slow-wedding-14.jpg').default,
+                        src: slowWed14,
                     },
                 ]
             },
@@ -103,10 +106,10 @@ const weddings = [
                 text: <>Nasze poszukiwania rozpoczęliśmy od osoby, która będzie odpowiedzialna za poprowadzenie przyjęcia oraz oprawę muzyczną. Postawiliśmy na osoby posługujące się biegle językiem angielskim, które rozumieją, o co chodzi w slow wedding. Takie, które nie będą zamartwiały się frekwencją na parkiecie i na siłę wyciągały gości do tańca lub przesadnie kontrolowały rytm przyjęcia. Zależało nam na osobie, która popłynie z prądem i będzie się świetnie bawić wraz z gośćmi bez względu na to, jaką formę zabawy wybiorą. Decyzja mogła być tylko jedna, padło na <CustomOuterLink to="https://thejegomosc.pl" text="DJ-a Jegomościa" className="linkPink" />. Krzysiek bardzo szybko złapał wspólne flow z parą młodą i uważnie słuchał, na czym im zależy. Zachwycił wszystkich swoją elastycznością, luźną konferansjerką, świetnie dobraną muzyką i energią. W pewnym momencie grał na dwa parkiety — na zewnątrz i wewnątrz, a każdy z nich płonął i ciężko było uwierzyć, że gdzieś obok jest inny parkiet, na którym również szaleją goście. Zabawa trwała dwa dni, a Krzysiek dzielnie stał za konsolą i podbijał serca zarówno polskich, jak i amerykańskich gości.</>,
                 pics: [
                     {
-                        src: require('./OurCouplesPics/AniaBen/slow-wedding-15.jpg').default,
+                        src: slowWed15
                     },
                     {
-                        src: require('./OurCouplesPics/AniaBen/wesele-na-luzie-01.jpg').default,
+                        src: wesLuz01
                     },
                 ]
             },
@@ -116,10 +119,10 @@ const weddings = [
                 text: <>Poznając Anię i Bena coraz bardziej, słuchając opowieści o ich gościach oraz oglądając relacje z imprez, w których uczestniczą, wiedziałyśmy, że zapowiada się świetna zabawa. Ania i Ben od razu zaznaczyli, że nie zależy im na długiej sesji w dniu ślubu i że ten czas wolą spędzić w gronie najbliższych. Wiedziałyśmy, że potrzebujemy kogoś z reporterskim zacięciem, kto nie będzie reżyserem, a cichym obserwatorem. No może nie takim cichym, potrzebny był ktoś, kto nie boi się wejść między gości i stać się częścią <span className='dark bold'>slow wedding</span>. Wszystko dla pięknych ujęć, które oddadzą charakter przyjęcia. Padło na <CustomOuterLink to="https://fotoreportazslubny.com" text="Jakuba Nowotyńskiego" className="linkPink" />. Nazwisko, które powinien znać każdy, kto ceni sobie naturalne, niebanalne i odważne ujęcia. Bez udawania i lukru. Jak mawiają fotografowie w branży ślubnej samo reporterskie mięso. Jak się okazało, Kuba sprawdził się równie dobrze przy fotografowaniu detali, dekoracji, czy backstagu z naszej pracy.</>,
                 pics: [
                     {
-                        src: require('./OurCouplesPics/AniaBen/wesele-na-luzie-02.jpg').default,
+                        src: wesLuz02
                     },
                     {
-                        src: require('./OurCouplesPics/AniaBen/wesele-na-luzie-03.jpg').default,
+                        src: wesLuz03
                     },
                 ]
             },
@@ -130,10 +133,10 @@ const weddings = [
                 </>,
                 pics: [
                     {
-                        src: require('./OurCouplesPics/AniaBen/wesele-na-luzie-04.jpg').default,
+                        src: wesLuz04
                     },
                     {
-                        src: require('./OurCouplesPics/AniaBen/wesele-na-luzie-05.jpg').default,
+                        src: wesLuz05
                     },
                 ]
             },
@@ -144,7 +147,7 @@ const weddings = [
                 </>,
                 pics: [
                     {
-                        src: require('./OurCouplesPics/AniaBen/wesele-na-luzie-06.jpg').default,
+                        src: wesLuz06
                     },
                 ]
             },
@@ -155,10 +158,10 @@ const weddings = [
                 </>,
                 pics: [
                     {
-                        src: require('./OurCouplesPics/AniaBen/wesele-na-luzie-07.jpg').default,
+                        src: wesLuz07
                     },
                     {
-                        src: require('./OurCouplesPics/AniaBen/wesele-na-luzie-08.jpg').default,
+                        src: wesLuz08
                     },
                 ]
             },
@@ -168,10 +171,10 @@ const weddings = [
                 text: "Ania z Benem obdarzyli nas i innych wykonawców ogromnym zaufaniem. Jednocześnie ich wizja wesela na luzie od początku była bardzo klarowna. Mimo kilkudniowego pobytu w Zakopanem postanowili, że swoje miejsce weselne po raz pierwszy zobaczą dopiero w dniu ślubu. Wcześniej widzieli je tylko na relacji filmowej, którą przygotowałyśmy dla nich podczas wizytacji. Na miesiąc przed ślubem ustaliliśmy wszystkie szczegóły związane z przebiegiem tego dnia. Przygotowałyśmy scenariusz, który skonfrontowałyśmy z wszystkimi wykonawcami. Zawsze mamy na uwadze, że jest to narzędzie, które ma nam wyznaczać pewne ramy, ale wesele to żywy organizm i to my powinniśmy się dostosować do przebiegu przyjęcia, zamiast na siłę egzekwować to, co zostało ustalone w scenariuszu.",
                 pics: [
                     {
-                        src: require('./OurCouplesPics/AniaBen/wesele-w-stylu-slow-01.jpg').default,
+                        src: wesSlow01
                     },
                     {
-                        src: require('./OurCouplesPics/AniaBen/wesele-w-stylu-slow-02.jpg').default,
+                        src: wesSlow02
                     },
                 ]
             },
@@ -181,7 +184,7 @@ const weddings = [
                 text: <>Oczekiwanie na ceremonię umilały dźwięki elektrycznych skrzypiec, goście częstowali się prosecco i fingerfoodami. Nikomu się nie spieszyło, wszyscy delektowali się piękną pogodą i otoczeniem gór. W tym czasie para młoda miała się zobaczyć po raz pierwszy. First look odbył się nad górskim potokiem, a ceremonia się pod gołym niebem. Po jednej stronie mieli góry, a po drugiej piękną dekorację, która w oczywisty sposób nawiązywała do motywu przewodniego. Ponieważ Ania i Ben zdecydowali się na <CustomPostLink text="ceremonię symboliczną" path="5-hey-wedding-ślub-humanistyczny-a-na-co-to-komu" className="linkPink" /> prowadzoną przez <CustomOuterLink to="https://www.slubhumanistyczny.com" text="Jacka Siedleckiego" className="linkPink" />, mieli ogromną wolność w tym, jaki będzie jej przebieg i charakter. Nie zabrakło przemów, które są typowe dla kultury amerykańskiej, ale i własnych przysiąg, masy wzruszeń i śmiechu.</>,
                 pics: [
                     {
-                        src: require('./OurCouplesPics/AniaBen/wesele-w-stylu-slow-03.jpg').default,
+                        src: wesSlow03
                     },
                 ]
             },
@@ -191,13 +194,13 @@ const weddings = [
                 text: <>Po ceremonii para młoda wzniosła toast i zachęciła gości do spędzenia czasu na zewnątrz, co również jest typowym zwyczajem, który przywędrował do nas z Ameryki. Oczywiście nie trzeba było ich długo namawiać i wszyscy chętnie korzystali z promieni jesiennego słońca. Następnie udali się na uroczysty obiad, powitani na sali chlebem i solą przez rodziców pary młodej. Ten stary zwyczaj cieszy się ogromnym zainteresowaniem wśród gości z zagranicy. Pierwszy taniec odbył się po zmroku, w świetle gwiazd na zewnętrznym parkiecie. Mimo chłodnego górskiego powietrza goście bawili się na nim jeszcze do późnych godzin wieczornych, nieco później impreza przeniosła się do wewnątrz. Następnego dnia wszyscy ponownie spotkali się w Ziębówce, tym razem na poprawinach <span className='dark bold'>w stylu slow</span>. Było ognisko z kiełbaskami, wielki kocioł bigosu, tańce i relaks, a to wszystko pod gołym niebem. Pogoda była wymarzona, więc klimat sprzyjał leniwemu celebrowaniu ostatniego dnia wesela, tylko trochę szkoda było kończyć.</>,
                 pics: [
                     {
-                        src: require('./OurCouplesPics/AniaBen/wesele-w-stylu-slow-04.jpg').default,
+                        src: wesSlow04
                     },
                     {
-                        src: require('./OurCouplesPics/AniaBen/wesele-w-stylu-slow-05.jpg').default,
+                        src: wesSlow05
                     },
                     {
-                        src: require('./OurCouplesPics/AniaBen/wesele-w-stylu-slow-06.jpg').default,
+                        src: wesSlow06
                     },
                 ]
             },
@@ -219,10 +222,10 @@ const weddings = [
                 </>,
                 pics: [
                     {
-                        src: require('./OurCouplesPics/AniaBen/wesele-w-stylu-slow-07.jpg').default,
+                        src: wesSlow07
                     },
                     {
-                        src: require('./OurCouplesPics/AniaBen/wesele-w-stylu-slow-08.jpg').default,
+                        src: wesSlow08
                     },
                 ]
             },
@@ -684,7 +687,7 @@ const weddings = [
         seoTitle: "Ceglarnia Jarosławki - wesele w wykonaniu Czary Marry",
         seoText: "Planujesz zorganizować swoje wesele w  Ceglarni Jarosławki? Zobacz realizację agencji ślubnej Czary Marry!",
         mainPic: {
-            src: require('./OurCouplesPics/PatrycjaPrzemek/mainPic.jpg').default
+            src: PatrycjaPrzemekMain
         },
         details: "Byłyśmy niezwykle szczęśliwe, kiedy Patrycja i Przemek zaprosili nas do współpracy w tym niesamowitym miejscu. Ciężko sobie wyobrazić, że nie tak dawno były to wyłącznie niszczejące budynki starego PGR-u.",
         org: "Agencja Ślubna Czary Marry",
@@ -698,7 +701,7 @@ const weddings = [
         date: "06 mar 2022",
         textMain: <>Będziemy z Wami szczere - zarówno my, jak i większość branży ślubnej uwielbia wracać do <span className="bold mint">Ceglarni Jarosławki</span>. Byłyśmy niezwykle szczęśliwe, kiedy Patrycja i Przemek zaprosili nas do współpracy w tym niesamowitym miejscu. Odwiedzałyśmy ją wiele razy przy innych okazjach, ale jakoś nie było sposobności, żeby zorganizować tam wesele. Ceglarnia to nie tylko piękna stodoła, kochamy ją również za uniwersalność, otoczenie, kompleksowość i miłą atmosferę. Ciężko sobie wyobrazić, że nie tak dawno były to wyłącznie niszczejące budynki starego PGR-u.</>,
         topPic: {
-            src: require('./OurCouplesPics/PatrycjaPrzemek/ceglarnia-cena-wesela-01.jpg').default
+            src: cegCen01
         },
         content: [
             {
@@ -707,16 +710,16 @@ const weddings = [
                 text: "Ceglarnia przez swoje położenie sprawia wrażenie bardzo tajemniczego miejsca. Jadąc tam po raz pierwszy, podekscytowanie wzrasta z każdą chwilą, nasuwa się myśl: czy na pewno dobrze jedziemy? Jeszcze do niedawna prowadziła tam dziurawa, szutrowa droga, o której w branży ślubnej krążyły legendy. Dziś dojedziecie tam już nowiutką asfaltówką. Lokalizacja Ceglarnii, jej oddalenie od zabudowań i duży teren dookoła czyni to miejsce niezwykle kameralnym i intymnym.",
                 pics: [
                     {
-                        src: require('./OurCouplesPics/PatrycjaPrzemek/ceglarnia-cena-wesela-02.jpg').default
+                        src: cegCen02
                     },
                     {
-                        src: require('./OurCouplesPics/PatrycjaPrzemek/ceglarnia-cena-wesela-03.jpg').default
+                        src: cegCen03
                     },
                     {
-                        src: require('./OurCouplesPics/PatrycjaPrzemek/ceglarnia-cena-wesela-04.jpg').default
+                        src: cegCen04
                     },
                     {
-                        src: require('./OurCouplesPics/PatrycjaPrzemek/ceglarnia-cena-wesela-05.jpg').default
+                        src: cegCen05
                     },
                 ]
             },
@@ -726,10 +729,10 @@ const weddings = [
                 text: <>Mało jest miejsc na weselnej mapie polski, które świadczyłyby tak kompleksową obsługę. W zasadzie <CustomOuterLink text="Ceglarnia" to="https://www.ceglarnia.com/" className="linkMint" /> jest samowystarczalna pod każdym względem.</>,
                 pics: [
                     {
-                        src: require('./OurCouplesPics/PatrycjaPrzemek/ceglarnia-jaroslawki-cena-wesele-01.jpg').default
+                        src: cegJar01
                     },
                     {
-                        src: require('./OurCouplesPics/PatrycjaPrzemek/ceglarnia-jaroslawki-cena-wesele-02.jpg').default
+                        src: cegJar02
                     },
                 ]
             },
@@ -739,13 +742,13 @@ const weddings = [
                 text: <>To 5h terenu, na które składa się plac przed salą z pięknie wystrzyżonym trawnikiem, sad, park oraz czego dusza zapragnie, żeby zorganizować ceremonię cywilną w plenerze. Konkretne miejsce możecie wybrać sami. W razie złej pogody nie musicie się martwić. Stodoły w Ceglarni Jarosławki są dwie. Tą mniejszą możecie wykorzystać jako miejsce ceremonii w razie opadów deszczu. Ponadto 11 kilometrów od sali, w miejscowości Gogolewo znajduje się zabytkowy, drewniany kościółek. Teren wokół sali daje ogromne możliwości fotografowi ślubnemu, który może poszaleć z parą młodą na sesji, nie opuszczając terenu Ceglarni. U nas za obiektywem stanął nieoceniony <CustomOuterLink text="Jakub Nowotyński" to="https://fotoreportazslubny.com" className="linkMint" />.</>,
                 pics: [
                     {
-                        src: require('./OurCouplesPics/PatrycjaPrzemek/ceglarnia-jaroslawki-cena-wesele-03.jpg').default
+                        src: cegJar03
                     },
                     {
-                        src: require('./OurCouplesPics/PatrycjaPrzemek/ceglarnia-jaroslawki-cena-wesele-04.jpg').default
+                        src: cegJar04
                     },
                     {
-                        src: require('./OurCouplesPics/PatrycjaPrzemek/ceglarnia-jaroslawki-cena-wesele-05.jpg').default
+                        src: cegJar05
                     },
                 ]
             },
@@ -755,19 +758,19 @@ const weddings = [
                 text: "90 miejsc noclegowych w 2-,3- lub 4-osobowych pokojach. To jeszcze nie koniec, bo właściciel dzielnie pracuje nad powiększeniem tej bazy. Pokoje są utrzymane w industrialnym, a jednocześnie przytulnym klimacie. Mają bardzo dobre ceny, znajdują się zaraz przy sali, ale w odrębnym budynku. Ci, którzy chcieliby wcześniej pójść spać, nie będą słyszeć głośnej muzyki. To nie wszystko, na uwagę zasługuje Pałacyk, po drugiej stronie parku, gdzie para młoda może w kameralnym gronie przygotowywać się do wesela. Przeszklone pokoje, niesamowita przestrzeń wspólna i charakterystyczne czerwone drzwi. Zdarza się, że goście decydują się na przyjazd dzień wcześniej, żeby przedłużyć sobie weselny weekend.",
                 pics: [
                     {
-                        src: require('./OurCouplesPics/PatrycjaPrzemek/ceglarnia-jaroslawki-opinie-01.jpg').default
+                        src: cegJarOp01
                     },
                     {
-                        src: require('./OurCouplesPics/PatrycjaPrzemek/ceglarnia-jaroslawki-opinie-02.jpg').default
+                        src: cegJarOp02
                     },
                     {
-                        src: require('./OurCouplesPics/PatrycjaPrzemek/ceglarnia-jaroslawki-opinie-03.jpg').default
+                        src: cegJarOp03
                     },
                     {
-                        src: require('./OurCouplesPics/PatrycjaPrzemek/ceglarnia-jaroslawki-opinie-04.jpg').default
+                        src: cegJarOp04
                     },
                     {
-                        src: require('./OurCouplesPics/PatrycjaPrzemek/ceglarnia-jaroslawki-opinie-05.jpg').default
+                        src: cegJarOp05
                     },
                 ]
             },
@@ -777,13 +780,13 @@ const weddings = [
                 text: <>Wielu przeraża zatrudnienie zewnętrznego cateringu, ale to świetne rozwiązanie, kiedy współpracujesz z odpowiednią i wykwalifikowaną ekipą. Zresztą właściciel lub manager pomoże Wam przejść przez ten proces. W zasadzie nie musicie robić nic więcej niż przy wyborze miejsca z własną kuchnią. Cegielnia Jarosławki współpracuje m.in. z cateringiem Modra. Potrawy przygotowywane są z sezonowych składników, a menu inspirowane tradycją ludową Polski i Europy. Jedzenie jest naprawdę smaczne. Jeśli nie wierzycie, koniecznie odwiedźcie <CustomOuterLink text="Restaurację Modra Kuchnia" to="https://www.facebook.com/ModraKuchnia/" asFB className="linkMint" /> w Poznaniu. W Ceglarnii zjecie też pyszne kontynentalne śniadanie po weselu lub zorganizujcie poprawinowego grilla.</>,
                 pics: [
                     {
-                        src: require('./OurCouplesPics/PatrycjaPrzemek/ceglarnia-wesele-01.jpg').default
+                        src: cegWes01
                     },
                     {
-                        src: require('./OurCouplesPics/PatrycjaPrzemek/ceglarnia-wesele-02.jpg').default
+                        src: cegWes02
                     },
                     {
-                        src: require('./OurCouplesPics/PatrycjaPrzemek/ceglarnia-wesele-03.jpg').default
+                        src: cegWes03
                     },
                 ]
             },
@@ -793,13 +796,13 @@ const weddings = [
                 text: <>Magazyn Ceglarnii Jarosławki pęka w szwach. Znajdziecie tam wiele ciekawych wazonów, świeczników, skrzynek, starą szafę, proporczyki oraz oświetlenie sufitowe, a nawet drzewka na wynajem. Do tego florystka z Ceglarnii może przygotować dla Was dekoracje kwiatowe. Za te ze zdjęć odpowiada <CustomOuterLink text="Anello Decor" to="https://www.facebook.com/anellodecor/" asFB className="linkMint" />, jednak właściciel Ceglarni niczego Wam nie narzuca. Płacąc za wynajem przestrzeni możecie w niej zrobić to, czego dusza zapragnie. Oczywiście, jeżeli pozostawicie miejsce w nienaruszonym stanie.</>,
                 pics: [
                     {
-                        src: require('./OurCouplesPics/PatrycjaPrzemek/ceglarnia-wesele-04.jpeg').default
+                        src: cegWes04
                     },
                     {
-                        src: require('./OurCouplesPics/PatrycjaPrzemek/ceglarnia-wesele-05.jpeg').default
+                        src: cegWes05
                     },
                     {
-                        src: require('./OurCouplesPics/PatrycjaPrzemek/ceglarnia-wesele-06.jpeg').default
+                        src: cegWes06
                     },
                 ]
             },
@@ -809,19 +812,19 @@ const weddings = [
                 text: "Poza tym, że możecie poleniuchować na leżakach przed salą lub pospacerować, na terenie Ceglarni Jarosławki znajdziecie wspólną przestrzeń z wygodnymi kanapami i stołem bilardowym. To może być świetne miejsce na przygotowania dla pana młodego, jeśli para zdecydowała, że nie chce się widzieć przed ślubem.",
                 pics: [
                     {
-                        src: require('./OurCouplesPics/PatrycjaPrzemek/ceglarnia-wesele-07.jpg').default
+                        src: cegWes07
                     },
                     {
-                        src: require('./OurCouplesPics/PatrycjaPrzemek/ceglarnia-wesele-08.jpg').default
+                        src: cegWes08
                     },
                     {
-                        src: require('./OurCouplesPics/PatrycjaPrzemek/ceglarnia-wesele-09.jpg').default
+                        src: cegWes09
                     },
                     {
-                        src: require('./OurCouplesPics/PatrycjaPrzemek/ceglarnia-wesele-10.jpg').default
+                        src: cegWes10
                     },
                     {
-                        src: require('./OurCouplesPics/PatrycjaPrzemek/ceglarnia-wesele-11.jpg').default
+                        src: cegWes11
                     },
                 ]
             },
@@ -831,22 +834,22 @@ const weddings = [
                 text: "Było już o cateringu, noclegach, miejscach na ceremonię i przygotowaniach. To bardzo ważne elementy, ale o wyborze miejsca decyduje głównie wygląd sali. Stara stodoła z zewnątrz wygląda niepozornie. Tym bardziej zaskakuje jej wnętrze. Niby industrialne, a jednak przyjazne, niby na 250 osób, a jednak nie świeci pustką, gdy zorganizujemy tam wesele na 90 os. Drewno, bielone ściany, betonowa posadzka i piękne stoły z krzesłami przypominającymi nieco te szkolne z dawnych lat. Mimo że sala jest duża i strzelista nie wymaga wcale ogromnych nakładów dekoracji. W zasadzie sama się broni. Na dodatek jest klimatyzowana, co w przypadku stodół nie jest zbyt powszechne.",
                 pics: [
                     {
-                        src: require('./OurCouplesPics/PatrycjaPrzemek/ceglarnia-wesele-12.jpg').default
+                        src: cegWes12
                     },
                     {
-                        src: require('./OurCouplesPics/PatrycjaPrzemek/ceglarnia-wesele-13.jpg').default
+                        src: cegWes13
                     },
                     {
-                        src: require('./OurCouplesPics/PatrycjaPrzemek/ceglarnia-wesele-14.jpg').default
+                        src: cegWes14
                     },
                     {
-                        src: require('./OurCouplesPics/PatrycjaPrzemek/ceglarnia-wesele-15.jpg').default
+                        src: cegWes15
                     },
                     {
-                        src: require('./OurCouplesPics/PatrycjaPrzemek/ceglarnia-wesele-16.jpg').default
+                        src: cegWes16
                     },
                     {
-                        src: require('./OurCouplesPics/PatrycjaPrzemek/ceglarnia-wesele-17.jpg').default
+                        src: cegWes17
                     },
                 ]
             },
