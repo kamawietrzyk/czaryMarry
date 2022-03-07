@@ -5,6 +5,12 @@ import URLS from '../../utils/urls'
 import CustomCategoryLink from '../CustomLink/CustomCategoryLink'
 import CustomPostLink from '../CustomLink/CustomPostLink'
 
+import { lan01, lan02, lan03, lan04, lan05, lan06, lan07, lan08, wawaPlace01, wawaPlace02, wawaPlace03, wawaPlace04 } from "./LandingPics/Main/index"
+
+import { lanCzarŁódź01, lanKonsŁódź02, lanWedPlŁódź03, lanWesŁódź04, agŚlŁódź, konsŚlŁódź, orgŚlŁódź, wedPlŁódź } from "./LandingPics/Łódź/index"
+
+import { lanKrk1, lanKrk2, lanKrk3, lanKrk4, cus1Krk01, cus1Krk02, cus1Krk03, cus1Krk04, cus2Krk01, cus2Krk02, cus2Krk03, cus2Krk04 } from "./LandingPics/Kraków/index"
+
 const landings = [
     {
         path: 'wedding-planner-lodz',
@@ -19,10 +25,10 @@ const landings = [
                 Jedni nazywają nas czarodziejkami, inni dobrymi wróżkami, bo prawdą jest, że zmienimy Wasze marzenia w rzeczywistość. Nie używamy czarodziejskiej różdżki i nie prosimy o pomocy baśniowej matki chrzestnej. Bazujemy na wiedzy i doświadczeniu, którą bezustannie pogłębiamy, wykonując zawód wedding plannera. <Link to={URLS.HOME} className="linkPink">Agencję ślubną Czary Marry</Link> zbudowałyśmy na 15-letniej przyjaźni oraz serdecznych relacjach z parami młodym. Więcej informacji o nas znajdziecie <Link to={URLS.ABOUT} className="linkPink">tutaj</Link>.
             </>,
         placePics: [
-            require('./LandingPics/lan5.jpg').default,
-            require('./LandingPics/lan7.jpg').default,
-            require('./LandingPics/lan8.jpg').default,
-            require('./LandingPics/lan4.jpg').default,
+            lan05,
+            lan07,
+            lan08,
+            lan04,
         ],
         content: [
             {
@@ -78,10 +84,10 @@ const landings = [
             </>,
         gridPics:
             [
-                require('./LandingPics/Łódź/lan-wesele-łódź.jpeg').default,
-                require('./LandingPics/Łódź/lan-konsultant-ślubny-łódź.jpeg').default,
-                require('./LandingPics/Łódź/lan-wedding-planner-w-łodzi.jpeg').default,
-                require('./LandingPics/Łódź/lan-czary-marry-łódź.jpeg').default,
+                lanWesŁódź04,
+                lanKonsŁódź02,
+                lanWedPlŁódź03,
+                lanCzarŁódź01,
             ],
         numsTitle: 'Nasze wartości - organizacja wesela Łódź.',
         numsText: 'Wiecie już, kim jesteśmy i czym się zajmujemy, teraz opowiemy Wam, co jest dla nas ważne we współpracy z parami młodymi. Nie będziemy Wam pisać o profesjonalizmie i kreatywności, bo to oczywista sprawa.',
@@ -107,10 +113,10 @@ const landings = [
             </p>,
 
         extraSliderLastPics: [
-            require('./LandingPics/Łódź/custom2/Wedding-planner-lodz.jpg').default,
-            require('./LandingPics/Łódź/custom2/Agencja-slubna-lodz.jpg').default,
-            require('./LandingPics/Łódź/custom2/Konsultant-slubny-lodz.jpg').default,
-            require('./LandingPics/Łódź/custom2/Organizacja-slubu-lodz.jpg').default,
+            wedPlŁódź,
+            agŚlŁódź,
+            konsŚlŁódź,
+            orgŚlŁódź
         ]
     },
     {
@@ -131,10 +137,10 @@ const landings = [
                 <i style={{ color: "#77a196f6", marginLeft: "1rem" }}>”Kasia i Ola – Czary Marry = duet idealny. Od pierwszego spotkania wiedzieliśmy, że to będzie owocna współpraca, bo dziewczyny zrobiły na nas ogromne wrażenie. Nie wyobrażamy sobie zresztą, żeby komuś nie zaimponował sposób pracy tej dwójki”.</i>
             </>,
         placePics: [
-            require('./LandingPics/Kraków/lan-wedding planner kraków 3.jpeg').default,
-            require('./LandingPics/Kraków/lan-konsultant ślubny kraków 1.jpeg').default,
-            require('./LandingPics/Kraków/lan-konsultanci ślubni kraków 3.jpeg').default,
-            require('./LandingPics/Kraków/lan-organizacja ślubów kraków 2.jpeg').default
+            lanKrk3,
+            lanKrk1,
+            lanKrk4,
+            lanKrk2,
         ],
         content: [
             {
@@ -219,10 +225,9 @@ const landings = [
             </div>,
         gridPics:
             [
-                require('./LandingPics/Katowice/lan-organizacja-wesel-slask.jpg').default,
-                require('./LandingPics/lan4.jpg').default,
-                require('./LandingPics/lan5.jpg').default,
-                require('./LandingPics/lan6.jpg').default,
+                lan04,
+                lan05,
+                lan06,
             ],
 
         numsTitle: 'Konsultanci ślubni Kraków — proces wyboru.',
@@ -271,16 +276,10 @@ const landings = [
         extras: <p>To Wy podejmujecie decyzję, w jakim stopniu chcecie nas zaangażować w organizację wesela. Oczywiście zachęcamy Was do skorzystania z kompleksowej pomocy, ponieważ daje ona najlepsze efekty. Mimo to możecie zdecydować się tylko na wybrane usługi, koordynację dnia ślubu i wesela lub patronat ślubny. Serdecznie zapraszamy do kontaktu. Zorganizujmy razem Twój ślub i wesele marzeń w <CustomOuterLink text="Krakowie" to="https://www.krakow.pl/" className="linkMint" />!</p>,
 
         extraSliderHorizontalPics: [
-            require('./LandingPics/Kraków/Custom2/konsultanci-slubni-krakow-1.jpg').default,
-            require('./LandingPics/Kraków/Custom2/konsultanci-slubni-krakow-2.jpg').default,
-            require('./LandingPics/Kraków/Custom2/konsultanci-slubni-krakow-3.jpg').default,
-            require('./LandingPics/Kraków/Custom2/konsultanci-slubni-krakow-4.jpg').default
+            cus2Krk01, cus2Krk02, cus2Krk03, cus2Krk04
         ],
         extraSliderLastPics: [
-            require('./LandingPics/Kraków/Custom1/organizacja-slubow-krakow-2.jpg').default,
-            require('./LandingPics/Kraków/Custom1/organizacja-slubow-krakow-1.jpg').default,
-            require('./LandingPics/Kraków/Custom1/organizacja-slubow-krakow-3.jpg').default,
-            require('./LandingPics/Kraków/Custom1/organizacja-slubow-krakow-4.jpg').default
+            cus1Krk02, cus1Krk01, cus1Krk03, cus1Krk04
         ],
         isExtraSliderLastHorizontal: true,
     },
@@ -353,8 +352,8 @@ const landings = [
             [
                 require('./LandingPics/Katowice/lan-wedding-plannerki-katowice.jpg').default,
                 require('./LandingPics/Katowice/lan-organizacja-wesel-slask.jpg').default,
-                require('./LandingPics/lan6.jpg').default,
-                require('./LandingPics/lan4.jpg').default,
+                lan06,
+                lan04,
             ],
 
         numsTitle: 'Organizacja wesela Śląsk — etapy współpracy.',
@@ -420,10 +419,10 @@ const landings = [
         textTwo:
             'Na początku powinniście zadać sobie pytanie, czy organizując ślub i wesele w Warszawie należy wybierać tylko spośród lokalnych wedding plannerów. Naszym zdaniem ograniczanie się ze względu na lokalizację nie jest dobrym rozwiązaniem. Specyfika branży ślubnej powoduje, że podróże i poznawanie nowych miejsc w całej Polsce to dla nas codzienność. To, na co na pewno warto zwrócić uwagę to doświadczenie, znajomość rynku oraz nić porozumienia, jaką nawiążecie z danym konsultantem ślubnym.',
         placePics: [
-            require('./LandingPics/wawaPlace2.jpg').default,
-            require('./LandingPics/wawaPlace3.jpg').default,
-            require('./LandingPics/wawaPlace4.jpg').default,
-            require('./LandingPics/wawaPlace1.jpg').default
+            wawaPlace02,
+            wawaPlace03,
+            wawaPlace04,
+            wawaPlace01
         ],
         content: [
             {
@@ -449,10 +448,9 @@ const landings = [
             </>,
         gridPics:
             [
-                require('./LandingPics/lan5.jpg').default,
-                require('./LandingPics/lan4.jpg').default,
-                require('./LandingPics/lan6.jpg').default,
-                require('../Home/konsultantki-slubne-czary-marry-home.jpg').default
+                lan05,
+                lan04,
+                lan06
             ],
         numsTitle: 'Konsultant ślubny Warszawa - kryteria i etapy wyboru.',
         numsText: 'Skoro wiemy już, że lokalizacja nie ma znaczenia, przejdźmy do czynników, których nie można pominąć dokonując wyboru wedding plannera w Warszawie oraz każdym innym mieście w Polsce.',
@@ -538,9 +536,9 @@ const landings = [
             </>,
         textTwo: 'Pewnie zastanawiacie się, czy powinniście szukać wyłącznie firm z województwa wielkopolskiego, a może warto zdecydować się na agencję ślubną działającą na terenie całej Polski? Naszym zdaniem sama lokalizacja nie ma większego znaczenia. Najważniejsza jest znajomość rynku i szerokie kontakty.',
         placePics: [
-            require('./LandingPics/lan2.JPG').default,
-            require('./LandingPics/lan3.JPG').default,
-            require('./LandingPics/lan1.JPG').default
+            lan02,
+            lan03,
+            lan01,
         ],
         content: [
             {
