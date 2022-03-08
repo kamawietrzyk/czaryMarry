@@ -8,13 +8,10 @@ import picThree from './three.png';
 import picFour from './four.png';
 import Carousel from '../Carousel';
 import ArrowToTop from '../ArrowToTop';
-import instaPic1 from './instaPic1-czarymarry-organizacja-wesel.jpg';
-import instaPic2 from './instaPic2-czarymarry-agencja-slubna.jpg';
-import instaPic3 from './instaPic3-czarymarry-wedding-planner.jpg';
-import konsultantki from './konsultantki-slubne-czary-marry-home.jpg';
 import ScrollToTopOnMount from '../ScrollToTopOnMount';
 import logo from '../../utils/czarymarry_logo.png'
 import SeoContent from '../SeoContent';
+import { instaPic1, instaPic2, instaPic3, konsultantki } from './pics';
 
 const APP_URL = process.env.REACT_APP_BASE_URL
 

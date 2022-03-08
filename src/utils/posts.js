@@ -4,6 +4,9 @@ import CustomPostLink from '../components/CustomLink/CustomPostLink'
 import CustomCategoryLink from '../components/CustomLink/CustomCategoryLink'
 import CustomOuterLink from '../components/CustomLink/CustomOuterLink'
 import URLS from './urls'
+import { podcast, post1 } from './BlogPics/index'
+import { post2pic1, post2pic2, post2pic3, post2pic4 } from './BlogPics/Post2/index'
+import { post3pic, post3picA, post3picB, post3picC, post3picD } from './BlogPics/Post3/index'
 
 const posts = [
     {
@@ -14,7 +17,7 @@ const posts = [
         tag: 'podcast',
         textShort: 'W dzisiejszym odcinku rozmawiamy z Angeliką i Danielem o ich absolutnie odjechanym...',
         mainPic: {
-            src: require('./BlogPics/podcast.png').default
+            src: podcast
         },
         textMain:
             <>
@@ -52,7 +55,7 @@ const posts = [
         tag: 'podcast',
         textShort: 'Po ośmiomiesięcznej przerwie wracamy do nagrywania podcastu z nową energią i...',
         mainPic: {
-            src: require('./BlogPics/podcast.png').default
+            src: podcast
         },
         textMain:
             <>
@@ -462,7 +465,7 @@ const posts = [
         tag: 'podcast',
         textShort: 'W 17 odcinku podcastu Hey Wedding zasiadamy na wspólnej kanapie i rozmawiamy z...',
         mainPic: {
-            src: require('./BlogPics/podcast.png').default
+            src: podcast
         },
         textMain:
             <>
@@ -485,7 +488,7 @@ const posts = [
         tag: 'podcast',
         textShort: 'Czy podczas organizacji wesela nieustannie słyszycie "dobre rady" ze strony najbliższych? Jeśli tak, ten podcast jest właśnie dla Was.',
         mainPic: {
-            src: require('./BlogPics/podcast.png').default
+            src: podcast
         },
         textMain:
             <>
@@ -1055,7 +1058,7 @@ const posts = [
                 text: 'W szczególnych przypadkach okres oczekiwania na ślub może zostać skrócony. Najlepiej zapytać o taką możliwość w interesującym Was urzędzie. Zdarza się, że kierownicy urzędów wymagają bardzo rzetelnego uzasadnienia i składania oficjalnego wniosku, podczas gdy w innym urzędzie będzie to tylko formalnością wiążącą się z uiszczeniem opłaty w wysokości 39 zł.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post31/post31-podpisanie dokumentów - ślub cywilny.jpeg').default,
+                        src: require('./BlogPics/Post31/post31-podpisanie-dokumentów.jpeg').default,
                         author: 'Marta Brodziak'
                     }
                 ]
@@ -1115,7 +1118,7 @@ const posts = [
                     </>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post31/post31 - ślub humanistyczny.jpeg').default,
+                        src: require('./BlogPics/Post31/post31-ślub-humanistyczny.jpeg').default,
                         author: 'Greg Solak'
                     }
                 ]
@@ -1152,7 +1155,7 @@ const posts = [
                     </>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post31/post31 - ślub w plenerze.jpeg').default,
+                        src: require('./BlogPics/Post31/post31-ślub-w-plenerze.jpeg').default,
                         author: 'Svetlana Bennington'
                     }
                 ]
@@ -1217,7 +1220,7 @@ const posts = [
                 text: 'W przypadku gdy zdecydujecie się na zachowanie własnych nazwisk, musicie podjąć decyzję, jakie nazwisko będzie nosić Wasze przyszłe potomstwo. Może to być nazwisko jednego z Was lub nazwisko, które powstanie w wyniku ich połączenia. W przypadku braku decyzji z Waszej strony dzieci będą nosiły nazwisko dwuczłonowe.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post31/post31 - panna młoda z druhnami.jpeg').default,
+                        src: require('./BlogPics/Post31/post31-panna-młoda-z-druhnami.jpeg').default,
                         author: 'Małe szare studio'
                     }
                 ]
@@ -1399,7 +1402,7 @@ const posts = [
         tag: 'podcast',
         textShort: 'Zastanawiacie się, od czego zacząć planowanie wesela? W 15 odcinku podcastu Hey Wedding odpowiadamy na to i wiele innych pytań. Dowiecie się również, o czym...',
         mainPic: {
-            src: require('./BlogPics/podcast.png').default
+            src: podcast
         },
         textMain:
             <>
@@ -1536,7 +1539,7 @@ const posts = [
         date: '18 sty 2021',
         textShort: 'Jeśli jesteś na diecie i chcesz ograniczyć spożycie cukru, nie słuchaj tego odcinka! Tym razem rozmawiamy z wicemistrzynią Europy w...',
         mainPic: {
-            src: require('./BlogPics/podcast.png').default
+            src: podcast
         },
         textMain:
             <>
@@ -1571,7 +1574,7 @@ const posts = [
         date: '18 gru 2020',
         textShort: 'Gośćmi 13 odcinka podcastu Hey Wedding byli Angelika i Paweł. Rozmawialiśmy o ich bajkowym weselu w Zamku Książ. O spektakularnych dekoracjach, o tym z czym...',
         mainPic: {
-            src: require('./BlogPics/podcast.png').default
+            src: podcast
         },
         textMain:
             <>
@@ -1736,7 +1739,7 @@ const posts = [
         date: '23 lis 2020',
         textShort: 'W 12 odcinku podcastu Hey Wedding rozmawiamy z Anello Decor o dekoracjach ślubnych. Aneta opowie, jak narodziła się jej pasja do...',
         mainPic: {
-            src: require('./BlogPics/podcast.png').default
+            src: podcast
         },
         textMain:
             <>
@@ -1766,7 +1769,7 @@ const posts = [
         edited: '30 paź 2020',
         textShort: 'Rozmowa z parą młodą, która z powodu koronawirusa musiała przełożyć...',
         mainPic: {
-            src: require('./BlogPics/podcast.png').default
+            src: podcast
         },
         textMain:
             <>
@@ -1951,7 +1954,7 @@ const posts = [
         date: '1 wrz 2020',
         textShort: 'Podcast o tematyce ślubnej. W 10 odcinku kolejny raz bierzemy pod lupę weselne mity.',
         mainPic: {
-            src: require('./BlogPics/podcast.png').default
+            src: podcast
         },
         textMain:
             <>
@@ -2085,7 +2088,7 @@ const posts = [
         edited: '1 wrz 2020',
         textShort: 'Kolejny odcinek podcastu Hey Wedding to spotkanie dwóch duetów - Agencji Ślubnej Czary Marry oraz...',
         mainPic: {
-            src: require('./BlogPics/podcast.png').default
+            src: podcast
         },
         textMain:
             <>
@@ -2152,7 +2155,7 @@ const posts = [
         edited: '1 wrz 2020',
         textShort: 'W ósmym odcinku podcastu Hey Wedding, miałyśmy przyjemność spotkać się z Nadją Pędzik, organizatorką festiwalu sukien...',
         mainPic: {
-            src: require('./BlogPics/podcast.png').default
+            src: podcast
         },
         textMain:
             <>
@@ -2176,7 +2179,7 @@ const posts = [
         edited: '1 wrz 2020',
         textShort: 'W siódmym odcinku Hey Wedding rozmawiamy z Klaudią, naszą panną młodą. Porozmawiamy o połączeniu dwóch kultur, współpracy...',
         mainPic: {
-            src: require('./BlogPics/podcast.png').default
+            src: podcast
         },
         textMain:
             <>
@@ -2248,7 +2251,7 @@ const posts = [
         edited: '1 wrz 2020',
         textShort: 'W szóstym odcinku podcastu rozprawiamy się z najpopularniejszymi mitami ślubnymi. Dowiecie się między innymi, czy jedzenie w bufecie oraz serwowany obiad to dobry pomysł, czy można zorganizować wesele bez...',
         mainPic: {
-            src: require('./BlogPics/podcast.png').default
+            src: podcast
         },
         textMain:
             <>
@@ -2272,7 +2275,7 @@ const posts = [
         edited: '1 wrz 2020',
         textShort: 'Jaka jest idea ślubów humanistycznych? Dla kogo są ceremonie symboliczne i jakie dają możliwości? A także skąd u naszego gościa...',
         mainPic: {
-            src: require('./BlogPics/podcast.png').default
+            src: podcast
         },
         textMain:
             <>
@@ -2362,7 +2365,7 @@ const posts = [
         edited: '1 wrz 2020',
         textShort: 'W dzisiejszym odcinku rozmawiamy z Kingą - radcą prawym, współautorką bloga ŚlubnePotyczkiPrawne.pl. Podcast jest adresowany zarówno do par młodych jak i...',
         mainPic: {
-            src: require('./BlogPics/podcast.png').default
+            src: podcast
         },
         textMain:
             <>
@@ -2451,7 +2454,7 @@ const posts = [
         edited: '1 wrz 2020',
         textShort: 'Dziś porozmawiamy z naszym kolegą z branży Krzyśkiem Krzemińskiem - DJ-em Jegomościem. Pogadamy o tym, co Krzysiek lubi w swojej pracy, jak...',
         mainPic: {
-            src: require('./BlogPics/podcast.png').default
+            src: podcast
         },
         textMain:
             <>
@@ -2623,7 +2626,7 @@ const posts = [
         title: '#2 Hey Wedding - Angie i jej trzy śluby.',
         textShort: 'Dziś porozmawiamy z Angie o jej kameralnym weselu w stylu slow organizowanym w Polsce oraz wielkim hinduskim weselu i tradycjach...',
         mainPic: {
-            src: require('./BlogPics/podcast.png').default
+            src: podcast
         },
         textMain: <>
             Dziś porozmawiamy z <span className="bold mint">Angie</span> o jej kameralnym weselu w stylu slow organizowanym w Polsce oraz wielkim hinduskim weselu i tradycjach z nim związanych.
@@ -2646,7 +2649,7 @@ const posts = [
         title: '#1 Hey Wedding - Kasia i Marcin',
         textShort: 'Posłuchajcie naszego podcastu - Hey Wedding! W pierwszym odcinku rozmawiamy z jedną z naszych par. Kasia i Marcin mieli piękne...',
         mainPic: {
-            src: require('./BlogPics/podcast.png').default
+            src: podcast
         },
         textMain: <>
             Posłuchajcie naszego podcastu - <span className="bold mint">Hey Wedding!</span> W pierwszym odcinku rozmawiamy z jedną z naszych par. <span className="bold mint">Kasia i Marcin</span> mieli piękne wesele w Przystani Między Deskami.
@@ -3896,7 +3899,7 @@ const posts = [
         tag: "niezbędnik-przedslubny",
         textShort: "To nie tajemnica, że przyszła Panna Młoda o swojej sukni ślubnej marzy od wielu lat i wyobraża ją sobie na długo wcześniej przed tym wielkim dniem. Dla wielu kobiet idealna suknia ślubna jest...",
         mainPic: {
-            src: require('./BlogPics/Post3/post3.jpg').default,
+            src: post3pic
         },
         textMain:
             <>
@@ -3913,7 +3916,7 @@ const posts = [
                     </>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post3/post3a.jpg').default,
+                        src: post3picA,
                         author: "Małe Szare Studio"
                     }
                 ]
@@ -3935,7 +3938,7 @@ const posts = [
                     </>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post3/post3b.jpg').default,
+                        src: post3picB,
                         author: "Jakub Nowotyński"
                     }
                 ]
@@ -3951,7 +3954,7 @@ const posts = [
                     </>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post3/post3c.jpg').default,
+                        src: post3picC,
                         author: "Katarzyna Wosiak"
                     }
                 ]
@@ -3967,7 +3970,7 @@ const posts = [
                     </>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post3/post3d.jpg').default,
+                        src: post3picD,
                         author: "Ania Kopeć - Serdeczności"
                     }
                 ]
@@ -3999,7 +4002,7 @@ const posts = [
         tag: "niezbędnik-przedslubny",
         textShort: "Mało jest rzeczy, które budzą tyle emocji, co śluby i wesela. Mają jakąś magiczną moc wpędzania ludzi w amok – i nie mówię tu o Młodej Parze, u której to bardzo zrozumiałe, ale o gościach. Całkiem rozsądni na co dzień ludzie...",
         mainPic: {
-            src: require('./BlogPics/Post2/post2.jpg').default
+            src: post2pic1
         },
         textMain:
             <>
@@ -4008,7 +4011,7 @@ const posts = [
         content: [
             {
                 pics: [
-                    { src: require('./BlogPics/Post2/post2a.jpg').default },
+                    { src: post2pic2 },
                 ],
                 headerSmall: <span className="pink">1. Nie zakładać czegoś, w czym nie jest nam wygodnie.</span>,
                 text: "Pokutuje w nas przekonanie, a zwłaszcza wśród pań, że na wesele trzeba iść w czymś, w czym się jeszcze nigdy na innej imprezie nie było. Mam wrażenie, że kupno nowej sukienki specjalnie na tę okazję stało się obowiązkiem. A już pójście na dwa wesela w tym samym stroju postrzegane jest jako jedna z największych zbrodni. Dlatego przychodzimy w niewygodnych, nierozchodzonych butach, w nowej sukience, do której jednak nie zdążyłyśmy tak do końca schudnąć (ten pomysł nigdy nie wychodzi!) czy odkręcającej się spódnicy. Nie ma możliwości, żebyśmy dobrze wyglądały - dłużej niż przez kwadrans na wdechu – w czymś, co powoduje u nas dyskomfort. Tymczasem spokojnie można znaleźć wygodne ubrania, w których będziemy czuć się dobrze i przede wszystkim pozostaniemy sobą, a one nadal będą pasować do okazji. To nic złego, jeśli tę kreację będziemy nosić regularnie na wszystkie oficjalne uroczystości. Różnorodność możemy osiągnąć dzięki dodatkom."
@@ -4021,7 +4024,7 @@ const posts = [
                 headerSmall: <span className="pink">3. Nie narzekać.</span>,
                 text: "Lista tematów do narzekania jest długa i zawiera zwykle: u Baśki było lepiej/ile trzeba czekać na rosół/jak to nie ma drink-baru/nie wysilili się za bardzo/po co komu [wstawić dowolną atrakcję] /ciekawe kto za to wszystko płacił/strasznie brzydka sukienka, a podobno zapłaciła pięć tysięcy - i tak dalej. Nie da się policzyć ile takich rozmów/uwag podsłuchałam w toalecie albo podczas czekania na Młodą Parę. Uroczystości weselne rozkręciły się do niesamowitych rozmiarów. Wesele bez foto-budki, pokazu sztucznych ogni i porwania przez piratów wypada tak jakoś blado. Warto się jednak przy takiej okazji zatrzymać i zastanowić, o co tak naprawdę w tym dniu chodzi. I ugryźć się w język, bo nie dość, że takie uwagi są niegrzeczne i bardzo nie na miejscu, to i są sygnałem, że łykamy cały ten weselny konsumpcjonizm. Nigdy też nie wiemy, kto stoi za nami.",
                 pics: [
-                    { src: require('./BlogPics/Post2/post2b.jpg').default }
+                    { src: post2pic3 }
                 ]
             },
             {
@@ -4036,7 +4039,7 @@ const posts = [
                 headerSmall: <span className="pink">6. Nie wpychać się wszędzie z aparatem czy telefonem.</span>,
                 text: 'Po pierwsze, utrudnia to pracę fotografowi. Po drugie, odziera całe doświadczenie z magii – naszym zadaniem jest być i przeżywać, nie zrobić milion zdjęć. Amatorskie fotki mają swój urok i fajnie je sobie w jakimś mniej oficjalnym momencie przyjęcia zrobić, ale rzucanie się z obiektywem na recytującą przysięgę albo tańczącą pierwszy taniec Parę Młodą to nie jest dobry pomysł.',
                 pics: [
-                    { src: require('./BlogPics/Post2/post2c.jpg').default }
+                    { src: post2pic4 }
                 ]
             },
             {
@@ -4060,7 +4063,7 @@ const posts = [
         tag: "niezbędnik-przedslubny",
         textShort: "Organizując swój ślub i wesele, staracie się zaplanować każdy najdrobniejszy szczegół. Godzinami przeglądacie ślubne blogi, szukając inspiracji, oglądacie zdjęcia w poszukiwaniu idealnych kreacji, czytacie branżową prasę...",
         mainPic: {
-            src: require('./BlogPics/post1.jpg').default,
+            src: post1,
         },
         textMain:
             <>
