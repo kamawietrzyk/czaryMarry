@@ -1,0 +1,16 @@
+import post27picA from "../Post27/post27a.jpg"
+import post27picB from "../Post27/post27b.jpg"
+import post27picC from "../Post27/post27c.jpg"
+import post27picD from "../Post27/post27d.jpg"
+import post27picE from "../Post27/post27e.jpg"
+import post27picF from "../Post27/post27f.jpg"
+import post27picG from "../Post27/post27g.jpg"
+import post27picH from "../Post27/post27h.jpg"
+import post27picI from "../Post27/post27i.jpg"
+import post27picJ from "../Post27/post27j.jpg"
+import post27picK from "../Post27/post27k.jpg"
+import post27picL from "../Post27/post27l.jpg"
+import post27picM from "../Post27/post27m.jpg"
+import post27picN from "../Post27/post27n.jpg"
+
+export { post27picA, post27picB, post27picC, post27picD, post27picE, post27picF, post27picG, post27picH, post27picI, post27picJ, post27picK, post27picL, post27picM, post27picN }

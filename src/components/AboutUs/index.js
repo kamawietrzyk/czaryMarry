@@ -1,7 +1,6 @@
 import React from 'react';
 import './styles.scss';
-import kasia from './kasia.jpg';
-import ola from './ola.jpg';
+import { kasia, ola } from './pics';
 import ArrowToTop from '../ArrowToTop';
 import ScrollToTopOnMount from '../ScrollToTopOnMount';
 import URLS from '../../utils/urls'

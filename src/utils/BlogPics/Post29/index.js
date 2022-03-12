@@ -1,0 +1,15 @@
+import post29pic from "../Post29/post29.jpg"
+import post29picA from "../Post29/post29a.jpg"
+import post29picB from "../Post29/post29b.jpg"
+import post29picC from "../Post29/post29c.jpg"
+import post29picD from "../Post29/post29d.jpg"
+import post29picE from "../Post29/post29e.jpg"
+import post29picF from "../Post29/post29f.jpg"
+import post29picG from "../Post29/post29g.jpg"
+import post29picH from "../Post29/post29h.jpg"
+import post29picI from "../Post29/post29i.jpg"
+import post29picJ from "../Post29/post29j.jpg"
+import post29picK from "../Post29/post29k.jpg"
+import post29picL from "../Post29/post29l.jpg"
+
+export { post29pic, post29picA, post29picB, post29picC, post29picD, post29picE, post29picF, post29picG, post29picH, post29picI, post29picJ, post29picK, post29picL }

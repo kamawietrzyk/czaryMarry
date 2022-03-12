@@ -1,0 +1,18 @@
+import konsWro01 from "../Wrocław/konsultantki/konsultant-slubny-wroclaw-czary-marry-1.jpg"
+import konsWro02 from "../Wrocław/konsultantki/konsultant-slubny-wroclaw-czary-marry-2.jpg"
+import konsWro03 from "../Wrocław/konsultantki/konsultant-slubny-wroclaw-czary-marry-3.jpg"
+import konsWro04 from "../Wrocław/konsultantki/konsultant-slubny-wroclaw-czary-marry-4.jpg"
+import miejsWro01 from "../Wrocław/miejsca/czary-marry-agencja-slubna-wroclaw-1.jpg"
+import miejsWro02 from "../Wrocław/miejsca/czary-marry-agencja-slubna-wroclaw-2.jpg"
+import miejsWro03 from "../Wrocław/miejsca/czary-marry-agencja-slubna-wroclaw-3.jpg"
+import miejsWro04 from "../Wrocław/miejsca/czary-marry-agencja-slubna-wroclaw-4.jpg"
+import cus1Wro01 from "../Wrocław/custom1/czary-marry-wedding-planner-wroclaw-1.jpg"
+import cus1Wro02 from "../Wrocław/custom1/czary-marry-wedding-planner-wroclaw-2.jpg"
+import cus1Wro03 from "../Wrocław/custom1/czary-marry-wedding-planner-wroclaw-3.jpg"
+import cus1Wro04 from "../Wrocław/custom1/czary-marry-wedding-planner-wroclaw-4.jpg"
+import cus2Wro01 from "../Wrocław/custom2/konsultant-slubny-wroclaw-czary-marry-1.jpg"
+import cus2Wro02 from "../Wrocław/custom2/konsultant-slubny-wroclaw-czary-marry-2.jpg"
+import cus2Wro03 from "../Wrocław/custom2/konsultant-slubny-wroclaw-czary-marry-3.jpg"
+import cus2Wro04 from "../Wrocław/custom2/konsultant-slubny-wroclaw-czary-marry-4.jpg"
+
+export { konsWro01, konsWro02, konsWro03, konsWro04, miejsWro01, miejsWro02, miejsWro03, miejsWro04, cus1Wro01, cus1Wro02, cus1Wro03, cus1Wro04, cus2Wro01, cus2Wro02, cus2Wro03, cus2Wro04 }

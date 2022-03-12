@@ -7,6 +7,12 @@ import { main as AniaBenMain, slowWed01, slowWed02, slowWed03, slowWed04, slowWe
 
 import { main as PatrycjaPrzemekMain, cegCen01, cegCen02, cegCen03, cegCen04, cegCen05, cegJar01, cegJar02, cegJar03, cegJar04, cegJar05, cegJarOp01, cegJarOp02, cegJarOp03, cegJarOp04, cegJarOp05, cegWes01, cegWes02, cegWes03, cegWes04, cegWes05, cegWes06, cegWes07, cegWes08, cegWes09, cegWes10, cegWes11, cegWes12, cegWes13, cegWes14, cegWes15, cegWes16, cegWes17 } from './OurCouplesPics/PatrycjaPrzemek/index'
 
+import { main as AngelikaDanielMain, stKru01, stKru02, stKru03, stKru04, stKruSala01, stKruSala02, stKruSala03, stKruSala04, stKruSala05, stKruSala06, stKruSala07, stKruSala08, stKruStok01, stKruStok02, stKruStok03, stKruStok04, stKruStok05, stKruStok06, stKruStok07, stKruStok08, stKruWe01, stKruWe02, stKruWe03, stKruWe04, stKruWe06, stKruWe07, stKruWe08, stKruWe09, stKruWe10, stKruWe11, stKruWe12, stKruWe13, stKruWe14, stKruWe15, stKruWe16 } from "./OurCouplesPics/AngelikaDaniel/index"
+
+import { main as FoodTruckMain, ftWed01, ftWed02, ftWed03, ftWed04, ftWed05, ftWed06, ftWed07, ftWed08, ftWed09, ftWed10, ftWed11, ftWed12, ftWed13, ftWed14, ftWed15, ftWed16, ftWed16A, ftWed17, ftWed18, ftWed19, ftWed20, ftWed21, ftWed22, ftWed23, ftWed24, ftWed25, ftWed26, szelest, królleski, hasztagKawa, photoBus, vw, craicford, dym } from "./OurCouplesPics/FoodtruckWedding/index"
+
+import { olgPio01, olgPio02, olgPio03, olgPio04, olgPio05, olgPio06, olgPio07, olgPio14, olgPio15, olgPio16, olgPio17, olgPioVer01, olgPioVer02, olgPioVer03, olgPioVer04, olgPioVer05, olgPioVer06, olgPioVer07, olgPioVer08, olgPioVer09 } from './OurCouplesPics/OlgaPiotr/index'
+
 const weddings = [
     {
         bgColor: "bgDark",
@@ -248,7 +254,7 @@ const weddings = [
         minHeight: true,
         seoTitle: "Food truck wedding - food truck na wesele",
         mainPic: {
-            src: require('./OurCouplesPics/FoodtruckWedding/main-pic.JPG').default
+            src: FoodTruckMain
         },
         details: "Event branżowy połączony z sesją stylizowaną w stylu slow, czyli tak jak lubimy najbardziej. Garden party odbyło się w pałacowym ogrodzie, w którym stanęły pięknie odrestaurowane stare samochody. Nie zabrakło również dekoracji kwiatowych, stref chilloutu i dobrej muzyki.",
         org: "Agencja Ślubna Czary Marry",
@@ -267,14 +273,14 @@ const weddings = [
         textMain: "Był środek pandemii, zakaz organizacji wesel i kiepski rok dla par młodych i branży ślubnej. Wszyscy z niepokojem czekali na rozluźnienie obostrzeń, które miało nadejść lada moment. Pomyślałyśmy, że nie możemy stać w miejscu i warto zorganizować sesję stylizowaną… ale sesji nie lubimy. Brakuje w nich szczerych emocji par młodych, czyli tego, co w weselach lubimy najbardziej. Nieco bez przekonania zaczęliśmy szukać inspiracji.",
         topPic:
         {
-            src: require('./OurCouplesPics/FoodtruckWedding/food-truck-na-wesele-10.jpg').default,
+            src: ftWed10
         },
         content: [
             {
                 text: <>Wtedy pojawił się on, z czeluści internetu przemówił do nas swoim żółtym kolorem. Pięknie odnowione Renault Estafette o wdzięcznej nazwie <CustomOuterLink to="https://www.szelestbus.pl" text="Szelest Bus" className="linkMint" />. Jeszcze tego samego dnia napisaliśmy do Wojtka, właściciela Szelesta. Zapadła decyzja — robimy sesję stylizowaną food truck wedding. Bardzo szybko zorientowałyśmy się, organizacja sesji nie wykorzysta potencjału tego, co udało nam się zorganizować i należy zrobić kameralny event branżowy przypominający wesele i będący inspiracją dla par młodych. Dziś bazując na naszym foodtruckowym i wedding plannerskim doświadczeniu opowiemy Wam, jak zorganizować food truckowe wesele oraz o czym należy pamiętać, wybierając food truck na wesele.</>,
                 pics: [
                     {
-                        src: require('./OurCouplesPics/FoodtruckWedding/food-truck-na-wesele-01.jpg').default,
+                        src: ftWed01
                     },
                 ]
             },
@@ -286,16 +292,16 @@ const weddings = [
                     </>,
                 pics: [
                     {
-                        src: require('./OurCouplesPics/FoodtruckWedding/food-truck-na-wesele-02.jpg').default,
+                        src: ftWed02
                     },
                     {
-                        src: require('./OurCouplesPics/FoodtruckWedding/food-truck-na-wesele-03.JPG').default,
+                        src: ftWed03
                     },
                     {
-                        src: require('./OurCouplesPics/FoodtruckWedding/food-truck-na-wesele-04.jpg').default,
+                        src: ftWed04
                     },
                     {
-                        src: require('./OurCouplesPics/FoodtruckWedding/food-truck-na-wesele-05.jpg').default,
+                        src: ftWed05
                     },
                 ]
             },
@@ -311,13 +317,13 @@ const weddings = [
                     </ol></>,
                 pics: [
                     {
-                        src: require('./OurCouplesPics/FoodtruckWedding/food-truck-na-wesele-06.JPG').default,
+                        src: ftWed06
                     },
                     {
-                        src: require('./OurCouplesPics/FoodtruckWedding/food-truck-na-wesele-07.JPG').default,
+                        src: ftWed07
                     },
                     {
-                        src: require('./OurCouplesPics/FoodtruckWedding/food-truck-na-wesele-08.jpg').default,
+                        src: ftWed08
                     }
                 ]
             },
@@ -327,13 +333,13 @@ const weddings = [
                 text: "Food trucki od lat cieszą się popularnością w Polsce i za granicą. Na początku były tylko atrakcją, która przywędrowała do nas z Ameryki, dziś obsługują większość festiwali organizowanych na świeżym powietrzu, a w wielu miastach znajdziemy całe food truckowe strefy gastronomiczne. Nie powinno więc dziwić, że wiele par zaczęło je zapraszać również na własne wesela. Szlaki przetarły photo busy i prosecco vany, ale niebawem równie popularne stały się mobilne bary, różnego rodzaju fast foody, lodziarnie. Miałyśmy to szczęście, że nasz pomysł był na tyle oryginalny, że wszyscy wykonawcy, do których się zgłosiłyśmy, niemal od razu podłapali nasz pomysł i oferowali chęć do współpracy.",
                 pics: [
                     {
-                        src: require('./OurCouplesPics/FoodtruckWedding/food-truck-na-wesele-09.JPG').default,
+                        src: ftWed09
                     },
                     {
-                        src: require('./OurCouplesPics/FoodtruckWedding/food-truck-na-wesele-11.jpg').default,
+                        src: ftWed11
                     },
                     {
-                        src: require('./OurCouplesPics/FoodtruckWedding/food-truck-na-wesele-12.JPG').default,
+                        src: ftWed12
                     },
                 ]
             },
@@ -341,13 +347,13 @@ const weddings = [
                 text: <>O ile znalezienie wspomnianego foto busa, czy prosecco vana nie powinno być żadnym problemem, schody mogą się pojawić przy nieco mniej weselnych usługach. Na szczęście istnieją firmy, dysponujące sporą ilością zabytkowych aut przerobionych na mobilne bary i DJ-ki, czy lodziarnie. Tu polecamy Wam firmę <CustomOuterLink to="https://craicford.pl/uslugi/mobilne-bary/" text="Craicford" className="linkMint" />, którą zaprosiłyśmy do współpracy przy food truck wedding. Znajdziecie tam sporo pięknych klasyków, których funkcję możecie dostosować do własnych potrzeb.</>,
                 pics: [
                     {
-                        src: require('./OurCouplesPics/FoodtruckWedding/food-truck-na-wesele-13.jpg').default,
+                        src: ftWed13
                     },
                     {
-                        src: require('./OurCouplesPics/FoodtruckWedding/food-truck-na-wesele-14.JPG').default,
+                        src: ftWed14
                     },
                     {
-                        src: require('./OurCouplesPics/FoodtruckWedding/food-truck-na-wesele-15.JPG').default,
+                        src: ftWed15
                     },
                 ]
             },
@@ -355,13 +361,16 @@ const weddings = [
                 text: <>Najtrudniej będzie z typowymi truckami serwującymi street food oraz zarabiających głównie na dużych festiwalach. Często są to samochody bardzo mocno eksploatowane, a ich estetyka pozostawia wiele do życzenia. Poszukiwania nie były łatwe, ale udało się znaleźć kilka absolutnie przepięknych food trucków serwujących smaczne jedzenie. Szukałyśmy ich głównie na food truckowych grupach na Facebooku i uwierzcie nam, znalazło się kilka prawdziwych perełek. Wśród nich zasługujący na swoje miano <CustomOuterLink to="https://www.krolleskiburger.pl" text="Królleski Burger" className="linkMint" />. Piękny biały bus i przepyszne jedzenie, a za sterami dwójka przemiłych zapaleńców. Pamiętajcie, że tego typu samochody nie specjalizują się w weselach, często obsługują duże masowe imprezy lub mają stałą miejscówkę. Ściągniecie food trucka na wesele, wiąże się więc z nieco większymi kosztami. Przeszukajcie weselne portale, wybierzcie się na targi ślubne, szukajcie również w Google, w mediach społecznościowych oraz na grupach food truckowych.</>,
                 pics: [
                     {
-                        src: require('./OurCouplesPics/FoodtruckWedding/food-truck-na-wesele-16.jpg').default,
+                        src: ftWed16
                     },
                     {
-                        src: require('./OurCouplesPics/FoodtruckWedding/food-truck-na-wesele-16A.jpg').default,
+                        src: ftWed16A
                     },
                     {
-                        src: require('./OurCouplesPics/FoodtruckWedding/food-truck-na-wesele-17.jpg').default,
+                        src: ftWed17
+                    },
+                    {
+                        src: ftWed18
                     },
                 ]
             },
@@ -372,7 +381,7 @@ const weddings = [
                 text: <><span className="dark bold">1.</span> <CustomOuterLink to="https://www.szelestbus.pl" text="Szelest Bus" className="linkDark" /> - Czyli wcześniej wspomniana mobilna DJ-ka. To nie tylko piękny samochód, ale i świetny DJ za konsolą. Jego poczynania możecie obserwować na Facebooku i Instagramie, jest też bywalcem targów ślubnych. Ma doświadczenie w prowadzeniu wesel plenerowych, eventów często pary młode decydują się na jego obecność na poprawinach.</>,
                 pics: [
                     {
-                        src: require('./OurCouplesPics/FoodtruckWedding/SZELEST.jpg').default,
+                        src: szelest
                     },
                 ]
             },
@@ -380,7 +389,7 @@ const weddings = [
                 text: <><span className="dark bold">2.</span> <CustomOuterLink to="https://www.krolleskiburger.pl" text="Królleski Burger" className="linkDark" /> - To idealna opcja dla fanów wołowiny i pięknych samochodów. W menu znajdziecie pyszne burgery, stripsy, nuggetsy, sałatki i frytki. Chłopaki potrafią też w wege.</>,
                 pics: [
                     {
-                        src: require('./OurCouplesPics/FoodtruckWedding/KRÓLLESKI.JPG').default,
+                        src: królleski
                     },
                 ]
             },
@@ -388,7 +397,7 @@ const weddings = [
                 text: <><span className="dark bold">3.</span> <CustomOuterLink to="https://dymilustra.pl" text="Dym i lustra" className="linkDark" /> - Kiedy planowałyśmy nasz event, auto było jeszcze u mechanika, dziś widzimy je na wielu zdjęciach z pięknych wesel. Warto było na niego poczekać. Dym i lustra podbija branżę ślubną i nic dziwnego. To piękny samochód z szerokim asortymentem piw rzemieślniczych, drinków, koktajli i prosecco.</>,
                 pics: [
                     {
-                        src: require('./OurCouplesPics/FoodtruckWedding/DYM-I-LUSTRA.JPG').default,
+                        src: dym
                     },
                 ]
             },
@@ -396,7 +405,7 @@ const weddings = [
                 text: <><span className="dark bold">4.</span> <CustomOuterLink to="https://craicford.pl/uslugi/mobilne-bary/" text="Craicford" className="linkDark" /> - To w zasadzie wypożyczenia food trucków na wesele. W ofercie znajdziecie mobilne bary, fotobudki, DJ-ki, busy ze słodkościami, lodami i wiele innych. Powiedzcie Szymonowi jaki macie pomysł, a jesteśmy pewne, że znajdzie dla Was coś ekstra. My zdecydowałyśmy się na pyszne gofry i lody oraz przepięknego Citroena HY.</>,
                 pics: [
                     {
-                        src: require('./OurCouplesPics/FoodtruckWedding/CRAICFORD.JPG').default,
+                        src: craicford
                     },
                 ]
             },
@@ -404,7 +413,7 @@ const weddings = [
                 text: <><span className="dark bold">5.</span> <CustomOuterLink to="https://www.facebook.com/hasztagkawa" text="Hasztag kawa" className="linkDark" asFB /> - Czyli barista na wesele serwujący tzw. kawę specialty, uznaliśmy, że to niezbędny element naszej foodtruckowej układanki. Hasztag kawa uświetniła już niejedno wesele. Ten stary pocztowy mercedes zachwyca aromatem kawy i wyglądem.</>,
                 pics: [
                     {
-                        src: require('./OurCouplesPics/FoodtruckWedding/HASZTAG-KAWA.jpg').default,
+                        src: hasztagKawa
                     },
                 ]
             },
@@ -412,7 +421,7 @@ const weddings = [
                 text: <><span className="dark bold">6.</span> <CustomOuterLink to="https://photobus.pl" text="Photo bus" className="linkDark" /> - To auto, które przetarło weselne szlaki pozostałym. Kasia i Grzesiek kochają swój samochód i to, co robią. Piękny błękitny photo bus i Kasia w sukience w tym samym kolorze. Dbają o każdy detal, począwszy od dekoracji busa, a skończywszy na trosce i opiece nad gośćmi, którzy ich odwiedzają.</>,
                 pics: [
                     {
-                        src: require('./OurCouplesPics/FoodtruckWedding/PHOTO-BUS.jpg').default,
+                        src: photoBus
                     },
                 ]
             },
@@ -420,7 +429,7 @@ const weddings = [
                 text: <><span className="dark bold">7.</span> <CustomOuterLink to="https://www.facebook.com/elvispriscillavwlovers" text="Elvis & Priscilla VW Lovers" className="linkDark" asFB /> - Właścicielką tych pięknych volkswagenów jest Kasia  <CustomOuterLink to="https://wosiakfotografia.pl/" text="Wosiak" className="linkMint" />, fenomenalna fotografka ślubna. Kasię zaprosiliśmy do projektu ze względu na jej talent i zamiłowanie do fotografii, ale i Priscillę, czyli pięknego beżowego ogórka. Nam służył jako miejsce relaksu, sesji, ale również jako platforma do tańca. To również idealny transport dla pary młodej w dniu wesela.</>,
                 pics: [
                     {
-                        src: require('./OurCouplesPics/FoodtruckWedding/VW-LOVERS.JPG').default,
+                        src: vw
                     },
                 ]
             },
@@ -433,16 +442,16 @@ const weddings = [
                 text: <>Zbliżała się połowa września, a my z niepewnością czekaliśmy na prognozę pogody. Czy będzie padać, a może uda się i zorganizujemy food truck wedding pod gołym niebem? Pogoda była idealna. To był chyba najpiękniejszy dzień września. W ogrodzie stanęły food trucki oraz długi drewniany stół, krzesłami wspomogła nas <CustomOuterLink to="https://www.manufakturastaroci.pl" text="Manufaktura Staroci" className="linkMint" />, która przyjechała do nas z Krakowa z ciężarówką wypchaną po brzegi antycznymi meblami do strefy chilloutu. O dekorację stołów zadbała fenomenalna Magda z <CustomOuterLink to="http://pracowniazieleni.pl" text="Pracowni Zieleni" className="linkMint" />. Dodatkami wspomogły nas Manufaktura staroci oraz <CustomOuterLink to="https://slubnapodwiazka.com.pl/slubny-stol/" text="Ślubny stół" className="linkMint" />.</>,
                 pics: [
                     {
-                        src: require('./OurCouplesPics/FoodtruckWedding/food-truck-na-wesele-18.JPG').default,
+                        src: ftWed18
                     },
                     {
-                        src: require('./OurCouplesPics/FoodtruckWedding/food-truck-na-wesele-19.JPG').default,
+                        src: ftWed19
                     },
                     {
-                        src: require('./OurCouplesPics/FoodtruckWedding/food-truck-na-wesele-20.JPG').default,
+                        src: ftWed20
                     },
                     {
-                        src: require('./OurCouplesPics/FoodtruckWedding/food-truck-na-wesele-21.jpg').default,
+                        src: ftWed21
                     },
                 ]
             },
@@ -457,10 +466,10 @@ const weddings = [
                 </>,
                 pics: [
                     {
-                        src: require('./OurCouplesPics/FoodtruckWedding/food-truck-na-wesele-22.jpg').default,
+                        src: ftWed22
                     },
                     {
-                        src: require('./OurCouplesPics/FoodtruckWedding/food-truck-na-wesele-23.jpg').default,
+                        src: ftWed23
                     },
                 ]
             },
@@ -476,13 +485,13 @@ const weddings = [
                     </ol></>,
                 pics: [
                     {
-                        src: require('./OurCouplesPics/FoodtruckWedding/food-truck-na-wesele-24.JPG').default,
+                        src: ftWed24
                     },
                     {
-                        src: require('./OurCouplesPics/FoodtruckWedding/food-truck-na-wesele-25.jpg').default,
+                        src: ftWed25
                     },
                     {
-                        src: require('./OurCouplesPics/FoodtruckWedding/food-truck-na-wesele-26.JPG').default,
+                        src: ftWed26
                     },
                 ]
             },
@@ -509,7 +518,7 @@ const weddings = [
         seoTitle: "Stara Kruszarnia - wesele z motywem kosmicznym",
         seoText: "Marzy Ci się wesele w Starej Kruszarni? Zobacz jaki kosmiczny motyw wyczarowała w tym miejscu agencja ślubna Czary Marry.",
         mainPic: {
-            src: require('./OurCouplesPics/AngelikaDaniel/main.jpg').default
+            src: AngelikaDanielMain
         },
         details: "Angelika i Daniel zaufali nam i dali wolną rękę. Gdy dzieją się takie rzeczy, idziemy na całość i sięgamy gwiazd. Tak też stało się w tym przypadku. Kosmiczna energia udzieliła się wszystkim - parze młodej, gościom oraz obsłudze. Tego dnia Stara Kruszarnia zaświeciła tysiącem gwiazd.",
         org: "Agencja Ślubna Czary Marry",
@@ -520,11 +529,13 @@ const weddings = [
         photoLink: "https://www.facebook.com/yesidoweddingphotography",
         flowers: "Anello Decor",
         flowersLink: "https://www.facebook.com/anellodecor",
+        movie: "Paweł Sawski",
+        movieLink: "https://pawelsawski.pl/",
         date: "20 lut 2022",
         textMain: <>Ciężko nam sobie przypomnieć, kto wpadł na pomysł kosmicznego motywu przewodniego. Czy była to para młoda, florystka, czy my? Odmęty pamięci podpowiadają, że Angelika i Daniel zaufali nam i dali wolną rękę. Gdy dzieją się takie rzeczy, idziemy na całość i sięgamy gwiazd. Tak też stało się w tym przypadku. Kosmiczna energia udzieliła się wszystkim - parze młodej, gościom oraz obsłudze. Tego dnia <CustomOuterLink to="http://sk.kopalniazlota.pl/wesela/" text="Stara Kruszarnia" className="linkPink" /> zaświeciła tysiącem gwiazd.</>,
         topPic:
         {
-            src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-wesele-01.jpg').default,
+            src: stKruWe01
         },
         content: [
             {
@@ -534,25 +545,25 @@ const weddings = [
                     <>Każdy, kto planuje <Link to={generatePath(URLS.LANDING, { path: 'organizacja-wesel-wroclaw' })} className="linkPink">wesele na Dolnym Śląsku</Link> i marzy o pięknej sali otoczonej lasem, powinien odwiedzić Starą Kruszarnię w Złotym Stoku. To jedno z najbardziej plastycznych miejsc weselnych, jakie znamy. Co to znaczy? Można tam wyczarować absolutnie wszystko. Ceglane wnętrze Starej Kruszarni może być tłem dla przeróżnych motywów przewodnich i stylów. Nas zachwyca nie tylko wnętrzem, ale również otwartością właścicieli oraz managera, pięknym otoczeniem i pyszną kuchnią, a od niedawna również klimatyczną strefą chilloutu. To samo urzekło Angelikę i Daniela, a ich wybór <CustomOuterLink to="http://sk.kopalniazlota.pl/wesela/" text="Starej Kruszarni" className="linkPink" /> był praktycznie tylko formalnością.</>,
                 pics: [
                     {
-                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-wesele-02.jpg').default,
+                        src: stKruWe02
                     },
                     {
-                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-wesele-03.jpg').default,
+                        src: stKruWe03
                     },
                     {
-                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-wesele-04.jpg').default,
+                        src: stKruWe04
                     },
                     {
-                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-wesele-06.jpg').default,
+                        src: stKruWe06
                     },
                     {
-                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-wesele-07.jpg').default,
+                        src: stKruWe07
                     },
                     {
-                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-wesele-08.jpg').default,
+                        src: stKruWe08
                     },
                     {
-                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-wesele-09.jpg').default,
+                        src: stKruWe09
                     },
                 ]
             },
@@ -562,25 +573,25 @@ const weddings = [
                 text: <>Postanowiliśmy, że pójdziemy o krok dalej i nie będziemy się trzymać utartych schematów. Stworzymy własną interpretację kosmicznego wesela, nawiązując jednocześnie do jesieni, która wkradała się przez okna i drzwi Starej Kruszarni. Integralną częścią sali jest jej otoczenie. Nie mogliśmy go zignorować. Wraz z Anetą z <CustomPostLink path="12-hey-wedding-podcast-dekoracje-slubne-florystyka" text="Anello Decor" className="linkPink" /> oraz panną młodą skrupulatnie doprecyzowywałyśmy wizję i dobierałyśmy dodatki. Postanowiliśmy na pampasowy księżyc przy stole pary młodej, lustra z pampasowymi promieniami, przypominające gwiazdy i zawieszone pod sufitem. Była również kurtyna świetlna za parą młodą świecąca tysiącem drobnych lampek oraz ledowe gwiazdki. Wszystko to tworzyło niesamowity klimat po zmroku. Na stołach stanęły wysokie kompozycje w kolorach bordo. Całość uzupełniły złote podtalerze oraz sztućce, kamienie z ozdobną kaligrafią i granatowe kieliszki.</>,
                 pics: [
                     {
-                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-wesele-10.jpg').default,
+                        src: stKruWe10
                     },
                     {
-                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-wesele-11.jpg').default,
+                        src: stKruWe11
                     },
                     {
-                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-wesele-12.jpg').default,
+                        src: stKruWe12
                     },
                     {
-                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-wesele-13.jpg').default,
+                        src: stKruWe13
                     },
                     {
-                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-wesele-14.jpg').default,
+                        src: stKruWe14
                     },
                     {
-                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-wesele-15.jpg').default,
+                        src: stKruWe15
                     },
                     {
-                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-wesele-16.jpg').default,
+                        src: stKruWe16
                     },
                 ]
             },
@@ -590,22 +601,22 @@ const weddings = [
                 text: <>Stara Kruszarnia to jedna z najpiękniej położonych sal weselnych na Dolnym Śląsku. Samo miejsce przeznaczone na ceremonię powala. Jest to przestrzeń otoczona lasem, gdzie korony drzew tworzą baldachim, przez który przedziera się słońce. Bardzo często po zmroku rozpalane jest tak ognisko. Angelika i Daniel zdecydowali się na ceremonię humanistyczną, którą poprowadził  <CustomOuterLink to="https://djglosny.pl/celebrant-slubny/" text="celebrant ślubny Maciej Głos" className="linkPink" />. Było romantycznie i wzruszająco. Piękne otoczenie wprawiało gości w niesamowity nastrój, otaczając ich jesienną aurą.</>,
                 pics: [
                     {
-                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-01.jpg').default,
+                        src: stKru01
                     },
                     {
-                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-02.jpg').default,
+                        src: stKru02
                     },
                     {
-                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-03.jpg').default,
+                        src: stKru03
                     },
                     {
-                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-04.jpg').default,
+                        src: stKru04
                     },
                     {
-                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-sala-weselna-01.jpg').default,
+                        src: stKruSala01
                     },
                     {
-                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-sala-weselna-02.jpg').default,
+                        src: stKruSala02
                     },
                 ]
             },
@@ -615,22 +626,22 @@ const weddings = [
                 text: "Poza wcześniej wspomnianą przestrzenią na zewnątrz Starej Kruszarni, gdzie można ogrzać się przy ognisku i pobujać w hamaku ma ona jeszcze jednego asa w rękawie. Piętro niżej sali jadalnej znajduje się strefa chilloutu z barem. To idealne miejsce, żeby odpocząć, spokojnie porozmawiać, napić się kawy. Jest przytulnie i klimatycznie, a co najważniejsze nie trzeba się przejmować pogodą panującą na zewnątrz jak przy zewnętrznych strefach relaksu.",
                 pics: [
                     {
-                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-sala-weselna-03.jpg').default,
+                        src: stKruSala03
                     },
                     {
-                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-sala-weselna-04.jpg').default,
+                        src: stKruSala04
                     },
                     {
-                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-sala-weselna-05.jpg').default,
+                        src: stKruSala05
                     },
                     {
-                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-sala-weselna-06.jpg').default,
+                        src: stKruSala06
                     },
                     {
-                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-sala-weselna-07.jpg').default,
+                        src: stKruSala07
                     },
                     {
-                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-sala-weselna-08.jpg').default,
+                        src: stKruSala08
                     },
                 ]
             },
@@ -640,37 +651,37 @@ const weddings = [
                 text: <>Nie znamy wykonawcy ślubnego, który nie lubiłby Starej Kruszarni. W Złotym Stoku można się zakochać, góry, lasy, cisza i spokój. Co prawda nasza ekipa nie szukała spokoju, to była raczej prawdziwa petarda energetyczna. Za konsolą aż dwóch DJ ów i to nie byle jakich — <CustomPostLink path="3-hey-wedding-ciekawe-przypadki-dj-a-jegomościa" text="DJ Jegomość" className="linkPink" /> i <CustomOuterLink to="https://djglosny.pl" text="DJ Głośny" className="linkPink" />, a na dokładkę <CustomOuterLink to="https://www.facebook.com/LudwickiLukasz/" text="Łukasz Ludwicki" className="linkPink" asFB /> na saksofonie. Team film i foto również zarażał wszystkich pozytywną energią. Klaudia z <CustomOuterLink to="https://www.facebook.com/yesidoweddingphotography" text="Yes, I Do Photography" className="linkPink" asFB /> przy wsparciu <CustomOuterLink to="https://ohstorytellers.com" text="Jacka Olszewskiego" className="linkPink" /> wykonali piękne zdjęcia. Za film odpowiedzialny był <CustomOuterLink to="https://pawelsawski.pl" text="Paweł Sawski" className="linkPink" />. Dekoracjami zajęła się wcześniej wspomniana Aneta z Anello Decor, a słodki stół i tort przygotowała Natalia z <CustomPostLink path="14-hey-wedding-o-tort-i-słodkości-weselne" text="Torty po Twojemu" className="linkPink" />. Nad całą organizacją wesela czuwaliśmy oczywiście my - <Link to={URLS.HOME} className="linkPink">Czary Marry</Link>. Mamy wrażenie, że tego dnia wszyscy nakręciliśmy się pozytywnie, a nasza kosmiczna energia rozsadzała Starą Kruszarnię.</>,
                 pics: [
                     {
-                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-zloty-stok-01.jpg').default,
+                        src: stKruStok01
                     },
                     {
-                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-zloty-stok-02.jpg').default,
+                        src: stKruStok02
                     },
                     {
-                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-zloty-stok-03.jpg').default,
+                        src: stKruStok03
                     },
                     {
-                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-zloty-stok-04.jpg').default,
+                        src: stKruStok04
                     },
                     {
-                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-zloty-stok-05.jpg').default,
+                        src: stKruStok05
                     },
                     {
-                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-zloty-stok-06.jpg').default,
+                        src: stKruStok06
                     },
                     {
-                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-zloty-stok-07.jpg').default,
+                        src: stKruStok07
                     },
                 ]
             },
             {
                 headerSmall: "Para Młoda na medal.",
                 headerClassName: "grey",
-                text: <>Mamy niesamowite szczęście do ludzi, trafiamy na super pary, we współpracy stawiamy na pozytywne relacje. To wszystko powoduje, że efekty są spektakularne. Dzięki otwartości Angeliki i Daniela udało się znaleźć niesamowite miejsce, wspaniałą ekipę oraz wyczarować coś niepowtarzalnego, co stało się inspiracją dla wielu par młodych. Udowadniamy, że można połączyć dwa bardzo wyraziste motywy jak jesień oraz kosmos w jedną spójną całość. O naszej weselnej przygodzie możecie posłuchać więcej w <CustomPostLink path="19-hey-wedding-ekipa-marzen-i-kosmiczne-wesele" text='19 odcinku podcastu “Hey wedding”' className="linkPink" />.<br /><br />
+                text: <>Mamy niesamowite szczęście do ludzi, trafiamy na super pary, we współpracy stawiamy na pozytywne relacje. To wszystko powoduje, że efekty są spektakularne. Dzięki otwartości Angeliki i Daniela udało się znaleźć niesamowite miejsce, wspaniałą ekipę oraz wyczarować coś niepowtarzalnego, co stało się inspiracją dla wielu par młodych. Udowadniamy, że można połączyć dwa bardzo wyraziste motywy jak jesień oraz kosmos w jedną spójną całość. O naszej weselnej przygodzie możecie posłuchać więcej w <CustomPostLink path="19-hey-wedding-ekipa-marzen-i-kosmiczne-wesele" text='19 odcinku podcastu “Hey wedding”' className="linkPink" />, a film z wesela Angeliki i Daniela zobaczycie <CustomOuterLink to="https://www.youtube.com/watch?v=qPfVAO1t-ZM" text="tutaj" className="linkPink" />.<br /><br />
                     Nasi potencjalni klienci często pytają nas, jaki mamy styl oraz jakie wesela lubimy najbardziej. Nasze realizacje i ich klimat jest podyktowany tym, czego oczekuje od nas para młoda. To dlatego w naszym portfolio znajdziecie tak różne wesela. Tydzień po kosmicznym weselu Angeliki i Daniela w Starej Kruszarni, odbyło się piękne <span className="bold grey">jesienne przyjęcie Magdy i Szymona</span> w tym samym miejscu. Tym razem postawiłyśmy na kaktusy i letnie intensywne kolory, które pięknie łączyły się z kolorami złotej polskiej jesieni. Tym samym udowodniłyśmy, że Stara Kruszarnia jest miejscem niezwykle plastycznym i mimo swojego wyrazistego klimatu neutralnym.
                 </>,
                 pics: [
                     {
-                        src: require('./OurCouplesPics/AngelikaDaniel/stara-kruszarnia-zloty-stok-08.jpg').default,
+                        src: stKruStok08
                     },
                 ]
             },
@@ -880,217 +891,31 @@ const weddings = [
         flowers: "Anello Decor",
         flowersLink: "https://www.facebook.com/anellodecor/",
         photos: {
-            pic1: require('./OurCouplesPics/OlgaPiotr/01.jpg').default,
-            pic2: require('./OurCouplesPics/OlgaPiotr/03.jpg').default,
-            pic3: require('./OurCouplesPics/OlgaPiotr/02.jpg').default,
-            pic4: require('./OurCouplesPics/OlgaPiotr/04.jpg').default,
-            pic5: require('./OurCouplesPics/OlgaPiotr/05.jpg').default,
-            pic6: require('./OurCouplesPics/OlgaPiotr/07.jpg').default,
-            pic7: require('./OurCouplesPics/OlgaPiotr/06.jpg').default,
-            pic14: require('./OurCouplesPics/OlgaPiotr/14.jpg').default,
-            pic15: require('./OurCouplesPics/OlgaPiotr/15.jpg').default,
-            pic16: require('./OurCouplesPics/OlgaPiotr/16.jpg').default,
-            pic17: require('./OurCouplesPics/OlgaPiotr/17.jpg').default,
-            picVer1: require('./OurCouplesPics/OlgaPiotr/ver3.jpg').default,
-            picVer2: require('./OurCouplesPics/OlgaPiotr/ver2.jpg').default,
-            picVer3: require('./OurCouplesPics/OlgaPiotr/ver1.jpg').default,
-            picVer4: require('./OurCouplesPics/OlgaPiotr/ver4.jpg').default,
-            picVer6: require('./OurCouplesPics/OlgaPiotr/ver7.jpg').default,
-            picVer7: require('./OurCouplesPics/OlgaPiotr/ver6.jpg').default,
-            picVer8: require('./OurCouplesPics/OlgaPiotr/ver8.jpg').default,
-            picVer9: require('./OurCouplesPics/OlgaPiotr/ver9.jpg').default,
-            picVer10: require('./OurCouplesPics/OlgaPiotr/ver5.jpg').default,
+            pic1: olgPio01,
+            pic2: olgPio03,
+            pic3: olgPio02,
+            pic4: olgPio04,
+            pic5: olgPio05,
+            pic6: olgPio07,
+            pic7: olgPio06,
+            pic14: olgPio14,
+            pic15: olgPio15,
+            pic16: olgPio16,
+            pic17: olgPio17,
+            picVer1: olgPioVer03,
+            picVer2: olgPioVer02,
+            picVer3: olgPioVer01,
+            picVer4: olgPioVer04,
+            picVer6: olgPioVer07,
+            picVer7: olgPioVer06,
+            picVer8: olgPioVer08,
+            picVer9: olgPioVer09,
+            picVer10: olgPioVer05,
             classNameOne: "twoVertHoriz",
             classNameThree: "twoVertHorizFlipped",
             classNameFour: "twoVertHorizFlipped"
         }
     },
-    {
-        bgColor: "bgMint",
-        title: "Ewelina & Łukasz",
-        details: <><CustomPostLink text="Ślub kościelny" path="dokumenty-do-slubu-koscielnego-konkordatowego" className="bold" /> w cudownej parkowej scenerii. Srebro, transparentność, morze kwiatów i namiot. Glamour w najczystszej formie, łączący się z pięknem otaczającej natury.</>,
-        org: "Agencja Ślubna Czary Marry",
-        orgLink: "",
-        place: "Pałac Pstrokonie",
-        placeLink: "http://palac-pstrokonie.pl/",
-        photo: "Wawrzykowski Team",
-        photoLink: "https://wawrzykowski.pl/",
-        flowers: "Florodesign",
-        flowersLink: "https://floro.pl/",
-        photos: {
-            pic1: require('./OurCouplesPics/EwelinaLukasz/01.jpg').default,
-            pic2: require('./OurCouplesPics/EwelinaLukasz/04.jpg').default,
-            pic4: require('./OurCouplesPics/EwelinaLukasz/06.jpg').default,
-            pic5: require('./OurCouplesPics/EwelinaLukasz/07.jpg').default,
-            pic6: require('./OurCouplesPics/EwelinaLukasz/16.jpg').default,
-            pic7: require('./OurCouplesPics/EwelinaLukasz/09.jpg').default,
-            pic8: require('./OurCouplesPics/EwelinaLukasz/11.jpg').default,
-            pic9: require('./OurCouplesPics/EwelinaLukasz/13.jpg').default,
-            pic10: require('./OurCouplesPics/EwelinaLukasz/15.jpg').default,
-            pic11: require('./OurCouplesPics/EwelinaLukasz/08.jpg').default,
-            pic12: require('./OurCouplesPics/EwelinaLukasz/05.jpg').default,
-            pic14: require('./OurCouplesPics/EwelinaLukasz/03.jpg').default,
-            pic15: require('./OurCouplesPics/EwelinaLukasz/02.jpg').default,
-            pic17: require('./OurCouplesPics/EwelinaLukasz/10.jpg').default,
-            pic18: require('./OurCouplesPics/EwelinaLukasz/12.jpg').default,
-            pic19: require('./OurCouplesPics/EwelinaLukasz/14.jpg').default,
-            picVer3: require('./OurCouplesPics/EwelinaLukasz/ver1.jpg').default,
-            classNameTwo: "threeHorizFlipped",
-            classNameFive: "threeHoriz"
-        }
-    },
-    {
-        bgColor: "bgGrey",
-        title: "Nelli & Piotr",
-        details: "Wesele w stodole. Romantyczne dekoracje, piękna pogoda i strefa chill z barmanem na zewnątrz, a w niedzielę brunch połączony z leżakowaniem na trawie.",
-        org: "Agencja Ślubna Czary Marry",
-        orgLink: "",
-        place: "Folwark Wąsowo",
-        placeLink: "Folwark Wąsowo",
-        photo: "Svetlana Bennington",
-        photoLink: "http://svetlanabennington.com/",
-        flowers: "ArtSize",
-        flowersLink: "http://www.artsize.pl/",
-        photos: {
-            pic1: require('./OurCouplesPics/NellyPiotr/01.JPG').default,
-            pic2: require('./OurCouplesPics/NellyPiotr/02.JPG').default,
-            pic3: require('./OurCouplesPics/NellyPiotr/03.JPG').default,
-            pic4: require('./OurCouplesPics/NellyPiotr/04.JPG').default,
-            pic5: require('./OurCouplesPics/NellyPiotr/05.JPG').default,
-            pic6: require('./OurCouplesPics/NellyPiotr/06.JPG').default,
-            pic7: require('./OurCouplesPics/NellyPiotr/07.JPG').default,
-            pic10: require('./OurCouplesPics/NellyPiotr/11.JPG').default,
-            pic11: require('./OurCouplesPics/NellyPiotr/10.JPG').default,
-            pic12: require('./OurCouplesPics/NellyPiotr/12.JPG').default,
-            pic13: require('./OurCouplesPics/NellyPiotr/13.JPG').default,
-            pic16: require('./OurCouplesPics/NellyPiotr/16.JPG').default,
-            pic17: require('./OurCouplesPics/NellyPiotr/17.JPG').default,
-            pic18: require('./OurCouplesPics/NellyPiotr/18.JPG').default,
-            pic19: require('./OurCouplesPics/NellyPiotr/19.JPG').default,
-            picVer1: require('./OurCouplesPics/NellyPiotr/ver01.jpg').default,
-            picVer2: require('./OurCouplesPics/NellyPiotr/ver02.jpg').default,
-            picVer3: require('./OurCouplesPics/NellyPiotr/ver03.jpg').default,
-            picVer4: require('./OurCouplesPics/NellyPiotr/ver07.jpg').default,
-            picVer5: require('./OurCouplesPics/NellyPiotr/ver06.jpg').default,
-            picVer6: require('./OurCouplesPics/NellyPiotr/ver04.jpg').default,
-            picVer7: require('./OurCouplesPics/NellyPiotr/ver8.jpg').default,
-            classNameOne: "twoVertHorizFlipped",
-            classNameTwo: "threeHoriz",
-            classNameThree: "twoVertHorizFlipped",
-            classNameFive: "threeHorizFlipped"
-        }
-    },
-    {
-        bgColor: "bgPink",
-        title: "Basia & Mariusz",
-        details: "Jesienne wesela mają w sobie magię. Mimo że za oknem zimno i szaro, nam udało się wyczarować niezwykły klimat. Pomógł nam półmrok za oknem, światło świec i odważne połączenie kolorów.",
-        org: "Agencja Ślubna Czary Marry",
-        orgLink: "",
-        place: "Rezydencja Miętowe Wzgórza",
-        placeLink: "http://www.mietowewzgorza.pl/wesela.html",
-        photo: "Marta Brodziak",
-        photoLink: "http://martabrodziak.com/",
-        movie: "MW Jackiewicz",
-        movieLink: "http://www.mwjackiewicz.com/",
-        flowers: "Unique",
-        flowersLink: "https://www.facebook.com/unique.pracownia/",
-        photos: {
-            pic1: require('./OurCouplesPics/BasiaMariusz/02.jpg').default,
-            pic2: require('./OurCouplesPics/BasiaMariusz/01.jpg').default,
-            pic3: require('./OurCouplesPics/BasiaMariusz/03.jpg').default,
-            pic4: require('./OurCouplesPics/BasiaMariusz/04.jpg').default,
-            pic5: require('./OurCouplesPics/BasiaMariusz/05.jpg').default,
-            pic6: require('./OurCouplesPics/BasiaMariusz/09.jpg').default,
-            pic7: require('./OurCouplesPics/BasiaMariusz/11.jpg').default,
-            pic8: require('./OurCouplesPics/BasiaMariusz/12.jpg').default,
-            pic9: require('./OurCouplesPics/BasiaMariusz/13.jpg').default,
-            pic10: require('./OurCouplesPics/BasiaMariusz/06.jpg').default,
-            pic11: require('./OurCouplesPics/BasiaMariusz/08.jpg').default,
-            pic12: require('./OurCouplesPics/BasiaMariusz/07.jpg').default,
-            pic16: require('./OurCouplesPics/BasiaMariusz/10.jpg').default,
-            pic17: require('./OurCouplesPics/BasiaMariusz/14.jpg').default,
-            picVer1: require('./OurCouplesPics/BasiaMariusz/ver3.jpg').default,
-            picVer2: require('./OurCouplesPics/BasiaMariusz/ver1.jpg').default,
-            picVer3: require('./OurCouplesPics/BasiaMariusz/ver2.jpg').default,
-            picVer6: require('./OurCouplesPics/BasiaMariusz/ver5.jpg').default,
-            picVer7: require('./OurCouplesPics/BasiaMariusz/ver4.jpg').default,
-            picVer8: require('./OurCouplesPics/BasiaMariusz/ver6.jpg').default,
-            picVer9: require('./OurCouplesPics/BasiaMariusz/ver7.jpg').default,
-            classNameOne: "twoVertHoriz",
-            classNameTwo: "threeHoriz",
-            classNameThree: "twoVertHorizFlipped",
-            classNameFour: "twoVertHorizFlipped"
-        }
-    },
-    {
-        bgColor: "bgGrey",
-        title: "Marta & Marek",
-        details: "Nowoczesność, elegancja, minimalizm i 1000 kalii.",
-        org: "Agencja Ślubna Czary Marry",
-        orgLink: "",
-        place: "Hotel Wodnik",
-        placeLink: "http://wodnik-hotel.pl/",
-        photo: "Bauaban Fotografia",
-        photoLink: "https://bauaban.com/",
-        flowers: "ArtSize",
-        flowersLink: "http://www.artsize.pl/",
-        photos: {
-            pic1: require('./OurCouplesPics/MartaMarek/01.jpg').default,
-            pic2: require('./OurCouplesPics/MartaMarek/02.jpg').default,
-            pic4: require('./OurCouplesPics/MartaMarek/04.jpg').default,
-            pic5: require('./OurCouplesPics/MartaMarek/05.jpg').default,
-            pic6: require('./OurCouplesPics/MartaMarek/06.jpg').default,
-            pic7: require('./OurCouplesPics/MartaMarek/07.jpg').default,
-            pic8: require('./OurCouplesPics/MartaMarek/08.jpg').default,
-            pic9: require('./OurCouplesPics/MartaMarek/09.jpg').default,
-            pic10: require('./OurCouplesPics/MartaMarek/10.jpg').default,
-            pic11: require('./OurCouplesPics/MartaMarek/12.jpg').default,
-            pic12: require('./OurCouplesPics/MartaMarek/11.jpg').default,
-            pic13: require('./OurCouplesPics/MartaMarek/13.jpg').default,
-            pic14: require('./OurCouplesPics/MartaMarek/14.jpg').default,
-            pic15: require('./OurCouplesPics/MartaMarek/15.jpg').default,
-            picVer3: require('./OurCouplesPics/MartaMarek/ver3.jpg').default,
-            picVer4: require('./OurCouplesPics/MartaMarek/ver4.jpg').default,
-            picVer5: require('./OurCouplesPics/MartaMarek/ver5.jpg').default,
-            classNameTwo: "threeHoriz"
-        }
-    },
-    {
-        bgColor: "bgMint",
-        title: "Angie & Akshar",
-        details: "To było typowe slow wedding. Goście spędzali czas na zewnątrz rozmawiając, grając w gry, popijając drinki. Było kameralnie i rodzinnie, czyli tak jak lubimy najbardziej.",
-        org: "Agencja Ślubna Czary Marry",
-        orgLink: "",
-        place: "Folwark Białych Bocianów",
-        placeLink: "https://www.folwarkbb.com/",
-        photo: "Greg Solak",
-        photoLink: "http://www.gregsolak.pl/Blog/",
-        movie: "Greg Solak",
-        movieLink: "http://www.gregsolak.pl/Blog/",
-        flowers: "Marlena Chustecka",
-        flowersLink: "https://www.facebook.com/pages/category/Artist/Chustecka-Marlena-1077253032301187/",
-        photos: {
-            pic1: require('./OurCouplesPics/AngieAkshar/01.jpg').default,
-            pic2: require('./OurCouplesPics/AngieAkshar/02.jpg').default,
-            pic4: require('./OurCouplesPics/AngieAkshar/04.jpg').default,
-            pic5: require('./OurCouplesPics/AngieAkshar/05.jpg').default,
-            pic6: require('./OurCouplesPics/AngieAkshar/06.jpg').default,
-            pic7: require('./OurCouplesPics/AngieAkshar/07.jpg').default,
-            pic8: require('./OurCouplesPics/AngieAkshar/08.jpg').default,
-            pic9: require('./OurCouplesPics/AngieAkshar/09.jpg').default,
-            pic10: require('./OurCouplesPics/AngieAkshar/10.jpg').default,
-            pic11: require('./OurCouplesPics/AngieAkshar/11.jpg').default,
-            pic12: require('./OurCouplesPics/AngieAkshar/12.jpg').default,
-            pic14: require('./OurCouplesPics/AngieAkshar/14.jpg').default,
-            pic15: require('./OurCouplesPics/AngieAkshar/15.jpg').default,
-            pic17: require('./OurCouplesPics/AngieAkshar/17.jpg').default,
-            pic18: require('./OurCouplesPics/AngieAkshar/18.jpg').default,
-            pic19: require('./OurCouplesPics/AngieAkshar/19.jpg').default,
-            picVer10: require('./OurCouplesPics/AngieAkshar/ver10.jpg').default,
-            classNameTwo: "threeHorizFlipped",
-            classNameFive: "threeHoriz"
-        }
-    }
 ]
 
 export default weddings
