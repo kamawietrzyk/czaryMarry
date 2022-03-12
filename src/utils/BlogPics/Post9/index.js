@@ -5,6 +5,5 @@ import post9picC from "../Post9/post9c.jpg"
 import post9picD from "../Post9/post9d.jpg"
 import post9picE from "../Post9/post9e.jpg"
 import post9picF from "../Post9/post9f.jpg"
-import post9picG from "../Post9/post9g.jpg"
 
-export { post9pic, post9picA, post9picB, post9picC, post9picD, post9picE, post9picF, post9picG }
+export { post9pic, post9picA, post9picB, post9picC, post9picD, post9picE, post9picF }

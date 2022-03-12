@@ -9,4 +9,4 @@ import post32picŚlObc from "../Post32/post32 - ślub z obcokrajowcem.jpeg"
 import post32picWyObrŚlCy from "../Post32/post32 - wymiana obrączek ślub cywilny.jpeg"
 import post32picWyObr from "../Post32/post32 - wymiana obrączek.jpeg"
 
-export { post32picObr, post32picWyObr, post32picWyObrŚlCy, post32picŚlKość, post32picŚlKośćObc, post32picŚlKośćPle, post32picŚlKośćPrzy, post32picŚlKośćZi, post32picŚlObc, post32picŚlPle, post32picObr }
+export { post32picObr, post32picWyObr, post32picWyObrŚlCy, post32picŚlKość, post32picŚlKośćObc, post32picŚlKośćPle, post32picŚlKośćPrzy, post32picŚlKośćZi, post32picŚlObc, post32picŚlPle }

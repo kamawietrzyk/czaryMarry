@@ -1,4 +1,3 @@
-import post27pic from "../Post27/post27.jpg"
 import post27picA from "../Post27/post27a.jpg"
 import post27picB from "../Post27/post27b.jpg"
 import post27picC from "../Post27/post27c.jpg"
@@ -14,4 +13,4 @@ import post27picL from "../Post27/post27l.jpg"
 import post27picM from "../Post27/post27m.jpg"
 import post27picN from "../Post27/post27n.jpg"
 
-export { post27pic, post27picA, post27picB, post27picC, post27picD, post27picE, post27picF, post27picG, post27picH, post27picI, post27picJ, post27picK, post27picL, post27picM, post27picN }
+export { post27picA, post27picB, post27picC, post27picD, post27picE, post27picF, post27picG, post27picH, post27picI, post27picJ, post27picK, post27picL, post27picM, post27picN }

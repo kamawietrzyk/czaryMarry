@@ -7,6 +7,39 @@ import URLS from './urls'
 import { podcast, post1 } from './BlogPics/index'
 import { post2pic1, post2pic2, post2pic3, post2pic4 } from './BlogPics/Post2/index'
 import { post3pic, post3picA, post3picB, post3picC, post3picD } from './BlogPics/Post3/index'
+import { post4pic, post4picA, post4picB, post4picC, post4picD, post4picE } from "./BlogPics/Post4/index"
+import { post5pic, post5picA, post5picB, post5picC, post5picD, post5picE, post5picF, post5picG } from "./BlogPics/Post5/index"
+import { post7pic, post7picA, post7picB, post7picC, post7picD, post7picE } from "./BlogPics/Post7/index"
+import { post8pic, post8picA, post8picB } from "./BlogPics/Post8/index"
+import { post9pic, post9picA, post9picB, post9picC, post9picD, post9picE, post9picF } from "./BlogPics/Post9/index"
+import { post10pic, post10picA } from "./BlogPics/Post10/index"
+import { post11pic, post11picA, post11picB, post11picC, post11picD, post11picE, post11picF } from "./BlogPics/Post11/index"
+import { post12pic, post12picA, post12picB, post12picC, post12picD } from "./BlogPics/Post12/index"
+import { post13pic, post13picA, post13picB, post13picC, post13picD } from "./BlogPics/Post13/index"
+import { post14pic, post14picA, post14picB, post14picC, post14picD, post14picE } from "./BlogPics/Post14/index"
+import { post15pic, post15picA, post15picB, post15picC, post15picD } from "./BlogPics/Post15/index"
+import { post16pic, post16picA, post16picB, post16picC, post16picD, post16picE } from "./BlogPics/Post16/index"
+import { post17pic, post17picA, post17picB, post17picC } from "./BlogPics/Post17/index"
+import { post18pic, post18picA, post18picB, post18picC, post18picD } from "./BlogPics/Post18/index"
+import { post19pic, post19picA, post19picB, post19picC, post19picD, post19picE } from "./BlogPics/Post19/index"
+import { post20pic, post20picA, post20picB, post20picD, post20picE } from "./BlogPics/Post20/index"
+import { post21pic, post21picA, post21picB, post21picC, post21picD } from "./BlogPics/Post21/index"
+import { post22pic, post22picA, post22picB } from "./BlogPics/Post22/index"
+import { post24pic, post24picA, post24picB, post24picC } from "./BlogPics/Post24/index"
+import { post25pic, post25picA } from "./BlogPics/Post25/index"
+import { olgPio05, olgPioVer01, olgPioVer04, olgPioVer05, olgPioVer07 } from "../components/OurCouples/OurCouplesPics/OlgaPiotr/index"
+import { post26picA, post26picB, post26picC, post26picD, post26picE } from "./BlogPics/Post26/index"
+import { post27picA, post27picB, post27picC, post27picD, post27picE, post27picF, post27picG, post27picH, post27picI, post27picJ, post27picK, post27picL, post27picM, post27picN } from "./BlogPics/Post27/index"
+import { angPaw01, angPaw03, angPaw04, angPaw05, angPaw11, angPaw17, angPawVer03, angPawVer06, angPawVer07 } from "../components/OurCouples/OurCouplesPics/AngelikaPawel/index"
+import { post28pic, post28picA, post28picB, post28picC, post28picD, post28picE, post28picF, post28picG, post28picH, post28picI, post28picJ, post28picK, post28picL, post28picM, post28picN, post28picO, post28picP, post28picQ } from "./BlogPics/Post28/index"
+import { post29pic, post29picA, post29picB, post29picC, post29picD, post29picE, post29picF, post29picG, post29picH, post29picI, post29picJ, post29picK, post29picL } from "./BlogPics/Post29/index"
+import { post30pic, post30picA, post30picB, post30picC } from "./BlogPics/Post30/index"
+import { post31picPanna, post31picŚlHum, post31picŚlPlen, post31picDok } from "./BlogPics/Post31/index"
+import { post32picObr, post32picWyObr, post32picWyObrŚlCy, post32picŚlKość, post32picŚlKośćObc, post32picŚlKośćPle, post32picŚlKośćPrzy, post32picŚlKośćZi, post32picŚlObc, post32picŚlPle } from "./BlogPics/Post32/index"
+import { post33pic00, post33pic01, post33pic02, post33pic03, post33pic04 } from "./BlogPics/Post33/index"
+import { cichyŚl34, kamWes34, kamŚl34, ślCyw34, ślIWes34, ślWGór34, ślWGórOrg34, ślWMałKość34, ślWPlen34, ślWZak34, wesWGór34, wesWGórBes34, wesWGórTat34, wesWGórZNoc34 } from "./BlogPics/Post34/index"
+import { beaPaw06 } from '../components/OurCouples/OurCouplesPics/BeataPawel'
+
 
 const posts = [
     {
@@ -89,10 +122,10 @@ const posts = [
         date: '16 sty 2022',
         textShort: 'Wiele par młodych, które proszą o pomoc przy organizacji ślubu, marzy o weselu w górach. Nic w tym dziwnego, za każdym razem, gdy otrzymujemy takie zapytanie...',
         mainPic: {
-            src: require('./BlogPics/Post34/slub-w-gorach.jpg').default
+            src: ślWGór34
         },
         topPic: {
-            src: require('./BlogPics/Post34/slub-w-gorach.jpg').default,
+            src: ślWGór34,
         },
         content: [
             {
@@ -104,7 +137,7 @@ const posts = [
                     </>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post34/wesele-w-gorach.jpg').default
+                        src: wesWGór34
                     }
                 ]
             },
@@ -116,7 +149,7 @@ const posts = [
                     </>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post34/kameralne-wesele-w-gorach.jpg').default
+                        src: kamWes34
                     }
                 ]
             },
@@ -130,7 +163,7 @@ const posts = [
                     </>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post34/slub-cywilny-w-gorach.jpg').default
+                        src: ślCyw34
                     }
                 ]
             },
@@ -143,7 +176,7 @@ const posts = [
                 extraContentClassName: 'bgMintLight shadowBox',
                 pics: [
                     {
-                        src: require('./BlogPics/Post34/slub-w-zakopanem.jpg').default
+                        src: ślWZak34
                     }
                 ]
             },
@@ -153,7 +186,7 @@ const posts = [
                 text: <>Jeżeli planujecie <span className='dark bold'>małe wesele w górach na około 10-30 osób</span>, powinniście skupić się na poszukiwaniach agroturystyki lub pensjonatu. Takie miejsca mają niesamowity klimat i kameralny charakter. Zazwyczaj przy takiej ilości gości, pary młode decydują się na wesele w górach z noclegiem dla zaproszonych osób. Baza noclegowa na miejscu to kolejny plus takich obiektów. Pamiętajcie, że mają one też swoje pułapki. Najczęściej ich właściciele nie mają pojęcia jak organizować przyjęcia weselne. Musicie mieć na uwadze, że spora część obowiązków spadnie na Was. O ile zaplanowanie menu nie powinno stanowić większego problemu, logistyka może okazać się bardzo kłopotliwa. Czy kameralny obiekt z małą kuchnią będzie w stanie przygotować odpowiednią ilość jedzenia? Czy będzie dysponował wystarczającą ilością miejsca na jego przechowywanie? Gdzie będziecie chłodzić alkohol, napoje lub tort? Czy dysponuje odpowiednią zastawą, szkłem, sztućcami, tekstyliami? Czy posiada obsługę kelnerską? To wszystko pytania, na które warto sobie odpowiedzieć, zanim na dobre zajmiecie się organizacją <span className='dark bold'>małego wesela w górach</span> oraz zdecydujecie się na wybór miejsca, które na co dzień nie zajmuje się organizacją imprez okolicznościowych. Zdarza się również, że tego typu miejsca nie chcą wynajmować obiektów wyłącznie na jedną dobę, szczególnie w okresie wzmożonego ruchu turystycznego.</>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post34/cichy-slub-w-gorach.jpg').default
+                        src: cichyŚl34
                     }
                 ]
             },
@@ -163,7 +196,7 @@ const posts = [
                 text: <>Według naszego doświadczenia i zapytań, jakie przesyłają do nas pary młode, <span className='dark bold'>przyjęcie na około 40-70 osób</span> nadal traktowane są jako kameralne. Taka ilość osób pozwala na zachowanie rodzinnej atmosfery, gdzie dobrze znacie wszystkich gości i utrzymujecie z nimi stały kontakt. Macie czas na to, żeby każdemu z osobna poświęcić trochę czasu na rozmowę, ale i znaleźć chwilę dla siebie. Jeśli Wasza lista gości mieści się w tych widełkach, sugerujemy rozpocząć poszukiwania miejsca weselnego od restauracji, które można wynająć na wyłączność. Mimo że często nie specjalizują się w weselach i nie mają przygotowanej gotowej oferty, mają spore doświadczenie w obsłudze większej ilości osób, dysponują niezbędnymi elementami, żeby zorganizować na ich terenie wesele. Mają własne chłodnie i zamrażarki, doświadczonych kucharzy i łatwą do zweryfikowania jakość. Wystarczy tylko wybrać się do nich na obiad, żeby zobaczyć, jak serwowane są dania oraz jak smakują. <span className='dark bold'>Organizacja wesela w górach na 70 osób</span> może się więc okazać znacznie łatwiejsza, niż w przypadku małego wesela. Jakie są minusy restauracji? To zależy, czy planujecie wesele w górach z noclegiem, czy bez. Najczęściej restauracje nie posiadają bowiem bazy noclegowej. Jest to spory minus, ale z drugiej strony, jeśli miejsce jest piękne i ma smaczną kuchnię, może warto rozważyć transport dla gości do hotelu. Innym minusem może być brak terenu zielonego wokół restauracji, na przykład zakładając, że zdecydujecie się na wspomniane wcześniej Krupówki. My jednak sugerujemy, żeby wybierać restauracje z ogródkiem lub tarasem.</>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post34/wesele-w-gorach-z-noclegiem.jpg').default
+                        src: wesWGórZNoc34
                     }
                 ]
             },
@@ -192,7 +225,7 @@ const posts = [
                     </ul>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post34/kameralny-slub-w-gorach.jpg').default
+                        src: kamŚl34
                     }
                 ]
             },
@@ -220,7 +253,7 @@ const posts = [
                     </ul>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post34/wesele-w-tatrach.jpg').default
+                        src: wesWGórTat34
                     }
                 ]
             },
@@ -236,7 +269,7 @@ const posts = [
                 text: <>To ta amerykańska symboliczna ceremonia, która nie mieści się w żadnych ramach i pozwala Wam wyrecytować własne przysięgi. Tu nie ma żadnych formalnych zasad i obostrzeń, ale podobnie jak w przypadku ślubu cywilnego warto dokładnie przemyśleć wybór lokalizacji. Więcej o <CustomPostLink path="5-hey-wedding-ślub-humanistyczny-a-na-co-to-komu" text="idei ślubu humanistycznego posłuchacie tutaj" className="linkLight" />.</>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post34/slub-w-plenerze-w-gorach.jpg').default
+                        src: ślWPlen34
                     }
                 ]
             },
@@ -254,7 +287,7 @@ const posts = [
                 </>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post34/slub-w-malym-kosciolku-w-gorach.jpg').default
+                        src: ślWMałKość34
                     }
                 ]
             },
@@ -264,7 +297,7 @@ const posts = [
                 text: <>To niezwykle ważny aspekt każdego przyjęcia weselnego. Byłoby idealnie, gdyby menu stało się częścią historii, którą chcecie opowiedzieć Waszym gościom. Wasz wybór miejsca weselnego nie był przecież kwestią przypadku. Skoro ściągacie Waszych gości na wesele w Zakopanem, ugośćcie ich, jak przystało na podhalańską tradycję. Absolutnie nie mamy tu na myśli stołów uginających się pod ciężarem jedzenia, ale o rodzaj serwowanych dań. Niech będą to podhalańskie przysmaki takie jak oscypki i bundz, ale również kwaśnica lub polywka. Na danie główne zaserwujcie Waszym gościom jagnięcinę, a na kolację bryjki, hałuski czy bombolki. Dacie się ponieść i zapomnijcie o weselnych schematach, nie jesteście przecież na niedzielnym obiedzie u babci. To Wasze wymarzone wesele w górach! Bez względu na to, jaki region Polski wybierzecie, na pewno znajdą się jakieś lokalne specjały, którymi możecie zaskoczyć swoich gości.</>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post34/wesele-w-gorach-beskidy.jpg').default
+                        src: wesWGórBes34
                     }
                 ]
             },
@@ -280,7 +313,7 @@ const posts = [
                 text: <>Możliwości są nieograniczone, ale nie warto popadać w skrajności. Zbyt dużo atrakcji może zmęczyć każdego. Należy pamiętać, że podczas przyjęcia weselnego mamy sporo przerw na życzenia, toast, posiłki, tort, pierwszy taniec, podziękowania dla rodziców, oczepiny. W tych momentach goście proszeni są o zajęcie miejsc przy stolikach, wyjście na parkiet, ustawienie się w kole. Z perspektywy osób, które przychodzą na wesele, żeby dobrze się bawić, może być to uciążliwe. Dlatego warto zdecydować się na atrakcje, które nie zaburzają ciągłości wesela i są alternatywą, z której można, ale nie trzeba korzystać. Najlepszym przykładem takich atrakcji, które jednocześnie świetnie wpiszą się w klimat wesela w górach, będzie strefa relaksu, rozłożona w ogrodzie, letnie kino, gry plenerowe, barman lub prosecco van, ognisko z kiełbaskami i grzańcem.</>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post34/wesele-w-gorach-tatry.jpg').default
+                        src: wesWGórTat34
                     }
                 ]
             },
@@ -297,7 +330,7 @@ const posts = [
                 text: <>To świetny pomysł pod warunkiem, że podejdziecie do tego tematu nieco inaczej. Zamiast typowej posiadówki przy odgrzewanym kotlecie z wczoraj, proponujemy brunch w ogrodzie lub wylegiwanie się na kocach. Dla bardziej aktywnych, dla których kac jest pojęciem obcym, proponujemy spływ kajakowy lub spacer. Możecie zaplanować też jakieś atrakcje na dzień przed weselem. Wspólna kolacja i rozmowy przy winie wprowadzą Was w weselny klimat i pozwolą się odprężyć.</>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post34/slub-i-wesele-w-gorach.jpg').default
+                        src: ślIWes34
                     }
                 ]
             },
@@ -329,7 +362,7 @@ const posts = [
                 </>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post34/slub-w-gorach-organizacja.jpg').default
+                        src: ślWGórOrg34
                     }
                 ]
             },
@@ -350,7 +383,7 @@ const posts = [
         date: '18 lip 2021',
         textShort: 'Dopracowany scenariusz wesela to must have. Obnaża niedociągnięcia, pozwala na doprecyzowanie szczegółów oraz...',
         mainPic: {
-            src: require('./BlogPics/Post33/post33-00.jpeg').default
+            src: post33pic00
         },
         textMain: <>Dopracowany <span className="bold pink">scenariusz wesela</span> to must have. Obnaża niedociągnięcia, pozwala na doprecyzowanie szczegółów oraz dopięcie przyjęcia na przysłowiowy ostatni guzik. Daje poczucie kontroli i ułatwia pracę wykonawców ślubnych. Gdy masz dopracowany harmonogram wesela krok po kroku, śpisz spokojnie.</>,
         content: [
@@ -373,8 +406,7 @@ const posts = [
                     </ul>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post33/post33-00.jpeg').default,
-                        author: 'Małe szare studio'
+                        src: post33pic01
                     }
                 ]
             },
@@ -390,8 +422,7 @@ const posts = [
                     </ul>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post33/post33-01.jpeg').default,
-                        author: 'Ania Kopeć - Serdeczności'
+                        src: post33pic02,
                     }
                 ]
             },
@@ -413,8 +444,7 @@ const posts = [
                     </ul>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post33/post33-02.jpeg').default,
-                        author: 'Bauaban wedding stories'
+                        src: post33pic03,
                     }
                 ]
             },
@@ -440,8 +470,7 @@ const posts = [
                     </ul>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post33/post33-03.jpeg').default,
-                        author: 'Marta Brodziak'
+                        src: post33pic04,
                     }
                 ]
             },
@@ -512,7 +541,7 @@ const posts = [
         date: '21 mar 2021',
         textShort: 'Ślub wyznaniowy, nazywany potocznie ślubem konkordatowym lub ślubem kościelnym, to jedna z...',
         mainPic: {
-            src: require('../components/OurCouples/OurCouplesPics/AngelikaPawel/04.jpg').default
+            src: angPaw04
         },
         textMain: 'Ślub wyznaniowy, nazywany potocznie ślubem konkordatowym lub ślubem kościelnym, to jedna z najpopularniejszych form zawierania małżeństwa przez Młode Pary. Jest bardzo ważny dla osób wierzących, ale cieszy się też dużym powodzeniem ze względu na swoją podniosłą formę. Często uważa się, że taki ślub silniej cementuje związek niż sam ślub cywilny. Za ślubem kościelnym przemawia również jego długość trwania, a także miejsce jego zawierania. Mówi się, że wnętrza kościołów tylko potęgują podniosłość tego dnia. Pomimo licznych ograniczeń, takich jak praktycznie brak możliwości wzięcia go w plenerze, brak wygłoszenia własnych przysiąg czy zakaz grania świeckich utworów, Pary często zaznaczają, że czują, że ten ślub ma większą moc od ślubu cywilnego.',
         content: [
@@ -520,7 +549,7 @@ const posts = [
                 text: <span className="bold dark">Poniżej przeczytacie, jakie należy spełnić warunki ślubu konkordatowego.</span>,
                 pics: [
                     {
-                        src: require('../components/OurCouples/OurCouplesPics/AngelikaPawel/04.jpg').default,
+                        src: angPaw04,
                         author: 'Jam Studio'
                     }
                 ]
@@ -556,7 +585,7 @@ const posts = [
                 text: <span className="bold dark">Więcej o tym, kto może zawrzeć związek małżeński w rozumieniu polskiego prawa dowiecie się <CustomPostLink text="tutaj" path="dokumenty-slub-cywilny-formalnosci" className="linkMint" />.</span>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post32/post32 - ślub kościelny przysięga.jpeg').default,
+                        src: post32picŚlKośćPrzy,
                         author: 'Bauaban Wedding Stories'
                     }
                 ]
@@ -578,7 +607,7 @@ const posts = [
                     </>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post32/post32 - ślub z obcokrajowcem.jpeg').default,
+                        src: post32picŚlObc,
                         author: 'Jakub Nowotyński'
                     }
                 ]
@@ -618,7 +647,7 @@ const posts = [
                 text: 'Według prawa kościoła spotkań w poradni życia rodzinnego powinno być 3. Zdarza się, że w niektórych miejscach zaświadczenie dostaniecie po dwóch, czy nawet po jednym spotkaniu. Na czym będzie polegało spotkanie w poradni? Ma na celu nauczenia Was naturalnych metod planowania rodziny. Bardzo często pojawia się zadanie domowe do odrobienia dla nowożeńców w postaci obserwacji dni cyklu i uzupełniania wykresów.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post32/post32 - ślub kościelny zimą.jpeg').default,
+                        src: post32picŚlKośćZi,
                         author: 'Rafał Frączek'
                     }
                 ]
@@ -654,7 +683,7 @@ const posts = [
                 extraContentClassName: "bgMintLight shadowBox",
                 pics: [
                     {
-                        src: require('./BlogPics/Post32/post32 - wymiana obrączek.jpeg').default,
+                        src: post32picWyObr,
                         author: 'Małe Szare Studio'
                     }
                 ]
@@ -677,7 +706,7 @@ const posts = [
                 text: 'Musicie pamiętać, że przed Wami jeszcze spowiedź przedślubna. Według zasad panujących w kościele narzeczeni powinni wyspowiadać się dwukrotnie. Pierwszy raz nastąpić powinien tuż po wygłoszeniu pierwszych zapowiedzi przedślubnych. Drugi tuż przed ślubem, aby w dniu uroczystości móc cieszyć się „stanem łaski uświęcającej”. Często jest jednak tak, że kiedy Para Młoda deklaruje, że mieszka osobno ksiądz wystawia zaświadczenie tylko z jedną spowiedzią. To ksiądz podczas spisywania protokołu ustali, do ilu spowiedzi powinniście przystąpić i czy wystarczy tylko jedna.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post32/post32 - ślub kościelny.jpeg').default,
+                        src: post32picŚlKość,
                         author: 'Małe Szare Studio'
                     }
                 ]
@@ -727,7 +756,7 @@ const posts = [
                     </>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post32/post32 - ślub kościelny z obcokrajowcem.jpeg').default,
+                        src: post32picŚlKośćObc,
                         author: 'Jakub Nowotyński'
                     }
                 ]
@@ -773,7 +802,7 @@ const posts = [
                 text: 'Pamiętajcie, że po stronie księdza, gdzie odbędzie się ślub leży wysłanie do parafii gdzie byliście chrzczeni oraz parafii zagranicznej, gdzie były przeprowadzone formalności ślubne, zawiadomienie o zawarciu w jego parafii danego związku małżeńskiego. Następnie czeka na pisemne potwierdzenie wpisów i dopiero wtedy zamyka całą praktykę kancelaryjną ślubu kościelnego, a dokumenty umieszcza w archiwum parafialnym.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post32/post32 - ślub kościelny w plenerze.jpeg').default,
+                        src: post32picŚlKośćPle,
                         author: 'Wawrzykowski Team'
                     }
                 ]
@@ -821,7 +850,7 @@ const posts = [
                 text: 'W przypadku uzyskania pozytywnej zgody przed Parą stoi załatwienie wszystkich formalności. Są one takie same jak dotychczas opisane, oczywiście z pominięciem wizyty w USC.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post32/post32 - obrączki.jpeg').default,
+                        src: post32picObr,
                         author: 'Jakub Nowotyński'
                     }
                 ]
@@ -870,7 +899,7 @@ const posts = [
                 text: 'Jeśli jedno z Was jest już po ślubie kościelnym to tu niestety napotykamy na znaczące przeciwności i ślub jednostronny nie jest możliwy. Pojęcie rozwodu w kościele dotyczy jedynie ślubu cywilnego, w świetle religii taka osoba jest ciągle w związku małżeńskim. Wiele Par Młodych myśli, że jeśli jedna strona jest po rozwodzie cywilnym to rozwiązaniem dla osoby wierzącej będzie ślub jednostronny. Niestety prawo kanoniczne uważa rozwód za istotną przeszkodę do zawarcia małżeństwa. Jeżeli małżeństwo nie zostało unieważnione przez kościół, to wedle jego prawa nadal ono istnieje i jedynie śmierć może je rozwiązać. Czyli chodzi o to, że jak ktoś miał konkordatowy i wziął rozwód to nie można wziąć ślubu kościelnego z niewierzącym? To nie jest do końca zrozumiałe chyba. Jakoś łatwiej trzeba to napisać, dosadniej.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post32/post32 - ślub w plenerze.jpeg').default,
+                        src: post32picŚlPle,
                         author: 'Svetlana Bennington'
                     }
                 ]
@@ -935,7 +964,7 @@ const posts = [
                 text: 'Osoba wyznania katolickeogo, jak i osoba wyznania grekokatolickiego należą do tego samego kościoła katolickiego, czyli wyznajecie tę samą wiarę. Oba kościoły mają  jednak różne tradycje. Kościół grekokatolicki to  tradycja zachodnia, która ma obrządek łaciński. Jest to kościół rzymskokatolicki, nazywany także kościołem łacińskim. W tym przypadku formalności do waszej ceremonii będą wyglądały identycznie jak w przypadku “standardowego” ślubu kościelnego.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post32/post32 - wymiana obrączek ślub cywilny.jpeg').default,
+                        src: post32picWyObrŚlCy,
                         author: 'Ania Kopeć Serdeczności'
                     }
                 ]
@@ -971,7 +1000,7 @@ const posts = [
         date: '20 mar 2021',
         textShort: 'Z poradnika dowiesz się wszystkiego o formalnościach związanych z organizacją ślubu cywilnego, w tym jakie dokumenty do ślubu cywilnego potrzebujesz. Ślub cywilny...',
         mainPic: {
-            src: require('../components/OurCouples/OurCouplesPics/BeataPawel/06.jpg').default
+            src: beaPaw06
         },
         textMain:
             <>
@@ -984,7 +1013,7 @@ const posts = [
                 text: <span className="bold dark">Poniżej znajdziecie odpowiedzi na wszystkie pytania dotyczące formalności przed ślubem cywilnym.</span>,
                 pics: [
                     {
-                        src: require('../components/OurCouples/OurCouplesPics/BeataPawel/06.jpg').default,
+                        src: beaPaw06,
                         author: 'Ania Kopeć Serdeczności'
                     }
                 ],
@@ -1058,7 +1087,7 @@ const posts = [
                 text: 'W szczególnych przypadkach okres oczekiwania na ślub może zostać skrócony. Najlepiej zapytać o taką możliwość w interesującym Was urzędzie. Zdarza się, że kierownicy urzędów wymagają bardzo rzetelnego uzasadnienia i składania oficjalnego wniosku, podczas gdy w innym urzędzie będzie to tylko formalnością wiążącą się z uiszczeniem opłaty w wysokości 39 zł.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post31/post31-podpisanie-dokumentów.jpeg').default,
+                        src: post31picDok,
                         author: 'Marta Brodziak'
                     }
                 ]
@@ -1118,7 +1147,7 @@ const posts = [
                     </>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post31/post31-ślub-humanistyczny.jpeg').default,
+                        src: post31picŚlHum,
                         author: 'Greg Solak'
                     }
                 ]
@@ -1155,7 +1184,7 @@ const posts = [
                     </>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post31/post31-ślub-w-plenerze.jpeg').default,
+                        src: post31picŚlPlen,
                         author: 'Svetlana Bennington'
                     }
                 ]
@@ -1220,7 +1249,7 @@ const posts = [
                 text: 'W przypadku gdy zdecydujecie się na zachowanie własnych nazwisk, musicie podjąć decyzję, jakie nazwisko będzie nosić Wasze przyszłe potomstwo. Może to być nazwisko jednego z Was lub nazwisko, które powstanie w wyniku ich połączenia. W przypadku braku decyzji z Waszej strony dzieci będą nosiły nazwisko dwuczłonowe.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post31/post31-panna-młoda-z-druhnami.jpeg').default,
+                        src: post31picPanna,
                         author: 'Małe szare studio'
                     }
                 ]
@@ -1260,7 +1289,7 @@ const posts = [
         textShort: 'Przygotowania do ślubu i wesela to ogromne wyzwanie dla Młodej Pary, a czasami również dla najbliższych jej osób. To na przyszłych...',
         date: '14 mar 2021',
         mainPic: {
-            src: require('./BlogPics/Post30/post30-sesja-ślubna.jpg').default
+            src: post30pic,
         },
         textMain:
             <>
@@ -1278,7 +1307,7 @@ const posts = [
 
                 pics: [
                     {
-                        src: require('./BlogPics/Post30/post30-sesja-ślubna.jpg').default,
+                        src: post30pic,
                         author: "Ania Kopeć Serdeczności"
                     }
                 ]
@@ -1309,7 +1338,7 @@ const posts = [
                     </>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post30/post30a-papeteria-ślubna.jpg').default,
+                        src: post30picA,
                         author: "Wojciech Makuła"
                     }
                 ]
@@ -1347,7 +1376,7 @@ const posts = [
                 text: "Parę miesięcy przed ślubem powinniście także umówić się z florystą i omówić z nią Waszą wizję dekoracji sali oraz miejsca weselnego. To także odpowiedni moment, by zamówić takie atrakcje, jak fotobudkę, pokaz sztucznych ogni czy barmanów na wesele. Pamiętajcie również o znalezieniu idealne cukierni i zamówieniu tortu oraz słodkiego bufetu. Zajęcie się tym tematem z odpowiednim wyprzedzeniem pozwoli Wam na degustację. Dzięki temu będziecie mieć pewność, że wybraliście najlepszą firmę, a słodkości z wesela długo będą wspominane przez Waszych gości.",
                 pics: [
                     {
-                        src: require('./BlogPics/Post30/post30b-ślub-w-plenerze.jpg').default,
+                        src: post30picB,
                         author: "Katarzyna Wosiak"
                     }
                 ]
@@ -1369,7 +1398,7 @@ const posts = [
                 </>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post30/post30c-przygotowania-do-ślubu.jpg').default,
+                        src: post30picC,
                         author: "Svetlana Bennington"
                     }
                 ]
@@ -1426,14 +1455,14 @@ const posts = [
         date: '01 mar 2021',
         textShort: 'Ślub w plenerze nikogo już nie dziwi. Od jakiegoś czasu uroczystości ślubne organizowane na łonie natury stały się bardzo popularne i na stałe weszły do kanonu trendów ślubnych. Trochę inaczej jest, gdy...',
         mainPic: {
-            src: require('./BlogPics/Post29/post29.jpg').default
+            src: post29pic
         },
         textMain:
             <>
                 Ślub w plenerze nikogo już nie dziwi. Od jakiegoś czasu uroczystości ślubne organizowane na łonie natury stały się bardzo popularne i na stałe weszły do kanonu trendów ślubnych. Trochę inaczej jest, gdy mówimy o organizacji przyjęcia weselnego na łonie natury. <span className="bold grey">Wesele w ogrodzie</span> pojawiło się w marzeniach już niejednej Pary Młodej, jednak strach przed rzeczami, których nie są w stanie przewidzieć, jak np. zła pogoda, blokuje wielu narzeczonych przed organizacją przyjęcia weselnego w ogrodzie.
             </>,
         topPic: {
-            src: require('./BlogPics/Post29/post29.jpg').default,
+            src: post29pic,
             author: 'Wojciech Makula'
         },
         content: [
@@ -1447,10 +1476,10 @@ const posts = [
                     </>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post29/post29a.jpg').default
+                        src: post29picA
                     },
                     {
-                        src: require('./BlogPics/Post29/post29b.jpg').default,
+                        src: post29picB,
                         author: "Kasia Wosiak",
                     },
                 ],
@@ -1473,19 +1502,19 @@ const posts = [
                     </>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post29/post29c.jpg').default
+                        src: post29picC
                     },
                     {
-                        src: require('./BlogPics/Post29/post29d.jpg').default,
+                        src: post29picD,
                     },
                     {
-                        src: require('./BlogPics/Post29/post29e.jpg').default,
+                        src: post29picE,
                     },
                     {
-                        src: require('./BlogPics/Post29/post29f.jpg').default,
+                        src: post29picF,
                     },
                     {
-                        src: require('./BlogPics/Post29/post29g.jpg').default,
+                        src: post29picG,
                         author: 'Wojciech Makula'
                     },
                 ],
@@ -1500,10 +1529,10 @@ const posts = [
                     </>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post29/post29h.jpg').default
+                        src: post29picH
                     },
                     {
-                        src: require('./BlogPics/Post29/post29i.jpg').default,
+                        src: post29picI,
                         author: "Kasia Wosiak",
                     },
                 ],
@@ -1518,13 +1547,13 @@ const posts = [
                     </>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post29/post29j.jpg').default
+                        src: post29picJ
                     },
                     {
-                        src: require('./BlogPics/Post29/post29k.jpg').default
+                        src: post29picK
                     },
                     {
-                        src: require('./BlogPics/Post29/post29l.jpg').default,
+                        src: post29picL,
                         author: "Kasia Wosiak",
                     },
                 ],
@@ -1598,7 +1627,7 @@ const posts = [
         title: 'Folwark Wąsowo - miejsce na wesele dające nieograniczone możliwości.',
         textShort: 'Widok na kuźnię, która znajduje się na terenie Folwarku Wąsowo.',
         mainPic: {
-            src: require('./BlogPics/Post28/post28.jpg').default
+            src: post28pic
         },
         textMain:
             <>
@@ -1608,10 +1637,10 @@ const posts = [
             {
                 pics: [
                     {
-                        src: require('./BlogPics/Post28/post28a.jpg').default
+                        src: post28picA
                     },
                     {
-                        src: require('./BlogPics/Post28/post28b.jpg').default
+                        src: post28picB
                     },
                 ]
             },
@@ -1624,16 +1653,16 @@ const posts = [
                     </>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post28/post28c.jpg').default
+                        src: post28picC
                     },
                     {
-                        src: require('./BlogPics/Post28/post28d.jpg').default
+                        src: post28picD
                     },
                     {
-                        src: require('./BlogPics/Post28/post28e.jpg').default
+                        src: post28picE
                     },
                     {
-                        src: require('./BlogPics/Post28/post28f.jpg').default
+                        src: post28picF
                     },
                 ]
             },
@@ -1646,10 +1675,10 @@ const posts = [
                     </>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post28/post28g.jpg').default
+                        src: post28picG
                     },
                     {
-                        src: require('./BlogPics/Post28/post28h.jpg').default
+                        src: post28picH
                     }
                 ]
             },
@@ -1662,16 +1691,16 @@ const posts = [
                     </>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post28/post28i.jpg').default
+                        src: post28picI
                     },
                     {
-                        src: require('./BlogPics/Post28/post28j.jpg').default
+                        src: post28picJ
                     },
                     {
-                        src: require('./BlogPics/Post28/post28k.jpg').default
+                        src: post28picK
                     },
                     {
-                        src: require('./BlogPics/Post28/post28l.jpg').default
+                        src: post28picL
                     }
                 ]
             },
@@ -1679,10 +1708,10 @@ const posts = [
                 text: 'W Wąsowie miejsc na ceremonię ślubną jest kilka, my mamy swoje ulubione, które zobaczycie na zdjęciach poniżej. Nie brakuje tu również pięknych zakątków, które staną się niepowtarzalnym tłem dla Waszej sesji plenerowej.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post28/post28m.jpg').default
+                        src: post28picM
                     },
                     {
-                        src: require('./BlogPics/Post28/post28n.jpg').default
+                        src: post28picN
                     }
                 ]
             },
@@ -1693,7 +1722,7 @@ const posts = [
                     'Folwark Wąsowo ogromną wagę przywiązuje do jedzenia - sezonowe potrawy, lokalne produkty, własny ogród warzywny i tradycyjny smak w nowoczesny wydaniu. To musi się udać. Do dziś z rozrzewnieniem wspominamy przepyszną zupę borowikową i niezwykle dopracowany sposób serwowania dań.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post28/post28o.jpg').default
+                        src: post28picO
                     }
                 ]
             },
@@ -1702,10 +1731,10 @@ const posts = [
                 headerClassName: "grey",
                 pics: [
                     {
-                        src: require('./BlogPics/Post28/post28p.jpg').default
+                        src: post28picP
                     },
                     {
-                        src: require('./BlogPics/Post28/post28q.jpg').default
+                        src: post28picQ
                     }
                 ]
             },
@@ -1792,7 +1821,7 @@ const posts = [
         edited: '27 paź 2020',
         textShort: 'Zamek Książ to jeden z największych a zarazem najpiękniej położonych tego typu obiektów w Polsce. Wybudowany na wzniesieniu, otoczony...',
         mainPic: {
-            src: require('../components/OurCouples/OurCouplesPics/AngelikaPawel/11.jpg').default
+            src: angPaw11
         },
         textMain:
             <>
@@ -1802,19 +1831,19 @@ const posts = [
             {
                 pics: [
                     {
-                        src: require('../components/OurCouples/OurCouplesPics/AngelikaPawel/01.jpg').default,
+                        src: angPaw01,
                         author: 'Magdalena Adamczewska'
                     },
                     {
-                        src: require('../components/OurCouples/OurCouplesPics/AngelikaPawel/ver6.jpg').default,
+                        src: angPawVer06,
                         author: 'Jam Studio'
                     },
                     {
-                        src: require('../utils/BlogPics/Post27/post27a.jpg').default,
+                        src: post27picA,
                         author: 'Jam Studio'
                     },
                     {
-                        src: require('../utils/BlogPics/Post27/post27b.jpg').default,
+                        src: post27picB,
                         author: 'Jam Studio'
                     },
                 ]
@@ -1827,15 +1856,15 @@ const posts = [
                     </>,
                 pics: [
                     {
-                        src: require('../utils/BlogPics/Post27/post27c.jpg').default,
+                        src: post27picC,
                         author: 'Jam Studio'
                     },
                     {
-                        src: require('../utils/BlogPics/Post27/post27d.jpg').default,
+                        src: post27picD,
                         author: 'Jam Studio'
                     },
                     {
-                        src: require('../components/OurCouples/OurCouplesPics/AngelikaPawel/05.jpg').default,
+                        src: angPaw05,
                         author: 'Jam Studio'
                     }
                 ]
@@ -1848,27 +1877,27 @@ const posts = [
                     </>,
                 pics: [
                     {
-                        src: require('../components/OurCouples/OurCouplesPics/AngelikaPawel/11.jpg').default,
+                        src: angPaw11,
                         author: 'Magdalena Adamczewska'
                     },
                     {
-                        src: require('../utils/BlogPics/Post27/post27e.jpg').default,
+                        src: post27picE,
                         author: 'Jam Studio'
                     },
                     {
-                        src: require('../utils/BlogPics/Post27/post27f.jpg').default,
+                        src: post27picF,
                         author: 'Jam Studio'
                     },
                     {
-                        src: require('../utils/BlogPics/Post27/post27g.jpg').default,
+                        src: post27picG,
                         author: 'Magdalena Adamczewska'
                     },
                     {
-                        src: require('../components/OurCouples/OurCouplesPics/AngelikaPawel/17.jpg').default,
+                        src: angPaw17,
                         author: 'Magdalena Adamczewska'
                     },
                     {
-                        src: require('../utils/BlogPics/Post27/post27h.jpg').default,
+                        src: post27picH,
                         author: 'Magdalena Adamczewska'
                     },
                 ]
@@ -1881,27 +1910,27 @@ const posts = [
                     </>,
                 pics: [
                     {
-                        src: require('../components/OurCouples/OurCouplesPics/AngelikaPawel/03.jpg').default,
+                        src: angPaw03,
                         author: 'Jam Studio'
                     },
                     {
-                        src: require('../utils/BlogPics/Post27/post27i.jpg').default,
+                        src: post27picI,
                         author: 'Jam Studio'
                     },
                     {
-                        src: require('../utils/BlogPics/Post27/post27n.jpg').default,
+                        src: post27picN,
                         author: 'Magdalena Adamczewska'
                     },
                     {
-                        src: require('../utils/BlogPics/Post27/post27j.jpg').default,
+                        src: post27picJ,
                         author: 'Magdalena Adamczewska'
                     },
                     {
-                        src: require('../components/OurCouples/OurCouplesPics/AngelikaPawel/ver7.jpg').default,
+                        src: angPawVer07,
                         author: 'Jam Studio'
                     },
                     {
-                        src: require('../utils/BlogPics/Post27/post27k.jpg').default,
+                        src: post27picK,
                         author: 'Jam Studio'
                     }
                 ]
@@ -1911,15 +1940,15 @@ const posts = [
                 text: 'Zamek Książ słynie z niesamowitych wnętrz oraz przepięknego ogrodu, który go otacza. Daje ogromne możliwości do zrealizowania wymarzonej sesji plenerowej w dniu ślubu. Postanowiliśmy wykorzystać jego atuty. Zaangażowaliśmy sesję rodzinną w monumentalnej sali Maksymiliana oraz zdjęcia plenerowe. Zarówno fotograf, jak i filmowcy mieli tu ogromne pole do popisu i wykonali masę niesamowitych ujęć podczas sesji ślubnej w zamku Książ.',
                 pics: [
                     {
-                        src: require('../components/OurCouples/OurCouplesPics/AngelikaPawel/ver3.jpg').default,
+                        src: angPawVer03,
                         author: 'Jam Studio'
                     },
                     {
-                        src: require('../utils/BlogPics/Post27/post27l.jpg').default,
+                        src: post27picL,
                         author: 'Jam Studio'
                     },
                     {
-                        src: require('../utils/BlogPics/Post27/post27m.jpg').default,
+                        src: post27picM,
                         author: 'Jam Studio'
                     }
                 ]
@@ -1990,7 +2019,7 @@ const posts = [
         date: '10 sie 2020',
         textShort: 'Chociaż dziwnie to brzmi do zorganizowania stylizowanej sesji fotograficznej, zainspirował nas koronawirus. Podczas pandemii, każdego dnia spotykałyśmy się z...',
         mainPic: {
-            src: require('../components/OurCouples/OurCouplesPics/OlgaPiotr/05.jpg').default
+            src: olgPio05
         },
         textMain:
             <>
@@ -1998,7 +2027,7 @@ const posts = [
                 To, na czym nam zależało to szczere emocje i prawdziwa miłość. Zobaczcie piękną relację z tego dnia, którą przygotowali <span className="bold pink">Mariola i Kamil</span> z <CustomOuterLink to="http://maleszarestudio.pl/" text="Małego Szarego Studia" className="linkPink" />.
             </>,
         topPic: {
-            src: require('../components/OurCouples/OurCouplesPics/OlgaPiotr/05.jpg').default
+            src: olgPio05
         },
         content: [
             {
@@ -2016,13 +2045,13 @@ const posts = [
                     </>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post26/post26a.jpg').default
+                        src: post26picA
                     },
                     {
-                        src: require('./BlogPics/Post26/post26b.jpg').default
+                        src: post26picB
                     },
                     {
-                        src: require('../components/OurCouples/OurCouplesPics/OlgaPiotr/ver1.jpg').default
+                        src: olgPioVer01
                     }
                 ]
             },
@@ -2034,13 +2063,13 @@ const posts = [
                     </>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post26/post26c.jpg').default
+                        src: post26picC
                     },
                     {
-                        src: require('./BlogPics/Post26/post26d.jpg').default
+                        src: post26picD
                     },
                     {
-                        src: require('./BlogPics/Post26/post26e.jpg').default
+                        src: post26picE
                     }
                 ]
             },
@@ -2052,13 +2081,13 @@ const posts = [
                     </>,
                 pics: [
                     {
-                        src: require('../components/OurCouples/OurCouplesPics/OlgaPiotr/ver4.jpg').default
+                        src: olgPioVer04
                     },
                     {
-                        src: require('../components/OurCouples/OurCouplesPics/OlgaPiotr/ver7.jpg').default
+                        src: olgPioVer07
                     },
                     {
-                        src: require('../components/OurCouples/OurCouplesPics/OlgaPiotr/ver5.jpg').default
+                        src: olgPioVer05
                     },
                 ]
             },
@@ -2129,7 +2158,7 @@ const posts = [
         edited: '23 paź 2020',
         textShort: 'Zapraszamy Was do lektury artykułu przygotowanego przez naszych zaprzyjaźnionych fotografów ślubnych z LM Foto. Znajdziecie tam rozmowę z nami oraz innymi fantastycznymi...',
         mainPic: {
-            src: require('./BlogPics/Post25/post25.jpg').default
+            src: post25pic
         },
         textMain:
             <>
@@ -2140,7 +2169,7 @@ const posts = [
                 text: <CustomOuterLink to="https://www.lmfoto.pl/blog/2020/06/konsultant-slubny-radzi/?fbclid=IwAR0NrsFz6qb9xkd226N11SCoHUFTeqZyfvdXvlO5-Xu4Y1WEpcYeOFiEXGU" className="linkLight" text="Link do artykułu - Konsultant Ślubny Radzi LM FOTO" />,
                 pics: [
                     {
-                        src: require('./BlogPics/Post25/post25a.png').default
+                        src: post25picA
                     }
                 ]
             }
@@ -2202,11 +2231,11 @@ const posts = [
         edited: '8 cze 2020',
         textShort: 'WROCŁAW — nie nasze miasto! Chociaż pochodzimy z małych miejscowości i trzeba to przyznać, jesteśmy „słoikami”, to ponad 10 lat mieszkamy...',
         mainPic: {
-            src: require('./BlogPics/Post24/post24.jpg').default
+            src: post24pic
         },
         textMain: <>WROCŁAW — nie nasze miasto! <br /> Chociaż pochodzimy z małych miejscowości i trzeba to przyznać, jesteśmy „słoikami”, to ponad 10 lat mieszkamy we Wrocławiu. Każda z nas ma tutaj swój dom, ulubione knajpy i miejsca do spacerowania. Doceniamy Wrocław za jego różnorodność i możliwości, czujemy się w nim dobrze. Jednak obie uwielbiamy podróże, poznawanie nowych miejsc. Dlatego ogromnie doceniamy, że w sezonie ślubnym, dzięki organizacji wesel w całej Polsce, mamy możliwość poznawania nowych zakątków. Zwiedziłyśmy już sporą część kraju. Zawsze wtedy obiecujemy sobie, że kiedyś "tu" się przeprowadzimy :)</>,
         topPic: {
-            src: require('./BlogPics/Post24/post24a.jpg').default
+            src: post24picA
         },
         content: [
             {
@@ -2214,7 +2243,7 @@ const posts = [
                 text: 'Portfolio w naszej pracy jest bardzo ważne. Nie tylko trzeba chwalić się efektami przygotowań, pięknych dekoracji, czy szczęśliwej pary, ale warto mieć też parę zdjęć podczas pracy. Szykując się do koordynacji dnia ślubu i wesela staramy się zawsze zaplanować 5 - 10 minut, podczas których fotograf będzie mógł zrobić nam parę ujęć. I wiecie, jak to się zawsze kończy? Jesteśmy tak mocno skupione na pracy, aby wszystko było idealnie, że zapominamy o pozowaniu. Kończy się to zawsze masą zdjęć z dziwnymi minami.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post24/post24b.jpg').default
+                        src: post24picB
                     }
                 ]
             },
@@ -2223,7 +2252,7 @@ const posts = [
                 text: <>Każdy, kto miał okazję nas poznać i podpatrzeć jak pracujemy, powie pewnie od razu, że jesteśmy zupełnie inne. Kasia jest impulsywna, lubi działać od razu, nie cierpi czekać, ja znowu jestem z tych, które potrzebują czasu, zastanowienia, analizy, zanim przejdę do działania. Zdecydowanie wolę tabele i zestawienia od tych kreatywnych działań, w których znowu super spełnia się Kasia. Jednak jak się bliżej nam przyjrzeć to można zauważyć mnóstwo podobieństw. Obie jesteśmy bardzo zaangażowane w to, co robimy, dobro i zadowolenie naszych Par stawiamy na pierwszym miejscu. Każda z nas nie raz miała sytuację rzucenia wszystkiego i działania na rzecz jakiejś sprawy dla dobra wesela i Pary Młodej. To, że się tak świetnie dogadujemy i tak <span className="bold pink">bardzo lubimy pracować ze sobą</span>, zawdzięczamy temu, że mamy takie same priorytety i nie zostały one wykreowane sztucznie. Od początku wiedziałyśmy, że ważna jest dla nas szczerość, otwartość i przyjazna atmosfera w pracy.</>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post24/post24.jpg').default
+                        src: post24pic
                     }
                 ]
             },
@@ -2232,7 +2261,7 @@ const posts = [
                 text: 'Śluby i wesela są obecne zarówno w naszym życiu zawodowym i prywatnym. Jeśli akurat nie pracujemy, to planujemy rozwój naszej firmy i nas samych. Chcemy być na bieżąco, a nawet o krok do przodu w trendach i inspiracjach ślubnych. Zależy nam, aby współpraca z naszymi parami młodymi przebiegała w luźnej i przyjaznej atmosferze, dlatego ciągle zastanawiamy się, jak możemy działać, aby przynosiło to jak najlepsze efekty. No i po prostu kochamy „plotkować” o branży. Zapytajcie naszych mężczyzn, ile godzin miesięcznie spędzamy wisząc na telefonie, rozmawiając o weselach.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post24/post24c.jpg').default
+                        src: post24picC
                     }
                 ]
             },
@@ -2299,11 +2328,11 @@ const posts = [
         date: '7 kwi 2020',
         textShort: 'To jedno z częściej pojawiających się zwrotów na forach i grupach ślubnych. Dziś postanowiłyśmy się z nim rozprawić!',
         mainPic: {
-            src: require('./BlogPics/Post22/post22.jpg').default
+            src: post22pic
         },
         textMain: 'To jedno z częściej pojawiających się zwrotów na forach i grupach ślubnych. Dziś postanowiłyśmy się z nim rozprawić! Oczywiście mamy świadomość, że nie zawsze cena idzie w parze z jakością, ale najczęściej właśnie tak jest. Nie dotyczy to wyłącznie branży ślubnej, ale niemal każdej dziedziny życia. Weźmy na przykład samochody. Nieważne, czy udasz się do salonu Mercedesa i wybierzesz najnowszą S klasę, czy kupisz w komisie starą Audicę od Niemca, który płakał, jak sprzedawał – tak czy siak jest to środek transportu. Obydwoma samochodami da się jeździć, ale możesz się spodziewać większego komfortu jazdy, bezpieczeństwa, niezawodności i luksusu po nowiutkim Mercedesie. Podobnie ma się sytuacja w zakresie rekomendowanych usługodawców ślubnych. Jeśli zależy Ci na jakości jakiejkolwiek usługi lub jakiegokolwiek produktu, raczej nie powinieneś brać pod uwagę najtańszych opcji.',
         topPic: {
-            src: require('./BlogPics/Post22/post22.jpg').default
+            src: post22pic
         },
         content: [
             {
@@ -2321,7 +2350,7 @@ const posts = [
                 text: 'Na forach, na portalach ślubnych, a także w naszych mailach znaleźć można wiele pytań o najlepszego fotografa ślubnego, o najlepszą fryzjerkę czy o innych polecanych usługodawców ślubnych.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post22/post22a.jpg').default
+                        src: post22picA
                     }
                 ]
             },
@@ -2340,7 +2369,7 @@ const posts = [
                     </>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post22/post22b.jpg').default
+                        src: post22picB
                     }
                 ]
             },
@@ -2388,14 +2417,14 @@ const posts = [
         edited: '16 paź 2020',
         textShort: 'Co roku portale i blogi ślubne prześcigają się w ilości artykułów na temat trendów ślubnych. Zasypują Cię informacjami o kolorze roku, najnowszych...',
         mainPic: {
-            src: require('./BlogPics/Post21/post21.jpg').default
+            src: post21pic
         },
         textMain:
             <>
                 Co roku portale i blogi ślubne prześcigają się w ilości artykułów na temat <span className="bgGreyLight">trendów ślubnych</span>. Zasypują Cię informacjami o kolorze roku, najnowszych fasonach sukni, czy top makijażach. Warto przejrzeć najnowsze inspiracje ślubne, zachwycić się pięknymi zdjęciami, a następnie zapomnieć o tym wszystkim. Planując swój ślub i wesele przede wszystkim, myślcie o sobie, o tym, co Wy lubicie i w czym się dobrze czujecie. Na nic Wam podążanie za trendami ślubnymi, jeśli ich nie czujecie. Zerknijcie na naszą listę spraw, gdzie nie powinniście sugerować się tym, co jest modne i dajcie znać, czy myślicie podobnie.
             </>,
         topPic: {
-            src: require('./BlogPics/Post21/post21.jpg').default
+            src: post21pic
         },
         content: [
             {
@@ -2403,7 +2432,7 @@ const posts = [
                 text: 'Najpiękniejsza suknia ślubna prosto z wybiegu nie spowoduje, że będziesz czuła się pięknie i idealnie, jeśli nie będzie dobrana do Twojej sylwetki i gustu. Kupując kreację na ten wielki dzień, przede wszystkim musisz pomyśleć o sobie i o tym, w czym się dobrze czujesz. Jeśli na co dzień lubisz prostotę i klasykę, nic Ci po trendach w stylu boho. W takim stroju będziesz czuła się przebrana. To samo tyczy się Pana Młodego. Na nic śledzenie nowości, trendów w garniturach, frakach czy smokingach jeśli najlepiej mu w klasycznym czarnym garniturze. Niech trendy ślubne będą dla Was wskazówką, ale decyzję podejmijcie w zgodzie z samym sobą. Najnowsze trendy w modzie ślubnej przemijają rok do roku a Wasz ślub powinien pozostać ponadczasowy.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post21/post21a.jpg').default
+                        src: post21picA
                     }
                 ]
             },
@@ -2415,7 +2444,7 @@ const posts = [
                     </>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post21/post21b.jpg').default
+                        src: post21picB
                     }
                 ]
             },
@@ -2427,7 +2456,7 @@ const posts = [
                     </>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post21/post21c.jpg').default
+                        src: post21picC
                     }
                 ]
             },
@@ -2439,7 +2468,7 @@ const posts = [
                     </>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post21/post21d.jpg').default
+                        src: post21picD
                     }
                 ]
             }
@@ -2479,11 +2508,11 @@ const posts = [
         edited: '8 mar 2021',
         textShort: 'Planowanie ślubu i wesela jest ekscytujące. Możesz przecież jasno określić, jak ma wyglądać Twój wielki dzień! Co więcej, dbasz o najdrobniejsze detale, by był dokładnie taki, jak...',
         mainPic: {
-            src: require('./BlogPics/Post20/post20.jpg').default
+            src: post20pic
         },
         textMain: 'Planowanie ślubu i wesela jest ekscytujące. Możesz przecież jasno określić, jak ma wyglądać Twój wielki dzień! Co więcej, dbasz o najdrobniejsze detale, by był dokładnie taki, jak sobie wymarzyłaś! To nic dziwnego, że każda Panna Młoda nie może się doczekać TEGO WIELKIEGO DNIA.',
         topPic: {
-            src: require('./BlogPics/Post20/post20.jpg').default
+            src: post20pic
         },
         content: [
             {
@@ -2496,7 +2525,7 @@ const posts = [
                 text: 'O ile nie potkniesz i nie przewrócisz się na środku sali, to uwierz mi – wszystkie kroki nie muszą być perfekcyjne. Jasne, ciekawy układ i płynność ruchów mają znaczenie – dlatego pomysł kursów, czy indywidualnych lekcji jest jak najbardziej trafiony. Jednak jeśli coś pójdzie niedokładnie tak, jak miało być w scenariuszu, nie oznacza to końca świata. Twoi goście, o ile nie są zawodowymi tancerzami, mogą nawet niczego nie zauważyć! Stres przed ślubem i pierwszym tańcem towarzyszy chyba każdej Młodej Parze – pamiętaj jednak, że ćwiczyliście taniec i poradzicie sobie doskonale, a drobne pomyłki nie mają żadnego znaczenia.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post20/post20a.jpg').default
+                        src: post20picA
                     }
                 ]
             },
@@ -2507,7 +2536,7 @@ const posts = [
                     </>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post20/post20b.jpg').default
+                        src: post20picB
                     }
                 ]
             },
@@ -2518,7 +2547,7 @@ const posts = [
                         Zbilansowana dieta i ulubionego ćwiczenia czy jogging sprawią, że będziesz czuła się lepiej. Będziesz mieć więcej energii, Twoje włosy i skóra nabiorą blasku, a efektem ubocznym będzie lepsza kondycja, która z pewnością przyda się podczas zabawy na weselu. Jednak pod żadnym pozorem nie katuj się dietami i treningami, a zdrowy styl życia potraktuj jako jeden ze skutecznych sposobów na opanowanie stresu przed ślubem.</>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post20/post20d.jpg').default
+                        src: post20picD
                     }
                 ]
             },
@@ -2529,7 +2558,7 @@ const posts = [
                         Przygotuj więc przydatne <CustomPostLink text="akcesoria ślubne" path="akcesoria-slubne-gadzety" className="linkMint" /> w tym dobrej jakości parasol, który nie będzie uginał się pod każdym podmuchem wiatru. Jeśli faktycznie spadnie deszcz – i tak nie zmokniesz. Nie ma się czym przejmować!</>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post20/post20e.jpg').default
+                        src: post20picE
                     }
                 ]
             },
@@ -2560,14 +2589,14 @@ const posts = [
         title: 'Dlaczego kameralne wesele nie jest dużo tańsze od dużego?',
         textShort: 'Od zawsze marzyliście o małym weselu dla najbliższych? A może było to podyktowane ograniczeniami budżetowymi? Tak czy siak, zanim zabierzecie się...',
         mainPic: {
-            src: require('./BlogPics/Post19/post19.jpg').default
+            src: post19pic
         },
         textMain:
             <>
                 Od zawsze marzyliście o małym weselu dla najbliższych? A może było to podyktowane ograniczeniami budżetowymi? Tak czy siak, zanim zabierzecie się na dobre za organizację Waszego rodzinnego przyjęcia weselnego, musicie wiedzieć o kilku rzeczach. Na początku powinniśmy określić, czym tak naprawdę jest kameralne wesele. Ilu gości bawi się na małym weselu? Zapewne dla jednych będzie to 10 dla innych 30 os. Na potrzeby tego artykułu przyjmijmy, że planujemy wesele do 50 osób.
             </>,
         topPic: {
-            src: require('./BlogPics/Post19/post19a.jpg').default
+            src: post19picA
         },
         content: [
             {
@@ -2578,7 +2607,7 @@ const posts = [
                     </>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post19/post19b.jpg').default
+                        src: post19picB
                     }
                 ]
             },
@@ -2590,7 +2619,7 @@ const posts = [
                     </>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post19/post19c.jpg').default
+                        src: post19picC
                     }
                 ]
             },
@@ -2603,7 +2632,7 @@ const posts = [
                     </>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post19/post19d.jpg').default
+                        src: post19picD
                     }
                 ]
             },
@@ -2611,7 +2640,7 @@ const posts = [
                 text: 'Może się wydawać, że kameralne wesele jest czym, za czym nie przepadamy i chcemy Was do niego zniechęcić. Jest wprost przeciwnie. Uwielbiamy intymne śluby, za rodzinną atmosferę i niesamowity klimat. Chciałybyśmy po prostu uświadomić Was, na jakie problemy możecie natrafić i jakie pułapki czyhają na Pary Młode, które liczą na znacznie mniejsze koszty przy organizacji wesela do 50 osób. "Czasami mniej znaczy więcej" i chociaż powiedzenie nie do końca wydaje się adekwatne do podjętego tematu to jednak sporo w nim prawdy. Czy kameralne wesele czy huczne, polecamy się do organizacji Waszego przyjęcia. Wszelkie kłopoty i zmartwienia przeniesiemy na swoje barki.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post19/post19e.jpg').default
+                        src: post19picE
                     }
                 ]
             }
@@ -2675,7 +2704,7 @@ const posts = [
         edited: '20 lut 2021',
         textShort: 'Pewnie macie długą listę gadżetów ślubnych, które absolutnie muszą pojawić się na miejscu, gdzie organizujecie ślub i wesele. Koszyczek ratunkowy do łazienki, dodatkowa gotówka, przybory do makijażu i...',
         mainPic: {
-            src: require('./BlogPics/Post18/post18.jpg').default
+            src: post18pic
         },
         textMain:
             <>Pewnie macie długą listę gadżetów ślubnych, które absolutnie muszą pojawić się na miejscu, gdzie organizujecie ślub i wesele. Koszyczek ratunkowy do łazienki, dodatkowa gotówka, przybory do makijażu i ulubiona szminka na pewno się na niej znalazły. Tymczasem, jest kilka akcesoriów, które niezbyt kojarzą się ze ślubem i weselem, a które są na sali weselnej szalenie przydatne. Sprawdź, jakie <span className="bold pink">gadżety na ślub</span> warto przygotować!
@@ -2689,7 +2718,7 @@ const posts = [
                     </>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post18/post18a.jpg').default
+                        src: post18picA
                     }
                 ]
             },
@@ -2700,7 +2729,7 @@ const posts = [
                     </>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post18/post18b.jpg').default
+                        src: post18picB
                     }
                 ]
             },
@@ -2711,7 +2740,7 @@ const posts = [
                     </>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post18/post18c.jpg').default
+                        src: post18picC
                     }
                 ]
             },
@@ -2729,7 +2758,7 @@ const posts = [
                     </>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post18/post18d.jpg').default
+                        src: post18picD
                     }
                 ]
             },
@@ -2765,7 +2794,7 @@ const posts = [
         edited: '09 maja 2021',
         textShort: 'Czy każdy może zostać wedding plannerem? Pytanie na pozór banalne, chociaż odpowiedzi mogą być naprawdę różne. Teoretycznie tak, ale czy każdy ma predyspozycje do tego, aby...',
         mainPic: {
-            src: require('./BlogPics/Post17/post17.jpg').default
+            src: post17pic
         },
         textMain:
             <>
@@ -2773,7 +2802,7 @@ const posts = [
                 Do napisania tego artykułu skłonił mnie poniższy nagłówek, zamieszczony w popularnym portalu plotkarskim. Nie zamierzam w żaden sposób atakować Kayah, która rzeczywiście jest kobietą sukcesu i super artystką. Jej wypowiedź stała się jedynie impulsem do napisania kilku słów na temat owianego masą stereotypów zawodu konsultanta ślubnego.
             </>,
         topPic: {
-            src: require('./BlogPics/Post17/post17a.jpg').default
+            src: post17picA
         },
         content: [
             {
@@ -2793,7 +2822,7 @@ const posts = [
                 text: 'Wracając do tematu osób publicznych i ich angażowania się w branżę ślubną - mam kilka spostrzeżeń. Po pierwsze trzeba sobie od razu powiedzieć, że ani Pani Jonachowska, ani Pani Rozenek-Majdan, ani Pani Kayah nigdy nie zorganizują wesela osobiście. Są to osoby niezwykle zapracowane, z napiętym do granic możliwości grafikiem i managerem, który ogarnia za nich większość spraw. Same niejednokrotnie publicznie narzekają na totalny brak czasu. Chyba nikt nie ma wątpliwości, że żadna z Pań nie będzie siedzieć wieczorem i poszerzać bazy usługodawców, wysyłać maili lub spotykać się ze „swoimi” parami na mieście w celu konsultacji. Z pewnością znana twarz przyciągnie wielu klientów i zrobi wszystko, aby zatrudnić wykwalifikowany personel. Dla mnie to jednak odzieranie tej profesji z jej najpiękniejszego aspektu - bezpośredniego kontaktu z parą, stopniowego poznawania jej i realizacji marzeń. Branża ślubna, a szczególnie wedding planning, nie powinna działać jak taśma produkcyjna, z której wychodzą nawet najpiękniejsze śluby.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post17/post17b.jpg').default
+                        src: post17picB
                     }
                 ]
             },
@@ -2807,7 +2836,7 @@ const posts = [
                     </>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post17/post17c.jpg').default
+                        src: post17picC
                     }
                 ]
             },
@@ -2861,7 +2890,7 @@ const posts = [
         edited: '22 gru 2020',
         textShort: 'Ciężko wymienić wszystkie tradycje weselne, które mimo upływającego czasu są...',
         mainPic: {
-            src: require('./BlogPics/Post16/post16.jpg').default
+            src: post16pic
         },
         textMain:
             <>
@@ -2876,7 +2905,7 @@ const posts = [
                     </>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post16/post16a.jpg').default
+                        src: post16picA
                     }
                 ]
             },
@@ -2885,7 +2914,7 @@ const posts = [
                 text: 'Sporo rzeczy do skompletowania, ale skupmy się na starym i pożyczonym. Czy nie pięknie byłoby iść do ślubu w biżuterii swojej mamy lub babci? To piękna tradycja ślubna. Dla nas brzmi niezwykle wzruszająco. Jakiś czas temu organizowałyśmy wieczór panieński, na którym jedna z przyjaciółek wręczyła przyszłej Pannie Młodej swoją podwiązkę jako coś starego, błękitnego i pożyczonego. Taki pożyczony "staroć" dodaje otuchy i nabiera magicznego znaczenia, stając się amuletem. Ten zwyczaj ślubny to najlepszy przykład, że tradycje weselne zbliżają pokolenia, są okazją do wręczenia bliskiej osobie "amuletu", a Panna Młoda może zyskać wyjątkowy dodatek ślubny.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post16/post16b.jpg').default
+                        src: post16picB
                     }
                 ]
             },
@@ -2894,7 +2923,7 @@ const posts = [
                 text: 'Marzy Wam się wesele w maju, ale mama przestrzega, że to ściągnie na Was pecha? Lipiec jest ciepły i trochę luźniejszy od rozchwytywanego sieRpnia? A może myślicie o zimowym weselu w lutym? Kto zabroni Wam wziąć ślub w MrAJU, rLIPCU lub rUTYM? Zdziwienie i uśmiech na twarzy zaproszonych gości gwarantowany! Mało tego, dajemy głowę, że żaden z nich nigdy wcześniej nie był zaproszony na wesele organizowane w tak egzotycznym miesiącu. Ślub w miesiącu z literą R jest jednym z najrzadziej praktykowanych ze wszystkich przesądów ślubnych. Ten zabobon ślubny możemy jednak zinterpretować w nowoczesny, dość wygodny dla nas sposób.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post16/post16c.jpg').default
+                        src: post16picC
                     }
                 ]
             },
@@ -2903,7 +2932,7 @@ const posts = [
                 text: 'Niestety to coraz rzadziej praktykowany zwyczaj ślubny. Być może dlatego, że nieco mniej osób decyduje się na ślub w obrządku katolickim. Jeżeli nie jesteście wierzący, spójrzcie na błogosławieństwo z nieco innej perspektywy. To wspaniała okazja do uczczenia jednej z najważniejszych chwil w Waszym życiu. To po prostu piękna tradycja ślubna. Zatrzymajcie na chwilę i posłuchajcie kilku serdecznych słów, jakie chcą Wam przekazać rodzice, wznieście wspólny toast. Błogosławieństwo może też być bardzo ważne dla Waszych rodziców – warto zrobić im tę przyjemność i zaplanować je przed ceremonią zaślubin. Niektóre przesądy ślubne są bardzo ważne dla Waszych bliskich i kultywując je sprawicie im mnóstwo radości.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post16/post16d.jpg').default
+                        src: post16picD
                     }
                 ]
             },
@@ -2912,7 +2941,7 @@ const posts = [
                 text: 'Idąc do ołtarza, Para Młoda nie powinna zapominać o uśmiechu. Nie tylko zapewni on pomyślność w małżeństwie, ale i będzie miłym gestem w stronę zaproszonych gości. Nie bójcie się witać i nawiązywać kontaktu wzrokowego. Serdeczne uśmiechy Waszych najbliższych dodadzą Wam otuchy. Nie powstrzymujcie też łez wzruszenia, zgodnie ze ślubną przepowiednią są one zwiastunem wielkiej radości. Wiemy, że każdy inaczej reaguje na stres, ale uśmiech na Waszych twarzach będzie najlepszym początkiem Nowej Drogi Życia – niektóre przesądy ślubne nigdy nie powinny wychodzić z mody.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post16/post16e.jpg').default
+                        src: post16picE
                     }
                 ]
             },
@@ -2951,7 +2980,7 @@ const posts = [
         edited: '5 lis 2020',
         textShort: 'Pisałyśmy już o weselach plenerowych, które cieszą się obecnie wielką popularnością wśród Młodych Par. Dziś rozprawimy się z tematem wesela pod namiotem, ale...',
         mainPic: {
-            src: require('./BlogPics/Post15/post15.jpg').default
+            src: post15pic
         },
         textMain: 'Pisałyśmy już o weselach plenerowych, które cieszą się obecnie wielką popularnością wśród Młodych Par. Dziś rozprawimy się z tematem wesela pod namiotem, ale w nieco innym wydaniu.',
         content: [
@@ -2964,7 +2993,7 @@ const posts = [
                 text: 'Strefy relaksu zwane są również strefami chill out. Mogą być one miejscem przeznaczonym do tzw. babskich ploteczek. Tak naprawdę wystarczy koc i kilka kolorowych poduszek, a może tipi rozłożone na trawie. Fajnie, jeżeli strefa relaksu daje gościom możliwość odpoczynku od zgiełku wesela, ale jeszcze lepiej, gdy niesie ze sobą coś więcej. Co powiecie na strefę chill out z fajką wodną? Często obawiacie się, że goście, zamiast bawić się na weselu będą zalegać w strefie chill out. Jest to pewnego rodzaju dysonans, ponieważ zawsze zależy Wam, żeby goście świetnie się bawili, a narzucacie im, że mają to robić na sali. To świetne rozwiązanie na wesele w stylu slow. Istnieje jednak złoty środek. Na swoim weselu pod namiotem zaplanujcie strefę relaksu tak, aby nie zmieściło się w niej więcej niż 10 osób, a jej charakter wymuszał częstą rotację gości. Na przykład w przypadku fajki wodnej, z pewnością bardzo wielu gości będzie chciało z niej skorzystać. Starsze pokolenie będzie chciało spróbować. Duże zainteresowanie spowoduje, że zaleganie w strefie chill out, podczas gdy wiele osób na nią czeka, będzie po prostu niegrzeczne.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post15/post15a.jpg').default
+                        src: post15picA
                     }
                 ]
             },
@@ -2973,7 +3002,7 @@ const posts = [
                 text: 'Oczywiście! Brzmi banalnie, ale świetnie się sprawdza. Szczególnie, gdy zabawa nie jest wymuszona. Twister na trawie, dart, mega jenga, bule, cornhole, hula hop, a może wszystko na raz? Przy weselu pod namiotem opcji jest masa. Jedyne co Was ogranicza to Wasza wyobraźnia. Pamiętajcie, żeby gry na weselu pod namiotem nie były zbyt czasochłonne. Krótkie i wszystkim znane zabawy sprawdzą się najlepiej.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post15/post15b.jpg').default
+                        src: post15picB
                     }
                 ]
             },
@@ -2982,7 +3011,7 @@ const posts = [
                 text: 'Namiot weselny w którym znajdziecie samodzielne przygotowywane fondue, watę cukrową lub po prostu stanowisko z lemoniadą. Goście będą zachwyceni! Wiejski stół to już trochę przeżytek, pyszne wędzone kiełbasy, smalec, czy regionalne sery to nie najgorszy pomysł, ale czy nie warto odejść od konwenansów i zaproponować gościom coś, czego nie znają? Dzięki temu z pewnością Wasze wesele pod namiotem stanie się niezapomniane, a wszyscy goście będą je wspominać przez długi czas.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post15/post15c.jpg').default
+                        src: post15picC
                     }
                 ]
             },
@@ -2991,7 +3020,7 @@ const posts = [
                 text: 'Polska to nie Kalifornia, gdzie wiecznie świeci słońce. Na wypadek deszczu namiot i ślub na wesele, które planowaliście pod chmurką to praktyczne rozwiązanie. Nawet jeśli planujecie kameralne wesele we własnym ogrodzie warto przemyśleć kwestie najmu namiotu weselnego. Jaki namiot na wesele wybrać na pewno doradzi Wasz konsultant ślubny. Namiot weselny i przyjęcie w plenerze brzmi jak plan idealny. Ciepły wieczór, rozgwieżdżone niebo, parkiet taneczny rozłożony na trawie, goście biesiadujący przy stołach... A w praktyce? Zimno jak diabli, na dodatek zbiera się na deszcz. Panie w szpilkach utykają w trawie. Goście o 22:00 mają dość i zbierają się do domu.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post15/post15d.jpg').default
+                        src: post15picD
                     }
                 ]
             },
@@ -3021,7 +3050,7 @@ const posts = [
         edited: '7 maja 2021',
         textShort: 'Organizujesz swój ślub i wesele. BRAWO! Jesteś bohaterką! Zasługujesz na trochę odpoczynku i relaksu. Chcemy zaproponować...',
         mainPic: {
-            src: require('./BlogPics/Post14/post14.jpg').default
+            src: post14pic
         },
         textMain: <>Organizujesz swój ślub i wesele. BRAWO! Jesteś bohaterką! Zasługujesz na
             trochę odpoczynku i relaksu. Chcemy zaproponować Ci dziś trochę weselnych
@@ -3054,7 +3083,7 @@ const posts = [
                 text: '"Say Yes to the Dress" to jeden z tych programów o ślubach, które ogląda się z przyjemnością.Przyszłe panny młode zjeżdżają z całej Ameryki do Nowego Jorku, by znaleźć perfekcyjną suknię ślubną.To fascynująca seria pokazująca dramat, jakim niejednokrotnie staje się znalezienie sukni, która spełniałaby oczekiwania wymagającej i czasem trudnej grupy, jaką tworzą druhny czy rodzina.Z pomocą przychodzi zespół konsultantów, aby pomóc pannom młodym i druhnom osiągnąć porozumienie co do stroju zadowalającego wszystkich. Niestety spory, różne gusta i wysokie ceny potrafią zmienić wymarzone wesele każdej panny młodej w najgorszy koszmar. Koniec końców sukces pojawia się częściej niż porażka.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post14/post14a.jpg').default
+                        src: post14picA
                     }
                 ]
             },
@@ -3079,7 +3108,7 @@ const posts = [
                 text: 'Chociaż obejrzenie programu o ślubach wymaga mniej czasu i możemy tę czynność połączyć z jazdą na rowerku stacjonarnym, czasami warto także sięgnąć po literaturę. Książka „Dziennik naszego ślubu Antoniego Winiarskiego jest doskonałą pozycją dla każdej kobiety, która zmaga się z przygotowaniami ślubu i wesela.Ta książka to najlepszy przewodnik na polskim rynku do organizacji ślubu i przyjęcia weselnego.Rozdziały dotyczą inspiracji i szczegółowych planów, które pomogą nowożeńcom przejść przez ten trudny okres organizacji tych ważnych dla nich wydarzeń. Znajdziemy tu karty na zaplanowanie strojów, wydatków, na plan usadzenia gości i wiele innych niezbędnych czynności, których wykonanie zapewni, że ślub będzie elegancki i niezapomniany, a książka ta stanie się pamiętnikiem tej wyjątkowej i szczęśliwej ceremonii.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post14/post14b.jpg').default
+                        src: post14picB
                     }
                 ]
             },
@@ -3089,7 +3118,7 @@ const posts = [
                 text: 'W przeciwieństwie do wcześniej wspomnianych programów, które skupiały się przede wszystkim na sukniach ślubnych, „Mike ratuje wesele” jest programem, który o ślubach opowiada w szerszym zakresie.Mikie Russo jest wyjątkowym organizatorem unikalnych wesel.Jego przyjęcia to istna uczta dla zmysłów.W dodatku ma dar rozładowywania najbardziej napiętych sytuacji, do których tak często dochodzi podczas planowania wesela. Ten niesłychanie zdolny samouk, przekonany o tym, że jeśli coś ma być zrobione dobrze, trzeba to zrobić samemu. Zdobył uznanie w branży dzięki swemu zamiłowaniu do sztuki florystycznej.Po trwającej parę lat praktyce w firmie florystycznej, gdzie doradzał Pannom Młodym, w końcu założył swoją własną firmę eventową – Michael Russo Events. W każdym odcinku możemy zobaczyć, jak Mike pomaga przyszłym małżonkom zrealizować ich marzenia o wyjątkowym dniu.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post14/post14c.jpg').default
+                        src: post14picC
                     }
                 ]
             },
@@ -3099,7 +3128,7 @@ const posts = [
                 text: 'Znana z serialu o tym samym tytule Carrie Bradshaw (Sarah Jessica Parker) po wielu perypetiach w końcu wychodzi za mąż za swojego ukochanego, słynnego Mr Biga. Carrie oraz jej przyjaciółki szykują wesele w iście nowojorskim stylu. Sukienka będzie od słynnej projektantki, a goście weselni to śmietanka towarzyska Manhattanu. Ja zazdroszczę jej miejsca, w którym ceremonia się odbędzie.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post14/post14d.jpg').default
+                        src: post14picD
                     }
                 ]
             },
@@ -3119,7 +3148,7 @@ const posts = [
                 text: 'Iza Janachowska – prowadząca program w TVN Style jest na pewno piękna, uśmiechnięta i zaangażowana w przygotowanie wymarzonego wesela Pary, ale na tym się kończy. Program każe wierzyć nam, że w dwa dni przed ślubem załatwimy nie tylko ekskluzywne auto, sukienkę z poprawkami krawieckimi, ale i gwiazdę disco polo. A do tego nasz makijaż nie ulegnie nawet minimalnemu zniszczeniu. Czas spędzony na oglądaniu tego programu o ślubach potraktuj czysto rozrywkowo, a o radach z niego zaczerpniętych szybko zapomnij.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post14/post14e.jpg').default
+                        src: post14picE
                     }
                 ]
             },
@@ -3150,7 +3179,7 @@ const posts = [
         edited: '18 lis 2020',
         textShort: 'Pogodna wiosna, długie, upalne lato i złota polska jesień mogą stanowić doskonałą oprawę weselnej imprezy. Jeśli dodatkowo zdecydujecie się urządzić wesele w plenerze, TEN dzień będzie...',
         mainPic: {
-            src: require('./BlogPics/Post13/post13.jpg').default
+            src: post13pic
         },
         textMain:
             <>
@@ -3166,7 +3195,7 @@ const posts = [
                 text: 'Podczas tak dużego przedsięwzięcia, jakim jest wesele plenerowe, stawianie i wyposażenie namiotu weselnego wymaga pracy sporej liczby ludzi. Na "placu budowy" jednocześnie mogą kręcić się specjaliści od klimatyzacji, oświetlenia, w części zaplecza rozkładany może być sprzęt cateringowy, podłączany będzie prąd. Oczywiście ufamy specjalistom z branży ślubnej, których zatrudniamy, ale sytuacje i ludzie są różni. Bałagan może zrobić się samoistnie. Ktoś w natłoku pracy zapomni i zostawi puste butelki po napojach, niechcący naniesie piachu, a nie będzie miał ze sobą zmiotki i szufelki. Warto wliczyć do budżetu ślubnego firmę, która z profesjonalnym sprzętem będzie dbała o porządek podczas weselna w plenerze oraz posprząta po przyjęciu.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post13/post13.jpg').default
+                        src: post13pic
                     }
                 ]
             },
@@ -3176,7 +3205,7 @@ const posts = [
                     W przypadku sal weselnych problem przeważnie się nie pojawia. Każde dobrze prosperujące miejsce ma swój prywatny parking, a w przypadku większej ilości samochodów służą swoim doświadczeniem i podpowiedzą, gdzie pokierować gości. Co, kiedy podczas organizacji przyjęcia weselnego w plenerze stawiamy <CustomPostLink path='wesele-pod-namiotem' className="linkPink" text="namiot weselny" /> czy jurtę na pięknej łące, u siebie w ogrodzie lub daleko od cywilizacji? Często Młode Pary nie pomyślą o organizacji parkingu i nie chodzi tu tylko o wydzielenie strefy, gdzie goście mogą zaparkować. Trzeba pomyśleć o tym, aby parking był na stabilnym gruncie. Panie będą mieć obcasy, a Panowie eleganckie półbuty. Szkoda, aby obuwie pobrudziło się od zapadania w ziemię bądź błoto podczas ewentualnego deszczu. Dobrze, gdyby miejsce było odpowiednio oświetlone, by nie szukać swojego auta, świecąc sobie smartfonem. Jeśli marzycie o weselu w plenerze, musicie zapewnić gościom jak najbardziej komfortowe warunki.</>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post13/post13a.jpg').default
+                        src: post13picA
                     }
                 ]
             },
@@ -3185,7 +3214,7 @@ const posts = [
                 text: 'Zadbajcie o to, aby podczas plenerowego wesela DJ czy zespół nie narzekali na brak prądu. Ze źródłem prądu na plenerowych weselach bywa różnie – najlepiej, jeśli możecie po prostu pociągnąć kable z budynku obok (urządzając wesele plenerowe na przykład w ogrodzie przy pałacu albo hotelu). Nie zawsze jest jednak taka możliwość. Zadbajcie również o odpowiednie zabezpieczenie kabli: nie ma nic gorszego niż kilometry kabli wijących się na trawie, przez które goście muszą przeskakiwać. Może Wam się to wydawać nudnym BHP-owskim gadaniem, ale wierzcie mi – dobra zabawa + alkohol + nieuwaga to mieszanka wybuchowa na weselu plenerowym.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post13/post13b.jpg').default
+                        src: post13picB
                     }
                 ]
             },
@@ -3194,7 +3223,7 @@ const posts = [
                 text: 'Śmiejcie się, śmiejcie, ale serio wyobrażacie sobie gości weselnych szukających u Was pomocy w załatwieniu papieru toaletowego lub mydła? Bo my nie bardzo. Kwestia toalety to bardzo ważna sprawa, dlatego planując wesele w plenerze, dokładnie ją przemyślcie. Wybierając miejsce na wesele w plenerze optymalna będzie możliwość skorzystania z toalety w przylegającym budynku. Możecie też wynająć toalety-przyczepy, z umywalką, lustrem i normalnie wyglądającymi kabinami. I o ile podczas korzystania z toalety w pobliskim budynku, będzie osoba, która o nią zadba, to nie liczcie na to, że ktoś pomyśli o sprawdzeniu stanu czystości w podstawionych toaletach — przyczepkach. No bo kto? Mama Panny Młodej, kelnerzy, którzy mają kontakt z Waszym jedzeniem? Tu warto pomyśleć o zatrudnieniu osoby, która przez całą noc przyjęcia weselnego w plenerze będzie dbać o czystość sanitariatów, jak i posprząta je rano po całonocnym weselu w plenerze.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post13/post13c.jpg').default
+                        src: post13picC
                     }
                 ]
             },
@@ -3203,7 +3232,7 @@ const posts = [
                 text: 'Zauważyliście już pewnie, że organizacja wesel w plenerze to nie kaszka z mleczkiem. Trzeba pomyśleć zawczasu o wielu aspektach, żeby wesele w plenerze zakończyło się pełnym sukcesem. Chcecie zminimalizować przytłaczającą Was liczbę kontaktów i spraw, jakie musicie nawiązywać na drodze do Waszego wielkiego dnia w wesela w plenerze? Zatrudnijcie wedding plannera! Przejmie lwią część spraw i ustaleń, a przede wszystkim pomyśli o wszystkim, o czym Wy zapomnieliście! Przypilnuje za Was wszystkich spraw w trakcie organizacji wesela w plenerze, a także pojawi się na miejscu uroczystości podczas stawiania namiotu i na bieżąco będzie radził sobie z problemami, a wierzcie mi, jest ich dużo. Unikniecie też dodatkowego stresu i załatwiania, co pozwoli Wam cieszyć się swoim wyjątkowym dniem! Osobiście polecamy się na tego typu przedsięwzięcia - przyjęcia weselne w plenerze to nasz konik i mamy w tym sporo doświadczenia!',
                 pics: [
                     {
-                        src: require('./BlogPics/Post13/post13d.jpg').default
+                        src: post13picD
                     }
                 ]
             },
@@ -3227,7 +3256,7 @@ const posts = [
         edited: '22 gru 2020',
         textShort: 'Organizacja ślubu i wesela to nie tylko wielkie wyzwanie i dużo pracy, ale i...',
         mainPic: {
-            src: require('./BlogPics/Post12/post12.jpg').default
+            src: post12pic
         },
         textMain:
             <>
@@ -3239,7 +3268,7 @@ const posts = [
                 text: 'Jeżeli nie macie pewności, czy wystarczy Wam pieniędzy na zorganizowanie ślubu marzeń, zdecydujcie się na wesele jednodniowe. Poprawiny generują spore koszty, często wiążą się z koniecznością rezerwacji dodatkowych miejsc noclegowych, transportu czy oprawy muzycznej. Jeżeli bardzo zależy Wam na tym, aby wesele było dwudniowe, zdecydujcie się tylko na pożegnalne śniadanie. Pamiętajcie, że lepiej zorganizować jednodniowe wesele, które goście zapamiętają na długo, niż kiepskie trwające na domiar złego dwa dni. Rezygnacja z poprawin to pierwsza odpowiedź na pytanie o to, na czym zaoszczędzić na weselu.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post12/post12a.jpg').default
+                        src: post12picA
                     }
                 ]
             },
@@ -3248,7 +3277,7 @@ const posts = [
                 text: 'Zastanówcie się, czy Wasza lista gości nie jest zbyt długa. Skromne uroczystości w gronie rodziny i przyjaciół mają niesamowity urok i niczym nie ustępują tym na 150 osób. Nie uginajcie się, gdy najbliżsi naciskają, że należy zaprosić sąsiadkę lub ciocię, którą ostatni raz widzieliście podczas swojej komunii. Huczne czy kameralne wesele? To Wasze wesele i Wy za nie płacicie. Jeżeli mama lub teściowa mają ochotę kogoś zaprosić, postawcie ultimatum, że będą musiały pokryć wszystkie związanej tym koszty. Wiele Par Młodych nie ma ochoty zapraszać rodziny, z którą nie utrzymują kontaktu od lat i dopiero szukanie sposobu, jak zaoszczędzić na organizacji wesela, ułatwia w podjęciu decyzji dotyczącej listy gości.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post12/post12b.jpg').default
+                        src: post12picB
                     }
                 ]
             },
@@ -3261,7 +3290,7 @@ const posts = [
                 text: 'Pary bezustannie główkują, jaką wódkę weselną wybrać. Zwykle odpowiadamy, że taką, jaką pije się na rodzinnych imprezach, najlepiej niezbyt drogą. Absolutnie nie namawiamy do kupowania najtańszego spirytusu, bo to droga do tragedii, ale jeżeli Wasz budżet jest ograniczony, wybierzcie alkohol ze średniej półki cenowej. Wódka to wódka. Goście będą z chęcią po nią sięgać bez względu czy jej cena to 20, czy 70 złotych za pół litra, a Wy możecie zaoszczędzić naprawdę sporo pieniędzy. Dobrą alternatywą jest oczywiście wino. W sklepach internetowych możecie znaleźć rozmaite promocje na naprawdę smaczne wina.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post12/post12c.jpg').default
+                        src: post12picC
                     }
                 ]
             },
@@ -3274,7 +3303,7 @@ const posts = [
                 text: 'Głównie mamy tu na myśli winietki. Jeżeli zdecydujecie się na okrągłe stoliki, możecie zrezygnować z winietek na rzecz planu ustawienia stołów. Rozsadzenie gości przy okrągłym stoliku nie ma znaczenia, a table plan pomoże Wam uniknąć gonitwy w poszukiwaniu miejsca przy stole i wyjdzie zdecydowanie taniej. Menu? Zawieszki na alkohol? Wyglądają pięknie, ale zdecydowanie nie jest to must have niskobudżetowego wesela i rezygnacja z nich jest bezapelacyjnie dobrym pomysłem, by więcej nie zastanawiać się już, jak zaoszczędzić na weselu.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post9/post9f.jpg').default
+                        src: post9picF
                     }
                 ]
             },
@@ -3283,7 +3312,7 @@ const posts = [
                 text: 'W tajemnicy zdradzimy Wam, że często goście zapominają, gubią lub po prostu nie zabierają upominków przygotowanych przez Parę Młodą. To miły gest, ale przy 100-osobowym weselu rezygnacja z prezentów dla gości to oszczędność przynajmniej 500 złotych, które można wykorzystać na bardziej przyziemne rzeczy. Ponadto przy weselu ze skromnym budżetem powinniście całkowicie odrzucić pomysł takich atrakcji jak pokaz sztucznych ogni czy lampiony szczęścia. Atrakcje są dość drogie i można sobie na nie pozwolić, jeżeli każda inna rzecz jest dopięta na ostatni guzik. Dobry zespół lub Dj zapewniają gościom znakomitą zabawę, dlatego Pary, które zastanawiają się, jak zaoszczędzić na ślubie i weselu, namawiamy do skupienia się na znalezieniu wodzireja i muzyków, którzy nie pozwolą gościom się nudzić.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post12/post12d.jpg').default
+                        src: post12picD
                     }
                 ]
             },
@@ -3317,7 +3346,7 @@ const posts = [
         edited: '8 mar 2021',
         textShort: 'Rynek ślubny rozwija się w niesamowitym tempie. Agencje ślubne, fotografowie, kamerzyści oraz zespoły muzyczne – każdego roku...',
         mainPic: {
-            src: require('./BlogPics/Post11/post11.jpg').default
+            src: post11pic
         },
         textMain: 'Rynek ślubny rozwija się w niesamowitym tempie. Agencje ślubne, fotografowie, kamerzyści oraz zespoły muzyczne – każdego roku branża ślubna się rozrasta. Dziś powiemy Wam jak wybrać solidnego wykonawcę spośród ofert znajdujących się na rynku. Obnażymy także słabostki i grzeszki "kolegów" z branży. Mamy nadzieję, że poniższy artykuł pomoże Wam oddzielić ziarno od plew i dokonać samych trafnych wyborów.',
         content: [
@@ -3330,7 +3359,7 @@ const posts = [
                 </>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post11/post11a.jpg').default
+                        src: post11picA
                     }
                 ]
             },
@@ -3351,7 +3380,7 @@ const posts = [
                     </>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post11/post11b.jpg').default
+                        src: post11picB
                     }
                 ]
             },
@@ -3369,7 +3398,7 @@ const posts = [
                     </>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post11/post11c.jpg').default
+                        src: post11picC
                     }
                 ]
             },
@@ -3378,7 +3407,7 @@ const posts = [
                 text: 'To bardzo niewdzięczna grupa wykonawców ślubnych. Znajdziecie ich głównie wśród fotografów, kamerzystów i muzyków. To Wy jesteście szefem i macie prawo decydować o tym, co zostanie zagrane na Waszym weselu lub jakiego typu zdjęć czy filmu oczekujecie. Oczywiście każdy fotograf, kamerzysta, muzyk ma swój bliżej określony styl i nie można oczekiwać, że zrobi coś zupełnie wbrew sobie, ale niedopuszczalne jest byście, nie mieli prawa głosu w tak ważnych kwestiach. Jeżeli więc obiło się Wam o uszy, że Wasz fotograf to artysta, który nie lubi się podporządkowywać, zrezygnujcie z jego usług. Na swojej czarnej liście wykonawców ślubnych mamy kilku delikwentów, którzy robią piękne zdjęcia, kręcą nieziemskie filmy i grają super muzykę, ale po prostu nie da się z nimi współpracować. Są aroganccy, nie słuchają uwag i wiedzą wszystko najlepiej. Taka współpraca zwykle odbija się czkawką.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post11/post11d.jpg').default
+                        src: post11picD
                     }
                 ]
             },
@@ -3387,7 +3416,7 @@ const posts = [
                 text: 'Jeżeli po raz kolejny słyszycie, że coś się nie da, że już się tak nie robi, albo "my tak nie robimy" to znajdźcie kogoś, kto z przyjemnością zrobi wszystko, aby Wasze marzenia stały się rzeczywistością. Czasami oczywiście trzeba sprowadzić Parę Młodą na ziemię, ponieważ nie ma nic gorszego niż obiecanki i zbyt ryzykowne pomysły, ale rynek ślubny jest tak przesycony specjalistami i daje taką masę możliwości, że da się prawie wszystko. Oczywiście o ile znajdą się dobre chęci i pozwala na to budżet.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post11/post11e.jpg').default
+                        src: post11picE
                     }
                 ]
             },
@@ -3413,7 +3442,7 @@ const posts = [
                     </>,
                 pics: [
                     {
-                        src: require('./BlogPics/Post11/post11f.jpg').default
+                        src: post11picF
                     }
                 ]
             },
@@ -3453,11 +3482,11 @@ const posts = [
         edited: '22 gru 2020',
         textShort: 'Gratulacje! Jesteście już małżeństwem, ślub oraz zabawa weselna były fantastyczne i nadszedł czas na rozpoczęcie życia małżeńskiego w pełnym wymiarze, ale...',
         mainPic: {
-            src: require('./BlogPics/Post10/post10.jpg').default
+            src: post10pic
         },
         textMain: 'Gratulacje! Jesteście już małżeństwem, ślub oraz zabawa weselna były fantastyczne i nadszedł czas na rozpoczęcie życia małżeńskiego w pełnym wymiarze, ale zanim to nastąpi pora na "poślubne porządki", zarówno dosłownie (wyczyszczenie sukni, garnituru), jak i formalne (wymiana dokumentów). O wielu "poślubnych" sprawach Młoda Para zapomina albo odkłada na później, a przypomina sobie o nich dopiero przy załatwianiu ważnych spraw urzędowych. Dowiedz się, jakie formalności po ślubie powinni załatwić świeżo upieczeni małżonkowie.',
         topPic: {
-            src: require('./BlogPics/Post10/post10a.jpg').default
+            src: post10picA
         },
         content: [
             {
@@ -3492,7 +3521,7 @@ const posts = [
         edited: '26 sie 2020',
         textShort: 'Rozsadzenie gości weselnych przy stołach to sprawa na pozór prosta, ale nasze doświadczenia w agencji ślubnej Czary Marry są najlepszym dowodem na to, że...',
         mainPic: {
-            src: require('./BlogPics/Post9/post9.jpg').default
+            src: post9pic
         },
         textMain:
             <>
@@ -3504,7 +3533,7 @@ const posts = [
                 text: 'Zacznijmy od podstaw. Istnieje wiele możliwości ustawienia stołów na sali weselnej. Obecnie największym powodzeniem cieszą się stoliki okrągłe, co wynika nie tylko z mody i eleganckiego stylu, ale i wielu możliwości, jakie gwarantuje. Bez względu na to, na jakie ułożenie się zdecydujecie, musicie pamiętać o kilku ważnych zasadach, których pod żadnym pozorem nie należy łamać tworząc plan rozmieszczenia gości weselnych.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post9/post9a.jpg').default
+                        src: post9picA
                     }
                 ]
             },
@@ -3513,7 +3542,7 @@ const posts = [
                 text: 'Jak rozsadzić gości na weselu? Rozsadzenie gości weselnych powinno być uzależnione od swoistej hierarchii. Planując, gdzie kogo posadzić, należy wziąć pod uwagę, którzy goście są najważniejsi. Przede wszystkim pamiętajcie, że na Waszym weselu najważniejsi jesteście Wy sami. Para Młoda powinna więc siedzieć w centralnym miejscu. Mogą jej towarzyszyć świadkowie i ewentualnie rodzice, chociaż nie polecamy takiego rozwiązania ze względu na łączenie osób z dwóch różnych grup wiekowych (świadkowie, rodzice). Oryginalnym i praktycznym pomysłem jest osobny stolik przeznaczony tylko dla pary młodej, do którego dostawione są dwa puste krzesła. Dzięki temu każdy z gości ma szansę dosiąść się do Pary Młodej na krótką pogawędkę.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post9/post9b.jpg').default
+                        src: post9picB
                     }
                 ]
             },
@@ -3521,7 +3550,7 @@ const posts = [
                 text: 'Zasada rozsadzania gości weselnych, której absolutnie nie należy łamać i którą stosuje się od zarania dziejów, mówi, by gości weselnych sadzać od najstarszego do najmłodszego. Dziadkowie, babcie, rodzice, chrzestni powinni siedzieć jak najbliżej Pary Młodej. Następnie możecie się skupić na pozostałej części rodziny, a na końcu przyjaciołach i znajomych.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post9/post9c.jpg').default
+                        src: post9picC
                     }
                 ]
             },
@@ -3529,7 +3558,7 @@ const posts = [
                 text: 'Jednocześnie podczas rozsadzania gości powinno sugerować się nie tylko wiekiem i koneksjami rodzinnymi, ale i wspólnymi zainteresowaniami oraz wzajemną sympatią osób, które mają zasiadać przy jednym stole.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post9/post9d.jpg').default
+                        src: post9picD
                     }
                 ]
             },
@@ -3537,7 +3566,7 @@ const posts = [
                 text: 'Przy tworzeniu listy gości weselnych przy stole szczególną uwagę zwróćcie na to, aby osoby skonfliktowane lub niedarzące się sympatią nie siedziały zbyt blisko siebie. Tu świetnie sprawdzają się stoliki okrągłe. Bardzo łatwo będzie posadzić zwaśnionych rozwodników plecami do siebie – czego oczy nie widzą, tego sercu nie żal. Jeżeli zależy Wam na tym, aby goście lepiej się poznali, posadźcie członków dwóch rodzin po przeciwnych stronach stołu, zawsze naprzemiennie kobieta, mężczyzna.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post9/post9e.jpg').default
+                        src: post9picE
                     }
                 ]
             },
@@ -3546,7 +3575,7 @@ const posts = [
                 text: 'Kiedy już ogarniecie galimatias związany z rozsadzeniem gości, pomyślcie o table planie. Co to takiego? Tablica z rozmieszczeniem gości weselnych zawiera oznaczenia stolików wraz z nazwiskami osób, które przy nich zasiadają. Taka tablica rozmieszczenia gości pozwoli uniknąć zamieszania związanego z poszukiwaniem swojego miejsca, a goście w kilka sekund rozproszą się po sali, nie powodując sztucznego tłoku i zamętu. Dobrze gdy tablica z usadzeniem gości stoi blisko wejścia, w miarę widocznym miejscu, co pozwoli na szybkie zajęcie stołów Jeżeli chodzi o winietki, są one niezbędne przy ułożeniu stołów w literę I, E, T lub U natomiast nie są niezbędne przy stolikach okrągłych. Nie ma bowiem większego znaczenia, jak zasiądą przy nich goście. Tak czy siak, każdy widzi każdego i wszyscy są sobie równi. Jeżeli obawiacie się, że Wasze babcie lub dziadkowie nie poradzą sobie ze znalezieniem swojego miejsca, wyznaczcie jedną osobę, która im pomoże i zaprowadzi do odpowiedniego stolika.',
                 pics: [
                     {
-                        src: require('./BlogPics/Post9/post9f.jpg').default
+                        src: post9picF
                     }
                 ]
             },
@@ -3577,7 +3606,7 @@ const posts = [
         date: '16 maja 2017',
         textShort: 'Dziś o swoim ślubie i weselu opowie Wam moja Kochana Mama. Naszym rozmowom zawsze towarzyszą zabawne anegdoty, wzruszenia i wielki karton...',
         mainPic: {
-            src: require('./BlogPics/Post8/post8.jpg').default
+            src: post8pic
         },
         textMain:
             <>
@@ -3595,7 +3624,7 @@ const posts = [
                 <CustomPostLink text="Ślub cywilny" path="dokumenty-slub-cywilny-formalnosci" className="linkPink" />  był na godzinę 13. Pamiętam, że nie mogłam wcisnąć obrączki na palec taty. Bardzo mnie to rozbawiło, co widać na zdjęciach. Na dodatek zająknęłam się podczas składania przysięgi, ponieważ, mimo że chodziłam z twoim tatą tak długo, nie wiedziałam, że ma na drugie imię Waldemar. Po ceremonii świadek kazał nam oddać obrączki i na godzinę 16 pojechaliśmy do kościoła. Zaskakujące było, że tego dnia ślub kościelny brały trzy pary podczas jednej ceremonii. Jeszcze większym zbiegiem okoliczności były imiona panów młodych: Lechosław, Lech oraz Leszek. Wszystko odbyło się oczywiście za naszą zgodą, nie zależało nam na tym, żeby wszystko kręciło się wokół nas, nie przeszkadzało, że dzielimy ceremonię z dwoma innymi parami.
             </>,
         topPic: {
-            src: require('./BlogPics/Post8/post8a.jpg').default
+            src: post8picA
         },
         content: [
             {
@@ -3613,7 +3642,7 @@ const posts = [
                         Poradziłabym im, żeby byli wytrwalsi w małżeństwie. By starali się być ze sobą na dobre i złe, wspólnie rozwiązując problemy jakie niesie los.
                     </>,
                 pics: [
-                    { src: require('./BlogPics/Post8/post8b.jpg').default }
+                    { src: post8picB }
                 ]
             }
         ],
@@ -3634,14 +3663,14 @@ const posts = [
         tag: 'niezbędnik-przedslubny',
         textShort: 'Wszyscy uwielbiamy prezenty! Moda na upominki dla gości weselnych trwa w najlepsze. Młodzi przygotowują drobne prezenciki, które umieszczają...',
         mainPic: {
-            src: require('./BlogPics/Post7/post7.jpg').default
+            src: post7pic
         },
         textMain:
             <>
                 Wszyscy uwielbiamy prezenty! Moda na <span className="bold pink">upominki dla gości weselnych</span> trwa w najlepsze. Młodzi przygotowują drobne prezenciki, które umieszczają na stołach, rozdają na pożegnanie lub ustawiają gdzieś w jednym widocznym miejscu do wzięcia. Takie prezenty dla gości weselnych to piękna pamiątka z dnia ślubu i wesela. <br /> W całej idei nie chodzi o to, by kupować drogie podarunki, lecz o symboliczną drobnostkę na pamiątkę – podziękowania dla gości weselnych za przybycie i chęć wspólnego celebrowania Waszego dnia ślubu. Uważamy, że to naprawdę świetny pomysł, który coraz częściej wykorzystywany jest przez Pary Młode, jako substytut rozdawania wódki czy ciasta, które zostało po weselu (co niekoniecznie jest szczególnie eleganckie). Jakie więc podarunki zostaną w pamięci gości? Przygotowałyśmy dla Was kilka ciekawych i niebanalnych propozycji – inspiracji na <span className="bold pink">oryginalne prezenty dla gości weselnych.</span>
             </>,
         topPic: {
-            src: require('./BlogPics/Post7/post7a.jpg').default
+            src: post7picA
         },
         content: [
             {
@@ -3652,28 +3681,28 @@ const posts = [
                 headerSmall: <span className="pink">Album ulubionych piosenek Pary Młodej – sentymentalny upominek dla gości</span>,
                 text: 'Każda para ma swoje ulubione piosenki. A to wspomnienie pierwszego pocałunku, pierwszej wspólnej wycieczki rowerowej albo udanych wakacji. Warto to wykorzystać i stworzyć piękną składankę w personalizowanym pudełku i podarować je w formie prezentu dla gości weselnych. Prezenty dla gości weselnych w stylu zrób to sam? – chyba nie ma nic bardziej personalnego. Jeśli udałoby się jeszcze okleić samemu płytę, byłoby bajecznie. Innym rozwiązaniem są udekorowane pendrive’y, na którym znajdą się wspomnienia Młodych.',
                 pics: [
-                    { src: require('./BlogPics/Post7/post7b.jpg').default }
+                    { src: post7picB }
                 ]
             },
             {
                 headerSmall: <span className="pink">Magnesy - podziękowanie dla gości</span>,
                 text: 'Wielu miłośników podróży ze swoich bliskich i dalekich wojaży przywozi magnesy na lodówkę. Są one pamiątką, które nie zajmują miejsca na półce, które nie kurzą się, jak inne wakacyjne pamiątki i które często traktujemy jako swojego rodzaju trofea. Dlaczego więc nie podarować gościom pamiątki z najpiękniejszego i najważniejszego dnia w Waszym życiu? Magnesy jako prezent dla gości weselnych, dzięki możliwości aplikacji na lodówce, będą przypominać wszystkim to cudowne wydarzenie, jakim był Wasz ślub – z całą pewnością pozytywnie zaskoczą gości weselnych, ceniących sobie pamiątki, które są sentymentalne i praktyczne jednocześnie.',
                 pics: [
-                    { src: require('./BlogPics/Post7/post7c.jpg').default }
+                    { src: post7picC }
                 ]
             },
             {
                 headerSmall: <span className="pink">Breloczek – kolejny praktyczny prezent dla gości weselnych</span>,
                 text: 'Breloczek to kolejny ciekawy i przydatny prezent dla gości. Breloczki coraz częściej zastępują popularne słoiczki z miodem lub słodycze. Są trwałe, nie mają daty przydatności do spożycia i pomogą odróżnić kolejny komplet kluczy, który odkładamy obok innych. Są więc użyteczne, a obdarowana osoba będzie mogła każdego dnia patrzeć na taki upominek dla gości, otwierając drzwi kluczami zawieszonymi na tym breloczku.',
                 pics: [
-                    { src: require('./BlogPics/Post7/post7d.jpg').default }
+                    { src: post7picD }
                 ]
             },
             {
                 headerSmall: <span className="pink">Winietki-przypinki – upominek dla gości, oryginalny dodatek na stole</span>,
                 text: 'Szukając ciekawego prezentu dla gości weselnych, możemy sięgnąć również po takie, które spełnią praktyczną funkcję w trakcie samego wesela. Zamiast tradycyjnych, "zwykłych" winietek postawcie na winietki-przypinki. Na początku imprezy przypinki kładziemy na talerzach gości tak, by spełniały funkcję wizytówek z imieniem i nazwiskiem. Po zakończeniu wesela, winietki-przypinki będą trwałą pamiątką tej wyjątkowej nocy. Taki upominek dla gości polecamy przede wszystkim tym Parom, które na wesele zamawiają foto budkę.',
                 pics: [
-                    { src: require('./BlogPics/Post7/post7e.jpg').default }
+                    { src: post7picE }
                 ]
             },
             {
@@ -3715,7 +3744,7 @@ const posts = [
         tag: 'niezbędnik-przedslubny',
         textShort: 'Podziękowania dla rodziców bywają twardym orzechem do zgryzienia. Z pewnością ciężko w kilku słowach lub za pomocą weselnego szlagieru...',
         mainPic: {
-            src: require('./BlogPics/Post5/post5.jpg').default
+            src: post5pic
         },
         textMain:
             <>
@@ -3727,49 +3756,49 @@ const posts = [
                 headerSmall: '1. Podziękowania dla rodziców w formie filmu',
                 text: 'Film z podziękowaniami dla rodziców może mieć bardzo różną formę. Możecie wybrać super produkcję nakręconą przez polecanych profesjonalistów lub przygotować go samodzielnie. Być może chcielibyście powiedzieć coś od siebie lub zdecydować się na krótki filmik z muzyką w tle. Nie chcecie dokładać sobie kolejnych wydatków do weselnego budżetu? Wystarczy prosty program do obróbki filmów i telefon komórkowy. Nie jesteście dobrymi mówcami? Nie wiecie jak to ugryźć? Świetnym rozwiązaniem będzie pokaz slajdów ze starymi zdjęciami z dzieciństwa. Podziękowania dla rodziców w formie filmu ze zdjęciami przywoła ciepłe wspomnienia. Nie upierajcie się też przy tym, że film musi być istnym wyciskaczem łez. Jeżeli Wasi rodzice uwielbiają się śmiać i żartować to warto postawić na dobry humor. Nie musicie też prezentować filmu podczas wesela. Może warto przemyśleć czy nie było lepiej wspomnieć na nim o bardziej intymnych szczegółach z Waszego życia i wręczyć rodzicom płytę, którą obejrzą w zaciszu własnego domu. Takie podziękowania dla rodziców będą wspaniałą pamiątką.',
                 pics: [
-                    { src: require('./BlogPics/Post5/post5a.jpg').default }
+                    { src: post5picA }
                 ]
             },
             {
                 headerSmall: '2. Kwiaty i kosze upominkowe – praktyczne podziękowania dla rodziców',
                 text: 'Takie rozwiązanie ma swoje plusy i minusy. Klasyka broni się sama. Kosze dla rodziców są eleganckim i taktownym wyborem. Możecie zdecydować się na gotową kompozycję lub skompletować kosz według upodobań Waszych rodziców. Mogą się w nim znaleźć produkty spożywcze, alkohole, jak i kosmetyki czy książki. Niestety nie jest to pamiątka na lata i z roku na rok jest coraz bardziej oklepana. Kiedy kilka lat temu brałam ślub, znalezienie pięknego kosza dla rodziców było problemem. Wybór nie był zbyt wielki. Dziś znajdziecie je dosłownie wszędzie. Ponadto wraz z kwiatami i kartką tworzył zgrabny prezent na podziękowania dla rodziców. Obecnie to coraz częściej tylko dodatek do "głównego" podziękowania i jednocześnie pierwsza rzecz jaka przychodzi do głowy jako odpowiedź na pytanie: co na podziękowania dla rodziców?',
                 pics: [
-                    { src: require('./BlogPics/Post5/post5b.jpg').default }
+                    { src: post5picB }
                 ]
             },
             {
                 headerSmall: '3. Figurki, grawerowane statuetki, ramki, portrety, karykatury, obrazy – nietypowe podziękowania dla rodziców, ale nie wszystkich',
                 text: 'Karykatura czy obraz na podziękowania dla rodziców - jedni powiedzą, że to świetny prezent, inni, że to totalna wiocha. I jedni i drudzy mają rację. Są bowiem gusta i guściki. Najlepszym sposobem na rozstrzygnięcie tego jest zadanie sobie kilku pytań. Jak wygląda mieszkanie naszych rodziców? Jest minimalistyczne, czy raczej półki uginają się od bibelotów? Gdy rodzice jadą na wakacje przywożą z powrotem dodatkową walizkę z pamiątkami czy raczej omijają stragany szerokim łukiem? Jakie prezenty robią innym? Przydatne i funkcjonalne, czy raczej są to ozdoby? Odpowiedzcie sobie na takie pytania, a będziecie mieli pewność czy wybór pucharu dla najlepszych rodziców na świecie jest trafionym pomysłem i odpowiednie na podziękowania dla rodziców na weselu.',
                 pics: [
-                    { src: require('./BlogPics/Post5/post5c.jpg').default }
+                    { src: post5picC }
                 ]
             },
             {
                 headerSmall: '4. Wycieczka, weekend w SPA lub kolacja w modnej restauracji – oryginalne podziękowania dla rodziców z górnej półki',
                 text: 'Takie upominki dla rodziców to nie jest to tania sprawa, dlatego zastanówcie się dwa razy, zanim podejmiecie taką decyzję. Najgorszą rzeczą, jaką możecie zrobić to uszczęśliwianie kogoś na siłę lub wprawianie w zakłopotanie. Czasami Wasi rodzice to ludzie tak zwanej starej daty, którzy najlepiej czują się w zaciszu własnego domu. Podróż, za którą zapłaciliście kupę pieniędzy, a na którą nie będą mieli ochoty, przysporzy im tylko stresu, a Wam odbije się czkawką. Jeżeli jednak Wasi rodzice uwielbiają podróże, nowe miejsca, smaki, a Wasz budżet zanadto na tym nie ucierpi, będzie to wspaniały prezent i wyjątkowe podziękowania dla rodziców. Być może rodzice chcieliby się gdzieś wybrać, ale nie mają odwagi? Przeraża ich podróż samolotem, nie znają języków obcych? W takiej sytuacji wybierzcie się razem z nimi.',
                 pics: [
-                    { src: require('./BlogPics/Post5/post5d.jpg').default }
+                    { src: post5picD }
                 ]
             },
             {
                 headerSmall: '5. Piosenka z dedykacją dla rodziców lub taniec – tradycyjne podziękowania dla rodziców',
                 text: 'To prawda, że w we wstępie nieco prześmiewczo wspomniałyśmy o popularnym "Cudownych rodziców mam", ale uwierzcie nam, są mamy, które marzą, żeby usłyszeć tą lub podobną piosenkę od momentu, kiedy dowiedziały się, że bierzecie ślub. Nie odbierajcie im tego. Przecież to tylko trzy minuty tańca w kółeczku, a chodzi o sprawienie im przyjemności. Dedykowana piosenka na podziękowania dla rodziców nie jednej osobie zakręciła łezkę w oku.',
                 pics: [
-                    { src: require('./BlogPics/Post5/post5e.jpg').default }
+                    { src: post5picE }
                 ]
             },
             {
                 headerSmall: '6. Kartki z życzeniami – indywidualne podziękowania dla rodziców na wesele',
                 text: 'Nie kosztują wiele, a mogą okazać się najcudowniejszym prezentem. Nie mamy tu na myśli drukowanego taśmowo wierszyka i pozytywki. Napiszcie, co czujecie, podziękujcie rodzicom od serca. Wzruszające podziękowania dla rodziców w postaci tekstu od serca będą przywoływać ciepłe emocje. Tu znowu wspomnę, jak to było u mnie. Wraz z mężem przygotowaliśmy kartki dla rodziców. Po jednej stronie ja pisałam do moich rodziców, a po drugiej mój mąż do swoich przyszłych teściów i odwrotnie. Uwierzcie, mimo że od naszego ślubu minęło pięć lat, rodzice nadal co jakiś czas do nich wracają. W naszym przypadku były to udane upominki dla rodziców.',
                 pics: [
-                    { src: require('./BlogPics/Post5/post5f.jpg').default }
+                    { src: post5picF }
                 ]
             },
             {
                 headerSmall: '7. Albumy – sentymentalne podziękowania dla rodziców w formie zdjęć',
                 text: 'Taki album ze zdjęciami to piękna pamiątka na lata. Ślub jest nie tylko jednym z najważniejszych dni w Waszym życiu, ale i Waszych rodziców. Z pewnością będą zachwyceni takim prezentem. Jedynym jego minusem jest to, że możecie go wręczyć dopiero około trzech miesięcy po ślubie. Z drugiej strony fotoksiążka czy podziękowania dla rodziców w postaci albumu z sesji narzeczeńskiej albo wspólnymi zdjęciami rodzinnymi możecie wykonać przed ślubem. Zdjęcia rodzinne mogą na nowo ożywić miłe wspomnienia. O pomoc w wykonaniu albumów na podziękowania dla rodziców na weselu możecie poprosić swojego fotografa ślubnego, który doradzi i pomoże zamówić profesjonalne albumy.',
                 pics: [
-                    { src: require('./BlogPics/Post5/post5g.jpg').default }
+                    { src: post5picG }
                 ]
             },
             {
@@ -3807,14 +3836,14 @@ const posts = [
         tag: "niezbędnik-przedslubny",
         textShort: "Mimo że tytuł artykułu wskazuje na coś zupełnie innego, nie będzie to skrzętnie przygotowana autoreklama. Oczywiście jako konsultant ślubny wierzę, że zawód, który wykonuję, jest potrzebny i warto...",
         mainPic: {
-            src: require('./BlogPics/Post4/post4.jpg').default
+            src: post4pic
         },
         textMain:
             <>
                 Mimo że tytuł artykułu wskazuje na coś zupełnie innego, nie będzie to skrzętnie przygotowana autoreklama. Oczywiście jako konsultant ślubny wierzę, że zawód, który wykonuję, jest potrzebny i warto zainwestować w pomoc specjalisty. To tak jak z fotografem. Czasy, gdy zdjęcia na weselu robili wujkowie lub sąsiedzi posiadający aparat fotograficzny już dawno minęły, dziś stawiamy na profesjonalistów znających się na rzeczy. Dzięki temu zachwycamy się pięknymi fotografiami, które są nie tylko reportażem, ale i odzwierciedlają nasze emocje, a przy tym mają dobrą jakość. Wierzę, że niebawem także profesja wedding plannera zacznie być traktowana bardziej na serio. Idealny konsultant ślubny to taki, który na weselach "zjadł zęby", śledzi najnowsze trendy, jest empatyczny, kreatywny, odporny na stres i oczywiście ukończył kursy, które uprawniają go do wykonywania swojego zawodu. Oddajmy mu zatem honory i przyznajmy, że ktoś, kto organizuje ślub po raz pierwszy w życiu i zaczął się tą tematyką interesować niedawno nie jest w stanie dorównać mu wiedzą i znajomością branży ślubnej. Tak samo jest w każdej innej dziedzinie.
             </>,
         topPic: {
-            src: require('./BlogPics/Post4/post4a.jpg').default
+            src: post4picA
         },
         content: [
             {
@@ -3822,7 +3851,7 @@ const posts = [
                 headerClassName: "pink",
                 text: 'Nie mam zamiaru więcej rozpisywać się czy i dlaczego warto zatrudnić wedding plannera, bo takich artykułów znajdziecie tysiące. Być może już zaobserwowaliście, że lubię spojrzeć na problem z nieco innej perspektywy. Dziś chciałabym napisać, dlaczego warto obciążyć obowiązkami właśnie jego zamiast świadkową, świadka, mamę, teściową czy siebie samych. Muszę zaznaczyć, że użycie słowa "obciążyć" nie jest kwestią przypadku. Na początku zastanówmy się, kogo zwykle Pary Młode wybierają na swoich świadków ? Odpowiedź jest oczywista: brata, siostrę, najlepszą przyjaciółkę, dobrego kumpla.Kogokolwiek z nich wybiorą, chcą, aby była to bliska i zaufana osoba, na której im zależy i w której towarzystwie czują się dobrze. Blogi ślubne rozpisują się jakie cechy powinien mieć idealny świadek oraz jakie są jego obowiązki podczas wesela. Dbając o to, aby goście weselni świetnie się bawili i niczego im nie brakowało, Nowożeńcy często zapominają o tych najważniejszych, których wybrali na swoich świadków.',
                 pics: [
-                    { src: require('./BlogPics/Post4/post4b.jpg').default },
+                    { src: post4picB },
                 ]
             },
             {
@@ -3850,7 +3879,7 @@ const posts = [
                         warto zatrudnić wedding plannera, mam dla Was kolejne argumenty.
                     </>,
                 pics: [
-                    { src: require('./BlogPics/Post4/post4c.jpg').default },
+                    { src: post4picC },
                 ]
             },
             {
@@ -3858,7 +3887,7 @@ const posts = [
                 headerClassName: "pink",
                 text: 'Kolejna sprawa, nad którą warto się zastanowić to to, czy będziecie organizować Wasze wesele sami, czy potrzebujecie do tego pomocy innych osób. Zdarza się, że Para Młoda planuje wesele w miejscowości oddalonej od swojego miejsca zamieszkania o setki kilometrów.W takiej sytuacji po raz kolejny angażują swoich rodziców lub rodzeństwo. Ci z kolei pomagają jak tylko mogą. Dzwonią, jeżdżą, są niemal na każde zawołanie Pary Młodej. Czasami zdarza się i tak, że organizacja sprawia im tak wiele przyjemności, że sami chcą zorganizować coś od siebie lub zaproponować własne rozwiązania. Nie ma w tym oczywiście nic złego, a wprost przeciwnie – jest to naprawdę miłe. Z doświadczenia wiem, że wychodzą z tego cudowne rzeczy, ale niestety bywa i tak, że wizja pomocników totalnie rozmywa się z wizją Pary Młodej. Jak powiedzieć teściowej, że kolejny pomysł, jaki zaproponowała, nie przypadł Wam do gustu? Trochę strach... Nikt przecież nie chce, żeby poczuła się dotknięta.',
                 pics: [
-                    { src: require('./BlogPics/Post4/post4d.jpg').default },
+                    { src: post4picD },
                 ]
             },
             {
@@ -3866,7 +3895,7 @@ const posts = [
                 headerClassName: "pink",
                 text: 'Jak to wygląda, gdy Narzeczeni korzystają z usług wedding plannera? Wspólnie określają każdy szczegół uroczystości, wybierają bez ograniczeń, co im się podoba a co nie, zmieniają zdanie, znowu wybierają. Nikt nie ma żalu, taka praca. Ponadto dobry konsultant ślubny wie, że wprost należy zaangażować najbliższych w przygotowania, o ile tego oczywiście chcą. Najczęściej ogranicza się to do przygotowania atrakcji, która jest zgodna z motywem przewodnim ślubu lub innej rzeczy mającej sprawić radość Parze Młodej. Wilk syty i owca cała. Załóżmy, że Para Młoda decyduje się na przygotowanie wszystkiego samodzielnie. Wszystkiego! Łącznie z zaproszeniami, dekoracjami sali, płaceniem wykonawcom i dbaniem o to, czy goście dobrze bawią się na weselu. To oczywiście do zrobienia i można to zrobić naprawdę dobrze. To masa frajdy i satysfakcji, ale też ciężkiej pracy i czasu. Przypomina mi się opowieść moich przyjaciół, którzy organizowali wesele samodzielnie. Wyszło pięknie, uzdolniona Pani Młoda przygotowała własną papeterię ślubną, piękne ozdoby i upominki dla gości. Było naprawdę perfekcyjnie. Młodzi skończyli sklejać winietki o trzeciej w nocy na dzień przed weselem, ponieważ papier nie doszedł na czas. Czy już wiecie, dlaczego warto zatrudnić wedding plannera?',
                 pics: [
-                    { src: require('./BlogPics/Post4/post4e.jpg').default },
+                    { src: post4picE },
                 ]
             },
             {

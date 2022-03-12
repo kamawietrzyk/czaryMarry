@@ -1,0 +1,17 @@
+import cichyŚl34 from "./cichy-slub-w-gorach.jpg"
+import kamWes34 from "./kameralne-wesele-w-gorach.jpg"
+import kamŚl34 from "./kameralny-slub-w-gorach.jpg"
+import ślCyw34 from "./slub-cywilny-w-gorach.jpg"
+import ślIWes34 from "./slub-i-wesele-w-gorach.jpg"
+import ślWGórOrg34 from "./slub-w-gorach-organizacja.jpg"
+import ślWGór34 from "./slub-w-gorach.jpg"
+import ślWMałKość34 from "./slub-w-malym-kosciolku-w-gorach.jpg"
+import ślWPlen34 from "./slub-w-plenerze-w-gorach.jpg"
+import ślWZak34 from "./slub-w-zakopanem.jpg"
+import wesWGórBes34 from "./wesele-w-gorach-beskidy.jpg"
+import wesWGórTat34 from "./wesele-w-gorach-tatry.jpg"
+import wesWGórZNoc34 from "./wesele-w-gorach-z-noclegiem.jpg"
+import wesWGór34 from "./wesele-w-gorach.jpg"
+import wesWTat34 from "./wesele-w-tatrach.jpg"
+
+export { cichyŚl34, kamWes34, kamŚl34, ślCyw34, ślIWes34, ślWGór34, ślWGórOrg34, ślWMałKość34, ślWPlen34, ślWZak34, wesWGór34, wesWGórBes34, wesWGórTat34, wesWGórZNoc34, wesWTat34 }

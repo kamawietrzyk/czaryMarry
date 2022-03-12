@@ -529,6 +529,8 @@ const weddings = [
         photoLink: "https://www.facebook.com/yesidoweddingphotography",
         flowers: "Anello Decor",
         flowersLink: "https://www.facebook.com/anellodecor",
+        movie: "Paweł Sawski",
+        movieLink: "https://pawelsawski.pl/",
         date: "20 lut 2022",
         textMain: <>Ciężko nam sobie przypomnieć, kto wpadł na pomysł kosmicznego motywu przewodniego. Czy była to para młoda, florystka, czy my? Odmęty pamięci podpowiadają, że Angelika i Daniel zaufali nam i dali wolną rękę. Gdy dzieją się takie rzeczy, idziemy na całość i sięgamy gwiazd. Tak też stało się w tym przypadku. Kosmiczna energia udzieliła się wszystkim - parze młodej, gościom oraz obsłudze. Tego dnia <CustomOuterLink to="http://sk.kopalniazlota.pl/wesela/" text="Stara Kruszarnia" className="linkPink" /> zaświeciła tysiącem gwiazd.</>,
         topPic:
@@ -674,7 +676,7 @@ const weddings = [
             {
                 headerSmall: "Para Młoda na medal.",
                 headerClassName: "grey",
-                text: <>Mamy niesamowite szczęście do ludzi, trafiamy na super pary, we współpracy stawiamy na pozytywne relacje. To wszystko powoduje, że efekty są spektakularne. Dzięki otwartości Angeliki i Daniela udało się znaleźć niesamowite miejsce, wspaniałą ekipę oraz wyczarować coś niepowtarzalnego, co stało się inspiracją dla wielu par młodych. Udowadniamy, że można połączyć dwa bardzo wyraziste motywy jak jesień oraz kosmos w jedną spójną całość. O naszej weselnej przygodzie możecie posłuchać więcej w <CustomPostLink path="19-hey-wedding-ekipa-marzen-i-kosmiczne-wesele" text='19 odcinku podcastu “Hey wedding”' className="linkPink" />.<br /><br />
+                text: <>Mamy niesamowite szczęście do ludzi, trafiamy na super pary, we współpracy stawiamy na pozytywne relacje. To wszystko powoduje, że efekty są spektakularne. Dzięki otwartości Angeliki i Daniela udało się znaleźć niesamowite miejsce, wspaniałą ekipę oraz wyczarować coś niepowtarzalnego, co stało się inspiracją dla wielu par młodych. Udowadniamy, że można połączyć dwa bardzo wyraziste motywy jak jesień oraz kosmos w jedną spójną całość. O naszej weselnej przygodzie możecie posłuchać więcej w <CustomPostLink path="19-hey-wedding-ekipa-marzen-i-kosmiczne-wesele" text='19 odcinku podcastu “Hey wedding”' className="linkPink" />, a film z wesela Angeliki i Daniela zobaczycie <CustomOuterLink to="https://www.youtube.com/watch?v=qPfVAO1t-ZM" text="tutaj" className="linkPink" />.<br /><br />
                     Nasi potencjalni klienci często pytają nas, jaki mamy styl oraz jakie wesela lubimy najbardziej. Nasze realizacje i ich klimat jest podyktowany tym, czego oczekuje od nas para młoda. To dlatego w naszym portfolio znajdziecie tak różne wesela. Tydzień po kosmicznym weselu Angeliki i Daniela w Starej Kruszarni, odbyło się piękne <span className="bold grey">jesienne przyjęcie Magdy i Szymona</span> w tym samym miejscu. Tym razem postawiłyśmy na kaktusy i letnie intensywne kolory, które pięknie łączyły się z kolorami złotej polskiej jesieni. Tym samym udowodniłyśmy, że Stara Kruszarnia jest miejscem niezwykle plastycznym i mimo swojego wyrazistego klimatu neutralnym.
                 </>,
                 pics: [
