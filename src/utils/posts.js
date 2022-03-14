@@ -43,6 +43,29 @@ import { beaPaw06 } from '../components/OurCouples/OurCouplesPics/BeataPawel'
 
 const posts = [
     {
+        path: '20-hey-wedding-dzieci-na-weselu',
+        title: '#20 Hey Wedding - Dzieci na weselu.',
+        seoText: 'Dzieci na weselu, tak czy nie? Wszystkiego dowiecie się z podcastu Hey Wedding',
+        date: '14 mar 2022',
+        tag: 'podcast',
+        textShort: 'Temat ważny, chociaż budzący skrajne emocje. Jest częstym powodem sporów na forach i...',
+        mainPic: {
+            src: podcast
+        },
+        textMain:
+            <>
+                Temat ważny, chociaż budzący skrajne emocje. Jest częstym powodem sporów na forach i grupach ślubnych. Czy wesele to odpowiednie miejsce dla dzieci? Czy zaproszenie na <span className="mint bold">ślub bez dzieci</span> może być początkiem rodzinnego konfliktu? Na te wszystkie pytania odpowiemy w 20 odcinku naszego podcastu. Będziemy również rozmawiać o rodzicach na weselu, atrakcjach i opiece nad dziećmi podczas przyjęcia i wielu innych podobnych tematach.
+            </>,
+        links:
+            <>
+                <iframe title="#20 Hey Wedding - Dzieci na weselu" allowtransparency="true" height="150" width="100%" style={{ border: "none", minWidth: "min(100%, 430px)" }} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=duicu-11cf9c0-pb&from=pb6admin&share=1&download=1&rtl=0&fonts=Arial&skin=1&font-color=auto&btn-skin=7"></iframe>
+            </>,
+        extras:
+            <>
+                <span className="d-block text-right"><CustomCategoryLink path="podcast" text="Podcast" className="bgColorMint" /></span>
+            </>
+    },
+    {
         path: '19-hey-wedding-ekipa-marzen-i-kosmiczne-wesele',
         title: '#19 Hey Wedding - Ekipa marzeń i kosmiczne wesele - Rozmowa z Angeliką i Danielem.',
         seoText: 'W dzisiejszym odcinku rozmawiamy z Angeliką i Danielem o ich absolutnie odjechanym kosmicznym weselu.',
