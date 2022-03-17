@@ -1,6 +1,5 @@
 import React from 'react'
 import ArrowToTop from '../ArrowToTop'
-import CouplesSlider from '../OurCouplesSlider'
 import ScrollToTopOnMount from '../ScrollToTopOnMount'
 import weddings from '../OurCouples/weddings'
 import './styles.scss'
@@ -34,18 +33,11 @@ const OurCouples = () => (
             </h1>
             {weddings.map((item, index) => (
                 <>
-                    {item.path ?
+                    {item.path &&
                         <div key={index} className={`OurCouples-content_grid ${index % 2 && "flipped"} ${item.minHeight && "with-min-height"}`}>
                             <Link className="mainPic-wrapper photos" to={generatePath(URLS.COUPLES_EVENT, { path: item.path })}>
                                 <img src={item.mainPic.src} alt={item.mainPic.src} />
                             </Link>
-                            <OurCouplesContent {...item} />
-                        </div>
-                        :
-                        <div key={index} className={`OurCouples-content_grid ${index % 2 && "flipped"}`}>
-                            <div className="photos">
-                                <CouplesSlider photos={item.photos} />
-                            </div>
                             <OurCouplesContent {...item} />
                         </div>
                     }

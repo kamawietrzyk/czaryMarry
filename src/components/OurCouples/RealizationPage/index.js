@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link, withRouter, useParams, generatePath } from 'react-router-dom'
 import URLS from '../../../utils/urls'
-import ScrollToTopOnMount from '../../ScrollToTopOnMount'
 import Picture from '../../Picture'
 import ArrowToTop from '../../ArrowToTop'
 import ToStartOnUpdate from '../../ToStartOnUpdate'
@@ -10,6 +9,7 @@ import PageNotFound from '../../PageNotFound'
 import weddings from '../weddings'
 import logo from '../../../utils/czarymarry_logo.png'
 import './styles.scss'
+import ScrollToTopOnMount from '../../ScrollToTopOnMount'
 
 
 const APP_URL = process.env.REACT_APP_BASE_URL
