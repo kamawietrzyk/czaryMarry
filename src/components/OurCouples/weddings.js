@@ -4,6 +4,7 @@ import CustomPostLink from "../CustomLink/CustomPostLink"
 import CustomOuterLink from "../CustomLink/CustomOuterLink"
 import CustomRealisationLink from '../CustomLink/CustomRealisationLink'
 import URLS from '../../utils/urls'
+import YoutubeEmbed from '../YoutubeEmbed'
 import { main as AniaBenMain, slowWed01, slowWed02, slowWed03, slowWed04, slowWed05, slowWed06, slowWed07, slowWed08, slowWed09, slowWed10, slowWed11, slowWed12, slowWed13, slowWed14, slowWed15, wesLuz01, wesLuz02, wesLuz03, wesLuz04, wesLuz05, wesLuz06, wesLuz07, wesLuz08, wesSlow01, wesSlow02, wesSlow03, wesSlow04, wesSlow05, wesSlow06, wesSlow07, wesSlow08 } from './OurCouplesPics/AniaBen/index'
 
 import { main as PatrycjaPrzemekMain, cegCen01, cegCen02, cegCen03, cegCen04, cegCen05, cegJar01, cegJar02, cegJar03, cegJar04, cegJar05, cegJarOp01, cegJarOp02, cegJarOp03, cegJarOp04, cegJarOp05, cegWes01, cegWes02, cegWes03, cegWes04, cegWes05, cegWes06, cegWes07, cegWes08, cegWes09, cegWes10, cegWes11, cegWes12, cegWes13, cegWes14, cegWes15, cegWes16, cegWes17 } from './OurCouplesPics/PatrycjaPrzemek/index'
@@ -677,7 +678,9 @@ const weddings = [
             {
                 headerSmall: "Para Młoda na medal.",
                 headerClassName: "grey",
-                text: <>Mamy niesamowite szczęście do ludzi, trafiamy na super pary, we współpracy stawiamy na pozytywne relacje. To wszystko powoduje, że efekty są spektakularne. Dzięki otwartości Angeliki i Daniela udało się znaleźć niesamowite miejsce, wspaniałą ekipę oraz wyczarować coś niepowtarzalnego, co stało się inspiracją dla wielu par młodych. Udowadniamy, że można połączyć dwa bardzo wyraziste motywy jak jesień oraz kosmos w jedną spójną całość. O naszej weselnej przygodzie możecie posłuchać więcej w <CustomPostLink path="19-hey-wedding-ekipa-marzen-i-kosmiczne-wesele" text='19 odcinku podcastu “Hey wedding”' className="linkPink" />, a film z wesela Angeliki i Daniela zobaczycie <CustomOuterLink to="https://www.youtube.com/watch?v=qPfVAO1t-ZM" text="tutaj" className="linkPink" />.<br /><br />
+                text: <>Mamy niesamowite szczęście do ludzi, trafiamy na super pary, we współpracy stawiamy na pozytywne relacje. To wszystko powoduje, że efekty są spektakularne. Dzięki otwartości Angeliki i Daniela udało się znaleźć niesamowite miejsce, wspaniałą ekipę oraz wyczarować coś niepowtarzalnego, co stało się inspiracją dla wielu par młodych. Udowadniamy, że można połączyć dwa bardzo wyraziste motywy jak jesień oraz kosmos w jedną spójną całość. O naszej weselnej przygodzie możecie posłuchać więcej w <CustomPostLink path="19-hey-wedding-ekipa-marzen-i-kosmiczne-wesele" text='19 odcinku podcastu “Hey wedding”' className="linkPink" />, a film z wesela Angeliki i Daniela zobaczycie tutaj:
+                    <YoutubeEmbed videoId="qPfVAO1t-ZM" title="Angelika i Daniel Shortstory" />
+                    <br /><br />
                     Nasi potencjalni klienci często pytają nas, jaki mamy styl oraz jakie wesela lubimy najbardziej. Nasze realizacje i ich klimat jest podyktowany tym, czego oczekuje od nas para młoda. To dlatego w naszym portfolio znajdziecie tak różne wesela. Tydzień po kosmicznym weselu Angeliki i Daniela w Starej Kruszarni, odbyło się piękne <span className="bold grey">jesienne przyjęcie Magdy i Szymona</span> w tym samym miejscu. Tym razem postawiłyśmy na kaktusy i letnie intensywne kolory, które pięknie łączyły się z kolorami złotej polskiej jesieni. Tym samym udowodniłyśmy, że Stara Kruszarnia jest miejscem niezwykle plastycznym i mimo swojego wyrazistego klimatu neutralnym.
                 </>,
                 pics: [
