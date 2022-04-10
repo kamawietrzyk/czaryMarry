@@ -129,6 +129,12 @@ const weddings = [
                     {
                         src: sukNaWesZima02
                     },
+                    {
+                        src: ślZimaOkr05
+                    },
+                    {
+                        src: ślZimaOkr06
+                    },
                 ]
             },
             {
@@ -171,12 +177,6 @@ const weddings = [
                 pics: [
                     {
                         src: MartaMichalMain
-                    },
-                    {
-                        src: ślZimaOkr05
-                    },
-                    {
-                        src: ślZimaOkr06
                     },
                 ]
             },
