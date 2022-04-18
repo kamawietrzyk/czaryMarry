@@ -43,6 +43,29 @@ import { beaPaw06 } from '../components/OurCouples/OurCouplesPics/BeataPawel'
 
 const posts = [
     {
+        path: '21-hey-wedding-wszystko-o-wspolpracy-z-wedding-plannerem',
+        title: '#21 Hey Wedding - Wszystko, co chcielibyście wiedzieć o współpracy z wedding plannerem.',
+        seoText: 'Hey Wedding - Wszystko, co chcielibyście wiedzieć o współpracy z wedding plannerem.',
+        date: '18 kwi 2022',
+        tag: 'podcast',
+        textShort: 'W 21 odcinku podcastu Hey Wedding porozmawiamy o tym, po co i dla kogo jest wedding planner oraz jak wygląda...',
+        mainPic: {
+            src: podcast
+        },
+        textMain:
+            <>
+                W 21 odcinku podcastu Hey Wedding porozmawiamy o tym, <span className="mint bold">po co i dla kogo jest wedding planner</span> oraz jak wygląda współpraca z agencją ślubną. Podpowiemy, na co zwrócić uwagę przy wyborze konsultanta ślubnego, jakie cechy powinien posiadać i jaki jest zakres jego obowiązków. Odpowiemy na pytanie, czy wedding planner to droga, czy tania usługa, oraz czy konsultant ślubny może zrujnować wesele.
+            </>,
+        links:
+            <>
+                <iframe title="#21 Hey Wedding - Wszystko, co chcielibyście wiedzieć o współpracy z wedding plannerem." allowtransparency="true" height="150" width="100%" style={{ border: "none", minWidth: "min(100%, 430px)" }} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=mx3zd-11fbf24-pb&from=pb6admin&share=1&download=1&rtl=0&fonts=Arial&skin=1&font-color=auto&logo_link=episode_page&btn-skin=7"></iframe>
+            </>,
+        extras:
+            <>
+                <span className="d-block text-right"><CustomCategoryLink path="podcast" text="Podcast" className="bgColorMint" /></span>
+            </>
+    },
+    {
         path: '20-hey-wedding-dzieci-na-weselu',
         title: '#20 Hey Wedding - Dzieci na weselu.',
         seoText: 'Dzieci na weselu, tak czy nie? Wszystkiego dowiecie się z podcastu Hey Wedding',
