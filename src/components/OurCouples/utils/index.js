@@ -1,0 +1,7 @@
+export { AngelikaAndDaniel } from './AngelikaAndDaniel'
+export { AniaAndBen } from './AniaAndBen'
+export { AniaAndMateusz } from './AniaAndMateusz'
+export { FoodtruckWedding } from './FoodtruckWedding'
+export { MagdaAndSzymon } from './MagdaAndSzymon'
+export { MartaAndMichal } from './MartaAndMichal'
+export { PatrycjaAndPrzemek } from './PatrycjaAndPrzemek'
