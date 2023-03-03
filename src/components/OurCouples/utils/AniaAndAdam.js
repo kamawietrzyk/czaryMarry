@@ -69,7 +69,7 @@ export const AniaAndAdam = {
                 To miejsce okazało się idealne ze względu na ogromną zieloną przestrzeń i właśnie tę klimatyczną,
                 wtopioną w krajobraz stodołę, w której goście weselni mogli zjeść tradycyjny weselny obiad oraz
                 bawić się na parkiecie. Sama ceremonia zaślubin odbyła się na zewnątrz, w obrządku
-                humanistycznym, a czerwcowe słońce sprzyjało wzruszającym przemowom.</>,
+                humanistycznym, a czerwcowe słońce sprzyjało wzruszającym przemowom. </>,
             pics: [
                 {
                     src: aniaAdam05,
