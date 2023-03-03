@@ -1,5 +1,4 @@
-import { AniaAndAdam } from './utils/AniaAndAdam'
-import { AngelikaAndDaniel, AniaAndBen, AniaAndMateusz, FoodtruckWedding, MagdaAndSzymon, MartaAndMichal, PatrycjaAndPrzemek } from './utils/index'
+import { AngelikaAndDaniel, AniaAndAdam, AniaAndBen, AniaAndMateusz, FoodtruckWedding, MagdaAndSzymon, MartaAndMichal, PatrycjaAndPrzemek } from './utils/index'
 
 const weddings = [
     AniaAndAdam,
