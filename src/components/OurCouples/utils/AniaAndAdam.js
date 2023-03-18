@@ -1,5 +1,6 @@
 import CustomPostLink from 'components/CustomLink/CustomPostLink';
 import CustomRealisationLink from 'components/CustomLink/CustomRealisationLink';
+// import VideoEmbed from 'components/VideoEmbed';
 import React from 'react';
 import { Link, generatePath } from 'react-router-dom';
 import URLS from 'utils/urls';
@@ -182,6 +183,7 @@ export const AniaAndAdam = {
                 </ol>
                 Jak widzisz prócz miejsc siedzących strefa chillout na weselu może obfitować w mnogość atrakcji i
                 możliwości. Chętnie pomożemy Ci zaaranżować taką strefę chillout na Twoim weselu.
+                {/* <VideoEmbed title="Ania i Adam - Longstory" videoSrc="" /> */}
             </>,
             pics: [
                 {

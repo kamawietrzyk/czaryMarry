@@ -420,7 +420,7 @@ const posts = [
                 </>
             },
         ],
-        extras: <><span className="d-block">Autorem zdjęć jest <CustomOuterLink to="https://fotoreportazslubny.com/" text=" Jakub Nowotyński" className="linkMint" /></span></>
+        extras: <><span className="d-block">Autorem zdjęć jest <CustomOuterLink to="https://fotoreportazslubny.com/" text=" Jakub Nowotyński" className="linkMint" asFB={false} /></span></>
     },
     {
         path: 'plan-wesela-harmonogram-dnia-slubu-krok-po-kroku',
