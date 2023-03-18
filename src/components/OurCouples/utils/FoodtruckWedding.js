@@ -1,5 +1,6 @@
 import CustomOuterLink from 'components/CustomLink/CustomOuterLink';
 import CustomPostLink from 'components/CustomLink/CustomPostLink';
+import VideoEmbed from 'components/VideoEmbed';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import URLS from 'utils/urls';
@@ -255,7 +256,10 @@ export const FoodtruckWedding = {
             ]
         },
         {
-            text: <>Jeśli Wasze wesele zawiera w sobie powyższe założenia, to food truck wedding zostało stworzone właśnie z myślą o Was. Mamy nadzieję, że stanie się dla Was inspiracją, a powyższy artykuł i zdjęcia kompendium wiedzy. Jeżeli podoba Wam się idea, ale organizacja już niekoniecznie i czujecie się zagubieni w tym lub innym temacie, to czekamy Waszą wiadomość. Jako weselne czarodziejki z <Link to={URLS.HOME} className='linkDark'>agencji ślubnej Czary Marry</Link> chętnie pomożemy Wam zamienić przygotowania do wymarzonego wesela w niezapomnianą przygodę.</>
+            text: <>Jeśli Wasze wesele zawiera w sobie powyższe założenia, to food truck wedding zostało stworzone właśnie z myślą o Was. Mamy nadzieję, że stanie się dla Was inspiracją, a powyższy artykuł i zdjęcia kompendium wiedzy. Jeżeli podoba Wam się idea, ale organizacja już niekoniecznie i czujecie się zagubieni w tym lub innym temacie, to czekamy Waszą wiadomość. Jako weselne czarodziejki z <Link to={URLS.HOME} className='linkDark'>agencji ślubnej Czary Marry</Link> chętnie pomożemy Wam zamienić przygotowania do wymarzonego wesela w niezapomnianą przygodę.
+                <br />
+                <VideoEmbed title="Monika i Paweł - Foodtruck Wedding" videoSrc="https://player.vimeo.com/video/466633872?h=d770149649" />
+            </>
         },
     ],
     extras: <>
