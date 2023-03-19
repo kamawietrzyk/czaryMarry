@@ -19,6 +19,7 @@ import { lanAgŚl, lanAgŚlKato, lanOrgWeKato, lanWedPlKato, lanWedPlkiŚl, lanW
 
 import { instaPic3, konsultantki } from "../Home/pics"
 import { kasia, ola } from "../AboutUs/pics"
+import React from 'react'
 
 const landings = [
     {
@@ -251,7 +252,7 @@ const landings = [
                 bgColor: 'bgPink',
                 number: '02',
                 title: 'Opinie',
-                text: <>Zróbcie dokładny research, zapoznajcie się z recenzjami na temat wybranych konsultantów ślubnych z Krakowa, nieoceniony okaże się tu <CustomOuterLink text="FB" to="https://www.facebook.com/Agencja.Slubna.CzaryMarry/reviews/?ref=page_internal" className="linkDark" /> i wizytówka Google.</>
+                text: <>Zróbcie dokładny research, zapoznajcie się z recenzjami na temat wybranych konsultantów ślubnych z Krakowa, nieoceniony okaże się tu <CustomOuterLink asFB text="FB" to="https://www.facebook.com/Agencja.Slubna.CzaryMarry/reviews/?ref=page_internal" className="linkDark" /> i wizytówka Google.</>
             },
             {
                 bgColor: 'bgGrey',
