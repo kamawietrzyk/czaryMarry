@@ -20,10 +20,14 @@ export const AliceAndJarek = {
     orgLink: "",
     place: "Reduta Banku Polskiego",
     placeLink: "http://www.reduta.pl/",
-    // photo: "",
-    // photoLink: "https://www.maleszarestudio.pl/",
-    // flowers: "Anello Decor",
-    // flowersLink: "https://www.facebook.com/anellodecor",
+    photo: "Jakub Nowotyński",
+    photoLink: " https://fotoreportazslubny.com/",
+    flowers: "Anello Decor",
+    flowersLink: "https://www.facebook.com/anellodecor",
+    music: "Kuba Król",
+    musicLink: "https://djkubakrol.pl/",
+    decor: "Wypożyczalnia MamyTO",
+    decorLink: "https://www.facebook.com/mamytowypozyczalniadekoracji",
     date: "19 mar 2023",
     textMain:
         <>
