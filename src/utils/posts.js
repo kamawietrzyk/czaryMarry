@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from 'react'
 import { generatePath, Link } from 'react-router-dom'
 import CustomPostLink from '../components/CustomLink/CustomPostLink'
@@ -43,6 +44,29 @@ import { beaPaw06 } from '../components/OurCouples/OurCouplesPics/BeataPawel'
 
 const posts = [
     {
+        path: '22-hey-wedding-wesele-na-ktorym-niczego-nie-bylo',
+        title: '#22 Hey Wedding - Wesele, na którym niczego nie było.',
+        seoText: 'Hey Wedding - Wesele, na którym niczego nie było.',
+        date: '18 lut 2024',
+        tag: 'podcast',
+        textShort: 'Są pewne składowe wesela, bez których nie można się obejść... Naszym zdaniem to bzdura! W najnowszym odcinku...',
+        mainPic: {
+            src: podcast
+        },
+        textMain:
+            <>
+                Są pewne składowe wesela, bez których nie można się obejść... Naszym zdaniem to bzdura! <span className="mint bold">W najnowszym odcinku podcastu "Hey Wedding" rozmawiamy z Wiktorią i Kubą</span>, którzy zorganizowali wesele na własnych zasadach. Myślicie, że organizacja wesela, na którym zamiast zabawy na parkiecie goście grają w planszówki, może okazać się sukcesem?
+            </>,
+        links:
+            <>
+                <iframe title="#22 Hey Wedding - Wesele, na którym niczego nie było." allowTransparency height="150" width="100%" style={{ border: "none", minWidth: "min(100%, 430px)" }} data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=gcx65-157f59f-pb&from=pb6admin&share=1&download=1&rtl=0&fonts=Arial&skin=1&font-color=auto&logo_link=episode_page&btn-skin=7"></iframe>
+            </>,
+        extras:
+            <>
+                <span className="d-block text-right"><CustomCategoryLink path="podcast" text="Podcast" className="bgColorMint" /></span>
+            </>
+    },
+    {
         path: '21-hey-wedding-wszystko-o-wspolpracy-z-wedding-plannerem',
         title: '#21 Hey Wedding - Wszystko, co chcielibyście wiedzieć o współpracy z wedding plannerem.',
         seoText: 'Hey Wedding - Wszystko, co chcielibyście wiedzieć o współpracy z wedding plannerem.',
@@ -58,7 +82,7 @@ const posts = [
             </>,
         links:
             <>
-                <iframe title="#21 Hey Wedding - Wszystko, co chcielibyście wiedzieć o współpracy z wedding plannerem." allowtransparency="true" height="150" width="100%" style={{ border: "none", minWidth: "min(100%, 430px)" }} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=mx3zd-11fbf24-pb&from=pb6admin&share=1&download=1&rtl=0&fonts=Arial&skin=1&font-color=auto&logo_link=episode_page&btn-skin=7"></iframe>
+                <iframe title="#21 Hey Wedding - Wszystko, co chcielibyście wiedzieć o współpracy z wedding plannerem." allowTransparency height="150" width="100%" style={{ border: "none", minWidth: "min(100%, 430px)" }} data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=mx3zd-11fbf24-pb&from=pb6admin&share=1&download=1&rtl=0&fonts=Arial&skin=1&font-color=auto&logo_link=episode_page&btn-skin=7"></iframe>
             </>,
         extras:
             <>
@@ -81,7 +105,8 @@ const posts = [
             </>,
         links:
             <>
-                <iframe title="#20 Hey Wedding - Dzieci na weselu" allowtransparency="true" height="150" width="100%" style={{ border: "none", minWidth: "min(100%, 430px)" }} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=duicu-11cf9c0-pb&from=pb6admin&share=1&download=1&rtl=0&fonts=Arial&skin=1&font-color=auto&btn-skin=7"></iframe>
+                <iframe title="#20 Hey Wedding - Dzieci na weselu"
+                    allowTransparency="true" height="150" width="100%" style={{ border: "none", minWidth: "min(100%, 430px)" }} data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=duicu-11cf9c0-pb&from=pb6admin&share=1&download=1&rtl=0&fonts=Arial&skin=1&font-color=auto&btn-skin=7"></iframe>
             </>,
         extras:
             <>
@@ -104,7 +129,7 @@ const posts = [
             </>,
         links:
             <>
-                <iframe title="#19 Hey Wedding - Ekipa marzeń i kosmiczne wesele - Rozmowa z Angeliką i Danielem." allowtransparency="true" height="150" width="100%" style={{ border: "none", minWidth: "min(100%, 430px)" }} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=9qn2r-11a7c52-pb&from=pb6admin&share=1&download=1&rtl=0&fonts=Arial&skin=1&font-color=auto&btn-skin=7"></iframe>
+                <iframe title="#19 Hey Wedding - Ekipa marzeń i kosmiczne wesele - Rozmowa z Angeliką i Danielem." allowTransparency="true" height="150" width="100%" style={{ border: "none", minWidth: "min(100%, 430px)" }} data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=9qn2r-11a7c52-pb&from=pb6admin&share=1&download=1&rtl=0&fonts=Arial&skin=1&font-color=auto&btn-skin=7"></iframe>
 
                 <p className="mt-5">
                     Organizacja: <Link to={URLS.HOME} className="CustomLink">Agencja Ślubna Czary Marry</Link> <br />
@@ -142,7 +167,7 @@ const posts = [
             </>,
         links:
             <>
-                <iframe title="#18 Hey Wedding - Zaufaliśmy profesjonalistom - Rozmowa z Eweliną i Krzyśkiem." allowtransparency="true" height="150" width="100%" style={{ border: "none", minWidth: "min(100%, 430px)" }} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=t5d3q-117ea4b-pb&from=pb6admin&share=1&download=1&rtl=0&fonts=Arial&skin=1&font-color=auto&btn-skin=7"></iframe>
+                <iframe title="#18 Hey Wedding - Zaufaliśmy profesjonalistom - Rozmowa z Eweliną i Krzyśkiem." allowTransparency="true" height="150" width="100%" style={{ border: "none", minWidth: "min(100%, 430px)" }} data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=t5d3q-117ea4b-pb&from=pb6admin&share=1&download=1&rtl=0&fonts=Arial&skin=1&font-color=auto&btn-skin=7"></iframe>
 
                 <p className="mt-5">
                     Organizacja: <Link to={URLS.HOME} className="CustomLink">Agencja Ślubna Czary Marry</Link> <br />
@@ -548,7 +573,8 @@ const posts = [
             </>,
         links:
             <>
-                <iframe title="#17 Małe szare mądrości - rozmowa o emocjach, relacjach i fotografii ślubnej." allowtransparency="true" height="150" width="100%" style={{ border: "none", minWidth: "min(100%, 430px)" }} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=8n4dx-1029e5d-pb&from=pb6admin&download=1&share=1&download=1&rtl=0&fonts=Arial&skin=1&btn-skin=7"></iframe>
+                <iframe title="#17 Małe szare mądrości - rozmowa o emocjach, relacjach i fotografii ślubnej."
+                    allowTransparency="true" height="150" width="100%" style={{ border: "none", minWidth: "min(100%, 430px)" }} data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=8n4dx-1029e5d-pb&from=pb6admin&download=1&share=1&download=1&rtl=0&fonts=Arial&skin=1&btn-skin=7"></iframe>
             </>,
         extras:
             <>
@@ -572,7 +598,8 @@ const posts = [
             </>,
         links:
             <>
-                <iframe title="#16 Hey Wedding - Niedobre rady" allowtransparency="true" height="150" width="100%" style={{ border: "none", minWidth: "min(100%, 430px)" }} scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=xbs3v-fff791-pb&from=pb6admin&download=1&share=1&download=1&rtl=0&fonts=Arial&skin=1&btn-skin=7"></iframe>
+                <iframe title="#16 Hey Wedding - Niedobre rady"
+                    allowTransparency="true" height="150" width="100%" style={{ border: "none", minWidth: "min(100%, 430px)" }} data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=xbs3v-fff791-pb&from=pb6admin&download=1&share=1&download=1&rtl=0&fonts=Arial&skin=1&btn-skin=7"></iframe>
             </>,
         extras:
             <>
@@ -1733,7 +1760,9 @@ const posts = [
                 headerClassName: "grey",
                 text:
                     <>
-                        Folwark Wąsowo daje ogromne możliwości aranżacyjne przestrzeni poza stodołą. To jedna z cech, za które lubimy go najbardziej. Uwielbiamy <CustomPostLink path='wesele-w-plenerze' className="linkLight">wesela plenerowe</CustomPostLink>, strefy chill out, zewnętrzny bar. Przestrzeń przed wejściem do stodoły Wąsowo jest bardzo duża, znajdziemy tam estetyczne parasole i stoliki. Ma to również szczególne znaczenie podczas organizacji poprawin. Kucharz będzie przygotowywał dla Was i Waszych gości pyszne specjały z grilla, a Wy możecie wylegiwać się na trawie lub ukryć w zaciszu stodoły i odpoczywać po weselu.
+                        Folwark Wąsowo daje ogromne możliwości aranżacyjne przestrzeni poza stodołą. To jedna z cech, za które lubimy go najbardziej. Uwielbiamy <
+                            // @ts-ignore
+                            CustomPostLink path='wesele-w-plenerze' className="linkLight">wesela plenerowe</CustomPostLink>, strefy chill out, zewnętrzny bar. Przestrzeń przed wejściem do stodoły Wąsowo jest bardzo duża, znajdziemy tam estetyczne parasole i stoliki. Ma to również szczególne znaczenie podczas organizacji poprawin. Kucharz będzie przygotowywał dla Was i Waszych gości pyszne specjały z grilla, a Wy możecie wylegiwać się na trawie lub ukryć w zaciszu stodoły i odpoczywać po weselu.
                     </>,
                 pics: [
                     {
@@ -1800,9 +1829,15 @@ const posts = [
             <>
                 <p>
                     Organizacja: <Link to={URLS.HOME} className="CustomLink">Agencja Ślubna Czary Marry</Link> <br />
-                    Wesele: <CustomOuterLink to="http://folwarkwasowo.pl/" text="Folwark Wąsowo" /> <br />
-                    Dekoracje: <CustomOuterLink to="https://www.artsize.pl/" text="Art Size" /> <br />
-                    Fotograf: <CustomOuterLink to="http://svetlanabennington.com/" text="Svetlana Bennington" /><br />
+                    Wesele: <
+                        // @ts-ignore
+                        CustomOuterLink to="http://folwarkwasowo.pl/" text="Folwark Wąsowo" /> <br />
+                    Dekoracje: <
+                        // @ts-ignore
+                        CustomOuterLink to="https://www.artsize.pl/" text="Art Size" /> <br />
+                    Fotograf: <
+                        // @ts-ignore
+                        CustomOuterLink to="http://svetlanabennington.com/" text="Svetlana Bennington" /><br />
                 </p>
             </>
     },
@@ -2150,7 +2185,7 @@ const posts = [
         ],
         links:
             <>
-                <iframe title="Ślub, którego nie było" width="100%" height="460" src="https://www.youtube.com/embed/CqlcOUVK1ns" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" frameborder="0" allowfullscreen></iframe>
+                <iframe title="Ślub, którego nie było" width="100%" height="460" src="https://www.youtube.com/embed/CqlcOUVK1ns" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" frameBorder="0" allowfullscreen></iframe>
             </>
     },
 
