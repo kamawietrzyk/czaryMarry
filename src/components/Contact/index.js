@@ -57,31 +57,28 @@ const Contact = () => {
 
 
     const validateField = (fieldName, value) => {
-        let { name, email, message, phone } = fieldsValid
-
         switch (fieldName) {
             case 'name':
-                name = value.length > 0;
-                formErrors.name = name ? '' : "Uzupełnij swoje imię";
+                fieldsValid.name = value.length > 0;
+                formErrors.name = fieldsValid.name ? '' : "Uzupełnij swoje imię";
                 break;
             case 'email':
-                email = value.match(/^([\w.%+-]+)@([\w-]+\.)+([\w]{2,})$/i);
-                formErrors.email = email ? '' : "Format e-maila jest nieprawidłowy";
+                fieldsValid.email = value.match(/^([\w.%+-]+)@([\w-]+\.)+([\w]{2,})$/i);
+                formErrors.email = fieldsValid.email ? '' : "Format e-maila jest nieprawidłowy";
                 break;
             case 'message':
-                message = value.length > 0;
-                formErrors.message = message ? '' : "Nie zapomnij wpisać treści";
+                fieldsValid.message = value.length > 0;
+                formErrors.message = fieldsValid.message ? '' : "Nie zapomnij wpisać treści";
                 break;
             case 'phone':
-                phone = value.length > 0;
-                formErrors.phone = phone ? '' : "Wpisz swój numer kontaktowy";
+                fieldsValid.phone = value.length > 0;
+                formErrors.phone = fieldsValid.phone ? '' : "Wpisz swój numer kontaktowy";
                 break;
             default:
                 break;
         }
-
-        setFormErrors(formErrors)
         setFieldsValid(fieldsValid)
+        setFormErrors(formErrors)
         validateForm()
     }
 
