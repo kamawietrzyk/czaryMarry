@@ -44,6 +44,29 @@ import { beaPaw06 } from '../components/OurCouples/OurCouplesPics/BeataPawel'
 
 const posts = [
     {
+        path: '23-hey-wedding-dj-czy-zespol-rozmowa-z-piotrkiem-sobota-z-cocons-club',
+        title: '#23 Hey Wedding - DJ czy zespół? Rozmowa z Piotrkiem Sobotą z Cocons Club',
+        seoText: 'Hey Wedding - DJ czy zespół? Rozmowa z Piotrkiem Sobotą z Cocons Club.',
+        date: '02 lut 2025',
+        tag: 'podcast',
+        textShort: 'Wybór muzyki na wesele to jeden z kluczowych elementów, który decyduje o atmosferze całej imprezy. Czy lepiej...',
+        mainPic: {
+            src: podcast
+        },
+        textMain:
+            <>
+                Wybór muzyki na wesele to jeden z kluczowych elementów, który decyduje o atmosferze całej imprezy. Czy lepiej postawić na zespół, czy DJ-a? Jakie są największe różnice między tymi opcjami? A może warto połączyć oba światy?<br /><span className="mint bold">W tym odcinku rozmawiamy z Piotrem Sobotą – frontmanem zespołu Cocons Club, a jednocześnie DJ-em weselnym.</span> Piotrek zdradzi nam kulisy muzycznej strony wesel, podzieli się trendami i anegdotami oraz rozwieje najczęstsze dylematy przyszłych par młodych.
+            </>,
+        links:
+            <>
+                <iframe title="#23 Hey Wedding - DJ czy zespół - Rozmowa z Piotrkiem Sobotą" allowTransparency height="150" width="100%" style={{ border: "none", minWidth: "min(100%, 430px)" }} data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=4makv-17ddb94-pb&from=pb6admin&share=1&download=1&rtl=0&fonts=Arial&skin=1&font-color=auto&logo_link=episode_page&btn-skin=7"></iframe>
+            </>,
+        extras:
+            <>
+                <span className="d-block text-right"><CustomCategoryLink path="podcast" text="Podcast" className="bgColorMint" /></span>
+            </>
+    },
+    {
         path: '22-hey-wedding-wesele-na-ktorym-niczego-nie-bylo',
         title: '#22 Hey Wedding - Wesele, na którym niczego nie było.',
         seoText: 'Hey Wedding - Wesele, na którym niczego nie było.',
