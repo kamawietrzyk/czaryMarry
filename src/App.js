@@ -1,5 +1,6 @@
+// @ts-nocheck
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import './App.scss';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'slick-carousel/slick/slick.css';
@@ -20,28 +21,28 @@ import RealizationPage from './components/OurCouples/RealizationPage';
 
 smoothscroll.polyfill();
 
-function App() {
-  return (
-    <div className="App">
-      <Header />
-      <Switch>
-        <Route exact path={URLS.HOME} component={Home} />
-        <Route exact path={URLS.ABOUT} component={AboutUs} />
-        <Route exact path={URLS.WORK} component={HowWeWork} />
-        <Route exact path={URLS.COUPLES} component={OurCouples} />
-        <Route exact path={URLS.COUPLES_EVENT} component={RealizationPage} />
-        <Route exact path={URLS.POST} component={PostPage} />
-        <Route exact path={URLS.CATEGORY} component={Blog} />
-        <Route exact path={URLS.CATEGORY_PAGE} component={Blog} />
-        <Route exact path={URLS.BLOG} component={Blog} />
-        <Route exact path={URLS.BLOG_PAGE} component={Blog} />
-        <Route exact path={URLS.OFFER} component={Offer} />
-        <Route exact path={URLS.CONTACT} component={Home} />
-        <Route exact path={URLS.LANDING} component={LandingPage} />
-      </Switch>
-      <Footer />
-    </div>
-  );
+function App () {
+    return (
+        <div className="App">
+            <Header />
+            <Switch>
+                <Route exact path={URLS.HOME} component={Home} />
+                <Route exact path={URLS.ABOUT} component={AboutUs} />
+                <Route exact path={URLS.WORK} component={HowWeWork} />
+                <Route exact path={URLS.COUPLES} component={OurCouples} />
+                <Route exact path={URLS.COUPLES_EVENT} component={RealizationPage} />
+                <Route exact path={URLS.POST} component={PostPage} />
+                <Route exact path={URLS.CATEGORY} component={Blog} />
+                <Route exact path={URLS.CATEGORY_PAGE} component={Blog} />
+                <Route exact path={URLS.BLOG} component={Blog} />
+                <Route exact path={URLS.BLOG_PAGE} component={Blog} />
+                <Route exact path={URLS.OFFER} component={Offer} />
+                <Route exact path={URLS.CONTACT} component={Home} />
+                <Route exact path={URLS.LANDING} component={LandingPage} />
+            </Switch>
+            <Footer />
+        </div>
+    );
 }
 
 export default App;
