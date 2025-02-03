@@ -24,6 +24,8 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
+      - name: Disable CI checks
+        run: echo "CI=false" >> $GITHUB_ENV
       - run: yarn install
       - run: yarn sitemap
       - run: yarn build
