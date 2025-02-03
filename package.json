@@ -28,9 +28,9 @@
 		"web-vitals": "^0.2.4"
 	},
 	"scripts": {
-		"start": "react-scripts start",
-		"build": "react-scripts build",
-		"test": "react-scripts test",
+		"start": "react-scripts start --openssl-legacy-provider",
+		"build": "react-scripts build --openssl-legacy-provider",
+		"test": "react-scripts test --openssl-legacy-provider",
 		"eject": "react-scripts eject",
 		"sitemap": "babel src --out-dir sitemap && node sitemap.js"
 	},
@@ -51,5 +51,10 @@
 			"last 1 firefox version",
 			"last 1 safari version"
 		]
+	},
+	"devDependencies": {
+		"file-loader": "^6.2.0",
+		"webpack": "^5.97.1",
+		"webpack-cli": "^6.0.1"
 	}
 }
