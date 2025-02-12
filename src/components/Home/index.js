@@ -2,16 +2,12 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import URLS from '../../utils/urls';
 import './styles.scss';
-import picOne from './one.png';
-import picTwo from './two.png';
-import picThree from './three.png';
-import picFour from './four.png';
 import Carousel from '../Carousel';
 import ArrowToTop from '../ArrowToTop';
 import ScrollToTopOnMount from '../ScrollToTopOnMount';
 import logo from '../../utils/czarymarry_logo.png'
 import SeoContent from '../SeoContent';
-import { instaPic1, instaPic2, instaPic3, konsultantki } from './pics';
+import { instaPic1, instaPic2, instaPic3, konsultantki, picOne, picTwo, picThree, picFour } from './pics';
 
 const APP_URL = process.env.REACT_APP_BASE_URL
 
