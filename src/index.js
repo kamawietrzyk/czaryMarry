@@ -1,9 +1,10 @@
+// @ts-nocheck
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {BrowserRouter as Router} from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import TagManager from 'react-gtm-module';
 
 TagManager.initialize({
@@ -12,7 +13,7 @@ TagManager.initialize({
 
 ReactDOM.render(
     <Router>
-        <App/>
+        <App />
     </Router>,
     document.getElementById('root')
 );

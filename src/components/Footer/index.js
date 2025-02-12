@@ -1,7 +1,7 @@
 import React from 'react';
 import Contact from '../Contact';
 import './styles.scss';
-import footerPic from './konsultantki-slubne-czary-marry-kontakt.jpg';
+import footerPic from './utils/konsultantki-slubne-czary-marry-kontakt.jpg';
 import { Link, generatePath } from 'react-router-dom';
 import URLS from '../../utils/urls';
 
