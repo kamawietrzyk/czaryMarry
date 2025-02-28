@@ -44,6 +44,31 @@ import { beaPaw06 } from '../components/OurCouples/OurCouplesPics/BeataPawel'
 
 const posts = [
     {
+        path: '24-hey-wedding-odczarowujemy-slowo-catering-rozmowa-o-jedzeniu-z-kasia-myszkowska-z-kocharza',
+        title: '24# Hey Wedding - Odczarowujemy słowo catering – rozmowa o jedzeniu z Kasią Myszkowską z Kocharza.',
+        seoText: 'Hey Wedding - Odczarowujemy słowo catering – rozmowa o jedzeniu z Kasią Myszkowską z Kocharza.',
+        date: '28 lut 2025',
+        tag: 'podcast',
+        textShort: 'Zadamy sobie pytanie, czy catering weselny to powód do obaw?',
+        mainPic: {
+            src: podcast
+        },
+        textMain:
+            <>
+                <p className="mb-3">Witajcie w najnowszym odcinku podcastu "Hey Wedding"!</p>
+                Tym razem naszym <span className="mint bold">gościem jest Kasia Myszkowska z firmy Kocharz</span>, z którą porozmawiamy o tajnikach planowania menu weselnego. Zadamy sobie pytanie, czy catering weselny to powód do obaw? Jakie trendy kulinarne dominują obecnie na polskich weselach? Obalimy kilka weselnych mitów związanych z jedzeniem i odpowiemy na pytania, które najcześciej trapią pary młode.
+                <p className="mt-3">Zapraszamy do słuchania!</p>
+            </>,
+        links:
+            <>
+                <iframe title="25# Hey Wedding - Odczarowujemy słowo catering – rozmowa o  jedzeniu z Kasią Myszkowską z Kocharza." allowTransparency height="150" width="100%" style={{ border: "none", minWidth: "min(100%, 430px)" }} data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=3da6w-181c201-pb&from=pb6admin&share=1&download=1&rtl=0&fonts=Arial&skin=1&font-color=auto&logo_link=episode_page&btn-skin=7" loading="lazy"></iframe>
+            </>,
+        extras:
+            <>
+                <span className="d-block text-right"><CustomCategoryLink path="podcast" text="Podcast" className="bgColorMint" /></span>
+            </>
+    },
+    {
         path: '23-hey-wedding-dj-czy-zespol-rozmowa-z-piotrkiem-sobota-z-cocons-club',
         title: '#23 Hey Wedding - DJ czy zespół? Rozmowa z Piotrkiem Sobotą z Cocons Club',
         seoText: 'Hey Wedding - DJ czy zespół? Rozmowa z Piotrkiem Sobotą z Cocons Club.',
@@ -59,7 +84,7 @@ const posts = [
             </>,
         links:
             <>
-                <iframe title="#23 Hey Wedding - DJ czy zespół - Rozmowa z Piotrkiem Sobotą" allowTransparency height="150" width="100%" style={{ border: "none", minWidth: "min(100%, 430px)" }} data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=4makv-17ddb94-pb&from=pb6admin&share=1&download=1&rtl=0&fonts=Arial&skin=1&font-color=auto&logo_link=episode_page&btn-skin=7"></iframe>
+                <iframe title="#23 Hey Wedding - DJ czy zespół - Rozmowa z Piotrkiem Sobotą" allowTransparency height="150" width="100%" style={{ border: "none", minWidth: "min(100%, 430px)" }} data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=4makv-17ddb94-pb&from=pb6admin&share=1&download=1&rtl=0&fonts=Arial&skin=1&font-color=auto&logo_link=episode_page&btn-skin=7" loading='lazy'></iframe>
             </>,
         extras:
             <>
