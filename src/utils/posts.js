@@ -39,10 +39,189 @@ import { post31picPanna, post31picŚlHum, post31picŚlPlen, post31picDok } from 
 import { post32picObr, post32picWyObr, post32picWyObrŚlCy, post32picŚlKość, post32picŚlKośćObc, post32picŚlKośćPle, post32picŚlKośćPrzy, post32picŚlKośćZi, post32picŚlObc, post32picŚlPle } from "./BlogPics/Post32/index"
 import { post33pic00, post33pic01, post33pic02, post33pic03, post33pic04 } from "./BlogPics/Post33/index"
 import { cichyŚl34, kamWes34, kamŚl34, ślCyw34, ślIWes34, ślWGór34, ślWGórOrg34, ślWMałKość34, ślWPlen34, ślWZak34, wesWGór34, wesWGórBes34, wesWGórTat34, wesWGórZNoc34 } from "./BlogPics/Post34/index"
+import { jakOrgWes1, jakOrgWes2, jakOrgWes3, orgWesKrokPoKroku1, orgWesKrokPoKroku2, orgWesKrokPoKroku3, przygDoŚlubu1, przygDoŚlubu2, przygDoŚlubu3 } from './BlogPics/Post35/index'
 import { beaPaw06 } from '../components/OurCouples/OurCouplesPics/BeataPawel'
 
 
 const posts = [
+    {
+        path: 'przygotowania-do-slubu-i-wesela',
+        title: 'Od czego zacząć przygotowania do ślubu i wesela?',
+        seoText: 'Nie wiesz, od czego zacząć przygotowania do ślubu i wesela? Sprawdź nasz praktyczny poradnik i zaplanuj ten wyjątkowy dzień!',
+        date: '16 mar 2025',
+        textShort: 'Przygotowania do ślubu i wesela to niezwykle ekscytujący, ale i wymagający proces. Aby uniknąć niepotrzebnego stresu...',
+        mainPic: {
+            src: przygDoŚlubu1
+        },
+        textMain: <>Przygotowania do ślubu i wesela to niezwykle ekscytujący, ale i wymagający proces. Aby uniknąć niepotrzebnego stresu i chaosu warto już na samym początku zadać sobie kilka kluczowych pytań, które pomogą określić wizję i oczekiwania względem tego wyjątkowego dnia. Oto lista pytań, które warto przemyśleć, zanim zaczniecie <span className="bold pink">organizację swojego ślubu i wesela</span>.</>,
+        content: [
+            {
+                headerSmall: 'Przygotowania do ślubu i wesela krok po kroku - organizacja pracy.',
+                headerClassName: 'pink',
+                text:
+                    <>
+                        <p>Planowanie wesela to wiele zadań, dlatego warto zastanowić się:</p>
+                        <ul>
+                            <li>Czy będziecie korzystać z tradycyjnych notatek, czy cyfrowych narzędzi?</li>
+                            <li>Czy założycie osobną skrzynkę mailową do spraw ślubnych oraz dedykowany folder na dysku?</li>
+                            <li>Jak będziecie przechowywać dokumenty i umowy z usługodawcami?</li>
+                        </ul>
+                        <p>Dobra organizacja to klucz do sukcesu, dlatego już na początku warto przyjąć określony system pracy. Dzięki temu niczego nie zgubicie, a wszystkie ważne informacje i dokumenty będziecie mieć zawsze pod ręką.</p>
+                    </>
+            },
+            {
+                headerSmall: 'Przygotowanie do ślubu, czyli jaką formę ślubu wybieracie.',
+                headerClassName: 'pink',
+                text:
+                    <>
+                        <p>To fundamentalna decyzja, dlatego warto ją dobrze przemyśleć. Wybór powinien być zgodny z Waszymi marzeniami i przekonaniami - nie warto ulegać presji otoczenia. Możecie zdecydować się na:</p>
+                        <ul>
+                            <li><span className="dark bold">Ślub kościelny (konkordatowy)</span> – jest to ceremonia religijna uznawana zarówno przez kościół jak i państwo. W tym poradniku dowiecie się <CustomPostLink text="jak zorganizować ślub kościelny krok po kroku." path="dokumenty-do-slubu-koscielnego-konkordatowego" className="linkPink" /></li>
+                            <li><span className="dark bold">Ślub cywilny</span> – odbywający się w Urzędzie Stanu Cywilnego lub w plenerze. <CustomPostLink text="Klikając tu dowiecie się jak zaplanować ślub cywilny." path="dokumenty-slub-cywilny-formalnosci" className="linkPink" /></li>
+                            <li><span className="dark bold">Ślub humanistyczny lub symboliczny</span> – nieformalna ceremonia, dostosowana do Waszych wartości i marzeń. Wybór ten powinien być zgodny z Waszymi przekonaniami oraz tym, jak wyobrażacie sobie ten moment. Więcej o tej formie ślubu możecie posłuchać w 5 odcinku naszego <CustomPostLink text="podcastu Hey Wedding." path="5-hey-wedding-ślub-humanistyczny-a-na-co-to-komu" className="linkPink" /></li>
+                        </ul>
+                    </>,
+                pics: [
+                    {
+                        src: przygDoŚlubu1,
+                        author: 'Marcin Zieliński'
+                    },
+                    {
+                        src: przygDoŚlubu3,
+                        author: 'Pieczko Pietras'
+                    },
+                    {
+                        src: przygDoŚlubu2,
+                        author: 'Nikola Baron'
+                    }
+                ]
+            },
+            {
+                headerSmall: 'Planowanie wesela, a wielkość przyjęcia.',
+                headerClassName: 'pink',
+                text:
+                    <>
+                        <p>Czy marzycie o kameralnym przyjęciu w gronie najbliższych, czy może o dużym weselu na kilkaset osób? Przy planowaniu listy gości warto zadać sobie pytania:</p>
+                        <ul>
+                            <li>Kogo chcecie zaprosić – rodzinę, przyjaciół, a może również znajomych z pracy, czy z dawnych lat?</li>
+                            <li>Czy uwzględnicie dzieci na weselu?</li>
+                            <li>Kto trafi na listę główną, a kto na tzw. rezerwową?</li>
+                        </ul>
+                    </>
+            },
+            {
+                headerSmall: 'Planowanie wesela, a lokalizacja.',
+                headerClassName: 'pink',
+                text:
+                    <>
+                        <p>Lokalizacja wesela to kluczowa kwestia, która wpływa na logistykę całego wydarzenia. Warto zastanowić się:</p>
+                        <ul>
+                            <li>Czy wybierzecie miejsce blisko naszego miejsca zamieszkania, czy w innej części kraju?</li>
+                            <li>Jak daleko mogą podróżować Wasi goście?</li>
+                            <li>Czy zależy Wam na konkretnej scenerii – np. wesele w górach, nad jeziorem?</li>
+                        </ul>
+                        <p>Pamiętajcie, że im bardziej ograniczycie obszar poszukiwań, tym mniejszy będzie wybór dostępnych miejsc.</p>
+                    </>
+            },
+            {
+                headerSmall: 'Planowanie wesela, a data przyjęcia.',
+                headerClassName: 'pink',
+                text:
+                    <>
+                        <p>Data wesela wpływa na wiele aspektów organizacyjnych – od dostępności sali i usługodawców po komfort gości. Wybierając ją, warto uwzględnić zarówno własne preferencje, jak i praktyczne kwestie.</p>
+                        <ul>
+                            <li>Czy zależy nam na konkretnej dacie? Na przykład rocznicy poznania się.</li>
+                            <li>Jaka pora roku najbardziej nam odpowiada?</li>
+                            <li>Czy preferujemy ślub w sobotę, czy rozważamy inne dni tygodnia?</li>
+                        </ul>
+                        <p>Pamiętajcie, że im bardziej konkretna data, tym mniej dostępnych opcji, dlatego warto podejść do tego elastycznie.</p>
+                    </>,
+                pics: [
+                    {
+                        src: jakOrgWes1,
+                        author: 'Zaiczek Foto'
+                    },
+                    {
+                        src: jakOrgWes2,
+                        author: 'Nikola Baron'
+                    },
+                    {
+                        src: jakOrgWes3,
+                        author: 'Krzysztof Kudła'
+                    }
+                ]
+            },
+            {
+                headerSmall: 'Planowanie wesela, a określenie priorytetów.'.toUpperCase(),
+                headerClassName: 'pink',
+                text:
+                    <>
+                        <p>Nie wszystko da się zrealizować w idealny sposób, dlatego warto określić, co jest dla Was najważniejsze:</p>
+                        <ul>
+                            <li>Czy priorytetem jest jedzenie, muzyka, a może miejsce weselne w określonym stylu?</li>
+                            <li>Czy chcecie zapewnić dodatkowe atrakcje dla gości?</li>
+                            <li>Jakie elementy są dla Was mniej istotne i na czym możemy zaoszczędzić? Wyraźne określenie priorytetów pomoże w podejmowaniu decyzji i uniknięciu niepotrzebnych wydatków.</li>
+                        </ul>
+                    </>
+            },
+            {
+                headerSmall: 'Planowanie wesela, a określenie priorytetów i oczekiwań.',
+                headerClassName: 'dark',
+                text:
+                    <>
+                        <p>Nie wszystko da się zrealizować w idealny sposób, dlatego warto jasno określić, co jest dla Was najważniejsze i czego chcecie uniknąć. Dzięki temu łatwiej podejmiecie świadome decyzje, ograniczycie niepotrzebne wydatki i stworzycie wesele zgodne z Waszymi wartościami.
+                        </p>
+                        <p>W tym celu stwórzcie dwie listy:</p>
+                        <span className='dark bold'>Must have – co jest dla Was priorytetem?</span>
+                        <ul style={{ marginTop: ".5rem" }}>
+                            <li>Określony styl wesela (np. eleganckie, rustykalne, boho).</li>
+                            <li>Rodzaj kuchni i menu dopasowane do gustów Waszych i gości.</li>
+                            <li>Wybór zespołu lub DJ-a grającego ulubioną muzykę.</li>
+                            <li>Dodatkowe atrakcje dla gości (np. fotobudka, pokaz sztucznych ogni).</li>
+                        </ul>
+                        <span className='dark bold'>Unikamy – czego nie chcemy na naszym weselu?</span>
+                        <ul style={{ marginTop: ".5rem" }}>
+                            <li>Przaśnych tradycji i niestosownych zabaw weselnych, które nam nie odpowiadają.</li>
+                            <li>Zbyt wielu atrakcji weselnych, które zaburzają zabawę na parkiecie.</li>
+                            <li>Tradycyjnego serwisu tortu.</li>
+                        </ul>
+                        <p>Jasne określenie priorytetów pomoże Wam stworzyć wesele dopasowane do Waszych marzeń i uniknąć kompromisów, na które nie chcecie się zgadzać.</p>
+                    </>,
+                pics: [
+                    {
+                        src: orgWesKrokPoKroku1,
+                        author: 'Małgorzata Adamczewska'
+                    },
+                    {
+                        src: orgWesKrokPoKroku2,
+                        author: 'Nikola Baron'
+                    },
+                    {
+                        src: orgWesKrokPoKroku3,
+                        author: 'Zaiczek Foto'
+                    }
+                ]
+            },
+            {
+                headerSmall: 'Planowanie wesela, a budżet.',
+                headerClassName: 'pink',
+                text:
+                    <>
+                        <p>Jednym z kluczowych aspektów organizacji wesela jest określenie budżetu. To on będzie determinować wiele decyzji, dlatego warto jak najwcześniej zastanowić się nad finansami i jasno ustalić, ile możecie lub chcecie wydać na poszczególne elementy.</p>
+                        <p>Warto odpowiedzieć sobie na kilka pytań:</p>
+                        <ul>
+                            <li>Jaki budżet chcecie przeznaczyć na wesele?</li>
+                            <li>Czy pokrywacie wszystkie koszty samodzielnie, czy ktoś Wam pomoże (np. rodzice)?</li>
+                            <li>Na które elementy jesteście gotowi przeznaczyć większą kwotę, a na czym możecie zaoszczędzić?</li>
+                            <li>Czy rozważacie kredyt lub inne formy finansowania?</li>
+                        </ul>
+                        <p>Dobrze zaplanowany budżet pozwoli uniknąć nieprzewidzianych wydatków i sprawi, że organizacja wesela będzie bardziej komfortowa.</p>
+                        <p>Zadanie sobie tych pytań już na samym początku planowania wesela pomoże Wam stworzyć spójną wizję i uniknąć stresujących sytuacji. Ślub i wesele to przede wszystkim świętowanie Waszej miłości, dlatego warto podchodzić do organizacji z radością i elastycznością. Niezależnie od tego, jakie wybory podejmiecie, pamiętajcie, że to Wasz dzień – i powinien być dokładnie taki, jak sobie wymarzyliście!</p>
+                        <p>Jeśli chcielibyście się dowiedzieć czegoś więcej o dalszych krokach w planowaniu wesela, koniecznie posłuchajcie 15 odcinka naszego podcastu <CustomPostLink text="Hey Wedding - Jak zorganizować wesele krok po kroku." path="15-hey-wedding-jak-zorganizowac-wesele-krok-po-kroku" className="linkPink" /></p>
+                    </>
+            },
+        ]
+    },
     {
         path: '24-hey-wedding-odczarowujemy-slowo-catering-rozmowa-o-jedzeniu-z-kasia-myszkowska-z-kocharza',
         title: '24# Hey Wedding - Odczarowujemy słowo catering – rozmowa o jedzeniu z Kasią Myszkowską z Kocharza.',
