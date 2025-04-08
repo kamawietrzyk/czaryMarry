@@ -41,9 +41,126 @@ import { post33pic00, post33pic01, post33pic02, post33pic03, post33pic04 } from 
 import { cichyŚl34, kamWes34, kamŚl34, ślCyw34, ślIWes34, ślWGór34, ślWGórOrg34, ślWMałKość34, ślWPlen34, ślWZak34, wesWGór34, wesWGórBes34, wesWGórTat34, wesWGórZNoc34 } from "./BlogPics/Post34/index"
 import { jakOrgWes1, jakOrgWes2, jakOrgWes3, orgWesKrokPoKroku1, orgWesKrokPoKroku2, orgWesKrokPoKroku3, przygDoŚlubu1, przygDoŚlubu2, przygDoŚlubu3 } from './BlogPics/Post35/index'
 import { beaPaw06 } from '../components/OurCouples/OurCouplesPics/BeataPawel'
+import { lesDwSul1, lesDwSul2, lesDwWSul1, lesDwWSul2, lesDwSul3, lesDwMenu1, lesDwMenu2, lesDwMenu3, wesNadJez1, wesNadJez2, wesNadJez3, wesNadJez4, hotelLesDw, hotelLesDw1, hotelLesDw2, hotelLesDw3 } from './BlogPics/Post36/index'
 
 
 const posts = [
+    {
+        path: 'lesny-dwor-suleczyno-organizacja-wesele',
+        title: 'Leśny Dwór w Sulęczynie – idealne miejsce na organizację wesela',
+        seoText: 'Planujesz wesele? Leśny Dwór w Sulęczynie to idealne miejsce na ślub i przyjęcie weselne. Elegancka sala, wyjątkowe menu, noclegi i malownicza okolica.',
+        date: '8 kwi 2025',
+        textShort: 'Wiele par marzy o weselu w otoczeniu malowniczej przyrody, w miejscu, które nie tylko zachwyca pięknymi widokami, ale także...',
+        mainPic: {
+            src: lesDwWSul1
+        },
+        textMain: <>Wiele par marzy o weselu w otoczeniu malowniczej przyrody, w miejscu, które nie tylko zachwyca pięknymi widokami, ale także oferuje wyjątkową salę weselną, komfortowe zakwaterowanie dla gości, wyśmienitą kuchnię inspirowaną regionalnymi tradycjami oraz bogaty wybór atrakcji. To wszystko – i jeszcze więcej – oferuje <CustomOuterLink className="linkMint" text='Leśny Dwór w Sulęczynie' to='https://lesnydwor.pl' />. To wyjątkowe miejsce wyróżnia się najwyższym standardem obsługi, otwartością na niestandardowe rozwiązania oraz elastycznością w realizacji najbardziej oryginalnych pomysłów.</>,
+        content: [
+            {
+                headerSmall: 'Leśny Dwór Sulęczyno = wysoki standard obsługi i elastyczność',
+                headerClassName: 'mint',
+                text:
+                    "Już na etapie pierwszego kontaktu można poczuć, że mamy do czynienia z profesjonalistami. Obsługa Leśnego Dworu jest niezwykle komunikatywna, błyskawicznie odpowiada na wiadomości i pochyla się nad każdą, nawet najmniejszą prośbą pary młodej. W Leśnym Dworze nie ma mowy o narzuconych schematach, mimo dbania o wysoki standard obsługi – wszystko można omówić, zaplanować i dostosować do własnych potrzeb, a dbałość o detale jest widoczna na każdym etapie organizacji wesela.",
+                pics: [
+                    {
+                        src: lesDwWSul2,
+                        author: 'Prywatne archiwum Leśny Dwór'
+                    }
+                ]
+            },
+            {
+                headerSmall: 'Leśny Dwór Sulęczyno - Wesele',
+                headerClassName: 'mint',
+                text: <><p>Jednym z największych atutów tego miejsca jest bardzo plastyczna sala weselna  – doskonała baza do wyjątkowych aranżacji. Sala jest utrzymana w neutralnej kremowo-szarej kolorystyce, nie narzuca konkretnego stylu, co pozwala na ogromną swobodę w kreowaniu dekoracji. Można tu zaplanować zarówno subtelne, romantyczne aranżacje w odcieniach bieli i beżu, jak i bardziej intensywne, odważne kompozycje kolorystyczne.</p>
+                    <p>W przypadku wesela, które miałyśmy okazję tam organizować, postanowiliśmy pójść w coś zupełnie nieszablonowego. Dekoracje zostały zaprojektowane przez Gabrielę Prządkę z firmy <CustomOuterLink text='ArtSize' to='https://www.artsize.pl' className='linkMint' /> – ich koncepcja doskonale oddawała charakter pary młodej. Co ważne, Leśny Dwór w Sulęczynie okazał się bardzo otwarty na nasze pomysły – całkowicie zmieniliśmy układ sali, wprowadziliśmy prostokątne stoły zamiast standardowych okrągłych, a także odwróciliśmy układ parkietu. Zespół obiektu z entuzjazmem podszedł do tych zmian, a finalny efekt zachwycił wszystkich gości. Sala weselna w Leśnym Dworze Sulęczyno może pomieścić do 120 osób, ale świetnie sprawdzi się również na kameralne wesele.</p></>,
+                pics: [
+                    {
+                        src: lesDwSul1,
+                    },
+                    {
+                        src: lesDwSul2,
+                    },
+                    {
+                        src: lesDwSul3,
+                        author: 'Paulina Pietraszkiewicz'
+                    }
+                ]
+            },
+            {
+                headerSmall: 'Leśny Dwór menu, czyli wybitna kuchnia Marcina Popielarza',
+                headerClassName: 'mint',
+                text:
+                    <>
+                        <p>Leśny Dwór w Sulęczynie słynie z wybitnej kuchni, której sercem jest <span className='mint bold'>Marcin Popielarz</span> – jeden z najbardziej utalentowanych szefów kuchni młodego pokolenia w Polsce. Jego talent został doceniony m.in. w prestiżowym konkursie S.Pellegrino Young Chef, gdzie reprezentował Europę Środkowo-Wschodnią.</p>
+                        <p>Kuchnia Leśnego Dworu w Sulęczynie czerpie inspirację z kaszubskich tradycji kulinarnych, ale w nowoczesnym, wyrafinowanym wydaniu. Potrawy zachwycają zarówno smakiem, jak i estetyką podania – każda kompozycja na talerzu jest dopracowana w najmniejszych detalach. Możliwość modyfikowania menu to kolejny dowód na elastyczność tego miejsca – bez problemu można dostosować potrawy do indywidualnych preferencji czy potrzeb dietetycznych gości.</p>
+                        <p>Ogromnym atutem Leśnego Dworu jest również działająca na miejscu restauracja, z której goście mogą korzystać zarówno w dniu wesela, jak i w inne dni pobytu. To niesamowity komfort – można zjeść coś smacznego, napić się kawy lub drinka bez konieczności opuszczania obiektu.</p>
+                        <p>Menu <span className='mint bold'>Leśnego Dworu w Sulęczynie</span> napisane jest w języku kaszubskim, co stanowi świetny akcent podkreślający lokalny charakter miejsca. Na uwagę zasługują także śniadania, które serwowane są w formie bogatego bufetu i składają się z lokalnych przetworów, wędlin i serów. Dzięki temu poranek staje się prawdziwą ucztą, a goście mogą rozpocząć dzień od wyjątkowych smaków Kaszub w eleganckim i spokojnym otoczeniu.</p>
+                    </>,
+                pics: [
+                    { src: lesDwMenu1 },
+                    { src: lesDwMenu2 },
+                    { src: lesDwMenu3, author: 'Prywatne archiwum Leśny Dwór' }
+                ]
+            },
+            {
+                headerSmall: 'Wesele nad jeziorem - Urokliwa ceremonia plenerowa',
+                headerClassName: 'mint',
+                text:
+                    <>
+                        <p>Jednym z najbardziej magicznych momentów wesela, które organizowałyśmy w Leśnym Dworze w Sulęczynie była ceremonia ślubna w plenerze, którą zaplanowaliśmy po zmroku. Biała altana, położona nad jeziorem, to przestrzeń idealnie dostosowana do takich wydarzeń. Po jednej stronie rozciąga się jezioro, które dodaje uroczystości romantycznego charakteru, a po drugiej roztacza się widok na piękny ogród, pełen zieleni.</p>
+                        <p>Długie przejście do altanki tworzy efektowne tło dla wejścia pary młodej, pozwalając na spektakularne rozpoczęcie ceremonii. Przed altanką znajdują się betonowe płyty, co nie tylko zapewnia komfortowe ustawienie krzeseł dla gości, ale także ułatwia poruszanie się paniom w szpilkach, eliminując problem zapadania się w trawie. Dzięki temu miejsce zaślubin jest nie tylko malownicze, ale i w pełni funkcjonalne. Leśny Dwór to miejsce, które łączy naturalne piękno z przemyślaną organizacją, tworząc idealne warunki do wymarzonej ceremonii zaślubin i niezapomnianych chwil z najbliższymi.</p>
+                        <p>Dodatkowym atutem, który harmonijnie łączy salę z ogrodem, jest przestronny taras oraz eleganckie schody, nadające miejscu wyjątkowego charakteru. Zdecydowaliśmy się na powitalny koktajl z muzyką na żywo i strefą chill, co było doskonałym sposobem na stworzenie swobodnej atmosfery oraz pierwsze spotkanie gości w wyjątkowym otoczeniu. Muzycy grali na tarasie, a goście, zgromadzeni nieco niżej, delektowali się prosecco i eleganckimi fingerfoodami, ciesząc się przy tym pięknymi widokami.</p>
+                    </>,
+                pics: [
+                    { src: wesNadJez3 },
+                    { src: wesNadJez2 },
+                    { src: wesNadJez1 },
+                    { src: wesNadJez4, author: 'Paulina Pietraszkiewicz/Magdalena Adamczewska' }
+                ]
+            },
+            {
+                headerSmall: 'Hotel Leśny Dwór Sulęczyno - Komfortowe noclegi, wyjątkowa strefa relaksu i atrakcje dla gości',
+                headerClassName: 'mint',
+                text:
+                    <>
+                        <p>Ogromnym atutem Leśnego Dworu jest również jego komfortowa baza noclegowa. Na miejscu dostępne są estetycznie urządzone pokoje i apartamenty, które zapewniają wygodę gościom w każdym wieku. Co więcej, Leśny Dwór oferuje także strefę wellness, gdzie można skorzystać z sauny, jacuzzi czy basenu. Możliwość odprężenia się w eleganckim otoczeniu stanowi idealne uzupełnienie pobytu, zwłaszcza po intensywnym, pełnym emocji dniu weselnym.</p>
+                        <p>Leśny Dwór w Sulęczynie to także miejsce, które oferuje mnóstwo atrakcji dla pary młodej i gości. Dzięki położeniu nad malowniczym jeziorem istnieje możliwość kąpieli, pływania kajakami, rowerkami wodnymi czy wypoczynku na plaży. Okolica zachęca także do spacerów – otoczenie pełne zieleni i urokliwych zakątków pozwala na chwilę wytchnienia w otoczeniu natury.</p>
+                        <p>Na terenie obiektu znajdują się również sala bilardowa i kręgielnia, co daje gościom dodatkowe opcje na spędzenie czasu przed lub weselu. Warto wspomnieć także o chacie grillowej, która stanowi idealne miejsce na organizację luźniejszych spotkań. Niestety, nam pogoda spłatała figla i nie mogliśmy zrealizować planowanego na dzień przed weselem spotkania integracyjnego przy grillu. Na szczęście zespół Leśnego Dworu znalazł rozwiązanie – całe wydarzenie przenieśliśmy do wcześniej wynajętej restauracji, gdzie w równie ciepłej i swobodnej atmosferze para młoda mogła spędzić czas z gośćmi.</p>
+                    </>,
+                pics: [
+                    {
+                        src: hotelLesDw,
+                    },
+                    {
+                        src: hotelLesDw1,
+                    },
+                    {
+                        src: hotelLesDw2
+                    },
+                    {
+                        src: hotelLesDw3,
+                        author: 'Prywatne archiwum Leśny Dwór'
+                    }
+                ]
+            },
+            {
+                text:
+                    <>
+                        <p>Leśny Dwór w Sulęczynie to miejsce, które spełnia wszystkie oczekiwania pary młodej marzącej o niezapomnianym weselu. Połączenie piękna natury, wysokiej klasy obsługi, komfortowych noclegów i doskonałej kuchni sprawia, że każde przyjęcie tutaj staje się wyjątkowym wydarzeniem, które na długo pozostaje w pamięci nowożeńców i ich gości.</p>
+                        <p>My z pewnością jeszcze nie raz tam wrócimy i nie możemy się doczekać kolejnych realizacji w tym niezwykłym miejscu!</p>
+                    </>,
+            },
+        ],
+        extras:
+            <>
+                <span>Zobaczcie również:</span>
+                <ul style={{ marginTop: ".5rem" }}>
+                    <li><CustomPostLink text="Ślub i wesele w górach" path="slub-wesele-w-gorach" className="linkMint" /></li>
+                    <li><CustomPostLink text="Wesele w ogrodzie" path="wesele-w-ogrodzie-garden-party" className="linkMint" /></li>
+                    <li><CustomPostLink text="Jak zorganizować wesele w plenerze" path="wesele-w-plenerze" className="linkMint" /></li>
+                </ul>
+            </>
+    },
     {
         path: 'przygotowania-do-slubu-i-wesela',
         title: 'Od czego zacząć przygotowania do ślubu i wesela?',
@@ -2056,15 +2173,9 @@ const posts = [
             <>
                 <p>
                     Organizacja: <Link to={URLS.HOME} className="CustomLink">Agencja Ślubna Czary Marry</Link> <br />
-                    Wesele: <
-                        // @ts-ignore
-                        CustomOuterLink to="http://folwarkwasowo.pl/" text="Folwark Wąsowo" /> <br />
-                    Dekoracje: <
-                        // @ts-ignore
-                        CustomOuterLink to="https://www.artsize.pl/" text="Art Size" /> <br />
-                    Fotograf: <
-                        // @ts-ignore
-                        CustomOuterLink to="http://svetlanabennington.com/" text="Svetlana Bennington" /><br />
+                    Wesele: <CustomOuterLink to="http://folwarkwasowo.pl/" text="Folwark Wąsowo" /> <br />
+                    Dekoracje: <CustomOuterLink to="https://www.artsize.pl/" text="Art Size" /> <br />
+                    Fotograf: <CustomOuterLink to="http://svetlanabennington.com/" text="Svetlana Bennington" /><br />
                 </p>
             </>
     },
