@@ -46,6 +46,31 @@ import { lesDwSul1, lesDwSul2, lesDwWSul1, lesDwWSul2, lesDwSul3, lesDwMenu1, le
 
 const posts = [
     {
+        path: '25-hey-wedding-seniorzy-na-weselu',
+        title: '#25 Hey Wedding - Seniorzy na weselu',
+        seoText: 'Hey Wedding - Seniorzy na weselu',
+        date: '02 cze 2025',
+        tag: 'podcast',
+        textShort: 'W tym odcinku podcastu Hey Wedding rozmawiamy o seniorach na weselu – o tym, jak z szacunkiem...',
+        mainPic: {
+            src: podcast
+        },
+        textMain:
+            <>
+                <p className="mb-3">W tym odcinku podcastu Hey Wedding rozmawiamy o <span className="mint bold">seniorach na weselu</span> – o tym, jak z szacunkiem zaprosić ich do udziału w uroczystości i jak zadbać o ich komfort na każdym etapie wydarzenia. Poruszamy tematy związane z przygotowaniami, udogodnieniami, transportem i noclegiem, ale też z tym, jak subtelnie podkreślić ich obecność i znaczenie, bez wywierania presji czy traktowania ich protekcjonalnie.
+                </p>
+                <p className="mt-3">To rozmowa o szacunku, uważności i międzypokoleniowej obecności na weselu.</p>
+            </>,
+        links:
+            <>
+                <iframe title="25# Hey Wedding - Seniorzy na weselu" allowTransparency height="150" width="100%" style={{ border: "none", minWidth: "min(100%, 430px)" }} data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=7wgsm-18b85c8-pb&from=pb6admin&share=1&download=1&rtl=0&fonts=Arial&skin=1&font-color=auto&logo_link=episode_page&btn-skin=7" loading="lazy"></iframe>
+            </>,
+        extras:
+            <>
+                <span className="d-block text-right"><CustomCategoryLink path="podcast" text="Podcast" className="bgColorMint" /></span>
+            </>
+    },
+    {
         path: 'lesny-dwor-suleczyno-organizacja-wesele',
         title: 'Leśny Dwór w Sulęczynie – idealne miejsce na organizację wesela',
         seoText: 'Planujesz wesele? Leśny Dwór w Sulęczynie to idealne miejsce na ślub i przyjęcie weselne. Elegancka sala, wyjątkowe menu, noclegi i malownicza okolica.',
@@ -341,7 +366,7 @@ const posts = [
     },
     {
         path: '24-hey-wedding-odczarowujemy-slowo-catering-rozmowa-o-jedzeniu-z-kasia-myszkowska-z-kocharza',
-        title: '24# Hey Wedding - Odczarowujemy słowo catering – rozmowa o jedzeniu z Kasią Myszkowską z Kocharza.',
+        title: '#24 Hey Wedding - Odczarowujemy słowo catering – rozmowa o jedzeniu z Kasią Myszkowską z Kocharza.',
         seoText: 'Hey Wedding - Odczarowujemy słowo catering – rozmowa o jedzeniu z Kasią Myszkowską z Kocharza.',
         date: '28 lut 2025',
         tag: 'podcast',
