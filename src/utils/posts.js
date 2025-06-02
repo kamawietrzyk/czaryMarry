@@ -59,7 +59,7 @@ const posts = [
             <>
                 <p className="mb-3">W tym odcinku podcastu Hey Wedding rozmawiamy o <span className="mint bold">seniorach na weselu</span> – o tym, jak z szacunkiem zaprosić ich do udziału w uroczystości i jak zadbać o ich komfort na każdym etapie wydarzenia. Poruszamy tematy związane z przygotowaniami, udogodnieniami, transportem i noclegiem, ale też z tym, jak subtelnie podkreślić ich obecność i znaczenie, bez wywierania presji czy traktowania ich protekcjonalnie.
                 </p>
-                <p className="mt-3">To rozmowa o szacunku, uważności i międzypokoleniowej obecności na weselu.</p>
+                <p>To rozmowa o szacunku, uważności i międzypokoleniowej obecności na weselu.</p>
             </>,
         links:
             <>
